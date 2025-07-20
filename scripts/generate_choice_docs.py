@@ -102,9 +102,33 @@ def main():
         lines.append('')
         for code, val in sorted(mapping.items()):
             extra = val.get('extra')
-            if extra:
-                lines.append(f"## {code} {{#{code}}}")
-                lines.append('')
+            if not extra:
+                continue
+            en = val['en']
+            fr = val['fr']
+            lines.append(f"### Code `{code}` – {en} / {fr} {{#{code}}}")
+            lines.append('')
+            if isinstance(extra, dict) and 'ministers' in extra and isinstance(extra['ministers'], list):
+                lines.append('| Row | Minister (EN) | Minister (FR) | Start | End |')
+                lines.append('|-----|---------------|---------------|-------|-----|')
+                for i, m in enumerate(extra['ministers'], 1):
+                    en_name = m.get('name_en') or m.get('name', '')
+                    fr_name = m.get('name_fr') or en_name
+                    start = m.get('start_date', '')
+                    end = m.get('end_date', '')
+                    lines.append(f"| {i} | {en_name} | {fr_name} | {start} | {end} |")
+                leftover = {k: v for k, v in extra.items() if k != 'ministers'}
+                if leftover:
+                    lines.append('')
+                    lines.append('| Key | Value |')
+                    lines.append('|-----|-------|')
+                    for k, v in leftover.items():
+                        if isinstance(v, (dict, list)):
+                            val_str = json.dumps(v, ensure_ascii=False)
+                        else:
+                            val_str = str(v)
+                        lines.append(f"| {k} | {val_str} |")
+            else:
                 lines.append('| Key | Value |')
                 lines.append('|-----|-------|')
                 for k, v in extra.items():
@@ -113,7 +137,7 @@ def main():
                     else:
                         val_str = str(v)
                     lines.append(f"| {k} | {val_str} |")
-                lines.append('')
+            lines.append('')
         path.write_text("\n".join(lines), encoding='utf-8')
 
     # remove docs no longer referenced
