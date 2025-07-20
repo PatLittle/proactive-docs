@@ -1,0 +1,67 @@
+name: Generate Dictionary Docs
+
+on:
+  push:
+    paths:
+      - 'dictionaries/*.json'
+      - 'scripts/**'
+      - 'schema/recombinant-schema.json'
+      - '.github/workflows/generate-dictionary-docs.yml'
+  workflow_dispatch:
+    inputs:
+      extra_source:
+        description: 'Optional URL(s) to additional recombinant JSON (comma-separated)'
+        required: false
+  schedule:
+    - cron: '17 4 * * 1'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install deps
+        run: |
+          pip install -r requirements.txt
+
+      - name: Download remote sources (example)
+        run: |
+          mkdir -p dictionaries
+          echo 'Remote fetch step (optional) complete.'
+
+      - name: Additional sources (dispatch input)
+        if: ${{ github.event_name == 'workflow_dispatch' && inputs.extra_source != '' }}
+        run: |
+          IFS=',' read -ra ARR <<< "${{ inputs.extra_source }}"
+          for url in "${ARR[@]}"; do
+            fn=$(basename "$url")
+            curl -fsSL "$url" -o "dictionaries/${fn%%\?*}"
+          done
+          ls -1 dictionaries
+
+      - name: Generate Markdown
+        run: |
+          python scripts/generate_docs.py \
+            --source dictionaries/*.json \
+            --out-dir docs/reference \
+            --schema schema/recombinant-schema.json \
+            --no-fail-on-error
+
+      - name: Commit & Push
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: 'chore: update recombinant reference docs (with choice sets)'
+          file_pattern: docs/reference/*.md docs/reference/choices/*.md
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: reference-docs
+          path: docs/reference

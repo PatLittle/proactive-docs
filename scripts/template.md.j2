@@ -1,0 +1,104 @@
+{# Top-level dataset documentation #}
+# {{ title.en }} / {{ title.fr }}
+
+**Dataset Type:** `{{ dataset_type }}`  
+**Last Generated:** {{ generation.timestamp_iso }} (UTC)  
+**Source:** {{ generation.source_display }}  
+**Commit:** `{{ generation.commit }}`
+
+{% if notes %}{{ notes.en }} / {{ notes.fr }}{% endif %}
+
+---
+
+## Resources
+
+{% for r in resources %}
+- [{{ r.title.en }} / {{ r.title.fr }}](#{{ r.anchor }})
+{% endfor %}
+
+---
+
+{% for r in resources %}
+## {{ r.title.en }} / {{ r.title.fr }} {# {{ r.anchor }} #}
+
+### Field Summary
+
+| Field ID | Label (EN / FR) | Type | Required | Max Chars | Choices | Description (EN) |
+|----------|-----------------|------|----------|-----------|---------|------------------|
+{% for f in r.fields -%}
+| `{{ f.id }}` | {{ f.label.en|e }} / {{ f.label.fr|e }} | `{{ f.datastore_type }}` | {{ "Yes" if f.required else "No" }} | {{ f.max_chars if f.max_chars else "" }} | {{ f.choice_set.name if f.choice_set else "" }} | {{ f.description.en|truncate(80, True, "…") }} |
+{% endfor %}
+
+**Legend:** *Required* = must appear in uploads; *Choices* = enumerated allowed values (shows choice set name when multiple sets exist).
+
+### Detailed Fields
+
+{% for f in r.fields %}
+#### `{{ f.id }}` – {{ f.label.en }} / {{ f.label.fr }}
+
+**Type:** `{{ f.datastore_type }}`  
+**Required:** {{ "Yes" if f.required else "No" }}  
+{% if f.max_chars %}**Max Characters:** {{ f.max_chars }}  
+{% endif %}{% if f.validation %}**Validation:** {{ f.validation.en }} / {{ f.validation.fr }}  
+{% endif %}{% if f.choice_set %}**Choice Set:** {{ f.choice_set.name }} ({{ f.choice_set.cardinality }} values)  
+{% endif %}
+
+**Description:**  
+EN: {{ f.description.en }}  
+FR: {{ f.description.fr }}
+
+{% if f.choice_set %}
+##### Allowed Values ({{ f.choice_set.name }})
+
+| Code | Label (EN) | Label (FR) {% if f.choice_set.has_minister_history %}| Ministers Recorded {% endif %}|
+|------|------------|------------{% if f.choice_set.has_minister_history %}|------------------{% endif %}|
+{% for c in f.choice_set.values -%}
+| `{{ c.code }}` | {{ c.label_en|e }} | {{ c.label_fr|e }} {% if c.minister_history_count is defined %}| {{ c.minister_history_count }} {% endif %}|
+{% endfor %}
+
+{% if f.choice_set.has_minister_history %}
+###### Minister History Details
+{% for c in f.choice_set.values if c.minister_history %}
+**Code:** `{{ c.code }}` – {{ c.label_en }} / {{ c.label_fr }}  
+| Seq | Minister (EN) | Minister (FR) | Start Date | End Date |
+|-----|---------------|---------------|------------|----------|
+{% for m in c.minister_history %}| {{ loop.index }} | {{ m.en|e }} | {{ m.fr|e }} | {{ m.start or '' }} | {{ m.end or '' }} |
+{% endfor %}
+
+{% endfor %}
+{% endif %}
+{% endif %}
+---
+{% endfor %}
+
+{% endfor %}
+
+## Appendix
+
+### Choice Sets Summary (All Resources)
+| Choice Set | Field(s) | Values | Standalone Doc |
+|------------|----------|--------|----------------|
+{% for cs in all_choice_sets -%}
+| {{ cs.name }} | {{ cs.fields|join(', ') }} | {{ cs.cardinality }} | {{ cs.output_filename }} |
+{% endfor %}
+
+### Generation Metadata
+
+- Generated: {{ generation.timestamp_iso }} (UTC)
+- Source: {{ generation.source_display }}
+- Commit: `{{ generation.commit }}`
+- Tool Version: {{ generation.tool_version }}
+
+### Validation
+
+- JSON Schema Validation: **{{ "PASSED" if validation.passed else "FAILED" }}**
+{% if validation.warnings %}
+**Warnings:**
+{% for w in validation.warnings %}
+- {{ w }}
+{% endfor %}
+{% endif %}
+
+### Notes
+
+This documentation is auto-generated. Do not hand-edit; instead update the source recombinant JSON and re-run generation.
