@@ -30,4 +30,4 @@ jobs:
             dictionaries/*.json
             schema/tables/*.json
             schema/examples/*.csv
-      - run: python scripts/validate_table_schemas.py
+      - run: python scripts/validate_table_schemas.py --delay 10

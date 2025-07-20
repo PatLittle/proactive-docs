@@ -1,0 +1,17 @@
+name: Validate Bad Example
+on:
+  workflow_dispatch:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+      - run: pip install -r requirements.txt requests
+      - run: python scripts/validate_table_schemas.py --examples-dir schema/bad_examples --delay 10
+        continue-on-error: true
