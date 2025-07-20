@@ -1,0 +1,186 @@
+{
+  "fields": [
+    {
+      "name": "reference_number",
+      "title": "Numéro de référence",
+      "description": "Ce champ est rempli par l’utilisateur avec le numéro de référence de la note pour la période de questions. Le numéro est une exigence de système obligatoire pour la publication d’un modèle.",
+      "type": "string",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "title_fr",
+      "title": "Titre (français)",
+      "description": "L’utilisateur indique le titre officiel en français de la note pour la période de questions dans ce champ.",
+      "type": "string",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "minister",
+      "title": "Titre du ministre",
+      "description": "Ce champ affichera le titre du ministre pour qui la note pour la période de questions a été créée.",
+      "type": "string",
+      "constraints": {
+        "required": true,
+        "enum": [
+          "AGC",
+          "AMF",
+          "AMH",
+          "AMND",
+          "AMPS",
+          "CGW",
+          "DPM",
+          "LGHC",
+          "MAA",
+          "MAARED",
+          "MAIDI",
+          "MCCIPC",
+          "MCH",
+          "MCIC",
+          "MCR",
+          "MCRNA",
+          "MCS",
+          "MDG",
+          "MDI",
+          "MDIPD",
+          "MDIY",
+          "MECC",
+          "MED",
+          "MEMCR",
+          "MENR",
+          "MEP",
+          "MEPITED",
+          "MEWDDI",
+          "MEWDL",
+          "MEWDOL",
+          "MF",
+          "MF1",
+          "MFA",
+          "MFAID",
+          "MFCSD",
+          "MFNR",
+          "MFOCCG",
+          "MGTPSP",
+          "MGTPWP",
+          "MH",
+          "MHDI",
+          "MHI",
+          "MHIC",
+          "MI",
+          "MIA",
+          "MIAIC",
+          "MIC",
+          "MID",
+          "MIRC",
+          "MIS",
+          "MISI",
+          "MIT",
+          "MITEPSBED",
+          "MITIA",
+          "MJ",
+          "MJF",
+          "ML",
+          "MLS",
+          "MMCP",
+          "MMHA",
+          "MNA",
+          "MNAA",
+          "MND",
+          "MNR",
+          "MNR1",
+          "MOL",
+          "MPS",
+          "MPSDIIA",
+          "MPSEP",
+          "MPSP",
+          "MRACOA",
+          "MRCEDQR",
+          "MRCNEDA",
+          "MRCRA",
+          "MRCTIAOCE",
+          "MRED",
+          "MREDACRQ",
+          "MRFEDANO",
+          "MRFEDASO",
+          "MROL",
+          "MRPEDAC",
+          "MRPEDC",
+          "MRPEDC1",
+          "MS",
+          "MS1",
+          "MSB",
+          "MSBEP",
+          "MSPA",
+          "MT",
+          "MT1",
+          "MTIT",
+          "MVA",
+          "MWGE",
+          "MWGE1",
+          "MWGEY",
+          "PKPCC",
+          "PM",
+          "PQPCC",
+          "PTB",
+          "SRP",
+          "SSCC",
+          "SSCRAFI",
+          "SSCY",
+          "SSDP",
+          "SSID",
+          "SSL",
+          "SSN",
+          "SSRD",
+          "SSS",
+          "SSS1",
+          "SSSBT"
+        ]
+      }
+    },
+    {
+      "name": "question_fr",
+      "title": "Enjeu ou question (français)",
+      "description": "Cette section affichera en français la question ou l’enjeu auquel répond le ministère.",
+      "type": "string"
+    },
+    {
+      "name": "date_received",
+      "title": "Date de fourniture au bureau du minister",
+      "description": "Ce champ affichera la date à laquelle la note pour la période de questions a été fournie au ministre aux fins d’utilisation au cours d’une période de questions.",
+      "type": "date",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "response_fr",
+      "title": "Réponse suggérée (français)",
+      "description": "Ce champ affichera la section de la réponse suggérée de la note pour la période de questions en français.",
+      "type": "string",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "background_fr",
+      "title": "Contexte (français)",
+      "description": "Ce champ devrait afficher en français la section du contexte de la note pour la période de questions.",
+      "type": "string",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "additional_information_fr",
+      "title": "Renseignements supplémentaires (français)",
+      "description": "Ce champ affichera tout renseignement supplémentaire, en français, selon les besoins.",
+      "type": "string"
+    }
+  ],
+  "missingValues": [
+    ""
+  ]
+}

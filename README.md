@@ -30,5 +30,5 @@ The generated Markdown files will appear under `docs/reference` and `docs/choice
 
 ## GitHub Actions
 
-Two workflows (`generate-dataset-docs.yml` and `generate-choice-docs.yml`) run the above scripts automatically whenever the URL list or scripts change. They commit the resulting documentation back to the repository.
+Three workflows (`generate-dataset-docs.yml`, `generate-choice-docs.yml` and `generate-table-schemas.yml`) run the automation scripts whenever the URL list or scripts change. They commit the resulting documentation, table schemas and example data back to the repository and validate the schemas using [Validata](https://api.validata.etalab.studio/).
 
