@@ -2,6 +2,8 @@
 
 **Origin:** inline
 
+**Scope:** Inline (dataset-scoped)
+
 **Fields Using This Set:** reporting_period
 
 **Values (n=2):**
