@@ -82,14 +82,11 @@ jobs:
 
       - name: Generate documentation
         run: |
-          set -e
           python scripts/generate_docs.py \
-            --source dictionaries/*.json \
+            --source 'dictionaries/*.json' \
             --out-dir docs/reference \
             --schema schema/recombinant-schema.json \
             --no-fail-on-error
-          echo "Generated files:"
-          find docs/reference -type f -maxdepth 3 -print
 
       - name: Show warnings (if present)
         run: |
