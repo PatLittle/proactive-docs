@@ -13,11 +13,11 @@ on:
         description: 'Comma-separated additional recombinant schema URLs (optional)'
         required: false
       use_pr:
-        description: 'Set to true to create/update a PR instead of direct commit'
+        description: 'true => create/update PR instead of direct commit'
         required: false
         default: 'false'
   schedule:
-    - cron: '17 4 * * 1'   # Weekly refresh (Mon 04:17 UTC)
+    - cron: '17 4 * * 1'   # Weekly (Mon 04:17 UTC)
 
 permissions:
   contents: write
@@ -29,7 +29,6 @@ concurrency:
 
 env:
   PYTHON_VERSION: '3.12'
-  USE_PR_DEFAULT: 'false'
 
 jobs:
   build:
@@ -53,36 +52,35 @@ jobs:
           restore-keys: |
             pip-${{ runner.os }}-${{ env.PYTHON_VERSION }}-
 
-      - name: Install deps
+      - name: Install dependencies
         run: pip install -r requirements.txt
 
-      # (Optional) Explicit remote fetch step if you keep authoritative URLs here.
-      # The generator script itself also downloads any URL sources it receives.
-      - name: (Optional) Fetch known remote schemas
+      - name: (Optional) Fixed remote schemas
         run: |
           mkdir -p dictionaries
-          echo "No fixed remote fetch configured. Add curl lines here if desired."
+          # Add curl commands here if you have canonical remote schema URLs you always want.
+          echo "No fixed remote fetch defined."
 
-      - name: Add workflow_dispatch extra sources
+      - name: Fetch extra workflow_dispatch sources
         if: ${{ github.event_name == 'workflow_dispatch' && inputs.extra_sources != '' }}
         run: |
           mkdir -p dictionaries
-            IFS=',' read -ra ARR <<< "${{ inputs.extra_sources }}"
-            for url in "${ARR[@]}"; do
-              url_trim=$(echo "$url" | xargs)
-              [ -z "$url_trim" ] && continue
-              fname=$(basename "${url_trim%%\?*}")
-              case "$fname" in
-                *.json) : ;;
-                *) fname="${fname}.json" ;;
-              esac
-              echo "Fetching $url_trim -> dictionaries/$fname"
-              curl -fsSL "$url_trim" -o "dictionaries/$fname"
-            done
-          echo "Fetched extra sources:"
+          IFS=',' read -ra ARR <<< "${{ inputs.extra_sources }}"
+          for url in "${ARR[@]}"; do
+            u=$(echo "$url" | xargs)
+            [ -z "$u" ] && continue
+            base=$(basename "${u%%\?*}")
+            case "$base" in
+              *.json) : ;;
+              *) base="${base}.json" ;;
+            esac
+            echo "Fetching $u -> dictionaries/$base"
+            curl -fsSL "$u" -o "dictionaries/$base"
+          done
+          echo "Current dictionaries:"
           ls -1 dictionaries || true
 
-      - name: Generate Markdown (all local + remote via script materialization)
+      - name: Generate documentation
         run: |
           set -e
           python scripts/generate_docs.py \
@@ -90,64 +88,63 @@ jobs:
             --out-dir docs/reference \
             --schema schema/recombinant-schema.json \
             --no-fail-on-error
-          echo "Generation complete."
-          echo "Resulting docs/reference:"
-          find docs/reference -maxdepth 3 -type f -print
+          echo "Generated files:"
+          find docs/reference -type f -maxdepth 3 -print
 
-      - name: Show warnings (if any)
-        if: exists('docs/reference/generation-warnings.log')
+      - name: Show warnings (if present)
         run: |
-          echo "---- generation-warnings.log ----"
-          cat docs/reference/generation-warnings.log || true
-          echo "---------------------------------"
+            if [ -f docs/reference/generation-warnings.log ]; then
+              echo "---- generation-warnings.log ----"
+              cat docs/reference/generation-warnings.log
+              echo "--------------------------------"
+            else
+              echo "No warnings file generated."
+            fi
 
-      - name: Decide commit strategy
+      - name: Determine commit strategy
         id: strategy
         run: |
-          USE_PR_INPUT="${{ github.event_name == 'workflow_dispatch' && inputs.use_pr || env.USE_PR_DEFAULT }}"
-          if [ "${USE_PR_INPUT}" = "true" ]; then
-            echo "mode=pr" >> $GITHUB_OUTPUT
-          else
-            echo "mode=direct" >> $GITHUB_OUTPUT
+          MODE="direct"
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ] && [ "${{ inputs.use_pr }}" = "true" ]; then
+            MODE="pr"
           fi
-          echo "Strategy mode set to: $(grep mode= $GITHUB_OUTPUT)"
+          echo "mode=$MODE" >> "$GITHUB_OUTPUT"
 
       - name: Commit & Push (direct)
         if: ${{ steps.strategy.outputs.mode == 'direct' && github.event_name != 'pull_request' }}
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: 'chore: update recombinant docs (global choices last-write-wins)'
+          commit_message: "chore: update recombinant docs (global choices last-write-wins)"
           file_pattern: |
             dictionaries/*.json
             docs/reference/*.md
             docs/reference/choices/*.md
             docs/reference/generation-warnings.log
 
-      - name: Create / Update PR (if chosen)
+      - name: Create / Update PR
         if: ${{ steps.strategy.outputs.mode == 'pr' && github.event_name != 'pull_request' }}
         uses: peter-evans/create-pull-request@v6
         with:
-            commit-message: 'chore: update recombinant docs (global choices last-write-wins)'
-            branch: docs/auto-update
-            title: 'chore: auto-update recombinant docs'
-            body: |
-              Automated update of recombinant reference documentation.
+          commit-message: "chore: update recombinant docs (global choices last-write-wins)"
+          branch: docs/auto-update
+          title: "chore: auto-update recombinant docs"
+          body: |
+            Automated update of recombinant reference documentation.
+            - Global shared choice sets (last-write-wins)
+            - Regenerated dataset & choice set markdown
+            - See warnings (if any) in `docs/reference/generation-warnings.log`
+          add-paths: |
+            dictionaries/*.json
+            docs/reference/*.md
+            docs/reference/choices/*.md
+            docs/reference/generation-warnings.log
+          labels: documentation, automated
 
-              - Global shared choice sets (last-write-wins)
-              - Regenerated dataset & choice set markdown
-              - See warnings (if any) in `docs/reference/generation-warnings.log`
-            add-paths: |
-              dictionaries/*.json
-              docs/reference/*.md
-              docs/reference/choices/*.md
-              docs/reference/generation-warnings.log
-            labels: documentation, automated
-
-      - name: Upload artifact (always)
+      - name: Upload artifact
         uses: actions/upload-artifact@v4
         with:
           name: reference-docs
           path: |
-            docs/reference
             dictionaries/*.json
+            docs/reference
           if-no-files-found: warn
