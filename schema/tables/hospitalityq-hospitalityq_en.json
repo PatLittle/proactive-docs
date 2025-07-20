@@ -1,0 +1,136 @@
+{
+  "fields": [
+    {
+      "name": "ref_number",
+      "title": "Reference Number",
+      "description": "This field is populated by the organization. It is a unique reference number given to each line item in the spreadsheet. Having a unique identifier for each item will allow users locate a specific item in the registry should they need to modify or delete.",
+      "type": "string",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "disclosure_group",
+      "title": "Disclosure Group",
+      "description": "This field will display the group to which the individual belongs.",
+      "type": "string",
+      "constraints": {
+        "enum": [
+          "MPSES",
+          "SLE"
+        ]
+      }
+    },
+    {
+      "name": "title_en",
+      "title": "Title (English)",
+      "description": "This field will display, in English, the position title of the individual who incurred the hospitality expenses (the hospitality expenses were charged to their responsibility centre).",
+      "type": "string",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "name",
+      "title": "Name",
+      "description": "This field will display the name of the individual who incurred the hospitality expenses (the hospitality expenses were charged to their responsibility centre).",
+      "type": "string",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "description_en",
+      "title": "Purpose of hospitality activity (English)",
+      "description": "This will cover both the forms (for example, breakfast, refreshment, lunch, reception, dinner and other forms of hospitality) and circumstances (the purpose) of the hospitality, in English.",
+      "type": "string",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "start_date",
+      "title": "Start Date",
+      "description": "The start date on which the hospitality was provided.",
+      "type": "date",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "end_date",
+      "title": "End Date",
+      "description": "The end date on which the hospitality was provided. (can be the same as start date)",
+      "type": "date",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "location_en",
+      "title": "Municipality where the hospitality activity took place (English)",
+      "description": "Must include the Municipality where hospitality was provided, in English",
+      "type": "string",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "vendor_en",
+      "title": "Name of the first commercial establishment or vendor involved in the hospitality activity (English)",
+      "description": "Must include the name of the first commercial establishment or vendor that provided the hospitality (for example, restaurant, hotel or other location) and/or vendor (for example, a caterer), in English.\n",
+      "type": "string",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "vendor_2_en",
+      "title": "Name of the second commercial establishment or vendor involved in the hospitality activity (English)",
+      "description": "Must include the name of the second commercial establishment or vendor that provided the hospitality (for example, restaurant, hotel or other location) and/or vendor (for example, a caterer), in English.\n",
+      "type": "string"
+    },
+    {
+      "name": "vendor_other_en",
+      "title": "Name of any other commercial establishments or vendors involved in the hospitality activity (English)",
+      "description": "Must include the names of any other commercial establishments or vendors that provided the hospitality (for example, restaurant, hotel or other location) and/or vendor (for example, a caterer), in English. Note, use the format {Vendor Name};{Vendor 2 Name} (e.g. Les Impertinentes;Les Street Monkeys)\n",
+      "type": "string"
+    },
+    {
+      "name": "employee_attendees",
+      "title": "Attendees (Government of Canada Officials)",
+      "description": "The total number of attendees (Government of Canada Officials). For any clarification regarding Government of Canada Officials, please refer to Table 2 of the Guide to the Proactive Publication of Travel and Hospitality Expenses- Canada.ca (https://www.tbs-sct.canada.ca/pol/doc-eng.aspx?id=32660).\n",
+      "type": "integer",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "guest_attendees",
+      "title": "Attendees (Guests)",
+      "description": "The total number of attendees (Guests)",
+      "type": "integer",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "total",
+      "title": "Total cost",
+      "description": "Total Amount of the expenses for the hospitality activity",
+      "type": "number",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "additional_comments_en",
+      "title": "Additional comments (English)",
+      "description": "This field may be populated with additional explanatory comments, in English.",
+      "type": "string"
+    }
+  ],
+  "missingValues": [
+    ""
+  ]
+}

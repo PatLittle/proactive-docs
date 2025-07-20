@@ -1,0 +1,29 @@
+{
+  "fields": [
+    {
+      "name": "year",
+      "title": "Year",
+      "description": "This tab / field in the template is only populated if there are no question period notes for the reporting period. This field should be populated with the year of the reporting period.",
+      "type": "year",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "reporting_period",
+      "title": "Reporting Period",
+      "description": "This tab / field in the template is only populated if there are no briefing notes for the reporting period. This field should be populated with the reporting period.",
+      "type": "string",
+      "constraints": {
+        "required": true,
+        "enum": [
+          "P01",
+          "P02"
+        ]
+      }
+    }
+  ],
+  "missingValues": [
+    ""
+  ]
+}

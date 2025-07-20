@@ -1,0 +1,39 @@
+{
+  "fields": [
+    {
+      "name": "year",
+      "title": "Year",
+      "description": "This tab / field in the template is only populated if there are no hospitality expenses for the reporting period. This field should be populated with the year of the reporting period.",
+      "type": "year",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "month",
+      "title": "Month",
+      "description": "This tab / field in the template is only populated if there are no hospitality expenses for the reporting period. This field should be populated with the month of the reporting period.",
+      "type": "string",
+      "constraints": {
+        "required": true,
+        "enum": [
+          "01",
+          "02",
+          "03",
+          "04",
+          "05",
+          "06",
+          "07",
+          "08",
+          "09",
+          "10",
+          "11",
+          "12"
+        ]
+      }
+    }
+  ],
+  "missingValues": [
+    ""
+  ]
+}

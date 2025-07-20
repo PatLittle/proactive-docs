@@ -1,0 +1,186 @@
+{
+  "fields": [
+    {
+      "name": "reference_number",
+      "title": "Reference Number",
+      "description": "This field is populated by the user with the reference number of the Question Period Note. This number is a mandatory system requirement when publishing a template.",
+      "type": "string",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "title_en",
+      "title": "Title (English)",
+      "description": "This field is populated by the user with the official title of the Question Period Note, in English.",
+      "type": "string",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "minister",
+      "title": "Title of Minister",
+      "description": "This field will display the title of the Minister for whom the Question Period Note was created.",
+      "type": "string",
+      "constraints": {
+        "required": true,
+        "enum": [
+          "AGC",
+          "AMF",
+          "AMH",
+          "AMND",
+          "AMPS",
+          "CGW",
+          "DPM",
+          "LGHC",
+          "MAA",
+          "MAARED",
+          "MAIDI",
+          "MCCIPC",
+          "MCH",
+          "MCIC",
+          "MCR",
+          "MCRNA",
+          "MCS",
+          "MDG",
+          "MDI",
+          "MDIPD",
+          "MDIY",
+          "MECC",
+          "MED",
+          "MEMCR",
+          "MENR",
+          "MEP",
+          "MEPITED",
+          "MEWDDI",
+          "MEWDL",
+          "MEWDOL",
+          "MF",
+          "MF1",
+          "MFA",
+          "MFAID",
+          "MFCSD",
+          "MFNR",
+          "MFOCCG",
+          "MGTPSP",
+          "MGTPWP",
+          "MH",
+          "MHDI",
+          "MHI",
+          "MHIC",
+          "MI",
+          "MIA",
+          "MIAIC",
+          "MIC",
+          "MID",
+          "MIRC",
+          "MIS",
+          "MISI",
+          "MIT",
+          "MITEPSBED",
+          "MITIA",
+          "MJ",
+          "MJF",
+          "ML",
+          "MLS",
+          "MMCP",
+          "MMHA",
+          "MNA",
+          "MNAA",
+          "MND",
+          "MNR",
+          "MNR1",
+          "MOL",
+          "MPS",
+          "MPSDIIA",
+          "MPSEP",
+          "MPSP",
+          "MRACOA",
+          "MRCEDQR",
+          "MRCNEDA",
+          "MRCRA",
+          "MRCTIAOCE",
+          "MRED",
+          "MREDACRQ",
+          "MRFEDANO",
+          "MRFEDASO",
+          "MROL",
+          "MRPEDAC",
+          "MRPEDC",
+          "MRPEDC1",
+          "MS",
+          "MS1",
+          "MSB",
+          "MSBEP",
+          "MSPA",
+          "MT",
+          "MT1",
+          "MTIT",
+          "MVA",
+          "MWGE",
+          "MWGE1",
+          "MWGEY",
+          "PKPCC",
+          "PM",
+          "PQPCC",
+          "PTB",
+          "SRP",
+          "SSCC",
+          "SSCRAFI",
+          "SSCY",
+          "SSDP",
+          "SSID",
+          "SSL",
+          "SSN",
+          "SSRD",
+          "SSS",
+          "SSS1",
+          "SSSBT"
+        ]
+      }
+    },
+    {
+      "name": "question_en",
+      "title": "Issue/Question (English)",
+      "description": "This section will display the issue or question the Minister is responding to, in English.",
+      "type": "string"
+    },
+    {
+      "name": "date_received",
+      "title": "Date Provided to the Minister's Office",
+      "description": "This field will display the date on which the Question Period Note was provided to the Minister's Office.",
+      "type": "date",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "response_en",
+      "title": "Suggested Response (English)",
+      "description": "This field will display the Suggested Response section of the Question Period Note, in English.",
+      "type": "string",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "background_en",
+      "title": "Background (English)",
+      "description": "This field should display the background section of the Question Period note, In English.",
+      "type": "string",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "additional_information_en",
+      "title": "Additional Information (English)",
+      "description": "This field will display any additional information, as deemed necessary, in English.",
+      "type": "string"
+    }
+  ],
+  "missingValues": [
+    ""
+  ]
+}

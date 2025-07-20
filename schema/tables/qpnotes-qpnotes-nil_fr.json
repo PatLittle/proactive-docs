@@ -1,0 +1,29 @@
+{
+  "fields": [
+    {
+      "name": "year",
+      "title": "Année",
+      "description": "Cet onglet/champ du modèle n’est rempli que s'il n'y a pas de notes pour la période de questions pour la période d’établissement de rapports. Ce champ doit être rempli avec l’année de la période d’établissement de rapports.",
+      "type": "year",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "reporting_period",
+      "title": "Période de déclaration",
+      "description": "Cet onglet/champ du modèle n’est rempli que s'il n'y a pas de note pour la période de questions pour la période d’établissement de rapports. Ce champ doit être rempli avec la période d’établissement de rapports.",
+      "type": "string",
+      "constraints": {
+        "required": true,
+        "enum": [
+          "P01",
+          "P02"
+        ]
+      }
+    }
+  ],
+  "missingValues": [
+    ""
+  ]
+}

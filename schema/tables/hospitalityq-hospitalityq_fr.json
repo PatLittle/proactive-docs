@@ -1,0 +1,136 @@
+{
+  "fields": [
+    {
+      "name": "ref_number",
+      "title": "Numéro de référence",
+      "description": "Cette zone est remplie par chaque organisation. Un identificateur unique est attribué à chaque poste dans le tableur. Un identificateur unique pour chaque poste permettra aux utilisateurs de repérer un article en particulier s’ils doivent le modifier ou le supprimer.",
+      "type": "string",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "disclosure_group",
+      "title": "Groupe de divulgation",
+      "description": "Ce champ indique le groupe auquel appartient l’individu.",
+      "type": "string",
+      "constraints": {
+        "enum": [
+          "MPSES",
+          "SLE"
+        ]
+      }
+    },
+    {
+      "name": "title_fr",
+      "title": "Titre (français)",
+      "description": "Cette zone indique, en français, le titre du poste de la personne qui a engagé les dépenses d’accueil (les dépenses d’accueil ont été imputées à leur centre de responsabilité).",
+      "type": "string",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "name",
+      "title": "Nom",
+      "description": "Ce champ affiche le nom de la personne qui a engagé les dépenses d’accueil (les dépenses d’accueil ont été imputées à leur centre de responsabilité.",
+      "type": "string",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "description_fr",
+      "title": "But de l’activité d’accueil (français)",
+      "description": "Cette zone comprend la forme d’accueil (par exemple, déjeuner, rafraîchissement, dîner, réception, souper, et autres formes d’accueil) et les circonstances (le but) de l’accueil, en français.",
+      "type": "string",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "start_date",
+      "title": "Date de début",
+      "description": "La date du début auxquelles les activités d’accueil ont eu lieu.",
+      "type": "date",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "end_date",
+      "title": "Date de fin",
+      "description": "La date de fin auxquelles les activités d’accueil ont eu lieu. (peut être la même date du début)",
+      "type": "date",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "location_fr",
+      "title": "Municipalité où l’activité d’accueil a eu lieu (français)",
+      "description": "Comprend la municipalité où les services d’accueil ont été fournis, en français.",
+      "type": "string",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "vendor_fr",
+      "title": "Nom du premier établissement commercial ou fournisseur impliqué dans l’activité d’accueil (français)",
+      "description": "Doit inclure le nom du premier établissement commercial ou fournisseur qui a fourni l’accueil (par exemple, restaurant, hôtel ou autre lieu) et/ou du fournisseur (par exemple, un traiteur), en français.\n",
+      "type": "string",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "vendor_2_fr",
+      "title": "Nom du deuxième établissement commercial ou fournisseur impliqué dans l’activité d’accueil (français)",
+      "description": "Doit inclure le nom du deuxième établissement commercial ou fournisseur qui a fourni l’accueil (par exemple, restaurant, hôtel ou autre lieu) et/ou du fournisseur (par exemple, un traiteur), en français.\n",
+      "type": "string"
+    },
+    {
+      "name": "vendor_other_fr",
+      "title": "Nom de tout autre établissement commercial ou fournisseur impliqué dans l’activité d’accueil (français)",
+      "description": "Doit inclure le nom de tout autre établissement commercial ou fournisseur ayant fourni l’accueil (par exemple, restaurant, hôtel ou autre lieu) et/ou du fournisseur (par exemple, un traiteur), en français. Remarque : Utilisez le format {nom du fournisseur};{nom du fournisseur 2} (par exemple : Les Impertinentes;Les Street Monkeys)'\n",
+      "type": "string"
+    },
+    {
+      "name": "employee_attendees",
+      "title": "Participants (Nombre de représentants du gouvernement du Canada)",
+      "description": "Nombre total de participants (représentants du gouvernement du Canada). Pour toute clarification concernant les représentants du gouvernement du Canada, veuillez référer au table 2 du Guide de publication proactive des frais de voyage et d’accueil- Canada.ca (https://www.tbs-sct.canada.ca/pol/doc-fra.aspx?id=32660).\n",
+      "type": "integer",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "guest_attendees",
+      "title": "Participants (Nombre d’invités)",
+      "description": "Nombre total de participants (invités)",
+      "type": "integer",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "total",
+      "title": "Total des coûts",
+      "description": "Montant total des dépenses pour l’activité d’accueil",
+      "type": "number",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "additional_comments_fr",
+      "title": "Commentaires additionnels (français)",
+      "description": "Ce champ peut indiquer des commentaires explicatifs additionnels, en français.",
+      "type": "string"
+    }
+  ],
+  "missingValues": [
+    ""
+  ]
+}
