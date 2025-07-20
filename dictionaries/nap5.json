@@ -1498,7 +1498,7 @@
           "id": "challenges_fr",
           "obligation": {
             "en": "Optional",
-            "fr": "Optional"
+            "fr": "Facultatif"
           },
           "label": {
             "en": "Challenges (French)",
