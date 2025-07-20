@@ -1,0 +1,571 @@
+{
+  "dataset_type": "travelq",
+  "title": {
+    "en": "Proactive Publication - Travel Expenses",
+    "fr": "Publication proactive - Dépenses de voyage"
+  },
+  "notes": {
+    "en": "Access, upload and modify the monthly travel expense reports for your organization",
+    "fr": "Accès, téléversement et modification des rapports mensuels sur les frais de déplacement pour votre organisation"
+  },
+  "resources": [
+    {
+      "resource_name": "travelq",
+      "title": {
+        "en": "Proactive Publication - Travel Expenses",
+        "fr": "Publication proactive - Dépenses de voyage"
+      },
+      "fields": [
+        {
+          "id": "ref_number",
+          "obligation": {
+            "en": "Mandatory",
+            "fr": "Obligatoire"
+          },
+          "label": {
+            "en": "Reference Number",
+            "fr": "Numéro de référence"
+          },
+          "description": {
+            "en": "This field is populated by the organization. It is a unique reference number given to each line item in the spreadsheet. Having a unique identifier for each item will allow users locate a specific item in the registry should they need to modify or delete.\n",
+            "fr": "Cette zone est remplie par chaque organisation. Un identificateur unique est attribué à chaque poste dans le tableur. Un identificateur unique pour chaque poste permettra aux utilisateurs de repérer un article en particulier s’ils doivent le modifier ou le supprimer.\n"
+          },
+          "validation": {
+            "en": "This field must not be empty",
+            "fr": "Ce champ ne doit pas être vide"
+          },
+          "datastore_type": "text"
+        },
+        {
+          "id": "disclosure_group",
+          "obligation": {
+            "en": "Required if \"Travel End Date\" is on or after April 1st 2025",
+            "fr": "Requis si la \"date de fin du voyage\" est le 1er avril 2025 ou après"
+          },
+          "label": {
+            "en": "Disclosure Group",
+            "fr": "Groupe de divulgation"
+          },
+          "description": {
+            "en": "This field will display the group to which the individual belongs.",
+            "fr": "Ce champ indique le groupe auquel appartient l’individu."
+          },
+          "validation": {
+            "en": "Required if \"Travel End Date\" is on or after April 1st 2025",
+            "fr": "Requis si la \"date de fin du voyage\" est le 1er avril 2025 ou après"
+          },
+          "datastore_type": "text",
+          "choices": {
+            "MPSES": {
+              "en": "Minister/Ministerial adviser/Ministerial staff/Parliamentary Secretary/Exempt Staff",
+              "fr": "Ministre/Conseiller ministériel/Personnel ministériel/Secrétaire parlementaires/Personnel exonéré"
+            },
+            "SLE": {
+              "en": "Senior officer or employee",
+              "fr": "Cadre supérieur ou employé"
+            }
+          }
+        },
+        {
+          "id": "title_en",
+          "obligation": {
+            "en": "Mandatory",
+            "fr": "Obligatoire"
+          },
+          "label": {
+            "en": "Title (English)",
+            "fr": "Titre (anglais)"
+          },
+          "description": {
+            "en": "This field will display the position title of the person who travelled, in English",
+            "fr": "Cette zone indique le titre du poste de la personne qui a voyagé, en anglais."
+          },
+          "validation": {
+            "en": "This field must not be empty",
+            "fr": "Ce champ ne doit pas être vide"
+          },
+          "datastore_type": "text"
+        },
+        {
+          "id": "title_fr",
+          "obligation": {
+            "en": "Mandatory",
+            "fr": "Obligatoire"
+          },
+          "label": {
+            "en": "Title (French)",
+            "fr": "Titre (français)"
+          },
+          "description": {
+            "en": "This field will display the position title of the person who travelled, in French.",
+            "fr": "Cette zone indique le titre du poste de la personne qui a voyagé, en français."
+          },
+          "validation": {
+            "en": "This field must not be empty",
+            "fr": "Ce champ ne doit pas être vide"
+          },
+          "datastore_type": "text"
+        },
+        {
+          "id": "name",
+          "obligation": {
+            "en": "Mandatory",
+            "fr": "Obligatoire"
+          },
+          "label": {
+            "en": "Name",
+            "fr": "Nom"
+          },
+          "description": {
+            "en": "This field will display the name of the  person who travelled",
+            "fr": "Ce champ affiche le nom de la personne qui a voyagé"
+          },
+          "validation": {
+            "en": "This field must not be empty",
+            "fr": "Ce champ ne doit pas être vide"
+          },
+          "datastore_type": "text"
+        },
+        {
+          "id": "purpose_en",
+          "obligation": {
+            "en": "Mandatory",
+            "fr": "Obligatoire"
+          },
+          "label": {
+            "en": "Purpose of Travel (English)",
+            "fr": "But du déplacement (anglais)"
+          },
+          "description": {
+            "en": "A short description, in English, of the reason for the trip. The description should be succinct (one line if possible) and provide users with a general sense of the trip's purpose. Use of acronyms should be avoided.\n",
+            "fr": "Brève description de la raison du voyage, en anglais. La description doit être brève (une ligne dans la mesure du possible) et donner une indication générale aux utilisateurs du but du voyage. Il faut éviter d’utiliser des acronymes.\n"
+          },
+          "validation": {
+            "en": "This field must not be empty",
+            "fr": "Ce champ ne doit pas être vide"
+          },
+          "datastore_type": "text"
+        },
+        {
+          "id": "purpose_fr",
+          "obligation": {
+            "en": "Mandatory",
+            "fr": "Obligatoire"
+          },
+          "label": {
+            "en": "Purpose of Travel (French)",
+            "fr": "But du déplacement (français)"
+          },
+          "description": {
+            "en": "A short description, in French, of the reason for the trip. The description should be succinct (one line if possible) and provide users with a general sense of the trip's purpose. Use of acronyms should be avoided.\n",
+            "fr": "Brève description de la raison du voyage, en français. La description doit être brève (une ligne dans la mesure du possible) et donner une indication générale aux utilisateurs du but du voyage. Il faut éviter d’utiliser des acronymes.\n"
+          },
+          "validation": {
+            "en": "This field must not be empty",
+            "fr": "Ce champ ne doit pas être vide"
+          },
+          "datastore_type": "text"
+        },
+        {
+          "id": "start_date",
+          "obligation": {
+            "en": "Mandatory",
+            "fr": "Obligatoire"
+          },
+          "label": {
+            "en": "Travel Start Date",
+            "fr": "Date de début du voyage"
+          },
+          "description": {
+            "en": "To cover the date the travel started",
+            "fr": "Date de début du voyage"
+          },
+          "validation": {
+            "en": "This field must not be empty.\nDate can’t be in the future.\n",
+            "fr": "Ce champ ne doit pas être vide.\nLa date ne doit pas être dans le futur.\n"
+          },
+          "datastore_type": "date"
+        },
+        {
+          "id": "end_date",
+          "obligation": {
+            "en": "Mandatory",
+            "fr": "Obligatoire"
+          },
+          "label": {
+            "en": "Travel End Date",
+            "fr": "Date de fin du voyage"
+          },
+          "description": {
+            "en": "To cover the date the travel ended (can be the same as travel start date)",
+            "fr": "Date de fin du voyage (peut être la même date que la date du début du voyage)"
+          },
+          "validation": {
+            "en": "This field must not be empty.\nDate can’t be in the future.\n",
+            "fr": "Ce champ ne doit pas être vide.\nLa date ne doit pas être dans le futur.\n"
+          },
+          "datastore_type": "date"
+        },
+        {
+          "id": "destination_en",
+          "obligation": {
+            "en": "Mandatory",
+            "fr": "Obligatoire"
+          },
+          "label": {
+            "en": "Place visited (English)",
+            "fr": "Endroits visités (anglais)"
+          },
+          "description": {
+            "en": "To include name of the first place visited during the trip in question, in English.",
+            "fr": "Inclure le nom du premier lieu visité lors du voyage en question, en anglais."
+          },
+          "validation": {
+            "en": "This field must not be empty\nMust be in the format of <City Name>, <State/Province Name>, <Country Name> for Canada and US, or <City Name>, <Country Name> for international\n",
+            "fr": "Ce champ ne doit pas être vide\nDoit être au format <Nom de la ville>, <Nom de l'État/de la province>, <Nom du pays> pour le Canada et les États-Unis, ou <Nom de la ville>, <Nom du pays> pour l'international (p. ex. Ottawa, Ontario, Canada ou Londres, Angleterre)\n"
+          },
+          "datastore_type": "text"
+        },
+        {
+          "id": "destination_fr",
+          "obligation": {
+            "en": "Mandatory",
+            "fr": "Obligatoire"
+          },
+          "label": {
+            "en": "Place visited (French)",
+            "fr": "Endroits visités (français)"
+          },
+          "description": {
+            "en": "To include name of the first place visited during the trip in question, in French.",
+            "fr": "Inclure le nom du premier lieu visité lors du voyage en question, en français."
+          },
+          "validation": {
+            "en": "This field must not be empty\nMust be in the format of <City Name>, <State/Province Name>, <Country Name> for Canada and US, or <City Name>, <Country Name> for international\n",
+            "fr": "Ce champ ne doit pas être vide\nDoit être au format <Nom de la ville>, <Nom de l'État/de la province>, <Nom du pays> pour le Canada et les États-Unis, ou <Nom de la ville>, <Nom du pays> pour l'international\n"
+          },
+          "datastore_type": "text"
+        },
+        {
+          "id": "destination_2_en",
+          "obligation": {
+            "en": "Optional",
+            "fr": "Facultatif"
+          },
+          "label": {
+            "en": "Second place visited (English)",
+            "fr": "Deuxième lieu visité (anglais)"
+          },
+          "description": {
+            "en": "To include name of second place visited during the trip in question, in English.",
+            "fr": "Inclure le nom du deuxième lieu visité au cours du voyage en question, en anglais."
+          },
+          "validation": {
+            "en": "Must be in the format of <City Name>, <State/Province Name>, <Country Name> for Canada and US, or <City Name>, <Country Name> for international\n",
+            "fr": "Doit être au format <Nom de la ville>, <Nom de l'État/de la province>, <Nom du pays> pour le Canada et les États-Unis, ou <Nom de la ville>, <Nom du pays> pour l'international\n"
+          },
+          "datastore_type": "text"
+        },
+        {
+          "id": "destination_2_fr",
+          "obligation": {
+            "en": "Optional",
+            "fr": "Facultatif"
+          },
+          "label": {
+            "en": "Second place visited (French)",
+            "fr": "Deuxième lieu visité (français)"
+          },
+          "description": {
+            "en": "To include name of second place visited during the trip in question, in French.",
+            "fr": "Inclure le nom du deuxième lieu visité au cours du voyage en question, en français."
+          },
+          "validation": {
+            "en": "Must be in the format of <City Name>, <State/Province Name>, <Country Name> for Canada and US, or <City Name>, <Country Name> for international\n",
+            "fr": "Doit être au format <Nom de la ville>, <Nom de l'État/de la province>, <Nom du pays> pour le Canada et les États-Unis, ou <Nom de la ville>, <Nom du pays> pour l'international\n"
+          },
+          "datastore_type": "text"
+        },
+        {
+          "id": "destination_other_en",
+          "obligation": {
+            "en": "Optional",
+            "fr": "Facultatif"
+          },
+          "label": {
+            "en": "Other places visited (English)",
+            "fr": "Autres lieux visités (anglais)"
+          },
+          "description": {
+            "en": "To include names of all other places visited during the trip in question, in English.",
+            "fr": "Inclure les noms de tous les autres lieux visités au cours du voyage en question, en anglais."
+          },
+          "validation": {
+            "en": "Must be in the format of <City Name>, <State/Province Name>, <Country Name>;<City 2 Name>, <Country 2 Name>\n",
+            "fr": "Doit être au format <Nom de la ville>, <Nom de l'État/de la province>, <Nom du pays>;<Nom de la ville 2>, <Nom du pays 2>\n"
+          },
+          "datastore_type": "text"
+        },
+        {
+          "id": "destination_other_fr",
+          "obligation": {
+            "en": "Optional",
+            "fr": "Facultatif"
+          },
+          "label": {
+            "en": "Other places visited (French)",
+            "fr": "Autres lieux visités (français)"
+          },
+          "description": {
+            "en": "To include names of all other places visited during the trip in question, in French.",
+            "fr": "Inclure les noms de tous les autres lieux visités au cours du voyage en question, en français."
+          },
+          "validation": {
+            "en": "Must be in the format of <City Name>, <State/Province Name>, <Country Name>;<City 2 Name>, <Country 2 Name>\n",
+            "fr": "Doit être au format <Nom de la ville>, <Nom de l'État/de la province>, <Nom du pays>;<Nom de la ville 2>, <Nom du pays 2>\n"
+          },
+          "datastore_type": "text"
+        },
+        {
+          "id": "airfare",
+          "obligation": {
+            "en": "Optional",
+            "fr": "Facultatif"
+          },
+          "label": {
+            "en": "Airfare",
+            "fr": "Tarif aérien"
+          },
+          "description": {
+            "en": "Total cost of any airline tickets, if applicable.",
+            "fr": "Coût total des billets d’avion, s’il y a lieu."
+          },
+          "datastore_type": "money"
+        },
+        {
+          "id": "other_transport",
+          "obligation": {
+            "en": "Optional",
+            "fr": "Facultatif"
+          },
+          "label": {
+            "en": "Other transportation",
+            "fr": "Autres moyens de transport"
+          },
+          "description": {
+            "en": "Total cost of any other forms of transportation (for example, train, bus, vehicle rental, private vehicle, taxis, etc), if applicable.",
+            "fr": "Coût total de toutes autres forme de transport (par exemple, train, autobus, véhicule loué, véhicule particulier, taxis), s’il y a lieu."
+          },
+          "datastore_type": "money"
+        },
+        {
+          "id": "lodging",
+          "obligation": {
+            "en": "Mandatory",
+            "fr": "Obligatoire"
+          },
+          "label": {
+            "en": "Lodging",
+            "fr": "Hébergement"
+          },
+          "description": {
+            "en": "Total cost of accommodation",
+            "fr": "Coût total de l’hébergement"
+          },
+          "validation": {
+            "en": "This field must not be empty",
+            "fr": "Ce champ ne doit pas être vide"
+          },
+          "datastore_type": "money"
+        },
+        {
+          "id": "meals",
+          "obligation": {
+            "en": "Mandatory",
+            "fr": "Obligatoire"
+          },
+          "label": {
+            "en": "Meals and incidentals",
+            "fr": "Frais de repas et frais accessoires"
+          },
+          "description": {
+            "en": "Total cost of meals and incidentals expenses.",
+            "fr": "Total des frais de repas et accessoires"
+          },
+          "validation": {
+            "en": "This field must not be empty",
+            "fr": "Ce champ ne doit pas être vide"
+          },
+          "datastore_type": "money"
+        },
+        {
+          "id": "other_expenses",
+          "obligation": {
+            "en": "Optional",
+            "fr": "Facultatif"
+          },
+          "label": {
+            "en": "Other expenses",
+            "fr": "Autres dépenses"
+          },
+          "description": {
+            "en": "Total cost of all other items that are not covered by the above fields (for example. special passport, visas, associated photos, calls to the office or home, dependant care where applicable, etc.).",
+            "fr": "Coût total de tous les autres éléments qui ne sont pas couverts par les champs ci-dessus (par exemple, passeport spécial, visas, photos connexes, appels au bureau ou à la maison, soin aux personnes à charge, le cas échéant)"
+          },
+          "datastore_type": "money"
+        },
+        {
+          "id": "total",
+          "obligation": {
+            "en": "Mandatory",
+            "fr": "Obligatoire"
+          },
+          "label": {
+            "en": "Total Amount",
+            "fr": "Montant total"
+          },
+          "description": {
+            "en": "The total of the amount listed above.",
+            "fr": "Le total des montants énumérés ci-dessus"
+          },
+          "validation": {
+            "en": "This field must not be empty",
+            "fr": "Ce champ ne doit pas être vide"
+          },
+          "datastore_type": "money"
+        },
+        {
+          "id": "additional_comments_en",
+          "obligation": {
+            "en": "Optional",
+            "fr": "Facultatif"
+          },
+          "label": {
+            "en": "Additional Comments English",
+            "fr": "Additional Comments English"
+          },
+          "description": {
+            "en": "This field may be populated with additional comments in English.",
+            "fr": "Ce champ peut indiquer des commentaires supplémentaires en anglais."
+          },
+          "datastore_type": "text"
+        },
+        {
+          "id": "additional_comments_fr",
+          "obligation": {
+            "en": "Optional",
+            "fr": "Facultatif"
+          },
+          "label": {
+            "en": "Additional Comments French",
+            "fr": "Additional Comments French"
+          },
+          "description": {
+            "en": "This field may be populated with additional comments in French.",
+            "fr": "Ce champ peut indiquer des commentaires supplémentaires en français."
+          },
+          "datastore_type": "text"
+        }
+      ]
+    },
+    {
+      "resource_name": "travelq-nil",
+      "title": {
+        "en": "Proactive Publication - Travel Expenses Nothing to Report",
+        "fr": "Publication proactive - Dépenses de voyage (Rien à signaler)"
+      },
+      "fields": [
+        {
+          "id": "year",
+          "obligation": {
+            "en": "Mandatory",
+            "fr": "Obligatoire"
+          },
+          "label": {
+            "en": "Year",
+            "fr": "Année"
+          },
+          "description": {
+            "en": "This tab / field in the template is only populated if there are no travel expenses for the reporting period. This field should be populated with the year of the reporting period.\n",
+            "fr": "Cet onglet/champ du modèle n’est rempli que s'il n'y a pas de frais de voyage pour la période d’établissement de rapports. Ce champ doit être rempli avec l’année de la période d’établissement de rapports.\n"
+          },
+          "validation": {
+            "en": "This field must not be empty",
+            "fr": "Ce champ ne doit pas être vide"
+          },
+          "datastore_type": "year"
+        },
+        {
+          "id": "month",
+          "obligation": {
+            "en": "Mandatory",
+            "fr": "Obligatoire"
+          },
+          "label": {
+            "en": "Month",
+            "fr": "mois"
+          },
+          "description": {
+            "en": "This tab / field in the template is only populated if there are no travel expenses for the reporting period. This field should be populated with the month of the reporting period.\n",
+            "fr": "Cet onglet/champ du modèle n’est rempli que s'il n'y a pas de frais de voyage pour la période d’établissement de rapports. Ce champ doit être rempli avec le mois de la période d’établissement de rapports.\n"
+          },
+          "validation": {
+            "en": "This field must not be empty",
+            "fr": "Ce champ ne doit pas être vide"
+          },
+          "datastore_type": "text",
+          "choices": {
+            "01": {
+              "en": "January",
+              "fr": "janvier"
+            },
+            "02": {
+              "en": "February",
+              "fr": "février"
+            },
+            "03": {
+              "en": "March",
+              "fr": "mars"
+            },
+            "04": {
+              "en": "April",
+              "fr": "avril"
+            },
+            "05": {
+              "en": "May",
+              "fr": "mai"
+            },
+            "06": {
+              "en": "June",
+              "fr": "juin"
+            },
+            "07": {
+              "en": "July",
+              "fr": "juillet"
+            },
+            "08": {
+              "en": "August",
+              "fr": "août"
+            },
+            "09": {
+              "en": "September",
+              "fr": "septembre"
+            },
+            "10": {
+              "en": "October",
+              "fr": "octobre"
+            },
+            "11": {
+              "en": "November",
+              "fr": "novembre"
+            },
+            "12": {
+              "en": "December",
+              "fr": "décembre"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

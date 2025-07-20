@@ -1,0 +1,249 @@
+{
+  "dataset_type": "ati",
+  "title": {
+    "en": "ATI Summaries",
+    "fr": "Accès à l’information sommaires complétés"
+  },
+  "notes": {
+    "en": "Access, upload and modify the monthly ATI Summaries and ATI Nothing to Report for your organization",
+    "fr": "Accès, téléversement et modification des sommaires mensuels des demandes d’accès à l’information et des demandes d’accès pour lesquelles rien n’est à signaler pour votre organisation"
+  },
+  "resources": [
+    {
+      "resource_name": "ati",
+      "title": {
+        "en": "ATI Summaries",
+        "fr": "Accès à l’information sommaires complétés"
+      },
+      "fields": [
+        {
+          "id": "year",
+          "obligation": {
+            "en": "Mandatory",
+            "fr": "Obligatoire"
+          },
+          "label": {
+            "en": "Year",
+            "fr": "Année"
+          },
+          "description": {
+            "en": "This field must be populated with the four-digit calendar year that the request was closed.",
+            "fr": "Ce champ doit être complété avec l’année civile à quatre chiffres durant laquelle la demande a été complétée."
+          },
+          "validation": {
+            "en": "Must be not be in the future or before 2011",
+            "fr": "Ne peux pas être dans le futur ni avant 2011"
+          },
+          "datastore_type": "year"
+        },
+        {
+          "id": "month",
+          "obligation": {
+            "en": "Mandatory",
+            "fr": "Obligatoire"
+          },
+          "label": {
+            "en": "Month (1-12)",
+            "fr": "Mois (1-12)"
+          },
+          "description": {
+            "en": "This field must be populated with a numerical representation of the month during which the request was closed.",
+            "fr": "Ce champ doit être complété avec la représentation numérique du mois durant lequel la demande a été complétée."
+          },
+          "validation": {
+            "en": "Must be in the range of 1-12 (representing January-December).",
+            "fr": "Doit être dans la gamme de 1-12 (représente janvier-décembre)"
+          },
+          "datastore_type": "month"
+        },
+        {
+          "id": "request_number",
+          "obligation": {
+            "en": "Mandatory",
+            "fr": "Obligatoire"
+          },
+          "label": {
+            "en": "Request Number",
+            "fr": "Numero de la demande"
+          },
+          "description": {
+            "en": "Your institution’s request file number of the completed Access to Information request.",
+            "fr": "Numéro de dossier de demande de votre institution de la demande d’accès à l’information complétée."
+          },
+          "datastore_type": "text"
+        },
+        {
+          "id": "summary_en",
+          "obligation": {
+            "en": "Mandatory",
+            "fr": "Obligatoire"
+          },
+          "label": {
+            "en": "English Summary",
+            "fr": "Sommaire de la demande en anglais"
+          },
+          "description": {
+            "en": "A descriptive summary of the completed Access to Information request in English.",
+            "fr": "Un résumé descriptif de la demande d’accès à l’information en anglais."
+          },
+          "datastore_type": "text"
+        },
+        {
+          "id": "summary_fr",
+          "obligation": {
+            "en": "Mandatory",
+            "fr": "Obligatoire"
+          },
+          "label": {
+            "en": "French Summary",
+            "fr": "Sommaire de la demande en français"
+          },
+          "description": {
+            "en": "A descriptive summary of the completed Access to Information request in French.",
+            "fr": "Un résumé descriptif de la demande d’accès à l’information en français."
+          },
+          "datastore_type": "text"
+        },
+        {
+          "id": "disposition",
+          "obligation": {
+            "en": "Mandatory",
+            "fr": "Obligatoire"
+          },
+          "label": {
+            "en": "Disposition",
+            "fr": "Disposition"
+          },
+          "description": {
+            "en": "The response disposition of the completed Access to Information request",
+            "fr": "La disposition de la réponse de la demande d’accès à l’information complétée."
+          },
+          "datastore_type": "text",
+          "choices": {
+            "DA": {
+              "en": "All disclosed",
+              "fr": "Communication totale"
+            },
+            "DP": {
+              "en": "Disclosed in part",
+              "fr": "Communication partielle"
+            },
+            "EC": {
+              "en": "All excluded",
+              "fr": "Exclusion totale"
+            },
+            "EX": {
+              "en": "All exempted",
+              "fr": "Exception totale"
+            },
+            "NE": {
+              "en": "No records exist",
+              "fr": "Aucun document n’existe"
+            }
+          }
+        },
+        {
+          "id": "pages",
+          "obligation": {
+            "en": "Mandatory",
+            "fr": "Obligatoire"
+          },
+          "label": {
+            "en": "Number of Pages",
+            "fr": "Nombre de pages"
+          },
+          "description": {
+            "en": "The number of pages released in response to the completed Access to Information request. If no records were released, enter a value of “0”.",
+            "fr": "Le nombre de pages publiées en réponse à la demande d’accès à l’information. Si aucun enregistrement n’a été publié, entrez la valeur « 0 »."
+          },
+          "validation": {
+            "en": "This value must not be negative",
+            "fr": "Cette valeur ne doit pas être négatif"
+          },
+          "datastore_type": "int"
+        },
+        {
+          "id": "comments_en",
+          "obligation": {
+            "en": "Conditional",
+            "fr": "Conditionnel"
+          },
+          "label": {
+            "en": "Comments English",
+            "fr": "Commentaires en anglais"
+          },
+          "description": {
+            "en": "This field may be populated with additional or contextual comments in English.",
+            "fr": "Ce champ peut être rempli avec des commentaires supplémentaires ou contextuels en anglais."
+          },
+          "datastore_type": "text"
+        },
+        {
+          "id": "comments_fr",
+          "obligation": {
+            "en": "Conditional",
+            "fr": "Conditionnel"
+          },
+          "label": {
+            "en": "Comments French",
+            "fr": "Commentaires en français"
+          },
+          "description": {
+            "en": "This field may be populated with additional or contextual comments in French.",
+            "fr": "Ce champ peut être rempli avec des commentaires supplémentaires ou contextuels en français."
+          },
+          "datastore_type": "text"
+        }
+      ]
+    },
+    {
+      "resource_name": "ati-nil",
+      "title": {
+        "en": "ATI Nothing to Report",
+        "fr": "Accès à l’information rien à signaler"
+      },
+      "fields": [
+        {
+          "id": "year",
+          "obligation": {
+            "en": "Mandatory",
+            "fr": "Obligatoire"
+          },
+          "label": {
+            "en": "Year",
+            "fr": "Année"
+          },
+          "description": {
+            "en": "Four-digit calendar year of the month for which you are reporting no summaries to publish.",
+            "fr": "Année civile a quatre chiffres du mois pour lequel vous ne signalez aucun résumé à publier."
+          },
+          "validation": {
+            "en": "Must be not be in the future or before 2011",
+            "fr": "Ne peux pas être dans le futur ni avant 2011"
+          },
+          "datastore_type": "year"
+        },
+        {
+          "id": "month",
+          "obligation": {
+            "en": "Mandatory",
+            "fr": "Obligatoire"
+          },
+          "label": {
+            "en": "Month (1-12)",
+            "fr": "Mois (1-12)"
+          },
+          "description": {
+            "en": "A numerical representation of the month for which you are reporting no summaries to publish.",
+            "fr": "Une représentation numérique du mois pour lequel vous ne signalez aucun résumé a publier."
+          },
+          "validation": {
+            "en": "Must be in the range of 1-12 (representing January-December).",
+            "fr": "Doit être dans la gamme de 1-12 (représente janvier-décembre)"
+          },
+          "datastore_type": "month"
+        }
+      ]
+    }
+  ]
+}

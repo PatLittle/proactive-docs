@@ -1,0 +1,299 @@
+{
+  "dataset_type": "briefingt",
+  "title": {
+    "en": "Proactive Publication - Briefing Note Titles and Numbers",
+    "fr": "Publication proactive - Titres et numéros des notes d’information"
+  },
+  "notes": {
+    "en": "Access, upload and modify the Briefing Note Titles and Numbers reports for your organization",
+    "fr": "Accès, téléversement et modifications des rapports sur les titres at numéros des notes d’information pour votre organisation"
+  },
+  "resources": [
+    {
+      "resource_name": "briefingt",
+      "title": {
+        "en": "Proactive Publication - Briefing Note Titles and Numbers",
+        "fr": "Publication proactive - Titres et numéros des notes d’information"
+      },
+      "fields": [
+        {
+          "id": "tracking_number",
+          "obligation": {
+            "en": "Mandatory",
+            "fr": "Obligatoire"
+          },
+          "label": {
+            "en": "Briefing Note Number",
+            "fr": "Numéro de suivi"
+          },
+          "description": {
+            "en": "This field will display the internal tracking number of the Briefing Note.",
+            "fr": "Ce champ affichera le numéro de suivi interne de la note de breffage."
+          },
+          "validation": {
+            "en": "This field must not be empty",
+            "fr": "Ce champ ne doit pas être vide"
+          },
+          "datastore_type": "text"
+        },
+        {
+          "id": "title_en",
+          "obligation": {
+            "en": "Mandatory",
+            "fr": "Obligatoire"
+          },
+          "label": {
+            "en": "Title (English)",
+            "fr": "Titre (en anglais)"
+          },
+          "description": {
+            "en": "This field is populated by the user with the official title of the Briefing Note, in English.",
+            "fr": "Ce champ est rempli par l'utilisateur avec le titre officiel de la note de breffage, en anglais."
+          },
+          "validation": {
+            "en": "This field must not be empty",
+            "fr": "Ce champ ne doit pas être vide"
+          },
+          "datastore_type": "text"
+        },
+        {
+          "id": "title_fr",
+          "obligation": {
+            "en": "Mandatory",
+            "fr": "Obligatoire"
+          },
+          "label": {
+            "en": "Title (French)",
+            "fr": "Titre (en français)"
+          },
+          "description": {
+            "en": "This field is populated by the user with the official title of the Briefing Note, in French.",
+            "fr": "Ce champ est rempli par l'utilisateur avec le titre officiel de la note de breffage, en français."
+          },
+          "validation": {
+            "en": "This field must not be empty",
+            "fr": "Ce champ ne doit pas être vide"
+          },
+          "datastore_type": "text"
+        },
+        {
+          "id": "originating_sector_en",
+          "obligation": {
+            "en": "Mandatory",
+            "fr": "Obligatoire"
+          },
+          "label": {
+            "en": "Originating Sector (English)",
+            "fr": "Secteur d’origine (en anglais)"
+          },
+          "description": {
+            "en": "The Sector, Branch, or Division where the Briefing Note originated in English. If there are multiple sectors/branches/divisions, they may be separated by a semicolon (;)",
+            "fr": "Le secteur, la direction ou la division d'où provient la note de breffage en anglais. S'il y a plusieurs secteurs/directions/divisions, on peut les séparer par un point-virgule (;)."
+          },
+          "validation": {
+            "en": "This field must not be empty",
+            "fr": "Ce champ ne doit pas être vide"
+          },
+          "datastore_type": "text"
+        },
+        {
+          "id": "originating_sector_fr",
+          "obligation": {
+            "en": "Mandatory",
+            "fr": "Obligatoire"
+          },
+          "label": {
+            "en": "Originating Sector (French)",
+            "fr": "Secteur d’origine (en français)"
+          },
+          "description": {
+            "en": "The Sector, Branch, or Division where the Briefing Note originated in French. If there are multiple sectors/branches/divisions, they may be separated by a semicolon (;)",
+            "fr": "Le secteur, la direction ou la division d'où provient la note de breffage en français S'il y a plusieurs secteurs/directions/divisions, on peut les séparer par un point-virgule (;)."
+          },
+          "validation": {
+            "en": "This field must not be empty",
+            "fr": "Ce champ ne doit pas être vide"
+          },
+          "datastore_type": "text"
+        },
+        {
+          "id": "addressee",
+          "obligation": {
+            "en": "Mandatory",
+            "fr": "Obligatoire"
+          },
+          "label": {
+            "en": "Addressee",
+            "fr": "Destinataire"
+          },
+          "description": {
+            "en": "This field will display the person to whom the briefing note is addressed.",
+            "fr": "Ce champ affichera le nom de la personne à qui la note de breffage est adressée."
+          },
+          "validation": {
+            "en": "This field must not be empty",
+            "fr": "Ce champ ne doit pas être vide"
+          },
+          "datastore_type": "text",
+          "choices": {
+            "D": {
+              "en": "Deputy head (including a person appointed to a position of an equivalent rank)",
+              "fr": "Administrateurs généraux (y compris une personne nommée à un poste de rang équivalent)",
+              "shortform": {
+                "en": "Deputy head or equivalent",
+                "fr": "Administrateurs généraux ou équivalent"
+              }
+            },
+            "M": {
+              "en": "Minister",
+              "fr": "Ministre"
+            }
+          }
+        },
+        {
+          "id": "date_received",
+          "obligation": {
+            "en": "Mandatory",
+            "fr": "Obligatoire"
+          },
+          "label": {
+            "en": "Date Received",
+            "fr": "Date de réception"
+          },
+          "description": {
+            "en": "This field will display the date on which the Briefing Note was received in the addressee's office.",
+            "fr": "Ce champ affichera la date à laquelle la note de breffage a été reçue par le bureau du destinataire."
+          },
+          "validation": {
+            "en": "This field must not be empty",
+            "fr": "Ce champ ne doit pas être vide"
+          },
+          "datastore_type": "date"
+        },
+        {
+          "id": "action_required",
+          "obligation": {
+            "en": "Mandatory",
+            "fr": "Obligatoire"
+          },
+          "label": {
+            "en": "Action Required",
+            "fr": "Mesure requise"
+          },
+          "description": {
+            "en": "The Action Required is the purpose of the briefing note; For Information: If the item is being routed solely for the information of the addressee; For Approval/Signature: If the item is for approval or signature only of the addressee; For Decision: If the item requests the addressee make a decisive decision",
+            "fr": "La mesure requise représente le but de la note de breffage; À titre d'information : Si l'élément n'est envoyé que pour informer le destinataire; Pour approbation/signature; Si l'élément est envoyé à des fins d'approbation ou de signature seulement par le destinataire; Pour décision : Si l'élément demande au destinataire de prendre une décision décisive."
+          },
+          "validation": {
+            "en": "This field must not be empty",
+            "fr": "Ce champ ne doit pas être vide"
+          },
+          "datastore_type": "text",
+          "choices": {
+            "D": {
+              "en": "For Decision",
+              "fr": "Décision attendue"
+            },
+            "I": {
+              "en": "For Information",
+              "fr": "Pour Information"
+            },
+            "S": {
+              "en": "For Signature",
+              "fr": "Pour Signature"
+            }
+          }
+        },
+        {
+          "id": "additional_information_en",
+          "obligation": {
+            "en": "Optional",
+            "fr": "Facultatif"
+          },
+          "label": {
+            "en": "Additional Information (English)",
+            "fr": "Renseignements supplémentaires (en anglais)"
+          },
+          "description": {
+            "en": "This field will display any additional information/comments for the Briefing Note, in English.",
+            "fr": "Ce champ affichera de plus amples renseignements/commentaires concernant la note de breffage, en anglais."
+          },
+          "validation": {
+            "en": "None",
+            "fr": "None"
+          },
+          "datastore_type": "text"
+        },
+        {
+          "id": "additional_information_fr",
+          "obligation": {
+            "en": "Optional",
+            "fr": "Facultatif"
+          },
+          "label": {
+            "en": "Additional Information (French)",
+            "fr": "Renseignements supplémentaires (en français)"
+          },
+          "description": {
+            "en": "This field will display any additional information/comments for the Briefing Note, in French.",
+            "fr": "Ce champ affichera de plus amples renseignements/commentaires concernant la note de breffage, en français."
+          },
+          "validation": {
+            "en": "None",
+            "fr": "None"
+          },
+          "datastore_type": "text"
+        }
+      ]
+    },
+    {
+      "resource_name": "briefingt-nil",
+      "title": {
+        "en": "Proactive Publication - Briefing Note Titles and Numbers Nothing to Report",
+        "fr": "Publication proactive - Titres et numéros des notes d’information rien à signaler"
+      },
+      "fields": [
+        {
+          "id": "year",
+          "obligation": {
+            "en": "Mandatory",
+            "fr": "Obligatoire"
+          },
+          "label": {
+            "en": "Year",
+            "fr": "Année"
+          },
+          "description": {
+            "en": "This tab / field in the template is only populated if there are no briefing notes for the reporting period. This field should be populated with the year of the reporting period.",
+            "fr": "Cet onglet/champ du modèle n’est rempli que s'il n'y a pas de notes de breffage pour la période d’établissement de rapports. Ce champ doit être rempli avec l’année de la période d’établissement de rapports."
+          },
+          "validation": {
+            "en": "This field must not be empty",
+            "fr": "Ce champ ne doit pas être vide"
+          },
+          "datastore_type": "year"
+        },
+        {
+          "id": "month",
+          "obligation": {
+            "en": "Mandatory",
+            "fr": "Obligatoire"
+          },
+          "label": {
+            "en": "Month (1-12)",
+            "fr": "Mois (1-12)"
+          },
+          "description": {
+            "en": "This tab / field in the template is only populated if there are no briefing notes for the reporting period. This field should be populated with the month of the reporting period.",
+            "fr": "Cet onglet/champ du modèle n’est rempli que s'il n'y a pas de notes de breffage pour la période d’établissement de rapports. Ce champ doit être rempli avec le mois de la période d’établissement de rapports."
+          },
+          "validation": {
+            "en": "Must be in the range of 1-12 (representing January-December).",
+            "fr": "Doit être dans la gamme de 1-12 (représente janvier-décembre)"
+          },
+          "datastore_type": "month"
+        }
+      ]
+    }
+  ]
+}
