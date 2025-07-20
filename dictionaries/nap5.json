@@ -1466,7 +1466,7 @@
           "id": "evidence_fr",
           "obligation": {
             "en": "Optional",
-            "fr": "Optional"
+            "fr": "Facultatif"
           },
           "label": {
             "en": "Evidence of progress (French)",
@@ -1498,7 +1498,7 @@
           "id": "challenges_fr",
           "obligation": {
             "en": "Optional",
-            "fr": "Facultatif"
+            "fr": "Optional"
           },
           "label": {
             "en": "Challenges (French)",
