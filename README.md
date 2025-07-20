@@ -1,24 +1,34 @@
 # Recombinant Data Dictionary Docs
 
-Automated generation of bilingual reference Markdown documentation (technical + non-technical) from CKAN ckanext-recombinant schema JSON files.
+This repository produces Markdown reference documentation from the Government of Canada's published recombinant schema files.
 
-## Quick Start
+The list of schema URLs to process lives in `recombinant-published-schema-urls.txt`. Running the scripts will download these JSON files, generate Markdown and clean out any previously generated files that no longer apply so that the repository always mirrors the URL list.
+
+## Local usage
+
+1. Create and activate a Python 3 virtual environment (tested with Ubuntu 24):
+
 ```bash
+python3 -m venv venv
+source venv/bin/activate
 pip install -r requirements.txt
-python scripts/generate_docs.py --source dictionaries/qpnotes.json --source dictionaries/adminaircraft.json --out-dir docs/reference --schema schema/recombinant-schema.json --no-fail-on-error
 ```
 
-## Features
-- Field summary + per-field detail sections
-- Choice set extraction (inline + choices_file)
-- Minister history tables (if present)
-- Global reusable choice set docs + index
-- JSON Schema validation
-- GitHub Action automation
-- Deterministic anchors & stable file names
+2. Generate dataset documentation:
 
-## Regenerate
-`make install && make generate`
+```bash
+python scripts/generate_dataset_docs.py
+```
 
-## Do Not Edit Generated Docs
-Edit source JSON and rerun instead.
+3. Generate choice documentation:
+
+```bash
+python scripts/generate_choice_docs.py
+```
+
+The generated Markdown files will appear under `docs/reference` and `docs/choices`. Choice files include tables for the basic labels and, when extra metadata is present in the source JSON, additional detail sections for each code value.
+
+## GitHub Actions
+
+Two workflows (`generate-dataset-docs.yml` and `generate-choice-docs.yml`) run the above scripts automatically whenever the URL list or scripts change. They commit the resulting documentation back to the repository.
+

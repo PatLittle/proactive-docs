@@ -1,0 +1,2 @@
+https://open.canada.ca/data/en/recombinant-published-schema/hospitalityq.json
+https://open.canada.ca/data/en/recombinant-published-schema/qpnotes.json

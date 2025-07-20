@@ -1,0 +1,32 @@
+name: Generate Dataset Docs
+on:
+  push:
+    paths:
+      - recombinant-published-schema-urls.txt
+      - scripts/generate_dataset_docs.py
+      - scripts/template.md.j2
+      - '.github/workflows/generate-dataset-docs.yml'
+  workflow_dispatch:
+  schedule:
+    - cron: '5 5 * * 1'
+permissions:
+  contents: write
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+      - run: pip install -r requirements.txt
+      - run: python scripts/generate_dataset_docs.py
+      - uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: 'chore: update dataset docs'
+          file_pattern: |
+            dictionaries/*.json
+            docs/reference/*.md
+

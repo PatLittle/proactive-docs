@@ -2,9 +2,9 @@
 # Proactive Publication - Question Period Notes / Publication proactive - Notes pour la période des questions
 
 **Dataset Type:** `qpnotes`  
-**Last Generated:** 2025-07-20T07:53:16 (UTC)  
+**Last Generated:** 2025-07-20T13:05:46 (UTC)  
 **Source:** dictionaries/qpnotes.json  
-**Commit:** `abcc2b2`
+**Commit:** `c2020e2`
 
 Access, upload and modify Question Period notes for your organization / Accès, téléversement et modifications des notes de la période de questions pour votre organisation
 
@@ -13,9 +13,9 @@ Access, upload and modify Question Period notes for your organization / Accès, 
 ## Resources
 
 
-- [Proactive Publication - Question Period Notes / Publication proactive - Notes pour la période des questions](#proactive-publication-question-period-notes)
+- [Proactive Publication - Question Period Notes / Publication proactive - Notes pour la période des questions](#qpnotes)
 
-- [Proactive Publication - Question Period Notes Nothing to Report / Publication proactive - Notes pour la période des questions rien à signaler](#proactive-publication-question-period-notes-nothing-to-report)
+- [Proactive Publication - Question Period Notes Nothing to Report / Publication proactive - Notes pour la période des questions rien à signaler](#qpnotes-nil)
 
 
 ---
@@ -30,7 +30,7 @@ Access, upload and modify Question Period notes for your organization / Accès, 
 | `reference_number` | Reference Number / Numéro de référence | `text` | Yes |  |  | This field is populated by the user with the reference number of the Question P… |
 | `title_en` | Title (English) / Titre (anglais) | `text` | Yes |  |  | This field is populated by the user with the official title of the Question Per… |
 | `title_fr` | Title (French) / Titre (français) | `text` | Yes |  |  | This field is populated by the user with the official title of the Question Per… |
-| `minister` | Title of Minister / Titre du ministre | `text` | Yes |  | qpnotes__minister | This field will display the title of the Minister for whom the Question Period … |
+| `minister` | Title of Minister / Titre du ministre | `text` | Yes |  | minister | This field will display the title of the Minister for whom the Question Period … |
 | `question_en` | Issue/Question (English) / Enjeu ou question (anglais) | `text` | No |  |  | This section will display the issue or question the Minister is responding to, … |
 | `question_fr` | Issue/Question (French) / Enjeu ou question (français) | `text` | No |  |  | This section will display the issue or question the Minister is responding to, … |
 | `date_received` | Date Provided to the Minister&#39;s Office / Date de fourniture au bureau du minister | `date` | Yes |  |  | This field will display the date on which the Question Period Note was provided… |
@@ -94,7 +94,7 @@ FR: L’utilisateur indique le titre officiel en français de la note pour la p�
 **Type:** `text`  
 **Required:** Yes  
 **Validation:** This field must not be empty / Ce champ ne doit pas être vide  
-**Choice Set:** qpnotes__minister (111 values)  
+**Choice Set:** minister (111 values)  
 
 
 **Description:**  
@@ -102,1015 +102,121 @@ EN: This field will display the title of the Minister for whom the Question Peri
 FR: Ce champ affichera le titre du ministre pour qui la note pour la période de questions a été créée.
 
 
-##### Allowed Values (qpnotes__minister)
-
-| Code | Label (EN) | Label (FR) | Ministers Recorded |
-|------|------------|------------|------------------|
-| `AGC` | Attorney General of Canada | Procureur général du Canada | 4 |
-| `AMF` | Associate Minister of Finance | Ministre associée des Finances | 2 |
-| `AMH` | Associate Minister of Health | Ministre associée de la santé | 2 |
-| `AMND` | Associate Minister of National Defence | Ministre associé de la Défense nationale | 3 |
-| `AMPS` | Associate Minister of Public Safety | Ministre associée de la sécurité publique | 1 |
-| `CGW` | Chief government whip | Whip en chef du gouvernement | 1 |
-| `DPM` | Deputy Prime Minister | Vice-première ministre | 1 |
-| `LGHC` | Leader of the Government in the House of Commons | Leader du gouvernement à la Chambre des communes | 5 |
-| `MAA` | Minister of Agriculture and Agri-Food | Ministre de l&#39;Agriculture et de l&#39;Agroalimentaire | 3 |
-| `MAARED` | Minister of Agriculture and Agri-Food and Rural Economic Development | Ministre de l’agriculture et de l’agroalimentaire et du développement économique rural | 1 |
-| `MAIDI` | Minister of Artificial Intelligence and Digital Innovation | Ministre de l’intelligence artificielle et de l’innovation numérique | 1 |
-| `MCCIPC` | Minister of Canadian Culture and Identity, Parks Canada | Ministre de la culture et de l’identité canadiennes, parcs canada | 1 |
-| `MCH` | Minister of Canadian Heritage | Ministre du Patrimoine canadien | 3 |
-| `MCIC` | Minister of Canadian Identity and Culture | Ministre de l’identité et de la culture canadiennes | 1 |
-| `MCR` | Minister of Crown-Indigenous Relations | Ministre des Relations Couronne-Autochtones | 4 |
-| `MCRNA` | Minister of Crown-Indigenous Relations and Northern Affairs | Ministre des relations couronne-autochtones et des affaires du nord | 2 |
-| `MCS` | Minister of Citizens’ Services | Ministre des services aux citoyens | 1 |
-| `MDG` | Minister of Digital Government | Ministre du Gouvernement numérique | 1 |
-| `MDI` | Minister of Democratic Institutions | Ministre des institutions démocratiques | 2 |
-| `MDIPD` | Minister of Diversity, Inclusion and Persons with Disabilities | Ministre de la diversité, de l’inclusion et des personnes en situation de handicap | 1 |
-| `MDIY` | Minister of Diversity and Inclusion and Youth | Ministre de la Diversité et de l’Inclusion et de la Jeunesse | 1 |
-| `MECC` | Minister of Environment and Climate Change | Ministre de l&#39;Environnement et du Changement climatique | 4 |
-| `MED` | Minister of Economic Development | Ministre du Développement économique | 1 |
-| `MEMCR` | Minister of Emergency Management and Community Resilience | Ministre de la gestion des urgences et de la résilience des communautés | 1 |
-| `MENR` | Minister of Energy and Natural Resources | Ministre de l’énergie et des ressources naturelles | 3 |
-| `MEP` | Minister of Emergency Preparedness | Ministre de la protection civile | 2 |
-| `MEPITED` | Minister of Export Promotion, International Trade and Economic Development | Ministre de la promotion des exportations, du commerce international et du développement économique | 1 |
-| `MEWDDI` | Minister of Employment, Workforce Development and Disability Inclusion | Ministre de l’Emploi, du Développement de la main-d’œuvre et de l&#39;Inclusion des personnes handicapées | 2 |
-| `MEWDL` | Minister of Employment, Workforce Development and Labour | Ministre de l’emploi, du développement de la main-d’œuvre et du travail | 1 |
-| `MEWDOL` | Minister of Employment, Workforce Development and Official Languages | Ministre de l’emploi, du développement de la main-d’œuvre et des langues officielles | 2 |
-| `MF` | Minister of Finance | Ministre des Finances | 4 |
-| `MF1` | Minister of Fisheries | Ministre des pêches | 1 |
-| `MFA` | Minister of Foreign Affairs | Ministre des Affaires étrangères | 4 |
-| `MFAID` | Minister of Foreign Affairs and International Development | Ministre des affaires étrangères et du développement international | 1 |
-| `MFCSD` | Minister of Families, Children and Social Development | Ministre de la Famille, des Enfants et du Développement social | 3 |
-| `MFNR` | Minister of Finance and National Revenue | Ministre des finances et du revenu national | 1 |
-| `MFOCCG` | Minister of Fisheries, Oceans and the Canadian Coast Guard | Ministre des Pêches, des Océans et de la Garde côtière canadienne | 4 |
-| `MGTPSP` | Minister of Government Transformation, Public Services and Procurement | Ministre de la transformation du gouvernement, des services publics et de l’approvisionnement | 1 |
-| `MGTPWP` | Minister of Government Transformation, Public Works and Procurement | Ministre de la transformation du gouvernement, des travaux publics et de l’approvisionnement | 1 |
-| `MH` | Minister of Health | Ministre de la Santé | 5 |
-| `MHDI` | Minister of Housing and Diversity and Inclusion | Ministre du logement et de la diversité et de l’inclusion | 1 |
-| `MHI` | Minister of Housing and Infrastructure | Ministre du logement et de l’infrastructure | 1 |
-| `MHIC` | Minister of Housing, Infrastructure and Communities | Ministre du logement, de l’infrastructure et des collectivités | 3 |
-| `MI` | Minister of Industry | Ministre de l’industrie | 1 |
-| `MIA` | Minister of Intergovernmental Affairs | Ministre des Affaires intergouvernementales | 3 |
-| `MIAIC` | Minister of Intergovernmental Affairs, Infrastructure and Communities | Ministre des affaires intergouvernementales, de l’infrastructure et des collectivités | 1 |
-| `MIC` | Minister of Infrastructure and Communities | Ministre de l&#39;Infrastructure et des Collectivités | 1 |
-| `MID` | Minister of International Development | Ministre du Développement international | 3 |
-| `MIRC` | Minister of Immigration, Refugees and Citizenship | Ministre de l’Immigration, des Réfugiés et de la Citoyenneté | 5 |
-| `MIS` | Minister of Indigenous Services | Ministre des Services aux Autochtones | 4 |
-| `MISI` | Minister of Innovation, Science and Industry | Ministre de l&#39;Innovation, des Sciences et de l&#39;Industrie | 3 |
-| `MIT` | Minister of International Trade | Ministre du Commerce international | 2 |
-| `MITEPSBED` | Minister of International Trade, Export Promotion, Small Business and Economic Development | Ministre du commerce international, de la promotion des exportations, de la petite entreprise et du développement économique | 1 |
-| `MITIA` | Minister of International Trade and Intergovernmental Affairs | Ministre du commerce international et des affaires intergouvernementales | 1 |
-| `MJ` | Minister of Justice | Ministre de la Justice | 4 |
-| `MJF` | Minister of Jobs and Families | Ministre de l’emploi et des familles | 2 |
-| `ML` | Minister of Labour | Ministre du Travail | 2 |
-| `MLS` | Minister of Labour and Seniors | Ministre du travail et des aînés | 2 |
-| `MMCP` | Minister of Middle Class Prosperity | Ministre de la Prospérité de la classe moyenne | 1 |
-| `MMHA` | Minister of Mental Health and Addictions | Ministre de la santé mentale et des dépendances | 2 |
-| `MNA` | Minister of Northern Affairs | Ministre des Affaires du Nord | 1 |
-| `MNAA` | Minister of Northern and Arctic Affairs | Ministre des affaires du nord et de l’arctique | 1 |
-| `MND` | Minister of National Defence | Ministre de la Défense nationale | 5 |
-| `MNR` | Minister of National Revenue | Ministre du Revenu national | 3 |
-| `MNR1` | Minister of Natural Resources | Ministre des Ressources naturelles | 2 |
-| `MOL` | Minister of Official Languages | Ministre des Langues officielles | 3 |
-| `MPS` | Minister of Public Safety | Ministre de la sécurité publique | 3 |
-| `MPSDIIA` | Minister of Public Safety, Democratic Institutions and Intergovernmental Affairs | Ministre de la sécurité publique, des institutions démocratiques et des affaires intergouvernementales | 1 |
-| `MPSEP` | Minister of Public Safety and Emergency Preparedness | Ministre de la Sécurité publique et de la Protection civile | 2 |
-| `MPSP` | Minister of Public Services and Procurement | Ministre des Services publics et de l’Approvisionnement | 4 |
-| `MRACOA` | Minister responsible for the Atlantic Canada Opportunities Agency | Ministre responsable de l’agence de promotion économique du canada atlantique | 3 |
-| `MRCEDQR` | Minister responsible for Canada Economic Development for Quebec Regions | Ministre responsable de développement économique canada pour les régions du québec | 1 |
-| `MRCNEDA` | Minister responsible for the Canadian Northern Economic Development Agency | Ministre responsable de l’agence canadienne de développement économique du nord | 3 |
-| `MRCRA` | Minister responsible for the Canada Revenue Agency | Ministre responsable de l’agence du revenu du canada | 1 |
-| `MRCTIAOCE` | Minister responsible for Canada-U.S. Trade, Intergovernmental Affairs and One Canadian Economy | Ministre responsable du commerce canada–états-unis, des affaires intergouvernementales et de l’unité de l’économie canadienne | 1 |
-| `MRED` | Minister of Rural Economic Development | Ministre du Développement économique rural | 2 |
-| `MREDACRQ` | Minister responsible for the Economic Development Agency of Canada for the Regions of Quebec | Ministre responsable de l’agence de développement économique du canada pour les régions du québec | 2 |
-| `MRFEDANO` | Minister responsible for the Federal Economic Development Agency for Northern Ontario | Ministre responsable de l’agence fédérale de développement économique pour le nord de l’ontario | 2 |
-| `MRFEDASO` | Minister responsible for the Federal Economic Development Agency for Southern Ontario | Ministre responsable de l’agence fédérale de développement économique pour le sud de l’ontario | 4 |
-| `MROL` | Minister responsible for Official Languages | Ministre responsable des langues officielles | 1 |
-| `MRPEDAC` | Minister responsible for the Pacific Economic Development Agency of Canada | Ministre responsable de l’agence de développement économique du pacifique canada | 1 |
-| `MRPEDC` | Minister responsible for Prairies Economic Development Canada | Ministre responsable de développement économique canada pour les prairies | 3 |
-| `MRPEDC1` | Minister responsible for Pacific Economic Development Canada | Ministre responsable de développement économique canada pour le pacifique | 1 |
-| `MS` | Minister of Seniors | Ministre des Aînés | 2 |
-| `MS1` | Minister of Sport | Ministre des sports | 1 |
-| `MSB` | Minister of Small Business | Ministre de la petite entreprise | 1 |
-| `MSBEP` | Minister of Small Business and Export Promotion | Ministre de la Petite Entreprise et de la Promotion des exportations | 1 |
-| `MSPA` | Minister of Sport and Physical Activity | Ministre des sports et de l’activité physique | 1 |
-| `MT` | Minister of Transport | Ministre des Transports | 4 |
-| `MT1` | Minister of Tourism | Ministre du tourisme | 2 |
-| `MTIT` | Minister of Transport and Internal Trade | Ministre des transports et du commerce intérieur | 3 |
-| `MVA` | Minister of Veterans Affairs | Ministre des Anciens Combattants | 5 |
-| `MWGE` | Minister for Women and Gender Equality | Ministre des Femmes et de l’Égalité des genres | 1 |
-| `MWGE1` | Minister of Women and Gender Equality | Ministre des femmes et de l’égalité des genres | 1 |
-| `MWGEY` | Minister for Women and Gender Equality and Youth | Ministre des femmes et de l’égalité des genres et de la jeunesse | 1 |
-| `PKPCC` | President of the King’s Privy Council for Canada | Président du conseil privé du roi pour le canada | 3 |
-| `PM` | Prime Minister | Premier ministre | 3 |
-| `PQPCC` | President of the Queen’s Privy Council for Canada | Président du Conseil privé de la Reine pour le Canada | 2 |
-| `PTB` | President of the Treasury Board | Président du Conseil du Trésor | 6 |
-| `SRP` | Special Representative for the Prairies | Représentant spécial pour les Prairies | 1 |
-| `SSCC` | Secretary of State (Combatting Crime) | Secrétaire d’état (lutte contre la criminalité) | 1 |
-| `SSCRAFI` | Secretary of State (Canada Revenue Agency and Financial Institutions) | Secrétaire d’état (agence du revenu du canada et institutions financières) | 1 |
-| `SSCY` | Secretary of State (Children and Youth) | Secrétaire d’état (enfance et jeunesse) | 1 |
-| `SSDP` | Secretary of State (Defence Procurement) | Secrétaire d’état (approvisionnement en matière de défense) | 1 |
-| `SSID` | Secretary of State (International Development) | Secrétaire d’état (développement international) | 1 |
-| `SSL` | Secretary of State (Labour) | Secrétaire d’état (travail) | 1 |
-| `SSN` | Secretary of State (Nature) | Secrétaire d’état (nature) | 1 |
-| `SSRD` | Secretary of State (Rural Development) | Secrétaire d’état (développement rural) | 1 |
-| `SSS` | Secretary of State (Seniors) | Secrétaire d’état (aînés) | 1 |
-| `SSS1` | Secretary of State (Sport) | Secrétaire d’état (sports) | 1 |
-| `SSSBT` | Secretary of State (Small Business and Tourism) | Secrétaire d’état (petites entreprises et tourisme) | 1 |
-
-
-
-###### Minister History Details
-
-**Code:** `AGC` – Attorney General of Canada / Procureur général du Canada  
-| Seq | Minister (EN) | Minister (FR) | Start Date | End Date |
-|-----|---------------|---------------|------------|----------|
-| 1 | Fraser, Sean (Hon.) | Fraser, Sean (L’hon.) | 2025-05-13T10:45:00 |  |
-| 2 | Anandasangaree, Gary (Hon.) | Anandasangaree, Gary (L’hon.) | 2025-03-14T11:31:00 | 2025-05-13T10:44:59 |
-| 3 | Virani, Arif (Hon.) | Virani, Arif (L’hon.) | 2023-07-26T10:30:00 | 2025-03-14T11:30:59 |
-| 4 | Lametti, David (Hon.) | Lametti, David (L’hon.) | 2019-01-14T10:00:01 | 2023-07-26T10:29:59 |
-
-
-
-**Code:** `AMF` – Associate Minister of Finance / Ministre associée des Finances  
-| Seq | Minister (EN) | Minister (FR) | Start Date | End Date |
-|-----|---------------|---------------|------------|----------|
-| 1 | Boissonnault, Randy (Hon.) | Boissonnault, Randy (L’hon.) | 2021-10-26T10:30:00 | 2023-07-26T10:29:59 |
-| 2 | Fortier, Mona (Hon.) | Fortier, Mona (L’hon.) | 2019-11-20T15:00:00 | 2021-10-26T10:29:59 |
-
-
-
-**Code:** `AMH` – Associate Minister of Health / Ministre associée de la santé  
-| Seq | Minister (EN) | Minister (FR) | Start Date | End Date |
-|-----|---------------|---------------|------------|----------|
-| 1 | Saks, Ya&#39;ara (Hon.) | Saks, Ya&#39;ara (L’hon.) | 2023-07-26T10:30:00 | 2025-03-14T11:30:59 |
-| 2 | Bennett, Carolyn (Hon.) | Bennett, Carolyn (L’hon.) | 2021-10-26T10:30:00 | 2023-07-26T10:29:59 |
-
-
-
-**Code:** `AMND` – Associate Minister of National Defence / Ministre associé de la Défense nationale  
-| Seq | Minister (EN) | Minister (FR) | Start Date | End Date |
-|-----|---------------|---------------|------------|----------|
-| 1 | Fisher, Darren (Hon.) | Fisher, Darren (L&#39;hon.) | 2024-12-20T11:30:00 | 2025-03-14T11:30:59 |
-| 2 | Petitpas Taylor, Ginette (Hon.) | Petitpas Taylor, Ginette (L’hon.) | 2023-07-26T10:30:00 | 2024-12-20T11:29:59 |
-| 3 | MacAulay, Lawrence (Hon.) | MacAulay, Lawrence (L’hon.) | 2019-03-01T10:30:01 | 2023-07-26T10:29:59 |
-
-
-
-**Code:** `AMPS` – Associate Minister of Public Safety / Ministre associée de la sécurité publique  
-| Seq | Minister (EN) | Minister (FR) | Start Date | End Date |
-|-----|---------------|---------------|------------|----------|
-| 1 | Bendayan, Rachel (Hon.) | Bendayan, Rachel (L&#39;hon.) | 2024-12-20T11:30:00 | 2025-03-13T23:59:59 |
-
-
-
-**Code:** `CGW` – Chief government whip / Whip en chef du gouvernement  
-| Seq | Minister (EN) | Minister (FR) | Start Date | End Date |
-|-----|---------------|---------------|------------|----------|
-| 1 | Valdez, Rechie (Hon.) | Valdez, Rechie (L’hon.) | 2025-03-14T11:31:00 | 2025-05-13T10:44:59 |
-
-
-
-**Code:** `DPM` – Deputy Prime Minister / Vice-première ministre  
-| Seq | Minister (EN) | Minister (FR) | Start Date | End Date |
-|-----|---------------|---------------|------------|----------|
-| 1 | Freeland, Chrystia (Hon.) | Freeland, Chrystia (L’hon.) | 2019-11-20T15:00:00 | 2024-12-15T23:59:59 |
-
-
-
-**Code:** `LGHC` – Leader of the Government in the House of Commons / Leader du gouvernement à la Chambre des communes  
-| Seq | Minister (EN) | Minister (FR) | Start Date | End Date |
-|-----|---------------|---------------|------------|----------|
-| 1 | MacKinnon, Steven (Hon.) | MacKinnon, Steven (L’hon.) | 2025-05-13T10:45:00 |  |
-| 2 | Kayabaga, Arielle (Hon.) | Kayabaga, Arielle (L&#39;hon.) | 2025-03-14T11:31:00 | 2025-03-23T23:59:59 |
-| 3 | Gould, Karina (Hon.) | Gould, Karina (L’hon.) | 2023-07-26T10:30:00 | 2025-01-23T23:59:59 |
-| 4 | Holland, Mark (Hon.) | Holland, Mark (L’hon.) | 2021-10-26T10:30:00 | 2023-07-26T10:29:59 |
-| 5 | Rodriguez, Pablo (Hon.) | Rodriguez, Pablo (L’hon.) | 2019-11-20T15:00:00 | 2021-10-26T10:29:59 |
-
-
-
-**Code:** `MAA` – Minister of Agriculture and Agri-Food / Ministre de l'Agriculture et de l'Agroalimentaire  
-| Seq | Minister (EN) | Minister (FR) | Start Date | End Date |
-|-----|---------------|---------------|------------|----------|
-| 1 | MacDonald, Heath (Hon.) | MacDonald, Heath (L’hon.) | 2025-05-13T10:45:00 |  |
-| 2 | MacAulay, Lawrence (Hon.) | MacAulay, Lawrence (L’hon.) | 2023-07-26T10:30:00 | 2025-03-14T11:30:59 |
-| 3 | Bibeau, Marie-Claude (Hon.) | Bibeau, Marie-Claude (L’hon.) | 2019-03-01T10:30:01 | 2023-07-26T10:29:59 |
-
-
-
-**Code:** `MAARED` – Minister of Agriculture and Agri-Food and Rural Economic Development / Ministre de l’agriculture et de l’agroalimentaire et du développement économique rural  
-| Seq | Minister (EN) | Minister (FR) | Start Date | End Date |
-|-----|---------------|---------------|------------|----------|
-| 1 | Blois, Kody (Hon.) | Blois, Kody (L’hon.) | 2025-03-14T11:31:00 | 2025-05-13T10:44:59 |
-
-
-
-**Code:** `MAIDI` – Minister of Artificial Intelligence and Digital Innovation / Ministre de l’intelligence artificielle et de l’innovation numérique  
-| Seq | Minister (EN) | Minister (FR) | Start Date | End Date |
-|-----|---------------|---------------|------------|----------|
-| 1 | Solomon, Evan (Hon.) | Solomon, Evan (L’hon.) | 2025-05-13T10:45:00 |  |
-
-
-
-**Code:** `MCCIPC` – Minister of Canadian Culture and Identity, Parks Canada / Ministre de la culture et de l’identité canadiennes, parcs canada  
-| Seq | Minister (EN) | Minister (FR) | Start Date | End Date |
-|-----|---------------|---------------|------------|----------|
-| 1 | Guilbeault, Steven (Hon.) | Guilbeault, Steven (L’hon.) | 2025-03-14T11:31:00 | 2025-05-13T10:44:59 |
-
-
-
-**Code:** `MCH` – Minister of Canadian Heritage / Ministre du Patrimoine canadien  
-| Seq | Minister (EN) | Minister (FR) | Start Date | End Date |
-|-----|---------------|---------------|------------|----------|
-| 1 | St-Onge, Pascale (Hon.) | St-Onge, Pascale (L’hon.) | 2023-07-26T10:30:00 | 2025-03-14T11:30:59 |
-| 2 | Rodriguez, Pablo (Hon.) | Rodriguez, Pablo (L’hon.) | 2021-10-26T10:30:00 | 2023-07-26T10:29:59 |
-| 3 | Guilbeault, Steven (Hon.) | Guilbeault, Steven (L’hon.) | 2019-11-20T15:00:00 | 2021-10-26T10:29:59 |
-
-
-
-**Code:** `MCIC` – Minister of Canadian Identity and Culture / Ministre de l’identité et de la culture canadiennes  
-| Seq | Minister (EN) | Minister (FR) | Start Date | End Date |
-|-----|---------------|---------------|------------|----------|
-| 1 | Guilbeault, Steven (Hon.) | Guilbeault, Steven (L’hon.) | 2025-05-13T10:45:00 |  |
-
-
-
-**Code:** `MCR` – Minister of Crown-Indigenous Relations / Ministre des Relations Couronne-Autochtones  
-| Seq | Minister (EN) | Minister (FR) | Start Date | End Date |
-|-----|---------------|---------------|------------|----------|
-| 1 | Alty, Rebecca (Hon.) | Alty, Rebecca (L’hon.) | 2025-05-13T10:45:00 |  |
-| 2 | Anandasangaree, Gary (Hon.) | Anandasangaree, Gary (L’hon.) | 2023-07-26T10:30:00 | 2024-12-20T11:29:59 |
-| 3 | Miller, Marc (Hon.) | Miller, Marc (L’hon.) | 2021-10-26T10:30:00 | 2023-07-26T10:29:59 |
-| 4 | Bennett, Carolyn (Hon.) | Bennett, Carolyn (L’hon.) | 2017-08-28T13:12:00 | 2021-10-26T10:29:59 |
-
-
-
-**Code:** `MCRNA` – Minister of Crown-Indigenous Relations and Northern Affairs / Ministre des relations couronne-autochtones et des affaires du nord  
-| Seq | Minister (EN) | Minister (FR) | Start Date | End Date |
-|-----|---------------|---------------|------------|----------|
-| 1 | Anandasangaree, Gary (Hon.) | Anandasangaree, Gary (L’hon.) | 2025-03-14T11:31:00 | 2025-05-13T10:44:59 |
-| 2 | Anandasangaree, Gary (Hon.) | Anandasangaree, Gary (L’hon.) | 2024-12-20T11:30:00 | 2025-03-14T11:30:59 |
-
-
-
-**Code:** `MCS` – Minister of Citizens’ Services / Ministre des services aux citoyens  
-| Seq | Minister (EN) | Minister (FR) | Start Date | End Date |
-|-----|---------------|---------------|------------|----------|
-| 1 | Beech, Terry (Hon.) | Beech, Terry (L’hon.) | 2023-07-26T10:30:00 | 2025-03-14T11:30:59 |
-
-
-
-**Code:** `MDG` – Minister of Digital Government / Ministre du Gouvernement numérique  
-| Seq | Minister (EN) | Minister (FR) | Start Date | End Date |
-|-----|---------------|---------------|------------|----------|
-| 1 | Murray, Joyce (Hon.) | Murray, Joyce (L’hon.) | 2019-03-18T00:00:00 | 2021-10-26T10:29:59 |
-
-
-
-**Code:** `MDI` – Minister of Democratic Institutions / Ministre des institutions démocratiques  
-| Seq | Minister (EN) | Minister (FR) | Start Date | End Date |
-|-----|---------------|---------------|------------|----------|
-| 1 | Kayabaga, Arielle (Hon.) | Kayabaga, Arielle (L&#39;hon.) | 2025-03-14T11:31:00 | 2025-05-13T10:44:59 |
-| 2 | Sahota, Ruby (Hon.) | Sahota, Ruby (L’hon.) | 2024-12-20T11:30:00 | 2025-03-14T11:30:59 |
-
-
-
-**Code:** `MDIPD` – Minister of Diversity, Inclusion and Persons with Disabilities / Ministre de la diversité, de l’inclusion et des personnes en situation de handicap  
-| Seq | Minister (EN) | Minister (FR) | Start Date | End Date |
-|-----|---------------|---------------|------------|----------|
-| 1 | Khera, Kamal (Hon.) | Khera, Kamal (L’hon.) | 2023-07-26T10:30:00 | 2025-03-13T23:59:59 |
-
-
-
-**Code:** `MDIY` – Minister of Diversity and Inclusion and Youth / Ministre de la Diversité et de l’Inclusion et de la Jeunesse  
-| Seq | Minister (EN) | Minister (FR) | Start Date | End Date |
-|-----|---------------|---------------|------------|----------|
-| 1 | Chagger, Bardish (Hon.) | Chagger, Bardish (L’hon.) | 2019-11-20T15:00:00 | 2021-10-26T10:29:59 |
-
-
-
-**Code:** `MECC` – Minister of Environment and Climate Change / Ministre de l'Environnement et du Changement climatique  
-| Seq | Minister (EN) | Minister (FR) | Start Date | End Date |
-|-----|---------------|---------------|------------|----------|
-| 1 | Dabrusin, Julie (Hon.) | Dabrusin, Julie (L’hon.) | 2025-05-13T10:45:00 |  |
-| 2 | Duguid, Terry (Hon.) | Duguid, Terry (L&#39;hon.) | 2025-03-14T11:31:00 | 2025-05-13T10:44:59 |
-| 3 | Guilbeault, Steven (Hon.) | Guilbeault, Steven (L’hon.) | 2021-10-26T10:30:00 | 2025-03-13T23:59:59 |
-| 4 | Wilkinson, Jonathan (Hon.) | Wilkinson, Jonathan (L’hon.) | 2019-11-20T15:00:00 | 2021-10-26T10:29:59 |
-
-
-
-**Code:** `MED` – Minister of Economic Development / Ministre du Développement économique  
-| Seq | Minister (EN) | Minister (FR) | Start Date | End Date |
-|-----|---------------|---------------|------------|----------|
-| 1 | Joly, Mélanie (Hon.) | Joly, Mélanie (L’hon.) | 2019-11-20T15:00:00 | 2021-10-26T10:29:59 |
-
-
-
-**Code:** `MEMCR` – Minister of Emergency Management and Community Resilience / Ministre de la gestion des urgences et de la résilience des communautés  
-| Seq | Minister (EN) | Minister (FR) | Start Date | End Date |
-|-----|---------------|---------------|------------|----------|
-| 1 | Olszewski, Eleanor (Hon.) | Olszewski, Eleanor (L’hon.) | 2025-05-13T10:45:00 |  |
-
-
-
-**Code:** `MENR` – Minister of Energy and Natural Resources / Ministre de l’énergie et des ressources naturelles  
-| Seq | Minister (EN) | Minister (FR) | Start Date | End Date |
-|-----|---------------|---------------|------------|----------|
-| 1 | Hodgson, Tim (Hon.) | Hodgson, Tim (L’hon.) | 2025-05-13T10:45:00 |  |
-| 2 | Wilkinson, Jonathan (Hon.) | Wilkinson, Jonathan (L’hon.) | 2025-03-14T11:31:00 | 2025-05-13T10:44:59 |
-| 3 | Wilkinson, Jonathan (Hon.) | Wilkinson, Jonathan (L’hon.) | 2023-07-26T10:30:00 | 2025-03-14T11:30:59 |
-
-
-
-**Code:** `MEP` – Minister of Emergency Preparedness / Ministre de la protection civile  
-| Seq | Minister (EN) | Minister (FR) | Start Date | End Date |
-|-----|---------------|---------------|------------|----------|
-| 1 | Sajjan, Harjit S. (Hon.) | Sajjan, Harjit S. (L’hon.) | 2023-07-26T10:30:00 | 2025-03-14T11:30:59 |
-| 2 | Blair, Bill (Hon.) | Blair, Bill (L’hon.) | 2021-10-26T10:30:00 | 2023-07-26T10:29:59 |
-
-
-
-**Code:** `MEPITED` – Minister of Export Promotion, International Trade and Economic Development / Ministre de la promotion des exportations, du commerce international et du développement économique  
-| Seq | Minister (EN) | Minister (FR) | Start Date | End Date |
-|-----|---------------|---------------|------------|----------|
-| 1 | Ng, Mary (Hon.) | Ng, Mary (L’hon.) | 2023-07-26T10:30:00 | 2025-03-14T11:30:59 |
-
-
-
-**Code:** `MEWDDI` – Minister of Employment, Workforce Development and Disability Inclusion / Ministre de l’Emploi, du Développement de la main-d’œuvre et de l'Inclusion des personnes handicapées  
-| Seq | Minister (EN) | Minister (FR) | Start Date | End Date |
-|-----|---------------|---------------|------------|----------|
-| 1 | Qualtrough, Carla (Hon.) | Qualtrough, Carla (L’hon.) | 2021-10-26T10:30:00 | 2023-07-26T10:29:59 |
-| 2 | Qualtrough, Carla (Hon.) | Qualtrough, Carla (L’hon.) | 2019-11-20T15:00:00 | 2021-10-26T10:29:59 |
-
-
-
-**Code:** `MEWDL` – Minister of Employment, Workforce Development and Labour / Ministre de l’emploi, du développement de la main-d’œuvre et du travail  
-| Seq | Minister (EN) | Minister (FR) | Start Date | End Date |
-|-----|---------------|---------------|------------|----------|
-| 1 | MacKinnon, Steven (Hon.) | MacKinnon, Steven (L’hon.) | 2024-12-20T11:30:00 | 2025-03-13T23:59:59 |
-
-
-
-**Code:** `MEWDOL` – Minister of Employment, Workforce Development and Official Languages / Ministre de l’emploi, du développement de la main-d’œuvre et des langues officielles  
-| Seq | Minister (EN) | Minister (FR) | Start Date | End Date |
-|-----|---------------|---------------|------------|----------|
-| 1 | Petitpas Taylor, Ginette (Hon.) | Petitpas Taylor, Ginette (L’hon.) | 2024-11-20T14:31:00 | 2024-12-20T11:29:59 |
-| 2 | Boissonnault, Randy (Hon.) | Boissonnault, Randy (L’hon.) | 2023-07-26T10:30:00 | 2024-11-20T14:30:59 |
-
-
-
-**Code:** `MF` – Minister of Finance / Ministre des Finances  
-| Seq | Minister (EN) | Minister (FR) | Start Date | End Date |
-|-----|---------------|---------------|------------|----------|
-| 1 | Champagne, François-Philippe (Hon.) | Champagne, François-Philippe (L’hon.) | 2025-03-14T11:31:00 |  |
-| 2 | LeBlanc, Dominic (Hon.) | LeBlanc, Dominic (L’hon.) | 2024-12-16T00:00:00 | 2025-03-13T23:59:59 |
-| 3 | Freeland, Chrystia (Hon.) | Freeland, Chrystia (L’hon.) | 2020-08-18T15:00:00 | 2024-12-15T23:59:59 |
-| 4 | Morneau, Bill (Hon.) | Morneau, Bill (L’hon.) | 2015-11-04T10:45:00 | 2020-08-17T23:59:59 |
-
-
-
-**Code:** `MF1` – Minister of Fisheries / Ministre des pêches  
-| Seq | Minister (EN) | Minister (FR) | Start Date | End Date |
-|-----|---------------|---------------|------------|----------|
-| 1 | Thompson, Joanne (Hon.) | Thompson, Joanne (L&#39;hon.) | 2025-05-13T10:45:00 |  |
-
-
-
-**Code:** `MFA` – Minister of Foreign Affairs / Ministre des Affaires étrangères  
-| Seq | Minister (EN) | Minister (FR) | Start Date | End Date |
-|-----|---------------|---------------|------------|----------|
-| 1 | Anand, Anita (Hon.) | Anand, Anita (L’hon.) | 2025-05-13T10:45:00 |  |
-| 2 | Joly, Mélanie (Hon.) | Joly, Mélanie (L’hon.) | 2021-10-26T10:30:00 | 2025-03-13T23:59:59 |
-| 3 | Garneau, Marc (Hon.) | Garneau, Marc (L’hon.) | 2021-01-12T00:00:00 | 2021-10-26T10:29:59 |
-| 4 | Champagne, François-Philippe (Hon.) | Champagne, François-Philippe (L’hon.) | 2019-11-20T15:00:00 | 2021-01-11T23:59:59 |
-
-
-
-**Code:** `MFAID` – Minister of Foreign Affairs and International Development / Ministre des affaires étrangères et du développement international  
-| Seq | Minister (EN) | Minister (FR) | Start Date | End Date |
-|-----|---------------|---------------|------------|----------|
-| 1 | Joly, Mélanie (Hon.) | Joly, Mélanie (L’hon.) | 2025-03-14T11:31:00 | 2025-05-13T10:44:59 |
-
-
-
-**Code:** `MFCSD` – Minister of Families, Children and Social Development / Ministre de la Famille, des Enfants et du Développement social  
-| Seq | Minister (EN) | Minister (FR) | Start Date | End Date |
-|-----|---------------|---------------|------------|----------|
-| 1 | Sudds, Jenna (Hon.) | Sudds, Jenna (L’hon.) | 2023-07-26T10:30:00 | 2025-03-14T11:30:59 |
-| 2 | Gould, Karina (Hon.) | Gould, Karina (L’hon.) | 2021-10-26T10:30:00 | 2023-07-26T10:29:59 |
-| 3 | Hussen, Ahmed (Hon.) | Hussen, Ahmed (L’hon.) | 2019-11-20T15:00:00 | 2021-10-26T10:29:59 |
-
-
-
-**Code:** `MFNR` – Minister of Finance and National Revenue / Ministre des finances et du revenu national  
-| Seq | Minister (EN) | Minister (FR) | Start Date | End Date |
-|-----|---------------|---------------|------------|----------|
-| 1 | Champagne, François-Philippe (Hon.) | Champagne, François-Philippe (L’hon.) | 2025-05-13T10:45:00 |  |
-
-
-
-**Code:** `MFOCCG` – Minister of Fisheries, Oceans and the Canadian Coast Guard / Ministre des Pêches, des Océans et de la Garde côtière canadienne  
-| Seq | Minister (EN) | Minister (FR) | Start Date | End Date |
-|-----|---------------|---------------|------------|----------|
-| 1 | Thompson, Joanne (Hon.) | Thompson, Joanne (L&#39;hon.) | 2025-03-14T11:31:00 | 2025-05-13T10:44:59 |
-| 2 | Lebouthillier, Diane (Hon.) | Lebouthillier, Diane (L’hon.) | 2023-07-26T10:30:00 | 2025-03-14T11:30:59 |
-| 3 | Murray, Joyce (Hon.) | Murray, Joyce (L’hon.) | 2021-10-26T10:30:00 | 2023-07-26T10:29:59 |
-| 4 | Jordan, Bernadette (Hon.) | Jordan, Bernadette (L’hon.) | 2019-11-20T15:00:00 | 2021-10-26T10:29:59 |
-
-
-
-**Code:** `MGTPSP` – Minister of Government Transformation, Public Services and Procurement / Ministre de la transformation du gouvernement, des services publics et de l’approvisionnement  
-| Seq | Minister (EN) | Minister (FR) | Start Date | End Date |
-|-----|---------------|---------------|------------|----------|
-| 1 | Ehsassi, Ali (Hon.) | Ehsassi, Ali (L’hon.) | 2025-03-14T11:31:00 | 2025-05-13T10:44:59 |
-
-
-
-**Code:** `MGTPWP` – Minister of Government Transformation, Public Works and Procurement / Ministre de la transformation du gouvernement, des travaux publics et de l’approvisionnement  
-| Seq | Minister (EN) | Minister (FR) | Start Date | End Date |
-|-----|---------------|---------------|------------|----------|
-| 1 | Lightbound, Joël (Hon.) | Lightbound, Joël (L’hon.) | 2025-05-13T10:45:00 |  |
-
-
-
-**Code:** `MH` – Minister of Health / Ministre de la Santé  
-| Seq | Minister (EN) | Minister (FR) | Start Date | End Date |
-|-----|---------------|---------------|------------|----------|
-| 1 | Michel, Marjorie (Hon.) | Michel, Marjorie (L’hon.) | 2025-05-13T10:45:00 |  |
-| 2 | Khera, Kamal (Hon.) | Khera, Kamal (L’hon.) | 2025-03-14T11:31:00 | 2025-05-13T10:44:59 |
-| 3 | Holland, Mark (Hon.) | Holland, Mark (L’hon.) | 2023-07-26T10:30:00 | 2025-03-14T11:30:59 |
-| 4 | Duclos, Jean-Yves (Hon.) | Duclos, Jean-Yves (L’hon.) | 2021-10-26T10:30:00 | 2023-07-26T10:29:59 |
-| 5 | Hajdu, Patty (Hon.) | Hajdu, Patty (L’hon.) | 2019-11-20T15:00:00 | 2021-10-26T10:29:59 |
-
-
-
-**Code:** `MHDI` – Minister of Housing and Diversity and Inclusion / Ministre du logement et de la diversité et de l’inclusion  
-| Seq | Minister (EN) | Minister (FR) | Start Date | End Date |
-|-----|---------------|---------------|------------|----------|
-| 1 | Hussen, Ahmed (Hon.) | Hussen, Ahmed (L’hon.) | 2021-10-26T10:30:00 | 2023-07-26T10:29:59 |
-
-
-
-**Code:** `MHI` – Minister of Housing and Infrastructure / Ministre du logement et de l’infrastructure  
-| Seq | Minister (EN) | Minister (FR) | Start Date | End Date |
-|-----|---------------|---------------|------------|----------|
-| 1 | Robertson, Gregor (Hon.) | Robertson, Gregor (L’hon.) | 2025-05-13T10:45:00 |  |
-
-
-
-**Code:** `MHIC` – Minister of Housing, Infrastructure and Communities / Ministre du logement, de l’infrastructure et des collectivités  
-| Seq | Minister (EN) | Minister (FR) | Start Date | End Date |
-|-----|---------------|---------------|------------|----------|
-| 1 | Erskine-Smith, Nathaniel (Hon.) | Erskine-Smith, Nathaniel (L&#39;hon.) | 2025-03-14T11:31:00 | 2025-05-13T10:44:59 |
-| 2 | Erskine-Smith, Nathaniel (Hon.) | Erskine-Smith, Nathaniel (L&#39;hon.) | 2024-12-20T11:30:00 | 2025-03-14T11:30:59 |
-| 3 | Fraser, Sean (Hon.) | Fraser, Sean (L’hon.) | 2023-07-26T10:30:00 | 2024-12-20T11:29:59 |
-
-
-
-**Code:** `MI` – Minister of Industry / Ministre de l’industrie  
-| Seq | Minister (EN) | Minister (FR) | Start Date | End Date |
-|-----|---------------|---------------|------------|----------|
-| 1 | Joly, Mélanie (Hon.) | Joly, Mélanie (L’hon.) | 2025-05-13T10:45:00 |  |
-
-
-
-**Code:** `MIA` – Minister of Intergovernmental Affairs / Ministre des Affaires intergouvernementales  
-| Seq | Minister (EN) | Minister (FR) | Start Date | End Date |
-|-----|---------------|---------------|------------|----------|
-| 1 | LeBlanc, Dominic (Hon.) | LeBlanc, Dominic (L’hon.) | 2024-12-20T11:30:00 | 2025-03-13T23:59:59 |
-| 2 | LeBlanc, Dominic (Hon.) | LeBlanc, Dominic (L’hon.) | 2020-08-18T15:00:00 | 2021-10-26T10:29:59 |
-| 3 | Freeland, Chrystia (Hon.) | Freeland, Chrystia (L’hon.) | 2019-11-20T15:00:00 | 2020-08-18T14:59:59 |
-
-
-
-**Code:** `MIAIC` – Minister of Intergovernmental Affairs, Infrastructure and Communities / Ministre des affaires intergouvernementales, de l’infrastructure et des collectivités  
-| Seq | Minister (EN) | Minister (FR) | Start Date | End Date |
-|-----|---------------|---------------|------------|----------|
-| 1 | LeBlanc, Dominic (Hon.) | LeBlanc, Dominic (L’hon.) | 2021-10-26T10:30:00 | 2023-07-26T10:29:59 |
-
-
-
-**Code:** `MIC` – Minister of Infrastructure and Communities / Ministre de l'Infrastructure et des Collectivités  
-| Seq | Minister (EN) | Minister (FR) | Start Date | End Date |
-|-----|---------------|---------------|------------|----------|
-| 1 | McKenna, Catherine (Hon.) | McKenna, Catherine (L’hon.) | 2019-11-20T15:00:00 | 2021-10-26T10:29:59 |
-
-
-
-**Code:** `MID` – Minister of International Development / Ministre du Développement international  
-| Seq | Minister (EN) | Minister (FR) | Start Date | End Date |
-|-----|---------------|---------------|------------|----------|
-| 1 | Hussen, Ahmed (Hon.) | Hussen, Ahmed (L’hon.) | 2023-07-26T10:30:00 | 2025-03-14T11:30:59 |
-| 2 | Sajjan, Harjit S. (Hon.) | Sajjan, Harjit S. (L’hon.) | 2021-10-26T10:30:00 | 2023-07-26T10:29:59 |
-| 3 | Gould, Karina (Hon.) | Gould, Karina (L’hon.) | 2019-11-20T15:00:00 | 2021-10-26T10:29:59 |
-
-
-
-**Code:** `MIRC` – Minister of Immigration, Refugees and Citizenship / Ministre de l’Immigration, des Réfugiés et de la Citoyenneté  
-| Seq | Minister (EN) | Minister (FR) | Start Date | End Date |
-|-----|---------------|---------------|------------|----------|
-| 1 | Diab, Lena Metlege (Hon.) | Diab, Lena Metlege (L’hon.) | 2025-05-13T10:45:00 |  |
-| 2 | Bendayan, Rachel (Hon.) | Bendayan, Rachel (L&#39;hon.) | 2025-03-14T11:31:00 | 2025-05-13T10:44:59 |
-| 3 | Miller, Marc (Hon.) | Miller, Marc (L’hon.) | 2023-07-26T10:30:00 | 2025-03-14T11:30:59 |
-| 4 | Fraser, Sean (Hon.) | Fraser, Sean (L’hon.) | 2021-10-26T10:30:00 | 2023-07-26T10:29:59 |
-| 5 | Mendicino, Marco (Hon.) | Mendicino, Marco (L’hon.) | 2019-11-20T15:00:00 | 2021-10-26T10:29:59 |
-
-
-
-**Code:** `MIS` – Minister of Indigenous Services / Ministre des Services aux Autochtones  
-| Seq | Minister (EN) | Minister (FR) | Start Date | End Date |
-|-----|---------------|---------------|------------|----------|
-| 1 | Gull-Masty, Mandy (Hon.) | Gull-Masty, Mandy (L’hon.) | 2025-05-13T10:45:00 |  |
-| 2 | Hajdu, Patty (Hon.) | Hajdu, Patty (L’hon.) | 2025-03-14T11:31:00 | 2025-05-13T10:44:59 |
-| 3 | Hajdu, Patty (Hon.) | Hajdu, Patty (L’hon.) | 2021-10-26T10:30:00 | 2025-03-14T11:30:59 |
-| 4 | Miller, Marc (Hon.) | Miller, Marc (L’hon.) | 2019-11-20T15:00:00 | 2021-10-26T10:29:59 |
-
-
-
-**Code:** `MISI` – Minister of Innovation, Science and Industry / Ministre de l'Innovation, des Sciences et de l'Industrie  
-| Seq | Minister (EN) | Minister (FR) | Start Date | End Date |
-|-----|---------------|---------------|------------|----------|
-| 1 | Anand, Anita (Hon.) | Anand, Anita (L’hon.) | 2025-03-14T11:31:00 | 2025-05-13T10:44:59 |
-| 2 | Champagne, François-Philippe (Hon.) | Champagne, François-Philippe (L’hon.) | 2021-01-12T00:00:00 | 2025-03-13T23:59:59 |
-| 3 | Bains, Navdeep (Hon.) | Bains, Navdeep (L’hon.) | 2019-11-20T15:00:00 | 2021-01-12T23:59:59 |
-
-
-
-**Code:** `MIT` – Minister of International Trade / Ministre du Commerce international  
-| Seq | Minister (EN) | Minister (FR) | Start Date | End Date |
-|-----|---------------|---------------|------------|----------|
-| 1 | Sidhu, Maninder (Hon.) | Sidhu, Maninder (L’hon.) | 2025-05-13T10:45:00 |  |
-| 2 | Ng, Mary (Hon.) | Ng, Mary (L’hon.) | 2019-11-20T15:00:00 | 2021-10-26T10:29:59 |
-
-
-
-**Code:** `MITEPSBED` – Minister of International Trade, Export Promotion, Small Business and Economic Development / Ministre du commerce international, de la promotion des exportations, de la petite entreprise et du développement économique  
-| Seq | Minister (EN) | Minister (FR) | Start Date | End Date |
-|-----|---------------|---------------|------------|----------|
-| 1 | Ng, Mary (Hon.) | Ng, Mary (L’hon.) | 2021-10-26T10:30:00 | 2023-07-26T10:29:59 |
-
-
-
-**Code:** `MITIA` – Minister of International Trade and Intergovernmental Affairs / Ministre du commerce international et des affaires intergouvernementales  
-| Seq | Minister (EN) | Minister (FR) | Start Date | End Date |
-|-----|---------------|---------------|------------|----------|
-| 1 | LeBlanc, Dominic (Hon.) | LeBlanc, Dominic (L’hon.) | 2025-03-14T11:31:00 | 2025-05-13T10:44:59 |
-
-
-
-**Code:** `MJ` – Minister of Justice / Ministre de la Justice  
-| Seq | Minister (EN) | Minister (FR) | Start Date | End Date |
-|-----|---------------|---------------|------------|----------|
-| 1 | Fraser, Sean (Hon.) | Fraser, Sean (L’hon.) | 2025-05-13T10:45:00 |  |
-| 2 | Anandasangaree, Gary (Hon.) | Anandasangaree, Gary (L’hon.) | 2025-03-14T11:31:00 | 2025-05-13T10:44:59 |
-| 3 | Virani, Arif (Hon.) | Virani, Arif (L’hon.) | 2023-07-26T10:30:00 | 2025-03-14T11:30:59 |
-| 4 | Lametti, David (Hon.) | Lametti, David (L’hon.) | 2019-01-14T10:00:01 | 2023-07-26T10:29:59 |
-
-
-
-**Code:** `MJF` – Minister of Jobs and Families / Ministre de l’emploi et des familles  
-| Seq | Minister (EN) | Minister (FR) | Start Date | End Date |
-|-----|---------------|---------------|------------|----------|
-| 1 | Hajdu, Patty (Hon.) | Hajdu, Patty (L’hon.) | 2025-05-13T10:45:00 |  |
-| 2 | MacKinnon, Steven (Hon.) | MacKinnon, Steven (L’hon.) | 2025-03-14T11:31:00 | 2025-05-13T10:44:59 |
-
-
-
-**Code:** `ML` – Minister of Labour / Ministre du Travail  
-| Seq | Minister (EN) | Minister (FR) | Start Date | End Date |
-|-----|---------------|---------------|------------|----------|
-| 1 | O&#39;Regan, Seamus (Hon.) | O&#39;Regan, Seamus (L’hon.) | 2021-10-26T10:30:00 | 2023-07-26T10:29:59 |
-| 2 | Tassi, Filomena (Hon.) | Tassi, Filomena (L’hon.) | 2019-11-20T15:00:00 | 2021-10-26T10:29:59 |
-
-
-
-**Code:** `MLS` – Minister of Labour and Seniors / Ministre du travail et des aînés  
-| Seq | Minister (EN) | Minister (FR) | Start Date | End Date |
-|-----|---------------|---------------|------------|----------|
-| 1 | MacKinnon, Steven (Hon.) | MacKinnon, Steven (L’hon.) | 2024-07-19T00:00:00 | 2024-12-20T11:29:59 |
-| 2 | O&#39;Regan, Seamus (Hon.) | O&#39;Regan, Seamus (L’hon.) | 2023-07-26T10:30:00 | 2024-07-19T09:23:59 |
-
-
-
-**Code:** `MMCP` – Minister of Middle Class Prosperity / Ministre de la Prospérité de la classe moyenne  
-| Seq | Minister (EN) | Minister (FR) | Start Date | End Date |
-|-----|---------------|---------------|------------|----------|
-| 1 | Fortier, Mona (Hon.) | Fortier, Mona (L’hon.) | 2019-11-20T15:00:00 | 2021-10-26T10:29:59 |
-
-
-
-**Code:** `MMHA` – Minister of Mental Health and Addictions / Ministre de la santé mentale et des dépendances  
-| Seq | Minister (EN) | Minister (FR) | Start Date | End Date |
-|-----|---------------|---------------|------------|----------|
-| 1 | Saks, Ya&#39;ara (Hon.) | Saks, Ya&#39;ara (L’hon.) | 2023-07-26T10:30:00 | 2025-03-14T11:30:59 |
-| 2 | Bennett, Carolyn (Hon.) | Bennett, Carolyn (L’hon.) | 2021-10-26T10:30:00 | 2023-07-26T10:29:59 |
-
-
-
-**Code:** `MNA` – Minister of Northern Affairs / Ministre des Affaires du Nord  
-| Seq | Minister (EN) | Minister (FR) | Start Date | End Date |
-|-----|---------------|---------------|------------|----------|
-| 1 | Vandal, Dan (Hon.) | Vandal, Dan (L’hon.) | 2019-11-20T15:00:00 | 2024-12-20T11:29:59 |
-
-
-
-**Code:** `MNAA` – Minister of Northern and Arctic Affairs / Ministre des affaires du nord et de l’arctique  
-| Seq | Minister (EN) | Minister (FR) | Start Date | End Date |
-|-----|---------------|---------------|------------|----------|
-| 1 | Chartrand, Rebecca (Hon.) | Chartrand, Rebecca (L’hon.) | 2025-05-13T10:45:00 |  |
-
-
-
-**Code:** `MND` – Minister of National Defence / Ministre de la Défense nationale  
-| Seq | Minister (EN) | Minister (FR) | Start Date | End Date |
-|-----|---------------|---------------|------------|----------|
-| 1 | McGuinty, David (Hon.) | McGuinty, David (L’hon.) | 2025-05-13T10:45:00 |  |
-| 2 | Blair, Bill (Hon.) | Blair, Bill (L’hon.) | 2025-03-14T11:31:00 | 2025-05-13T10:44:59 |
-| 3 | Blair, Bill (Hon.) | Blair, Bill (L’hon.) | 2023-07-26T10:30:00 | 2025-03-14T11:30:59 |
-| 4 | Anand, Anita (Hon.) | Anand, Anita (L’hon.) | 2021-10-26T10:30:00 | 2023-07-26T10:29:59 |
-| 5 | Sajjan, Harjit S. (Hon.) | Sajjan, Harjit S. (L’hon.) | 2015-11-04T10:45:00 | 2021-10-26T10:29:59 |
-
-
-
-**Code:** `MNR` – Minister of National Revenue / Ministre du Revenu national  
-| Seq | Minister (EN) | Minister (FR) | Start Date | End Date |
-|-----|---------------|---------------|------------|----------|
-| 1 | Brière, Élisabeth (Hon.) | Brière, Élisabeth (L&#39;hon.) | 2024-12-20T11:30:00 | 2025-03-13T23:59:59 |
-| 2 | Bibeau, Marie-Claude (Hon.) | Bibeau, Marie-Claude (L’hon.) | 2023-07-26T10:30:00 | 2024-12-20T11:29:59 |
-| 3 | Lebouthillier, Diane (Hon.) | Lebouthillier, Diane (L’hon.) | 2015-11-04T10:45:00 | 2023-07-26T10:29:59 |
-
-
-
-**Code:** `MNR1` – Minister of Natural Resources / Ministre des Ressources naturelles  
-| Seq | Minister (EN) | Minister (FR) | Start Date | End Date |
-|-----|---------------|---------------|------------|----------|
-| 1 | Wilkinson, Jonathan (Hon.) | Wilkinson, Jonathan (L’hon.) | 2021-10-26T10:30:00 | 2023-07-26T10:29:59 |
-| 2 | O&#39;Regan, Seamus (Hon.) | O&#39;Regan, Seamus (L’hon.) | 2019-11-20T15:00:00 | 2021-10-26T10:29:59 |
-
-
-
-**Code:** `MOL` – Minister of Official Languages / Ministre des Langues officielles  
-| Seq | Minister (EN) | Minister (FR) | Start Date | End Date |
-|-----|---------------|---------------|------------|----------|
-| 1 | Bendayan, Rachel (Hon.) | Bendayan, Rachel (L&#39;hon.) | 2024-12-20T11:30:00 | 2025-03-13T23:59:59 |
-| 2 | Petitpas Taylor, Ginette (Hon.) | Petitpas Taylor, Ginette (L’hon.) | 2021-10-26T10:30:00 | 2023-07-26T10:29:59 |
-| 3 | Joly, Mélanie (Hon.) | Joly, Mélanie (L’hon.) | 2019-11-20T15:00:00 | 2021-10-26T10:29:59 |
-
-
-
-**Code:** `MPS` – Minister of Public Safety / Ministre de la sécurité publique  
-| Seq | Minister (EN) | Minister (FR) | Start Date | End Date |
-|-----|---------------|---------------|------------|----------|
-| 1 | Anandasangaree, Gary (Hon.) | Anandasangaree, Gary (L’hon.) | 2025-05-13T10:45:00 |  |
-| 2 | McGuinty, David (Hon.) | McGuinty, David (L’hon.) | 2024-12-20T11:30:00 | 2025-03-21T00:00:00 |
-| 3 | Mendicino, Marco (Hon.) | Mendicino, Marco (L’hon.) | 2021-10-26T10:30:00 | 2023-07-26T10:29:59 |
-
-
-
-**Code:** `MPSDIIA` – Minister of Public Safety, Democratic Institutions and Intergovernmental Affairs / Ministre de la sécurité publique, des institutions démocratiques et des affaires intergouvernementales  
-| Seq | Minister (EN) | Minister (FR) | Start Date | End Date |
-|-----|---------------|---------------|------------|----------|
-| 1 | LeBlanc, Dominic (Hon.) | LeBlanc, Dominic (L’hon.) | 2023-07-26T10:30:00 | 2024-12-20T11:29:59 |
-
-
-
-**Code:** `MPSEP` – Minister of Public Safety and Emergency Preparedness / Ministre de la Sécurité publique et de la Protection civile  
-| Seq | Minister (EN) | Minister (FR) | Start Date | End Date |
-|-----|---------------|---------------|------------|----------|
-| 1 | McGuinty, David (Hon.) | McGuinty, David (L’hon.) | 2025-03-14T11:31:00 | 2025-05-16T00:00:00 |
-| 2 | Blair, Bill (Hon.) | Blair, Bill (L’hon.) | 2019-11-20T15:00:00 | 2021-10-26T10:29:59 |
-
-
-
-**Code:** `MPSP` – Minister of Public Services and Procurement / Ministre des Services publics et de l’Approvisionnement  
-| Seq | Minister (EN) | Minister (FR) | Start Date | End Date |
-|-----|---------------|---------------|------------|----------|
-| 1 | Duclos, Jean-Yves (Hon.) | Duclos, Jean-Yves (L’hon.) | 2023-07-26T10:30:00 | 2025-03-14T11:30:59 |
-| 2 | Jaczek, Helena (Hon.) | Jaczek, Helena (L’hon.) | 2022-08-31T10:30:01 | 2023-07-26T10:29:59 |
-| 3 | Tassi, Filomena (Hon.) | Tassi, Filomena (L’hon.) | 2021-10-26T10:30:00 | 2022-08-31T10:30:00 |
-| 4 | Anand, Anita (Hon.) | Anand, Anita (L’hon.) | 2019-11-20T15:00:00 | 2021-10-26T10:29:59 |
-
-
-
-**Code:** `MRACOA` – Minister responsible for the Atlantic Canada Opportunities Agency / Ministre responsable de l’agence de promotion économique du canada atlantique  
-| Seq | Minister (EN) | Minister (FR) | Start Date | End Date |
-|-----|---------------|---------------|------------|----------|
-| 1 | Fraser, Sean (Hon.) | Fraser, Sean (L’hon.) | 2025-05-13T10:45:00 |  |
-| 2 | Hutchings, Gudie (Hon.) | Hutchings, Gudie (L’hon.) | 2023-07-26T10:30:00 | 2025-03-14T11:30:59 |
-| 3 | Petitpas Taylor, Ginette (Hon.) | Petitpas Taylor, Ginette (L’hon.) | 2021-10-26T10:30:00 | 2023-07-26T10:29:59 |
-
-
-
-**Code:** `MRCEDQR` – Minister responsible for Canada Economic Development for Quebec Regions / Ministre responsable de développement économique canada pour les régions du québec  
-| Seq | Minister (EN) | Minister (FR) | Start Date | End Date |
-|-----|---------------|---------------|------------|----------|
-| 1 | Joly, Mélanie (Hon.) | Joly, Mélanie (L’hon.) | 2025-05-13T10:45:00 |  |
-
-
-
-**Code:** `MRCNEDA` – Minister responsible for the Canadian Northern Economic Development Agency / Ministre responsable de l’agence canadienne de développement économique du nord  
-| Seq | Minister (EN) | Minister (FR) | Start Date | End Date |
-|-----|---------------|---------------|------------|----------|
-| 1 | Chartrand, Rebecca (Hon.) | Chartrand, Rebecca (L’hon.) | 2025-05-13T10:45:00 |  |
-| 2 | Anandasangaree, Gary (Hon.) | Anandasangaree, Gary (L’hon.) | 2024-12-20T11:30:00 | 2025-03-13T23:59:59 |
-| 3 | Vandal, Dan (Hon.) | Vandal, Dan (L’hon.) | 2021-10-26T10:30:00 | 2024-12-20T11:29:59 |
-
-
-
-**Code:** `MRCRA` – Minister responsible for the Canada Revenue Agency / Ministre responsable de l’agence du revenu du canada  
-| Seq | Minister (EN) | Minister (FR) | Start Date | End Date |
-|-----|---------------|---------------|------------|----------|
-| 1 | Brière, Élisabeth (Hon.) | Brière, Élisabeth (L&#39;hon.) | 2025-03-14T11:31:00 | 2025-05-13T10:44:59 |
-
-
-
-**Code:** `MRCTIAOCE` – Minister responsible for Canada-U.S. Trade, Intergovernmental Affairs and One Canadian Economy / Ministre responsable du commerce canada–états-unis, des affaires intergouvernementales et de l’unité de l’économie canadienne  
-| Seq | Minister (EN) | Minister (FR) | Start Date | End Date |
-|-----|---------------|---------------|------------|----------|
-| 1 | LeBlanc, Dominic (Hon.) | LeBlanc, Dominic (L’hon.) | 2025-05-13T10:45:00 |  |
-
-
-
-**Code:** `MRED` – Minister of Rural Economic Development / Ministre du Développement économique rural  
-| Seq | Minister (EN) | Minister (FR) | Start Date | End Date |
-|-----|---------------|---------------|------------|----------|
-| 1 | Hutchings, Gudie (Hon.) | Hutchings, Gudie (L’hon.) | 2021-10-26T10:30:00 | 2025-03-14T11:30:59 |
-| 2 | Monsef, Maryam (Hon.) | Monsef, Maryam (L’hon.) | 2019-11-20T15:00:00 | 2021-10-26T10:29:59 |
-
-
-
-**Code:** `MREDACRQ` – Minister responsible for the Economic Development Agency of Canada for the Regions of Quebec / Ministre responsable de l’agence de développement économique du canada pour les régions du québec  
-| Seq | Minister (EN) | Minister (FR) | Start Date | End Date |
-|-----|---------------|---------------|------------|----------|
-| 1 | Martinez Ferrada, Soraya (Hon.) | Martinez Ferrada, Soraya (L’hon.) | 2023-07-26T10:30:00 | 2025-02-06T23:59:59 |
-| 2 | St-Onge, Pascale (Hon.) | St-Onge, Pascale (L’hon.) | 2021-10-26T10:30:00 | 2023-07-26T10:29:59 |
-
-
-
-**Code:** `MRFEDANO` – Minister responsible for the Federal Economic Development Agency for Northern Ontario / Ministre responsable de l’agence fédérale de développement économique pour le nord de l’ontario  
-| Seq | Minister (EN) | Minister (FR) | Start Date | End Date |
-|-----|---------------|---------------|------------|----------|
-| 1 | Hajdu, Patty (Hon.) | Hajdu, Patty (L’hon.) | 2025-05-13T10:45:00 |  |
-| 2 | Hajdu, Patty (Hon.) | Hajdu, Patty (L’hon.) | 2021-10-26T10:30:00 | 2025-03-13T23:59:59 |
-
-
-
-**Code:** `MRFEDASO` – Minister responsible for the Federal Economic Development Agency for Southern Ontario / Ministre responsable de l’agence fédérale de développement économique pour le sud de l’ontario  
-| Seq | Minister (EN) | Minister (FR) | Start Date | End Date |
-|-----|---------------|---------------|------------|----------|
-| 1 | Solomon, Evan (Hon.) | Solomon, Evan (L’hon.) | 2025-05-13T10:45:00 |  |
-| 2 | Sahota, Ruby (Hon.) | Sahota, Ruby (L’hon.) | 2024-12-20T11:30:00 | 2025-03-14T11:30:59 |
-| 3 | Tassi, Filomena (Hon.) | Tassi, Filomena (L’hon.) | 2022-08-31T10:30:01 | 2024-12-20T11:29:59 |
-| 4 | Jaczek, Helena (Hon.) | Jaczek, Helena (L’hon.) | 2021-10-26T10:30:00 | 2022-08-31T10:30:00 |
-
-
-
-**Code:** `MROL` – Minister responsible for Official Languages / Ministre responsable des langues officielles  
-| Seq | Minister (EN) | Minister (FR) | Start Date | End Date |
-|-----|---------------|---------------|------------|----------|
-| 1 | Guilbeault, Steven (Hon.) | Guilbeault, Steven (L’hon.) | 2025-05-13T10:45:00 |  |
-
-
-
-**Code:** `MRPEDAC` – Minister responsible for the Pacific Economic Development Agency of Canada / Ministre responsable de l’agence de développement économique du pacifique canada  
-| Seq | Minister (EN) | Minister (FR) | Start Date | End Date |
-|-----|---------------|---------------|------------|----------|
-| 1 | Sajjan, Harjit S. (Hon.) | Sajjan, Harjit S. (L’hon.) | 2021-10-26T10:30:00 | 2025-03-14T11:30:59 |
-
-
-
-**Code:** `MRPEDC` – Minister responsible for Prairies Economic Development Canada / Ministre responsable de développement économique canada pour les prairies  
-| Seq | Minister (EN) | Minister (FR) | Start Date | End Date |
-|-----|---------------|---------------|------------|----------|
-| 1 | Olszewski, Eleanor (Hon.) | Olszewski, Eleanor (L’hon.) | 2025-05-13T10:45:00 |  |
-| 2 | Duguid, Terry (Hon.) | Duguid, Terry (L&#39;hon.) | 2024-12-20T11:30:00 | 2025-03-13T23:59:59 |
-| 3 | Vandal, Dan (Hon.) | Vandal, Dan (L’hon.) | 2021-10-26T10:30:00 | 2024-12-20T11:29:59 |
-
-
-
-**Code:** `MRPEDC1` – Minister responsible for Pacific Economic Development Canada / Ministre responsable de développement économique canada pour le pacifique  
-| Seq | Minister (EN) | Minister (FR) | Start Date | End Date |
-|-----|---------------|---------------|------------|----------|
-| 1 | Robertson, Gregor (Hon.) | Robertson, Gregor (L’hon.) | 2025-05-13T10:45:00 |  |
-
-
-
-**Code:** `MS` – Minister of Seniors / Ministre des Aînés  
-| Seq | Minister (EN) | Minister (FR) | Start Date | End Date |
-|-----|---------------|---------------|------------|----------|
-| 1 | Khera, Kamal (Hon.) | Khera, Kamal (L’hon.) | 2021-10-26T10:30:00 | 2023-07-26T10:29:59 |
-| 2 | Schulte, Deb (Hon.) | Schulte, Deb (L’hon.) | 2019-11-20T15:00:00 | 2021-10-26T10:29:59 |
-
-
-
-**Code:** `MS1` – Minister of Sport / Ministre des sports  
-| Seq | Minister (EN) | Minister (FR) | Start Date | End Date |
-|-----|---------------|---------------|------------|----------|
-| 1 | St-Onge, Pascale (Hon.) | St-Onge, Pascale (L’hon.) | 2021-10-26T10:30:00 | 2023-07-26T10:29:59 |
-
-
-
-**Code:** `MSB` – Minister of Small Business / Ministre de la petite entreprise  
-| Seq | Minister (EN) | Minister (FR) | Start Date | End Date |
-|-----|---------------|---------------|------------|----------|
-| 1 | Valdez, Rechie (Hon.) | Valdez, Rechie (L’hon.) | 2023-07-26T10:30:00 | 2025-03-13T23:59:59 |
-
-
-
-**Code:** `MSBEP` – Minister of Small Business and Export Promotion / Ministre de la Petite Entreprise et de la Promotion des exportations  
-| Seq | Minister (EN) | Minister (FR) | Start Date | End Date |
-|-----|---------------|---------------|------------|----------|
-| 1 | Ng, Mary (Hon.) | Ng, Mary (L’hon.) | 2018-07-18T10:00:00 | 2021-10-26T10:29:59 |
-
-
-
-**Code:** `MSPA` – Minister of Sport and Physical Activity / Ministre des sports et de l’activité physique  
-| Seq | Minister (EN) | Minister (FR) | Start Date | End Date |
-|-----|---------------|---------------|------------|----------|
-| 1 | Qualtrough, Carla (Hon.) | Qualtrough, Carla (L’hon.) | 2023-07-26T10:30:00 | 2024-12-20T11:29:59 |
-
-
-
-**Code:** `MT` – Minister of Transport / Ministre des Transports  
-| Seq | Minister (EN) | Minister (FR) | Start Date | End Date |
-|-----|---------------|---------------|------------|----------|
-| 1 | Anand, Anita (Hon.) | Anand, Anita (L’hon.) | 2024-09-19T11:11:00 | 2024-12-20T11:29:59 |
-| 2 | Rodriguez, Pablo (Hon.) | Rodriguez, Pablo (L’hon.) | 2023-07-26T10:30:00 | 2024-09-19T11:10:59 |
-| 3 | Alghabra, Omar (Hon.) | Alghabra, Omar (L’hon.) | 2021-01-12T00:00:00 | 2023-07-26T10:29:59 |
-| 4 | Garneau, Marc (Hon.) | Garneau, Marc (L’hon.) | 2015-11-04T10:45:00 | 2021-01-11T23:59:59 |
-
-
-
-**Code:** `MT1` – Minister of Tourism / Ministre du tourisme  
-| Seq | Minister (EN) | Minister (FR) | Start Date | End Date |
-|-----|---------------|---------------|------------|----------|
-| 1 | Martinez Ferrada, Soraya (Hon.) | Martinez Ferrada, Soraya (L’hon.) | 2023-07-26T10:30:00 | 2025-02-06T23:59:59 |
-| 2 | Boissonnault, Randy (Hon.) | Boissonnault, Randy (L’hon.) | 2021-10-26T10:30:00 | 2023-07-26T10:29:59 |
-
-
-
-**Code:** `MTIT` – Minister of Transport and Internal Trade / Ministre des transports et du commerce intérieur  
-| Seq | Minister (EN) | Minister (FR) | Start Date | End Date |
-|-----|---------------|---------------|------------|----------|
-| 1 | Freeland, Chrystia (Hon.) | Freeland, Chrystia (L’hon.) | 2025-05-13T10:45:00 |  |
-| 2 | Freeland, Chrystia (Hon.) | Freeland, Chrystia (L’hon.) | 2025-03-14T11:31:00 |  |
-| 3 | Anand, Anita (Hon.) | Anand, Anita (L’hon.) | 2024-12-20T11:30:00 | 2025-03-13T23:59:59 |
-
-
-
-**Code:** `MVA` – Minister of Veterans Affairs / Ministre des Anciens Combattants  
-| Seq | Minister (EN) | Minister (FR) | Start Date | End Date |
-|-----|---------------|---------------|------------|----------|
-| 1 | McKnight, Jill (Hon.) | McKnight, Jill (L’hon.) | 2025-05-13T10:45:00 |  |
-| 2 | Brière, Élisabeth (Hon.) | Brière, Élisabeth (L&#39;hon.) | 2025-03-14T11:31:00 | 2025-05-13T10:44:59 |
-| 3 | Fisher, Darren (Hon.) | Fisher, Darren (L&#39;hon.) | 2024-12-20T11:30:00 | 2025-03-14T11:30:59 |
-| 4 | Petitpas Taylor, Ginette (Hon.) | Petitpas Taylor, Ginette (L’hon.) | 2023-07-26T10:30:00 | 2024-12-20T11:29:59 |
-| 5 | MacAulay, Lawrence (Hon.) | MacAulay, Lawrence (L’hon.) | 2019-03-01T10:30:01 | 2023-07-26T10:29:59 |
-
-
-
-**Code:** `MWGE` – Minister for Women and Gender Equality / Ministre des Femmes et de l’Égalité des genres  
-| Seq | Minister (EN) | Minister (FR) | Start Date | End Date |
-|-----|---------------|---------------|------------|----------|
-| 1 | Monsef, Maryam (Hon.) | Monsef, Maryam (L’hon.) | 2018-12-13T00:00:00 | 2021-10-26T10:29:59 |
-
-
-
-**Code:** `MWGE1` – Minister of Women and Gender Equality / Ministre des femmes et de l’égalité des genres  
-| Seq | Minister (EN) | Minister (FR) | Start Date | End Date |
-|-----|---------------|---------------|------------|----------|
-| 1 | Valdez, Rechie (Hon.) | Valdez, Rechie (L’hon.) | 2025-05-13T10:45:00 |  |
-
-
-
-**Code:** `MWGEY` – Minister for Women and Gender Equality and Youth / Ministre des femmes et de l’égalité des genres et de la jeunesse  
-| Seq | Minister (EN) | Minister (FR) | Start Date | End Date |
-|-----|---------------|---------------|------------|----------|
-| 1 | Ien, Marci (Hon.) | Ien, Marci (L’hon.) | 2021-10-26T10:30:00 | 2025-03-14T11:30:59 |
-
-
-
-**Code:** `PKPCC` – President of the King’s Privy Council for Canada / Président du conseil privé du roi pour le canada  
-| Seq | Minister (EN) | Minister (FR) | Start Date | End Date |
-|-----|---------------|---------------|------------|----------|
-| 1 | LeBlanc, Dominic (Hon.) | LeBlanc, Dominic (L’hon.) | 2025-05-13T10:45:00 |  |
-| 2 | LeBlanc, Dominic (Hon.) | LeBlanc, Dominic (L’hon.) | 2025-03-14T00:00:00 |  |
-| 3 | Sajjan, Harjit S. (Hon.) | Sajjan, Harjit S. (L’hon.) | 2023-07-26T10:30:00 | 2025-03-13T23:59:59 |
-
-
-
-**Code:** `PM` – Prime Minister / Premier ministre  
-| Seq | Minister (EN) | Minister (FR) | Start Date | End Date |
-|-----|---------------|---------------|------------|----------|
-| 1 | Carney, Mark (Right Hon.) | Carney, Mark (Le très hon.) | 2025-03-14T11:31:00 |  |
-| 2 | Carney, Mark (Right Hon.) | Carney, Mark (Le très hon.) | 2025-03-14T11:31:00 | 2025-03-21T00:00:00 |
-| 3 | Trudeau, Justin (Right Hon.) | Trudeau, Justin (Le très hon.) | 2015-11-04T10:45:00 | 2025-03-14T11:30:59 |
-
-
-
-**Code:** `PQPCC` – President of the Queen’s Privy Council for Canada / Président du Conseil privé de la Reine pour le Canada  
-| Seq | Minister (EN) | Minister (FR) | Start Date | End Date |
-|-----|---------------|---------------|------------|----------|
-| 1 | Blair, Bill (Hon.) | Blair, Bill (L’hon.) | 2021-10-26T10:30:00 | 2022-10-10T23:59:59 |
-| 2 | LeBlanc, Dominic (Hon.) | LeBlanc, Dominic (L’hon.) | 2019-11-20T15:00:00 | 2021-10-26T10:29:59 |
-
-
-
-**Code:** `PTB` – President of the Treasury Board / Président du Conseil du Trésor  
-| Seq | Minister (EN) | Minister (FR) | Start Date | End Date |
-|-----|---------------|---------------|------------|----------|
-| 1 | Ali, Shafqat (Hon.) | Ali, Shafqat (L’hon.) | 2025-05-13T10:45:00 |  |
-| 2 | Petitpas Taylor, Ginette (Hon.) | Petitpas Taylor, Ginette (L’hon.) | 2025-03-14T11:31:00 | 2025-05-13T10:44:59 |
-| 3 | Petitpas Taylor, Ginette (Hon.) | Petitpas Taylor, Ginette (L’hon.) | 2024-12-20T11:30:00 | 2025-05-13T10:44:59 |
-| 4 | Anand, Anita (Hon.) | Anand, Anita (L’hon.) | 2023-07-26T10:30:00 | 2024-12-20T11:29:59 |
-| 5 | Fortier, Mona (Hon.) | Fortier, Mona (L’hon.) | 2021-10-26T10:30:00 | 2023-07-26T10:29:59 |
-| 6 | Duclos, Jean-Yves (Hon.) | Duclos, Jean-Yves (L’hon.) | 2019-11-20T15:00:00 | 2021-10-26T10:29:59 |
-
-
-
-**Code:** `SRP` – Special Representative for the Prairies / Représentant spécial pour les Prairies  
-| Seq | Minister (EN) | Minister (FR) | Start Date | End Date |
-|-----|---------------|---------------|------------|----------|
-| 1 | Carr, Jim (Hon.) | Carr, Jim (L’hon.) | 2021-01-12T00:00:00 | 2021-10-26T10:29:59 |
-
-
-
-**Code:** `SSCC` – Secretary of State (Combatting Crime) / Secrétaire d’état (lutte contre la criminalité)  
-| Seq | Minister (EN) | Minister (FR) | Start Date | End Date |
-|-----|---------------|---------------|------------|----------|
-| 1 | Sahota, Ruby (Hon.) | Sahota, Ruby (L’hon.) | 2025-05-13T10:45:00 |  |
-
-
-
-**Code:** `SSCRAFI` – Secretary of State (Canada Revenue Agency and Financial Institutions) / Secrétaire d’état (agence du revenu du canada et institutions financières)  
-| Seq | Minister (EN) | Minister (FR) | Start Date | End Date |
-|-----|---------------|---------------|------------|----------|
-| 1 | Long, Wayne (Hon.) | Long, Wayne (L’hon.) | 2025-05-13T10:45:00 |  |
-
-
-
-**Code:** `SSCY` – Secretary of State (Children and Youth) / Secrétaire d’état (enfance et jeunesse)  
-| Seq | Minister (EN) | Minister (FR) | Start Date | End Date |
-|-----|---------------|---------------|------------|----------|
-| 1 | Gainey, Anna (Hon.) | Gainey, Anna (L’hon.) | 2025-05-13T10:45:00 |  |
-
-
-
-**Code:** `SSDP` – Secretary of State (Defence Procurement) / Secrétaire d’état (approvisionnement en matière de défense)  
-| Seq | Minister (EN) | Minister (FR) | Start Date | End Date |
-|-----|---------------|---------------|------------|----------|
-| 1 | Fuhr, Stephen (Hon.) | Fuhr, Stephen (L’hon.) | 2025-05-13T10:45:00 |  |
-
-
-
-**Code:** `SSID` – Secretary of State (International Development) / Secrétaire d’état (développement international)  
-| Seq | Minister (EN) | Minister (FR) | Start Date | End Date |
-|-----|---------------|---------------|------------|----------|
-| 1 | Sarai, Randeep (Hon.) | Sarai, Randeep (L’hon.) | 2025-05-13T10:45:00 |  |
-
-
-
-**Code:** `SSL` – Secretary of State (Labour) / Secrétaire d’état (travail)  
-| Seq | Minister (EN) | Minister (FR) | Start Date | End Date |
-|-----|---------------|---------------|------------|----------|
-| 1 | Zerucelli, John (Hon.) | Zerucelli, John (L’hon.) | 2025-05-13T10:45:00 |  |
-
-
-
-**Code:** `SSN` – Secretary of State (Nature) / Secrétaire d’état (nature)  
-| Seq | Minister (EN) | Minister (FR) | Start Date | End Date |
-|-----|---------------|---------------|------------|----------|
-| 1 | Provost, Nathalie (Hon.) | Provost, Nathalie (L’hon.) | 2025-05-13T10:45:00 |  |
-
-
-
-**Code:** `SSRD` – Secretary of State (Rural Development) / Secrétaire d’état (développement rural)  
-| Seq | Minister (EN) | Minister (FR) | Start Date | End Date |
-|-----|---------------|---------------|------------|----------|
-| 1 | Belanger, Buckley (Hon.) | Belanger, Buckley (L’hon.) | 2025-05-13T10:45:00 |  |
-
-
-
-**Code:** `SSS` – Secretary of State (Seniors) / Secrétaire d’état (aînés)  
-| Seq | Minister (EN) | Minister (FR) | Start Date | End Date |
-|-----|---------------|---------------|------------|----------|
-| 1 | McLean, Stephanie (Hon.) | McLean, Stephanie (L’hon.) | 2025-05-13T10:45:00 |  |
-
-
-
-**Code:** `SSS1` – Secretary of State (Sport) / Secrétaire d’état (sports)  
-| Seq | Minister (EN) | Minister (FR) | Start Date | End Date |
-|-----|---------------|---------------|------------|----------|
-| 1 | van Koeverden, Adam (Hon.) | van Koeverden, Adam (L’hon.) | 2025-05-13T10:45:00 |  |
-
-
-
-**Code:** `SSSBT` – Secretary of State (Small Business and Tourism) / Secrétaire d’état (petites entreprises et tourisme)  
-| Seq | Minister (EN) | Minister (FR) | Start Date | End Date |
-|-----|---------------|---------------|------------|----------|
-| 1 | Valdez, Rechie (Hon.) | Valdez, Rechie (L’hon.) | 2025-05-13T10:45:00 |  |
-
+##### Allowed Values (minister)
+
+| Code | Label (EN) | Label (FR) |
+|------|------------|------------|
+| `AGC` | Attorney General of Canada | Procureur général du Canada |
+| `AMF` | Associate Minister of Finance | Ministre associée des Finances |
+| `AMH` | Associate Minister of Health | Ministre associée de la santé |
+| `AMND` | Associate Minister of National Defence | Ministre associé de la Défense nationale |
+| `AMPS` | Associate Minister of Public Safety | Ministre associée de la sécurité publique |
+| `CGW` | Chief government whip | Whip en chef du gouvernement |
+| `DPM` | Deputy Prime Minister | Vice-première ministre |
+| `LGHC` | Leader of the Government in the House of Commons | Leader du gouvernement à la Chambre des communes |
+| `MAA` | Minister of Agriculture and Agri-Food | Ministre de l&#39;Agriculture et de l&#39;Agroalimentaire |
+| `MAARED` | Minister of Agriculture and Agri-Food and Rural Economic Development | Ministre de l’agriculture et de l’agroalimentaire et du développement économique rural |
+| `MAIDI` | Minister of Artificial Intelligence and Digital Innovation | Ministre de l’intelligence artificielle et de l’innovation numérique |
+| `MCCIPC` | Minister of Canadian Culture and Identity, Parks Canada | Ministre de la culture et de l’identité canadiennes, parcs canada |
+| `MCH` | Minister of Canadian Heritage | Ministre du Patrimoine canadien |
+| `MCIC` | Minister of Canadian Identity and Culture | Ministre de l’identité et de la culture canadiennes |
+| `MCR` | Minister of Crown-Indigenous Relations | Ministre des Relations Couronne-Autochtones |
+| `MCRNA` | Minister of Crown-Indigenous Relations and Northern Affairs | Ministre des relations couronne-autochtones et des affaires du nord |
+| `MCS` | Minister of Citizens’ Services | Ministre des services aux citoyens |
+| `MDG` | Minister of Digital Government | Ministre du Gouvernement numérique |
+| `MDI` | Minister of Democratic Institutions | Ministre des institutions démocratiques |
+| `MDIPD` | Minister of Diversity, Inclusion and Persons with Disabilities | Ministre de la diversité, de l’inclusion et des personnes en situation de handicap |
+| `MDIY` | Minister of Diversity and Inclusion and Youth | Ministre de la Diversité et de l’Inclusion et de la Jeunesse |
+| `MECC` | Minister of Environment and Climate Change | Ministre de l&#39;Environnement et du Changement climatique |
+| `MED` | Minister of Economic Development | Ministre du Développement économique |
+| `MEMCR` | Minister of Emergency Management and Community Resilience | Ministre de la gestion des urgences et de la résilience des communautés |
+| `MENR` | Minister of Energy and Natural Resources | Ministre de l’énergie et des ressources naturelles |
+| `MEP` | Minister of Emergency Preparedness | Ministre de la protection civile |
+| `MEPITED` | Minister of Export Promotion, International Trade and Economic Development | Ministre de la promotion des exportations, du commerce international et du développement économique |
+| `MEWDDI` | Minister of Employment, Workforce Development and Disability Inclusion | Ministre de l’Emploi, du Développement de la main-d’œuvre et de l&#39;Inclusion des personnes handicapées |
+| `MEWDL` | Minister of Employment, Workforce Development and Labour | Ministre de l’emploi, du développement de la main-d’œuvre et du travail |
+| `MEWDOL` | Minister of Employment, Workforce Development and Official Languages | Ministre de l’emploi, du développement de la main-d’œuvre et des langues officielles |
+| `MF` | Minister of Finance | Ministre des Finances |
+| `MF1` | Minister of Fisheries | Ministre des pêches |
+| `MFA` | Minister of Foreign Affairs | Ministre des Affaires étrangères |
+| `MFAID` | Minister of Foreign Affairs and International Development | Ministre des affaires étrangères et du développement international |
+| `MFCSD` | Minister of Families, Children and Social Development | Ministre de la Famille, des Enfants et du Développement social |
+| `MFNR` | Minister of Finance and National Revenue | Ministre des finances et du revenu national |
+| `MFOCCG` | Minister of Fisheries, Oceans and the Canadian Coast Guard | Ministre des Pêches, des Océans et de la Garde côtière canadienne |
+| `MGTPSP` | Minister of Government Transformation, Public Services and Procurement | Ministre de la transformation du gouvernement, des services publics et de l’approvisionnement |
+| `MGTPWP` | Minister of Government Transformation, Public Works and Procurement | Ministre de la transformation du gouvernement, des travaux publics et de l’approvisionnement |
+| `MH` | Minister of Health | Ministre de la Santé |
+| `MHDI` | Minister of Housing and Diversity and Inclusion | Ministre du logement et de la diversité et de l’inclusion |
+| `MHI` | Minister of Housing and Infrastructure | Ministre du logement et de l’infrastructure |
+| `MHIC` | Minister of Housing, Infrastructure and Communities | Ministre du logement, de l’infrastructure et des collectivités |
+| `MI` | Minister of Industry | Ministre de l’industrie |
+| `MIA` | Minister of Intergovernmental Affairs | Ministre des Affaires intergouvernementales |
+| `MIAIC` | Minister of Intergovernmental Affairs, Infrastructure and Communities | Ministre des affaires intergouvernementales, de l’infrastructure et des collectivités |
+| `MIC` | Minister of Infrastructure and Communities | Ministre de l&#39;Infrastructure et des Collectivités |
+| `MID` | Minister of International Development | Ministre du Développement international |
+| `MIRC` | Minister of Immigration, Refugees and Citizenship | Ministre de l’Immigration, des Réfugiés et de la Citoyenneté |
+| `MIS` | Minister of Indigenous Services | Ministre des Services aux Autochtones |
+| `MISI` | Minister of Innovation, Science and Industry | Ministre de l&#39;Innovation, des Sciences et de l&#39;Industrie |
+| `MIT` | Minister of International Trade | Ministre du Commerce international |
+| `MITEPSBED` | Minister of International Trade, Export Promotion, Small Business and Economic Development | Ministre du commerce international, de la promotion des exportations, de la petite entreprise et du développement économique |
+| `MITIA` | Minister of International Trade and Intergovernmental Affairs | Ministre du commerce international et des affaires intergouvernementales |
+| `MJ` | Minister of Justice | Ministre de la Justice |
+| `MJF` | Minister of Jobs and Families | Ministre de l’emploi et des familles |
+| `ML` | Minister of Labour | Ministre du Travail |
+| `MLS` | Minister of Labour and Seniors | Ministre du travail et des aînés |
+| `MMCP` | Minister of Middle Class Prosperity | Ministre de la Prospérité de la classe moyenne |
+| `MMHA` | Minister of Mental Health and Addictions | Ministre de la santé mentale et des dépendances |
+| `MNA` | Minister of Northern Affairs | Ministre des Affaires du Nord |
+| `MNAA` | Minister of Northern and Arctic Affairs | Ministre des affaires du nord et de l’arctique |
+| `MND` | Minister of National Defence | Ministre de la Défense nationale |
+| `MNR` | Minister of National Revenue | Ministre du Revenu national |
+| `MNR1` | Minister of Natural Resources | Ministre des Ressources naturelles |
+| `MOL` | Minister of Official Languages | Ministre des Langues officielles |
+| `MPS` | Minister of Public Safety | Ministre de la sécurité publique |
+| `MPSDIIA` | Minister of Public Safety, Democratic Institutions and Intergovernmental Affairs | Ministre de la sécurité publique, des institutions démocratiques et des affaires intergouvernementales |
+| `MPSEP` | Minister of Public Safety and Emergency Preparedness | Ministre de la Sécurité publique et de la Protection civile |
+| `MPSP` | Minister of Public Services and Procurement | Ministre des Services publics et de l’Approvisionnement |
+| `MRACOA` | Minister responsible for the Atlantic Canada Opportunities Agency | Ministre responsable de l’agence de promotion économique du canada atlantique |
+| `MRCEDQR` | Minister responsible for Canada Economic Development for Quebec Regions | Ministre responsable de développement économique canada pour les régions du québec |
+| `MRCNEDA` | Minister responsible for the Canadian Northern Economic Development Agency | Ministre responsable de l’agence canadienne de développement économique du nord |
+| `MRCRA` | Minister responsible for the Canada Revenue Agency | Ministre responsable de l’agence du revenu du canada |
+| `MRCTIAOCE` | Minister responsible for Canada-U.S. Trade, Intergovernmental Affairs and One Canadian Economy | Ministre responsable du commerce canada–états-unis, des affaires intergouvernementales et de l’unité de l’économie canadienne |
+| `MRED` | Minister of Rural Economic Development | Ministre du Développement économique rural |
+| `MREDACRQ` | Minister responsible for the Economic Development Agency of Canada for the Regions of Quebec | Ministre responsable de l’agence de développement économique du canada pour les régions du québec |
+| `MRFEDANO` | Minister responsible for the Federal Economic Development Agency for Northern Ontario | Ministre responsable de l’agence fédérale de développement économique pour le nord de l’ontario |
+| `MRFEDASO` | Minister responsible for the Federal Economic Development Agency for Southern Ontario | Ministre responsable de l’agence fédérale de développement économique pour le sud de l’ontario |
+| `MROL` | Minister responsible for Official Languages | Ministre responsable des langues officielles |
+| `MRPEDAC` | Minister responsible for the Pacific Economic Development Agency of Canada | Ministre responsable de l’agence de développement économique du pacifique canada |
+| `MRPEDC` | Minister responsible for Prairies Economic Development Canada | Ministre responsable de développement économique canada pour les prairies |
+| `MRPEDC1` | Minister responsible for Pacific Economic Development Canada | Ministre responsable de développement économique canada pour le pacifique |
+| `MS` | Minister of Seniors | Ministre des Aînés |
+| `MS1` | Minister of Sport | Ministre des sports |
+| `MSB` | Minister of Small Business | Ministre de la petite entreprise |
+| `MSBEP` | Minister of Small Business and Export Promotion | Ministre de la Petite Entreprise et de la Promotion des exportations |
+| `MSPA` | Minister of Sport and Physical Activity | Ministre des sports et de l’activité physique |
+| `MT` | Minister of Transport | Ministre des Transports |
+| `MT1` | Minister of Tourism | Ministre du tourisme |
+| `MTIT` | Minister of Transport and Internal Trade | Ministre des transports et du commerce intérieur |
+| `MVA` | Minister of Veterans Affairs | Ministre des Anciens Combattants |
+| `MWGE` | Minister for Women and Gender Equality | Ministre des Femmes et de l’Égalité des genres |
+| `MWGE1` | Minister of Women and Gender Equality | Ministre des femmes et de l’égalité des genres |
+| `MWGEY` | Minister for Women and Gender Equality and Youth | Ministre des femmes et de l’égalité des genres et de la jeunesse |
+| `PKPCC` | President of the King’s Privy Council for Canada | Président du conseil privé du roi pour le canada |
+| `PM` | Prime Minister | Premier ministre |
+| `PQPCC` | President of the Queen’s Privy Council for Canada | Président du Conseil privé de la Reine pour le Canada |
+| `PTB` | President of the Treasury Board | Président du Conseil du Trésor |
+| `SRP` | Special Representative for the Prairies | Représentant spécial pour les Prairies |
+| `SSCC` | Secretary of State (Combatting Crime) | Secrétaire d’état (lutte contre la criminalité) |
+| `SSCRAFI` | Secretary of State (Canada Revenue Agency and Financial Institutions) | Secrétaire d’état (agence du revenu du canada et institutions financières) |
+| `SSCY` | Secretary of State (Children and Youth) | Secrétaire d’état (enfance et jeunesse) |
+| `SSDP` | Secretary of State (Defence Procurement) | Secrétaire d’état (approvisionnement en matière de défense) |
+| `SSID` | Secretary of State (International Development) | Secrétaire d’état (développement international) |
+| `SSL` | Secretary of State (Labour) | Secrétaire d’état (travail) |
+| `SSN` | Secretary of State (Nature) | Secrétaire d’état (nature) |
+| `SSRD` | Secretary of State (Rural Development) | Secrétaire d’état (développement rural) |
+| `SSS` | Secretary of State (Seniors) | Secrétaire d’état (aînés) |
+| `SSS1` | Secretary of State (Sport) | Secrétaire d’état (sports) |
+| `SSSBT` | Secretary of State (Small Business and Tourism) | Secrétaire d’état (petites entreprises et tourisme) |
 
 
 
@@ -1252,7 +358,7 @@ FR: Ce champ affichera tout renseignement supplémentaire, en français, selon l
 | Field ID | Label (EN / FR) | Type | Required | Max Chars | Choices | Description (EN) |
 |----------|-----------------|------|----------|-----------|---------|------------------|
 | `year` | Year / Année | `year` | Yes |  |  | This tab / field in the template is only populated if there are no question per… |
-| `reporting_period` | Reporting Period / Période de déclaration | `text` | Yes |  | qpnotes__reporting_period | This tab / field in the template is only populated if there are no briefing not… |
+| `reporting_period` | Reporting Period / Période de déclaration | `text` | Yes |  | reporting_period | This tab / field in the template is only populated if there are no briefing not… |
 
 
 **Legend:** *Required* = must appear in uploads; *Choices* = enumerated allowed values (shows choice set name when multiple sets exist).
@@ -1279,7 +385,7 @@ FR: Cet onglet/champ du modèle n’est rempli que s'il n'y a pas de notes pour 
 **Type:** `text`  
 **Required:** Yes  
 **Validation:** This field must not be empty / Ce champ ne doit pas être vide  
-**Choice Set:** qpnotes__reporting_period (2 values)  
+**Choice Set:** reporting_period (2 values)  
 
 
 **Description:**  
@@ -1287,12 +393,12 @@ EN: This tab / field in the template is only populated if there are no briefing 
 FR: Cet onglet/champ du modèle n’est rempli que s'il n'y a pas de note pour la période de questions pour la période d’établissement de rapports. Ce champ doit être rempli avec la période d’établissement de rapports.
 
 
-##### Allowed Values (qpnotes__reporting_period)
+##### Allowed Values (reporting_period)
 
 | Code | Label (EN) | Label (FR) |
 |------|------------|------------|
-| `P01` | Jan. - June | jan. - juin | 0 |
-| `P02` | July - Dec. | juil. - déc. | 0 |
+| `P01` | Jan. - June | jan. - juin |
+| `P02` | July - Dec. | juil. - déc. |
 
 
 
@@ -1307,123 +413,18 @@ FR: Cet onglet/champ du modèle n’est rempli que s'il n'y a pas de note pour l
 ### Choice Sets Summary (All Resources)
 | Choice Set | Field(s) | Values | Standalone Doc |
 |------------|----------|--------|----------------|
-| qpnotes__minister | minister | 111 |  |
-| qpnotes__reporting_period | reporting_period | 2 |  |
 
 
 ### Generation Metadata
 
-- Generated: 2025-07-20T07:53:16 (UTC)
+- Generated: 2025-07-20T13:05:46 (UTC)
 - Source: dictionaries/qpnotes.json
-- Commit: `abcc2b2`
-- Tool Version: 0.4.0
+- Commit: `c2020e2`
+- Tool Version: simple-1
 
 ### Validation
 
-- JSON Schema Validation: **FAILED**
-
-**Warnings:**
-
-- Schema error at notes: {'en': 'Access, upload and modify Question Period notes for your organization', 'fr': 'Accès, téléversement et modifications des notes de la période de questions pour votre organisation'} is not of type 'string'
-
-- Schema error at resources/0/fields/0: 'datastore_id' is a required property
-
-- Schema error at resources/0/fields/1: 'datastore_id' is a required property
-
-- Schema error at resources/0/fields/2: 'datastore_id' is a required property
-
-- Schema error at resources/0/fields/3: 'datastore_id' is a required property
-
-- Schema error at resources/0/fields/3/choices/AGC: {'en': 'Attorney General of Canada', 'fr': 'Procureur général du Canada', 'ministers': [{'end_date': '', 'name': 'Sean Fraser', 'name_en': 'Fraser, Sean (Hon.)', 'name_fr': 'Fraser, Sean (L’hon.)', 'start_date': '2025-05-13T10:45:00'}, {'end_date': '2025-05-13T10:44:59', 'name': 'Gary Anandasangaree', 'name_en': 'Anandasangaree, Gary (Hon.)', 'name_fr': 'Anandasangaree, Gary (L’hon.)', 'start_date': '2025-03-14T11:31:00'}, {'end_date': '2025-03-14T11:30:59', 'name': 'Arif Virani', 'name_en': 'Virani, Arif (Hon.)', 'name_fr': 'Virani, Arif (L’hon.)', 'start_date': '2023-07-26T10:30:00'}, {'end_date': '2023-07-26T10:29:59', 'name': 'David Lametti', 'name_en': 'Lametti, David (Hon.)', 'name_fr': 'Lametti, David (L’hon.)', 'start_date': '2019-01-14T10:00:01'}]} is not valid under any of the given schemas
-
-- Schema error at resources/0/fields/3/choices/AMF: {'en': 'Associate Minister of Finance', 'fr': 'Ministre associée des Finances', 'ministers': [{'end_date': '2023-07-26T10:29:59', 'name': 'Randy Boissonnault', 'name_en': 'Boissonnault, Randy (Hon.)', 'name_fr': 'Boissonnault, Randy (L’hon.)', 'start_date': '2021-10-26T10:30:00'}, {'end_date': '2021-10-26T10:29:59', 'name': 'Mona Fortier', 'name_en': 'Fortier, Mona (Hon.)', 'name_fr': 'Fortier, Mona (L’hon.)', 'start_date': '2019-11-20T15:00:00'}]} is not valid under any of the given schemas
-
-- Schema error at resources/0/fields/3/choices/AMH: {'en': 'Associate Minister of Health', 'fr': 'Ministre associée de la santé', 'ministers': [{'end_date': '2025-03-14T11:30:59', 'name': "Ya'ara Saks", 'name_en': "Saks, Ya'ara (Hon.)", 'name_fr': "Saks, Ya'ara (L’hon.)", 'start_date': '2023-07-26T10:30:00'}, {'end_date': '2023-07-26T10:29:59', 'name': 'Carolyn Bennett', 'name_en': 'Bennett, Carolyn (Hon.)', 'name_fr': 'Bennett, Carolyn (L’hon.)', 'start_date': '2021-10-26T10:30:00'}]} is not valid under any of the given schemas
-
-- Schema error at resources/0/fields/3/choices/AMND: {'en': 'Associate Minister of National Defence', 'fr': 'Ministre associé de la Défense nationale', 'ministers': [{'end_date': '2025-03-14T11:30:59', 'name': 'Darren Fisher', 'name_en': 'Fisher, Darren (Hon.)', 'name_fr': "Fisher, Darren (L'hon.)", 'start_date': '2024-12-20T11:30:00'}, {'end_date': '2024-12-20T11:29:59', 'name': 'Ginette Petitpas Taylor', 'name_en': 'Petitpas Taylor, Ginette (Hon.)', 'name_fr': 'Petitpas Taylor, Ginette (L’hon.)', 'start_date': '2023-07-26T10:30:00'}, {'end_date': '2023-07-26T10:29:59', 'name': 'Lawrence MacAulay', 'name_en': 'MacAulay, Lawrence (Hon.)', 'name_fr': 'MacAulay, Lawrence (L’hon.)', 'start_date': '2019-03-01T10:30:01'}]} is not valid under any of the given schemas
-
-- Schema error at resources/0/fields/3/choices/AMPS: {'en': 'Associate Minister of Public Safety', 'fr': 'Ministre associée de la sécurité publique', 'ministers': [{'end_date': '2025-03-13T23:59:59', 'name': 'Rachel Bendayan', 'name_en': 'Bendayan, Rachel (Hon.)', 'name_fr': "Bendayan, Rachel (L'hon.)", 'start_date': '2024-12-20T11:30:00'}]} is not valid under any of the given schemas
-
-- Schema error at resources/0/fields/3/choices/CGW: {'en': 'Chief government whip', 'fr': 'Whip en chef du gouvernement', 'ministers': [{'end_date': '2025-05-13T10:44:59', 'name': 'Rechie Valdez', 'name_en': 'Valdez, Rechie (Hon.)', 'name_fr': 'Valdez, Rechie (L’hon.)', 'start_date': '2025-03-14T11:31:00'}]} is not valid under any of the given schemas
-
-- Schema error at resources/0/fields/3/choices/DPM: {'en': 'Deputy Prime Minister', 'fr': 'Vice-première ministre', 'ministers': [{'end_date': '2024-12-15T23:59:59', 'name': 'Chrystia Freeland', 'name_en': 'Freeland, Chrystia (Hon.)', 'name_fr': 'Freeland, Chrystia (L’hon.)', 'start_date': '2019-11-20T15:00:00'}]} is not valid under any of the given schemas
-
-- Schema error at resources/0/fields/3/choices/LGHC: {'en': 'Leader of the Government in the House of Commons', 'fr': 'Leader du gouvernement à la Chambre des communes', 'ministers': [{'end_date': '', 'name': 'Steven MacKinnon', 'name_en': 'MacKinnon, Steven (Hon.)', 'name_fr': 'MacKinnon, Steven (L’hon.)', 'start_date': '2025-05-13T10:45:00'}, {'end_date': '2025-03-23T23:59:59', 'name': 'Arielle Kayabaga', 'name_en': 'Kayabaga, Arielle (Hon.)', 'name_fr': "Kayabaga, Arielle (L'hon.)", 'start_date': '2025-03-14T11:31:00'}, {'end_date': '2025-01-23T23:59:59', 'name': 'Karina Gould', 'name_en': 'Gould, Karina (Hon.)', 'name_fr': 'Gould, Karina (L’hon.)', 'start_date': '2023-07-26T10:30:00'}, {'end_date': '2023-07-26T10:29:59', 'name': 'Mark Holland', 'name_en': 'Holland, Mark (Hon.)', 'name_fr': 'Holland, Mark (L’hon.)', 'start_date': '2021-10-26T10:30:00'}, {'end_date': '2021-10-26T10:29:59', 'name': 'Pablo Rodriguez', 'name_en': 'Rodriguez, Pablo (Hon.)', 'name_fr': 'Rodriguez, Pablo (L’hon.)', 'start_date': '2019-11-20T15:00:00'}]} is not valid under any of the given schemas
-
-- Schema error at resources/0/fields/3/choices/MAA: {'en': 'Minister of Agriculture and Agri-Food', 'fr': "Ministre de l'Agriculture et de l'Agroalimentaire", 'ministers': [{'end_date': '', 'name': 'Heath MacDonald', 'name_en': 'MacDonald, Heath (Hon.)', 'name_fr': 'MacDonald, Heath (L’hon.)', 'start_date': '2025-05-13T10:45:00'}, {'end_date': '2025-03-14T11:30:59', 'name': 'Lawrence MacAulay', 'name_en': 'MacAulay, Lawrence (Hon.)', 'name_fr': 'MacAulay, Lawrence (L’hon.)', 'start_date': '2023-07-26T10:30:00'}, {'end_date': '2023-07-26T10:29:59', 'name': 'Marie-Claude Bibeau', 'name_en': 'Bibeau, Marie-Claude (Hon.)', 'name_fr': 'Bibeau, Marie-Claude (L’hon.)', 'start_date': '2019-03-01T10:30:01'}]} is not valid under any of the given schemas
-
-- Schema error at resources/0/fields/3/choices/MAARED: {'en': 'Minister of Agriculture and Agri-Food and Rural Economic Development', 'fr': 'Ministre de l’agriculture et de l’agroalimentaire et du développement économique rural', 'ministers': [{'end_date': '2025-05-13T10:44:59', 'name': 'Kody Blois', 'name_en': 'Blois, Kody (Hon.)', 'name_fr': 'Blois, Kody (L’hon.)', 'start_date': '2025-03-14T11:31:00'}]} is not valid under any of the given schemas
-
-- Schema error at resources/0/fields/3/choices/MAIDI: {'en': 'Minister of Artificial Intelligence and Digital Innovation', 'fr': 'Ministre de l’intelligence artificielle et de l’innovation numérique', 'ministers': [{'end_date': '', 'name': 'Evan Solomon', 'name_en': 'Solomon, Evan (Hon.)', 'name_fr': 'Solomon, Evan (L’hon.)', 'start_date': '2025-05-13T10:45:00'}]} is not valid under any of the given schemas
-
-- Schema error at resources/0/fields/3/choices/MCCIPC: {'en': 'Minister of Canadian Culture and Identity, Parks Canada', 'fr': 'Ministre de la culture et de l’identité canadiennes, parcs canada', 'ministers': [{'end_date': '2025-05-13T10:44:59', 'name': 'Steven Guilbeault', 'name_en': 'Guilbeault, Steven (Hon.)', 'name_fr': 'Guilbeault, Steven (L’hon.)', 'start_date': '2025-03-14T11:31:00'}]} is not valid under any of the given schemas
-
-- Schema error at resources/0/fields/3/choices/MCH: {'en': 'Minister of Canadian Heritage', 'fr': 'Ministre du Patrimoine canadien', 'ministers': [{'end_date': '2025-03-14T11:30:59', 'name': 'Pascale St-Onge', 'name_en': 'St-Onge, Pascale (Hon.)', 'name_fr': 'St-Onge, Pascale (L’hon.)', 'start_date': '2023-07-26T10:30:00'}, {'end_date': '2023-07-26T10:29:59', 'name': 'Pablo Rodriguez', 'name_en': 'Rodriguez, Pablo (Hon.)', 'name_fr': 'Rodriguez, Pablo (L’hon.)', 'start_date': '2021-10-26T10:30:00'}, {'end_date': '2021-10-26T10:29:59', 'name': 'Steven Guilbeault', 'name_en': 'Guilbeault, Steven (Hon.)', 'name_fr': 'Guilbeault, Steven (L’hon.)', 'start_date': '2019-11-20T15:00:00'}]} is not valid under any of the given schemas
-
-- Schema error at resources/0/fields/3/choices/MCIC: {'en': 'Minister of Canadian Identity and Culture', 'fr': 'Ministre de l’identité et de la culture canadiennes', 'ministers': [{'end_date': '', 'name': 'Steven Guilbeault', 'name_en': 'Guilbeault, Steven (Hon.)', 'name_fr': 'Guilbeault, Steven (L’hon.)', 'start_date': '2025-05-13T10:45:00'}]} is not valid under any of the given schemas
-
-- Schema error at resources/0/fields/3/choices/MCR: {'en': 'Minister of Crown-Indigenous Relations', 'fr': 'Ministre des Relations Couronne-Autochtones', 'ministers': [{'end_date': '', 'name': 'Rebecca Alty', 'name_en': 'Alty, Rebecca (Hon.)', 'name_fr': 'Alty, Rebecca (L’hon.)', 'start_date': '2025-05-13T10:45:00'}, {'end_date': '2024-12-20T11:29:59', 'name': 'Gary Anandasangaree', 'name_en': 'Anandasangaree, Gary (Hon.)', 'name_fr': 'Anandasangaree, Gary (L’hon.)', 'start_date': '2023-07-26T10:30:00'}, {'end_date': '2023-07-26T10:29:59', 'name': 'Marc Miller', 'name_en': 'Miller, Marc (Hon.)', 'name_fr': 'Miller, Marc (L’hon.)', 'start_date': '2021-10-26T10:30:00'}, {'end_date': '2021-10-26T10:29:59', 'name': 'Carolyn Bennett', 'name_en': 'Bennett, Carolyn (Hon.)', 'name_fr': 'Bennett, Carolyn (L’hon.)', 'start_date': '2017-08-28T13:12:00'}]} is not valid under any of the given schemas
-
-- Schema error at resources/0/fields/3/choices/MCRNA: {'en': 'Minister of Crown-Indigenous Relations and Northern Affairs', 'fr': 'Ministre des relations couronne-autochtones et des affaires du nord', 'ministers': [{'end_date': '2025-05-13T10:44:59', 'name': 'Gary Anandasangaree', 'name_en': 'Anandasangaree, Gary (Hon.)', 'name_fr': 'Anandasangaree, Gary (L’hon.)', 'start_date': '2025-03-14T11:31:00'}, {'end_date': '2025-03-14T11:30:59', 'name': 'Gary Anandasangaree', 'name_en': 'Anandasangaree, Gary (Hon.)', 'name_fr': 'Anandasangaree, Gary (L’hon.)', 'start_date': '2024-12-20T11:30:00'}]} is not valid under any of the given schemas
-
-- Schema error at resources/0/fields/3/choices/MCS: {'en': 'Minister of Citizens’ Services', 'fr': 'Ministre des services aux citoyens', 'ministers': [{'end_date': '2025-03-14T11:30:59', 'name': 'Terry Beech', 'name_en': 'Beech, Terry (Hon.)', 'name_fr': 'Beech, Terry (L’hon.)', 'start_date': '2023-07-26T10:30:00'}]} is not valid under any of the given schemas
-
-- Schema error at resources/0/fields/3/choices/MDG: {'en': 'Minister of Digital Government', 'fr': 'Ministre du Gouvernement numérique', 'ministers': [{'end_date': '2021-10-26T10:29:59', 'name': 'Joyce Murray', 'name_en': 'Murray, Joyce (Hon.)', 'name_fr': 'Murray, Joyce (L’hon.)', 'start_date': '2019-03-18T00:00:00'}]} is not valid under any of the given schemas
-
-- Schema error at resources/0/fields/3/choices/MDI: {'en': 'Minister of Democratic Institutions', 'fr': 'Ministre des institutions démocratiques', 'ministers': [{'end_date': '2025-05-13T10:44:59', 'name': 'Arielle Kayabaga', 'name_en': 'Kayabaga, Arielle (Hon.)', 'name_fr': "Kayabaga, Arielle (L'hon.)", 'start_date': '2025-03-14T11:31:00'}, {'end_date': '2025-03-14T11:30:59', 'name': 'Ruby Sahota', 'name_en': 'Sahota, Ruby (Hon.)', 'name_fr': 'Sahota, Ruby (L’hon.)', 'start_date': '2024-12-20T11:30:00'}]} is not valid under any of the given schemas
-
-- Schema error at resources/0/fields/3/choices/MDIPD: {'en': 'Minister of Diversity, Inclusion and Persons with Disabilities', 'fr': 'Ministre de la diversité, de l’inclusion et des personnes en situation de handicap', 'ministers': [{'end_date': '2025-03-13T23:59:59', 'name': 'Kamal Khera', 'name_en': 'Khera, Kamal (Hon.)', 'name_fr': 'Khera, Kamal (L’hon.)', 'start_date': '2023-07-26T10:30:00'}]} is not valid under any of the given schemas
-
-- Schema error at resources/0/fields/3/choices/MDIY: {'en': 'Minister of Diversity and Inclusion and Youth', 'fr': 'Ministre de la Diversité et de l’Inclusion et de la Jeunesse', 'ministers': [{'end_date': '2021-10-26T10:29:59', 'name': 'Bardish Chagger', 'name_en': 'Chagger, Bardish (Hon.)', 'name_fr': 'Chagger, Bardish (L’hon.)', 'start_date': '2019-11-20T15:00:00'}]} is not valid under any of the given schemas
-
-- Schema error at resources/0/fields/3/choices/MECC: {'en': 'Minister of Environment and Climate Change', 'fr': "Ministre de l'Environnement et du Changement climatique", 'ministers': [{'end_date': '', 'name': 'Julie Dabrusin', 'name_en': 'Dabrusin, Julie (Hon.)', 'name_fr': 'Dabrusin, Julie (L’hon.)', 'start_date': '2025-05-13T10:45:00'}, {'end_date': '2025-05-13T10:44:59', 'name': 'Terry Duguid', 'name_en': 'Duguid, Terry (Hon.)', 'name_fr': "Duguid, Terry (L'hon.)", 'start_date': '2025-03-14T11:31:00'}, {'end_date': '2025-03-13T23:59:59', 'name': 'Steven Guilbeault', 'name_en': 'Guilbeault, Steven (Hon.)', 'name_fr': 'Guilbeault, Steven (L’hon.)', 'start_date': '2021-10-26T10:30:00'}, {'end_date': '2021-10-26T10:29:59', 'name': 'Jonathan Wilkinson', 'name_en': 'Wilkinson, Jonathan (Hon.)', 'name_fr': 'Wilkinson, Jonathan (L’hon.)', 'start_date': '2019-11-20T15:00:00'}]} is not valid under any of the given schemas
-
-- Schema error at resources/0/fields/3/choices/MED: {'en': 'Minister of Economic Development', 'fr': 'Ministre du Développement économique', 'ministers': [{'end_date': '2021-10-26T10:29:59', 'name': 'Mélanie Joly', 'name_en': 'Joly, Mélanie (Hon.)', 'name_fr': 'Joly, Mélanie (L’hon.)', 'start_date': '2019-11-20T15:00:00'}]} is not valid under any of the given schemas
-
-- Schema error at resources/0/fields/3/choices/MEMCR: {'en': 'Minister of Emergency Management and Community Resilience', 'fr': 'Ministre de la gestion des urgences et de la résilience des communautés', 'ministers': [{'end_date': '', 'name': 'Eleanor Olszewski', 'name_en': 'Olszewski, Eleanor (Hon.)', 'name_fr': 'Olszewski, Eleanor (L’hon.)', 'start_date': '2025-05-13T10:45:00'}]} is not valid under any of the given schemas
-
-- Schema error at resources/0/fields/3/choices/MENR: {'en': 'Minister of Energy and Natural Resources', 'fr': 'Ministre de l’énergie et des ressources naturelles', 'ministers': [{'end_date': '', 'name': 'Tim Hodgson', 'name_en': 'Hodgson, Tim (Hon.)', 'name_fr': 'Hodgson, Tim (L’hon.)', 'start_date': '2025-05-13T10:45:00'}, {'end_date': '2025-05-13T10:44:59', 'name': 'Jonathan Wilkinson', 'name_en': 'Wilkinson, Jonathan (Hon.)', 'name_fr': 'Wilkinson, Jonathan (L’hon.)', 'start_date': '2025-03-14T11:31:00'}, {'end_date': '2025-03-14T11:30:59', 'name': 'Jonathan Wilkinson', 'name_en': 'Wilkinson, Jonathan (Hon.)', 'name_fr': 'Wilkinson, Jonathan (L’hon.)', 'start_date': '2023-07-26T10:30:00'}]} is not valid under any of the given schemas
-
-- Schema error at resources/0/fields/3/choices/MEP: {'en': 'Minister of Emergency Preparedness', 'fr': 'Ministre de la protection civile', 'ministers': [{'end_date': '2025-03-14T11:30:59', 'name': 'Harjit S. Sajjan', 'name_en': 'Sajjan, Harjit S. (Hon.)', 'name_fr': 'Sajjan, Harjit S. (L’hon.)', 'start_date': '2023-07-26T10:30:00'}, {'end_date': '2023-07-26T10:29:59', 'name': 'Bill Blair', 'name_en': 'Blair, Bill (Hon.)', 'name_fr': 'Blair, Bill (L’hon.)', 'start_date': '2021-10-26T10:30:00'}]} is not valid under any of the given schemas
-
-- Schema error at resources/0/fields/3/choices/MEPITED: {'en': 'Minister of Export Promotion, International Trade and Economic Development', 'fr': 'Ministre de la promotion des exportations, du commerce international et du développement économique', 'ministers': [{'end_date': '2025-03-14T11:30:59', 'name': 'Mary Ng', 'name_en': 'Ng, Mary (Hon.)', 'name_fr': 'Ng, Mary (L’hon.)', 'start_date': '2023-07-26T10:30:00'}]} is not valid under any of the given schemas
-
-- Schema error at resources/0/fields/3/choices/MEWDDI: {'en': 'Minister of Employment, Workforce Development and Disability Inclusion', 'fr': "Ministre de l’Emploi, du Développement de la main-d’œuvre et de l'Inclusion des personnes handicapées", 'ministers': [{'end_date': '2023-07-26T10:29:59', 'name': 'Carla Qualtrough', 'name_en': 'Qualtrough, Carla (Hon.)', 'name_fr': 'Qualtrough, Carla (L’hon.)', 'start_date': '2021-10-26T10:30:00'}, {'end_date': '2021-10-26T10:29:59', 'name': 'Carla Qualtrough', 'name_en': 'Qualtrough, Carla (Hon.)', 'name_fr': 'Qualtrough, Carla (L’hon.)', 'start_date': '2019-11-20T15:00:00'}]} is not valid under any of the given schemas
-
-- Schema error at resources/0/fields/3/choices/MEWDL: {'en': 'Minister of Employment, Workforce Development and Labour', 'fr': 'Ministre de l’emploi, du développement de la main-d’œuvre et du travail', 'ministers': [{'end_date': '2025-03-13T23:59:59', 'name': 'Steven MacKinnon', 'name_en': 'MacKinnon, Steven (Hon.)', 'name_fr': 'MacKinnon, Steven (L’hon.)', 'start_date': '2024-12-20T11:30:00'}]} is not valid under any of the given schemas
-
-- Schema error at resources/0/fields/3/choices/MEWDOL: {'en': 'Minister of Employment, Workforce Development and Official Languages', 'fr': 'Ministre de l’emploi, du développement de la main-d’œuvre et des langues officielles', 'ministers': [{'end_date': '2024-12-20T11:29:59', 'name': 'Ginette Petitpas Taylor', 'name_en': 'Petitpas Taylor, Ginette (Hon.)', 'name_fr': 'Petitpas Taylor, Ginette (L’hon.)', 'start_date': '2024-11-20T14:31:00'}, {'end_date': '2024-11-20T14:30:59', 'name': 'Randy Boissonnault', 'name_en': 'Boissonnault, Randy (Hon.)', 'name_fr': 'Boissonnault, Randy (L’hon.)', 'start_date': '2023-07-26T10:30:00'}]} is not valid under any of the given schemas
-
-- Schema error at resources/0/fields/3/choices/MF: {'en': 'Minister of Finance', 'fr': 'Ministre des Finances', 'ministers': [{'end_date': '', 'name': 'François-Philippe Champagne', 'name_en': 'Champagne, François-Philippe (Hon.)', 'name_fr': 'Champagne, François-Philippe (L’hon.)', 'start_date': '2025-03-14T11:31:00'}, {'end_date': '2025-03-13T23:59:59', 'name': 'Dominic LeBlanc', 'name_en': 'LeBlanc, Dominic (Hon.)', 'name_fr': 'LeBlanc, Dominic (L’hon.)', 'start_date': '2024-12-16T00:00:00'}, {'end_date': '2024-12-15T23:59:59', 'name': 'Chrystia Freeland', 'name_en': 'Freeland, Chrystia (Hon.)', 'name_fr': 'Freeland, Chrystia (L’hon.)', 'start_date': '2020-08-18T15:00:00'}, {'end_date': '2020-08-17T23:59:59', 'name': 'Bill Morneau', 'name_en': 'Morneau, Bill (Hon.)', 'name_fr': 'Morneau, Bill (L’hon.)', 'start_date': '2015-11-04T10:45:00'}]} is not valid under any of the given schemas
-
-- Schema error at resources/0/fields/3/choices/MF1: {'en': 'Minister of Fisheries', 'fr': 'Ministre des pêches', 'ministers': [{'end_date': '', 'name': 'Joanne Thompson', 'name_en': 'Thompson, Joanne (Hon.)', 'name_fr': "Thompson, Joanne (L'hon.)", 'start_date': '2025-05-13T10:45:00'}]} is not valid under any of the given schemas
-
-- Schema error at resources/0/fields/3/choices/MFA: {'en': 'Minister of Foreign Affairs', 'fr': 'Ministre des Affaires étrangères', 'ministers': [{'end_date': '', 'name': 'Anita Anand', 'name_en': 'Anand, Anita (Hon.)', 'name_fr': 'Anand, Anita (L’hon.)', 'start_date': '2025-05-13T10:45:00'}, {'end_date': '2025-03-13T23:59:59', 'name': 'Mélanie Joly', 'name_en': 'Joly, Mélanie (Hon.)', 'name_fr': 'Joly, Mélanie (L’hon.)', 'start_date': '2021-10-26T10:30:00'}, {'end_date': '2021-10-26T10:29:59', 'name': 'Marc Garneau', 'name_en': 'Garneau, Marc (Hon.)', 'name_fr': 'Garneau, Marc (L’hon.)', 'start_date': '2021-01-12T00:00:00'}, {'end_date': '2021-01-11T23:59:59', 'name': 'François-Philippe Champagne', 'name_en': 'Champagne, François-Philippe (Hon.)', 'name_fr': 'Champagne, François-Philippe (L’hon.)', 'start_date': '2019-11-20T15:00:00'}]} is not valid under any of the given schemas
-
-- Schema error at resources/0/fields/3/choices/MFAID: {'en': 'Minister of Foreign Affairs and International Development', 'fr': 'Ministre des affaires étrangères et du développement international', 'ministers': [{'end_date': '2025-05-13T10:44:59', 'name': 'Mélanie Joly', 'name_en': 'Joly, Mélanie (Hon.)', 'name_fr': 'Joly, Mélanie (L’hon.)', 'start_date': '2025-03-14T11:31:00'}]} is not valid under any of the given schemas
-
-- Schema error at resources/0/fields/3/choices/MFCSD: {'en': 'Minister of Families, Children and Social Development', 'fr': 'Ministre de la Famille, des Enfants et du Développement social', 'ministers': [{'end_date': '2025-03-14T11:30:59', 'name': 'Jenna Sudds', 'name_en': 'Sudds, Jenna (Hon.)', 'name_fr': 'Sudds, Jenna (L’hon.)', 'start_date': '2023-07-26T10:30:00'}, {'end_date': '2023-07-26T10:29:59', 'name': 'Karina Gould', 'name_en': 'Gould, Karina (Hon.)', 'name_fr': 'Gould, Karina (L’hon.)', 'start_date': '2021-10-26T10:30:00'}, {'end_date': '2021-10-26T10:29:59', 'name': 'Ahmed Hussen', 'name_en': 'Hussen, Ahmed (Hon.)', 'name_fr': 'Hussen, Ahmed (L’hon.)', 'start_date': '2019-11-20T15:00:00'}]} is not valid under any of the given schemas
-
-- Schema error at resources/0/fields/3/choices/MFNR: {'en': 'Minister of Finance and National Revenue', 'fr': 'Ministre des finances et du revenu national', 'ministers': [{'end_date': '', 'name': 'François-Philippe Champagne', 'name_en': 'Champagne, François-Philippe (Hon.)', 'name_fr': 'Champagne, François-Philippe (L’hon.)', 'start_date': '2025-05-13T10:45:00'}]} is not valid under any of the given schemas
-
-- Schema error at resources/0/fields/3/choices/MFOCCG: {'en': 'Minister of Fisheries, Oceans and the Canadian Coast Guard', 'fr': 'Ministre des Pêches, des Océans et de la Garde côtière canadienne', 'ministers': [{'end_date': '2025-05-13T10:44:59', 'name': 'Joanne Thompson', 'name_en': 'Thompson, Joanne (Hon.)', 'name_fr': "Thompson, Joanne (L'hon.)", 'start_date': '2025-03-14T11:31:00'}, {'end_date': '2025-03-14T11:30:59', 'name': 'Diane Lebouthillier', 'name_en': 'Lebouthillier, Diane (Hon.)', 'name_fr': 'Lebouthillier, Diane (L’hon.)', 'start_date': '2023-07-26T10:30:00'}, {'end_date': '2023-07-26T10:29:59', 'name': 'Joyce Murray', 'name_en': 'Murray, Joyce (Hon.)', 'name_fr': 'Murray, Joyce (L’hon.)', 'start_date': '2021-10-26T10:30:00'}, {'end_date': '2021-10-26T10:29:59', 'name': 'Bernadette Jordan', 'name_en': 'Jordan, Bernadette (Hon.)', 'name_fr': 'Jordan, Bernadette (L’hon.)', 'start_date': '2019-11-20T15:00:00'}]} is not valid under any of the given schemas
-
-- Schema error at resources/0/fields/3/choices/MGTPSP: {'en': 'Minister of Government Transformation, Public Services and Procurement', 'fr': 'Ministre de la transformation du gouvernement, des services publics et de l’approvisionnement', 'ministers': [{'end_date': '2025-05-13T10:44:59', 'name': 'Ali Ehsassi', 'name_en': 'Ehsassi, Ali (Hon.)', 'name_fr': 'Ehsassi, Ali (L’hon.)', 'start_date': '2025-03-14T11:31:00'}]} is not valid under any of the given schemas
-
-- Schema error at resources/0/fields/3/choices/MGTPWP: {'en': 'Minister of Government Transformation, Public Works and Procurement', 'fr': 'Ministre de la transformation du gouvernement, des travaux publics et de l’approvisionnement', 'ministers': [{'end_date': '', 'name': 'Joël Lightbound', 'name_en': 'Lightbound, Joël (Hon.)', 'name_fr': 'Lightbound, Joël (L’hon.)', 'start_date': '2025-05-13T10:45:00'}]} is not valid under any of the given schemas
-
-- Schema error at resources/0/fields/3/choices/MH: {'en': 'Minister of Health', 'fr': 'Ministre de la Santé', 'ministers': [{'end_date': '', 'name': 'Marjorie Michel', 'name_en': 'Michel, Marjorie (Hon.)', 'name_fr': 'Michel, Marjorie (L’hon.)', 'start_date': '2025-05-13T10:45:00'}, {'end_date': '2025-05-13T10:44:59', 'name': 'Kamal Khera', 'name_en': 'Khera, Kamal (Hon.)', 'name_fr': 'Khera, Kamal (L’hon.)', 'start_date': '2025-03-14T11:31:00'}, {'end_date': '2025-03-14T11:30:59', 'name': 'Mark Holland', 'name_en': 'Holland, Mark (Hon.)', 'name_fr': 'Holland, Mark (L’hon.)', 'start_date': '2023-07-26T10:30:00'}, {'end_date': '2023-07-26T10:29:59', 'name': 'Jean-Yves Duclos', 'name_en': 'Duclos, Jean-Yves (Hon.)', 'name_fr': 'Duclos, Jean-Yves (L’hon.)', 'start_date': '2021-10-26T10:30:00'}, {'end_date': '2021-10-26T10:29:59', 'name': 'Patty Hajdu', 'name_en': 'Hajdu, Patty (Hon.)', 'name_fr': 'Hajdu, Patty (L’hon.)', 'start_date': '2019-11-20T15:00:00'}]} is not valid under any of the given schemas
-
-- Schema error at resources/0/fields/3/choices/MHDI: {'en': 'Minister of Housing and Diversity and Inclusion', 'fr': 'Ministre du logement et de la diversité et de l’inclusion', 'ministers': [{'end_date': '2023-07-26T10:29:59', 'name': 'Ahmed Hussen', 'name_en': 'Hussen, Ahmed (Hon.)', 'name_fr': 'Hussen, Ahmed (L’hon.)', 'start_date': '2021-10-26T10:30:00'}]} is not valid under any of the given schemas
-
-- Schema error at resources/0/fields/3/choices/MHI: {'en': 'Minister of Housing and Infrastructure', 'fr': 'Ministre du logement et de l’infrastructure', 'ministers': [{'end_date': '', 'name': 'Gregor Robertson', 'name_en': 'Robertson, Gregor (Hon.)', 'name_fr': 'Robertson, Gregor (L’hon.)', 'start_date': '2025-05-13T10:45:00'}]} is not valid under any of the given schemas
-
-- Schema error at resources/0/fields/3/choices/MHIC: {'en': 'Minister of Housing, Infrastructure and Communities', 'fr': 'Ministre du logement, de l’infrastructure et des collectivités', 'ministers': [{'end_date': '2025-05-13T10:44:59', 'name': 'Nathaniel Erskine-Smith', 'name_en': 'Erskine-Smith, Nathaniel (Hon.)', 'name_fr': "Erskine-Smith, Nathaniel (L'hon.)", 'start_date': '2025-03-14T11:31:00'}, {'end_date': '2025-03-14T11:30:59', 'name': 'Nathaniel Erskine-Smith', 'name_en': 'Erskine-Smith, Nathaniel (Hon.)', 'name_fr': "Erskine-Smith, Nathaniel (L'hon.)", 'start_date': '2024-12-20T11:30:00'}, {'end_date': '2024-12-20T11:29:59', 'name': 'Sean Fraser', 'name_en': 'Fraser, Sean (Hon.)', 'name_fr': 'Fraser, Sean (L’hon.)', 'start_date': '2023-07-26T10:30:00'}]} is not valid under any of the given schemas
-
-- Schema error at resources/0/fields/3/choices/MI: {'en': 'Minister of Industry', 'fr': 'Ministre de l’industrie', 'ministers': [{'end_date': '', 'name': 'Mélanie Joly', 'name_en': 'Joly, Mélanie (Hon.)', 'name_fr': 'Joly, Mélanie (L’hon.)', 'start_date': '2025-05-13T10:45:00'}]} is not valid under any of the given schemas
-
-- Schema error at resources/0/fields/3/choices/MIA: {'en': 'Minister of Intergovernmental Affairs', 'fr': 'Ministre des Affaires intergouvernementales', 'ministers': [{'end_date': '2025-03-13T23:59:59', 'name': 'Dominic LeBlanc', 'name_en': 'LeBlanc, Dominic (Hon.)', 'name_fr': 'LeBlanc, Dominic (L’hon.)', 'start_date': '2024-12-20T11:30:00'}, {'end_date': '2021-10-26T10:29:59', 'name': 'Dominic LeBlanc', 'name_en': 'LeBlanc, Dominic (Hon.)', 'name_fr': 'LeBlanc, Dominic (L’hon.)', 'start_date': '2020-08-18T15:00:00'}, {'end_date': '2020-08-18T14:59:59', 'name': 'Chrystia Freeland', 'name_en': 'Freeland, Chrystia (Hon.)', 'name_fr': 'Freeland, Chrystia (L’hon.)', 'start_date': '2019-11-20T15:00:00'}]} is not valid under any of the given schemas
-
+- JSON Schema Validation: **PASSED**
 
 
 ### Notes
