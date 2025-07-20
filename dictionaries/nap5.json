@@ -1466,7 +1466,7 @@
           "id": "evidence_fr",
           "obligation": {
             "en": "Optional",
-            "fr": "Facultatif"
+            "fr": "Optional"
           },
           "label": {
             "en": "Evidence of progress (French)",
