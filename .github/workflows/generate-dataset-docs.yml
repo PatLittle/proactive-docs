@@ -3,30 +3,24 @@ on:
   push:
     paths:
       - recombinant-published-schema-urls.txt
-      - scripts/generate_dataset_docs.py
-      - scripts/template.md.j2
-      - '.github/workflows/generate-dataset-docs.yml'
-  workflow_dispatch:
   schedule:
-    - cron: '5 5 * * 1'
+    - cron: '0 0 * * 0' # Weekly run
+  workflow_dispatch:
+    # Trigger on workflow file/script changes
+    paths:
+      - .github/workflows/generate-dataset-docs.yml
+      - scripts/generate_dataset_docs.py
 permissions:
-  contents: write
+  contents: read # Removed write permission
 jobs:
-  build:
+  generate-dataset-docs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
         with:
-          fetch-depth: 0
+          fetch-depth: 1 # Standard depth
       - uses: actions/setup-python@v5
         with:
           python-version: '3.x'
       - run: pip install -r requirements.txt
       - run: python scripts/generate_dataset_docs.py
-      - uses: stefanzweifel/git-auto-commit-action@v5
-        with:
-          commit_message: 'chore: update dataset docs'
-          file_pattern: |
-            dictionaries/*.json
-            docs/reference/*.md
-

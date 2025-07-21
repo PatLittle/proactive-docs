@@ -1,0 +1,46 @@
+name: Validate Schemas
+on:
+  workflow_dispatch:
+  workflow_call:
+permissions:
+  contents: read
+jobs:
+  validate-schemas:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1 # Standard depth
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+      - run: pip install -r requirements.txt
+      - name: Validate schemas with rate limiting
+        run: |
+          echo "Starting schema validation..."
+          delay=0
+          error_count=0
+          max_delay=30
+          for schema in $(find ./schemas -type f -name "*.json"); do
+            echo "Validating schema: $schema"
+            result=$(curl -s -o response.txt -w "%{http_code}" -X POST -d @$schema https://api.example.com/validate)
+            http_code=$result
+            echo "HTTP Response Code: $http_code"
+            if [[ $http_code == 400 ]]; then
+              echo "400 error detected. Increasing delay."
+              ((error_count++))
+              if ((error_count % 2 == 0)); then
+                delay=$((delay+10))
+                if ((delay > max_delay)); then
+                  delay=$max_delay
+                fi
+              fi
+              echo "New delay: $delay seconds"
+              sleep $delay
+            else
+              echo "Validation successful. Resetting error count and delay."
+              error_count=0
+              delay=0
+            fi
+          done
+          echo "Schema validation completed."
