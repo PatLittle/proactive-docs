@@ -6,10 +6,6 @@ on:
   schedule:
     - cron: '0 0 * * 0' # Weekly run
   workflow_dispatch:
-    # Trigger on workflow file/script changes
-    paths:
-      - .github/workflows/generate-dataset-docs.yml
-      - scripts/generate_dataset_docs.py
 permissions:
   contents: read # Removed write permission
 jobs:
@@ -24,3 +20,12 @@ jobs:
           python-version: '3.x'
       - run: pip install -r requirements.txt
       - run: python scripts/generate_dataset_docs.py
+      - name: Commit and push changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add docs/* 
+          git commit -m "Update Reference docs"
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
