@@ -4,10 +4,6 @@ on:
     paths:
       - docs/reference/*
   workflow_dispatch:
-    # Trigger on workflow file/script changes
-    paths:
-      - .github/workflows/generate-choice-docs.yml
-      - scripts/generate_choice_docs.py
 permissions:
   contents: read # Removed write permission
 jobs:
@@ -22,3 +18,12 @@ jobs:
           python-version: '3.x'
       - run: pip install -r requirements.txt
       - run: python scripts/generate_choice_docs.py
+      - name: Commit and push changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add docs/choices/* 
+          git commit -m "Update choices docs"
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
