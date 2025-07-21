@@ -5,10 +5,6 @@ on:
       - dictionaries/*.json
       - docs/choices/*.md
   workflow_dispatch:
-    # Trigger on workflow file/script changes
-    paths:
-      - .github/workflows/generate-table-schemas.yml
-      - scripts/generate_table_schemas.py
 permissions:
   contents: read # Removed write permission
 jobs:
@@ -23,3 +19,12 @@ jobs:
           python-version: '3.x'
       - run: pip install -r requirements.txt
       - run: python scripts/generate_table_schemas.py
+      - name: Commit and push changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add schema/* 
+          git commit -m "Update Schema docs"
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
