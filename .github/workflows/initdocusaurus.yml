@@ -20,7 +20,7 @@ jobs:
       - name: Install dependencies for Docusaurus
         run: |
           cd docusaurus-site
-          npm init docusaurus
+          npm init docusaurus docusaurus-site classic . 
          
 
       - name: Commit and Push Documentation
