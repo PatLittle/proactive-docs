@@ -1,6 +1,6 @@
 # Choices for automated_decision_system
 
-Generated 2025-07-25T10:30:11 UTC
+Generated 2025-07-25T10:31:20 UTC
 
 | Code | Label (EN) | Label (FR) |
 |------|------------|------------|
