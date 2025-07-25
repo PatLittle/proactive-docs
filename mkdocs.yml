@@ -1,11 +1,15 @@
 site_name: Proactive Docs
-site_url: https://example.com
+site_url: https://patlittle.github.io/proactive-docs
 docs_dir: docs
+repo_url: https://github.com/PatLittle/proactive-docs/
 nav:
   - Home: index.md
   - Dataset Reference: reference/index.md
   - Choice Lists: choices/index.md
   - CKAN Schemas: ckan/index.md
   - CSV Validator: validator/index.html
+  markdown_extensions:
+  - toc:
+      permalink: "#"
 theme:
   name: mkdocs
