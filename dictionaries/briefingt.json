@@ -15,6 +15,9 @@
         "en": "Proactive Publication - Briefing Note Titles and Numbers",
         "fr": "Publication proactive - Titres et numéros des notes d’information"
       },
+      "primary_key": [
+        "tracking_number"
+      ],
       "fields": [
         {
           "id": "tracking_number",
@@ -244,7 +247,19 @@
           },
           "datastore_type": "text"
         }
-      ]
+      ],
+      "example_record": {
+        "tracking_number": "10089-4266",
+        "title_en": "Partner views",
+        "title_fr": "Opinions des partenaires",
+        "originating_sector_en": "Finance; Treasurer",
+        "originating_sector_fr": "Finance; Trésorier",
+        "addressee": "M",
+        "date_received": "2018-04-01",
+        "action_required": "D",
+        "additional_information_en": "Relates to the family services program reform",
+        "additional_information_fr": "Programme des services familiaux"
+      }
     },
     {
       "resource_name": "briefingt-nil",
@@ -252,6 +267,10 @@
         "en": "Proactive Publication - Briefing Note Titles and Numbers Nothing to Report",
         "fr": "Publication proactive - Titres et numéros des notes d’information rien à signaler"
       },
+      "primary_key": [
+        "year",
+        "month"
+      ],
       "fields": [
         {
           "id": "year",
@@ -293,7 +312,11 @@
           },
           "datastore_type": "month"
         }
-      ]
+      ],
+      "example_record": {
+        "year": 2023,
+        "month": 10
+      }
     }
   ]
 }

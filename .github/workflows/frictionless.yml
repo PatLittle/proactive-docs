@@ -1,0 +1,24 @@
+name: Frictionless CI
+on:
+  push:
+    paths:
+      - 'schema/examples/*.csv'
+      - 'schema/tables/*.json'
+      - 'inquiry.yaml'
+      - '.github/workflows/frictionless.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+      - run: pip install -r requirements.txt
+      - name: Validate data
+        uses: frictionlessdata/repository@v2
+        with:
+          inquiry: inquiry.yaml

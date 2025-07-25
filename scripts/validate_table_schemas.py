@@ -11,7 +11,7 @@ from pathlib import Path
 import requests
 
 
-def main(tables_dir: str, examples_dir: str, delay: float):
+def main(tables_dir: str, examples_dir: str, delay: float, csv_file=None, schema_file=None):
     """Validate CSV examples against their table schemas via Validata."""
 
     base_repo = os.environ.get('GITHUB_REPOSITORY', '')
@@ -22,8 +22,15 @@ def main(tables_dir: str, examples_dir: str, delay: float):
     examples_path = Path(examples_dir)
 
     failures = 0
-    for csv_file in examples_path.glob('*.csv'):
-        schema_file = tables_path / f"{csv_file.stem}.json"
+
+    files = []
+    if csv_file and schema_file:
+        files.append((Path(csv_file), Path(schema_file)))
+    else:
+        for csv in examples_path.glob('*.csv'):
+            files.append((csv, tables_path / f"{csv.stem}.json"))
+
+    for csv_file, schema_file in files:
         if not schema_file.exists():
             continue
         schema_url = base_url + str(schema_file).replace(' ', '%20')
@@ -68,6 +75,8 @@ if __name__ == "__main__":
         default=10.0,
         help="Seconds to wait between API calls",
     )
+    parser.add_argument("--csv", help="CSV file to validate")
+    parser.add_argument("--schema", help="Schema JSON file")
     args = parser.parse_args()
-    main(args.tables_dir, args.examples_dir, args.delay)
+    main(args.tables_dir, args.examples_dir, args.delay, csv_file=args.csv, schema_file=args.schema)
 

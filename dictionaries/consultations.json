@@ -15,6 +15,9 @@
         "en": "Open Dialogue - Consultations",
         "fr": "Dialogue ouvert - Consultations"
       },
+      "primary_key": [
+        "registration_number"
+      ],
       "fields": [
         {
           "id": "registration_number",
@@ -1174,7 +1177,47 @@
             }
           }
         }
-      ]
+      ],
+      "example_record": {
+        "registration_number": "CCC0249",
+        "publishable": "N",
+        "partner_departments": [
+          "D271",
+          "D141"
+        ],
+        "subjects": [
+          "IP",
+          "CD",
+          "HS",
+          "SE"
+        ],
+        "title_en": "Family Services Program Reform",
+        "title_fr": "Réforme du programme des services à l'enfance",
+        "description_en": "To engage and obtain Provincial and Territorial partner views",
+        "description_fr": "Obtenir les opinions des partenaires provinciaux et territoriaux",
+        "target_participants_and_audience": [
+          "IP",
+          "IG",
+          "PT"
+        ],
+        "start_date": "2018-05-15",
+        "end_date": "2018-05-30",
+        "status": "P",
+        "profile_page_en": "http://example.gc.ca/en",
+        "profile_page_fr": "http://example.gc.ca/fr",
+        "report_available_online": "N",
+        "report_link_en": "",
+        "report_link_fr": "",
+        "contact_email": "first.last@example.gc.ca",
+        "policy_program_lead_email": "program.lead@example.gc.ca",
+        "remarks_en": "",
+        "remarks_fr": "",
+        "high_profile": "Y",
+        "rationale": [
+          "BG",
+          "PC"
+        ]
+      }
     }
   ]
 }

@@ -1,0 +1,342 @@
+{
+  "fields": [
+    {
+      "name": "registration_number",
+      "title": "Numéro d’enregistrement",
+      "description": "Cette zone doit être remplie par l’utilisateur. Il s’agit d’un numéro de référence unique donné à chaque article de la feuille de calcul. Les utilisateurs peuvent ainsi trouver, dans un registre donné, un article précis à modifier ou à supprimer. Le numéro d’enregistrement doit respecter le format suivant : C-XXXXXXX.",
+      "type": "string",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "partner_departments",
+      "title": "Ministère(s) partenaire(s)",
+      "description": "Cette zone indique le ministère ou les ministères qui collaborent au processus de participation en question. Il faut indiquer le nom complet des ministères (aucun acronyme).",
+      "type": "string",
+      "constraints": {
+        "enum": [
+          "D110",
+          "D115",
+          "D119",
+          "D131",
+          "D135",
+          "D139",
+          "D141",
+          "D143",
+          "D147",
+          "D154",
+          "D157",
+          "D16",
+          "D169",
+          "D172",
+          "D173",
+          "D189",
+          "D193",
+          "D202",
+          "D206",
+          "D207",
+          "D214",
+          "D215",
+          "D217",
+          "D229",
+          "D230",
+          "D231",
+          "D235",
+          "D236",
+          "D239",
+          "D249",
+          "D253",
+          "D256",
+          "D262",
+          "D270",
+          "D271",
+          "D278",
+          "D32",
+          "D35",
+          "D47",
+          "D55",
+          "D64",
+          "D73",
+          "D81",
+          "D87",
+          "D90",
+          "D92",
+          "D93",
+          "D94",
+          "D99"
+        ]
+      }
+    },
+    {
+      "name": "subjects",
+      "title": "Sujets",
+      "description": "Cette zone indique les différents sujets sur lesquels porte le processus de participation.",
+      "type": "string",
+      "constraints": {
+        "required": true,
+        "enum": [
+          "AA",
+          "AD",
+          "AG",
+          "AM",
+          "AN",
+          "CD",
+          "CM",
+          "CR",
+          "CU",
+          "DV",
+          "EC",
+          "ED",
+          "EM",
+          "EN",
+          "EU",
+          "EX",
+          "FA",
+          "FD",
+          "FI",
+          "FO",
+          "FS",
+          "GBA",
+          "GE",
+          "GP",
+          "HL",
+          "HP",
+          "HR",
+          "HS",
+          "IM",
+          "IN",
+          "IP",
+          "IT",
+          "JL",
+          "LT",
+          "ND",
+          "NR",
+          "PD",
+          "PL",
+          "PO",
+          "PR",
+          "PS",
+          "RE",
+          "RL",
+          "RU",
+          "SA",
+          "SE",
+          "SO",
+          "SP",
+          "ST",
+          "TC",
+          "TF",
+          "TR",
+          "TX",
+          "YJ"
+        ]
+      }
+    },
+    {
+      "name": "title_fr",
+      "title": "Titre de la consultation (en français)",
+      "description": "Cette zone indique le titre, en français, de la consultation.",
+      "type": "string",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "description_fr",
+      "title": "Description (en français)",
+      "description": "Cette zone fournit de l’information, en français, sur la nature des activités de consultation et de participation. On y trouve notamment une description des principaux objectifs et des résultats attendus du processus de participation. On invite les utilisateurs à expliquer en quoi les activités, les méthodes et les outils permettront d’atteindre les objectifs de la consultation.",
+      "type": "string",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "target_participants_and_audience",
+      "title": "Participants visés et public cible",
+      "description": "Cette zone précise les participants visés et le public cible du processus de participation.",
+      "type": "string",
+      "constraints": {
+        "required": true,
+        "enum": [
+          "AA",
+          "AC",
+          "AD",
+          "AG",
+          "BS",
+          "CA",
+          "CC",
+          "CH",
+          "CI",
+          "CO",
+          "CS",
+          "CU",
+          "EI",
+          "ET",
+          "FA",
+          "FC",
+          "FI",
+          "FM",
+          "FN",
+          "FW",
+          "GP",
+          "HC",
+          "IB",
+          "IG",
+          "IM",
+          "IO",
+          "IP",
+          "IT",
+          "IU",
+          "JM",
+          "LA",
+          "LF",
+          "LM",
+          "LP",
+          "LU",
+          "MA",
+          "MT",
+          "MU",
+          "NG",
+          "NI",
+          "NR",
+          "NT",
+          "NW",
+          "OD",
+          "OI",
+          "PA",
+          "PC",
+          "PD",
+          "PP",
+          "PR",
+          "PS",
+          "PT",
+          "RC",
+          "RE",
+          "RF",
+          "RG",
+          "RO",
+          "RP",
+          "RT",
+          "RU",
+          "SE",
+          "SL",
+          "SM",
+          "SP",
+          "ST",
+          "TO",
+          "TR",
+          "TT",
+          "UI",
+          "UP",
+          "UR",
+          "VV",
+          "WF",
+          "WM",
+          "WT",
+          "YJ"
+        ]
+      }
+    },
+    {
+      "name": "start_date",
+      "title": "Date de début",
+      "description": "Ce champ indique quand une séance de planification prévue commencera à accepter les commentaires des participants.",
+      "type": "date",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "end_date",
+      "title": "Date de fin",
+      "description": "Ce champ indique la date à laquelle la consultation a pris fin. Une consultation est terminée lorsqu’il n’y a plus d’activités de participation qui se tiendront et/ou lorsqu’un ministère entreprend l’analyse des commentaires reçus dans le cadre du processus de participation.",
+      "type": "date",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "status",
+      "title": "État",
+      "description": "Cette zone indique l’état d’avancement du processus de participation.",
+      "type": "string",
+      "constraints": {
+        "required": true,
+        "enum": [
+          "CA",
+          "CN",
+          "CR",
+          "NF",
+          "O",
+          "P"
+        ]
+      }
+    },
+    {
+      "name": "profile_page_fr",
+      "title": "Lien vers la page du profil des consultations (en français)",
+      "description": "Cette zone contient le lien vers la page profil française qui contient des renseignements sur le processus de participation.",
+      "type": "string",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "report_available_online",
+      "title": "Rapport disponible en ligne",
+      "description": "Cette zone indique si le rapport intitulé « Ce que nous avons entendu » est terminé, publié et disponible sur le site Web « Consultations auprès des Canadiens ».",
+      "type": "string",
+      "constraints": {
+        "required": true,
+        "enum": [
+          "N",
+          "Y"
+        ]
+      }
+    },
+    {
+      "name": "report_link_fr",
+      "title": "Lien – rapport « Ce que nous avons entendu » en français",
+      "description": "Cette zone contient le lien vers le rapport intitulé « Ce que nous avons entendu » après que le rapport est affiché en ligne.",
+      "type": "string"
+    },
+    {
+      "name": "high_profile",
+      "title": "Haute visibilité",
+      "description": "Cette zone indique si la consultation ou initiative de participation est à haute visibilité. La consultation est considérée comme de haute visibilité si elle réponde à un ou plus de critères à la zone 'Raison'.",
+      "type": "string",
+      "constraints": {
+        "required": true,
+        "enum": [
+          "N",
+          "Y"
+        ]
+      }
+    },
+    {
+      "name": "rationale",
+      "title": "Raison",
+      "description": "Cette zone comprend le(s) motif(s) de l’activité de participation du public. Cette zone inclut uniquement les critères qui définissent une consultation ou participation public de profil élevé.",
+      "type": "string",
+      "constraints": {
+        "required": true,
+        "enum": [
+          "BG",
+          "IN",
+          "LC",
+          "ML",
+          "MP",
+          "PC",
+          "ST"
+        ]
+      }
+    }
+  ],
+  "missingValues": [
+    ""
+  ],
+  "primaryKey": [
+    "registration_number"
+  ]
+}

@@ -15,6 +15,10 @@
         "en": "Proactive Publication - Grants and Contributions",
         "fr": "Publication proactive - Subventions et les contributions"
       },
+      "primary_key": [
+        "ref_number",
+        "amendment_number"
+      ],
       "fields": [
         {
           "id": "ref_number",
@@ -2074,7 +2078,45 @@
           },
           "datastore_type": "text"
         }
-      ]
+      ],
+      "example_record": {
+        "ref_number": "001-2018-2019-Q2-00045",
+        "amendment_number": "3",
+        "amendment_date": "2018-04-01",
+        "agreement_type": "G",
+        "recipient_type": "G",
+        "recipient_business_number": "123456789",
+        "recipient_legal_name": "ACME Services Limited|Services ACME Limitée",
+        "recipient_operating_name": "ACME",
+        "research_organization_name": "York University|Université York",
+        "recipient_country": "CA",
+        "recipient_province": "ON",
+        "recipient_city": "Grand Falls|Grand-Sault",
+        "recipient_postal_code": "A1A 1A1",
+        "federal_riding_name_en": "Winnipeg South Centre",
+        "federal_riding_name_fr": "Winnipeg-Centre-Sud",
+        "federal_riding_number": "46014",
+        "prog_name_en": "Canada Granting Program",
+        "prog_name_fr": "Le programme de subvention du Canada",
+        "prog_purpose_en": "The Canada Granting Program encourage Canadians to learn about Canada’s geography, history, and economy. The Program provides networking opportunities to enhance recipients’ understanding of Canada.",
+        "prog_purpose_fr": "Le programme de subventions du Canada incite les Canadiens à se renseigner sur la géographie, l’histoire et l’économie du Canada. Le programme offre des opportunités de réseautage pour aider les bénéficiaires d’améliorer leur compréhension du Canada.",
+        "agreement_title_en": "Building better buildings",
+        "agreement_title_fr": "Construire des meilleurs bâtiments",
+        "agreement_number": "F1580-140737",
+        "agreement_value": "500000",
+        "foreign_currency_type": "USD",
+        "foreign_currency_value": "450000",
+        "agreement_start_date": "2019-04-01",
+        "agreement_end_date": "2020-04-30",
+        "coverage": "Canada; Mexico|Mexique; United States|États-Unis",
+        "description_en": "Developing models and other tools to predict the safety performance of buildings.",
+        "description_fr": "Met au point des modèles et d'autres outils pour prévoir la sécurité des bâtiments.",
+        "naics_identifier": "611710",
+        "expected_results_en": "Develop highly qualified personnel available to pursue various careers within industry, academia, government and other sectors of the economy.",
+        "expected_results_fr": "Développé un personnel hautement qualifié prêt à mener une carrière variée au sein de l’industrie, du milieu académique, de la fonction publique ou dans d’autres secteurs de l’économie.",
+        "additional_information_en": "Recipient reallocates or redistributes grant or contribution awarded to third-party beneficiaries",
+        "additional_information_fr": "Le bénéficiaire réaffecte ou redistribue la subvention ou la contribution octroyée à des tiers"
+      }
     },
     {
       "resource_name": "grants-nil",
@@ -2082,6 +2124,10 @@
         "en": "Proactive Publication - Grants and Contributions Nothing to Report",
         "fr": "Publication proactive – Subventions et contributions, rien à signalerPublication proactive - Subventions et les contributions  (Rien à signaler)"
       },
+      "primary_key": [
+        "fiscal_year",
+        "quarter"
+      ],
       "fields": [
         {
           "id": "fiscal_year",
@@ -2152,7 +2198,11 @@
             }
           }
         }
-      ]
+      ],
+      "example_record": {
+        "fiscal_year": "2016-2017",
+        "quarter": "Q2"
+      }
     }
   ]
 }

@@ -1,0 +1,89 @@
+tasks:
+  - path: schema/examples/hospitalityq-hospitalityq_en.csv
+    schema: schema/tables/hospitalityq-hospitalityq_en.json
+  - path: schema/examples/hospitalityq-hospitalityq_fr.csv
+    schema: schema/tables/hospitalityq-hospitalityq_fr.json
+  - path: schema/examples/hospitalityq-hospitalityq-nil_en.csv
+    schema: schema/tables/hospitalityq-hospitalityq-nil_en.json
+  - path: schema/examples/hospitalityq-hospitalityq-nil_fr.csv
+    schema: schema/tables/hospitalityq-hospitalityq-nil_fr.json
+  - path: schema/examples/qpnotes-qpnotes_en.csv
+    schema: schema/tables/qpnotes-qpnotes_en.json
+  - path: schema/examples/qpnotes-qpnotes_fr.csv
+    schema: schema/tables/qpnotes-qpnotes_fr.json
+  - path: schema/examples/qpnotes-qpnotes-nil_en.csv
+    schema: schema/tables/qpnotes-qpnotes-nil_en.json
+  - path: schema/examples/qpnotes-qpnotes-nil_fr.csv
+    schema: schema/tables/qpnotes-qpnotes-nil_fr.json
+  - path: schema/examples/ati-ati_en.csv
+    schema: schema/tables/ati-ati_en.json
+  - path: schema/examples/ati-ati_fr.csv
+    schema: schema/tables/ati-ati_fr.json
+  - path: schema/examples/ati-ati-nil_en.csv
+    schema: schema/tables/ati-ati-nil_en.json
+  - path: schema/examples/ati-ati-nil_fr.csv
+    schema: schema/tables/ati-ati-nil_fr.json
+  - path: schema/examples/travelq-travelq_en.csv
+    schema: schema/tables/travelq-travelq_en.json
+  - path: schema/examples/travelq-travelq_fr.csv
+    schema: schema/tables/travelq-travelq_fr.json
+  - path: schema/examples/travelq-travelq-nil_en.csv
+    schema: schema/tables/travelq-travelq-nil_en.json
+  - path: schema/examples/travelq-travelq-nil_fr.csv
+    schema: schema/tables/travelq-travelq-nil_fr.json
+  - path: schema/examples/service-service_en.csv
+    schema: schema/tables/service-service_en.json
+  - path: schema/examples/service-service_fr.csv
+    schema: schema/tables/service-service_fr.json
+  - path: schema/examples/service-service-std_en.csv
+    schema: schema/tables/service-service-std_en.json
+  - path: schema/examples/service-service-std_fr.csv
+    schema: schema/tables/service-service-std_fr.json
+  - path: schema/examples/contractsa-contractsa_en.csv
+    schema: schema/tables/contractsa-contractsa_en.json
+  - path: schema/examples/contractsa-contractsa_fr.csv
+    schema: schema/tables/contractsa-contractsa_fr.json
+  - path: schema/examples/contracts-contracts_en.csv
+    schema: schema/tables/contracts-contracts_en.json
+  - path: schema/examples/contracts-contracts_fr.csv
+    schema: schema/tables/contracts-contracts_fr.json
+  - path: schema/examples/contracts-contracts-nil_en.csv
+    schema: schema/tables/contracts-contracts-nil_en.json
+  - path: schema/examples/contracts-contracts-nil_fr.csv
+    schema: schema/tables/contracts-contracts-nil_fr.json
+  - path: schema/examples/adminaircraft-adminaircraft_en.csv
+    schema: schema/tables/adminaircraft-adminaircraft_en.json
+  - path: schema/examples/adminaircraft-adminaircraft_fr.csv
+    schema: schema/tables/adminaircraft-adminaircraft_fr.json
+  - path: schema/examples/grants-grants_en.csv
+    schema: schema/tables/grants-grants_en.json
+  - path: schema/examples/grants-grants_fr.csv
+    schema: schema/tables/grants-grants_fr.json
+  - path: schema/examples/grants-grants-nil_en.csv
+    schema: schema/tables/grants-grants-nil_en.json
+  - path: schema/examples/grants-grants-nil_fr.csv
+    schema: schema/tables/grants-grants-nil_fr.json
+  - path: schema/examples/briefingt-briefingt_en.csv
+    schema: schema/tables/briefingt-briefingt_en.json
+  - path: schema/examples/briefingt-briefingt_fr.csv
+    schema: schema/tables/briefingt-briefingt_fr.json
+  - path: schema/examples/briefingt-briefingt-nil_en.csv
+    schema: schema/tables/briefingt-briefingt-nil_en.json
+  - path: schema/examples/briefingt-briefingt-nil_fr.csv
+    schema: schema/tables/briefingt-briefingt-nil_fr.json
+  - path: schema/examples/nap5-nap5_en.csv
+    schema: schema/tables/nap5-nap5_en.json
+  - path: schema/examples/nap5-nap5_fr.csv
+    schema: schema/tables/nap5-nap5_fr.json
+  - path: schema/examples/consultations-consultations_en.csv
+    schema: schema/tables/consultations-consultations_en.json
+  - path: schema/examples/consultations-consultations_fr.csv
+    schema: schema/tables/consultations-consultations_fr.json
+  - path: schema/examples/dac-dac_en.csv
+    schema: schema/tables/dac-dac_en.json
+  - path: schema/examples/dac-dac_fr.csv
+    schema: schema/tables/dac-dac_fr.json
+  - path: schema/examples/wrongdoing-wrongdoing_en.csv
+    schema: schema/tables/wrongdoing-wrongdoing_en.json
+  - path: schema/examples/wrongdoing-wrongdoing_fr.csv
+    schema: schema/tables/wrongdoing-wrongdoing_fr.json

@@ -1,31 +1,44 @@
 name: Generate Dataset Docs
+
 on:
   push:
     paths:
-      - recombinant-published-schema-urls.txt
+      - 'recombinant-published-schema-urls.txt'
   schedule:
-    - cron: '0 0 * * 0' # Weekly run
+    - cron: '0 0 * * 0' # Weekly on Sunday at midnight UTC
   workflow_dispatch:
+
+# Permissions needed to commit back to the repository
 permissions:
-  contents: read # Removed write permission
+  contents: write
+
 jobs:
   generate-dataset-docs:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-        with:
-          fetch-depth: 1 # Standard depth
-      - uses: actions/setup-python@v5
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
         with:
           python-version: '3.x'
-      - run: pip install -r requirements.txt
-      - run: python scripts/generate_dataset_docs.py
-      - name: Commit and push changes
+
+      - name: Install Dependencies
+        run: pip install -r requirements.txt
+
+      - name: Generate Dataset Docs
+        run: python scripts/generate_dataset_docs.py
+
+      - name: Commit and Push Documentation
         run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add docs/* 
-          git commit -m "Update Reference docs"
-          git push
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add docs/
+          # Commit only if there are changes
+          if ! git diff --staged --quiet; then
+            git commit -m "docs: Update Reference docs"
+            git push
+          else
+            echo "No changes to commit."
+          fi

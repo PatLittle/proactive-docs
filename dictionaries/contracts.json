@@ -19,6 +19,9 @@
         "en": "Proactive Publication - Contracts over $10,000",
         "fr": "Publication proactive - Contrats attribués de plus de 10 000 $"
       },
+      "primary_key": [
+        "reference_number"
+      ],
       "fields": [
         {
           "id": "reference_number",
@@ -3327,7 +3330,60 @@
             "2025-2026-Q4": "2025-2026-Q4"
           }
         }
-      ]
+      ],
+      "example_record": {
+        "reference_number": "C-2017-2018-Q1-00170",
+        "procurement_id": "3000638243",
+        "vendor_name": "Company XYZ inc",
+        "vendor_postal_code": "A1A",
+        "buyer_name": "John Doe",
+        "contract_date": "2017-09-15",
+        "economic_object_code": "460",
+        "description_en": "Protection services",
+        "description_fr": "Services de protection",
+        "contract_period_start": "2017-08-15",
+        "delivery_date": "2017-09-15",
+        "contract_value": "10000",
+        "original_value": "10000",
+        "amendment_value": "100000",
+        "comments_en": "This contract was omitted from a previous public disclosure.",
+        "comments_fr": "Ce marché a été omis dans une divulgation publique précédente.",
+        "additional_comments_en": "10-Months subscription to Altmetric Explorer for Institutions",
+        "additional_comments_fr": "Abonnement de 10 mois à Altmetric Explorer for Institutions",
+        "trade_agreement": [
+          "CA",
+          "EU"
+        ],
+        "land_claims": [
+          "NA"
+        ],
+        "commodity_type": "S",
+        "commodity_code": "K105",
+        "country_of_vendor": "CA",
+        "solicitation_procedure": "OB",
+        "limited_tendering_reason": [
+          "22",
+          "71"
+        ],
+        "trade_agreement_exceptions": [
+          "03",
+          "05"
+        ],
+        "indigenous_business": "NA",
+        "indigenous_business_excluding_psib": "N",
+        "intellectual_property": "A2",
+        "potential_commercial_exploitation": "N",
+        "former_public_servant": "Y",
+        "contracting_entity": "DC",
+        "standing_offer_number": "EN578-160553/001/ZL",
+        "instrument_type": "C",
+        "ministers_office": "Y",
+        "number_of_bids": 2,
+        "article_6_exceptions": "0",
+        "award_criteria": "1",
+        "socioeconomic_indicator": "FP",
+        "reporting_period": "2016-2017-Q3"
+      }
     },
     {
       "resource_name": "contracts-nil",
@@ -3335,6 +3391,9 @@
         "en": "Proactive Publication - Contracts Nothing to Report",
         "fr": "Publication proactive - Contrats (Rien à signaler)"
       },
+      "primary_key": [
+        "reporting_period"
+      ],
       "fields": [
         {
           "id": "reporting_period",
@@ -3474,7 +3533,10 @@
             "2025-2026-Q4": "2025-2026-Q4"
           }
         }
-      ]
+      ],
+      "example_record": {
+        "reporting_period": "2016-2017-Q2"
+      }
     }
   ]
 }

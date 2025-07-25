@@ -8,6 +8,10 @@ URLS_FILE = 'recombinant-published-schema-urls.txt'
 DICTS_DIR = 'dictionaries'
 SCHEMA_DIR = Path('schema/tables')
 EXAMPLES_DIR = Path('schema/examples')
+BAD_EXAMPLES_DIR = Path('schema/bad_examples')
+
+# Collect CSV/schema pairs for frictionless inquiry
+INQUIRY_TASKS = []
 
 TYPE_MAP = {
     'text': 'string',
@@ -84,34 +88,48 @@ def write_schema(schema, dataset_type, resource_name, lang):
     return path
 
 
-def generate_example(schema, dataset_type, resource_name, lang):
+def write_examples(schema, dataset_type, resource_name, lang, example_record):
+    """Write example and bad example CSV files for a resource."""
+
     EXAMPLES_DIR.mkdir(parents=True, exist_ok=True)
-    path = EXAMPLES_DIR / f"{dataset_type}-{resource_name}_{lang}.csv"
-    fields = [f['name'] for f in schema['fields']]
-    rows = []
-    for i in range(1, 6):
-        row = {}
-        for f in schema['fields']:
-            ct = f.get('constraints', {})
-            if 'enum' in ct:
-                row[f['name']] = ct['enum'][0]
-            else:
-                t = f['type']
-                if t in ('integer', 'year'):
-                    row[f['name']] = str(2000 + i)
-                elif t == 'number':
-                    row[f['name']] = str(i * 10.5)
-                elif t == 'date':
-                    row[f['name']] = f'2025-01-0{i}'
-                else:
-                    row[f['name']] = f"{f['name']}_{i}"
-        rows.append(row)
-    with path.open('w', newline='', encoding='utf-8') as csvfile:
+    BAD_EXAMPLES_DIR.mkdir(parents=True, exist_ok=True)
+
+    fields = [f["name"] for f in schema["fields"]]
+    example_path = EXAMPLES_DIR / f"{dataset_type}-{resource_name}_{lang}.csv"
+    bad_path = BAD_EXAMPLES_DIR / f"{dataset_type}-{resource_name}_{lang}.csv"
+
+    # Normal example
+    row = {}
+    for name in fields:
+        value = example_record.get(name, "")
+        if isinstance(value, list):
+            value = ",".join(str(v) for v in value)
+        row[name] = value
+    with example_path.open("w", newline="", encoding="utf-8") as csvfile:
         writer = csv.DictWriter(csvfile, fieldnames=fields)
         writer.writeheader()
-        for row in rows:
-            writer.writerow(row)
-    return path
+        writer.writerow(row)
+
+    # Bad example - change value of the first field
+    bad_row = row.copy()
+    first_field = schema["fields"][0]
+    fname = first_field["name"]
+    if "constraints" in first_field and "enum" in first_field["constraints"]:
+        bad_row[fname] = "INVALID"
+    elif first_field["type"] in ("integer", "year", "number"):
+        bad_row[fname] = "notanumber"
+    elif first_field["type"] == "date":
+        bad_row[fname] = "not-a-date"
+    else:
+        bad_row[fname] = ""
+    with bad_path.open("w", newline="", encoding="utf-8") as csvfile:
+        writer = csv.DictWriter(csvfile, fieldnames=fields)
+        writer.writeheader()
+        writer.writerow(bad_row)
+
+    INQUIRY_TASKS.append((str(example_path), str(SCHEMA_DIR / f"{dataset_type}-{resource_name}_{lang}.json")))
+
+    return example_path, bad_path
 
 
 def generate_schemas(data, source):
@@ -119,13 +137,17 @@ def generate_schemas(data, source):
     for res in data.get('resources', []):
         resource_name = res.get('resource_name') or ''
         en_fields, fr_fields = split_fields(res.get('fields', []))
+        example = res.get('example_record', {})
+        primary_key = res.get('primary_key', [])
         for lang, fields in [('en', en_fields), ('fr', fr_fields)]:
             schema = {
                 'fields': [field_to_schema(f, lang) for f in fields],
                 'missingValues': ['']
             }
+            if primary_key:
+                schema['primaryKey'] = primary_key
             schema_path = write_schema(schema, dataset_type, resource_name, lang)
-            generate_example(schema, dataset_type, resource_name, lang)
+            write_examples(schema, dataset_type, resource_name, lang, example)
             print(f"Generated {schema_path}")
 
 
@@ -142,5 +164,13 @@ def main():
         if f.name not in generated:
             f.unlink()
 
+    if INQUIRY_TASKS:
+        with Path('inquiry.yaml').open('w', encoding='utf-8') as fh:
+            fh.write('tasks:\n')
+            for csv_path, schema_path in INQUIRY_TASKS:
+                fh.write(f'  - path: {csv_path}\n')
+                fh.write(f'    schema: {schema_path}\n')
+
 if __name__ == '__main__':
     main()
+

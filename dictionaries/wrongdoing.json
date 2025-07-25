@@ -15,6 +15,9 @@
         "en": "Proactive Publication - Founded Wrongdoing",
         "fr": "Publication proactive - Dossiers sur les actes répréhensibles fondés"
       },
+      "primary_key": [
+        "ref_number"
+      ],
       "fields": [
         {
           "id": "ref_number",
@@ -170,7 +173,19 @@
           },
           "datastore_type": "text"
         }
-      ]
+      ],
+      "example_record": {
+        "ref_number": "1980198",
+        "file_id_number": "15677",
+        "file_id_date": "2016-01-01",
+        "case_description_en": "Description",
+        "case_description_fr": "Description",
+        "findings_conclusions": [
+          "b"
+        ],
+        "recommendations_corrective_measures_en": "Recommendations and Corrective Measures",
+        "recommendations_corrective_measures_fr": "Recommandations et mesures correctives"
+      }
     }
   ]
 }
