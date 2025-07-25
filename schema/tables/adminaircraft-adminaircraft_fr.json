@@ -1,0 +1,202 @@
+{
+  "fields": [
+    {
+      "name": "reference_number",
+      "title": "Numéro de référence",
+      "description": "Ce champ est rempli par l’utilisateur avec le numéro de référence du voyage. Le numéro est une exigence de système obligatoire pour la publication d’un modèle.",
+      "type": "string",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "minister",
+      "title": "Titre du ministre",
+      "description": "Ce champ affichera le titre du ministre qui a demandé le voyage.",
+      "type": "string",
+      "constraints": {
+        "required": true,
+        "enum": [
+          "AGC",
+          "AMF",
+          "AMH",
+          "AMND",
+          "AMPS",
+          "CGW",
+          "DPM",
+          "GG",
+          "LGHC",
+          "MAA",
+          "MAARED",
+          "MAIDI",
+          "MCCIPC",
+          "MCH",
+          "MCIC",
+          "MCR",
+          "MCRNA",
+          "MCS",
+          "MDG",
+          "MDI",
+          "MDIPD",
+          "MDIY",
+          "MECC",
+          "MED",
+          "MEMCR",
+          "MENR",
+          "MEP",
+          "MEPITED",
+          "MEWDDI",
+          "MEWDL",
+          "MEWDOL",
+          "MF",
+          "MF1",
+          "MFA",
+          "MFAID",
+          "MFCSD",
+          "MFNR",
+          "MFOCCG",
+          "MGTPSP",
+          "MGTPWP",
+          "MH",
+          "MHDI",
+          "MHI",
+          "MHIC",
+          "MI",
+          "MIA",
+          "MIAIC",
+          "MIC",
+          "MID",
+          "MIRC",
+          "MIS",
+          "MISI",
+          "MIT",
+          "MITEPSBED",
+          "MITIA",
+          "MJ",
+          "MJF",
+          "ML",
+          "MLS",
+          "MMCP",
+          "MMHA",
+          "MNA",
+          "MNAA",
+          "MND",
+          "MNR",
+          "MNR1",
+          "MOL",
+          "MPS",
+          "MPSDIIA",
+          "MPSEP",
+          "MPSP",
+          "MRACOA",
+          "MRCEDQR",
+          "MRCNEDA",
+          "MRCRA",
+          "MRCTIAOCE",
+          "MRED",
+          "MREDACRQ",
+          "MRFEDANO",
+          "MRFEDASO",
+          "MROL",
+          "MRPEDAC",
+          "MRPEDC",
+          "MRPEDC1",
+          "MS",
+          "MS1",
+          "MSB",
+          "MSBEP",
+          "MSPA",
+          "MT",
+          "MT1",
+          "MTIT",
+          "MVA",
+          "MWGE",
+          "MWGE1",
+          "MWGEY",
+          "PKPCC",
+          "PM",
+          "PQPCC",
+          "PTB",
+          "SRP",
+          "SSCC",
+          "SSCRAFI",
+          "SSCY",
+          "SSDP",
+          "SSID",
+          "SSL",
+          "SSN",
+          "SSRD",
+          "SSS",
+          "SSS1",
+          "SSSBT"
+        ]
+      }
+    },
+    {
+      "name": "purpose_fr",
+      "title": "But du voyage (français)",
+      "description": "Description de la raison du voyage, en français, en service commandé visé. La description doit être brève (une ligne dans la mesure du possible) et donner une indication générale aux utilisateurs du but du voyage. Il faut éviter d’utiliser des acronymes.",
+      "type": "string",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "start_date",
+      "title": "Date du début du voyage",
+      "description": "Date du début du voyage.",
+      "type": "date",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "end_date",
+      "title": "Date de fin du voyage",
+      "description": "Date de fin du voyage (peut être la même date que la date du début du voyage).",
+      "type": "date",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "locations_fr",
+      "title": "Endroit(s) visité (français)",
+      "description": "Cette zone indique, en français, le nom de tous les lieux qui ont été visités dans le cadre du voyage en question réalisé pour le compte du gouvernement. (séparer plusieurs emplacements avec des points-virgules)",
+      "type": "string",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "hours",
+      "title": "Le nombre d’heures de vol",
+      "description": "Le nombre d’heures de vol.",
+      "type": "string",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "passengers",
+      "title": "Nom des passagers",
+      "description": "Liste complète des passagers du vol. (séparées par des virgules)",
+      "type": "string",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "additional_information_fr",
+      "title": "Renseignements supplémentaires (français)",
+      "description": "Ce champ affichera tout renseignement supplémentaire, en français, selon les besoins.",
+      "type": "string"
+    }
+  ],
+  "missingValues": [
+    ""
+  ],
+  "primaryKey": [
+    "reference_number"
+  ]
+}

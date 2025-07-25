@@ -1,0 +1,202 @@
+{
+  "fields": [
+    {
+      "name": "reference_number",
+      "title": "Reference Number",
+      "description": "This field is populated by the user with the reference number of the trip. This number is a mandatory system requirement when publishing a template.",
+      "type": "string",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "minister",
+      "title": "Title of Minister",
+      "description": "This field will display the title of the Minister who requested the trip.",
+      "type": "string",
+      "constraints": {
+        "required": true,
+        "enum": [
+          "AGC",
+          "AMF",
+          "AMH",
+          "AMND",
+          "AMPS",
+          "CGW",
+          "DPM",
+          "GG",
+          "LGHC",
+          "MAA",
+          "MAARED",
+          "MAIDI",
+          "MCCIPC",
+          "MCH",
+          "MCIC",
+          "MCR",
+          "MCRNA",
+          "MCS",
+          "MDG",
+          "MDI",
+          "MDIPD",
+          "MDIY",
+          "MECC",
+          "MED",
+          "MEMCR",
+          "MENR",
+          "MEP",
+          "MEPITED",
+          "MEWDDI",
+          "MEWDL",
+          "MEWDOL",
+          "MF",
+          "MF1",
+          "MFA",
+          "MFAID",
+          "MFCSD",
+          "MFNR",
+          "MFOCCG",
+          "MGTPSP",
+          "MGTPWP",
+          "MH",
+          "MHDI",
+          "MHI",
+          "MHIC",
+          "MI",
+          "MIA",
+          "MIAIC",
+          "MIC",
+          "MID",
+          "MIRC",
+          "MIS",
+          "MISI",
+          "MIT",
+          "MITEPSBED",
+          "MITIA",
+          "MJ",
+          "MJF",
+          "ML",
+          "MLS",
+          "MMCP",
+          "MMHA",
+          "MNA",
+          "MNAA",
+          "MND",
+          "MNR",
+          "MNR1",
+          "MOL",
+          "MPS",
+          "MPSDIIA",
+          "MPSEP",
+          "MPSP",
+          "MRACOA",
+          "MRCEDQR",
+          "MRCNEDA",
+          "MRCRA",
+          "MRCTIAOCE",
+          "MRED",
+          "MREDACRQ",
+          "MRFEDANO",
+          "MRFEDASO",
+          "MROL",
+          "MRPEDAC",
+          "MRPEDC",
+          "MRPEDC1",
+          "MS",
+          "MS1",
+          "MSB",
+          "MSBEP",
+          "MSPA",
+          "MT",
+          "MT1",
+          "MTIT",
+          "MVA",
+          "MWGE",
+          "MWGE1",
+          "MWGEY",
+          "PKPCC",
+          "PM",
+          "PQPCC",
+          "PTB",
+          "SRP",
+          "SSCC",
+          "SSCRAFI",
+          "SSCY",
+          "SSDP",
+          "SSID",
+          "SSL",
+          "SSN",
+          "SSRD",
+          "SSS",
+          "SSS1",
+          "SSSBT"
+        ]
+      }
+    },
+    {
+      "name": "purpose_en",
+      "title": "Purpose of the trip (English)",
+      "description": "A description of the reason for the government trip in question. The description should be succinct (one line if possible) and provide users with a general sense of the trip's purpose. Use of acronyms should be avoided, in English.",
+      "type": "string",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "start_date",
+      "title": "Travel start date",
+      "description": "The date the travel started.",
+      "type": "date",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "end_date",
+      "title": "Travel end date",
+      "description": "The date the travel ended (can be the same as travel start date).",
+      "type": "date",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "locations_en",
+      "title": "Location(s) visited (English)",
+      "description": "To include names of all places visited to conduct government business during the trip in question, in English. (separate multiple locations with semicolons)",
+      "type": "string",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "hours",
+      "title": "Number of hours flown",
+      "description": "The number of hours flown.",
+      "type": "string",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "passengers",
+      "title": "Passenger names",
+      "description": "Full list of flight passengers. (Comma seperated)",
+      "type": "string",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "additional_information_en",
+      "title": "Additional Information (English)",
+      "description": "This field will display any additional information, as deemed necessary, in English.",
+      "type": "string"
+    }
+  ],
+  "missingValues": [
+    ""
+  ],
+  "primaryKey": [
+    "reference_number"
+  ]
+}

@@ -15,6 +15,9 @@
         "en": "ATI Summaries",
         "fr": "Accès à l’information sommaires complétés"
       },
+      "primary_key": [
+        "request_number"
+      ],
       "fields": [
         {
           "id": "year",
@@ -194,7 +197,18 @@
           },
           "datastore_type": "text"
         }
-      ]
+      ],
+      "example_record": {
+        "year": 2020,
+        "month": 10,
+        "request_number": "A-2020-00516",
+        "summary_en": "Copies of the Safety Management System Audit and Evaluation Reports",
+        "summary_fr": "Copies des rapports de vérification et d’évaluation du système de gestion de la sécurité",
+        "disposition": "DP",
+        "pages": 779,
+        "comments_en": "The disclosure package also included audio recordings",
+        "comments_fr": "Le dossier de divulgation comprend en plus des enregistrements audio"
+      }
     },
     {
       "resource_name": "ati-nil",
@@ -202,6 +216,10 @@
         "en": "ATI Nothing to Report",
         "fr": "Accès à l’information rien à signaler"
       },
+      "primary_key": [
+        "year",
+        "month"
+      ],
       "fields": [
         {
           "id": "year",
@@ -243,7 +261,11 @@
           },
           "datastore_type": "month"
         }
-      ]
+      ],
+      "example_record": {
+        "year": 2014,
+        "month": 10
+      }
     }
   ]
 }

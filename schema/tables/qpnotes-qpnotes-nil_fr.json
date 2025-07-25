@@ -25,5 +25,9 @@
   ],
   "missingValues": [
     ""
+  ],
+  "primaryKey": [
+    "year",
+    "reporting_period"
   ]
 }

@@ -1,0 +1,148 @@
+{
+  "fields": [
+    {
+      "name": "ref_number",
+      "title": "Reference Number",
+      "description": "This field is populated by the organization. It is a unique reference number given to each line item in the spreadsheet. Having a unique identifier for each item will allow users locate a specific item in the registry should they need to modify or delete.\n",
+      "type": "string",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "disclosure_group",
+      "title": "Disclosure Group",
+      "description": "This field will display the group to which the individual belongs.",
+      "type": "string",
+      "constraints": {
+        "enum": [
+          "MPSES",
+          "SLE"
+        ]
+      }
+    },
+    {
+      "name": "title_en",
+      "title": "Title (English)",
+      "description": "This field will display the position title of the person who travelled, in English",
+      "type": "string",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "name",
+      "title": "Name",
+      "description": "This field will display the name of the  person who travelled",
+      "type": "string",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "purpose_en",
+      "title": "Purpose of Travel (English)",
+      "description": "A short description, in English, of the reason for the trip. The description should be succinct (one line if possible) and provide users with a general sense of the trip's purpose. Use of acronyms should be avoided.\n",
+      "type": "string",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "start_date",
+      "title": "Travel Start Date",
+      "description": "To cover the date the travel started",
+      "type": "date",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "end_date",
+      "title": "Travel End Date",
+      "description": "To cover the date the travel ended (can be the same as travel start date)",
+      "type": "date",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "destination_en",
+      "title": "Place visited (English)",
+      "description": "To include name of the first place visited during the trip in question, in English.",
+      "type": "string",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "destination_2_en",
+      "title": "Second place visited (English)",
+      "description": "To include name of second place visited during the trip in question, in English.",
+      "type": "string"
+    },
+    {
+      "name": "destination_other_en",
+      "title": "Other places visited (English)",
+      "description": "To include names of all other places visited during the trip in question, in English.",
+      "type": "string"
+    },
+    {
+      "name": "airfare",
+      "title": "Airfare",
+      "description": "Total cost of any airline tickets, if applicable.",
+      "type": "number"
+    },
+    {
+      "name": "other_transport",
+      "title": "Other transportation",
+      "description": "Total cost of any other forms of transportation (for example, train, bus, vehicle rental, private vehicle, taxis, etc), if applicable.",
+      "type": "number"
+    },
+    {
+      "name": "lodging",
+      "title": "Lodging",
+      "description": "Total cost of accommodation",
+      "type": "number",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "meals",
+      "title": "Meals and incidentals",
+      "description": "Total cost of meals and incidentals expenses.",
+      "type": "number",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "other_expenses",
+      "title": "Other expenses",
+      "description": "Total cost of all other items that are not covered by the above fields (for example. special passport, visas, associated photos, calls to the office or home, dependant care where applicable, etc.).",
+      "type": "number"
+    },
+    {
+      "name": "total",
+      "title": "Total Amount",
+      "description": "The total of the amount listed above.",
+      "type": "number",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "additional_comments_en",
+      "title": "Additional Comments English",
+      "description": "This field may be populated with additional comments in English.",
+      "type": "string"
+    }
+  ],
+  "missingValues": [
+    ""
+  ],
+  "primaryKey": [
+    "ref_number"
+  ]
+}

@@ -182,5 +182,8 @@
   ],
   "missingValues": [
     ""
+  ],
+  "primaryKey": [
+    "reference_number"
   ]
 }

@@ -15,6 +15,10 @@
         "en": "Service Identification Information & Metrics",
         "fr": "Information et paramètres sur l’identification des services"
       },
+      "primary_key": [
+        "fiscal_yr",
+        "service_id"
+      ],
       "fields": [
         {
           "id": "fiscal_yr",
@@ -4674,38 +4678,6 @@
           }
         },
         {
-          "id": "program_name_en",
-          "obligation": {
-            "en": "Mandatory",
-            "fr": "Obligatoire"
-          },
-          "label": {
-            "en": "Program Name (English)",
-            "fr": "Désignation du programme (en anglais)"
-          },
-          "description": {
-            "en": "Identifies the name of the program under which the service is delivered.",
-            "fr": "Indique le nom du programme sous lequel le service est offert."
-          },
-          "datastore_type": "_text"
-        },
-        {
-          "id": "program_name_fr",
-          "obligation": {
-            "en": "Mandatory",
-            "fr": "Obligatoire"
-          },
-          "label": {
-            "en": "Program Name (French)",
-            "fr": "Désignation du programme (en français)"
-          },
-          "description": {
-            "en": "Identifies the name of the program under which the service is delivered.",
-            "fr": "Indique le nom du programme sous lequel le service est offert."
-          },
-          "datastore_type": "_text"
-        },
-        {
           "id": "client_feedback_channel",
           "obligation": {
             "en": "Mandatory",
@@ -5442,22 +5414,6 @@
           "datastore_type": "text"
         },
         {
-          "id": "num_applications_total",
-          "obligation": {
-            "en": "Mandatory",
-            "fr": "Obligatoire"
-          },
-          "label": {
-            "en": "Total Number of Applications",
-            "fr": "Nombre total de demandes soumises"
-          },
-          "description": {
-            "en": "Identifies the total number of applications submitted in a fiscal year for all application channels.",
-            "fr": "Indique le nombre total de demandes reçues au cours d'un exercice pour tous les modes de prestation."
-          },
-          "datastore_type": "int"
-        },
-        {
           "id": "special_remarks_en",
           "character_limit": 2000,
           "obligation": {
@@ -5540,40 +5496,66 @@
             "fr": "Ce champ ne peut excéder une longueur maximale de 1500 caractères."
           },
           "datastore_type": "text"
-        },
-        {
-          "id": "owner_org",
-          "obligation": {
-            "en": "Mandatory",
-            "fr": "Obligatoire"
-          },
-          "label": {
-            "en": "Department ID",
-            "fr": "ID du ministère"
-          },
-          "description": {
-            "en": "Identifies the applied ID of the department or agency.",
-            "fr": "Identifie la ID d'usage du ministère ou de l'organisme."
-          },
-          "datastore_type": "text"
-        },
-        {
-          "id": "owner_org_title",
-          "obligation": {
-            "en": "Mandatory",
-            "fr": "Obligatoire"
-          },
-          "label": {
-            "en": "Department Name",
-            "fr": "Nom du ministère"
-          },
-          "description": {
-            "en": "Identifies the applied title of the department or agency.",
-            "fr": "Identifie le titre d'usage du ministère ou de l'organisme."
-          },
-          "datastore_type": "text"
         }
-      ]
+      ],
+      "example_record": {
+        "fiscal_yr": "2022-2023",
+        "service_id": "1001",
+        "service_name_en": "Old Age Security (OAS) Benefits",
+        "service_name_fr": "Prestations de la Sécurité de la vieillesse",
+        "service_description_en": "The Old Age Security (OAS) pension is a monthly payment available to most Canadians 65 years of age who meet the Canadian legal status and residence requirements. In addition to the Old Age Security pension, there are three types of Old Age Security benefits:  the Guaranteed Income Supplement, Allowance and Allowance for the Survivor. The OAS provides financial support to millions of seniors, including those that are low-income, each year.\n",
+        "service_description_fr": "La pension de la Sécurité de la vieillesse (SV) est une prestation mensuelle versée à la plupart des Canadiens âgés de 65 ans et plus qui satisfont aux exigences relatives au statut juridique et à la résidence au Canada. En plus de la pension de la Sécurité de la vieillesse, il existe trois types de prestations de la Sécurité de la vieillesse : le Supplément de revenu garanti, l'Allocation et l'Allocation au survivant. La SV verse chaque année un soutien financier à des millions d'aînés, incluant ceux à faible revenu.\n",
+        "service_type": [
+          "RES"
+        ],
+        "service_recipient_type": "CLIENT",
+        "service_scope": [
+          "EXTERN"
+        ],
+        "client_target_groups": [
+          "PERSON"
+        ],
+        "program_id": [
+          "BGN01"
+        ],
+        "client_feedback_channel": [
+          "EML",
+          "FAX",
+          "PERSON",
+          "ONL",
+          "POST",
+          "TEL"
+        ],
+        "automated_decision_system": "N",
+        "automated_decision_system_description_en": "",
+        "automated_decision_system_description_fr": "",
+        "service_fee": "N",
+        "os_account_registration": "Y",
+        "os_authentication": "Y",
+        "os_application": "Y",
+        "os_decision": "Y",
+        "os_issuance": "Y",
+        "os_issue_resolution_feedback": "Y",
+        "os_comments_client_interaction_en": "",
+        "os_comments_client_interaction_fr": "",
+        "last_service_review": "",
+        "last_service_improvement": "2021-2022",
+        "sin_usage": "Y",
+        "cra_bn_identifier_usage": "Y",
+        "num_phone_enquiries": 7252346,
+        "num_applications_by_phone": 0,
+        "num_website_visits": 5446484,
+        "num_applications_online": 276390,
+        "num_applications_in_person": 0,
+        "num_applications_by_mail": 792026,
+        "num_applications_by_email": 0,
+        "num_applications_by_fax": 0,
+        "num_applications_by_other": 2218002,
+        "special_remarks_en": "- The volume reflected in the 'Applications by Mail' column include the volume of paper applications for the following OAS pension benefits application types: OAS basic pension; the Guaranteed Income Supplement (GIS); Allowance; Allowance Survivor; Renewal of GIS/Allowance/Allowance Survivor; Options for GIS/Allowance/Allowance Survivor; and foreign benefits.\n- The volume reflected in the 'Number of Automatic Enrolments' column represents the volume of Automatic Enrolment into the OAS basic pension and the GIS.\n- The volume reflected in the 'Applications through Other Channels' column represents the volume of the Automatic Renewal of income-tested benefits through the CRA for the GIS.\n- Applications to OAS pension benefits do not constitute the largest volume of work done by the OAS program. In addition to applications, there were also another 3,143,898 OAS and foreign benefit account revisions in 2022-2023.\n- OAS and CPP telephone enquiries are managed through the same Pensions Toll-free service, with significant overlap between the two programs on many calls. The metrics reported for CPP and OAS,  such as the volume of calls, are therefore identical and are non-cumulative (i.e. they are not to be added together).\"\n",
+        "special_remarks_fr": "- Le volume indiqué dans la colonne « Demandes par la poste » comprend le volume de demandes papier pour les types de demandes de prestations de pension de la SV suivants : pension de base de la SV ; le Supplément de revenu garanti (SRG); Allocation ; Allocation de survivant ; Renouvellement du SRG/Allocation/ Allocation de survivant ; options pour le SRG/l'allocation/l'allocation de survivant ; et les prestations étrangères.\n- Le volume indiqué dans la colonne \"\"Nombre d'inscriptions automatiques\"\" représente le volume des inscriptions automatiques à la pension de base de la SV et au SRG.\n- Le volume reflété dans la colonne « Demandes par d'autres canaux » représente le volume d'adhésion automatique à la pension de base de la SV et du SRG, ainsi que le renouvellement automatique des prestations fondées sur le revenu par l'intermédiaire de l'ARC pour le SRG.\n- Les demandes de prestations de pension de la SV ne constituent pas le plus gros volume de travail effectué par le programme de la SV. En plus des demandes, il y a eu également 3 143 898 autres révisions des comptes de SV et de prestations étrangères en 2022-2023\n- Les demandes de renseignements téléphoniques sur la SV et le RPC sont gérées par le même service téléphonique sans frais des pensions, avec un chevauchement important entre les deux programmes pour de nombreux appels. Les mesures rapportées pour le RPC et la SV, comme le volume d'appels, sont donc identiques et non cumulatives (c'est-à-dire qu'elles ne doivent pas être additionnées). \"\n",
+        "service_uri_en": "https://www.canada.ca/en/services/benefits/publicpensions/cpp/old-age-security.html",
+        "service_uri_fr": "https://www.canada.ca/fr/services/prestations/pensionspubliques/rpc/securite-vieillesse.html"
+      }
     },
     {
       "resource_name": "service-std",
@@ -5581,6 +5563,11 @@
         "en": "Service Standards & Performance Results",
         "fr": "Normes de service et résultats du rendement"
       },
+      "primary_key": [
+        "fiscal_yr",
+        "service_id",
+        "service_standard_id"
+      ],
       "fields": [
         {
           "id": "fiscal_yr",
@@ -5944,22 +5931,6 @@
           "datastore_type": "bigint"
         },
         {
-          "id": "performance",
-          "obligation": {
-            "en": "Optional",
-            "fr": "Facultatif"
-          },
-          "label": {
-            "en": "Performance",
-            "fr": "Performance"
-          },
-          "description": {
-            "en": "Identifies the result achieved for this service standard. This is the \"Business Volume That Met Service Standard Target\" divided by the \"Total Volume\".\n",
-            "fr": "Identifie les résultats atteints pour cette norme de service. Il s'agit du \"Volume d'activités qui respectent la cible de la norme relative aux services\" divisé par le \"Volumes totaux\".\n"
-          },
-          "datastore_type": "numeric"
-        },
-        {
           "id": "comments_en",
           "character_limit": 2000,
           "obligation": {
@@ -6000,32 +5971,6 @@
             "fr": "Ce champ ne peut excéder une longueur maximale de 2000 caractères."
           },
           "datastore_type": "text"
-        },
-        {
-          "id": "target_met",
-          "obligation": {
-            "en": "Mandatory",
-            "fr": "Obligatoire"
-          },
-          "label": {
-            "en": "Was the target met",
-            "fr": "La cible était-elle atteinte"
-          },
-          "datastore_type": "text",
-          "choices": {
-            "N": {
-              "en": "No",
-              "fr": "Non"
-            },
-            "NA": {
-              "en": "N/A",
-              "fr": "S.O."
-            },
-            "Y": {
-              "en": "Yes",
-              "fr": "Oui"
-            }
-          }
         },
         {
           "id": "standards_targets_uri_en",
@@ -6110,40 +6055,30 @@
             "fr": "Ce champ ne peut excéder une longueur maximale de 1500 caractères."
           },
           "datastore_type": "text"
-        },
-        {
-          "id": "owner_org",
-          "obligation": {
-            "en": "Mandatory",
-            "fr": "Obligatoire"
-          },
-          "label": {
-            "en": "Department ID",
-            "fr": "ID du ministère"
-          },
-          "description": {
-            "en": "Identifies the applied ID of the department or agency.",
-            "fr": "Identifie la ID d'usage du ministère ou de l'organisme."
-          },
-          "datastore_type": "text"
-        },
-        {
-          "id": "owner_org_title",
-          "obligation": {
-            "en": "Mandatory",
-            "fr": "Obligatoire"
-          },
-          "label": {
-            "en": "Department Name",
-            "fr": "Nom du ministère"
-          },
-          "description": {
-            "en": "Identifies the applied title of the department or agency.",
-            "fr": "Identifie le titre d'usage du ministère ou de l'organisme."
-          },
-          "datastore_type": "text"
         }
-      ]
+      ],
+      "example_record": {
+        "fiscal_yr": "2022-2023",
+        "service_id": "1001",
+        "service_name_en": "Old Age Security (OAS) Benefits",
+        "service_name_fr": "Prestations de la Sécurité de la vieillesse",
+        "service_standard_id": "925",
+        "service_standard_en": "OAS basic benefits are paid within the first month of entitlement",
+        "service_standard_fr": "Les prestations de base de la SV sont versées au cours du premier mois d’admissibilité.",
+        "type": "TML",
+        "channel": "OTH",
+        "channel_comments_en": "Mail, Online, Person",
+        "channel_comments_fr": "Courrier, en ligne, personne",
+        "target": 0.9,
+        "volume_meeting_target": 315128,
+        "total_volume": 359919,
+        "comments_en": "The total volumes assessed against the first month of entitlement service standard excludes 3,550 decisions involving files submitted under international agreements and interactions with foreign governments.\n",
+        "comments_fr": "Les volumes totaux évalués par rapport à la norme de service du premier mois de droit excluent 3 550 décisions concernant des dossiers soumis dans le cadre d'accords internationaux et d'interactions avec des gouvernements étrangers.\n",
+        "standards_targets_uri_en": "https://www.canada.ca/en/employment-social-development/corporate/transparency/service-standards-2018-2019.html#h2.25",
+        "standards_targets_uri_fr": "https://www.canada.ca/fr/emploi-developpement-social/ministere/transparence/normes-service-2018-2019.html#h2.21",
+        "performance_results_uri_en": "Not applicable",
+        "performance_results_uri_fr": "Not applicable"
+      }
     }
   ]
 }

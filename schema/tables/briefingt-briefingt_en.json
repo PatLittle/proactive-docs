@@ -1,0 +1,79 @@
+{
+  "fields": [
+    {
+      "name": "tracking_number",
+      "title": "Briefing Note Number",
+      "description": "This field will display the internal tracking number of the Briefing Note.",
+      "type": "string",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "title_en",
+      "title": "Title (English)",
+      "description": "This field is populated by the user with the official title of the Briefing Note, in English.",
+      "type": "string",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "originating_sector_en",
+      "title": "Originating Sector (English)",
+      "description": "The Sector, Branch, or Division where the Briefing Note originated in English. If there are multiple sectors/branches/divisions, they may be separated by a semicolon (;)",
+      "type": "string",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "addressee",
+      "title": "Addressee",
+      "description": "This field will display the person to whom the briefing note is addressed.",
+      "type": "string",
+      "constraints": {
+        "required": true,
+        "enum": [
+          "D",
+          "M"
+        ]
+      }
+    },
+    {
+      "name": "date_received",
+      "title": "Date Received",
+      "description": "This field will display the date on which the Briefing Note was received in the addressee's office.",
+      "type": "date",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "action_required",
+      "title": "Action Required",
+      "description": "The Action Required is the purpose of the briefing note; For Information: If the item is being routed solely for the information of the addressee; For Approval/Signature: If the item is for approval or signature only of the addressee; For Decision: If the item requests the addressee make a decisive decision",
+      "type": "string",
+      "constraints": {
+        "required": true,
+        "enum": [
+          "D",
+          "I",
+          "S"
+        ]
+      }
+    },
+    {
+      "name": "additional_information_en",
+      "title": "Additional Information (English)",
+      "description": "This field will display any additional information/comments for the Briefing Note, in English.",
+      "type": "string"
+    }
+  ],
+  "missingValues": [
+    ""
+  ],
+  "primaryKey": [
+    "tracking_number"
+  ]
+}
