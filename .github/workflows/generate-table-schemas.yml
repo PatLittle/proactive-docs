@@ -6,7 +6,7 @@ on:
       - docs/choices/*.md
   workflow_dispatch:
 permissions:
-  contents: read # Removed write permission
+  contents: write #permission
 jobs:
   generate-table-schemas:
     runs-on: ubuntu-latest
