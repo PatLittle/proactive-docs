@@ -1,33 +1,344 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<title>CSV Validator</title>
+  <meta charset="utf-8">
+  <title>CSV Table Schema Validator</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    html, body { height:100%; margin:0; padding:0; font-family:sans-serif; }
+    body { display: flex; height: 100vh; background: #f9fafb; }
+    #sidebar {
+      width: 280px;
+      background: #f4f4f4;
+      border-right: 1px solid #e0e0e0;
+      padding: 24px 16px;
+      box-sizing: border-box;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      min-width: 220px;
+      overflow-y: auto;
+    }
+    #main {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      align-items: stretch;
+      padding: 32px 5vw 80px 5vw;
+      min-width: 320px;
+      overflow-y: auto;
+    }
+    h1 {
+      font-size: 1.7em;
+      margin: 0 0 12px 0;
+      color: #1a237e;
+    }
+    h2 {
+      font-size: 1.3em;
+      margin:24px 0 8px 0;
+      color: #007bff;
+    }
+    h3 {
+      font-size: 1.1em;
+      margin-bottom: 10px;
+      color: #222;
+    }
+    .schema-item {
+      margin: 0 0 10px 0;
+      padding: 7px 14px;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 1em;
+      color: #222;
+      transition: background 0.2s, color 0.2s, font-weight 0.2s;
+    }
+    .schema-item.selected {
+      background: #e3f2fd;
+      color: #007bff;
+      font-weight: bold;
+    }
+    table {
+      border-collapse: collapse;
+      margin-top: 12px;
+      width: 100%;
+      max-width: 700px;
+      background: #fff;
+      box-shadow: 0 1px 3px rgba(0,0,0,.03);
+    }
+    th, td {
+      border: 1px solid #e0e0e0;
+      padding: 8px 12px;
+      text-align: left;
+    }
+    th {
+      background: #f1f8ff;
+      color: #1a237e;
+    }
+    .form-field { margin-bottom: 12px; }
+    .form-field input, .form-field textarea {
+      padding: 5px 8px;
+      border: 1px solid #bdbdbd;
+      border-radius: 4px;
+      min-width: 160px;
+    }
+    .panel {
+      margin-top: 24px;
+      background: #fff;
+      border-radius: 8px;
+      box-shadow: 0 2px 10px rgba(0,0,0,.04);
+      padding: 20px 18px;
+      max-width: 800px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    pre {
+      background: #f7f7f7;
+      padding: 12px;
+      border-radius: 6px;
+      max-width: 98vw;
+      overflow-x: auto;
+    }
+    .badge { margin-top: 16px; }
+    button {
+      padding: 8px 18px;
+      border-radius: 4px;
+      border: none;
+      background: #1976d2;
+      color: #fff;
+      font-weight: bold;
+      font-size: 1em;
+      cursor: pointer;
+      transition: background 0.2s;
+      margin-top: 8px;
+    }
+    button:hover { background: #1565c0; }
+    #submitted-rows h4 { margin: 12px 0 6px 0; }
+    @media (max-width:900px) {
+      #main { padding: 16px 2vw 80px 2vw; }
+      #sidebar { width: 180px; min-width: 120px; font-size:.9em;}
+    }
+    footer {
+      position: fixed;
+      bottom: 0; left:0; right:0;
+      text-align: center;
+      font-size: 14px;
+      background: #e3f2fd;
+      color: #333;
+      padding: 10px 0;
+      border-top: 1px solid #bdbdbd;
+      letter-spacing: 0.03em;
+    }
+    .section-title { margin-top: 30px; margin-bottom: 10px; font-weight: bold; color: #333;}
+  </style>
 </head>
 <body>
-<h1>CSV Validator</h1>
-<p>Select a CSV file or provide a CSV URL and optional schema URL.</p>
-<form id="vform">
-  <label>CSV File: <input type="file" id="csv"></label><br>
-  <label>CSV URL: <input type="url" id="csvurl"></label><br>
-  <label>Schema URL: <input type="url" id="schema"></label><br>
-  <button type="submit">Validate</button>
-</form>
-<pre id="output"></pre>
-<script src="https://unpkg.com/puter/dist/puter.js"></script>
+  <div id="sidebar">
+    <h2>Schemas</h2>
+    <div id="schema-list"></div>
+  </div>
+  <div id="main">
+    <h1>CSV Table Schema Validator</h1>
+    <div id="schema-details"></div>
+    <div id="data-entry"></div>
+    <div class="panel">
+      <div class="section-title">CSV Validation</div>
+      <form id="vform">
+        <label class="form-field">CSV File: <input type="file" id="csv"></label>
+        <label class="form-field">CSV URL: <input type="url" id="csvurl" placeholder="https://example.com/data.csv"></label>
+        <label class="form-field">Schema URL (auto-filled): <input type="url" id="schemaurl" placeholder="https://raw.githubusercontent.com/PatLittle/proactive-docs/main/schema/tables/example.json"></label>
+        <label class="form-field">Schema File (optional): <input type="file" id="schemafile"></label>
+        <button type="submit">Validate CSV</button>
+      </form>
+      <div id="badge" class="badge"></div>
+      <pre id="output"></pre>
+    </div>
+  </div>
+  <footer>
+    Powered by <a href="https://developer.puter.com" target="_blank">Puter</a>
+  </footer>
+<script src="https://js.puter.com/v2/"></script>
 <script>
+const repoOwner = "PatLittle";
+const repoName = "proactive-docs";
+const ref = "main";
+let selectedSchemaFile = null;
+let enteredRows = [];
+let selectedSchemaFields = [];
+
+// Fetch file list from schema/tables using GitHub API (CORS-free via Puter)
+async function fetchSchemaList() {
+  const apiUrl = `https://api.github.com/repos/${repoOwner}/${repoName}/contents/schema/tables?ref=${ref}`;
+  const res = await puter.net.fetch(apiUrl, { headers: { Accept: "application/vnd.github.v3+json" } });
+  const files = await res.json();
+  return files.filter(f => f.name.endsWith('.json'));
+}
+
+// Fetch a schema file's content
+async function fetchSchema(path) {
+  const apiUrl = `https://api.github.com/repos/${repoOwner}/${repoName}/contents/${path}?ref=${ref}`;
+  const res = await puter.net.fetch(apiUrl, { headers: { Accept: "application/vnd.github.v3.raw" } });
+  return await res.json();
+}
+
+function renderSideMenu(schemas, selected) {
+  const menu = document.getElementById('schema-list');
+  menu.innerHTML = '';
+  schemas.forEach(s => {
+    const d = document.createElement('div');
+    d.className = 'schema-item' + (selected && selected.name === s.name ? ' selected' : '');
+    d.textContent = s.name.replace('.json','');
+    d.onclick = () => selectSchema(s);
+    menu.appendChild(d);
+  });
+}
+
+function renderSchemaDetails(schema) {
+  const div = document.getElementById('schema-details');
+  if (!schema) { div.innerHTML = ''; return; }
+  let html = `<h2>${schema.title || schema.name || "Untitled Schema"}</h2>`;
+  if (schema.description) html += `<p>${schema.description}</p>`;
+  if (schema.fields) {
+    html += `<table>
+      <tr><th>Name</th><th>Type</th><th>Constraints</th><th>Description</th></tr>`;
+    schema.fields.forEach(f => {
+      html += `<tr>
+        <td>${f.name}</td>
+        <td>${f.type}</td>
+        <td>${f.constraints ? Object.entries(f.constraints).map(([k,v]) => `${k}: ${v}`).join(', ') : ""}</td>
+        <td>${f.description||''}</td>
+        </tr>`;
+    });
+    html += "</table>";
+  }
+  div.innerHTML = html;
+}
+
+function renderDataEntryForm(schema) {
+  const div = document.getElementById('data-entry');
+  if (!schema || !schema.fields) { div.innerHTML = ''; enteredRows = []; selectedSchemaFields = []; return; }
+  selectedSchemaFields = schema.fields.map(f => f.name);
+  let html = `<h3>Manual Data Entry</h3><form id="entry-form">`;
+  schema.fields.forEach(f => {
+    html += `<div class="form-field">
+      <label>${f.name} (${f.type}): <input name="${f.name}" type="text" placeholder="${f.description||''}"></label>
+    </div>`;
+  });
+  html += `<button type="submit">Add Row</button></form>
+    <div id="submitted-rows"></div>`;
+  div.innerHTML = html;
+
+  // Add form behavior
+  const form = document.getElementById('entry-form');
+  const submitted = document.getElementById('submitted-rows');
+  enteredRows = [];
+  form.onsubmit = function(e) {
+    e.preventDefault();
+    const formData = new FormData(form);
+    const row = {};
+    schema.fields.forEach(f => row[f.name] = formData.get(f.name));
+    enteredRows.push(row);
+    submitted.innerHTML = `<h4>Rows Entered</h4><pre>${JSON.stringify(enteredRows, null, 2)}</pre>`;
+    form.reset();
+  };
+}
+
+let schemas = [];
+async function selectSchema(schemaFile) {
+  selectedSchemaFile = schemaFile;
+  renderSideMenu(schemas, schemaFile);
+  const schema = await fetchSchema(schemaFile.path);
+  renderSchemaDetails(schema);
+  renderDataEntryForm(schema);
+
+  // Set the schema URL field to the raw github url
+  const rawUrl = `https://raw.githubusercontent.com/${repoOwner}/${repoName}/${ref}/${schemaFile.path}`;
+  document.getElementById('schemaurl').value = rawUrl;
+}
+
+// Initial load
+(async () => {
+  schemas = await fetchSchemaList();
+  renderSideMenu(schemas, null);
+})();
+
+/******** CSV VALIDATOR Section ********/
+const output = document.getElementById('output');
+const badgeDiv = document.getElementById('badge');
+
 document.getElementById('vform').addEventListener('submit', async (e) => {
   e.preventDefault();
-  const fd = new FormData();
+  output.textContent = '';
+  badgeDiv.innerHTML = '';
+
   const file = document.getElementById('csv').files[0];
-  const url = document.getElementById('csvurl').value;
-  const schema = document.getElementById('schema').value;
-  if (file) fd.append('file', file);
-  if (url) fd.append('url', url);
-  if (schema) fd.append('schema', schema);
-  const res = await fetch('https://csvlint.io/validate', { method: 'POST', body: fd });
-  const data = await res.json();
-  document.getElementById('output').textContent = JSON.stringify(data, null, 2);
+  const csvUrl = document.getElementById('csvurl').value.trim();
+  const schemaUrl = document.getElementById('schemaurl').value.trim();
+  const schemaFile = document.getElementById('schemafile').files[0];
+
+  let response, data;
+  try {
+    if (enteredRows.length > 0 && selectedSchemaFile) {
+      // Convert enteredRows to CSV string
+      const fields = selectedSchemaFields;
+      let csvContent = fields.join(',') + '\n';
+      enteredRows.forEach(row => {
+        csvContent += fields.map(f => `"${(row[f]||'').replace(/"/g,'""')}"`).join(',') + '\n';
+      });
+
+      // Create a Blob for CSV
+      const csvBlob = new Blob([csvContent], {type: 'text/csv'});
+      const fd = new FormData();
+      fd.append('file', csvBlob, 'entered_data.csv');
+      fd.append('schemaUrl', schemaUrl);
+
+      response = await puter.net.fetch('https://csvlint.io/validate', {
+        method: 'POST',
+        body: fd,
+        headers: { 'Accept': 'application/json' }
+      });
+      data = await response.json();
+    }
+    else if (file || schemaFile) {
+      const fd = new FormData();
+      if (file) fd.append('file', file);
+      if (csvUrl) fd.append('csvUrl', csvUrl);
+      if (schemaUrl) fd.append('schemaUrl', schemaUrl);
+      if (schemaFile) fd.append('schema', schemaFile);
+      response = await puter.net.fetch('https://csvlint.io/validate', {
+        method: 'POST',
+        body: fd,
+        headers: { 'Accept': 'application/json' }
+      });
+      data = await response.json();
+    }
+    else if (csvUrl) {
+      let url = `https://csvlint.io/validate?csvUrl=${encodeURIComponent(csvUrl)}`;
+      if (schemaUrl) url += `&schemaUrl=${encodeURIComponent(schemaUrl)}`;
+      response = await puter.net.fetch(url, { headers: { 'Accept': 'application/json' } });
+      data = await response.json();
+    }
+    else {
+      output.textContent = 'Please provide a CSV file, URL, or enter data.';
+      return;
+    }
+
+    output.textContent = JSON.stringify(data, null, 2);
+
+    let badgeUrl = '';
+    // Show badge only for CSV URL validation
+    if (csvUrl) {
+      badgeUrl = `https://csvlint.io/validate?csvUrl=${encodeURIComponent(csvUrl)}&format=svg`;
+    } else if (file || enteredRows.length > 0) {
+      badgeDiv.innerHTML = '<small>No badge for uploaded files/manual data.</small>';
+    }
+    if (badgeUrl) {
+      badgeDiv.innerHTML = `<a href="https://csvlint.io/validate?csvUrl=${encodeURIComponent(csvUrl)}" target="_blank">
+        <img src="${badgeUrl}" alt="CSV Validation Badge">
+      </a>`;
+    }
+  } catch (err) {
+    output.textContent = 'Validation error: ' + err;
+  }
 });
 </script>
 </body>
