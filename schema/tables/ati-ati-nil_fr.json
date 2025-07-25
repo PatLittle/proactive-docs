@@ -1,0 +1,29 @@
+{
+  "fields": [
+    {
+      "name": "year",
+      "title": "Année",
+      "description": "Année civile a quatre chiffres du mois pour lequel vous ne signalez aucun résumé à publier.",
+      "type": "year",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "month",
+      "title": "Mois (1-12)",
+      "description": "Une représentation numérique du mois pour lequel vous ne signalez aucun résumé a publier.",
+      "type": "string",
+      "constraints": {
+        "required": true
+      }
+    }
+  ],
+  "missingValues": [
+    ""
+  ],
+  "primaryKey": [
+    "year",
+    "month"
+  ]
+}

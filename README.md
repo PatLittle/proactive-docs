@@ -40,17 +40,28 @@ python scripts/generate_docs.py --source path/to/schema.json
 python scripts/generate_table_schemas.py
 ```
 
-6. Validate the example CSV files against the generated schemas (calls the Validata API once every 10 seconds):
+6. Validate the example CSV files using [Frictionless](https://github.com/frictionlessdata/frictionless-ci):
 
 ```bash
-python scripts/validate_table_schemas.py --delay 10
+for csv in schema/examples/*.csv; do
+  name=$(basename "$csv" .csv)
+  frictionless validate "$csv" --schema schema/tables/"$name".json
+done
+```
+
+To validate a file using the Validata API you can still run:
+
+```bash
+python scripts/validate_table_schemas.py --csv path/to/example.csv --schema path/to/schema.json
 ```
 
 ## GitHub Actions
 
-Three workflows (`generate-dataset-docs.yml`, `generate-choice-docs.yml` and `generate-table-schemas.yml`) run the automation scripts whenever the URL list or scripts change. They commit the resulting documentation, table schemas and example data back to the repository and validate the schemas using [Validata](https://api.validata.etalab.studio/).
+The repository includes workflows to keep the documentation and table schemas up to date. `generate-dataset-docs.yml`, `generate-choice-docs.yml` and `generate-table-schemas.yml` run the automation scripts whenever the URL list or scripts change and commit the results.
 
-An additional workflow (`validate-bad-example.yml`) demonstrates how a validation failure looks. It runs `validate_table_schemas.py` against the sample file in `schema/bad_examples` and prints the API response. The output resembles:
+`frictionless.yml` validates the generated examples using the [Frictionless Repository](https://github.com/frictionlessdata/frictionless-ci) action.
+
+The `validate-bad-example.yml` workflow can be triggered manually to validate any CSV/JSON pair using the Validata API. The output resembles:
 
 ```text
 Validation errors for schema/bad_examples/hospitalityq-hospitalityq_en.csv:

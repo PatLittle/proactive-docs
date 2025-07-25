@@ -1,10 +1,17 @@
-name: Validate Bad Example
+name: Validate With API
 on:
   workflow_dispatch:
+    inputs:
+      csv:
+        description: 'CSV file to validate'
+        required: true
+      schema:
+        description: 'Schema JSON file'
+        required: true
 permissions:
   contents: read
 jobs:
-  validate-bad-example:
+  validate-with-api:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -14,4 +21,7 @@ jobs:
         with:
           python-version: '3.x'
       - run: pip install -r requirements.txt
-      - run: python scripts/validate_table_schemas.py --examples-dir schema/bad_examples --delay 10
+      - run: python scripts/validate_table_schemas.py --csv "$CSV" --schema "$SCHEMA" --delay 10
+        env:
+          CSV: ${{ inputs.csv }}
+          SCHEMA: ${{ inputs.schema }}

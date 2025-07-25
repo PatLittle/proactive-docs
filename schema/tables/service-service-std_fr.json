@@ -1,0 +1,162 @@
+{
+  "fields": [
+    {
+      "name": "fiscal_yr",
+      "title": "Année financière",
+      "description": "Indique l'exercice financier (1 avril au 31 mars) durant lequel les activités du service ont eu lieu. Par exemple, les données pour l’exercice financier 2023-2024 devrait inclure les demandes de service qui ont été reçues entre le 1 avril 2023 et le 31 mars 2024.\n",
+      "type": "string",
+      "constraints": {
+        "required": true,
+        "enum": [
+          "2005-2006",
+          "2006-2007",
+          "2007-2008",
+          "2008-2009",
+          "2009-2010",
+          "2010-2011",
+          "2011-2012",
+          "2012-2013",
+          "2013-2014",
+          "2014-2015",
+          "2015-2016",
+          "2016-2017",
+          "2017-2018",
+          "2018-2019",
+          "2019-2020",
+          "2020-2021",
+          "2021-2022",
+          "2022-2023",
+          "2023-2024",
+          "2024-2025",
+          "2025-2026",
+          "2026-2027",
+          "2027-2028",
+          "2028-2029",
+          "2029-2030"
+        ]
+      }
+    },
+    {
+      "name": "service_id",
+      "title": "Numéro d'identification du service",
+      "description": "Le numéro unique attribué à un service dans le répertoire afin de faciliter le référencement à des services précis.",
+      "type": "string",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "service_name_fr",
+      "title": "Nom du service (en français)",
+      "description": "Indique le nom officiel du service.",
+      "type": "string",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "service_standard_id",
+      "title": "Numéro d'identification de la norme relative aux services",
+      "description": "Indique le numéro unique attribué à chaque norme relative aux services pour ce service. Facilite le référencement, car un service peut avoir de multiples normes.\n",
+      "type": "string",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "service_standard_fr",
+      "title": "Norme relative aux services (français)",
+      "description": "Indique la norme relative aux services ayant trait à un service en particulier. Voir la Ligne directrice sur les services et le numérique afin de connaître le format à utiliser pour définir les normes relatives aux services.\n",
+      "type": "string",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "type",
+      "title": "Type de norme relative aux services",
+      "description": "Indique le type de norme relative aux services défini dans la Ligne directrice sur les services et le numérique. Accès: un engagement qui décrit la facilité et la convivialité que devrait connaître le client lorsqu'il essaie d'accéder à un service. Exactitude: un engagement qui stipule que le client recevra un service complet et à jour qui est exempt d'erreurs. Délai: un engagement qui indique le temps d'attente que devrait connaître le client pour recevoir un service une fois qu'il y a accédé.\n",
+      "type": "string",
+      "constraints": {
+        "required": true,
+        "enum": [
+          "ACS",
+          "ACY",
+          "OTH",
+          "TML"
+        ]
+      }
+    },
+    {
+      "name": "channel",
+      "title": "Mode de prestation de la norme de service",
+      "description": "Identifie à quelle mode de prestation de service la norme de service s'applique",
+      "type": "string",
+      "constraints": {
+        "required": true,
+        "enum": [
+          "EML",
+          "FAX",
+          "ONL",
+          "OTH",
+          "PERSON",
+          "POST",
+          "TEL"
+        ]
+      }
+    },
+    {
+      "name": "channel_comments_fr",
+      "title": "Commentaires sur le mode de prestation de la norme de service (Francais)",
+      "description": "Commentaires en lien au mode de prestation de la norme de service et fournit une explication de la sélection des modes de prestation « Autre ».",
+      "type": "string"
+    },
+    {
+      "name": "target",
+      "title": "Cible de la norme relative aux services",
+      "description": "Fréquence à laquelle l'organisation s'attend à respecter sa norme de service (exprimée en pourcentage).",
+      "type": "string"
+    },
+    {
+      "name": "volume_meeting_target",
+      "title": "Volume d'activités qui respectent la cible de la norme relative aux services",
+      "description": "Indique le nombre d'opérations de service effectuées (p. ex. les appels auxquels on a répondu, les paiements émis, les demandes traitées, etc.) au cours de l'exercice qui ont respecté une norme relative aux services particulière à un service. Un champ vide indique qu'aucune information n'est disponible, tandis que 0 indique qu'aucun résultat final n'a été émis qui a atteint les objectifs de la norme de service.\n",
+      "type": "string"
+    },
+    {
+      "name": "total_volume",
+      "title": "Volumes totaux",
+      "description": "Indique le nombre total d'opérations de service effectuées (p. ex. les paiements émis, les demandes traitées, etc.) relativement à un service au cours de l'exercice. Un champ vide indique qu'aucune information n'est disponible, tandis que 0 indique qu'aucune opération n'a été effectuée.\n",
+      "type": "string"
+    },
+    {
+      "name": "comments_fr",
+      "title": "Commentaires sur la norme de service en general (Francais)",
+      "description": "Commentaires en lien à la norme de service en general.",
+      "type": "string"
+    },
+    {
+      "name": "standards_targets_uri_fr",
+      "title": "URL vers les normes relatives aux services et les cibles (français)",
+      "description": "Indique la page Web ministérielle (Canada.ca) où les normes relatives aux services et les cibles sont publiées.",
+      "type": "string",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "performance_results_uri_fr",
+      "title": "URL aux résultats de rendement en temps réel (français)",
+      "description": "Identifie la site Web du service sur laquelle les résultats de performance en temps réel d'un service sont publiés.",
+      "type": "string"
+    }
+  ],
+  "missingValues": [
+    ""
+  ],
+  "primaryKey": [
+    "fiscal_yr",
+    "service_id",
+    "service_standard_id"
+  ]
+}

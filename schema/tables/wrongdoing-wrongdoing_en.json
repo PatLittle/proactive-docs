@@ -1,0 +1,72 @@
+{
+  "fields": [
+    {
+      "name": "ref_number",
+      "title": "Reference Number",
+      "description": "This field is populated by the user. It is a unique reference number given to each line item in the spreadsheet. Having a unique identifier for each item will allow users locate a specific item in the registry should they need to modify or delete.",
+      "type": "string",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "file_id_number",
+      "title": "File Identification Number",
+      "description": "This field will contain the file identification number of the founded wrongdoing file.",
+      "type": "string",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "file_id_date",
+      "title": "File Identification date",
+      "description": "This field will provide the date that the file was created/received.",
+      "type": "date",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "case_description_en",
+      "title": "English Case Description",
+      "description": "The field will contain the case description, in English.",
+      "type": "string",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "findings_conclusions",
+      "title": "Findings and Conclusions",
+      "description": "The field will contain value(s) a – f, separated by commas if more than one value.",
+      "type": "string",
+      "constraints": {
+        "required": true,
+        "enum": [
+          "a",
+          "b",
+          "c",
+          "d",
+          "e",
+          "f"
+        ]
+      }
+    },
+    {
+      "name": "recommendations_corrective_measures_en",
+      "title": "English Recommendations and Corrective Measures",
+      "description": "The Field will contain the Recommendations and Corrective Measures as per the article 11 of the Public Servants Disclosure Protection Act, in English.",
+      "type": "string",
+      "constraints": {
+        "required": true
+      }
+    }
+  ],
+  "missingValues": [
+    ""
+  ],
+  "primaryKey": [
+    "ref_number"
+  ]
+}

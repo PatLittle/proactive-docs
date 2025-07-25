@@ -1,0 +1,29 @@
+{
+  "fields": [
+    {
+      "name": "year",
+      "title": "Year",
+      "description": "Four-digit calendar year of the month for which you are reporting no summaries to publish.",
+      "type": "year",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "month",
+      "title": "Month (1-12)",
+      "description": "A numerical representation of the month for which you are reporting no summaries to publish.",
+      "type": "string",
+      "constraints": {
+        "required": true
+      }
+    }
+  ],
+  "missingValues": [
+    ""
+  ],
+  "primaryKey": [
+    "year",
+    "month"
+  ]
+}

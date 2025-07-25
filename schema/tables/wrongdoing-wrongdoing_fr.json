@@ -1,0 +1,72 @@
+{
+  "fields": [
+    {
+      "name": "ref_number",
+      "title": "Numéro de référence",
+      "description": "Cette zone est remplie par chaque organisation. Un identificateur unique est attribué à chaque poste dans le tableur. Un identificateur unique pour chaque poste permettra aux utilisateurs de repérer un article en particulier s’ils doivent le modifier ou le supprimer.",
+      "type": "string",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "file_id_number",
+      "title": "Numéro d’identification du fichier",
+      "description": "Cette zone renferme le numéro d’identification du dossier de l’acte répréhensible constaté.",
+      "type": "string",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "file_id_date",
+      "title": "Date d’identification du ficher",
+      "description": "Cette zone renferme la date à laquelle le dossier a été créé ou reçu.",
+      "type": "date",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "case_description_fr",
+      "title": "Description française",
+      "description": "Cette zone renferme la description du cas en français.",
+      "type": "string",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "findings_conclusions",
+      "title": "Constatations et Conclusions",
+      "description": "Le champ contiendra une (des) valeur(s) a – f, séparées par une virgule s´il y en a plus d´une.",
+      "type": "string",
+      "constraints": {
+        "required": true,
+        "enum": [
+          "a",
+          "b",
+          "c",
+          "d",
+          "e",
+          "f"
+        ]
+      }
+    },
+    {
+      "name": "recommendations_corrective_measures_fr",
+      "title": "Recommendations et mesures Correctives françaises",
+      "description": "Cette zone renferme les recommandations et mesures correctives en français, en conformité à l’article 11 de la Loi sur la protection des fonctionnaires divulgateurs d’actes répréhensibles.",
+      "type": "string",
+      "constraints": {
+        "required": true
+      }
+    }
+  ],
+  "missingValues": [
+    ""
+  ],
+  "primaryKey": [
+    "ref_number"
+  ]
+}

@@ -1,0 +1,148 @@
+{
+  "fields": [
+    {
+      "name": "reporting_period",
+      "title": "Reporting Period",
+      "description": "The current reporting period and fiscal year",
+      "type": "string",
+      "constraints": {
+        "required": true,
+        "enum": [
+          "2018-2019-Q1",
+          "2018-2019-Q2",
+          "2018-2019-Q3",
+          "2018-2019-Q4",
+          "2019-2020-Q1",
+          "2019-2020-Q2",
+          "2019-2020-Q3",
+          "2019-2020-Q4",
+          "2020-2021-Q1",
+          "2020-2021-Q2",
+          "2020-2021-Q3",
+          "2020-2021-Q4",
+          "2021-2022-Q1",
+          "2021-2022-Q2",
+          "2021-2022-Q3",
+          "2021-2022-Q4",
+          "2022-2023-Q1",
+          "2022-2023-Q2",
+          "2022-2023-Q3",
+          "2022-2023-Q4",
+          "2023-2024-Q1",
+          "2023-2024-Q2",
+          "2023-2024-Q3",
+          "2023-2024-Q4",
+          "2024-2025-Q1",
+          "2024-2025-Q2",
+          "2024-2025-Q3",
+          "2024-2025-Q4"
+        ]
+      }
+    },
+    {
+      "name": "line_number",
+      "title": "Line Number",
+      "description": "The line number of the disclosure.",
+      "type": "integer",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "member_name",
+      "title": "Member’s Name",
+      "description": "The member’s full name.",
+      "type": "string",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "province",
+      "title": "Province or Territory of Primary Residence",
+      "description": "The province or territory of the member’s main residence at the time the remuneration and/or expenses were incurred.",
+      "type": "string",
+      "constraints": {
+        "required": true,
+        "enum": [
+          "AB",
+          "BC",
+          "MB",
+          "NB",
+          "NL",
+          "NS",
+          "NT",
+          "NU",
+          "ON",
+          "OTHER",
+          "PE",
+          "QC",
+          "SK",
+          "YT"
+        ]
+      }
+    },
+    {
+      "name": "role",
+      "title": "Role",
+      "description": "The member’s role at the time the remuneration and/or expenses were incurred (i.e. “C-P” is for chair and “M-M” is for member)",
+      "type": "string",
+      "constraints": {
+        "required": true,
+        "enum": [
+          "C-P",
+          "M-M"
+        ]
+      }
+    },
+    {
+      "name": "meeting_hours",
+      "title": "Number of Hours Spent at Meeting(s)",
+      "description": "The number of hours when the member met with the committee in person or via teleconference during the reporting period.",
+      "type": "string",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "other_hours",
+      "title": "Number of hours spent on preparation, travel and/or training or orientation",
+      "description": "The number of hours the member spent on preparation, travel and/or training or orientation during the reporting period.",
+      "type": "string",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "remuneration",
+      "title": "Total Remuneration",
+      "description": "The total amount paid to the member for time spent at meetings, preparation, travel and/or training or orientation during the reporting period (i.e. per diem rate ÷ 7.5 hours x number of hours worked).",
+      "type": "number",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "travel_expenses",
+      "title": "Total Travel Expenses",
+      "description": "The total travel expenses incurred by the member during the reporting period, including transportation, meals, incidentals, etc.",
+      "type": "number",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "notes_en",
+      "title": "Notes (English)",
+      "description": "Any other relevant information (e.g. description of the activities included in the total remuneration, point of origin of a member’s travel, etc.)",
+      "type": "string"
+    }
+  ],
+  "missingValues": [
+    ""
+  ],
+  "primaryKey": [
+    "reporting_period",
+    "line_number"
+  ]
+}

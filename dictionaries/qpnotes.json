@@ -15,6 +15,9 @@
         "en": "Proactive Publication - Question Period Notes",
         "fr": "Publication proactive - Notes pour la période des questions"
       },
+      "primary_key": [
+        "reference_number"
+      ],
       "fields": [
         {
           "id": "reference_number",
@@ -2519,7 +2522,22 @@
           },
           "datastore_type": "text"
         }
-      ]
+      ],
+      "example_record": {
+        "reference_number": "DND-2019-QP-00001",
+        "title_en": "Bill C-58 (Access to Information Reform)",
+        "title_fr": "Projet de loi C-58 (réforme de l'accès à l'information)",
+        "minister": "PM",
+        "question_en": "What is the Government doing to reform the Access to Information Act (Bill C-58)?",
+        "question_fr": "Que fait le gouvernement pour réformer la Loi sur l'accès à l'information (projet de loi C-58)?",
+        "date_received": "2019-11-25",
+        "response_en": "* Bill C-58 contains the first significant amendments to the Access to Information Act since it was introduced over three decades ago. \n* This Bill is the first phase of a two-step approach to update access to information. The targeted changes will be followed by a full review of the Act in Phase II, to begin within one year of royal assent. \n* The Government thanks the members of the Senate Committee on Legal and Constitutional Affairs for their careful review of Bill C-58.",
+        "response_fr": "* Le projet de loi C-58 contient les premières modifications importantes touchant la Loi sur l’accès à l’information depuis l’adoption de celle-ci il y a plus de trente ans. \n* Le projet de loi C-58 est la première phase d’une approche en deux étapes qui vise à mettre à jour l’accès à l’information. Les changements visés seront suivis d’un examen complet de la Loi au cours de la deuxième phase, qui commencera dans l’année suivant la sanction royale du projet de loi. \n* Le gouvernement remercie les membres du Comité sénatorial permanent des affaires juridiques et constitutionnelles pour l’examen approfondi du projet de loi C-58 qu’ils ont effectué.",
+        "background_en": "Government of Canada institutions subject to the [Access to Information Act](http://laws-lois.justice.gc.ca/eng/acts/a-1/) (ATIA) are required to post summaries of processed ATI requests.",
+        "background_fr": "Les institutions du gouvernement du Canada visées par la [Loi sur l’accès à l’information](http://laws-lois.justice.gc.ca/fra/lois/a-1/) (LAI) sont tenues de publier les sommaires des demandes d’accès à l’information qu’elles ont traitées.",
+        "additional_information_en": "The Government will continue to work with the Information Commissioner, parliamentarians, and other stakeholders to further strengthen government openness and transparency.",
+        "additional_information_fr": "Le gouvernement continuera de travailler avec la commissaire à l’information, les parlementaires et d’autres intervenants afin d’être encore plus ouvert et transparent. "
+      }
     },
     {
       "resource_name": "qpnotes-nil",
@@ -2527,6 +2545,10 @@
         "en": "Proactive Publication - Question Period Notes Nothing to Report",
         "fr": "Publication proactive - Notes pour la période des questions rien à signaler"
       },
+      "primary_key": [
+        "year",
+        "reporting_period"
+      ],
       "fields": [
         {
           "id": "year",
@@ -2578,7 +2600,11 @@
             }
           }
         }
-      ]
+      ],
+      "example_record": {
+        "year": 2023,
+        "reporting_period": "P01"
+      }
     }
   ]
 }

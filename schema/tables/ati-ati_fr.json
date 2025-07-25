@@ -1,0 +1,77 @@
+{
+  "fields": [
+    {
+      "name": "year",
+      "title": "Année",
+      "description": "Ce champ doit être complété avec l’année civile à quatre chiffres durant laquelle la demande a été complétée.",
+      "type": "year",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "month",
+      "title": "Mois (1-12)",
+      "description": "Ce champ doit être complété avec la représentation numérique du mois durant lequel la demande a été complétée.",
+      "type": "string",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "request_number",
+      "title": "Numero de la demande",
+      "description": "Numéro de dossier de demande de votre institution de la demande d’accès à l’information complétée.",
+      "type": "string",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "summary_fr",
+      "title": "Sommaire de la demande en français",
+      "description": "Un résumé descriptif de la demande d’accès à l’information en français.",
+      "type": "string",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "disposition",
+      "title": "Disposition",
+      "description": "La disposition de la réponse de la demande d’accès à l’information complétée.",
+      "type": "string",
+      "constraints": {
+        "required": true,
+        "enum": [
+          "DA",
+          "DP",
+          "EC",
+          "EX",
+          "NE"
+        ]
+      }
+    },
+    {
+      "name": "pages",
+      "title": "Nombre de pages",
+      "description": "Le nombre de pages publiées en réponse à la demande d’accès à l’information. Si aucun enregistrement n’a été publié, entrez la valeur « 0 ».",
+      "type": "integer",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "comments_fr",
+      "title": "Commentaires en français",
+      "description": "Ce champ peut être rempli avec des commentaires supplémentaires ou contextuels en français.",
+      "type": "string"
+    }
+  ],
+  "missingValues": [
+    ""
+  ],
+  "primaryKey": [
+    "request_number"
+  ]
+}
