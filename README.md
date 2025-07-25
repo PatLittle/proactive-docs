@@ -40,7 +40,13 @@ python scripts/generate_docs.py --source path/to/schema.json
 python scripts/generate_table_schemas.py
 ```
 
-6. Validate the example CSV files against the generated schemas (calls the Validata API once every 10 seconds):
+6. Validate the example CSV files against the generated schemas locally:
+
+```bash
+frictionless validate schema/examples/ati-ati_en.csv --schema schema/tables/ati-ati_en.json
+```
+
+7. Validate using the Validata API (calls the API once every 10 seconds):
 
 ```bash
 python scripts/validate_table_schemas.py --delay 10
@@ -66,4 +72,6 @@ Validation errors for schema/bad_examples/hospitalityq-hospitalityq_en.csv:
   }
 }
 ```
+
+The `frictionless.yml` workflow validates all generated examples against their schemas using the [Frictionless](https://github.com/frictionlessdata/frictionless-ci) action.
 

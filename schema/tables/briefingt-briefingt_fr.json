@@ -1,0 +1,79 @@
+{
+  "fields": [
+    {
+      "name": "tracking_number",
+      "title": "Numéro de suivi",
+      "description": "Ce champ affichera le numéro de suivi interne de la note de breffage.",
+      "type": "string",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "title_fr",
+      "title": "Titre (en français)",
+      "description": "Ce champ est rempli par l'utilisateur avec le titre officiel de la note de breffage, en français.",
+      "type": "string",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "originating_sector_fr",
+      "title": "Secteur d’origine (en français)",
+      "description": "Le secteur, la direction ou la division d'où provient la note de breffage en français S'il y a plusieurs secteurs/directions/divisions, on peut les séparer par un point-virgule (;).",
+      "type": "string",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "addressee",
+      "title": "Destinataire",
+      "description": "Ce champ affichera le nom de la personne à qui la note de breffage est adressée.",
+      "type": "string",
+      "constraints": {
+        "required": true,
+        "enum": [
+          "D",
+          "M"
+        ]
+      }
+    },
+    {
+      "name": "date_received",
+      "title": "Date de réception",
+      "description": "Ce champ affichera la date à laquelle la note de breffage a été reçue par le bureau du destinataire.",
+      "type": "date",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "action_required",
+      "title": "Mesure requise",
+      "description": "La mesure requise représente le but de la note de breffage; À titre d'information : Si l'élément n'est envoyé que pour informer le destinataire; Pour approbation/signature; Si l'élément est envoyé à des fins d'approbation ou de signature seulement par le destinataire; Pour décision : Si l'élément demande au destinataire de prendre une décision décisive.",
+      "type": "string",
+      "constraints": {
+        "required": true,
+        "enum": [
+          "D",
+          "I",
+          "S"
+        ]
+      }
+    },
+    {
+      "name": "additional_information_fr",
+      "title": "Renseignements supplémentaires (en français)",
+      "description": "Ce champ affichera de plus amples renseignements/commentaires concernant la note de breffage, en français.",
+      "type": "string"
+    }
+  ],
+  "missingValues": [
+    ""
+  ],
+  "primaryKey": [
+    "tracking_number"
+  ]
+}

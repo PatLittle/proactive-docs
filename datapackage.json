@@ -1,0 +1,224 @@
+{
+  "resources": [
+    {
+      "name": "hospitalityq-hospitalityq_en",
+      "path": "schema/examples/hospitalityq-hospitalityq_en.csv",
+      "schema": "schema/tables/hospitalityq-hospitalityq_en.json"
+    },
+    {
+      "name": "hospitalityq-hospitalityq_fr",
+      "path": "schema/examples/hospitalityq-hospitalityq_fr.csv",
+      "schema": "schema/tables/hospitalityq-hospitalityq_fr.json"
+    },
+    {
+      "name": "hospitalityq-hospitalityq-nil_en",
+      "path": "schema/examples/hospitalityq-hospitalityq-nil_en.csv",
+      "schema": "schema/tables/hospitalityq-hospitalityq-nil_en.json"
+    },
+    {
+      "name": "hospitalityq-hospitalityq-nil_fr",
+      "path": "schema/examples/hospitalityq-hospitalityq-nil_fr.csv",
+      "schema": "schema/tables/hospitalityq-hospitalityq-nil_fr.json"
+    },
+    {
+      "name": "qpnotes-qpnotes_en",
+      "path": "schema/examples/qpnotes-qpnotes_en.csv",
+      "schema": "schema/tables/qpnotes-qpnotes_en.json"
+    },
+    {
+      "name": "qpnotes-qpnotes_fr",
+      "path": "schema/examples/qpnotes-qpnotes_fr.csv",
+      "schema": "schema/tables/qpnotes-qpnotes_fr.json"
+    },
+    {
+      "name": "qpnotes-qpnotes-nil_en",
+      "path": "schema/examples/qpnotes-qpnotes-nil_en.csv",
+      "schema": "schema/tables/qpnotes-qpnotes-nil_en.json"
+    },
+    {
+      "name": "qpnotes-qpnotes-nil_fr",
+      "path": "schema/examples/qpnotes-qpnotes-nil_fr.csv",
+      "schema": "schema/tables/qpnotes-qpnotes-nil_fr.json"
+    },
+    {
+      "name": "ati-ati_en",
+      "path": "schema/examples/ati-ati_en.csv",
+      "schema": "schema/tables/ati-ati_en.json"
+    },
+    {
+      "name": "ati-ati_fr",
+      "path": "schema/examples/ati-ati_fr.csv",
+      "schema": "schema/tables/ati-ati_fr.json"
+    },
+    {
+      "name": "ati-ati-nil_en",
+      "path": "schema/examples/ati-ati-nil_en.csv",
+      "schema": "schema/tables/ati-ati-nil_en.json"
+    },
+    {
+      "name": "ati-ati-nil_fr",
+      "path": "schema/examples/ati-ati-nil_fr.csv",
+      "schema": "schema/tables/ati-ati-nil_fr.json"
+    },
+    {
+      "name": "travelq-travelq_en",
+      "path": "schema/examples/travelq-travelq_en.csv",
+      "schema": "schema/tables/travelq-travelq_en.json"
+    },
+    {
+      "name": "travelq-travelq_fr",
+      "path": "schema/examples/travelq-travelq_fr.csv",
+      "schema": "schema/tables/travelq-travelq_fr.json"
+    },
+    {
+      "name": "travelq-travelq-nil_en",
+      "path": "schema/examples/travelq-travelq-nil_en.csv",
+      "schema": "schema/tables/travelq-travelq-nil_en.json"
+    },
+    {
+      "name": "travelq-travelq-nil_fr",
+      "path": "schema/examples/travelq-travelq-nil_fr.csv",
+      "schema": "schema/tables/travelq-travelq-nil_fr.json"
+    },
+    {
+      "name": "service-service_en",
+      "path": "schema/examples/service-service_en.csv",
+      "schema": "schema/tables/service-service_en.json"
+    },
+    {
+      "name": "service-service_fr",
+      "path": "schema/examples/service-service_fr.csv",
+      "schema": "schema/tables/service-service_fr.json"
+    },
+    {
+      "name": "service-service-std_en",
+      "path": "schema/examples/service-service-std_en.csv",
+      "schema": "schema/tables/service-service-std_en.json"
+    },
+    {
+      "name": "service-service-std_fr",
+      "path": "schema/examples/service-service-std_fr.csv",
+      "schema": "schema/tables/service-service-std_fr.json"
+    },
+    {
+      "name": "contractsa-contractsa_en",
+      "path": "schema/examples/contractsa-contractsa_en.csv",
+      "schema": "schema/tables/contractsa-contractsa_en.json"
+    },
+    {
+      "name": "contractsa-contractsa_fr",
+      "path": "schema/examples/contractsa-contractsa_fr.csv",
+      "schema": "schema/tables/contractsa-contractsa_fr.json"
+    },
+    {
+      "name": "contracts-contracts_en",
+      "path": "schema/examples/contracts-contracts_en.csv",
+      "schema": "schema/tables/contracts-contracts_en.json"
+    },
+    {
+      "name": "contracts-contracts_fr",
+      "path": "schema/examples/contracts-contracts_fr.csv",
+      "schema": "schema/tables/contracts-contracts_fr.json"
+    },
+    {
+      "name": "contracts-contracts-nil_en",
+      "path": "schema/examples/contracts-contracts-nil_en.csv",
+      "schema": "schema/tables/contracts-contracts-nil_en.json"
+    },
+    {
+      "name": "contracts-contracts-nil_fr",
+      "path": "schema/examples/contracts-contracts-nil_fr.csv",
+      "schema": "schema/tables/contracts-contracts-nil_fr.json"
+    },
+    {
+      "name": "adminaircraft-adminaircraft_en",
+      "path": "schema/examples/adminaircraft-adminaircraft_en.csv",
+      "schema": "schema/tables/adminaircraft-adminaircraft_en.json"
+    },
+    {
+      "name": "adminaircraft-adminaircraft_fr",
+      "path": "schema/examples/adminaircraft-adminaircraft_fr.csv",
+      "schema": "schema/tables/adminaircraft-adminaircraft_fr.json"
+    },
+    {
+      "name": "grants-grants_en",
+      "path": "schema/examples/grants-grants_en.csv",
+      "schema": "schema/tables/grants-grants_en.json"
+    },
+    {
+      "name": "grants-grants_fr",
+      "path": "schema/examples/grants-grants_fr.csv",
+      "schema": "schema/tables/grants-grants_fr.json"
+    },
+    {
+      "name": "grants-grants-nil_en",
+      "path": "schema/examples/grants-grants-nil_en.csv",
+      "schema": "schema/tables/grants-grants-nil_en.json"
+    },
+    {
+      "name": "grants-grants-nil_fr",
+      "path": "schema/examples/grants-grants-nil_fr.csv",
+      "schema": "schema/tables/grants-grants-nil_fr.json"
+    },
+    {
+      "name": "briefingt-briefingt_en",
+      "path": "schema/examples/briefingt-briefingt_en.csv",
+      "schema": "schema/tables/briefingt-briefingt_en.json"
+    },
+    {
+      "name": "briefingt-briefingt_fr",
+      "path": "schema/examples/briefingt-briefingt_fr.csv",
+      "schema": "schema/tables/briefingt-briefingt_fr.json"
+    },
+    {
+      "name": "briefingt-briefingt-nil_en",
+      "path": "schema/examples/briefingt-briefingt-nil_en.csv",
+      "schema": "schema/tables/briefingt-briefingt-nil_en.json"
+    },
+    {
+      "name": "briefingt-briefingt-nil_fr",
+      "path": "schema/examples/briefingt-briefingt-nil_fr.csv",
+      "schema": "schema/tables/briefingt-briefingt-nil_fr.json"
+    },
+    {
+      "name": "nap5-nap5_en",
+      "path": "schema/examples/nap5-nap5_en.csv",
+      "schema": "schema/tables/nap5-nap5_en.json"
+    },
+    {
+      "name": "nap5-nap5_fr",
+      "path": "schema/examples/nap5-nap5_fr.csv",
+      "schema": "schema/tables/nap5-nap5_fr.json"
+    },
+    {
+      "name": "consultations-consultations_en",
+      "path": "schema/examples/consultations-consultations_en.csv",
+      "schema": "schema/tables/consultations-consultations_en.json"
+    },
+    {
+      "name": "consultations-consultations_fr",
+      "path": "schema/examples/consultations-consultations_fr.csv",
+      "schema": "schema/tables/consultations-consultations_fr.json"
+    },
+    {
+      "name": "dac-dac_en",
+      "path": "schema/examples/dac-dac_en.csv",
+      "schema": "schema/tables/dac-dac_en.json"
+    },
+    {
+      "name": "dac-dac_fr",
+      "path": "schema/examples/dac-dac_fr.csv",
+      "schema": "schema/tables/dac-dac_fr.json"
+    },
+    {
+      "name": "wrongdoing-wrongdoing_en",
+      "path": "schema/examples/wrongdoing-wrongdoing_en.csv",
+      "schema": "schema/tables/wrongdoing-wrongdoing_en.json"
+    },
+    {
+      "name": "wrongdoing-wrongdoing_fr",
+      "path": "schema/examples/wrongdoing-wrongdoing_fr.csv",
+      "schema": "schema/tables/wrongdoing-wrongdoing_fr.json"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+name: API Validate
+on:
+  workflow_dispatch:
+    inputs:
+      schema-file:
+        description: 'Path to schema JSON file'
+        required: true
+      data-file:
+        description: 'Path to CSV file'
+        required: true
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+      - run: pip install -r requirements.txt
+      - run: python scripts/validate_table_schemas.py --schema-file "${{ inputs.schema-file }}" --data-file "${{ inputs.data-file }}" --delay 0

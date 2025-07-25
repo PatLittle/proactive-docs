@@ -15,6 +15,10 @@
         "en": "Proactive Publication - Departmental Audit Committee",
         "fr": "Publication proactive - Comités ministériels d’audit"
       },
+      "primary_key": [
+        "reporting_period",
+        "line_number"
+      ],
       "fields": [
         {
           "id": "reporting_period",
@@ -302,7 +306,20 @@
           },
           "datastore_type": "text"
         }
-      ]
+      ],
+      "example_record": {
+        "reporting_period": "2018-2019-Q3",
+        "line_number": 2,
+        "member_name": "John Smith",
+        "province": "AB",
+        "role": "M-M",
+        "meeting_hours": 7.5,
+        "other_hours": 4,
+        "remuneration": 2300.0,
+        "travel_expenses": 500.0,
+        "notes_en": "The total remuneration includes time spent at meetings, preparation time and travel time.",
+        "notes_fr": "La rémunération totale comprend le temps passé en réunions, le temps de préparation et le temps de déplacement."
+      }
     }
   ]
 }

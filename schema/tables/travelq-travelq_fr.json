@@ -1,0 +1,148 @@
+{
+  "fields": [
+    {
+      "name": "ref_number",
+      "title": "Numéro de référence",
+      "description": "Cette zone est remplie par chaque organisation. Un identificateur unique est attribué à chaque poste dans le tableur. Un identificateur unique pour chaque poste permettra aux utilisateurs de repérer un article en particulier s’ils doivent le modifier ou le supprimer.\n",
+      "type": "string",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "disclosure_group",
+      "title": "Groupe de divulgation",
+      "description": "Ce champ indique le groupe auquel appartient l’individu.",
+      "type": "string",
+      "constraints": {
+        "enum": [
+          "MPSES",
+          "SLE"
+        ]
+      }
+    },
+    {
+      "name": "title_fr",
+      "title": "Titre (français)",
+      "description": "Cette zone indique le titre du poste de la personne qui a voyagé, en français.",
+      "type": "string",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "name",
+      "title": "Nom",
+      "description": "Ce champ affiche le nom de la personne qui a voyagé",
+      "type": "string",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "purpose_fr",
+      "title": "But du déplacement (français)",
+      "description": "Brève description de la raison du voyage, en français. La description doit être brève (une ligne dans la mesure du possible) et donner une indication générale aux utilisateurs du but du voyage. Il faut éviter d’utiliser des acronymes.\n",
+      "type": "string",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "start_date",
+      "title": "Date de début du voyage",
+      "description": "Date de début du voyage",
+      "type": "date",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "end_date",
+      "title": "Date de fin du voyage",
+      "description": "Date de fin du voyage (peut être la même date que la date du début du voyage)",
+      "type": "date",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "destination_fr",
+      "title": "Endroits visités (français)",
+      "description": "Inclure le nom du premier lieu visité lors du voyage en question, en français.",
+      "type": "string",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "destination_2_fr",
+      "title": "Deuxième lieu visité (français)",
+      "description": "Inclure le nom du deuxième lieu visité au cours du voyage en question, en français.",
+      "type": "string"
+    },
+    {
+      "name": "destination_other_fr",
+      "title": "Autres lieux visités (français)",
+      "description": "Inclure les noms de tous les autres lieux visités au cours du voyage en question, en français.",
+      "type": "string"
+    },
+    {
+      "name": "airfare",
+      "title": "Tarif aérien",
+      "description": "Coût total des billets d’avion, s’il y a lieu.",
+      "type": "number"
+    },
+    {
+      "name": "other_transport",
+      "title": "Autres moyens de transport",
+      "description": "Coût total de toutes autres forme de transport (par exemple, train, autobus, véhicule loué, véhicule particulier, taxis), s’il y a lieu.",
+      "type": "number"
+    },
+    {
+      "name": "lodging",
+      "title": "Hébergement",
+      "description": "Coût total de l’hébergement",
+      "type": "number",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "meals",
+      "title": "Frais de repas et frais accessoires",
+      "description": "Total des frais de repas et accessoires",
+      "type": "number",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "other_expenses",
+      "title": "Autres dépenses",
+      "description": "Coût total de tous les autres éléments qui ne sont pas couverts par les champs ci-dessus (par exemple, passeport spécial, visas, photos connexes, appels au bureau ou à la maison, soin aux personnes à charge, le cas échéant)",
+      "type": "number"
+    },
+    {
+      "name": "total",
+      "title": "Montant total",
+      "description": "Le total des montants énumérés ci-dessus",
+      "type": "number",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "additional_comments_fr",
+      "title": "Additional Comments French",
+      "description": "Ce champ peut indiquer des commentaires supplémentaires en français.",
+      "type": "string"
+    }
+  ],
+  "missingValues": [
+    ""
+  ],
+  "primaryKey": [
+    "ref_number"
+  ]
+}

@@ -1,0 +1,162 @@
+{
+  "fields": [
+    {
+      "name": "fiscal_yr",
+      "title": "Fiscal Year",
+      "description": "Identifies the fiscal year (April 1 to March 31) during which service activities took place. For example, records for fiscal year 2023-2024 should include applications received from April 1, 2023, to March 31, 2024.\n",
+      "type": "string",
+      "constraints": {
+        "required": true,
+        "enum": [
+          "2005-2006",
+          "2006-2007",
+          "2007-2008",
+          "2008-2009",
+          "2009-2010",
+          "2010-2011",
+          "2011-2012",
+          "2012-2013",
+          "2013-2014",
+          "2014-2015",
+          "2015-2016",
+          "2016-2017",
+          "2017-2018",
+          "2018-2019",
+          "2019-2020",
+          "2020-2021",
+          "2021-2022",
+          "2022-2023",
+          "2023-2024",
+          "2024-2025",
+          "2025-2026",
+          "2026-2027",
+          "2027-2028",
+          "2028-2029",
+          "2029-2030"
+        ]
+      }
+    },
+    {
+      "name": "service_id",
+      "title": "Service ID Number",
+      "description": "The unique number assigned to a service in the inventory to make it easier to refer to specific services.",
+      "type": "string",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "service_name_en",
+      "title": "Service Name (English)",
+      "description": "Identifies the official name of the service.",
+      "type": "string",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "service_standard_id",
+      "title": "Service Standard ID",
+      "description": "Identifies the unique number assigned to each service standard for that service. Makes it easier for reference purposes as one service may have multiple standards.\n",
+      "type": "string",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "service_standard_en",
+      "title": "Service Standard (English)",
+      "description": "Identifies the service standard related to a particular service. See Guideline on Service and Digital for format to be used when defining service standards.\n",
+      "type": "string",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "type",
+      "title": "Service Standard Type",
+      "description": "Identifies the type of service standard as defined in the Guideline on Service and Digital. Access: a commitment outlining the ease and convenience the client should experience when attempting to access a service. Accuracy: a commitment stipulating that the client will receive a service that is up to date, free of errors, and complete. Timeliness: a commitment stating how long the client should expect to wait to receive a service once the service has been accessed.\n",
+      "type": "string",
+      "constraints": {
+        "required": true,
+        "enum": [
+          "ACS",
+          "ACY",
+          "OTH",
+          "TML"
+        ]
+      }
+    },
+    {
+      "name": "channel",
+      "title": "Service Standard Channel",
+      "description": "Identifies the service channel to which the service standard applies",
+      "type": "string",
+      "constraints": {
+        "required": true,
+        "enum": [
+          "EML",
+          "FAX",
+          "ONL",
+          "OTH",
+          "PERSON",
+          "POST",
+          "TEL"
+        ]
+      }
+    },
+    {
+      "name": "channel_comments_en",
+      "title": "Comments on the service standard channel (English)",
+      "description": "Comments related to the service standard channel and provides explanation of \"Other\" channel selection.",
+      "type": "string"
+    },
+    {
+      "name": "target",
+      "title": "Service Standard Target",
+      "description": "The frequency that the organization expects to meet service standard (reported as a percentage).",
+      "type": "string"
+    },
+    {
+      "name": "volume_meeting_target",
+      "title": "Business Volume That Met Service Standard Target",
+      "description": "Identifies the number of final outputs issued appropriate to the service (eg. payments issued, requests completed, etc) during the fiscal year that met a particular service standard target for a service. Blank indicates no information available, while 0 indicates that no final outputs issued met service standard targets.\n",
+      "type": "string"
+    },
+    {
+      "name": "total_volume",
+      "title": "Total Volume",
+      "description": "Identifies the total number of final outputs issued appropriate to the service (eg. payments issued, requests completed, etc) during the fiscal year. Blank indicates no information available, while 0 indicates no final outputs issued.\n",
+      "type": "string"
+    },
+    {
+      "name": "comments_en",
+      "title": "Comments on the service standard in general (English)",
+      "description": "Comments related to the service standard in general.",
+      "type": "string"
+    },
+    {
+      "name": "standards_targets_uri_en",
+      "title": "URL to Service Standards and Targets (English)",
+      "description": "Identifies the departmental webpage (Canada.ca) where the service standards and targets are published.",
+      "type": "string",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "performance_results_uri_en",
+      "title": "URL to Real-Time Performance Results (English)",
+      "description": "Identifies the departmental webpage where the real-time performance results for a service are published.",
+      "type": "string"
+    }
+  ],
+  "missingValues": [
+    ""
+  ],
+  "primaryKey": [
+    "fiscal_yr",
+    "service_id",
+    "service_standard_id"
+  ]
+}

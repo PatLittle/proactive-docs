@@ -1,0 +1,342 @@
+{
+  "fields": [
+    {
+      "name": "registration_number",
+      "title": "Registration Number",
+      "description": "This field is populated by the user. It is a unique reference number given to each line item in the spreadsheet. Having a unique identifier for each item will allow users locate a specific item in the registry should they need to modify or delete. The Registration Number should respect the following format: C-XXXXXXX.",
+      "type": "string",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "partner_departments",
+      "title": "Partner Department(s)",
+      "description": "This field identifies the name(s) of the departments who are collaborating on the identified engagement process. Please provide the numerical code associated to each department and separated by commas.",
+      "type": "string",
+      "constraints": {
+        "enum": [
+          "D110",
+          "D115",
+          "D119",
+          "D131",
+          "D135",
+          "D139",
+          "D141",
+          "D143",
+          "D147",
+          "D154",
+          "D157",
+          "D16",
+          "D169",
+          "D172",
+          "D173",
+          "D189",
+          "D193",
+          "D202",
+          "D206",
+          "D207",
+          "D214",
+          "D215",
+          "D217",
+          "D229",
+          "D230",
+          "D231",
+          "D235",
+          "D236",
+          "D239",
+          "D249",
+          "D253",
+          "D256",
+          "D262",
+          "D270",
+          "D271",
+          "D278",
+          "D32",
+          "D35",
+          "D47",
+          "D55",
+          "D64",
+          "D73",
+          "D81",
+          "D87",
+          "D90",
+          "D92",
+          "D93",
+          "D94",
+          "D99"
+        ]
+      }
+    },
+    {
+      "name": "subjects",
+      "title": "Subjects",
+      "description": "This field indicates the different subjects related to the engagement process.",
+      "type": "string",
+      "constraints": {
+        "required": true,
+        "enum": [
+          "AA",
+          "AD",
+          "AG",
+          "AM",
+          "AN",
+          "CD",
+          "CM",
+          "CR",
+          "CU",
+          "DV",
+          "EC",
+          "ED",
+          "EM",
+          "EN",
+          "EU",
+          "EX",
+          "FA",
+          "FD",
+          "FI",
+          "FO",
+          "FS",
+          "GBA",
+          "GE",
+          "GP",
+          "HL",
+          "HP",
+          "HR",
+          "HS",
+          "IM",
+          "IN",
+          "IP",
+          "IT",
+          "JL",
+          "LT",
+          "ND",
+          "NR",
+          "PD",
+          "PL",
+          "PO",
+          "PR",
+          "PS",
+          "RE",
+          "RL",
+          "RU",
+          "SA",
+          "SE",
+          "SO",
+          "SP",
+          "ST",
+          "TC",
+          "TF",
+          "TR",
+          "TX",
+          "YJ"
+        ]
+      }
+    },
+    {
+      "name": "title_en",
+      "title": "Consultation Title (English)",
+      "description": "This field identifies the complete name of the consultation in English.",
+      "type": "string",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "description_en",
+      "title": "Description (English)",
+      "description": "This field provides information regarding the nature of consultation and engagement activities in English. This includes a description of the main objectives and expected outcomes of the engagement process. Users are invited to explain how the engagement activities, methods and/or tools will help meet the consultation’s objectives.",
+      "type": "string",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "target_participants_and_audience",
+      "title": "Target Participants and Audience",
+      "description": "This field provides information regarding the target participants and audience of the engagement process.",
+      "type": "string",
+      "constraints": {
+        "required": true,
+        "enum": [
+          "AA",
+          "AC",
+          "AD",
+          "AG",
+          "BS",
+          "CA",
+          "CC",
+          "CH",
+          "CI",
+          "CO",
+          "CS",
+          "CU",
+          "EI",
+          "ET",
+          "FA",
+          "FC",
+          "FI",
+          "FM",
+          "FN",
+          "FW",
+          "GP",
+          "HC",
+          "IB",
+          "IG",
+          "IM",
+          "IO",
+          "IP",
+          "IT",
+          "IU",
+          "JM",
+          "LA",
+          "LF",
+          "LM",
+          "LP",
+          "LU",
+          "MA",
+          "MT",
+          "MU",
+          "NG",
+          "NI",
+          "NR",
+          "NT",
+          "NW",
+          "OD",
+          "OI",
+          "PA",
+          "PC",
+          "PD",
+          "PP",
+          "PR",
+          "PS",
+          "PT",
+          "RC",
+          "RE",
+          "RF",
+          "RG",
+          "RO",
+          "RP",
+          "RT",
+          "RU",
+          "SE",
+          "SL",
+          "SM",
+          "SP",
+          "ST",
+          "TO",
+          "TR",
+          "TT",
+          "UI",
+          "UP",
+          "UR",
+          "VV",
+          "WF",
+          "WM",
+          "WT",
+          "YJ"
+        ]
+      }
+    },
+    {
+      "name": "start_date",
+      "title": "Start Date",
+      "description": "This field indicates when a planned consultation will begin to accept input from participants.",
+      "type": "date",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "end_date",
+      "title": "End Date",
+      "description": "This field indicates the end date of the consultation. The consultation is considered closed when no more engagement activities will take place and/or when a department begins analysing the input received during the engagement process.",
+      "type": "date",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "status",
+      "title": "Status",
+      "description": "The field indicates the current status of the engagement process.",
+      "type": "string",
+      "constraints": {
+        "required": true,
+        "enum": [
+          "CA",
+          "CN",
+          "CR",
+          "NF",
+          "O",
+          "P"
+        ]
+      }
+    },
+    {
+      "name": "profile_page_en",
+      "title": "Link to Consultations Profile Page (English)",
+      "description": "This field provides the link to the English engagement information profile page.",
+      "type": "string",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "report_available_online",
+      "title": "Report Available online",
+      "description": "This field indicates if the “What we Heard” report is completed, published and made available online on the Consulting with Canadians website.",
+      "type": "string",
+      "constraints": {
+        "required": true,
+        "enum": [
+          "N",
+          "Y"
+        ]
+      }
+    },
+    {
+      "name": "report_link_en",
+      "title": "Link to the “What we Heard” Report in English",
+      "description": "This field provides the link to the “What we Heard” report when it is available online.",
+      "type": "string"
+    },
+    {
+      "name": "high_profile",
+      "title": "High Profile",
+      "description": "This field indicates whether the consultation or public engagement initiative is considered high profile. The consultation is considered high profile if it meets one or more of the criteria in the ‘Rationale’ field.",
+      "type": "string",
+      "constraints": {
+        "required": true,
+        "enum": [
+          "N",
+          "Y"
+        ]
+      }
+    },
+    {
+      "name": "rationale",
+      "title": "Rationale",
+      "description": "The field indicates the rationale that prompted the public engagement initiative. This field includes only criteria that define high profile public engagement.",
+      "type": "string",
+      "constraints": {
+        "required": true,
+        "enum": [
+          "BG",
+          "IN",
+          "LC",
+          "ML",
+          "MP",
+          "PC",
+          "ST"
+        ]
+      }
+    }
+  ],
+  "missingValues": [
+    ""
+  ],
+  "primaryKey": [
+    "registration_number"
+  ]
+}

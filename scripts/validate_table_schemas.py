@@ -11,7 +11,7 @@ from pathlib import Path
 import requests
 
 
-def main(tables_dir: str, examples_dir: str, delay: float):
+def main(tables_dir: str, examples_dir: str, delay: float, schema_file: str = None, data_file: str = None):
     """Validate CSV examples against their table schemas via Validata."""
 
     base_repo = os.environ.get('GITHUB_REPOSITORY', '')
@@ -22,11 +22,18 @@ def main(tables_dir: str, examples_dir: str, delay: float):
     examples_path = Path(examples_dir)
 
     failures = 0
-    for csv_file in examples_path.glob('*.csv'):
-        schema_file = tables_path / f"{csv_file.stem}.json"
-        if not schema_file.exists():
-            continue
-        schema_url = base_url + str(schema_file).replace(' ', '%20')
+    pairs = []
+    if schema_file and data_file:
+        pairs.append((Path(data_file), Path(schema_file)))
+    else:
+        for csv_file in examples_path.glob('*.csv'):
+            sfile = tables_path / f"{csv_file.stem}.json"
+            if not sfile.exists():
+                continue
+            pairs.append((csv_file, sfile))
+
+    for csv_file, schema_path in pairs:
+        schema_url = base_url + str(schema_path).replace(' ', '%20')
         data_url = base_url + str(csv_file).replace(' ', '%20')
         api_url = (
             f"https://api.validata.etalab.studio/validate?schema={schema_url}&url={data_url}"
@@ -63,11 +70,19 @@ if __name__ == "__main__":
         help="Directory containing example CSV files",
     )
     parser.add_argument(
+        "--schema-file",
+        help="Schema file to validate against",
+    )
+    parser.add_argument(
+        "--data-file",
+        help="CSV file to validate",
+    )
+    parser.add_argument(
         "--delay",
         type=float,
         default=10.0,
         help="Seconds to wait between API calls",
     )
     args = parser.parse_args()
-    main(args.tables_dir, args.examples_dir, args.delay)
+    main(args.tables_dir, args.examples_dir, args.delay, args.schema_file, args.data_file)
 

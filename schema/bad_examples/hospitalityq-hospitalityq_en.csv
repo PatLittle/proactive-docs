@@ -1,2 +1,2 @@
 ref_number,disclosure_group,title_en,name,description_en,start_date,end_date,location_en,vendor_en,vendor_2_en,vendor_other_en,employee_attendees,guest_attendees,total,additional_comments_en
-ref_number_bad,INVALID,,name_bad,description_en_bad,2025-13-01,not-a-date,location_bad,vendor_bad,,vendor_other_bad,abc,xyz,notanumber,additional_comments_bad
+INVALID,SLE,"Vice-Chairperson, Deputy Minister, Parliamentary Secretary, Assistant Deputy Minister, Programs Branch","Smith, John","Refreshments: information management and policies committee meeting; reception: Maltese delegation, etc",2019-06-25,2019-06-25,"Montreal, Quebec, Canada",Le Centre Sheraton,Tim Hortons,Les Impertinentes;Les Street Monkeys,150,4,7710.55,Provide additional explanatory comments as required.

@@ -35,5 +35,9 @@
   ],
   "missingValues": [
     ""
+  ],
+  "primaryKey": [
+    "year",
+    "month"
   ]
 }

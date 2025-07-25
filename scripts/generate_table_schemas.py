@@ -8,6 +8,9 @@ URLS_FILE = 'recombinant-published-schema-urls.txt'
 DICTS_DIR = 'dictionaries'
 SCHEMA_DIR = Path('schema/tables')
 EXAMPLES_DIR = Path('schema/examples')
+BAD_EXAMPLES_DIR = Path('schema/bad_examples')
+INQUIRY_FILE = Path('inquiry.yaml')
+DATAPACKAGE_FILE = Path('datapackage.json')
 
 TYPE_MAP = {
     'text': 'string',
@@ -84,63 +87,107 @@ def write_schema(schema, dataset_type, resource_name, lang):
     return path
 
 
-def generate_example(schema, dataset_type, resource_name, lang):
+def generate_example(schema, dataset_type, resource_name, lang, record):
     EXAMPLES_DIR.mkdir(parents=True, exist_ok=True)
     path = EXAMPLES_DIR / f"{dataset_type}-{resource_name}_{lang}.csv"
     fields = [f['name'] for f in schema['fields']]
-    rows = []
-    for i in range(1, 6):
-        row = {}
-        for f in schema['fields']:
-            ct = f.get('constraints', {})
-            if 'enum' in ct:
-                row[f['name']] = ct['enum'][0]
-            else:
-                t = f['type']
-                if t in ('integer', 'year'):
-                    row[f['name']] = str(2000 + i)
-                elif t == 'number':
-                    row[f['name']] = str(i * 10.5)
-                elif t == 'date':
-                    row[f['name']] = f'2025-01-0{i}'
-                else:
-                    row[f['name']] = f"{f['name']}_{i}"
-        rows.append(row)
+    row = {}
+    for name in fields:
+        value = record.get(name, '')
+        if isinstance(value, list):
+            value = ','.join(str(v) for v in value)
+        row[name] = value
     with path.open('w', newline='', encoding='utf-8') as csvfile:
         writer = csv.DictWriter(csvfile, fieldnames=fields)
         writer.writeheader()
-        for row in rows:
-            writer.writerow(row)
+        writer.writerow(row)
     return path
 
 
-def generate_schemas(data, source):
+def generate_bad_example(schema, dataset_type, resource_name, lang, record):
+    BAD_EXAMPLES_DIR.mkdir(parents=True, exist_ok=True)
+    path = BAD_EXAMPLES_DIR / f"{dataset_type}-{resource_name}_{lang}.csv"
+    fields = [f['name'] for f in schema['fields']]
+    bad_row = {}
+    for name in fields:
+        value = record.get(name, '')
+        if isinstance(value, list):
+            value = ','.join(str(v) for v in value)
+        bad_row[name] = value
+    if fields:
+        bad_row[fields[0]] = 'INVALID'
+    with path.open('w', newline='', encoding='utf-8') as csvfile:
+        writer = csv.DictWriter(csvfile, fieldnames=fields)
+        writer.writeheader()
+        writer.writerow(bad_row)
+    return path
+
+
+def generate_schemas(data, source, tasks):
     dataset_type = data.get('dataset_type', Path(source).stem)
     for res in data.get('resources', []):
         resource_name = res.get('resource_name') or ''
+        example_record = res.get('example_record', {})
         en_fields, fr_fields = split_fields(res.get('fields', []))
         for lang, fields in [('en', en_fields), ('fr', fr_fields)]:
             schema = {
                 'fields': [field_to_schema(f, lang) for f in fields],
-                'missingValues': ['']
+                'missingValues': [''],
+                'primaryKey': res.get('primary_key', [])
             }
             schema_path = write_schema(schema, dataset_type, resource_name, lang)
-            generate_example(schema, dataset_type, resource_name, lang)
+            example_path = generate_example(
+                schema,
+                dataset_type,
+                resource_name,
+                lang,
+                example_record,
+            )
+            generate_bad_example(
+                schema,
+                dataset_type,
+                resource_name,
+                lang,
+                example_record,
+            )
+            tasks.append({
+                'path': str(example_path),
+                'schema': str(schema_path)
+            })
             print(f"Generated {schema_path}")
+
+
+def write_inquiry(tasks):
+    with INQUIRY_FILE.open('w', encoding='utf-8') as fh:
+        fh.write('tasks:\n')
+        for t in tasks:
+            fh.write(f"  - path: {t['path']}\n")
+            fh.write(f"    schema: {t['schema']}\n")
+
+def write_datapackage(tasks):
+    package = {'resources': []}
+    for t in tasks:
+        name = Path(t['path']).stem
+        package['resources'].append({'name': name, 'path': t['path'], 'schema': t['schema']})
+    with DATAPACKAGE_FILE.open('w', encoding='utf-8') as fh:
+        json.dump(package, fh, indent=2)
 
 
 def main():
     urls = [u.strip() for u in Path(URLS_FILE).read_text().splitlines() if u.strip()]
     generated = set()
+    tasks = []
     for url in urls:
         local = fetch_url(url, Path(DICTS_DIR))
         generated.add(local.name)
         data = load_dict(local)
-        generate_schemas(data, local)
+        generate_schemas(data, local, tasks)
 
     for f in Path(DICTS_DIR).glob('*.json'):
         if f.name not in generated:
             f.unlink()
+    write_inquiry(tasks)
+    write_datapackage(tasks)
 
 if __name__ == '__main__':
     main()

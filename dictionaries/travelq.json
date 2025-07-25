@@ -15,6 +15,9 @@
         "en": "Proactive Publication - Travel Expenses",
         "fr": "Publication proactive - Dépenses de voyage"
       },
+      "primary_key": [
+        "ref_number"
+      ],
       "fields": [
         {
           "id": "ref_number",
@@ -466,7 +469,32 @@
           },
           "datastore_type": "text"
         }
-      ]
+      ],
+      "example_record": {
+        "ref_number": "T-2019-P3-0001",
+        "disclosure_group": "SLE",
+        "title_en": "Vice-Chairperson, Deputy Minister, Parliamentary Secretary, Assistant Deputy Minister, Programs Branch",
+        "title_fr": "Sous-Ministre, Sous- Ministre Adjoint, Chef de la Direction",
+        "name": "Smith, John",
+        "purpose_en": "Attend North American Free Trade Agreement trade mission, give presentation at the Ontario Chamber of Commerce, etc",
+        "purpose_fr": "Participer à une mission commerciale dans le cadre de l’Accord de libre-échange nord-américain, donner une présentation à la chambre de commerce de l’Ontario, etc",
+        "start_date": "2019-06-22",
+        "end_date": "2019-06-23",
+        "destination_en": "Montreal, Quebec, Canada",
+        "destination_fr": "Montréal, Québec, Canada",
+        "destination_2_en": "Toronto, Ontario, Canada",
+        "destination_2_fr": "Toronto, Ontario, Canada",
+        "destination_other_en": "San Francisco, California, USA;London, England",
+        "destination_other_fr": "San Francisco, California, USA;London, England",
+        "airfare": "1000.00",
+        "other_transport": "50.00",
+        "lodging": "300.00",
+        "meals": "150.00",
+        "other_expenses": "0.00",
+        "total": "1500.00",
+        "additional_comments_en": "Provide additional explanatory comments as required.",
+        "additional_comments_fr": "Fournir des commentaires explicatifs supplémentaires au besoin."
+      }
     },
     {
       "resource_name": "travelq-nil",
@@ -474,6 +502,10 @@
         "en": "Proactive Publication - Travel Expenses Nothing to Report",
         "fr": "Publication proactive - Dépenses de voyage (Rien à signaler)"
       },
+      "primary_key": [
+        "year",
+        "month"
+      ],
       "fields": [
         {
           "id": "year",
@@ -565,7 +597,11 @@
             }
           }
         }
-      ]
+      ],
+      "example_record": {
+        "year": 2019,
+        "month": "01"
+      }
     }
   ]
 }

@@ -1,0 +1,77 @@
+{
+  "fields": [
+    {
+      "name": "year",
+      "title": "Year",
+      "description": "This field must be populated with the four-digit calendar year that the request was closed.",
+      "type": "year",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "month",
+      "title": "Month (1-12)",
+      "description": "This field must be populated with a numerical representation of the month during which the request was closed.",
+      "type": "string",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "request_number",
+      "title": "Request Number",
+      "description": "Your institution’s request file number of the completed Access to Information request.",
+      "type": "string",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "summary_en",
+      "title": "English Summary",
+      "description": "A descriptive summary of the completed Access to Information request in English.",
+      "type": "string",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "disposition",
+      "title": "Disposition",
+      "description": "The response disposition of the completed Access to Information request",
+      "type": "string",
+      "constraints": {
+        "required": true,
+        "enum": [
+          "DA",
+          "DP",
+          "EC",
+          "EX",
+          "NE"
+        ]
+      }
+    },
+    {
+      "name": "pages",
+      "title": "Number of Pages",
+      "description": "The number of pages released in response to the completed Access to Information request. If no records were released, enter a value of “0”.",
+      "type": "integer",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "comments_en",
+      "title": "Comments English",
+      "description": "This field may be populated with additional or contextual comments in English.",
+      "type": "string"
+    }
+  ],
+  "missingValues": [
+    ""
+  ],
+  "primaryKey": [
+    "request_number"
+  ]
+}
