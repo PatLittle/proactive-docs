@@ -9,7 +9,7 @@ on:
         description: 'Schema JSON file'
         required: true
 permissions:
-  contents: read
+  contents: write
 jobs:
   validate-with-api:
     runs-on: ubuntu-latest
