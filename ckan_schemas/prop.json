@@ -1,0 +1,615 @@
+{
+  "scheming_version": 2,
+  "dataset_type": "prop",
+  "about": "open.canada.ca: Suggested Dataset metadata definition",
+  "about_url": "http://github.com/open-data/ckanext-canada",
+  "form_languages": [
+    "en",
+    "fr"
+  ],
+  "sidebar_show_fields": [
+    "creator",
+    "keywords",
+    "subject"
+  ],
+  "detail_include_fields": [
+    "reason",
+    "date_submitted",
+    "date_forwarded"
+  ],
+  "detail_show_fields": [
+    "status"
+  ],
+  "dataset_fields": [
+    {
+      "create_validators": "canada_validate_generate_uuid unicode_safe name_validator package_id_does_not_exist",
+      "display_snippet": null,
+      "field_name": "id",
+      "form_snippet": null,
+      "preset": "canada_dataset_id"
+    },
+    {
+      "field_name": "name",
+      "form_snippet": null,
+      "validators": "if_empty_same_as(id) unicode_safe not_empty canada_validate_generate_uuid",
+      "preset": "canada_dataset_name"
+    },
+    {
+      "field_name": "title_translated",
+      "label": {
+        "en": "Title",
+        "fr": "Titre"
+      },
+      "fluent_form_label": {
+        "en": {
+          "en": "Title (English)",
+          "fr": "Titre (anglais)"
+        },
+        "fr": {
+          "en": "Title (French)",
+          "fr": "Titre (français)"
+        }
+      },
+      "fluent_help_text": {
+        "en": {
+          "en": "The English name by which the dataset is known",
+          "fr": "Nom anglais désignant le jeu de données"
+        },
+        "fr": {
+          "en": "The French name by which the dataset is known",
+          "fr": "Nom français désignant le jeu de données"
+        }
+      },
+      "required": true,
+      "form_snippet": "ro_fluent_title.html",
+      "display_snippet": "fluent_text.html",
+      "error_snippet": "fluent_text.html",
+      "validators": "user_read_only fluent_text",
+      "output_validators": "fluent_core_translated_output",
+      "form_attrs": {
+        "size": 60,
+        "class": "form-control"
+      },
+      "preset": "canada_title"
+    },
+    {
+      "field_name": "owner_org",
+      "label": {
+        "en": "Organization Name",
+        "fr": "Nom de l’organisation"
+      },
+      "help_text": {
+        "en": "The Title of the current Organization (GC Department or Agency) primarily responsible for publishing the dataset",
+        "fr": "Titre de l’organisation actuelle (organisme ou ministère du GC) principalement responsable de publier le jeu de données"
+      },
+      "required": true,
+      "form_include_blank_choice": true,
+      "form_select_attrs": {
+        "class": "form-control form-select"
+      },
+      "validators": "user_read_only string_safe owner_org_validator",
+      "form_snippet": "ro_org.html",
+      "preset": "canada_owner_org"
+    },
+    {
+      "field_name": "notes_translated",
+      "label": {
+        "en": "Description",
+        "fr": "Description"
+      },
+      "fluent_form_label": {
+        "en": {
+          "en": "Description (English)",
+          "fr": "Description (anglais)"
+        },
+        "fr": {
+          "en": "Description (French)",
+          "fr": "Description (français)"
+        }
+      },
+      "fluent_help_text": {
+        "en": {
+          "en": "An account of the dataset, in English. A description may include but is not limited to: an abstract, a table of contents, or a free-text account of the resource.",
+          "fr": "Description du jeu de données, en anglais. La description peut comprendre un résumé, une table des matières ou un texte libre."
+        },
+        "fr": {
+          "en": "An account of the dataset, in French. A description may include but is not limited to: an abstract, a table of contents, or a free-text account of the resource.",
+          "fr": "Description du jeu de données, en anglais. La description peut comprendre un résumé, une table des matières ou un texte libre."
+        }
+      },
+      "required": true,
+      "form_snippet": "ro_fluent_markdown.html",
+      "display_snippet": "fluent_markdown.html",
+      "error_snippet": "fluent_text.html",
+      "validators": "user_read_only fluent_text",
+      "output_validators": "fluent_core_translated_output",
+      "form_attrs": {
+        "class": "form-control"
+      },
+      "preset": "canada_notes"
+    },
+    {
+      "form_snippet": "ro_fluent_markdown.html",
+      "display_snippet": "fluent_markdown.html",
+      "error_snippet": "fluent_text.html",
+      "validators": "user_read_only fluent_text",
+      "output_validators": "fluent_text_output",
+      "field_name": "comments",
+      "label": {
+        "en": "Additional Comments and Feedback",
+        "fr": "Autres commentaires"
+      },
+      "fluent_form_label": {
+        "en": {
+          "en": "Additional Comments and Feedback (English)",
+          "fr": "Autres commentaires (anglais)"
+        },
+        "fr": {
+          "en": "Additional Comments and Feedback (French)",
+          "fr": "Autres commentaires (français)"
+        }
+      },
+      "preset": "fluent_markdown"
+    },
+    {
+      "field_name": "keywords",
+      "label": {
+        "en": "Keywords",
+        "fr": "Mots clés"
+      },
+      "fluent_form_label": {
+        "en": {
+          "en": "Keywords (English)",
+          "fr": "Mots clés (anglais)"
+        },
+        "fr": {
+          "en": "Keywords (French)",
+          "fr": "Mots clés (français)"
+        }
+      },
+      "fluent_help_text": {
+        "en": {
+          "en": "Commonly used words or phrases which describe the dataset, in English. (Separate multiple entries by commas)",
+          "fr": "Mots ou phrases couramment utilisés qui décrivent le jeu de données, en anglais. (Séparer les mots ou phrases par une virgule)"
+        },
+        "fr": {
+          "en": "Commonly used words or phrases which describe the dataset, in French. (Separate multiple entries by commas)",
+          "fr": "Mots ou phrases couramment utilisés qui décrivent le jeu de données, en français. (Séparer les mots ou phrases par une virgule)"
+        }
+      },
+      "required": true,
+      "tag_validators": "canada_tags",
+      "form_snippet": "ro_fluent_tags.html",
+      "display_snippet": "fluent_tags.html",
+      "error_snippet": "fluent_text.html",
+      "validators": "user_read_only_json fluent_tags",
+      "output_validators": "fluent_tags_output",
+      "form_attrs": {
+        "style": "width: 100%",
+        "class": "form-control"
+      },
+      "preset": "canada_keywords"
+    },
+    {
+      "form_snippet": "ro_select.html",
+      "display_snippet": "select.html",
+      "validators": "user_read_only scheming_required scheming_choices",
+      "field_name": "reason",
+      "label": {
+        "en": "Reason for requesting dataset",
+        "fr": "Raison de la demande d'un jeu de données"
+      },
+      "preset": "select",
+      "choices": [
+        {
+          "label": {
+            "en": "Academic",
+            "fr": "Pédagogique"
+          },
+          "value": "academic"
+        },
+        {
+          "label": {
+            "en": "Scientific",
+            "fr": "Scientifique"
+          },
+          "value": "scientific"
+        },
+        {
+          "label": {
+            "en": "Personal Interest",
+            "fr": "Personnelle"
+          },
+          "value": "personal_interest"
+        },
+        {
+          "label": {
+            "en": "Business",
+            "fr": "Opérationnelle"
+          },
+          "value": "business"
+        }
+      ]
+    },
+    {
+      "field_name": "subject",
+      "label": {
+        "en": "Subject",
+        "fr": "Sujet"
+      },
+      "help_text": {
+        "en": "The topic of the content of the dataset. You may select or deselect multiple subjects (Ctrl+Click)",
+        "fr": "Le sujet du contenu du jeu de données. Vous pouvez sélectionner ou désélectionner de multiples sujets (Ctrl+Clic)"
+      },
+      "required": true,
+      "form_snippet": "ro_multiple_choice.html",
+      "display_snippet": "list_inline.html",
+      "validators": "user_read_only_json scheming_multiple_choice",
+      "output_validators": "scheming_multiple_choice_output",
+      "select_size": 10,
+      "choices": [
+        {
+          "label": {
+            "en": "Arts, Music, Literature",
+            "fr": "Arts, musique, littérature"
+          },
+          "replaces": [
+            "AA"
+          ],
+          "value": "arts_music_literature"
+        },
+        {
+          "label": {
+            "en": "Agriculture",
+            "fr": "Agriculture"
+          },
+          "replaces": [
+            "AG"
+          ],
+          "value": "agriculture"
+        },
+        {
+          "label": {
+            "en": "Economics and Industry",
+            "fr": "Économie et industrie"
+          },
+          "replaces": [
+            "EC"
+          ],
+          "value": "economics_and_industry"
+        },
+        {
+          "label": {
+            "en": "Education and Training",
+            "fr": "Éducation et formation"
+          },
+          "replaces": [
+            "ET"
+          ],
+          "value": "education_and_training"
+        },
+        {
+          "label": {
+            "en": "Form Descriptors",
+            "fr": "Format"
+          },
+          "replaces": [
+            "FM"
+          ],
+          "value": "form_descriptors"
+        },
+        {
+          "label": {
+            "en": "Government and Politics",
+            "fr": "Gouvernement et vie politique"
+          },
+          "replaces": [
+            "GV"
+          ],
+          "value": "government_and_politics"
+        },
+        {
+          "label": {
+            "en": "Health and Safety",
+            "fr": "Santé et sécurité"
+          },
+          "replaces": [
+            "HE"
+          ],
+          "value": "health_and_safety"
+        },
+        {
+          "label": {
+            "en": "History and Archaeology",
+            "fr": "Histoire et archéologie"
+          },
+          "replaces": [
+            "HI"
+          ],
+          "value": "history_and_archaeology"
+        },
+        {
+          "label": {
+            "en": "Information and Communications",
+            "fr": "Information et communication"
+          },
+          "replaces": [
+            "IN"
+          ],
+          "value": "information_and_communications"
+        },
+        {
+          "label": {
+            "en": "Labour",
+            "fr": "Travail et emploi"
+          },
+          "replaces": [
+            "LB"
+          ],
+          "value": "labour"
+        },
+        {
+          "label": {
+            "en": "Language and Linguistics",
+            "fr": "Langue et linguistique"
+          },
+          "replaces": [
+            "LN"
+          ],
+          "value": "language_and_linguistics"
+        },
+        {
+          "label": {
+            "en": "Law",
+            "fr": "Droit"
+          },
+          "replaces": [
+            "LW"
+          ],
+          "value": "law"
+        },
+        {
+          "label": {
+            "en": "Military",
+            "fr": "Histoire et science militaire"
+          },
+          "replaces": [
+            "MI"
+          ],
+          "value": "military"
+        },
+        {
+          "label": {
+            "en": "Nature and Environment",
+            "fr": "Nature et environnement"
+          },
+          "replaces": [
+            "NE"
+          ],
+          "value": "nature_and_environment"
+        },
+        {
+          "label": {
+            "en": "Persons",
+            "fr": "Personnes"
+          },
+          "replaces": [
+            "PE"
+          ],
+          "value": "persons"
+        },
+        {
+          "label": {
+            "en": "Processes",
+            "fr": "Liens et fonctions"
+          },
+          "replaces": [
+            "PR"
+          ],
+          "value": "processes"
+        },
+        {
+          "label": {
+            "en": "Society and Culture",
+            "fr": "Société et culture"
+          },
+          "replaces": [
+            "SO"
+          ],
+          "value": "society_and_culture"
+        },
+        {
+          "label": {
+            "en": "Science and Technology",
+            "fr": "Sciences et technologie"
+          },
+          "replaces": [
+            "ST"
+          ],
+          "value": "science_and_technology"
+        },
+        {
+          "label": {
+            "en": "Transport",
+            "fr": "Transport"
+          },
+          "replaces": [
+            "TR"
+          ],
+          "value": "transport"
+        }
+      ],
+      "preset": "canada_subject"
+    },
+    {
+      "form_snippet": "ro_date.html",
+      "display_snippet": "date.html",
+      "validators": "user_read_only scheming_required isodate convert_to_json_if_date",
+      "field_name": "date_submitted",
+      "help_text": {
+        "en": "The date the submission form was submitted to {support}. This value will be automatically populated",
+        "fr": "Date d’envoi du formulaire de demande à {support}. Cette information sera inscrite automatiquement."
+      },
+      "label": {
+        "en": "Date suggestion was submitted",
+        "fr": "Date d’envoi de la suggestion"
+      },
+      "preset": "date"
+    },
+    {
+      "form_snippet": "ro_date.html",
+      "display_snippet": "date.html",
+      "validators": "user_read_only scheming_required isodate convert_to_json_if_date",
+      "field_name": "date_forwarded",
+      "help_text": {
+        "en": "The date the submission form was sent to data owner. This value will be automatically populated",
+        "fr": "Date d’envoi du formulaire de demande au propriétaire des données. Cette information sera inscrite automatiquement."
+      },
+      "label": {
+        "en": "Date sent to organization",
+        "fr": "Date d'envoi à l'organisation"
+      },
+      "preset": "date"
+    },
+    {
+      "field_name": "license_id",
+      "form_snippet": null,
+      "display_snippet": null
+    },
+    {
+      "field_name": "status",
+      "label": {
+        "en": "Status",
+        "fr": "État"
+      },
+      "form_alert_warning": {
+        "en": "If the status of this suggestion has changed click “Add” to add a status update. All\nstatus updates are published to share the history of this suggestion. Do not modify existing\nstatus updates unless a correction is required.\n",
+        "fr": "Si l’état de la proposition a changé, cliquez sur le bouton “ajouter” pour ajouter une\nmise à jour de l’état. Toutes les mises à jour de l’état sont publiées pour faire connaître\nl’historique de la proposition. Ne modifiez pas les mises à jour déjà existantes de l’état, sauf\nsi une correction doit être apportée.\n"
+      },
+      "repeating_subfields": [
+        {
+          "form_snippet": "date.html",
+          "display_snippet": "date.html",
+          "validators": "scheming_required isodate convert_to_json_if_date",
+          "field_name": "date",
+          "label": {
+            "en": "Date",
+            "fr": "Date"
+          },
+          "help_text": {
+            "en": "The date related to the update to the status, for example the date that the suggestion was sent to the data holder.",
+            "fr": "La date de la mise à jour de l’état, par exemple la date à laquelle la proposition a été envoyée au détenteur des données."
+          },
+          "preset": "date",
+          "required": true
+        },
+        {
+          "form_snippet": "ro_select_option_disable.html",
+          "display_snippet": "select.html",
+          "validators": "scheming_required scheming_choices",
+          "field_name": "reason",
+          "label": {
+            "en": "Status",
+            "fr": "État"
+          },
+          "help_text": {
+            "en": "This field should be populated with a value that indicates the status of the request.",
+            "fr": "Ce champ doit être rempli avec une valeur qui indique l'état de la demande."
+          },
+          "required": true,
+          "preset": "select",
+          "form_include_blank_choice": true,
+          "disable_field_value": "transferred",
+          "choices": [
+            {
+              "label": {
+                "en": "Data owner is evaluating the request",
+                "fr": "Le propriétaire des données évalue la demande"
+              },
+              "value": "under_review"
+            },
+            {
+              "label": {
+                "en": "Data owner is working on releasing the dataset",
+                "fr": "Le propriétaire des données s’apprête à publier le jeu de données"
+              },
+              "value": "in_progress"
+            },
+            {
+              "label": {
+                "en": "Dataset published",
+                "fr": "Jeu de données publié"
+              },
+              "value": "released"
+            },
+            {
+              "label": {
+                "en": "Dataset not held",
+                "fr": "Jeu de données non détenu"
+              },
+              "value": "not_collected"
+            },
+            {
+              "label": {
+                "en": "Data owner unable to publish dataset",
+                "fr": "Le propriétaire des données ne peut pas publier un ensemble de données"
+              },
+              "value": "unable"
+            },
+            {
+              "label": {
+                "en": "Provincial or territorial dataset request",
+                "fr": "Jeu de données provincial ou territorial"
+              },
+              "value": "provincial"
+            },
+            {
+              "label": {
+                "en": "Request transferred to new data owner",
+                "fr": "Cette demande a été transféré au nouveau propriétaire des données"
+              },
+              "value": "transferred",
+              "attr": "disabled"
+            }
+          ]
+        },
+        {
+          "form_snippet": "fluent_markdown.html",
+          "display_snippet": "fluent_markdown.html",
+          "error_snippet": "fluent_text.html",
+          "validators": "fluent_text",
+          "output_validators": "fluent_text_output",
+          "field_name": "comments",
+          "label": {
+            "en": "Comments",
+            "fr": "Commentaires"
+          },
+          "required": true,
+          "fluent_form_label": {
+            "en": {
+              "en": "Comments (in English)",
+              "fr": "Commentaires (en anglais)"
+            },
+            "fr": {
+              "en": "Comments (in French)",
+              "fr": "Commentaires (en français)"
+            }
+          },
+          "fluent_help_text": {
+            "en": {
+              "en": "The comments provided by the data holder related to the suggestions. For example, whether or not the dataset can be published, if there are reasons why it should be exempted or not published (i.e. licence issues, security or privacy concerns)",
+              "fr": "Les commentaires fournis par le détenteur des données concernant les propositions. Par exemple, si le jeu de données peut être publié ou non, s'il existe des raisons pour lesquelles il devrait être exempté ou non publié (c'est-à-dire problèmes de licence ou préoccupations liées à la sécurité ou à la protection des renseignements personnels)."
+            },
+            "fr": {
+              "en": "The comments provided by the data holder related to the suggestions. For example, whether or not the dataset can be published, if there are reasons why it should be exempted or not published (i.e. licence issues, security or privacy concerns)",
+              "fr": "Les commentaires fournis par le détenteur des données concernant les propositions. Par exemple, si le jeu de données peut être publié ou non, s'il existe des raisons pour lesquelles il devrait être exempté ou non publié (c'est-à-dire problèmes de licence ou préoccupations liées à la sécurité ou à la protection des renseignements personnels)."
+            }
+          },
+          "preset": "fluent_markdown"
+        }
+      ]
+    }
+  ],
+  "after_validators": "canada_sort_prop_status",
+  "resource_fields": []
+}

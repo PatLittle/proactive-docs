@@ -1,0 +1,34 @@
+# Choices for character_set
+
+Generated 2025-07-25T10:26:02 UTC
+
+| Code | Label (EN) | Label (FR) |
+|------|------------|------------|
+| `UTF-8` | UTF-8 | UTF-8 |
+| `US-ASCII` | US-ASCII | US-ASCII |
+| `ISO-10646-UCS-2` | UCS-2 | UCS-2 |
+| `ISO-10646-UCS-4` | UCS-4 | UCS-4 |
+| `UTF-7` | UTF-7 | UTF-7 |
+| `UTF-16` | UTF-16 | UTF-16 |
+| `ISO-8859-1` | ISO-8859-1 | ISO-8859-1 |
+| `ISO-8859-2` | ISO-8859-2 | ISO-8859-2 |
+| `ISO-8859-3` | ISO-8859-3 | ISO-8859-3 |
+| `ISO-8859-4` | ISO-8859-4 | ISO-8859-4 |
+| `ISO-8859-5` | ISO-8859-5 | ISO-8859-5 |
+| `ISO-8859-6` | ISO-8859-6 | ISO-8859-6 |
+| `ISO-8859-7` | ISO-8859-7 | ISO-8859-7 |
+| `ISO-8859-8` | ISO-8859-8 | ISO-8859-8 |
+| `ISO-8859-9` | ISO-8859-9 | ISO-8859-9 |
+| `ISO-8859-10` | ISO-8859-10 | ISO-8859-10 |
+| `TIS-620` | ISO-8859-11 | ISO-8859-11 |
+| `ISO-8859-13` | ISO-8859-13 | ISO-8859-13 |
+| `ISO-8859-14` | ISO-8859-14 | ISO-8859-14 |
+| `ISO-8859-15` | ISO-8859-15 | ISO-8859-15 |
+| `ISO-8859-16` | ISO-8859-16 | ISO-8859-16 |
+| `JIS_Encoding` | JIS_Encoding | JIS_Encoding |
+| `Shift_JIS` | Shift_JIS | Shift_JIS |
+| `EUC-JP` | EUC-JP | EUC-JP |
+| `EUC-KR` | EUC-KR | EUC-KR |
+| `Big5` | Big5 | Big5 |
+| `GB2312` | GB2312 | GB2312 |
+| `EBCDIC-US` | EBCDIC-US | EBCDIC-US |

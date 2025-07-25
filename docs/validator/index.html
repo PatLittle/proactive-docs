@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>CSV Validator</title>
+</head>
+<body>
+<h1>CSV Validator</h1>
+<p>Select a CSV file or provide a CSV URL and optional schema URL.</p>
+<form id="vform">
+  <label>CSV File: <input type="file" id="csv"></label><br>
+  <label>CSV URL: <input type="url" id="csvurl"></label><br>
+  <label>Schema URL: <input type="url" id="schema"></label><br>
+  <button type="submit">Validate</button>
+</form>
+<pre id="output"></pre>
+<script src="https://unpkg.com/puter/dist/puter.js"></script>
+<script>
+document.getElementById('vform').addEventListener('submit', async (e) => {
+  e.preventDefault();
+  const fd = new FormData();
+  const file = document.getElementById('csv').files[0];
+  const url = document.getElementById('csvurl').value;
+  const schema = document.getElementById('schema').value;
+  if (file) fd.append('file', file);
+  if (url) fd.append('url', url);
+  if (schema) fd.append('schema', schema);
+  const res = await fetch('https://csvlint.io/validate', { method: 'POST', body: fd });
+  const data = await res.json();
+  document.getElementById('output').textContent = JSON.stringify(data, null, 2);
+});
+</script>
+</body>
+</html>
