@@ -5,7 +5,7 @@ on:
       - docs/reference/*
   workflow_dispatch:
 permissions:
-  contents: read # Removed write permission
+  contents: write #permission
 jobs:
   generate-choice-docs:
     runs-on: ubuntu-latest
