@@ -26,21 +26,27 @@ python scripts/generate_dataset_docs.py
 python scripts/generate_choice_docs.py
 ```
 
+4. Generate CKAN schema documentation:
+
+```bash
+python scripts/generate_ckan_schema_docs.py
+```
+
 The generated Markdown files will appear under `docs/reference` and `docs/choices`. Choice files include tables for the basic labels and, when extra metadata is present in the source JSON, additional detail sections for each code value.
 
-4. Generate documentation from a custom schema file or URL:
+5. Generate documentation from a custom schema file or URL:
 
 ```bash
 python scripts/generate_docs.py --source path/to/schema.json
 ```
 
-5. Generate table schemas and example CSV files:
+6. Generate table schemas and example CSV files:
 
 ```bash
 python scripts/generate_table_schemas.py
 ```
 
-6. Validate the example CSV files using [Frictionless](https://github.com/frictionlessdata/frictionless-ci):
+7. Validate the example CSV files using [Frictionless](https://github.com/frictionlessdata/frictionless-ci):
 
 ```bash
 for csv in schema/examples/*.csv; do

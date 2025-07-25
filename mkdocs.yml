@@ -1,0 +1,11 @@
+site_name: Proactive Docs
+site_url: https://example.com
+docs_dir: docs
+nav:
+  - Home: index.md
+  - Dataset Reference: reference/index.md
+  - Choice Lists: choices/index.md
+  - CKAN Schemas: ckan/index.md
+  - CSV Validator: validator/index.html
+theme:
+  name: mkdocs
