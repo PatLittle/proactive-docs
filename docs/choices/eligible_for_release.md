@@ -1,4 +1,4 @@
-# Choices for service_fee
+# Choices for eligible_for_release
 
 Generated 2025-07-25T09:41:45 UTC
 
