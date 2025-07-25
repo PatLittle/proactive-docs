@@ -1,0 +1,147 @@
+{
+  "fields": [
+    {
+      "name": "reference_number",
+      "title": "Reference Number",
+      "description": "This field is populated by the user with the reference number of the Experiment. This number is a mandatory system requirement when publishing a template.",
+      "type": "string",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "titre_du_projet_en",
+      "title": "Project Title (English)",
+      "description": "This field describes the project title, in English",
+      "type": "string",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "question_de_recherche_en",
+      "title": "Research Question (English)",
+      "description": "This field describes the research question informing the project, in English",
+      "type": "string",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "project_summary_en",
+      "title": "Project Summary (English)",
+      "description": "This field summarizes the key information about the project, including any findings once the initiative is completed, in English",
+      "type": "string",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "last_updated",
+      "title": "Last Updated",
+      "description": "This field will display the latest update provided for the project.",
+      "type": "date",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "experimental_area",
+      "title": "Experimental area",
+      "description": "This field will display the area in which the experiment is taking place.",
+      "type": "string",
+      "constraints": {
+        "required": true,
+        "enum": [
+          "GC",
+          "OA",
+          "PO",
+          "PR",
+          "RE",
+          "SE",
+          "SI"
+        ]
+      }
+    },
+    {
+      "name": "research_design",
+      "title": "Design",
+      "description": "This field will describe the research design used for the project.",
+      "type": "string",
+      "constraints": {
+        "required": true,
+        "enum": [
+          "OTH",
+          "QEX",
+          "RDM",
+          "STR"
+        ]
+      }
+    },
+    {
+      "name": "design_details_en",
+      "title": "Design Details (English)",
+      "description": "This field will describe the details of the research design used for the project.",
+      "type": "string",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "intervention_en",
+      "title": "Intervention (English)",
+      "description": "This field will describe the intervention tested in the project.",
+      "type": "string",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "mesure_des_resultats_en",
+      "title": "Outcomes (English)",
+      "description": "This field will describe the intervention tested in the project.",
+      "type": "string",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "resultats_en",
+      "title": "Findings (English)",
+      "description": "This field will describe the outcomes measured in the project.",
+      "type": "string"
+    },
+    {
+      "name": "status",
+      "title": "Status",
+      "description": "This field will describe the status of the project.",
+      "type": "string",
+      "constraints": {
+        "required": true,
+        "enum": [
+          "ACT",
+          "COM",
+          "INA"
+        ]
+      }
+    },
+    {
+      "name": "lead_branch_en",
+      "title": "Lead Branch and/or Unit (English)",
+      "description": "This field describes the organizational structure tied to the project owner (if applicable), in English",
+      "type": "string"
+    },
+    {
+      "name": "info_supplementaire_en",
+      "title": "Further Information / Links (English)",
+      "description": "This field includes a URL link to additional information on the project (e.g. report, blog post, etc.), in English.",
+      "type": "string"
+    }
+  ],
+  "missingValues": [
+    ""
+  ],
+  "primaryKey": [
+    "reference_number"
+  ]
+}

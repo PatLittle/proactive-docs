@@ -1,0 +1,147 @@
+{
+  "fields": [
+    {
+      "name": "reference_number",
+      "title": "Numéro de référence",
+      "description": "Ce champ est rempli par l’utilisateur avec le numéro de référence de l'experiment. Le numéro est une exigence de système obligatoire pour la publication d’un modèle.",
+      "type": "string",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "titre_du_projet_fr",
+      "title": "Titre du projet (en français)",
+      "description": "Ce champ décrira le titre du projet, en français",
+      "type": "string",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "question_de_recherche_fr",
+      "title": "Question de recherche (en français)",
+      "description": "Ce champ décrira la question de recherche guidant le projet, en français",
+      "type": "string",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "project_summary_fr",
+      "title": "Résumé du projet (en français)",
+      "description": "Ce champ résumera les information-clés à propos du projet, y compris les résultats lorque le projet est complété, en français",
+      "type": "string",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "last_updated",
+      "title": "Dernière mise à jour",
+      "description": "Ce champ décrira à quand remonte la dernière mise à jour.",
+      "type": "date",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "experimental_area",
+      "title": "Secteur d'expérimentation",
+      "description": "Ce champ décrira dans quel secteur l'expérience prend place.",
+      "type": "string",
+      "constraints": {
+        "required": true,
+        "enum": [
+          "GC",
+          "OA",
+          "PO",
+          "PR",
+          "RE",
+          "SE",
+          "SI"
+        ]
+      }
+    },
+    {
+      "name": "research_design",
+      "title": "Devis",
+      "description": "Ce champ décrira le devis de recherche employé dans le projet.",
+      "type": "string",
+      "constraints": {
+        "required": true,
+        "enum": [
+          "OTH",
+          "QEX",
+          "RDM",
+          "STR"
+        ]
+      }
+    },
+    {
+      "name": "design_details_fr",
+      "title": "Devis details (français)",
+      "description": "Ce champ décrira les détails du devis de recherche employé dans le projet.",
+      "type": "string",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "intervention_fr",
+      "title": "Intervention (français)",
+      "description": "Ce champ décrira l’intervention testée dans le projet.",
+      "type": "string",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "mesure_des_resultats_fr",
+      "title": "Mesure des résultats (françcais)",
+      "description": "Ce champ décrira la/les mesure(s) de résultat(s) employée(s) dans le projet.",
+      "type": "string",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "resultats_fr",
+      "title": "Résultats (françcais)",
+      "description": "Ce champ décrira les résultats observés dans le projet.",
+      "type": "string"
+    },
+    {
+      "name": "status",
+      "title": "Statut",
+      "description": "Ce champ décrira le statut du projet.",
+      "type": "string",
+      "constraints": {
+        "required": true,
+        "enum": [
+          "ACT",
+          "COM",
+          "INA"
+        ]
+      }
+    },
+    {
+      "name": "lead_branch_fr",
+      "title": "Direction et/ou unité responsable (en français))",
+      "description": "Ce champ décrira la structure organisationnelle liée à ce projet (si applicable), en français",
+      "type": "string"
+    },
+    {
+      "name": "info_supplementaire_fr",
+      "title": "Informations supplémentaires / liens (en français)",
+      "description": "Ce champ incluera un lien URL fournissant des information additionnelles (p.ex. rapport, blogue), en français.",
+      "type": "string"
+    }
+  ],
+  "missingValues": [
+    ""
+  ],
+  "primaryKey": [
+    "reference_number"
+  ]
+}

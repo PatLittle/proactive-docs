@@ -1,0 +1,124 @@
+{
+  "fields": [
+    {
+      "name": "ref_number",
+      "title": "Reference Number",
+      "description": "The unique reference number given to each line item in the spreadsheet. Having a unique identifier for each item will allow departments to locate a specific item in the system if revisions or deletions are required. This element will not be displayed to the public.",
+      "type": "string",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "title_en",
+      "title": "Title (English)",
+      "description": "The English name by which the dataset is known.",
+      "type": "string",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "description_en",
+      "title": "Description (English)",
+      "description": "An account of the dataset, in English. A description may include but is not limited to, an abstract, a table of contents, or a free-text account of the dataset.",
+      "type": "string",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "publisher_en",
+      "title": "Publisher - Name at Publication (English)",
+      "description": "Name, in English, of the organization primarily responsible for publishing the dataset at the time of the publication (if applicable, i.e. if different than current name).",
+      "type": "string"
+    },
+    {
+      "name": "date_published",
+      "title": "Date Published",
+      "description": "The date of issuance (e.g., publication) of the dataset",
+      "type": "date",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "language",
+      "title": "Language",
+      "description": "The language of the resource.",
+      "type": "string",
+      "constraints": {
+        "required": true,
+        "enum": [
+          "en",
+          "en+fr",
+          "fr",
+          "iu",
+          "other",
+          "zxx"
+        ]
+      }
+    },
+    {
+      "name": "size",
+      "title": "Size",
+      "description": "The [estimated] size of the resource(in Bytes)",
+      "type": "string",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "eligible_for_release",
+      "title": "Eligible for Release",
+      "description": "Is all of the content within the dataset eligible to be publicly released based on the application of the Eligibility Criteria in the Guide to Implementing the Directive on Open Government?",
+      "type": "string",
+      "constraints": {
+        "required": true,
+        "enum": [
+          "N",
+          "Y"
+        ]
+      }
+    },
+    {
+      "name": "program_alignment_architecture_en",
+      "title": "Program Alignment Architecture (English)",
+      "description": "The Program Alignment Architecture (PAA) in English. The Program Alignment Architecture (PAA) is an inventory of each organization’s programs. It provides an overview of the organization’s responsibilities.",
+      "type": "string",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "date_released",
+      "title": "Date Released",
+      "description": "The date on which the metadata record was released, made available, on the Open Government portal; only if applicable",
+      "type": "date",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "portal_url_en",
+      "title": "Open Government Portal Record (English)",
+      "description": "The location for online access to the distribution of the resource, in French. This element is only mandatory if applicable The entry should point to the metadata record page on Open.Canada.ca.",
+      "type": "string",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "user_votes",
+      "title": "User Votes",
+      "description": "Count of users that voted for this dataset on open.canada.ca",
+      "type": "integer"
+    }
+  ],
+  "missingValues": [
+    ""
+  ],
+  "primaryKey": [
+    "ref_number"
+  ]
+}

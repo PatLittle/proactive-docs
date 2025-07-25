@@ -1,0 +1,142 @@
+{
+  "fields": [
+    {
+      "name": "year",
+      "title": "Fiscal Year Ending",
+      "description": "This fields shows the current fiscal reporting period’s ending (March 31, YYYY).",
+      "type": "year",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "mandate_description_en",
+      "title": "Description of departmental mandate (English)",
+      "description": "Provide a brief explanation, in English, of the department’s mandate, major programs and linkages with core laws or regulations to help readers understand the travel, hospitality and conference expenditures incurred by the department and how they support the department’s mandate, including significant structural or program changes.",
+      "type": "string",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "operational_activities_kdollars",
+      "title": "Travel ≥2018 – Operational activities ($ thousands)",
+      "description": "This field shows annual expenditures for travel of public servants and non-public servants for the expenditure category – Operational activities for the current reporting fiscal year (Year Ending March 31, YYYY) in thousands of dollars",
+      "type": "string",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "key_stakeholders_kdollars",
+      "title": "Travel ≥2018 – Key stakeholders ($ thousands)",
+      "description": "This field shows annual expenditures for travel of public servants and non-public servants for the expenditure category – key stakeholders for the current reporting fiscal year (Year Ending March 31, YYYY) in thousands of dollars",
+      "type": "string",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "training_kdollars",
+      "title": "Travel ≥2018 – Training ($ thousands)",
+      "description": "This field shows annual expenditures for travel of public servants and non-public servants for the expenditure category – Training for the current reporting fiscal year (Year Ending March 31, YYYY) in thousands of dollars",
+      "type": "string",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "other_kdollars",
+      "title": "Travel ≥2018 – Other ($ thousands)",
+      "description": "This field shows annual expenditures for travel of public servants and non-public servants for the expenditure category – Other for the current reporting fiscal year (Year Ending March 31, YYYY) in thousands of dollars",
+      "type": "string",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "internal_governance_kdollars",
+      "title": "Travel ≥2018 – Internal governance ($ thousands)",
+      "description": "This field shows annual expenditures for travel of public servants and non-public servants for the expenditure category – Internal governance for the current reporting fiscal year (Year Ending March 31, YYYY) in thousands of dollars",
+      "type": "string",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "non_public_servants_kdollars",
+      "title": "Travel <2018 – Non-Public Servants ($ thousands)",
+      "description": "This field shows annual expenditures for travel of non-public servants for the current reporting fiscal year (Year Ending March 31, YYYY) in thousands of dollars",
+      "type": "string",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "public_servants_kdollars",
+      "title": "Travel <2018 – Public Servants ($ thousands)",
+      "description": "This field shows annual expenditures for travel of public servants for the current reporting fiscal year (Year Ending March 31, YYYY) in thousands of dollars",
+      "type": "string",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "hospitality_kdollars",
+      "title": "Hospitality ($ thousands)",
+      "description": "This field shows annual expenditures for hospitality for the previous reporting fiscal year (Year Ending March 31, YYYY-1) in thousands of dollars",
+      "type": "string",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "conference_fees_kdollars",
+      "title": "Conference Fees ($ thousands)",
+      "description": "This field shows annual expenditures for conference fees for the current reporting fiscal year (Year Ending March 31, YYYY) in thousands of dollars",
+      "type": "string",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "minister_kdollars",
+      "title": "International Travel by Minister and Minister's Staff ($ thousands)",
+      "description": "This field shows annual expenditures for international travel by Minister and Minister’s staff for the current reporting year (Year Ending March 31, YYYY) in thousands of dollars",
+      "type": "string",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "travel_compared_fiscal_year_en",
+      "title": "Explanation of Significant Variance of the total travel expenditure (English)",
+      "description": "Provide a brief explanation, in English, of the significant reason(s) for the increase/decrease in annual expenditures for travel of public servants and non-public servants.",
+      "type": "string"
+    },
+    {
+      "name": "hospitality_compared_fiscal_year_en",
+      "title": "Hospitality - Explanation of Significant Variance (English)",
+      "description": "Provide a brief explanation, in English, of the significant reason(s) for the increase/decrease in annual expenditures for hospitality.",
+      "type": "string"
+    },
+    {
+      "name": "conference_fees_compared_fiscal_year_en",
+      "title": "Conference Fees - Explanation of Significant Variance (English)",
+      "description": "Provide a brief explanation, in English, of the significant reason(s) for the increase/decrease in annual expenditures for conference fees.",
+      "type": "string"
+    },
+    {
+      "name": "minister_compared_fiscal_year_en",
+      "title": "International Travel by Minister and Minister’s Staff - Explanation of Significant Variance (English)",
+      "description": "Provide a brief explanation, in English, of the significant reason(s) for the increase/decrease in annual expenditures for international travel by the minister and minister's staff.",
+      "type": "string"
+    }
+  ],
+  "missingValues": [
+    ""
+  ],
+  "primaryKey": [
+    "year"
+  ]
+}

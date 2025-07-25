@@ -1,0 +1,142 @@
+{
+  "fields": [
+    {
+      "name": "year",
+      "title": "Dépenses pour l’exercice financier se terminant",
+      "description": "Ce champ montre l’année de clôture de l’exercice financier en cours (31 mars AAAA).",
+      "type": "year",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "mandate_description_fr",
+      "title": "Description du mandat du ministère (français)",
+      "description": "Décrivez brièvement, en français, le mandat du ministère, ses principaux programmes et les liens avec les lois ou les règlements fondamentaux afin d’aider les lecteurs à comprendre les dépenses de voyages, d’accueil et de conférences engagées par le ministère, et en quoi ces dépenses soutiennent le mandat du ministère",
+      "type": "string",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "operational_activities_kdollars",
+      "title": "Voyage ≥2018 – activités opérationnelles (Milliers de dollars)",
+      "description": "Ce champ montre les dépenses annuelles de voyage de fonctionnaires et non-fonctionnaires pour la catégorie de dépenses activités opérationnelles pour l’exercice financier en cours (année se terminant le 31 mars AAAA), en milliers de dollars",
+      "type": "string",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "key_stakeholders_kdollars",
+      "title": "Voyage ≥2018 – Principaux intervenants (Milliers de dollars)",
+      "description": "Ce champ montre les dépenses annuelles de voyage de -fonctionnaires et non-fonctionnaires pour la catégorie de dépenses principaux intervenants,  pour l’exercice financier en cours (année se terminant le 31 mars AAAA), en milliers de dollars",
+      "type": "string",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "training_kdollars",
+      "title": "Voyage ≥2018 – Formation (Milliers de dollars)",
+      "description": "Ce champ montre les dépenses annuelles de voyage de fonctionnaires et non-fonctionnaires pour la catégorie de dépenses formation, pour l’exercice financier en cours (année se terminant le 31 mars AAAA), en milliers de dollars",
+      "type": "string",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "other_kdollars",
+      "title": "Voyage ≥2018 – Autre (Milliers de dollars)",
+      "description": "Ce champ montre les dépenses annuelles de voyage de fonctionnaires et non-fonctionnaires pour la catégorie de dépenses autre, pour l’exercice financier en cours (année se terminant le 31 mars AAAA), en milliers de dollars",
+      "type": "string",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "internal_governance_kdollars",
+      "title": "Voyage ≥2018 – Gouvernance interne (Milliers de dollars)",
+      "description": "Ce champ montre les dépenses annuelles de voyage de fonctionnaires et non-fonctionnaires pour la catégorie de dépenses gouvernance interne, pour l’exercice financier en cours (année se terminant le 31 mars AAAA), en milliers de dollars",
+      "type": "string",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "non_public_servants_kdollars",
+      "title": "Voyage <2018 – non-fonctionnaires (Milliers de dollars)",
+      "description": "Ce champ montre les dépenses annuelles de voyage de non-fonctionnaires pour l’exercice financier en cours (année se terminant le 31 mars AAAA), en milliers de dollars",
+      "type": "string",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "public_servants_kdollars",
+      "title": "Voyage <2018 – fonctionnaires (Milliers de dollars)",
+      "description": "Ce champ montre les dépenses annuelles de voyage de fonctionnaires pour l’exercice financier en cours (année se terminant le 31 mars AAAA), en milliers de dollars",
+      "type": "string",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "hospitality_kdollars",
+      "title": "Accueil (Milliers de dollars)",
+      "description": "Ce champ montre les dépenses annuelles d’accueil pour l’exercice financier précédent (année se terminant le 31 mars AAAA-1), en milliers de dollars",
+      "type": "string",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "conference_fees_kdollars",
+      "title": "Frais de participation aux conférences (Milliers de dollars)",
+      "description": "Ce champ montre les dépenses annuelles de conférences pour l’exercice financier en cours (année se terminant le 31 mars AAAA), en milliers de dollars",
+      "type": "string",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "minister_kdollars",
+      "title": "Voyages internationaux du ministre et du personnel du ministre (Milliers de dollars)",
+      "description": "Ce champ montre les dépenses annuelles de voyage à l’étranger du ministre et de son personnel pour l’exercice financier en cours (année se terminant le 31 mars AAAA), en milliers de dollars",
+      "type": "string",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "travel_compared_fiscal_year_fr",
+      "title": "Explication d’un écart important du total des dépenses de voyages (français)",
+      "description": "Expliquez brièvement, en français, la ou les raisons significatives de l’augmentation ou de la diminution des dépenses annuelles de voyage pour les fonctionnaires et non-fonctionnaires.",
+      "type": "string"
+    },
+    {
+      "name": "hospitality_compared_fiscal_year_fr",
+      "title": "Accueil - Explication d’un écart important (français)",
+      "description": "Expliquez brièvement, en français, la ou les raisons significatives de l’augmentation ou de la diminution des dépenses annuelles d’accueil.",
+      "type": "string"
+    },
+    {
+      "name": "conference_fees_compared_fiscal_year_fr",
+      "title": "Frais de participation aux conférences - Explication d’un écart important (français)",
+      "description": "Expliquez brièvement, en français, la ou les raisons significatives de l’augmentation ou de la diminution des dépenses annuelles de conférences",
+      "type": "string"
+    },
+    {
+      "name": "minister_compared_fiscal_year_fr",
+      "title": "Voyages internationaux du ministre et du personnel du ministre - Explication d’un écart important (français)",
+      "description": "Expliquez brièvement, en français, la ou les raisons significatives de l’augmentation ou de la diminution des dépenses annuelles de voyage à l’étranger pour le ministre et son personnel.",
+      "type": "string"
+    }
+  ],
+  "missingValues": [
+    ""
+  ],
+  "primaryKey": [
+    "year"
+  ]
+}
