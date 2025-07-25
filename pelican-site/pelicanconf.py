@@ -1,0 +1,6 @@
+SITENAME = 'Proactive Docs'
+SITEURL = 'https://patlittle.github.io/proactive-docs/pelican'
+PATH = 'content'
+TIMEZONE = 'UTC'
+DEFAULT_LANG = 'en'
+THEME = 'notmyidea'
