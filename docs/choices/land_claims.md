@@ -1,6 +1,6 @@
 # Choices for land_claims
 
-Generated 2025-07-25T09:41:45 UTC
+Generated 2025-07-25T10:30:11 UTC
 
 | Code | Label (EN) | Label (FR) |
 |------|------------|------------|
