@@ -1,43 +1,40 @@
 
-# Proactive Publication - Question Period Notes / Publication proactive - Notes pour la période des questions
+# Proactive Publication - Use of Administrative Aircraft / Publication proactive - Utilisation des avions d'affaires
 
-**Dataset Type:** `qpnotes`  
-**Last Generated:** 2025-07-25T06:43:30 (UTC)  
-**Source:** dictionaries/qpnotes.json  
+**Dataset Type:** `adminaircraft`  
+**Last Generated:** 2025-07-25T06:43:35 (UTC)  
+**Source:** dictionaries/adminaircraft.json  
 **Commit:** `d0cddec`
 
-Access, upload and modify Question Period notes for your organization / Accès, téléversement et modifications des notes de la période de questions pour votre organisation
+Access, upload and modify government administrative aircraft use / Accès, téléversement et modifications des rapports sur la utilisation des avions d'affaires
 
 ---
 
 ## Resources
 
 
-- [Proactive Publication - Question Period Notes / Publication proactive - Notes pour la période des questions](#qpnotes)
-
-- [Proactive Publication - Question Period Notes Nothing to Report / Publication proactive - Notes pour la période des questions rien à signaler](#qpnotes-nil)
+- [Proactive Publication - Use of Administrative Aircraft / Publication proactive - Utilisation des avions d'affaires](#adminaircraft)
 
 
 ---
 
 
-## Proactive Publication - Question Period Notes / Publication proactive - Notes pour la période des questions 
+## Proactive Publication - Use of Administrative Aircraft / Publication proactive - Utilisation des avions d'affaires 
 
 ### Field Summary
 
 | Field ID | Label (EN / FR) | Type | Required | Max Chars | Choices | Description (EN) |
 |----------|-----------------|------|----------|-----------|---------|------------------|
-| `reference_number` | Reference Number / Numéro de référence | `text` | Yes |  |  | This field is populated by the user with the reference number of the Question P… |
-| `title_en` | Title (English) / Titre (anglais) | `text` | Yes |  |  | This field is populated by the user with the official title of the Question Per… |
-| `title_fr` | Title (French) / Titre (français) | `text` | Yes |  |  | This field is populated by the user with the official title of the Question Per… |
-| `minister` | Title of Minister / Titre du ministre | `text` | Yes |  | minister | This field will display the title of the Minister for whom the Question Period … |
-| `question_en` | Issue/Question (English) / Enjeu ou question (anglais) | `text` | No |  |  | This section will display the issue or question the Minister is responding to, … |
-| `question_fr` | Issue/Question (French) / Enjeu ou question (français) | `text` | No |  |  | This section will display the issue or question the Minister is responding to, … |
-| `date_received` | Date Provided to the Minister&#39;s Office / Date de fourniture au bureau du minister | `date` | Yes |  |  | This field will display the date on which the Question Period Note was provided… |
-| `response_en` | Suggested Response (English) / Réponse suggérée (anglais) | `text` | Yes |  |  | This field will display the Suggested Response section of the Question Period N… |
-| `response_fr` | Suggested Response (French) / Réponse suggérée (français) | `text` | Yes |  |  | This field will display the Suggested Response section of the Question Period N… |
-| `background_en` | Background (English) / Contexte (anglais) | `text` | Yes |  |  | This field should display the background section of the Question Period note, I… |
-| `background_fr` | Background (French) / Contexte (français) | `text` | Yes |  |  | This field should display the background section of the Question Period note, I… |
+| `reference_number` | Reference Number / Numéro de référence | `text` | Yes |  |  | This field is populated by the user with the reference number of the trip. This… |
+| `minister` | Title of Minister / Titre du ministre | `text` | Yes |  | minister | This field will display the title of the Minister who requested the trip. |
+| `purpose_en` | Purpose of the trip (English) / But du voyage (anglais) | `text` | Yes |  |  | A description of the reason for the government trip in question. The descriptio… |
+| `purpose_fr` | Purpose of the trip (French) / But du voyage (français) | `text` | Yes |  |  | A description, in French, of the reason for the government trip in question. Th… |
+| `start_date` | Travel start date / Date du début du voyage | `date` | Yes |  |  | The date the travel started. |
+| `end_date` | Travel end date / Date de fin du voyage | `date` | Yes |  |  | The date the travel ended (can be the same as travel start date). |
+| `locations_en` | Location(s) visited (English) / Endroit(s) visité (anglais) | `text` | Yes |  |  | To include names of all places visited to conduct government business during th… |
+| `locations_fr` | Location(s) visited (French) / Endroit(s) visité (français) | `text` | Yes |  |  | To include names of all places visited to conduct government business during th… |
+| `hours` | Number of hours flown / Le nombre d’heures de vol | `numeric` | Yes |  |  | The number of hours flown. |
+| `passengers` | Passenger names / Nom des passagers | `text` | Yes |  |  | Full list of flight passengers. (Comma seperated) |
 | `additional_information_en` | Additional Information (English) / Renseignements supplémentaires (anglais) | `text` | No |  |  | This field will display any additional information, as deemed necessary, in English. |
 | `additional_information_fr` | Additional Information (French) / Renseignements supplémentaires (français) | `text` | No |  |  | This field will display any additional information, as deemed necessary, in French. |
 
@@ -55,36 +52,8 @@ Access, upload and modify Question Period notes for your organization / Accès, 
 
 
 **Description:**  
-EN: This field is populated by the user with the reference number of the Question Period Note. This number is a mandatory system requirement when publishing a template.  
-FR: Ce champ est rempli par l’utilisateur avec le numéro de référence de la note pour la période de questions. Le numéro est une exigence de système obligatoire pour la publication d’un modèle.
-
-
----
-
-#### `title_en` – Title (English) / Titre (anglais)
-
-**Type:** `text`  
-**Required:** Yes  
-**Validation:** This field must not be empty / Ce champ ne doit pas être vide  
-
-
-**Description:**  
-EN: This field is populated by the user with the official title of the Question Period Note, in English.  
-FR: L’utilisateur indique le titre officiel en anglais de la note pour la période de questions dans ce champ.
-
-
----
-
-#### `title_fr` – Title (French) / Titre (français)
-
-**Type:** `text`  
-**Required:** Yes  
-**Validation:** This field must not be empty / Ce champ ne doit pas être vide  
-
-
-**Description:**  
-EN: This field is populated by the user with the official title of the Question Period Note, in French.  
-FR: L’utilisateur indique le titre officiel en français de la note pour la période de questions dans ce champ.
+EN: This field is populated by the user with the reference number of the trip. This number is a mandatory system requirement when publishing a template.  
+FR: Ce champ est rempli par l’utilisateur avec le numéro de référence du voyage. Le numéro est une exigence de système obligatoire pour la publication d’un modèle.
 
 
 ---
@@ -94,12 +63,12 @@ FR: L’utilisateur indique le titre officiel en français de la note pour la p�
 **Type:** `text`  
 **Required:** Yes  
 **Validation:** This field must not be empty / Ce champ ne doit pas être vide  
-**Choice Set:** minister (111 values)  
+**Choice Set:** minister (112 values)  
 
 
 **Description:**  
-EN: This field will display the title of the Minister for whom the Question Period Note was created.  
-FR: Ce champ affichera le titre du ministre pour qui la note pour la période de questions a été créée.
+EN: This field will display the title of the Minister who requested the trip.  
+FR: Ce champ affichera le titre du ministre qui a demandé le voyage.
 
 
 ##### Allowed Values (minister)
@@ -113,6 +82,7 @@ FR: Ce champ affichera le titre du ministre pour qui la note pour la période de
 | `AMPS` | Associate Minister of Public Safety | Ministre associée de la sécurité publique |
 | `CGW` | Chief government whip | Whip en chef du gouvernement |
 | `DPM` | Deputy Prime Minister | Vice-première ministre |
+| `GG` | The Governor General of Canada | La gouverneure générale du Canada |
 | `LGHC` | Leader of the Government in the House of Commons | Leader du gouvernement à la Chambre des communes |
 | `MAA` | Minister of Agriculture and Agri-Food | Ministre de l&#39;Agriculture et de l&#39;Agroalimentaire |
 | `MAARED` | Minister of Agriculture and Agri-Food and Rural Economic Development | Ministre de l’agriculture et de l’agroalimentaire et du développement économique rural |
@@ -223,35 +193,35 @@ FR: Ce champ affichera le titre du ministre pour qui la note pour la période de
 
 ---
 
-#### `question_en` – Issue/Question (English) / Enjeu ou question (anglais)
+#### `purpose_en` – Purpose of the trip (English) / But du voyage (anglais)
 
 **Type:** `text`  
-**Required:** No  
-**Validation:** None / None  
+**Required:** Yes  
+**Validation:** This field must not be empty / Ce champ ne doit pas être vide  
 
 
 **Description:**  
-EN: This section will display the issue or question the Minister is responding to, in English.  
-FR: Cette section affichera en anglais la question ou l’enjeu auquel répond le ministère.
+EN: A description of the reason for the government trip in question. The description should be succinct (one line if possible) and provide users with a general sense of the trip's purpose. Use of acronyms should be avoided, in English.  
+FR: Description de la raison du voyage, en anglais, en service commandé visé. La description doit être brève (une ligne dans la mesure du possible) et donner une indication générale aux utilisateurs du but du voyage. Il faut éviter d’utiliser des acronymes.
 
 
 ---
 
-#### `question_fr` – Issue/Question (French) / Enjeu ou question (français)
+#### `purpose_fr` – Purpose of the trip (French) / But du voyage (français)
 
 **Type:** `text`  
-**Required:** No  
-**Validation:** None / None  
+**Required:** Yes  
+**Validation:** This field must not be empty / Ce champ ne doit pas être vide  
 
 
 **Description:**  
-EN: This section will display the issue or question the Minister is responding to, in French.  
-FR: Cette section affichera en français la question ou l’enjeu auquel répond le ministère.
+EN: A description, in French, of the reason for the government trip in question. The description should be succinct (one line if possible) and provide users with a general sense of the trip's purpose. Use of acronyms should be avoided, in French  
+FR: Description de la raison du voyage, en français, en service commandé visé. La description doit être brève (une ligne dans la mesure du possible) et donner une indication générale aux utilisateurs du but du voyage. Il faut éviter d’utiliser des acronymes.
 
 
 ---
 
-#### `date_received` – Date Provided to the Minister's Office / Date de fourniture au bureau du minister
+#### `start_date` – Travel start date / Date du début du voyage
 
 **Type:** `date`  
 **Required:** Yes  
@@ -259,13 +229,27 @@ FR: Cette section affichera en français la question ou l’enjeu auquel répond
 
 
 **Description:**  
-EN: This field will display the date on which the Question Period Note was provided to the Minister's Office.  
-FR: Ce champ affichera la date à laquelle la note pour la période de questions a été fournie au ministre aux fins d’utilisation au cours d’une période de questions.
+EN: The date the travel started.  
+FR: Date du début du voyage.
 
 
 ---
 
-#### `response_en` – Suggested Response (English) / Réponse suggérée (anglais)
+#### `end_date` – Travel end date / Date de fin du voyage
+
+**Type:** `date`  
+**Required:** Yes  
+**Validation:** This field must not be empty / Ce champ ne doit pas être vide  
+
+
+**Description:**  
+EN: The date the travel ended (can be the same as travel start date).  
+FR: Date de fin du voyage (peut être la même date que la date du début du voyage).
+
+
+---
+
+#### `locations_en` – Location(s) visited (English) / Endroit(s) visité (anglais)
 
 **Type:** `text`  
 **Required:** Yes  
@@ -273,13 +257,13 @@ FR: Ce champ affichera la date à laquelle la note pour la période de questions
 
 
 **Description:**  
-EN: This field will display the Suggested Response section of the Question Period Note, in English.  
-FR: Ce champ affichera la section de la réponse suggérée de la note pour la période de questions en anglais.
+EN: To include names of all places visited to conduct government business during the trip in question, in English. (separate multiple locations with semicolons)  
+FR: Cette zone indique, en anglais, le nom de tous les lieux qui ont été visités dans le cadre du voyage en question réalisé pour le compte du gouvernement. (séparer plusieurs emplacements avec des points-virgules)
 
 
 ---
 
-#### `response_fr` – Suggested Response (French) / Réponse suggérée (français)
+#### `locations_fr` – Location(s) visited (French) / Endroit(s) visité (français)
 
 **Type:** `text`  
 **Required:** Yes  
@@ -287,13 +271,27 @@ FR: Ce champ affichera la section de la réponse suggérée de la note pour la p
 
 
 **Description:**  
-EN: This field will display the Suggested Response section of the Question Period Note, in French.  
-FR: Ce champ affichera la section de la réponse suggérée de la note pour la période de questions en français.
+EN: To include names of all places visited to conduct government business during the trip in question, in french. (separate multiple locations with semicolons)  
+FR: Cette zone indique, en français, le nom de tous les lieux qui ont été visités dans le cadre du voyage en question réalisé pour le compte du gouvernement. (séparer plusieurs emplacements avec des points-virgules)
 
 
 ---
 
-#### `background_en` – Background (English) / Contexte (anglais)
+#### `hours` – Number of hours flown / Le nombre d’heures de vol
+
+**Type:** `numeric`  
+**Required:** Yes  
+**Validation:** This field must not be empty / Ce champ ne doit pas être vide  
+
+
+**Description:**  
+EN: The number of hours flown.  
+FR: Le nombre d’heures de vol.
+
+
+---
+
+#### `passengers` – Passenger names / Nom des passagers
 
 **Type:** `text`  
 **Required:** Yes  
@@ -301,22 +299,8 @@ FR: Ce champ affichera la section de la réponse suggérée de la note pour la p
 
 
 **Description:**  
-EN: This field should display the background section of the Question Period note, In English.  
-FR: Ce champ devrait afficher en anglais la section du contexte de la note pour la période de questions.
-
-
----
-
-#### `background_fr` – Background (French) / Contexte (français)
-
-**Type:** `text`  
-**Required:** Yes  
-**Validation:** This field must not be empty / Ce champ ne doit pas être vide  
-
-
-**Description:**  
-EN: This field should display the background section of the Question Period note, In French.  
-FR: Ce champ devrait afficher en français la section du contexte de la note pour la période de questions.
+EN: Full list of flight passengers. (Comma seperated)  
+FR: Liste complète des passagers du vol. (séparées par des virgules)
 
 
 ---
@@ -351,62 +335,6 @@ FR: Ce champ affichera tout renseignement supplémentaire, en français, selon l
 
 
 
-## Proactive Publication - Question Period Notes Nothing to Report / Publication proactive - Notes pour la période des questions rien à signaler 
-
-### Field Summary
-
-| Field ID | Label (EN / FR) | Type | Required | Max Chars | Choices | Description (EN) |
-|----------|-----------------|------|----------|-----------|---------|------------------|
-| `year` | Year / Année | `year` | Yes |  |  | This tab / field in the template is only populated if there are no question per… |
-| `reporting_period` | Reporting Period / Période de déclaration | `text` | Yes |  | reporting_period | This tab / field in the template is only populated if there are no briefing not… |
-
-
-**Legend:** *Required* = must appear in uploads; *Choices* = enumerated allowed values (shows choice set name when multiple sets exist).
-
-### Detailed Fields
-
-
-#### `year` – Year / Année
-
-**Type:** `year`  
-**Required:** Yes  
-**Validation:** This field must not be empty / Ce champ ne doit pas être vide  
-
-
-**Description:**  
-EN: This tab / field in the template is only populated if there are no question period notes for the reporting period. This field should be populated with the year of the reporting period.  
-FR: Cet onglet/champ du modèle n’est rempli que s'il n'y a pas de notes pour la période de questions pour la période d’établissement de rapports. Ce champ doit être rempli avec l’année de la période d’établissement de rapports.
-
-
----
-
-#### `reporting_period` – Reporting Period / Période de déclaration
-
-**Type:** `text`  
-**Required:** Yes  
-**Validation:** This field must not be empty / Ce champ ne doit pas être vide  
-**Choice Set:** reporting_period (2 values)  
-
-
-**Description:**  
-EN: This tab / field in the template is only populated if there are no briefing notes for the reporting period. This field should be populated with the reporting period.  
-FR: Cet onglet/champ du modèle n’est rempli que s'il n'y a pas de note pour la période de questions pour la période d’établissement de rapports. Ce champ doit être rempli avec la période d’établissement de rapports.
-
-
-##### Allowed Values (reporting_period)
-
-| Code | Label (EN) | Label (FR) |
-|------|------------|------------|
-| `P01` | Jan. - June | jan. - juin |
-| `P02` | July - Dec. | juil. - déc. |
-
-
-
-
----
-
-
-
 
 ## Appendix
 
@@ -417,8 +345,8 @@ FR: Cet onglet/champ du modèle n’est rempli que s'il n'y a pas de note pour l
 
 ### Generation Metadata
 
-- Generated: 2025-07-25T06:43:30 (UTC)
-- Source: dictionaries/qpnotes.json
+- Generated: 2025-07-25T06:43:35 (UTC)
+- Source: dictionaries/adminaircraft.json
 - Commit: `d0cddec`
 - Tool Version: simple-1
 
