@@ -1,9 +1,7 @@
 name: Deploy Documentation
 
 on:
-  push:
-    branches:
-      - main
+  workflow_dispatch:
 
 jobs:
   deploy:
@@ -25,31 +23,7 @@ jobs:
       - name: Build MkDocs site
         run: mkdocs build -d site/mkdocs
 
-      # ---------- Pelican ----------
-      - name: Install Pelican
-        run: pip install pelican==4.11
-
-      - name: Build Pelican site
-        run: pelican pelican-site -o site/pelican -s pelican-site/pelicanconf.py
-
-      # ---------- Docusaurus ----------
-      - name: Set up Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: '20.x'
-
-      - name: Install dependencies for Docusaurus
-        run: |
-          cd docusaurus-site
-          npm install
-
-      - name: Build Docusaurus site
-        run: |
-          cd docusaurus-site
-          npm run build
-          cd ..
-          mv docusaurus-site/build site/docusaurus
-
+     
       # ---------- Deploy to GitHub Pages ----------
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
