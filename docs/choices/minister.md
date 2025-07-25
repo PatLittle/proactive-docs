@@ -1,6 +1,6 @@
 # Choices for minister
 
-Generated 2025-07-20T13:58:57 UTC
+Generated 2025-07-25T06:50:05 UTC
 
 | Code | Label (EN) | Label (FR) |
 |------|------------|------------|
@@ -11,6 +11,7 @@ Generated 2025-07-20T13:58:57 UTC
 | [`AMPS`](#AMPS) | Associate Minister of Public Safety | Ministre associée de la sécurité publique |
 | [`CGW`](#CGW) | Chief government whip | Whip en chef du gouvernement |
 | [`DPM`](#DPM) | Deputy Prime Minister | Vice-première ministre |
+| [`GG`](#GG) | The Governor General of Canada | La gouverneure générale du Canada |
 | [`LGHC`](#LGHC) | Leader of the Government in the House of Commons | Leader du gouvernement à la Chambre des communes |
 | [`MAA`](#MAA) | Minister of Agriculture and Agri-Food | Ministre de l'Agriculture et de l'Agroalimentaire |
 | [`MAARED`](#MAARED) | Minister of Agriculture and Agri-Food and Rural Economic Development | Ministre de l’agriculture et de l’agroalimentaire et du développement économique rural |
@@ -164,6 +165,12 @@ Generated 2025-07-20T13:58:57 UTC
 | Row | Minister (EN) | Minister (FR) | Start | End |
 |-----|---------------|---------------|-------|-----|
 | 1 | Freeland, Chrystia (Hon.) | Freeland, Chrystia (L’hon.) | 2019-11-20T15:00:00 | 2024-12-15T23:59:59 |
+
+### Code `GG` – The Governor General of Canada / La gouverneure générale du Canada {#GG}
+
+| Row | Minister (EN) | Minister (FR) | Start | End |
+|-----|---------------|---------------|-------|-----|
+| 1 | Simon, Mary (Right Hon.) | Simon, Mary (Le très hon.) | 2021-07-26T08:00:00 |  |
 
 ### Code `LGHC` – Leader of the Government in the House of Commons / Leader du gouvernement à la Chambre des communes {#LGHC}
 
