@@ -8,7 +8,7 @@ nav:
   - Choice Lists: choices/index.md
   - CKAN Schemas: ckan/index.md
   - CSV Validator: validator/index.html
-  markdown_extensions:
+markdown_extensions:
   - toc:
       permalink: "#"
 theme:
