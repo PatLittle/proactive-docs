@@ -31,6 +31,15 @@
       }
     },
     {
+      "name": "title_fr",
+      "title": "Title (French)",
+      "description": "This field will display, in French, the position title of the individual who incurred the hospitality expenses (the hospitality expenses were charged to their responsibility centre).",
+      "type": "string",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
       "name": "name",
       "title": "Name",
       "description": "This field will display the name of the individual who incurred the hospitality expenses (the hospitality expenses were charged to their responsibility centre).",
@@ -43,6 +52,15 @@
       "name": "description_en",
       "title": "Purpose of hospitality activity (English)",
       "description": "This will cover both the forms (for example, breakfast, refreshment, lunch, reception, dinner and other forms of hospitality) and circumstances (the purpose) of the hospitality, in English.",
+      "type": "string",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "description_fr",
+      "title": "Purpose of hospitality activity (French)",
+      "description": "This will cover both the forms (for example, breakfast, refreshment, lunch, reception, dinner and other forms of hospitality) and circumstances (the purpose) of the hospitality, in French.",
       "type": "string",
       "constraints": {
         "required": true
@@ -76,9 +94,27 @@
       }
     },
     {
+      "name": "location_fr",
+      "title": "Municipality where the hospitality activity took place (French)",
+      "description": "Must include the Municipality where hospitality was provided, in French.",
+      "type": "string",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
       "name": "vendor_en",
       "title": "Name of the first commercial establishment or vendor involved in the hospitality activity (English)",
       "description": "Must include the name of the first commercial establishment or vendor that provided the hospitality (for example, restaurant, hotel or other location) and/or vendor (for example, a caterer), in English.\n",
+      "type": "string",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "vendor_fr",
+      "title": "Name of the first commercial establishment or vendor involved in the hospitality activity (French)",
+      "description": "Must include the name of the first commercial establishment or vendor that provided the hospitality (for example, restaurant, hotel or other location) and/or vendor (for example, a caterer), in French.\n",
       "type": "string",
       "constraints": {
         "required": true
@@ -91,9 +127,21 @@
       "type": "string"
     },
     {
+      "name": "vendor_2_fr",
+      "title": "Name of the second commercial establishment or vendor involved in the hospitality activity (French)",
+      "description": "Must include the name of the second commercial establishment or vendor that provided the hospitality (for example, restaurant, hotel or other location) and/or vendor (for example, a caterer), in French.\n",
+      "type": "string"
+    },
+    {
       "name": "vendor_other_en",
       "title": "Name of any other commercial establishments or vendors involved in the hospitality activity (English)",
       "description": "Must include the names of any other commercial establishments or vendors that provided the hospitality (for example, restaurant, hotel or other location) and/or vendor (for example, a caterer), in English. Note, use the format {Vendor Name};{Vendor 2 Name} (e.g. Les Impertinentes;Les Street Monkeys)\n",
+      "type": "string"
+    },
+    {
+      "name": "vendor_other_fr",
+      "title": "Name of any other commercial establishments or vendors involved in the hospitality activity (French)",
+      "description": "Must include the name of any other commercial establishments or vendors that provided the hospitality (for example, restaurant, hotel or other location) and/or vendor (for example, a caterer), in French. Note, use the format <Vendor Name>;<Vendor 2 Name> (e.g. Les Impertinentes;Les Street Monkeys)\n",
       "type": "string"
     },
     {
@@ -127,6 +175,12 @@
       "name": "additional_comments_en",
       "title": "Additional comments (English)",
       "description": "This field may be populated with additional explanatory comments, in English.",
+      "type": "string"
+    },
+    {
+      "name": "additional_comments_fr",
+      "title": "Additional comments (French)",
+      "description": "This field may be populated with additional explanatory comments, in French.",
       "type": "string"
     }
   ],

@@ -49,6 +49,12 @@
       "type": "string"
     },
     {
+      "name": "description_en",
+      "title": "Description du travail Anglais",
+      "description": "Il est recommandé de saisir dans ce champ le texte de description du code d’article économique figurant dans le plan comptable à l’échelle de l’administration fédérale ( http://www.tpsgc-pwgsc.gc.ca/recgen/pceaf-gwcoa/index-fra.html ). Pour les offres à commande et les arrangements en matière d’approvisionnement, ce champ peut comprendre une description du code de produit utilisée par le gouvernement fédéral pour les activités relatives à l’approvisionnement.",
+      "type": "string"
+    },
+    {
       "name": "description_fr",
       "title": "Description du travail Français",
       "description": "Il est recommandé de saisir dans ce champ le texte de description du code d’article économique figurant dans le plan comptable à l’échelle de l’administration fédérale ( http://www.tpsgc-pwgsc.gc.ca/recgen/pceaf-gwcoa/index-fra.html ). Pour les offres à commande et les arrangements en matière d’approvisionnement, ce champ peut comprendre une description du code de produit utilisée par le gouvernement fédéral pour les activités relatives à l’approvisionnement.\n",
@@ -85,9 +91,21 @@
       "type": "number"
     },
     {
+      "name": "comments_en",
+      "title": "Commentaires en anglais",
+      "description": "i. Il est recommandé d’utiliser les commentaires normalisés (consultez l’annexe C). Il faut éviter d’utiliser des acronymes dans ce champ.\nii. Les ministères sont invités à fournir une brève description de chaque marché.\niii. Lorsqu’un marché comprend un code d’article économique précisé à l’annexe D, les ministères doivent satisfaire aux exigences en matière de déclaration précisées à l’annexe D.\n",
+      "type": "string"
+    },
+    {
       "name": "comments_fr",
       "title": "Commentaires en français",
       "description": "i. Il est recommandé d’utiliser les commentaires normalisés (consultez l’annexe C). Évitez d’utiliser des acronymes dans ce champ.\nii. Les ministères sont invités à fournir une brève description de chaque marché.\niii. Lorsqu’un marché comprend un code d’article économique précisé à l’annexe D, les ministères doivent satisfaire aux exigences en matière de déclaration précisées à l’annexe D.\n",
+      "type": "string"
+    },
+    {
+      "name": "additional_comments_en",
+      "title": "Commentaires additionnels en anglais",
+      "description": "Ce champ sert à consigner tout commentaire additionnel lorsqu’une organisation a besoin d’une capacité additionnelle pour répondre aux exigences de déclaration dans le champ « commentaires en anglais ».",
       "type": "string"
     },
     {

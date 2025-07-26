@@ -1,6 +1,6 @@
 # Choices for land_claims
 
-Generated 2025-07-25T10:31:20 UTC
+Generated 2025-07-25T23:27:19 UTC
 
 | Code | Label (EN) | Label (FR) |
 |------|------------|------------|
@@ -31,3 +31,8 @@ Generated 2025-07-25T10:31:20 UTC
 | `TT` | Teslin Tlingit Council Final Agreement | Entente définitive du Conseil des Tlingits de Teslin |
 | `VG` | Vuntut Gwitchin First Nation Final Agreement | Entente définitive de la Première nation des Gwitchin Vuntut |
 | `YA` | Yale First Nations Final Agreement | Accord définitif de la Première Nation de Yale |
+
+
+## Referenced By
+
+- [reference/contracts.md](../reference/contracts.md)

@@ -1,2 +1,2 @@
-reporting_period,line_number,member_name,province,role,meeting_hours,other_hours,remuneration,travel_expenses,notes_en
-INVALID,2,John Smith,AB,M-M,7.5,4,2300.0,500.0,"The total remuneration includes time spent at meetings, preparation time and travel time."
+reporting_period,line_number,member_name,province,role,meeting_hours,other_hours,remuneration,travel_expenses,notes_en,notes_fr
+INVALID,2,John Smith,AB,M-M,7.5,4,2300.0,500.0,"The total remuneration includes time spent at meetings, preparation time and travel time.","La rémunération totale comprend le temps passé en réunions, le temps de préparation et le temps de déplacement."

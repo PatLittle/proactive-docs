@@ -134,9 +134,27 @@
       }
     },
     {
+      "name": "title_en",
+      "title": "Titre de la consultation (en anglais)",
+      "description": "Cette zone indique le titre, en anglais, de la consultation.",
+      "type": "string",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
       "name": "title_fr",
       "title": "Titre de la consultation (en français)",
       "description": "Cette zone indique le titre, en français, de la consultation.",
+      "type": "string",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "description_en",
+      "title": "Description (en anglais)",
+      "description": "Cette zone fournit de l’information, en anglais, sur la nature des activités de consultation et de participation. On y trouve notamment une description des principaux objectifs et des résultats attendus du processus de participation. On invite les utilisateurs à expliquer en quoi les activités, les méthodes et les outils permettront d’atteindre les objectifs de la consultation.",
       "type": "string",
       "constraints": {
         "required": true
@@ -274,6 +292,15 @@
       }
     },
     {
+      "name": "profile_page_en",
+      "title": "Lien vers la page du profil des consultations (en anglais)",
+      "description": "Cette zone contient le lien vers la page de profil (en anglais) qui donne des renseignements sur le processus de participation du public.",
+      "type": "string",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
       "name": "profile_page_fr",
       "title": "Lien vers la page du profil des consultations (en français)",
       "description": "Cette zone contient le lien vers la page profil française qui contient des renseignements sur le processus de participation.",
@@ -294,6 +321,12 @@
           "Y"
         ]
       }
+    },
+    {
+      "name": "report_link_en",
+      "title": "Lien – rapport « Ce que nous avons entendu » en anglais",
+      "description": "Cette zone contient le lien vers le rapport intitulé « Ce que nous avons entendu » en anglais après que le rapport est affiché en ligne.",
+      "type": "string"
     },
     {
       "name": "report_link_fr",

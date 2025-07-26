@@ -142,6 +142,15 @@
       }
     },
     {
+      "name": "purpose_fr",
+      "title": "Purpose of the trip (French)",
+      "description": "A description, in French, of the reason for the government trip in question. The description should be succinct (one line if possible) and provide users with a general sense of the trip's purpose. Use of acronyms should be avoided, in French",
+      "type": "string",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
       "name": "start_date",
       "title": "Travel start date",
       "description": "The date the travel started.",
@@ -169,6 +178,15 @@
       }
     },
     {
+      "name": "locations_fr",
+      "title": "Location(s) visited (French)",
+      "description": "To include names of all places visited to conduct government business during the trip in question, in french. (separate multiple locations with semicolons)",
+      "type": "string",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
       "name": "hours",
       "title": "Number of hours flown",
       "description": "The number of hours flown.",
@@ -190,6 +208,12 @@
       "name": "additional_information_en",
       "title": "Additional Information (English)",
       "description": "This field will display any additional information, as deemed necessary, in English.",
+      "type": "string"
+    },
+    {
+      "name": "additional_information_fr",
+      "title": "Additional Information (French)",
+      "description": "This field will display any additional information, as deemed necessary, in French.",
       "type": "string"
     }
   ],

@@ -46,9 +46,27 @@
       }
     },
     {
+      "name": "service_name_en",
+      "title": "Nom du service (en anglais)",
+      "description": "Indique le nom officiel du service.",
+      "type": "string",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
       "name": "service_name_fr",
       "title": "Nom du service (en français)",
       "description": "Indique le nom officiel du service.",
+      "type": "string",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "service_description_en",
+      "title": "Description du service (en anglais)",
+      "description": "Offre une brève description du service, en langage simple.",
       "type": "string",
       "constraints": {
         "required": true
@@ -1250,6 +1268,12 @@
       }
     },
     {
+      "name": "automated_decision_system_description_en",
+      "title": "Description du système décisionnel automatisé (anglais)",
+      "description": "Décrivez ce que fait le système. Inclure : le nom ou titre du système, le rôle du système dans la prise de décision, s'il s'agit d'une automatisation complète ou partielle, et comment les agents utilisent le système pour prendre ou informer la décision.\n",
+      "type": "string"
+    },
+    {
       "name": "automated_decision_system_description_fr",
       "title": "Description du système décisionnel automatisé (français)",
       "description": "Décrivez ce que fait le système. Inclure : le nom ou titre du système, le rôle du système dans la prise de décision, s'il s'agit d'une automatisation complète ou partielle, et comment les agents utilisent le système pour prendre ou informer la décision.\n",
@@ -1351,6 +1375,12 @@
           "Y"
         ]
       }
+    },
+    {
+      "name": "os_comments_client_interaction_en",
+      "title": "Commentaires sur les services électroniques - points d'interaction avec les clients (anglais)",
+      "description": "Commentaires en lien avec les services électroniques - points d'interaction avec les clients (anglais). Pour tout points d'interaction signalés comme « sans objet », des commentaires doivent être fournis.\n",
+      "type": "string"
     },
     {
       "name": "os_comments_client_interaction_fr",
@@ -1538,9 +1568,21 @@
       }
     },
     {
+      "name": "special_remarks_en",
+      "title": "Remarques spéciales (anglais)",
+      "description": "Fournit de l'espace supplémentaire pour les commentaires relatifs aux renseignements sur les volumes. Veuillez vous reporter au code d'identification de la zone, s'il y a lieu. Pour les commentaires relatifs à d'autres zones, les ministères peuvent publier une note explicative sur leur site Web suivi d'un lien vers l'ensemble de données du Répertoire des services du GC. Ce champ est requis s’il y a un montant rapporté sous le champ « Nombre de demandes soumises par les autres modes de prestation »\n",
+      "type": "string"
+    },
+    {
       "name": "special_remarks_fr",
       "title": "Remarques spéciales (français)",
       "description": "Fournit de l'espace supplémentaire pour les commentaires relatifs aux renseignements sur les volumes. Veuillez vous reporter au code d'identification de la zone, s'il y a lieu. Pour les commentaires relatifs à d'autres zones, les ministères peuvent publier une note explicative sur leur site Web suivi d'un lien vers l'ensemble de données du Répertoire des services du GC. Ce champ est requis s’il y a un montant rapporté sous le champ « Nombre de demandes soumises par les autres modes de prestation »\n",
+      "type": "string"
+    },
+    {
+      "name": "service_uri_en",
+      "title": "URL du service (anglais)",
+      "description": "Indique la page Web du ministère où le service est décrit et/ou peut être lancé.",
       "type": "string"
     },
     {

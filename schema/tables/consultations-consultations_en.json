@@ -143,9 +143,27 @@
       }
     },
     {
+      "name": "title_fr",
+      "title": "Consultation Title (French)",
+      "description": "This field identifies the complete name of the consultation in French.",
+      "type": "string",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
       "name": "description_en",
       "title": "Description (English)",
       "description": "This field provides information regarding the nature of consultation and engagement activities in English. This includes a description of the main objectives and expected outcomes of the engagement process. Users are invited to explain how the engagement activities, methods and/or tools will help meet the consultation’s objectives.",
+      "type": "string",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "description_fr",
+      "title": "Description (French)",
+      "description": "This field provides information regarding the nature of consultation and engagement activities in French. This includes a description of the main objectives and expected outcomes of the engagement process. Users are invited to explain how the engagement activities, methods and/or tools will help meet the consultation’s objectives.",
       "type": "string",
       "constraints": {
         "required": true
@@ -283,6 +301,15 @@
       }
     },
     {
+      "name": "profile_page_fr",
+      "title": "Link to Consultations Profile Page (French)",
+      "description": "This field provides the link to the French engagement information profile page.",
+      "type": "string",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
       "name": "report_available_online",
       "title": "Report Available online",
       "description": "This field indicates if the “What we Heard” report is completed, published and made available online on the Consulting with Canadians website.",
@@ -298,6 +325,12 @@
     {
       "name": "report_link_en",
       "title": "Link to the “What we Heard” Report in English",
+      "description": "This field provides the link to the “What we Heard” report when it is available online.",
+      "type": "string"
+    },
+    {
+      "name": "report_link_fr",
+      "title": "Link to the “What we Heard” Report in French",
       "description": "This field provides the link to the “What we Heard” report when it is available online.",
       "type": "string"
     },

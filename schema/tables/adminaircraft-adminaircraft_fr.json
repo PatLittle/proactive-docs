@@ -133,6 +133,15 @@
       }
     },
     {
+      "name": "purpose_en",
+      "title": "But du voyage (anglais)",
+      "description": "Description de la raison du voyage, en anglais, en service commandé visé. La description doit être brève (une ligne dans la mesure du possible) et donner une indication générale aux utilisateurs du but du voyage. Il faut éviter d’utiliser des acronymes.",
+      "type": "string",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
       "name": "purpose_fr",
       "title": "But du voyage (français)",
       "description": "Description de la raison du voyage, en français, en service commandé visé. La description doit être brève (une ligne dans la mesure du possible) et donner une indication générale aux utilisateurs du but du voyage. Il faut éviter d’utiliser des acronymes.",
@@ -155,6 +164,15 @@
       "title": "Date de fin du voyage",
       "description": "Date de fin du voyage (peut être la même date que la date du début du voyage).",
       "type": "date",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "locations_en",
+      "title": "Endroit(s) visité (anglais)",
+      "description": "Cette zone indique, en anglais, le nom de tous les lieux qui ont été visités dans le cadre du voyage en question réalisé pour le compte du gouvernement. (séparer plusieurs emplacements avec des points-virgules)",
+      "type": "string",
       "constraints": {
         "required": true
       }
@@ -185,6 +203,12 @@
       "constraints": {
         "required": true
       }
+    },
+    {
+      "name": "additional_information_en",
+      "title": "Renseignements supplémentaires (anglais)",
+      "description": "Ce champ affichera tout renseignement supplémentaire, en anglais, selon les besoins.",
+      "type": "string"
     },
     {
       "name": "additional_information_fr",

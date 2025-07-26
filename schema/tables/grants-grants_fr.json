@@ -387,6 +387,12 @@
       "type": "string"
     },
     {
+      "name": "federal_riding_name_en",
+      "title": "Nom de la circonscription fédérale (anglais)",
+      "description": "Le nom de la circonscription fédérale où réside le bénéficiaire.",
+      "type": "string"
+    },
+    {
       "name": "federal_riding_name_fr",
       "title": "Nom de la circonscription fédérale (français)",
       "description": "Le nom de la circonscription fédérale où réside le bénéficiaire.",
@@ -399,15 +405,33 @@
       "type": "string"
     },
     {
+      "name": "prog_name_en",
+      "title": "Nom du programme (anglais)",
+      "description": "Le nom du programme selon les modalités en vertu desquelles le financement est versé au bénéficiaire.",
+      "type": "string"
+    },
+    {
       "name": "prog_name_fr",
       "title": "Nom du programme (français)",
       "description": "Le nom du programme selon les modalités en vertu desquelles le financement est versé au bénéficiaire.",
       "type": "string"
     },
     {
+      "name": "prog_purpose_en",
+      "title": "But du programme (anglais)",
+      "description": "Le but du programme est celui dans lequel le programme a été créé, selon les modalités du programme.",
+      "type": "string"
+    },
+    {
       "name": "prog_purpose_fr",
       "title": "But du programme (français)",
       "description": "Le but du programme est celui dans lequel le programme a été créé, selon les modalités du programme.",
+      "type": "string"
+    },
+    {
+      "name": "agreement_title_en",
+      "title": "Titre de l’entente (anglais)",
+      "description": "Le nom de l'entente est le titre du projet ou de l'entente à l'égard duquel s'engage le bénéficiaire. S'il n'y a pas de titre, le numéro de l'entente peut être réinscrit ici.",
       "type": "string"
     },
     {
@@ -566,6 +590,15 @@
       "type": "string"
     },
     {
+      "name": "description_en",
+      "title": "Description (anglais)",
+      "description": "La description explique à quelles fins le bénéficiaire a reçu le financement. Elle doit décrire de façon brève, mais explicite, en quoi consistent les travaux du bénéficiaire.",
+      "type": "string",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
       "name": "description_fr",
       "title": "Description (français)",
       "description": "La description explique à quelles fins le bénéficiaire a reçu le financement. Elle doit décrire de façon brève, mais explicite, en quoi consistent les travaux du bénéficiaire.",
@@ -581,9 +614,21 @@
       "type": "string"
     },
     {
+      "name": "expected_results_en",
+      "title": "Résultats attendus ou visés (anglais)",
+      "description": "Les résultats attendus ou visés sont les résultats présumés qui découlent de l'exécution d'un projet. Le champ doit être rempli en fonction du projet qu'entreprend le bénéficiaire ou conformément au programme en vertu duquel il est financé. Ce champ vise à offrir une description de la raisond'être du projet et de ce que devraient être les résultats finaux.",
+      "type": "string"
+    },
+    {
       "name": "expected_results_fr",
       "title": "Résultats attendus ou visés (français)",
       "description": "Les résultats attendus ou visés sont les résultats présumés qui découlent de l'exécution d'un projet. Le champ doit être rempli en fonction du projet qu'entreprend le bénéficiaire ou conformément au programme en vertu duquel il est financé. Ce champ vise à offrir une description de la raisond'être du projet et de ce que devraient être les résultats finaux.",
+      "type": "string"
+    },
+    {
+      "name": "additional_information_en",
+      "title": "Renseignements supplémentaires (anglais)",
+      "description": "Lorsqu'ils sont tenus de le faire conformément aux « Indications » qui traitent des exceptions, les ministères doivent entrer ici les renseignements supplémentaires qui ne sont pas saisis dans les champs précédents. Il peut s'agir de renseignements comme ceux-ci :\n•autres ministères participent au financement;\n•financement par l'intermédiaire d'un tiers;\n•annonces ministérielles;\n•domaines de recherche;\n•financement conjoint;\n•collaborateurs et partenaires;\n•mots-clés;\n•divulgation tardive;\n•entente d'innovation;\n•résiliations;\n•remboursement.\n",
       "type": "string"
     },
     {

@@ -1,6 +1,6 @@
 # Choices for solicitation_procedure
 
-Generated 2025-07-25T10:31:20 UTC
+Generated 2025-07-25T23:27:19 UTC
 
 | Code | Label (EN) | Label (FR) |
 |------|------------|------------|
@@ -9,3 +9,8 @@ Generated 2025-07-25T10:31:20 UTC
 | `ST` | Competitive – Selective Tendering | Concurrentielle – Appel d’offres sélectif |
 | `TC` | Competitive – Traditional | Concurrentielle – Traditionnelle |
 | `TN` | Non-Competitive | Non concurrentielle |
+
+
+## Referenced By
+
+- [reference/contracts.md](../reference/contracts.md)

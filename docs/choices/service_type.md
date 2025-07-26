@@ -1,6 +1,6 @@
 # Choices for service_type
 
-Generated 2025-07-25T10:31:20 UTC
+Generated 2025-07-25T23:27:19 UTC
 
 | Code | Label (EN) | Label (FR) |
 |------|------------|------------|
@@ -12,3 +12,8 @@ Generated 2025-07-25T10:31:20 UTC
 | `PPI` | Penalties, Protection, Intervention | Pénalités, protection, interventions |
 | `REG_VOL` | High Volume Regulatory Transactions | Opérations réglementaires à demande élevée |
 | `RES` | Resources | Ressources |
+
+
+## Referenced By
+
+- [reference/service.md](../reference/service.md)

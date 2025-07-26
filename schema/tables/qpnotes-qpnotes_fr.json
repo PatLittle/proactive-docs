@@ -10,6 +10,15 @@
       }
     },
     {
+      "name": "title_en",
+      "title": "Titre (anglais)",
+      "description": "L’utilisateur indique le titre officiel en anglais de la note pour la période de questions dans ce champ.",
+      "type": "string",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
       "name": "title_fr",
       "title": "Titre (français)",
       "description": "L’utilisateur indique le titre officiel en français de la note pour la période de questions dans ce champ.",
@@ -141,6 +150,12 @@
       }
     },
     {
+      "name": "question_en",
+      "title": "Enjeu ou question (anglais)",
+      "description": "Cette section affichera en anglais la question ou l’enjeu auquel répond le ministère.",
+      "type": "string"
+    },
+    {
       "name": "question_fr",
       "title": "Enjeu ou question (français)",
       "description": "Cette section affichera en français la question ou l’enjeu auquel répond le ministère.",
@@ -156,9 +171,27 @@
       }
     },
     {
+      "name": "response_en",
+      "title": "Réponse suggérée (anglais)",
+      "description": "Ce champ affichera la section de la réponse suggérée de la note pour la période de questions en anglais.",
+      "type": "string",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
       "name": "response_fr",
       "title": "Réponse suggérée (français)",
       "description": "Ce champ affichera la section de la réponse suggérée de la note pour la période de questions en français.",
+      "type": "string",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "background_en",
+      "title": "Contexte (anglais)",
+      "description": "Ce champ devrait afficher en anglais la section du contexte de la note pour la période de questions.",
       "type": "string",
       "constraints": {
         "required": true
@@ -172,6 +205,12 @@
       "constraints": {
         "required": true
       }
+    },
+    {
+      "name": "additional_information_en",
+      "title": "Renseignements supplémentaires (anglais)",
+      "description": "Ce champ affichera tout renseignement supplémentaire, en anglais, selon les besoins.",
+      "type": "string"
     },
     {
       "name": "additional_information_fr",

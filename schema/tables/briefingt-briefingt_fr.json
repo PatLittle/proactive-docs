@@ -10,9 +10,27 @@
       }
     },
     {
+      "name": "title_en",
+      "title": "Titre (en anglais)",
+      "description": "Ce champ est rempli par l'utilisateur avec le titre officiel de la note de breffage, en anglais.",
+      "type": "string",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
       "name": "title_fr",
       "title": "Titre (en français)",
       "description": "Ce champ est rempli par l'utilisateur avec le titre officiel de la note de breffage, en français.",
+      "type": "string",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "originating_sector_en",
+      "title": "Secteur d’origine (en anglais)",
+      "description": "Le secteur, la direction ou la division d'où provient la note de breffage en anglais. S'il y a plusieurs secteurs/directions/divisions, on peut les séparer par un point-virgule (;).",
       "type": "string",
       "constraints": {
         "required": true
@@ -62,6 +80,12 @@
           "S"
         ]
       }
+    },
+    {
+      "name": "additional_information_en",
+      "title": "Renseignements supplémentaires (en anglais)",
+      "description": "Ce champ affichera de plus amples renseignements/commentaires concernant la note de breffage, en anglais.",
+      "type": "string"
     },
     {
       "name": "additional_information_fr",

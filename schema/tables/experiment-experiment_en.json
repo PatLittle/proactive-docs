@@ -19,6 +19,15 @@
       }
     },
     {
+      "name": "titre_du_projet_fr",
+      "title": "Project Title (French)",
+      "description": "This field describes the project title, in French",
+      "type": "string",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
       "name": "question_de_recherche_en",
       "title": "Research Question (English)",
       "description": "This field describes the research question informing the project, in English",
@@ -28,9 +37,27 @@
       }
     },
     {
+      "name": "question_de_recherche_fr",
+      "title": "Research Question (French)",
+      "description": "This field describes the research question informing the project, in French",
+      "type": "string",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
       "name": "project_summary_en",
       "title": "Project Summary (English)",
       "description": "This field summarizes the key information about the project, including any findings once the initiative is completed, in English",
+      "type": "string",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "project_summary_fr",
+      "title": "Project Summary (French)",
+      "description": "This field summarizes the key information about the project, including any findings once the initiatve is completed, in French",
       "type": "string",
       "constraints": {
         "required": true
@@ -88,8 +115,26 @@
       }
     },
     {
+      "name": "design_details_fr",
+      "title": "Design Details (French)",
+      "description": "This field will describe the details of the research design used for the project.",
+      "type": "string",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
       "name": "intervention_en",
       "title": "Intervention (English)",
+      "description": "This field will describe the intervention tested in the project.",
+      "type": "string",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "intervention_fr",
+      "title": "Intervention (French)",
       "description": "This field will describe the intervention tested in the project.",
       "type": "string",
       "constraints": {
@@ -106,9 +151,24 @@
       }
     },
     {
+      "name": "mesure_des_resultats_fr",
+      "title": "Outcomes (French)",
+      "description": "This field will describe the outcomes measured in the project.",
+      "type": "string",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
       "name": "resultats_en",
       "title": "Findings (English)",
       "description": "This field will describe the outcomes measured in the project.",
+      "type": "string"
+    },
+    {
+      "name": "resultats_fr",
+      "title": "Findings (French)",
+      "description": "This field will describe the findings of the project.",
       "type": "string"
     },
     {
@@ -132,9 +192,21 @@
       "type": "string"
     },
     {
+      "name": "lead_branch_fr",
+      "title": "Lead Branch and/or Unit (French)",
+      "description": "This field describes the organizational structure tied to the project owner (if applicable), in French.",
+      "type": "string"
+    },
+    {
       "name": "info_supplementaire_en",
       "title": "Further Information / Links (English)",
       "description": "This field includes a URL link to additional information on the project (e.g. report, blog post, etc.), in English.",
+      "type": "string"
+    },
+    {
+      "name": "info_supplementaire_fr",
+      "title": "Further Information / Links (French)",
+      "description": "This field includes a URL link to additional information on the project (e.g. report, blog post, etc.), in Frencjh.",
       "type": "string"
     }
   ],

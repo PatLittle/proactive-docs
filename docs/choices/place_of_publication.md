@@ -1,6 +1,6 @@
 # Choices for place_of_publication
 
-Generated 2025-07-25T10:26:02 UTC
+Generated 2025-07-25T23:27:19 UTC
 
 | Code | Label (EN) | Label (FR) |
 |------|------------|------------|
@@ -314,3 +314,9 @@ Generated 2025-07-25T10:26:02 UTC
 | `6204` | Nunavut - Baffin | Nunavut - Baffin |
 | `6205` | Nunavut - Keewatin | Nunavut - Keewatin |
 | `6208` | Nunavut - Kitikmeot | Nunavut - Kitikmeot |
+
+
+## Referenced By
+
+- [ckan/dataset.md](../ckan/dataset.md)
+- [ckan/info.md](../ckan/info.md)

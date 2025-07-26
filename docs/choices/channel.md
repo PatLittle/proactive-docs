@@ -1,6 +1,6 @@
 # Choices for channel
 
-Generated 2025-07-25T10:31:20 UTC
+Generated 2025-07-25T23:27:19 UTC
 
 | Code | Label (EN) | Label (FR) |
 |------|------------|------------|
@@ -11,3 +11,8 @@ Generated 2025-07-25T10:31:20 UTC
 | `PERSON` | In-Person | En personne |
 | `POST` | Postal Mail | Courrier postal |
 | `TEL` | Telephone | Téléphone |
+
+
+## Referenced By
+
+- [reference/service.md](../reference/service.md)

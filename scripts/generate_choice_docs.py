@@ -7,6 +7,7 @@ from datetime import datetime
 
 URLS_FILE = 'recombinant-published-schema-urls.txt'
 DICTS_DIR = 'dictionaries'
+CKAN_DIR = 'ckan_schemas'
 CHOICES_DIR = 'docs/choices'
 
 
@@ -59,6 +60,14 @@ def parse_choices(field):
     return []
 
 
+def add_choice(storage, field_id, code, en, fr, extra, doc):
+    """Add a choice value and reference to the storage dict."""
+    entry = storage.setdefault(field_id, {"values": {}, "references": set()})
+    entry["values"][code] = {"en": en, "fr": fr, "extra": extra}
+    if doc:
+        entry["references"].add(doc)
+
+
 def main():
     urls = [u.strip() for u in Path(URLS_FILE).read_text().splitlines() if u.strip()]
     CHOICES_PATH = Path(CHOICES_DIR)
@@ -70,22 +79,43 @@ def main():
         local = fetch_url(url, Path(DICTS_DIR))
         generated_dicts.add(local.name)
         data = json.loads(local.read_text(encoding='utf-8'))
+        dataset_type = data.get('dataset_type', Path(local).stem)
+        doc_ref = f'reference/{dataset_type}.md'
         for res in data.get('resources', []):
             for f in res.get('fields', []):
                 values = parse_choices(f)
                 if not values:
                     continue
                 field_id = f['id']
-                if field_id not in all_choices:
-                    all_choices[field_id] = {}
                 for v in values:
-                    all_choices[field_id][v['code']] = {
-                        'en': v['en'],
-                        'fr': v['fr'],
-                        'extra': v.get('extra', {})
-                    }
+                    add_choice(all_choices, field_id, v['code'], v['en'], v['fr'], v.get('extra', {}), doc_ref)
+
+    # Parse CKAN schemas for choice references
+    for path in Path(CKAN_DIR).glob('*.json'):
+        data = json.loads(path.read_text(encoding='utf-8'))
+        doc_ref = f'ckan/{path.stem}.md'
+        fields = []
+        fields.extend(data.get('dataset_fields', []))
+        fields.extend(data.get('resource_fields', []))
+        fields.extend(data.get('fields', []))
+        for f in fields:
+            choices = f.get('choices')
+            if not isinstance(choices, list) or not choices:
+                continue
+            field_id = f.get('field_name')
+            if not field_id:
+                continue
+            for ch in choices:
+                code = ch.get('value')
+                label = ch.get('label')
+                if isinstance(label, dict):
+                    en = label.get('en', '')
+                    fr = label.get('fr', '')
+                else:
+                    en = fr = str(label) if label is not None else str(code)
+                add_choice(all_choices, field_id, code, en, fr, {}, doc_ref)
     timestamp = datetime.utcnow().isoformat(timespec='seconds')
-    for field_id, mapping in all_choices.items():
+    for field_id, data in all_choices.items():
         path = CHOICES_PATH / f"{field_id}.md"
         generated_files.add(path.name)
         lines = [
@@ -96,11 +126,11 @@ def main():
             '| Code | Label (EN) | Label (FR) |',
             '|------|------------|------------|',
         ]
-        for code, val in sorted(mapping.items()):
+        for code, val in sorted(data['values'].items()):
             link = f"[`{code}`](#{code})" if val.get('extra') else f"`{code}`"
             lines.append(f"| {link} | {val['en']} | {val['fr']} |")
         lines.append('')
-        for code, val in sorted(mapping.items()):
+        for code, val in sorted(data['values'].items()):
             extra = val.get('extra')
             if not extra:
                 continue
@@ -137,6 +167,13 @@ def main():
                     else:
                         val_str = str(v)
                     lines.append(f"| {k} | {val_str} |")
+            lines.append('')
+        if data['references']:
+            lines.append('')
+            lines.append('## Referenced By')
+            lines.append('')
+            for ref in sorted(data['references']):
+                lines.append(f'- [{ref}](../{ref})')
             lines.append('')
         path.write_text("\n".join(lines), encoding='utf-8')
 

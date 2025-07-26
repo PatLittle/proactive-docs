@@ -1,6 +1,6 @@
 # Choices for service_scope
 
-Generated 2025-07-25T10:31:20 UTC
+Generated 2025-07-25T23:27:19 UTC
 
 | Code | Label (EN) | Label (FR) |
 |------|------------|------------|
@@ -8,3 +8,8 @@ Generated 2025-07-25T10:31:20 UTC
 | `ENTERPRISE` | Internal Enterprise Service | Service interne intégré |
 | `EXTERN` | External Service | Service externe |
 | `INTERN` | Internal Service | Service interne |
+
+
+## Referenced By
+
+- [reference/service.md](../reference/service.md)

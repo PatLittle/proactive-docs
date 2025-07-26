@@ -393,6 +393,12 @@
       "type": "string"
     },
     {
+      "name": "federal_riding_name_fr",
+      "title": "Federal Riding Name (French)",
+      "description": "The federal riding name is the name of the riding in which the recipient resides.",
+      "type": "string"
+    },
+    {
       "name": "federal_riding_number",
       "title": "Federal Riding Number",
       "description": "The federal riding number is based on the riding in which the recipient resides.  Departments can consult the Elections Canada website in order to retrieve the federal riding number. http://www.elections.ca/content.aspx?section=res&dir=cir/list&document=index338&lang=e",
@@ -405,14 +411,32 @@
       "type": "string"
     },
     {
+      "name": "prog_name_fr",
+      "title": "Program Name (French)",
+      "description": "The program name is the name of the program, according to the terms and conditions (Ts&Cs), under which a recipient is funded.",
+      "type": "string"
+    },
+    {
       "name": "prog_purpose_en",
       "title": "Program Purpose (English)",
       "description": "The program purpose is the program’s purpose according to the Ts&Cs.",
       "type": "string"
     },
     {
+      "name": "prog_purpose_fr",
+      "title": "Program Purpose (French)",
+      "description": "The program purpose is the program’s purpose according to the Ts&Cs.",
+      "type": "string"
+    },
+    {
       "name": "agreement_title_en",
       "title": "Agreement Title (English)",
+      "description": "The agreement title is the title of the project or agreement that the recipient is undertaking. In cases where there is no title, the agreement number will be duplicated here.",
+      "type": "string"
+    },
+    {
+      "name": "agreement_title_fr",
+      "title": "Agreement Title (French)",
       "description": "The agreement title is the title of the project or agreement that the recipient is undertaking. In cases where there is no title, the agreement number will be duplicated here.",
       "type": "string"
     },
@@ -575,6 +599,15 @@
       }
     },
     {
+      "name": "description_fr",
+      "title": "Description (French)",
+      "description": "The description explains why the recipient received funding. It should provide a brief yet accurate description of what the recipient is undertaking.",
+      "type": "string",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
       "name": "naics_identifier",
       "title": "NAICS Identifier",
       "description": "The North American Industry Classification System (NAICS) is an industry classification system developed by the statistical agencies of Canada, Mexico and the United States.",
@@ -587,8 +620,20 @@
       "type": "string"
     },
     {
+      "name": "expected_results_fr",
+      "title": "Expected Results or Intended Outcome (French)",
+      "description": "The expected results or intended outcome is the assumed result of project completion. It should be populated in accordance with the project that the recipient is undertaking or the program under which it is funded. This field will attempt to explain why the project is being undertaken, and what the final results should be.",
+      "type": "string"
+    },
+    {
       "name": "additional_information_en",
       "title": "Additional Information (English)",
+      "description": "Additional information is information that departments are required to enter under the guidance instructions for exceptions but that is not captured in any of the aforementioned fields. It may contain information on:\n•additional funding departments\n•funding through a third party\n•ministerial announcements\n•research fields\n•joint funding\n•collaborators and partners\n•keywords\n•belated reporting\n•novation agreements\n•terminations\n•repayability\n",
+      "type": "string"
+    },
+    {
+      "name": "additional_information_fr",
+      "title": "Additional Information (French)",
       "description": "Additional information is information that departments are required to enter under the guidance instructions for exceptions but that is not captured in any of the aforementioned fields. It may contain information on:\n•additional funding departments\n•funding through a third party\n•ministerial announcements\n•research fields\n•joint funding\n•collaborators and partners\n•keywords\n•belated reporting\n•novation agreements\n•terminations\n•repayability\n",
       "type": "string"
     }

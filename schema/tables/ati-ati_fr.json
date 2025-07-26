@@ -28,6 +28,15 @@
       }
     },
     {
+      "name": "summary_en",
+      "title": "Sommaire de la demande en anglais",
+      "description": "Un résumé descriptif de la demande d’accès à l’information en anglais.",
+      "type": "string",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
       "name": "summary_fr",
       "title": "Sommaire de la demande en français",
       "description": "Un résumé descriptif de la demande d’accès à l’information en français.",
@@ -60,6 +69,12 @@
       "constraints": {
         "required": true
       }
+    },
+    {
+      "name": "comments_en",
+      "title": "Commentaires en anglais",
+      "description": "Ce champ peut être rempli avec des commentaires supplémentaires ou contextuels en anglais.",
+      "type": "string"
     },
     {
       "name": "comments_fr",

@@ -10,9 +10,27 @@
       }
     },
     {
+      "name": "title_en",
+      "title": "Titre (anglais)",
+      "description": "Le nom en anglais sous lequel le jeu de données est connu.",
+      "type": "string",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
       "name": "title_fr",
       "title": "Titre (français)",
       "description": "Le nom en français sous lequel le jeu de données est connu.",
+      "type": "string",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "description_en",
+      "title": "Description (anglais)",
+      "description": "Un compte rendu du jeu de données en anglais. Une description peut inclure, entre autres, un résumé, une table des matières ou du texte libre sur le jeu de données.",
       "type": "string",
       "constraints": {
         "required": true
@@ -26,6 +44,12 @@
       "constraints": {
         "required": true
       }
+    },
+    {
+      "name": "publisher_en",
+      "title": "Publisher - Name at Publication (English)",
+      "description": "Nom, en anglais, de l’organisation principalement responsable de l’édition du jeu de données au moment de la publication (s’il y a lieu, c.-à-d. s’il est différent du nom actuel)",
+      "type": "string"
     },
     {
       "name": "publisher_fr",
@@ -82,6 +106,15 @@
       }
     },
     {
+      "name": "program_alignment_architecture_en",
+      "title": "Program Alignment Architecture (English)",
+      "description": "L’Architecture d’alignement des programmes (AAP) en anglais. L’Architecture d’alignement des programmes (AAP) est un inventaire des programmes de chaque organisation. Il offre un aperçu des responsabilités de l’organisation.",
+      "type": "string",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
       "name": "program_alignment_architecture_fr",
       "title": "Program Alignment Architecture (French)",
       "description": "L’Architecture d’alignement des programmes (AAP) en français. L’Architecture d’alignement des programmes (AAP) est un inventaire des programmes de chaque organisation. Il offre un aperçu des responsabilités de l’organisation.",
@@ -95,6 +128,15 @@
       "title": "Date Released",
       "description": "La date à laquelle l’enregistrement de métadonnées a été diffusé et rendu accessible à partir du Portail du gouvernement ouvert, s’il y a lieu seulement.",
       "type": "date",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "portal_url_en",
+      "title": "Open Government Portal Record (English)",
+      "description": "L’emplacement en ligne où il est possible d’accéder à la ressource, en anglais. Cet élément n’est obligatoire que le cas échéant. La valeur saisie doit mener à la page de l’enregistrement sur ouvert.canada.ca.",
+      "type": "string",
       "constraints": {
         "required": true
       }

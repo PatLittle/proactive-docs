@@ -132,6 +132,12 @@
       }
     },
     {
+      "name": "notes_en",
+      "title": "Notes (Anglais)",
+      "description": "Toute autre information pertinente (par exemple, une description des activités incluses dans la rémunération totale, le point de départ du déplacement d’un membre, etc.)",
+      "type": "string"
+    },
+    {
       "name": "notes_fr",
       "title": "Notes (Français)",
       "description": "Toute autre information pertinente (par exemple, une description des activités incluses dans la rémunération totale, le point de départ du déplacement d’un membre, etc.)",

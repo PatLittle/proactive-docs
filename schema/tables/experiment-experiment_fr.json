@@ -10,6 +10,15 @@
       }
     },
     {
+      "name": "titre_du_projet_en",
+      "title": "Titre du projet (en anglais)",
+      "description": "Ce champ décrira le titre du projet, en anglais",
+      "type": "string",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
       "name": "titre_du_projet_fr",
       "title": "Titre du projet (en français)",
       "description": "Ce champ décrira le titre du projet, en français",
@@ -19,9 +28,27 @@
       }
     },
     {
+      "name": "question_de_recherche_en",
+      "title": "Question de recherche (en anglais)",
+      "description": "Ce champ décrira la question de recherche guidant le projet, en anglais",
+      "type": "string",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
       "name": "question_de_recherche_fr",
       "title": "Question de recherche (en français)",
       "description": "Ce champ décrira la question de recherche guidant le projet, en français",
+      "type": "string",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "project_summary_en",
+      "title": "Résumé du projet (en anglais)",
+      "description": "Ce champ résumera les information-clés à propos du projet, y compris les résultats lorque le projet est complété, en anglais",
       "type": "string",
       "constraints": {
         "required": true
@@ -79,9 +106,27 @@
       }
     },
     {
+      "name": "design_details_en",
+      "title": "Devis details (anglais)",
+      "description": "Ce champ décrira les détails du devis de recherche employé dans le projet.",
+      "type": "string",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
       "name": "design_details_fr",
       "title": "Devis details (français)",
       "description": "Ce champ décrira les détails du devis de recherche employé dans le projet.",
+      "type": "string",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "intervention_en",
+      "title": "Intervention (anglais)",
+      "description": "Ce champ décrira l’intervention testée dans le projet.",
       "type": "string",
       "constraints": {
         "required": true
@@ -97,6 +142,15 @@
       }
     },
     {
+      "name": "mesure_des_resultats_en",
+      "title": "Mesure des résultats (anglais)",
+      "description": "Ce champ décrira l’intervention testée dans le projet.",
+      "type": "string",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
       "name": "mesure_des_resultats_fr",
       "title": "Mesure des résultats (françcais)",
       "description": "Ce champ décrira la/les mesure(s) de résultat(s) employée(s) dans le projet.",
@@ -104,6 +158,12 @@
       "constraints": {
         "required": true
       }
+    },
+    {
+      "name": "resultats_en",
+      "title": "Résultats (anglais)",
+      "description": "Ce champ décrira la/les mesure(s) de résultat(s) employée(s) dans le projet.",
+      "type": "string"
     },
     {
       "name": "resultats_fr",
@@ -126,9 +186,21 @@
       }
     },
     {
+      "name": "lead_branch_en",
+      "title": "Direction et/ou unité responsable (en anglais)",
+      "description": "Ce champ décrira la structure organisationnelle liée à ce projet (si applicable), en anglais",
+      "type": "string"
+    },
+    {
       "name": "lead_branch_fr",
       "title": "Direction et/ou unité responsable (en français))",
       "description": "Ce champ décrira la structure organisationnelle liée à ce projet (si applicable), en français",
+      "type": "string"
+    },
+    {
+      "name": "info_supplementaire_en",
+      "title": "Informations supplémentaires / liens (anglais)",
+      "description": "Ce champ incluera un lien URL fournissant des information additionnelles (p.ex. rapport, blogue), en anglais.",
       "type": "string"
     },
     {

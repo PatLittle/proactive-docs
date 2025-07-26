@@ -1,6 +1,6 @@
 # Choices for award_criteria
 
-Generated 2025-07-25T10:31:20 UTC
+Generated 2025-07-25T23:27:19 UTC
 
 | Code | Label (EN) | Label (FR) |
 |------|------------|------------|
@@ -10,3 +10,8 @@ Generated 2025-07-25T10:31:20 UTC
 | `3` | Highest Combined Rating of Technical Merit and Price | Cote combinée la plus élevée pour les qualités techniques et le meilleur prix |
 | `4` | Highest Technical Merit within a Stipulated Maximum Budget | Cote la plus élevée pour les qualités techniques dans le cadre d’un budget maximal imparti |
 | `5` | Variations or combinations of the above methods | Variations ou combinaisons des méthodes ci-dessus |
+
+
+## Referenced By
+
+- [reference/contracts.md](../reference/contracts.md)

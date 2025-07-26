@@ -1,2 +1,2 @@
-ref_number,file_id_number,file_id_date,case_description_en,findings_conclusions,recommendations_corrective_measures_en
-,15677,2016-01-01,Description,b,Recommendations and Corrective Measures
+ref_number,file_id_number,file_id_date,case_description_en,case_description_fr,findings_conclusions,recommendations_corrective_measures_en,recommendations_corrective_measures_fr
+,15677,2016-01-01,Description,Description,b,Recommendations and Corrective Measures,Recommandations et mesures correctives

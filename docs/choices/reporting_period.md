@@ -1,6 +1,6 @@
 # Choices for reporting_period
 
-Generated 2025-07-25T10:31:20 UTC
+Generated 2025-07-25T23:27:19 UTC
 
 | Code | Label (EN) | Label (FR) |
 |------|------------|------------|
@@ -142,3 +142,11 @@ Generated 2025-07-25T10:31:20 UTC
 | `2025-2026-Q4` | 2025-2026-Q4 | 2025-2026-Q4 |
 | `P01` | Jan. - June | jan. - juin |
 | `P02` | July - Dec. | juil. - déc. |
+
+
+## Referenced By
+
+- [reference/contracts.md](../reference/contracts.md)
+- [reference/dac.md](../reference/dac.md)
+- [reference/nap5.md](../reference/nap5.md)
+- [reference/qpnotes.md](../reference/qpnotes.md)

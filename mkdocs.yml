@@ -4,9 +4,32 @@ docs_dir: docs
 repo_url: https://github.com/PatLittle/proactive-docs/
 nav:
   - Home: index.md
-  - Dataset Reference: reference/index.md
+  - Dataset Reference:
+      - Overview: reference/index.md
+      - adminaircraft: reference/adminaircraft.md
+      - ati: reference/ati.md
+      - briefingt: reference/briefingt.md
+      - consultations: reference/consultations.md
+      - contracts: reference/contracts.md
+      - contractsa: reference/contractsa.md
+      - dac: reference/dac.md
+      - experiment: reference/experiment.md
+      - grants: reference/grants.md
+      - hospitalityq: reference/hospitalityq.md
+      - inventory: reference/inventory.md
+      - nap5: reference/nap5.md
+      - qpnotes: reference/qpnotes.md
+      - service: reference/service.md
+      - travela: reference/travela.md
+      - travelq: reference/travelq.md
+      - wrongdoing: reference/wrongdoing.md
   - Choice Lists: choices/index.md
-  - CKAN Schemas: ckan/index.md
+  - CKAN Schemas:
+      - Overview: ckan/index.md
+      - dataset: ckan/dataset.md
+      - info: ckan/info.md
+      - organization: ckan/organization.md
+      - prop: ckan/prop.md
   - CSV Validator: validator/index.html
 markdown_extensions:
   - toc:

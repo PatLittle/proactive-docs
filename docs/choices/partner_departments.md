@@ -1,6 +1,6 @@
 # Choices for partner_departments
 
-Generated 2025-07-25T10:31:20 UTC
+Generated 2025-07-25T23:27:19 UTC
 
 | Code | Label (EN) | Label (FR) |
 |------|------------|------------|
@@ -53,3 +53,8 @@ Generated 2025-07-25T10:31:20 UTC
 | `D93` | Economic Development Agency of Canada for the Regions of Quebec (CED) | Agence de développement économique du Canada pour les régions du Québec (DEC) |
 | `D94` | Immigration, Refugees and Citizenship Canada (IRCC) | Immigration, Réfugiés et Citoyenneté Canada (IRCC) |
 | `D99` | Environment and Climate Change Canada (ECCC) | Environnement et Changement climatique Canada (ECCC) |
+
+
+## Referenced By
+
+- [reference/consultations.md](../reference/consultations.md)

@@ -19,6 +19,15 @@
       }
     },
     {
+      "name": "mandate_description_fr",
+      "title": "Description of departmental mandate (French)",
+      "description": "Provide a brief explanation, in French, of the department’s mandate, major programs and linkages with core laws or regulations to help readers understand the travel, hospitality and conference expenditures incurred by the department and how they support the department’s mandate, including significant structural or program changes.",
+      "type": "string",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
       "name": "operational_activities_kdollars",
       "title": "Travel ≥2018 – Operational activities ($ thousands)",
       "description": "This field shows annual expenditures for travel of public servants and non-public servants for the expenditure category – Operational activities for the current reporting fiscal year (Year Ending March 31, YYYY) in thousands of dollars",
@@ -115,9 +124,21 @@
       "type": "string"
     },
     {
+      "name": "travel_compared_fiscal_year_fr",
+      "title": "Explanation of Significant Variance of the total travel expenditure (French)",
+      "description": "Provide a brief explanation, in French, of the significant reason(s) for the increase/decrease in annual expenditures for travel of public servants and non-public servants.",
+      "type": "string"
+    },
+    {
       "name": "hospitality_compared_fiscal_year_en",
       "title": "Hospitality - Explanation of Significant Variance (English)",
       "description": "Provide a brief explanation, in English, of the significant reason(s) for the increase/decrease in annual expenditures for hospitality.",
+      "type": "string"
+    },
+    {
+      "name": "hospitality_compared_fiscal_year_fr",
+      "title": "Hospitality - Explanation of Significant Variance (French)",
+      "description": "Provide a brief explanation, in French, of the significant reason(s) for the increase/decrease in annual expenditures for hospitality.",
       "type": "string"
     },
     {
@@ -127,9 +148,21 @@
       "type": "string"
     },
     {
+      "name": "conference_fees_compared_fiscal_year_fr",
+      "title": "Conference Fees - Explanation of Significant Variance (French)",
+      "description": "Provide a brief explanation, in French, of the significant reason(s) for the increase/decrease in annual expenditures for conference fees.",
+      "type": "string"
+    },
+    {
       "name": "minister_compared_fiscal_year_en",
       "title": "International Travel by Minister and Minister’s Staff - Explanation of Significant Variance (English)",
       "description": "Provide a brief explanation, in English, of the significant reason(s) for the increase/decrease in annual expenditures for international travel by the minister and minister's staff.",
+      "type": "string"
+    },
+    {
+      "name": "minister_compared_fiscal_year_fr",
+      "title": "International Travel by Minister and Minister’s Staff - Explanation of Significant Variance (French)",
+      "description": "Provide a brief explanation, in French, of the significant reason(s) for the increase/decrease in annual expenditures for international travel by the minister and minister's staff.",
       "type": "string"
     }
   ],

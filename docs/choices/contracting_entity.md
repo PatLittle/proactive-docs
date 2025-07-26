@@ -1,6 +1,6 @@
 # Choices for contracting_entity
 
-Generated 2025-07-25T10:31:20 UTC
+Generated 2025-07-25T23:27:19 UTC
 
 | Code | Label (EN) | Label (FR) |
 |------|------------|------------|
@@ -11,3 +11,8 @@ Generated 2025-07-25T10:31:20 UTC
 | `PWSOSA` | Call-up or Contract awarded by client department against a Standing Offer or Supply Arrangement Agreement established by Public Services and Procurement Canada | Commande subséquente ou marché attribué par le ministère client par rapport à une l’offre à commandes ou arrangements en matière d’approvisionnement conclu par SPAC. |
 | `SSCC` | Contract awarded or Call-up by SSC on behalf of the client department. | Marché ou commande subséquente attribué par SPC au nom du ministère client. |
 | `SSCSOSA` | Call-up or Contract awarded by client department against a Standing Offer or Supply Arrangement Agreement established by Shared Services Canada | Commande subséquente ou marché attribué par le ministère client par rapport à une l’offre à commandes ou arrangements en matière d’approvisionnement conclu par SPC. |
+
+
+## Referenced By
+
+- [reference/contracts.md](../reference/contracts.md)
