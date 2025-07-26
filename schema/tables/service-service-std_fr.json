@@ -46,6 +46,15 @@
       }
     },
     {
+      "name": "service_name_en",
+      "title": "Nom du service (en anglais)",
+      "description": "Indique le nom officiel du service.",
+      "type": "string",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
       "name": "service_name_fr",
       "title": "Nom du service (en français)",
       "description": "Indique le nom officiel du service.",
@@ -58,6 +67,15 @@
       "name": "service_standard_id",
       "title": "Numéro d'identification de la norme relative aux services",
       "description": "Indique le numéro unique attribué à chaque norme relative aux services pour ce service. Facilite le référencement, car un service peut avoir de multiples normes.\n",
+      "type": "string",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "service_standard_en",
+      "title": "Norme relative aux services (anglais)",
+      "description": "Indique la norme relative aux services ayant trait à un service en particulier. Voir la Ligne directrice sur les services et le numérique afin de connaître le format à utiliser pour définir les normes relatives aux services.\n",
       "type": "string",
       "constraints": {
         "required": true
@@ -106,6 +124,12 @@
       }
     },
     {
+      "name": "channel_comments_en",
+      "title": "Commentaires sur le mode de prestation de la norme de service (anglais)",
+      "description": "Commentaires en lien au mode de prestation de la norme de service et fournit une explication de la sélection des modes de prestation « Autre ».",
+      "type": "string"
+    },
+    {
       "name": "channel_comments_fr",
       "title": "Commentaires sur le mode de prestation de la norme de service (Francais)",
       "description": "Commentaires en lien au mode de prestation de la norme de service et fournit une explication de la sélection des modes de prestation « Autre ».",
@@ -130,10 +154,25 @@
       "type": "string"
     },
     {
+      "name": "comments_en",
+      "title": "Commentaires sur la norme de service en general (anglais)",
+      "description": "Commentaires en lien à la norme de service en general.",
+      "type": "string"
+    },
+    {
       "name": "comments_fr",
       "title": "Commentaires sur la norme de service en general (Francais)",
       "description": "Commentaires en lien à la norme de service en general.",
       "type": "string"
+    },
+    {
+      "name": "standards_targets_uri_en",
+      "title": "URL vers les normes relatives aux services et les cibles (anglais)",
+      "description": "Indique la page Web ministérielle (Canada.ca) où les normes relatives aux services et les cibles sont publiées.",
+      "type": "string",
+      "constraints": {
+        "required": true
+      }
     },
     {
       "name": "standards_targets_uri_fr",
@@ -143,6 +182,12 @@
       "constraints": {
         "required": true
       }
+    },
+    {
+      "name": "performance_results_uri_en",
+      "title": "URL aux résultats de rendement en temps réel (anglais)",
+      "description": "Identifie la site Web du service sur laquelle les résultats de performance en temps réel d'un service sont publiés.",
+      "type": "string"
     },
     {
       "name": "performance_results_uri_fr",

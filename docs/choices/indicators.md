@@ -1,6 +1,6 @@
 # Choices for indicators
 
-Generated 2025-07-25T10:31:20 UTC
+Generated 2025-07-26T00:22:21 UTC
 
 | Code | Label (EN) | Label (FR) |
 |------|------------|------------|
@@ -1082,3 +1082,8 @@ Generated 2025-07-25T10:31:20 UTC
 | lead_dept | esdc-edsc |
 | supt_sept | statcan |
 | s4d | False |
+
+
+## Referenced By
+
+- [reference/nap5.md](../reference/nap5.md)

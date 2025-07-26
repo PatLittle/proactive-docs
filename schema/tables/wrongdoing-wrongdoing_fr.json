@@ -28,6 +28,15 @@
       }
     },
     {
+      "name": "case_description_en",
+      "title": "Description anglaise",
+      "description": "Cette zone renferme la description du cas en anglais.",
+      "type": "string",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
       "name": "case_description_fr",
       "title": "Description française",
       "description": "Cette zone renferme la description du cas en français.",
@@ -51,6 +60,15 @@
           "e",
           "f"
         ]
+      }
+    },
+    {
+      "name": "recommendations_corrective_measures_en",
+      "title": "Recommendations et mesures Correctives anglaises",
+      "description": "Cette zone renferme les recommandations et mesures correctives en anglais, en conformité à l’article 11 de la Loi sur la protection des fonctionnaires divulgateurs d’actes répréhensibles.",
+      "type": "string",
+      "constraints": {
+        "required": true
       }
     },
     {

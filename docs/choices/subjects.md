@@ -1,6 +1,6 @@
 # Choices for subjects
 
-Generated 2025-07-25T10:31:20 UTC
+Generated 2025-07-26T00:22:21 UTC
 
 | Code | Label (EN) | Label (FR) |
 |------|------------|------------|
@@ -58,3 +58,8 @@ Generated 2025-07-25T10:31:20 UTC
 | `TR` | Transportation | Transport |
 | `TX` | Taxes | Impôts et taxes |
 | `YJ` | Youth | Jeunes |
+
+
+## Referenced By
+
+- [reference/consultations.md](../reference/consultations.md)

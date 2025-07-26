@@ -55,8 +55,26 @@
       }
     },
     {
+      "name": "service_name_fr",
+      "title": "Service Name (French)",
+      "description": "Identifies the official name of the service.",
+      "type": "string",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
       "name": "service_description_en",
       "title": "Service Description (English)",
+      "description": "Provides a brief description of the service, in plain language.",
+      "type": "string",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "service_description_fr",
+      "title": "Service Description (French)",
       "description": "Provides a brief description of the service, in plain language.",
       "type": "string",
       "constraints": {
@@ -1256,6 +1274,12 @@
       "type": "string"
     },
     {
+      "name": "automated_decision_system_description_fr",
+      "title": "Automated Decision System Description (French)",
+      "description": "Describe what the system does. Include: the name or title of the system, the role of the system in the decision, whether it is full or partial automation, and how officers use the system to make or inform the decision.\n",
+      "type": "string"
+    },
+    {
       "name": "service_fee",
       "title": "Service Fees",
       "description": "Identifies whether a service fee is collected for the provision of the service.",
@@ -1356,6 +1380,12 @@
       "name": "os_comments_client_interaction_en",
       "title": "Comments on Online Services - Client Interaction Points (English)",
       "description": "Comments related to online services - client Interaction points (English). For any interaction points reported as \"Not Applicable\", comments have to be provided.\n",
+      "type": "string"
+    },
+    {
+      "name": "os_comments_client_interaction_fr",
+      "title": "Comments on Online Services - Client Interaction Points (French)",
+      "description": "Comments related to online services - client Interaction points (French). For any interaction points reported as \"Not Applicable\", comments have to be provided.\n",
       "type": "string"
     },
     {
@@ -1544,8 +1574,20 @@
       "type": "string"
     },
     {
+      "name": "special_remarks_fr",
+      "title": "Special Remarks (French)",
+      "description": "Provides additional space for comments related to volumetrics information. Please refer to associated Field ID, where applicable. For comments related to other fields, departments can create and publish an explanatory note on their website with a link to the GC Service Inventory dataset. This field is mandatory if there is an amount reported under “Number of applications submitted via other channels”\n",
+      "type": "string"
+    },
+    {
       "name": "service_uri_en",
       "title": "URL to Service (English)",
+      "description": "Identifies the departmental webpage where the service is described and/or accessed.",
+      "type": "string"
+    },
+    {
+      "name": "service_uri_fr",
+      "title": "URL to Service (French)",
       "description": "Identifies the departmental webpage where the service is described and/or accessed.",
       "type": "string"
     }

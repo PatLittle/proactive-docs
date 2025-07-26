@@ -1,6 +1,6 @@
 # Choices for minister
 
-Generated 2025-07-25T10:31:20 UTC
+Generated 2025-07-26T00:22:21 UTC
 
 | Code | Label (EN) | Label (FR) |
 |------|------------|------------|
@@ -902,3 +902,9 @@ Generated 2025-07-25T10:31:20 UTC
 | Row | Minister (EN) | Minister (FR) | Start | End |
 |-----|---------------|---------------|-------|-----|
 | 1 | Valdez, Rechie (Hon.) | Valdez, Rechie (L’hon.) | 2025-05-13T10:45:00 |  |
+
+
+## Referenced By
+
+- [reference/adminaircraft.md](../reference/adminaircraft.md)
+- [reference/qpnotes.md](../reference/qpnotes.md)

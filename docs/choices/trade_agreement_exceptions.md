@@ -1,6 +1,6 @@
 # Choices for trade_agreement_exceptions
 
-Generated 2025-07-25T10:31:20 UTC
+Generated 2025-07-26T00:22:21 UTC
 
 | Code | Label (EN) | Label (FR) |
 |------|------------|------------|
@@ -19,3 +19,8 @@ Generated 2025-07-25T10:31:20 UTC
 | `12` | Measures relating to goods or services of persons with disabilities, philanthropic institutions or prison labour (applies to all agreements) | Mesures concernant des biens ou des services fournis par des personnes handicapées ou des organismes philanthropiques, ou encore dans le cadre du travail en milieu carcéral (s’applique à tous les accords) |
 | `13` | Services procured in support of military forces located overseas (applies to all agreements) | Services obtenus à l’appui des forces militaires stationnées à l’étranger (s’applique à tous les accords) |
 | `14` | Research and development services (applies to all trade agreements except for CFTA) | Services de recherche et de développement (s’applique à tous les accords commerciaux autres que l’ALEC) |
+
+
+## Referenced By
+
+- [reference/contracts.md](../reference/contracts.md)

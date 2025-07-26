@@ -1,0 +1,351 @@
+{
+  "dataset_type": "inventory",
+  "title": {
+    "en": "Open Data Inventory",
+    "fr": "Inventaire des données ouvertes"
+  },
+  "notes": {
+    "en": "This dataset houses your departmental open data inventory. This is where you can access and upload your open data inventory template.",
+    "fr": "Ce jeu de données contient l’inventaire des données ouvertes de votre ministère. C’est l’occasion pour accéder à et pour télécharger votre modèle d'inventaire des données ouvertes."
+  },
+  "resources": [
+    {
+      "resource_name": "inventory",
+      "title": {
+        "en": "Open Data Inventory",
+        "fr": "Inventaire des données ouvertes"
+      },
+      "primary_key": [
+        "ref_number"
+      ],
+      "fields": [
+        {
+          "id": "ref_number",
+          "obligation": {
+            "en": "Mandatory",
+            "fr": "Obligatoire"
+          },
+          "label": {
+            "en": "Reference Number",
+            "fr": "Numéro de référence"
+          },
+          "description": {
+            "en": "The unique reference number given to each line item in the spreadsheet. Having a unique identifier for each item will allow departments to locate a specific item in the system if revisions or deletions are required. This element will not be displayed to the public.",
+            "fr": "Un identificateur unique est attribué à chaque poste dans la feuille de calcul. Un identificateur unique pour chaque poste permettra aux ministères de trouver un élément précis dans le système, si des modifications ou des suppressions sont nécessaires. Cet élément ne sera pas présenté au public."
+          },
+          "datastore_type": "text"
+        },
+        {
+          "id": "title_en",
+          "obligation": {
+            "en": "Mandatory",
+            "fr": "Obligatoire"
+          },
+          "label": {
+            "en": "Title (English)",
+            "fr": "Titre (anglais)"
+          },
+          "description": {
+            "en": "The English name by which the dataset is known.",
+            "fr": "Le nom en anglais sous lequel le jeu de données est connu."
+          },
+          "datastore_type": "text"
+        },
+        {
+          "id": "title_fr",
+          "obligation": {
+            "en": "Mandatory",
+            "fr": "Obligatoire"
+          },
+          "label": {
+            "en": "Title (French)",
+            "fr": "Titre (français)"
+          },
+          "description": {
+            "en": "The French name by which the dataset is known.",
+            "fr": "Le nom en français sous lequel le jeu de données est connu."
+          },
+          "datastore_type": "text"
+        },
+        {
+          "id": "description_en",
+          "obligation": {
+            "en": "Mandatory",
+            "fr": "Obligatoire"
+          },
+          "label": {
+            "en": "Description (English)",
+            "fr": "Description (anglais)"
+          },
+          "description": {
+            "en": "An account of the dataset, in English. A description may include but is not limited to, an abstract, a table of contents, or a free-text account of the dataset.",
+            "fr": "Un compte rendu du jeu de données en anglais. Une description peut inclure, entre autres, un résumé, une table des matières ou du texte libre sur le jeu de données."
+          },
+          "datastore_type": "text"
+        },
+        {
+          "id": "description_fr",
+          "obligation": {
+            "en": "Mandatory",
+            "fr": "Obligatoire"
+          },
+          "label": {
+            "en": "Description (French)",
+            "fr": "Description (français)"
+          },
+          "description": {
+            "en": "An account of the dataset, in French. A description may include but is not limited to, an abstract, a table of contents, or a free-text account of the dataset.",
+            "fr": "Un compte rendu du jeu de données en français. Une description peut inclure, entre autres, un résumé, une table des matières ou du texte libre sur le jeu de données."
+          },
+          "datastore_type": "text"
+        },
+        {
+          "id": "publisher_en",
+          "obligation": {
+            "en": "Optional",
+            "fr": "Facultatif"
+          },
+          "label": {
+            "en": "Publisher - Name at Publication (English)",
+            "fr": "Publisher - Name at Publication (English)"
+          },
+          "description": {
+            "en": "Name, in English, of the organization primarily responsible for publishing the dataset at the time of the publication (if applicable, i.e. if different than current name).",
+            "fr": "Nom, en anglais, de l’organisation principalement responsable de l’édition du jeu de données au moment de la publication (s’il y a lieu, c.-à-d. s’il est différent du nom actuel)"
+          },
+          "datastore_type": "text"
+        },
+        {
+          "id": "publisher_fr",
+          "obligation": {
+            "en": "Optional",
+            "fr": "Facultatif"
+          },
+          "label": {
+            "en": "Publisher - Name at Publication (French)",
+            "fr": "Publisher - Name at Publication (French)"
+          },
+          "description": {
+            "en": "Name, in French, of the organization primarily responsible for publishing the dataset at the time of the publication (if applicable, i.e. if different than current name).",
+            "fr": "Nom, en français, de l’organisation principalement responsable de l’édition du jeu de données au moment de la publication (s’il y a lieu, c.-à-d. s’il est différent du nom actuel)"
+          },
+          "datastore_type": "text"
+        },
+        {
+          "id": "date_published",
+          "obligation": {
+            "en": "Mandatory",
+            "fr": "Obligatoire"
+          },
+          "label": {
+            "en": "Date Published",
+            "fr": "Date Published"
+          },
+          "description": {
+            "en": "The date of issuance (e.g., publication) of the dataset",
+            "fr": "Date de diffusion (p. ex., publication) du jeu de données."
+          },
+          "datastore_type": "date"
+        },
+        {
+          "id": "language",
+          "obligation": {
+            "en": "Mandatory",
+            "fr": "Obligatoire"
+          },
+          "label": {
+            "en": "Language",
+            "fr": "Langue"
+          },
+          "description": {
+            "en": "The language of the resource.",
+            "fr": "Langue de la ressource"
+          },
+          "datastore_type": "text",
+          "choices": {
+            "en": {
+              "en": "English",
+              "fr": "Anglais"
+            },
+            "en+fr": {
+              "en": "Bilingual (English and French)",
+              "fr": "Bilingue (Anglais et Français)"
+            },
+            "fr": {
+              "en": "French",
+              "fr": "Français"
+            },
+            "iu": {
+              "en": "Inuktitut",
+              "fr": "Inuktitut"
+            },
+            "other": {
+              "en": "Other",
+              "fr": "Autre"
+            },
+            "zxx": {
+              "en": "No linguistic content ; Not applicable",
+              "fr": "Pas de contenu linguistique; non applicable"
+            }
+          }
+        },
+        {
+          "id": "size",
+          "obligation": {
+            "en": "Mandatory",
+            "fr": "Obligatoire"
+          },
+          "label": {
+            "en": "Size",
+            "fr": "Size"
+          },
+          "description": {
+            "en": "The [estimated] size of the resource(in Bytes)",
+            "fr": "La taille [estimée] de la ressource (en octets)."
+          },
+          "datastore_type": "bigint"
+        },
+        {
+          "id": "eligible_for_release",
+          "obligation": {
+            "en": "Mandatory",
+            "fr": "Obligatoire"
+          },
+          "label": {
+            "en": "Eligible for Release",
+            "fr": "Eligible for Release"
+          },
+          "description": {
+            "en": "Is all of the content within the dataset eligible to be publicly released based on the application of the Eligibility Criteria in the Guide to Implementing the Directive on Open Government?",
+            "fr": "Tout le contenu du jeu de données peut être diffusé publiquement selon les critères d’admissibilité mentionnés dans le guide de la mise en œuvre de la Directive sur le gouvernement ouvert?"
+          },
+          "datastore_type": "text",
+          "choices": {
+            "N": {
+              "en": "No",
+              "fr": "Non"
+            },
+            "Y": {
+              "en": "Yes",
+              "fr": "Oui"
+            }
+          }
+        },
+        {
+          "id": "program_alignment_architecture_en",
+          "obligation": {
+            "en": "Mandatory",
+            "fr": "Obligatoire"
+          },
+          "label": {
+            "en": "Program Alignment Architecture (English)",
+            "fr": "Program Alignment Architecture (English)"
+          },
+          "description": {
+            "en": "The Program Alignment Architecture (PAA) in English. The Program Alignment Architecture (PAA) is an inventory of each organization’s programs. It provides an overview of the organization’s responsibilities.",
+            "fr": "L’Architecture d’alignement des programmes (AAP) en anglais. L’Architecture d’alignement des programmes (AAP) est un inventaire des programmes de chaque organisation. Il offre un aperçu des responsabilités de l’organisation."
+          },
+          "datastore_type": "text"
+        },
+        {
+          "id": "program_alignment_architecture_fr",
+          "obligation": {
+            "en": "Mandatory",
+            "fr": "Obligatoire"
+          },
+          "label": {
+            "en": "Program Alignment Architecture (French)",
+            "fr": "Program Alignment Architecture (French)"
+          },
+          "description": {
+            "en": "The Program Alignment Architecture (PAA) in French. The Program Alignment Architecture (PAA) is an inventory of each organization’s programs. It provides an overview of the organization’s responsibilities.",
+            "fr": "L’Architecture d’alignement des programmes (AAP) en français. L’Architecture d’alignement des programmes (AAP) est un inventaire des programmes de chaque organisation. Il offre un aperçu des responsabilités de l’organisation."
+          },
+          "datastore_type": "text"
+        },
+        {
+          "id": "date_released",
+          "obligation": {
+            "en": "Mandatory",
+            "fr": "Obligatoire"
+          },
+          "label": {
+            "en": "Date Released",
+            "fr": "Date Released"
+          },
+          "description": {
+            "en": "The date on which the metadata record was released, made available, on the Open Government portal; only if applicable",
+            "fr": "La date à laquelle l’enregistrement de métadonnées a été diffusé et rendu accessible à partir du Portail du gouvernement ouvert, s’il y a lieu seulement."
+          },
+          "datastore_type": "date"
+        },
+        {
+          "id": "portal_url_en",
+          "obligation": {
+            "en": "Mandatory",
+            "fr": "Obligatoire"
+          },
+          "label": {
+            "en": "Open Government Portal Record (English)",
+            "fr": "Open Government Portal Record (English)"
+          },
+          "description": {
+            "en": "The location for online access to the distribution of the resource, in French. This element is only mandatory if applicable The entry should point to the metadata record page on Open.Canada.ca.",
+            "fr": "L’emplacement en ligne où il est possible d’accéder à la ressource, en anglais. Cet élément n’est obligatoire que le cas échéant. La valeur saisie doit mener à la page de l’enregistrement sur ouvert.canada.ca."
+          },
+          "datastore_type": "text"
+        },
+        {
+          "id": "portal_url_fr",
+          "obligation": {
+            "en": "Mandatory",
+            "fr": "Obligatoire"
+          },
+          "label": {
+            "en": "Open Government Portal Record (French)",
+            "fr": "Open Government Portal Record (French)"
+          },
+          "description": {
+            "en": "The location for online access to the distribution of the resource, in French. This element is only mandatory if applicable The entry should point to the metadata record page on Open.Canada.ca.",
+            "fr": "L’emplacement en ligne où il est possible d’accéder à la ressource, en français. Cet élément n’est obligatoire que le cas échéant. La valeur saisie doit mener à la page de l’enregistrement sur ouvert.canada.ca."
+          },
+          "datastore_type": "text"
+        },
+        {
+          "id": "user_votes",
+          "obligation": {
+            "en": "Optional",
+            "fr": "Facultatif"
+          },
+          "label": {
+            "en": "User Votes",
+            "fr": "User Votes"
+          },
+          "description": {
+            "en": "Count of users that voted for this dataset on open.canada.ca",
+            "fr": "Nombre d’utilisateurs qui ont voté pour ce jeu de données sur le site Web ouvert.canada.ca"
+          },
+          "datastore_type": "int"
+        }
+      ],
+      "example_record": {
+        "ref_number": "OD-2016-00001",
+        "title_en": "Annual Insolvency Rates",
+        "title_fr": "Taux annuels d’insolvabilité",
+        "description_en": "The consumer insolvency rate is defined as the number of consumer insolvencies per thousand residents aged 18 years or above. The business insolvency rate is defined as the number of business insolvencies per thousand businesses. Annual insolvency rates are available for consumers starting from 1987 and for businesses starting from 1998. [Office of the Superintendent of Bankruptcy Canada]",
+        "description_fr": "Le taux d'insolvabilité des consommateurs renvoie au nombre de personnes insolvables par millier d'habitants âgés de 18 ans ou plus et le taux d'insolvabilité des entreprises désigne le nombre d'entreprises insolvables par millier d'entreprises. Les taux annuels d'insolvabilité sont présentés à partir de 1987 pour les consommateurs et de 1998 pour les entreprises. [Bureau du surintendant des faillites Canada]",
+        "publisher_en": "Industry Canada",
+        "publisher_fr": "Industrie Canada",
+        "date_published": "2016-04-01",
+        "language": "en+fr",
+        "size": "392000",
+        "eligible_for_release": "Y",
+        "program_alignment_architecture_en": "Government wide programs design and delivery",
+        "program_alignment_architecture_fr": "Conception et prestation des programmes pangouvernementaux",
+        "date_released": "2016-04-01",
+        "portal_url_en": "http://open.canada.ca/data/en/dataset/0e52f1b0-089a-430e-bbd1-1367d7328a2e",
+        "portal_url_fr": "http://ouvert.canada.ca/data/fr/dataset/0e52f1b0-089a-430e-bbd1-1367d7328a2e"
+      }
+    }
+  ]
+}

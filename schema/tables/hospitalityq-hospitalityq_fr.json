@@ -22,6 +22,15 @@
       }
     },
     {
+      "name": "title_en",
+      "title": "Titre (anglais)",
+      "description": "Cette zone indique, en anglais, le titre du poste de la personne qui a engagé les dépenses d’accueil (les dépenses d’accueil ont été imputées à leur centre de responsabilité).",
+      "type": "string",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
       "name": "title_fr",
       "title": "Titre (français)",
       "description": "Cette zone indique, en français, le titre du poste de la personne qui a engagé les dépenses d’accueil (les dépenses d’accueil ont été imputées à leur centre de responsabilité).",
@@ -34,6 +43,15 @@
       "name": "name",
       "title": "Nom",
       "description": "Ce champ affiche le nom de la personne qui a engagé les dépenses d’accueil (les dépenses d’accueil ont été imputées à leur centre de responsabilité.",
+      "type": "string",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "description_en",
+      "title": "But de l’activité d’accueil (anglais)",
+      "description": "Cette zone comprend la forme d’accueil (par exemple, déjeuner, rafraîchissement, dîner, réception, souper, et autres formes d’accueil) et les circonstances (le but) de l’accueil, en anglais.",
       "type": "string",
       "constraints": {
         "required": true
@@ -67,9 +85,27 @@
       }
     },
     {
+      "name": "location_en",
+      "title": "Municipalité où l’activité d’accueil a eu lieu (anglais)",
+      "description": "Comprend la municipalité où les services d’accueil ont été fournis, en anglais",
+      "type": "string",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
       "name": "location_fr",
       "title": "Municipalité où l’activité d’accueil a eu lieu (français)",
       "description": "Comprend la municipalité où les services d’accueil ont été fournis, en français.",
+      "type": "string",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "vendor_en",
+      "title": "Nom du premier établissement commercial ou fournisseur impliqué dans l’activité d’accueil (anglais)",
+      "description": "Doit inclure le nom du premier établissement commercial ou fournisseur qui a fourni l’accueil (par exemple, restaurant, hôtel ou autre lieu) et/ou du fournisseur (par exemple, un traiteur), en anglais.\n",
       "type": "string",
       "constraints": {
         "required": true
@@ -85,9 +121,21 @@
       }
     },
     {
+      "name": "vendor_2_en",
+      "title": "Nom du deuxième établissement commercial ou fournisseur impliqué dans l’activité d’accueil (anglais)",
+      "description": "Doit inclure le nom du deuxième établissement commercial ou fournisseur qui a fourni l’accueil (par exemple, restaurant, hôtel ou autre lieu) et/ou du fournisseur (par exemple, un traiteur), en anglais.\n",
+      "type": "string"
+    },
+    {
       "name": "vendor_2_fr",
       "title": "Nom du deuxième établissement commercial ou fournisseur impliqué dans l’activité d’accueil (français)",
       "description": "Doit inclure le nom du deuxième établissement commercial ou fournisseur qui a fourni l’accueil (par exemple, restaurant, hôtel ou autre lieu) et/ou du fournisseur (par exemple, un traiteur), en français.\n",
+      "type": "string"
+    },
+    {
+      "name": "vendor_other_en",
+      "title": "Nom de tout autre établissement commercial ou fournisseur impliqué dans l’activité d’accueil (anglais)",
+      "description": "Doit inclure le nom de tout autre établissement commercial ou fournisseur ayant fourni l’accueil (par exemple, restaurant, hôtel ou autre lieu) et/ou du fournisseur (par exemple, un traiteur), en anglais. Remarque : Utilisez le format <nom du fournisseur>;<nom du fournisseur 2> (par exemple : Les Impertinentes;Les Street Monkeys)\n",
       "type": "string"
     },
     {
@@ -122,6 +170,12 @@
       "constraints": {
         "required": true
       }
+    },
+    {
+      "name": "additional_comments_en",
+      "title": "Commentaires additionnels (anglais)",
+      "description": "Ce champ peut indiquer des commentaires explicatifs additionnels, en anglais.",
+      "type": "string"
     },
     {
       "name": "additional_comments_fr",

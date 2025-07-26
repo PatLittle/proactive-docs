@@ -19,6 +19,15 @@
       }
     },
     {
+      "name": "title_fr",
+      "title": "Title (French)",
+      "description": "This field is populated by the user with the official title of the Question Period Note, in French.",
+      "type": "string",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
       "name": "minister",
       "title": "Title of Minister",
       "description": "This field will display the title of the Minister for whom the Question Period Note was created.",
@@ -147,6 +156,12 @@
       "type": "string"
     },
     {
+      "name": "question_fr",
+      "title": "Issue/Question (French)",
+      "description": "This section will display the issue or question the Minister is responding to, in French.",
+      "type": "string"
+    },
+    {
       "name": "date_received",
       "title": "Date Provided to the Minister's Office",
       "description": "This field will display the date on which the Question Period Note was provided to the Minister's Office.",
@@ -165,6 +180,15 @@
       }
     },
     {
+      "name": "response_fr",
+      "title": "Suggested Response (French)",
+      "description": "This field will display the Suggested Response section of the Question Period Note, in French.",
+      "type": "string",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
       "name": "background_en",
       "title": "Background (English)",
       "description": "This field should display the background section of the Question Period note, In English.",
@@ -174,9 +198,24 @@
       }
     },
     {
+      "name": "background_fr",
+      "title": "Background (French)",
+      "description": "This field should display the background section of the Question Period note, In French.",
+      "type": "string",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
       "name": "additional_information_en",
       "title": "Additional Information (English)",
       "description": "This field will display any additional information, as deemed necessary, in English.",
+      "type": "string"
+    },
+    {
+      "name": "additional_information_fr",
+      "title": "Additional Information (French)",
+      "description": "This field will display any additional information, as deemed necessary, in French.",
       "type": "string"
     }
   ],

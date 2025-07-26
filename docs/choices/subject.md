@@ -1,11 +1,11 @@
 # Choices for subject
 
-Generated 2025-07-25T10:26:02 UTC
+Generated 2025-07-26T00:22:21 UTC
 
 | Code | Label (EN) | Label (FR) |
 |------|------------|------------|
-| `arts_music_literature` | Arts, Music, Literature | Arts, musique, littérature |
 | `agriculture` | Agriculture | Agriculture |
+| `arts_music_literature` | Arts, Music, Literature | Arts, musique, littérature |
 | `economics_and_industry` | Economics and Industry | Économie et industrie |
 | `education_and_training` | Education and Training | Éducation et formation |
 | `form_descriptors` | Form Descriptors | Format |
@@ -20,6 +20,13 @@ Generated 2025-07-25T10:26:02 UTC
 | `nature_and_environment` | Nature and Environment | Nature et environnement |
 | `persons` | Persons | Personnes |
 | `processes` | Processes | Liens et fonctions |
-| `society_and_culture` | Society and Culture | Société et culture |
 | `science_and_technology` | Science and Technology | Sciences et technologie |
+| `society_and_culture` | Society and Culture | Société et culture |
 | `transport` | Transport | Transport |
+
+
+## Referenced By
+
+- [ckan/dataset.md](../ckan/dataset.md)
+- [ckan/info.md](../ckan/info.md)
+- [ckan/prop.md](../ckan/prop.md)

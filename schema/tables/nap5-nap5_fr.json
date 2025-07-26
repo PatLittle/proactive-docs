@@ -202,6 +202,15 @@
       }
     },
     {
+      "name": "progress_en",
+      "title": "Progrès au cours du trimestre précédent (anglais)",
+      "description": "1-3 balles décrivant les progrès réalisés au cours du dernier trimestre. Si aucun progrès n'a été réalisé, veuillez écrire \"NIL\"",
+      "type": "string",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
       "name": "progress_fr",
       "title": "Progrès au cours du trimestre précédent (français)",
       "description": "1-3 balles décrivant les progrès réalisés au cours du dernier trimestre. Si aucun progrès n'a été réalisé, veuillez écrire \"NUL\"",
@@ -211,9 +220,21 @@
       }
     },
     {
+      "name": "evidence_en",
+      "title": "Preuve de progrès (anglais)",
+      "description": "Toute preuve à l'appui pour démontrer les progrès que vous avez accomplis. Cela peut inclure des sites Web, des liens vers des documents ou d’autres informations.",
+      "type": "string"
+    },
+    {
       "name": "evidence_fr",
       "title": "Preuve de progrès (français)",
       "description": "Toute preuve à l'appui pour démontrer les progrès que vous avez accomplis. Cela peut inclure des sites Web, des liens vers des documents ou d’autres informations.",
+      "type": "string"
+    },
+    {
+      "name": "challenges_en",
+      "title": "Défis (anglais)",
+      "description": "Décrivez les défis rencontrés",
       "type": "string"
     },
     {

@@ -37,6 +37,15 @@
       }
     },
     {
+      "name": "summary_fr",
+      "title": "French Summary",
+      "description": "A descriptive summary of the completed Access to Information request in French.",
+      "type": "string",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
       "name": "disposition",
       "title": "Disposition",
       "description": "The response disposition of the completed Access to Information request",
@@ -65,6 +74,12 @@
       "name": "comments_en",
       "title": "Comments English",
       "description": "This field may be populated with additional or contextual comments in English.",
+      "type": "string"
+    },
+    {
+      "name": "comments_fr",
+      "title": "Comments French",
+      "description": "This field may be populated with additional or contextual comments in French.",
       "type": "string"
     }
   ],

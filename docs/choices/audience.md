@@ -1,6 +1,6 @@
 # Choices for audience
 
-Generated 2025-07-25T10:26:02 UTC
+Generated 2025-07-26T00:22:21 UTC
 
 | Code | Label (EN) | Label (FR) |
 |------|------------|------------|
@@ -20,11 +20,17 @@ Generated 2025-07-25T10:26:02 UTC
 | `parents` | Parents | Parents |
 | `persons_with_disabilities` | Persons with disabilities | Personnes handicapées |
 | `rural_community` | Rural community | Communauté rurale |
-| `seniors` | Seniors | Aînés |
 | `scientists` | Scientists | Scientifiques |
+| `seniors` | Seniors | Aînés |
 | `students` | Students | Étudiants |
 | `travellers` | Travellers | Voyageurs |
 | `veterans` | Veterans | Anciens combattants |
 | `visitors_to_canada` | Visitors to Canada | Visiteurs au Canada |
 | `women` | Women | Femmes |
 | `youth` | Youth | Jeunesse |
+
+
+## Referenced By
+
+- [ckan/dataset.md](../ckan/dataset.md)
+- [ckan/info.md](../ckan/info.md)

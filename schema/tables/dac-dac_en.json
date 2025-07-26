@@ -136,6 +136,12 @@
       "title": "Notes (English)",
       "description": "Any other relevant information (e.g. description of the activities included in the total remuneration, point of origin of a member’s travel, etc.)",
       "type": "string"
+    },
+    {
+      "name": "notes_fr",
+      "title": "Notes (French)",
+      "description": "Any other relevant information (e.g. description of the activities included in the total remuneration, point of origin of a member’s travel, etc.)",
+      "type": "string"
     }
   ],
   "missingValues": [

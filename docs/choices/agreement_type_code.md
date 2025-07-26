@@ -1,6 +1,6 @@
 # Choices for agreement_type_code
 
-Generated 2025-07-25T10:31:20 UTC
+Generated 2025-07-26T00:22:21 UTC
 
 | Code | Label (EN) | Label (FR) |
 |------|------------|------------|
@@ -326,3 +326,8 @@ Generated 2025-07-25T10:31:20 UTC
 | Key | Value |
 |-----|-------|
 | lookup | ["WTO-AGP", "NAFTA"] |
+
+
+## Referenced By
+
+- [reference/contracts.md](../reference/contracts.md)

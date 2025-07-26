@@ -43,18 +43,13 @@ def map_type(ds_type: str) -> str:
 
 
 def split_fields(fields):
-    en_fields = []
-    fr_fields = []
-    for f in fields:
-        fid = f.get('id', '')
-        if fid.endswith('_en'):
-            en_fields.append(f)
-        elif fid.endswith('_fr'):
-            fr_fields.append(f)
-        else:
-            en_fields.append(f)
-            fr_fields.append(f)
-    return en_fields, fr_fields
+    """Return identical field lists for EN and FR schemas."""
+    # Older versions generated language-specific schemas that only included
+    # fields ending with the matching language suffix.  This resulted in the
+    # EN and FR table schemas having different structures.  We now keep the
+    # field structure identical for both languages and only localise the
+    # labels and descriptions.
+    return fields, fields
 
 
 def field_to_schema(field, lang: str):

@@ -55,6 +55,12 @@
       "type": "string"
     },
     {
+      "name": "description_fr",
+      "title": "Description of Work French",
+      "description": "It is recommended that this field be populated with the economic object code’s text description as listed in the government-wide chart of accounts ( http://www.tpsgc-pwgsc.gc.ca/recgen/pceaf-gwcoa/index-eng.html ). For standing offers and supply arrangement agreements, this field may be populated with the commodity code’s text description used by the federal government for procurement activities.\n",
+      "type": "string"
+    },
+    {
       "name": "contract_period_start",
       "title": "Contract Period Start Date",
       "description": "i. For a services or construction services contract, it is recommended that the contract period start date be the starting date for the period of time over which the services are provided.\nii. For a standing or supply arrangement, it is recommended that this field be populated with the starting date for the period of time over which a call-up may be entered into.\niii. For a contract with task authorizations, it is recommended that this field be populated with the starting date for the period of time over the entire contract. For a contract with task authorizations where the full value of a contract with task authorizations is likely not to be used, it is recommended for this field be populated with the starting date for each task authorization.\n",
@@ -91,9 +97,21 @@
       "type": "string"
     },
     {
+      "name": "comments_fr",
+      "title": "Comments French",
+      "description": "i. Standardized comments are recommended to be used (refer to Appendix C). Avoid the use of acronyms within this field.\nii. Departments are encouraged to provide a brief description of each contract.\niii. When a contract involves an economic object code specified in Appendix D, departments are to fulfill the reporting requirements specified in Appendix D.\n",
+      "type": "string"
+    },
+    {
       "name": "additional_comments_en",
       "title": "Additional Comments English",
       "description": "The additional comments English field may be populated with additional comments when an organization needs additional capacity to fulfill the reporting requirements under the comments English data field.",
+      "type": "string"
+    },
+    {
+      "name": "additional_comments_fr",
+      "title": "Additional Comments French",
+      "description": "The additional comments French field may be populated with additional comments when an organization needs additional capacity to fulfill the reporting requirements under the comments French data field.",
       "type": "string"
     },
     {

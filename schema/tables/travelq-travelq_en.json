@@ -31,6 +31,15 @@
       }
     },
     {
+      "name": "title_fr",
+      "title": "Title (French)",
+      "description": "This field will display the position title of the person who travelled, in French.",
+      "type": "string",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
       "name": "name",
       "title": "Name",
       "description": "This field will display the name of the  person who travelled",
@@ -43,6 +52,15 @@
       "name": "purpose_en",
       "title": "Purpose of Travel (English)",
       "description": "A short description, in English, of the reason for the trip. The description should be succinct (one line if possible) and provide users with a general sense of the trip's purpose. Use of acronyms should be avoided.\n",
+      "type": "string",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "purpose_fr",
+      "title": "Purpose of Travel (French)",
+      "description": "A short description, in French, of the reason for the trip. The description should be succinct (one line if possible) and provide users with a general sense of the trip's purpose. Use of acronyms should be avoided.\n",
       "type": "string",
       "constraints": {
         "required": true
@@ -76,15 +94,36 @@
       }
     },
     {
+      "name": "destination_fr",
+      "title": "Place visited (French)",
+      "description": "To include name of the first place visited during the trip in question, in French.",
+      "type": "string",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
       "name": "destination_2_en",
       "title": "Second place visited (English)",
       "description": "To include name of second place visited during the trip in question, in English.",
       "type": "string"
     },
     {
+      "name": "destination_2_fr",
+      "title": "Second place visited (French)",
+      "description": "To include name of second place visited during the trip in question, in French.",
+      "type": "string"
+    },
+    {
       "name": "destination_other_en",
       "title": "Other places visited (English)",
       "description": "To include names of all other places visited during the trip in question, in English.",
+      "type": "string"
+    },
+    {
+      "name": "destination_other_fr",
+      "title": "Other places visited (French)",
+      "description": "To include names of all other places visited during the trip in question, in French.",
       "type": "string"
     },
     {
@@ -136,6 +175,12 @@
       "name": "additional_comments_en",
       "title": "Additional Comments English",
       "description": "This field may be populated with additional comments in English.",
+      "type": "string"
+    },
+    {
+      "name": "additional_comments_fr",
+      "title": "Additional Comments French",
+      "description": "This field may be populated with additional comments in French.",
       "type": "string"
     }
   ],

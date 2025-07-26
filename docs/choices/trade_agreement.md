@@ -1,6 +1,6 @@
 # Choices for trade_agreement
 
-Generated 2025-07-25T10:31:20 UTC
+Generated 2025-07-26T00:22:21 UTC
 
 | Code | Label (EN) | Label (FR) |
 |------|------------|------------|
@@ -18,3 +18,8 @@ Generated 2025-07-25T10:31:20 UTC
 | `UA` | Canada-Ukraine Free Trade Agreement | Accord de libre-échange Canada-Ukraine |
 | `UK` | Canada-United Kingdom Trade Continuity Agreement | Accord de continuité commerciale Canada Royaume-Uni |
 | `XX` | None | Aucune valeur |
+
+
+## Referenced By
+
+- [reference/contracts.md](../reference/contracts.md)

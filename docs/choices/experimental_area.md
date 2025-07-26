@@ -1,6 +1,6 @@
 # Choices for experimental_area
 
-Generated 2025-07-25T10:31:20 UTC
+Generated 2025-07-26T00:22:21 UTC
 
 | Code | Label (EN) | Label (FR) |
 |------|------------|------------|
@@ -11,3 +11,8 @@ Generated 2025-07-25T10:31:20 UTC
 | `RE` | Regulatory | Règlementation |
 | `SE` | Service Delivery | Prestation de services |
 | `SI` | Internal Services | Services internes |
+
+
+## Referenced By
+
+- [reference/experiment.md](../reference/experiment.md)

@@ -10,6 +10,15 @@
       }
     },
     {
+      "name": "mandate_description_en",
+      "title": "Description du mandat du ministère (anglais)",
+      "description": "Décrivez brièvement, en anglais, le mandat du ministère, ses principaux programmes et les liens avec les lois ou les règlements fondamentaux afin d’aider les lecteurs à comprendre les dépenses de voyages, d’accueil et de conférences engagées par le ministère, et en quoi ces dépenses soutiennent le mandat du ministère",
+      "type": "string",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
       "name": "mandate_description_fr",
       "title": "Description du mandat du ministère (français)",
       "description": "Décrivez brièvement, en français, le mandat du ministère, ses principaux programmes et les liens avec les lois ou les règlements fondamentaux afin d’aider les lecteurs à comprendre les dépenses de voyages, d’accueil et de conférences engagées par le ministère, et en quoi ces dépenses soutiennent le mandat du ministère",
@@ -109,9 +118,21 @@
       }
     },
     {
+      "name": "travel_compared_fiscal_year_en",
+      "title": "Explication d’un écart important du total des dépenses de voyages (anglais)",
+      "description": "Expliquez brièvement, en anglais, la ou les raisons significatives de l’augmentation ou de la diminution des dépenses annuelles de voyage pour les fonctionnaires et non-fonctionnaires.",
+      "type": "string"
+    },
+    {
       "name": "travel_compared_fiscal_year_fr",
       "title": "Explication d’un écart important du total des dépenses de voyages (français)",
       "description": "Expliquez brièvement, en français, la ou les raisons significatives de l’augmentation ou de la diminution des dépenses annuelles de voyage pour les fonctionnaires et non-fonctionnaires.",
+      "type": "string"
+    },
+    {
+      "name": "hospitality_compared_fiscal_year_en",
+      "title": "Accueil - Explication d’un écart important (anglais)",
+      "description": "Expliquez brièvement, en anglais, la ou les raisons significatives de l’augmentation ou de la diminution des dépenses annuelles d’accueil.",
       "type": "string"
     },
     {
@@ -121,9 +142,21 @@
       "type": "string"
     },
     {
+      "name": "conference_fees_compared_fiscal_year_en",
+      "title": "Frais de participation aux conférences - Explication d’un écart important (anglais)",
+      "description": "Expliquez brièvement, en anglais, la ou les raisons significatives de l’augmentation ou de la diminution des dépenses annuelles de conférences.",
+      "type": "string"
+    },
+    {
       "name": "conference_fees_compared_fiscal_year_fr",
       "title": "Frais de participation aux conférences - Explication d’un écart important (français)",
       "description": "Expliquez brièvement, en français, la ou les raisons significatives de l’augmentation ou de la diminution des dépenses annuelles de conférences",
+      "type": "string"
+    },
+    {
+      "name": "minister_compared_fiscal_year_en",
+      "title": "Voyages internationaux du ministre et du personnel du ministre - Explication d’un écart important (anglais)",
+      "description": "Expliquez brièvement, en anglais, la ou les raisons significatives de l’augmentation ou de la diminution des dépenses annuelles de voyage à l’étranger pour le ministre et son personnel.",
       "type": "string"
     },
     {

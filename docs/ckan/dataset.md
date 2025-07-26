@@ -1,6 +1,6 @@
 # CKAN Dataset Schema
 
-Generated 2025-07-25T10:26:02 UTC
+Generated 2025-07-25T23:27:08 UTC
 
 ## Dataset Fields
 | Field | Label (EN) | Label (FR) | Required | Choices |

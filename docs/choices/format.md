@@ -1,14 +1,14 @@
 # Choices for format
 
-Generated 2025-07-25T10:26:02 UTC
+Generated 2025-07-26T00:22:21 UTC
 
 | Code | Label (EN) | Label (FR) |
 |------|------------|------------|
 | `AAC` | AAC | AAC |
 | `AIFF` | AIFF | AIFF |
+| `APK` | Android Application | Application Android |
 | `APRX` | APRX | APRX |
 | `ASCII Grid` | ASCII Grid | Grille ASCII |
-| `APK` | Android Application | Application Android |
 | `AVI` | AVI | AVI |
 | `BAG` | BAG | BAG |
 | `BAM` | BAM | BAM |
@@ -34,26 +34,26 @@ Generated 2025-07-25T10:26:02 UTC
 | `ECW` | ECW | ECW |
 | `EDI` | EDI | EDI |
 | `EMF` | EMF | EMF |
-| `EPUB3` | EPUB3 | EPUB3 |
-| `EPUB2` | EPUB2 | EPUB2 |
 | `EPS` | EPS | EPS |
+| `EPUB2` | EPUB2 | EPUB2 |
+| `EPUB3` | EPUB3 | EPUB3 |
 | `ESRI REST` | ESRI REST | ESRI REST |
 | `FGDB/GDB` | FGDB/GDB | FGDB/GDB |
 | `FITS` | FITS | FITS |
-| `Flat raster binary` | Flat raster binary | Binaire raster plat |
 | `FLV` | FLV | FLV |
+| `Flat raster binary` | Flat raster binary | Binaire raster plat |
 | `GDB` | GeoSoftDatabases | GeoSoftDatabases |
-| `GeoPDF` | GeoPDF | GeoPDF |
-| `GeoRSS` | GeoRSS | GeoRSS |
-| `GeoTIF` | GeoTIF | GeoTIF |
 | `GEOJSON` | GEOJSON | GEOJSON |
-| `GPKG` | GeoPackage | GeoPackage |
 | `GIF` | GIF | GIF |
 | `GML` | GML | GML |
+| `GPKG` | GeoPackage | GeoPackage |
 | `GRD` | GeoSoftGrids | GeoSoftGrids |
 | `GRIB1` | GRIB1 | GRIB1 |
 | `GRIB2` | GRIB2 | GRIB2 |
 | `GZ` | Gzip | Gzip |
+| `GeoPDF` | GeoPDF | GeoPDF |
+| `GeoRSS` | GeoRSS | GeoRSS |
+| `GeoTIF` | GeoTIF | GeoTIF |
 | `HDF` | HDF | HDF |
 | `HTML` | HTML | HTML |
 | `IATI` | IATI | IATI |
@@ -63,26 +63,27 @@ Generated 2025-07-25T10:26:02 UTC
 | `JP2` | JP2 | JP2 |
 | `JPG` | JPG | JPG |
 | `JSON` | JSON | JSON |
-| `JSONLD` | JSON-LD | JSON-LD |
 | `JSONL` | JSONL | JSONL |
+| `JSONLD` | JSON-LD | JSON-LD |
 | `KML` | KML | KML |
 | `KMZ` | KMZ | KMZ |
 | `LAS` | LAS | LAS |
 | `LYR` | LYR | LYR |
-| `TAB` | MapInfo | MapInfo |
 | `MAPX` | MAPX | MAPX |
 | `MFX` | MFX | MFX |
-| `MOV` | MOV | MOV |
 | `MKV` | MKV | MKV |
-| `MPEG` | MPEG | MPEG |
-| `MPEG-1` | MPEG-1 | MPEG-1 |
+| `MOV` | MOV | MOV |
 | `MP3` | MP3 | MP3 |
 | `MP4` | MP4 | MP4 |
+| `MPEG` | MPEG | MPEG |
+| `MPEG-1` | MPEG-1 | MPEG-1 |
 | `MXD` | MXD | MXD |
+| `NT` | RDF n-triples | RDF n-triples |
 | `NetCDF` | NetCDF | NetCDF |
 | `ODP` | ODP | ODP |
 | `ODS` | ODS | ODS |
 | `ODT` | ODT | ODT |
+| `PBF` | PBF | PBF |
 | `PBIX` | PBIX | PBIX |
 | `PDF` | PDF | PDF |
 | `PDF/A-1` | PDF/A-1 | PDF/A-1 |
@@ -90,12 +91,9 @@ Generated 2025-07-25T10:26:02 UTC
 | `PDF/UA` | PDF/UA | PDF/UA |
 | `PNG` | PNG | PNG |
 | `PPT` | PPT | PPT |
-| `QLR` | QLR | QLR |
-| `PBF` | PBF | PBF |
 | `PPTX` | PPTX | PPTX |
+| `QLR` | QLR | QLR |
 | `RDF` | RDF | RDF |
-| `TTL` | RDF Turtle | RDF Turtle |
-| `NT` | RDF n-triples | RDF n-triples |
 | `RDFa` | RDFa | RDFa |
 | `RSS` | RSS | RSS |
 | `RTF` | RTF | RTF |
@@ -106,14 +104,16 @@ Generated 2025-07-25T10:26:02 UTC
 | `SEGY` | SEGY | SEGY |
 | `SHP` | SHP | SHP |
 | `SQL` | SQL | SQL |
-| `SQLITE3` | SQL Lite3 | SQL Lite3 |
 | `SQLITE` | SQL Lite | SQL Lite |
+| `SQLITE3` | SQL Lite3 | SQL Lite3 |
 | `SVG` | SVG | SVG |
+| `TAB` | MapInfo | MapInfo |
+| `TFW` | TFW | TFW |
 | `TIFF` | TIFF | TIFF |
 | `TRIG` | TRIG | TRIG |
 | `TRIX` | TRIX | TRIX |
-| `TFW` | TFW | TFW |
 | `TSV` | TSV | TSV |
+| `TTL` | RDF Turtle | RDF Turtle |
 | `TXT` | TXT | TXT |
 | `VPF` | VPF | VPF |
 | `WATERML1` | WaterML 1.0 | WaterML 1.0 |
@@ -125,10 +125,16 @@ Generated 2025-07-25T10:26:02 UTC
 | `WMTS` | WMTS | WMTS |
 | `WMV` | WMV | WMV |
 | `WPS` | WPS | WPS |
-| `XML` | XML | XML |
 | `XLS` | XLS | XLS |
 | `XLSM` | XLSM | XLSM |
 | `XLSX` | XLSX | XLSX |
+| `XML` | XML | XML |
 | `ZIP` | ZIP | ZIP |
 | `other` | Other | Autre |
 | `unknown` | Unknown | Inconnu |
+
+
+## Referenced By
+
+- [ckan/dataset.md](../ckan/dataset.md)
+- [ckan/info.md](../ckan/info.md)

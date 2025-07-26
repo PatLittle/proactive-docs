@@ -1,6 +1,6 @@
 # Choices for rationale
 
-Generated 2025-07-25T10:31:20 UTC
+Generated 2025-07-26T00:22:21 UTC
 
 | Code | Label (EN) | Label (FR) |
 |------|------------|------------|
@@ -11,3 +11,8 @@ Generated 2025-07-25T10:31:20 UTC
 | `MP` | Minister and/or Parliamentary Secretary Involvement and/or announcement | Implication ou annonce du ministre ou du secrétaire parlementaire |
 | `PC` | Parliament Committee | Comité parlementaire |
 | `ST` | Speech of the Throne | Discours du Trône |
+
+
+## Referenced By
+
+- [reference/consultations.md](../reference/consultations.md)

@@ -1,6 +1,6 @@
 # Choices for milestones
 
-Generated 2025-07-25T10:31:20 UTC
+Generated 2025-07-26T00:22:21 UTC
 
 | Code | Label (EN) | Label (FR) |
 |------|------------|------------|
@@ -23,3 +23,8 @@ Generated 2025-07-25T10:31:20 UTC
 | `C05.1` | Ensure open and strategic management of data and information | Assurer une gestion ouverte et stratégique des données et de l’information |
 | `C05.2` | Build an open government and open data ecosystem | Bâtir un gouvernement ouvert et un écosystème de données ouvertes |
 | `C05.3` | Create a roadmap toward a more inclusive barrier-free Canada | Créer une feuille de route vers un Canada plus inclusif et exempt d’obstacles |
+
+
+## Referenced By
+
+- [reference/nap5.md](../reference/nap5.md)

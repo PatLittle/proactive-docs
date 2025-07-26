@@ -1,6 +1,6 @@
 # Choices for status
 
-Generated 2025-07-25T10:31:20 UTC
+Generated 2025-07-26T00:22:21 UTC
 
 | Code | Label (EN) | Label (FR) |
 |------|------------|------------|
@@ -17,3 +17,19 @@ Generated 2025-07-25T10:31:20 UTC
 | `O` | Open – Accepting Input | Ouverte – Avis acceptés |
 | `P` | Planned | Prévue |
 | `SP` | Substantial progress | Progrès important |
+| `completed` | Completed | Complété |
+| `historical_archive` | Historical Archive | Archive historique |
+| `obsolete` | Obsolete | Périmé |
+| `ongoing` | Ongoing | En continu |
+| `planned` | Planned | Planifié |
+| `proposed` | Proposed | Proposé |
+| `required` | Required | Requis |
+| `under_development` | Under Development | En développement |
+
+
+## Referenced By
+
+- [ckan/dataset.md](../ckan/dataset.md)
+- [reference/consultations.md](../reference/consultations.md)
+- [reference/experiment.md](../reference/experiment.md)
+- [reference/nap5.md](../reference/nap5.md)

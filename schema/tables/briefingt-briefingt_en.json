@@ -19,9 +19,27 @@
       }
     },
     {
+      "name": "title_fr",
+      "title": "Title (French)",
+      "description": "This field is populated by the user with the official title of the Briefing Note, in French.",
+      "type": "string",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
       "name": "originating_sector_en",
       "title": "Originating Sector (English)",
       "description": "The Sector, Branch, or Division where the Briefing Note originated in English. If there are multiple sectors/branches/divisions, they may be separated by a semicolon (;)",
+      "type": "string",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "originating_sector_fr",
+      "title": "Originating Sector (French)",
+      "description": "The Sector, Branch, or Division where the Briefing Note originated in French. If there are multiple sectors/branches/divisions, they may be separated by a semicolon (;)",
       "type": "string",
       "constraints": {
         "required": true
@@ -67,6 +85,12 @@
       "name": "additional_information_en",
       "title": "Additional Information (English)",
       "description": "This field will display any additional information/comments for the Briefing Note, in English.",
+      "type": "string"
+    },
+    {
+      "name": "additional_information_fr",
+      "title": "Additional Information (French)",
+      "description": "This field will display any additional information/comments for the Briefing Note, in French.",
       "type": "string"
     }
   ],

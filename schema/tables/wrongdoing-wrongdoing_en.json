@@ -37,6 +37,15 @@
       }
     },
     {
+      "name": "case_description_fr",
+      "title": "French Case Description",
+      "description": "This field will contain the case description, in French.",
+      "type": "string",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
       "name": "findings_conclusions",
       "title": "Findings and Conclusions",
       "description": "The field will contain value(s) a – f, separated by commas if more than one value.",
@@ -57,6 +66,15 @@
       "name": "recommendations_corrective_measures_en",
       "title": "English Recommendations and Corrective Measures",
       "description": "The Field will contain the Recommendations and Corrective Measures as per the article 11 of the Public Servants Disclosure Protection Act, in English.",
+      "type": "string",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "recommendations_corrective_measures_fr",
+      "title": "French Recommendations and Corrective Measures",
+      "description": "The Field will contain the Recommendations and Corrective Measures as per the article 11 of the Public Servants Disclosure Protection Act, in French.",
       "type": "string",
       "constraints": {
         "required": true

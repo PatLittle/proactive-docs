@@ -211,14 +211,35 @@
       }
     },
     {
+      "name": "progress_fr",
+      "title": "Progress during previous quarter (French)",
+      "description": "1-3 bullets outlining progress made during the most recent quarter. If no progress has been made, please write \"NUL\"",
+      "type": "string",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
       "name": "evidence_en",
       "title": "Evidence of progress (English)",
       "description": "Any supporting evidence to demonstrate the progress you have made. This could include websites, links to documents, or other information.",
       "type": "string"
     },
     {
+      "name": "evidence_fr",
+      "title": "Evidence of progress (French)",
+      "description": "Any supporting evidence to demonstrate the progress you have made. This could include websites, links to documents, or other information.",
+      "type": "string"
+    },
+    {
       "name": "challenges_en",
       "title": "Challenges (English)",
+      "description": "Describe any challenges faced",
+      "type": "string"
+    },
+    {
+      "name": "challenges_fr",
+      "title": "Challenges (French)",
       "description": "Describe any challenges faced",
       "type": "string"
     }

@@ -22,6 +22,15 @@
       }
     },
     {
+      "name": "title_en",
+      "title": "Titre (anglais)",
+      "description": "Cette zone indique le titre du poste de la personne qui a voyagé, en anglais.",
+      "type": "string",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
       "name": "title_fr",
       "title": "Titre (français)",
       "description": "Cette zone indique le titre du poste de la personne qui a voyagé, en français.",
@@ -34,6 +43,15 @@
       "name": "name",
       "title": "Nom",
       "description": "Ce champ affiche le nom de la personne qui a voyagé",
+      "type": "string",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "purpose_en",
+      "title": "But du déplacement (anglais)",
+      "description": "Brève description de la raison du voyage, en anglais. La description doit être brève (une ligne dans la mesure du possible) et donner une indication générale aux utilisateurs du but du voyage. Il faut éviter d’utiliser des acronymes.\n",
       "type": "string",
       "constraints": {
         "required": true
@@ -67,6 +85,15 @@
       }
     },
     {
+      "name": "destination_en",
+      "title": "Endroits visités (anglais)",
+      "description": "Inclure le nom du premier lieu visité lors du voyage en question, en anglais.",
+      "type": "string",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
       "name": "destination_fr",
       "title": "Endroits visités (français)",
       "description": "Inclure le nom du premier lieu visité lors du voyage en question, en français.",
@@ -76,9 +103,21 @@
       }
     },
     {
+      "name": "destination_2_en",
+      "title": "Deuxième lieu visité (anglais)",
+      "description": "Inclure le nom du deuxième lieu visité au cours du voyage en question, en anglais.",
+      "type": "string"
+    },
+    {
       "name": "destination_2_fr",
       "title": "Deuxième lieu visité (français)",
       "description": "Inclure le nom du deuxième lieu visité au cours du voyage en question, en français.",
+      "type": "string"
+    },
+    {
+      "name": "destination_other_en",
+      "title": "Autres lieux visités (anglais)",
+      "description": "Inclure les noms de tous les autres lieux visités au cours du voyage en question, en anglais.",
       "type": "string"
     },
     {
@@ -131,6 +170,12 @@
       "constraints": {
         "required": true
       }
+    },
+    {
+      "name": "additional_comments_en",
+      "title": "Additional Comments English",
+      "description": "Ce champ peut indiquer des commentaires supplémentaires en anglais.",
+      "type": "string"
     },
     {
       "name": "additional_comments_fr",

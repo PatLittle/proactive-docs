@@ -31,6 +31,10 @@ tasks:
     schema: schema/tables/travelq-travelq-nil_en.json
   - path: schema/examples/travelq-travelq-nil_fr.csv
     schema: schema/tables/travelq-travelq-nil_fr.json
+  - path: schema/examples/travela-travela_en.csv
+    schema: schema/tables/travela-travela_en.json
+  - path: schema/examples/travela-travela_fr.csv
+    schema: schema/tables/travela-travela_fr.json
   - path: schema/examples/service-service_en.csv
     schema: schema/tables/service-service_en.json
   - path: schema/examples/service-service_fr.csv
@@ -87,3 +91,11 @@ tasks:
     schema: schema/tables/wrongdoing-wrongdoing_en.json
   - path: schema/examples/wrongdoing-wrongdoing_fr.csv
     schema: schema/tables/wrongdoing-wrongdoing_fr.json
+  - path: schema/examples/inventory-inventory_en.csv
+    schema: schema/tables/inventory-inventory_en.json
+  - path: schema/examples/inventory-inventory_fr.csv
+    schema: schema/tables/inventory-inventory_fr.json
+  - path: schema/examples/experiment-experiment_en.csv
+    schema: schema/tables/experiment-experiment_en.json
+  - path: schema/examples/experiment-experiment_fr.csv
+    schema: schema/tables/experiment-experiment_fr.json

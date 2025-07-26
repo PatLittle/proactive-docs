@@ -1,16 +1,22 @@
 # Choices for character_set
 
-Generated 2025-07-25T10:26:02 UTC
+Generated 2025-07-26T00:22:21 UTC
 
 | Code | Label (EN) | Label (FR) |
 |------|------------|------------|
-| `UTF-8` | UTF-8 | UTF-8 |
-| `US-ASCII` | US-ASCII | US-ASCII |
+| `Big5` | Big5 | Big5 |
+| `EBCDIC-US` | EBCDIC-US | EBCDIC-US |
+| `EUC-JP` | EUC-JP | EUC-JP |
+| `EUC-KR` | EUC-KR | EUC-KR |
+| `GB2312` | GB2312 | GB2312 |
 | `ISO-10646-UCS-2` | UCS-2 | UCS-2 |
 | `ISO-10646-UCS-4` | UCS-4 | UCS-4 |
-| `UTF-7` | UTF-7 | UTF-7 |
-| `UTF-16` | UTF-16 | UTF-16 |
 | `ISO-8859-1` | ISO-8859-1 | ISO-8859-1 |
+| `ISO-8859-10` | ISO-8859-10 | ISO-8859-10 |
+| `ISO-8859-13` | ISO-8859-13 | ISO-8859-13 |
+| `ISO-8859-14` | ISO-8859-14 | ISO-8859-14 |
+| `ISO-8859-15` | ISO-8859-15 | ISO-8859-15 |
+| `ISO-8859-16` | ISO-8859-16 | ISO-8859-16 |
 | `ISO-8859-2` | ISO-8859-2 | ISO-8859-2 |
 | `ISO-8859-3` | ISO-8859-3 | ISO-8859-3 |
 | `ISO-8859-4` | ISO-8859-4 | ISO-8859-4 |
@@ -19,16 +25,16 @@ Generated 2025-07-25T10:26:02 UTC
 | `ISO-8859-7` | ISO-8859-7 | ISO-8859-7 |
 | `ISO-8859-8` | ISO-8859-8 | ISO-8859-8 |
 | `ISO-8859-9` | ISO-8859-9 | ISO-8859-9 |
-| `ISO-8859-10` | ISO-8859-10 | ISO-8859-10 |
-| `TIS-620` | ISO-8859-11 | ISO-8859-11 |
-| `ISO-8859-13` | ISO-8859-13 | ISO-8859-13 |
-| `ISO-8859-14` | ISO-8859-14 | ISO-8859-14 |
-| `ISO-8859-15` | ISO-8859-15 | ISO-8859-15 |
-| `ISO-8859-16` | ISO-8859-16 | ISO-8859-16 |
 | `JIS_Encoding` | JIS_Encoding | JIS_Encoding |
 | `Shift_JIS` | Shift_JIS | Shift_JIS |
-| `EUC-JP` | EUC-JP | EUC-JP |
-| `EUC-KR` | EUC-KR | EUC-KR |
-| `Big5` | Big5 | Big5 |
-| `GB2312` | GB2312 | GB2312 |
-| `EBCDIC-US` | EBCDIC-US | EBCDIC-US |
+| `TIS-620` | ISO-8859-11 | ISO-8859-11 |
+| `US-ASCII` | US-ASCII | US-ASCII |
+| `UTF-16` | UTF-16 | UTF-16 |
+| `UTF-7` | UTF-7 | UTF-7 |
+| `UTF-8` | UTF-8 | UTF-8 |
+
+
+## Referenced By
+
+- [ckan/dataset.md](../ckan/dataset.md)
+- [ckan/info.md](../ckan/info.md)

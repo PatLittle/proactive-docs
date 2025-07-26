@@ -55,6 +55,15 @@
       }
     },
     {
+      "name": "service_name_fr",
+      "title": "Service Name (French)",
+      "description": "Identifies the official name of the service.",
+      "type": "string",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
       "name": "service_standard_id",
       "title": "Service Standard ID",
       "description": "Identifies the unique number assigned to each service standard for that service. Makes it easier for reference purposes as one service may have multiple standards.\n",
@@ -66,6 +75,15 @@
     {
       "name": "service_standard_en",
       "title": "Service Standard (English)",
+      "description": "Identifies the service standard related to a particular service. See Guideline on Service and Digital for format to be used when defining service standards.\n",
+      "type": "string",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "service_standard_fr",
+      "title": "Service Standard (French)",
       "description": "Identifies the service standard related to a particular service. See Guideline on Service and Digital for format to be used when defining service standards.\n",
       "type": "string",
       "constraints": {
@@ -112,6 +130,12 @@
       "type": "string"
     },
     {
+      "name": "channel_comments_fr",
+      "title": "Comments on the service standard channel (French)",
+      "description": "Comments related to the service standard channel and provides explanation of \"Other\" channel selection.",
+      "type": "string"
+    },
+    {
       "name": "target",
       "title": "Service Standard Target",
       "description": "The frequency that the organization expects to meet service standard (reported as a percentage).",
@@ -136,6 +160,12 @@
       "type": "string"
     },
     {
+      "name": "comments_fr",
+      "title": "Comments on the service standard in general (French)",
+      "description": "Comments related to the service standard in general.",
+      "type": "string"
+    },
+    {
       "name": "standards_targets_uri_en",
       "title": "URL to Service Standards and Targets (English)",
       "description": "Identifies the departmental webpage (Canada.ca) where the service standards and targets are published.",
@@ -145,8 +175,23 @@
       }
     },
     {
+      "name": "standards_targets_uri_fr",
+      "title": "URL to Service Standards and Targets (French)",
+      "description": "Identifies the departmental webpage (Canada.ca) where the service standards and targets are published.",
+      "type": "string",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
       "name": "performance_results_uri_en",
       "title": "URL to Real-Time Performance Results (English)",
+      "description": "Identifies the departmental webpage where the real-time performance results for a service are published.",
+      "type": "string"
+    },
+    {
+      "name": "performance_results_uri_fr",
+      "title": "URL to Real-Time Performance Results (French)",
       "description": "Identifies the departmental webpage where the real-time performance results for a service are published.",
       "type": "string"
     }
