@@ -1,6 +1,6 @@
 # Choices for client_feedback_channel
 
-Generated 2025-07-26T00:22:21 UTC
+Generated 2025-07-26T00:47:44 UTC
 
 | Code | Label (EN) | Label (FR) |
 |------|------------|------------|
