@@ -2,9 +2,9 @@
 # Proactive Publication - Use of Administrative Aircraft / Publication proactive - Utilisation des avions d'affaires
 
 **Dataset Type:** `adminaircraft`  
-**Last Generated:** 2025-07-26T00:51:06 (UTC)  
+**Last Generated:** 2025-07-27T01:50:55 (UTC)  
 **Source:** dictionaries/adminaircraft.json  
-**Commit:** `e94e602`
+**Commit:** `99b3948`
 
 Access, upload and modify government administrative aircraft use / Accès, téléversement et modifications des rapports sur la utilisation des avions d'affaires
 
@@ -197,7 +197,7 @@ FR: Ce champ affichera le titre du ministre qui a demandé le voyage.
 
 **Type:** `text`  
 **Required:** Yes  
-**Validation:** This field must not be empty / This field must not be empty  
+**Validation:** This field must not be empty / Ce champ ne doit pas être vide  
 
 
 **Description:**  
@@ -345,9 +345,9 @@ FR: Ce champ affichera tout renseignement supplémentaire, en français, selon l
 
 ### Generation Metadata
 
-- Generated: 2025-07-26T00:51:06 (UTC)
+- Generated: 2025-07-27T01:50:55 (UTC)
 - Source: dictionaries/adminaircraft.json
-- Commit: `e94e602`
+- Commit: `99b3948`
 - Tool Version: simple-1
 
 ### Validation

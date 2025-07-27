@@ -2,9 +2,9 @@
 # Proactive Publication - Aggregated Contracts from -$10,000 to $10,000 / Publication proactive - Contrats agrégés de -10 000$ à 10 000$
 
 **Dataset Type:** `contractsa`  
-**Last Generated:** 2025-07-26T00:51:05 (UTC)  
+**Last Generated:** 2025-07-27T01:50:54 (UTC)  
 **Source:** dictionaries/contractsa.json  
-**Commit:** `e94e602`
+**Commit:** `99b3948`
 
 Access, upload and modify the aggregated Contracts from -$10K to $10K reports for your organization / Accès, téléversement et modification des rapports sur les Contrats agrégés de -10 000$ à 10 000$ pour votre organisation
 
@@ -212,9 +212,9 @@ FR: Il est recommandé de saisir dans ce champ la somme des montants de toutes l
 
 ### Generation Metadata
 
-- Generated: 2025-07-26T00:51:05 (UTC)
+- Generated: 2025-07-27T01:50:54 (UTC)
 - Source: dictionaries/contractsa.json
-- Commit: `e94e602`
+- Commit: `99b3948`
 - Tool Version: simple-1
 
 ### Validation
