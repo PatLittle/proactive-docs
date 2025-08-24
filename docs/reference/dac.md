@@ -2,9 +2,9 @@
 # Proactive Publication - Departmental Audit Committee / Publication proactive - Comités ministériels d’audit
 
 **Dataset Type:** `dac`  
-**Last Generated:** 2025-08-17T01:43:36 (UTC)  
+**Last Generated:** 2025-08-24T01:40:03 (UTC)  
 **Source:** dictionaries/dac.json  
-**Commit:** `44bc71e`
+**Commit:** `ece18ac`
 
 Access, upload and modify your Departmental Audit Committee members’ remuneration and expenses. / Accès, téléversement et modification de la rémunération et des dépenses des membres de votre Comité ministériel d’audit.
 
@@ -47,7 +47,7 @@ Access, upload and modify your Departmental Audit Committee members’ remunerat
 
 **Type:** `text`  
 **Required:** Yes  
-**Choice Set:** reporting_period (28 values)  
+**Choice Set:** reporting_period (32 values)  
 
 
 **Description:**  
@@ -87,6 +87,10 @@ FR: La période de déclaration et l’exercice financier en cours.
 | `2024-2025-Q2` | 2024-2025-Q2 | 2024-2025-Q2 |
 | `2024-2025-Q3` | 2024-2025-Q3 | 2024-2025-Q3 |
 | `2024-2025-Q4` | 2024-2025-Q4 | 2024-2025-Q4 |
+| `2025-2026-Q1` | 2025-2026-Q1 | 2025-2026-Q1 |
+| `2025-2026-Q2` | 2025-2026-Q2 | 2025-2026-Q2 |
+| `2025-2026-Q3` | 2025-2026-Q3 | 2025-2026-Q3 |
+| `2025-2026-Q4` | 2025-2026-Q4 | 2025-2026-Q4 |
 
 
 
@@ -272,9 +276,9 @@ FR: Toute autre information pertinente (par exemple, une description des activit
 
 ### Generation Metadata
 
-- Generated: 2025-08-17T01:43:36 (UTC)
+- Generated: 2025-08-24T01:40:03 (UTC)
 - Source: dictionaries/dac.json
-- Commit: `44bc71e`
+- Commit: `ece18ac`
 - Tool Version: simple-1
 
 ### Validation
