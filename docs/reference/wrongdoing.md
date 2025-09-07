@@ -2,9 +2,9 @@
 # Proactive Publication - Acts of Founded Wrongdoing / Publication proactive - Dossiers sur les actes répréhensibles fondés
 
 **Dataset Type:** `wrongdoing`  
-**Last Generated:** 2025-08-31T01:26:28 (UTC)  
+**Last Generated:** 2025-09-07T01:28:14 (UTC)  
 **Source:** dictionaries/wrongdoing.json  
-**Commit:** `24250a1`
+**Commit:** `8bf7f8c`
 
 Access, upload and modify the Acts of Founded Wrongdoing reports for your organization / Accès, téléversement et modifications des dossiers sur les actes répréhensibles fondés pour votre organisation
 
@@ -171,9 +171,9 @@ FR: Cette zone renferme les recommandations et mesures correctives en français,
 
 ### Generation Metadata
 
-- Generated: 2025-08-31T01:26:28 (UTC)
+- Generated: 2025-09-07T01:28:14 (UTC)
 - Source: dictionaries/wrongdoing.json
-- Commit: `24250a1`
+- Commit: `8bf7f8c`
 - Tool Version: simple-1
 
 ### Validation
