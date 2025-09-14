@@ -2,9 +2,9 @@
 # Proactive Publication - Briefing Note Titles and Numbers / Publication proactive - Titres et numéros des notes d’information
 
 **Dataset Type:** `briefingt`  
-**Last Generated:** 2025-09-07T01:26:05 (UTC)  
+**Last Generated:** 2025-09-14T01:24:40 (UTC)  
 **Source:** dictionaries/briefingt.json  
-**Commit:** `8bf7f8c`
+**Commit:** `322574e`
 
 Access, upload and modify the Briefing Note Titles and Numbers reports for your organization / Accès, téléversement et modifications des rapports sur les titres at numéros des notes d’information pour votre organisation
 
@@ -264,9 +264,9 @@ FR: Cet onglet/champ du modèle n’est rempli que s'il n'y a pas de notes de br
 
 ### Generation Metadata
 
-- Generated: 2025-09-07T01:26:05 (UTC)
+- Generated: 2025-09-14T01:24:40 (UTC)
 - Source: dictionaries/briefingt.json
-- Commit: `8bf7f8c`
+- Commit: `322574e`
 - Tool Version: simple-1
 
 ### Validation

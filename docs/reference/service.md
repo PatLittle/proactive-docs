@@ -2,9 +2,9 @@
 # Service Inventory / Répertoire de services
 
 **Dataset Type:** `service`  
-**Last Generated:** 2025-09-07T01:24:59 (UTC)  
+**Last Generated:** 2025-09-14T01:24:37 (UTC)  
 **Source:** dictionaries/service.json  
-**Commit:** `8bf7f8c`
+**Commit:** `322574e`
 
 Access, upload and modify the Service Inventory of external and internal enterprise services for your organization / Accèder, téléverser et modifier le catalogue des service internes intégrés et externes pour votre organisation
 
@@ -2703,9 +2703,9 @@ FR: Indique la page Web (en anglais) sur laquelle les résultats de rendement en
 
 ### Generation Metadata
 
-- Generated: 2025-09-07T01:24:59 (UTC)
+- Generated: 2025-09-14T01:24:37 (UTC)
 - Source: dictionaries/service.json
-- Commit: `8bf7f8c`
+- Commit: `322574e`
 - Tool Version: simple-1
 
 ### Validation
