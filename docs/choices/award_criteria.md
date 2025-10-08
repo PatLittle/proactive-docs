@@ -1,6 +1,6 @@
 # Choices for award_criteria
 
-Generated 2025-10-08T20:23:50 UTC
+Generated 2025-10-08T20:34:32 UTC
 
 | Code | Label (EN) | Label (FR) |
 |------|------------|------------|
