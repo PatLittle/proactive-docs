@@ -1,6 +1,6 @@
 # Choices for os_authentication
 
-Generated 2025-10-08T22:26:24 UTC
+Generated 2025-10-08T23:20:15 UTC
 
 | Code | Label (EN) | Label (FR) |
 |------|------------|------------|
