@@ -1,0 +1,1357 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="light">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        <link rel="canonical" href="https://patlittle.github.io/proactive-docs/reference/aistrategy/">
+        <link rel="shortcut icon" href="../../img/favicon.ico">
+        <title>AI Strategy Implementation Tracker / Outil de suivi de la mise en œuvre de la stratégie en matière d'IA - Proactive Docs</title>
+        <link href="../../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../../css/fontawesome.min.css" rel="stylesheet">
+        <link href="../../css/brands.min.css" rel="stylesheet">
+        <link href="../../css/solid.min.css" rel="stylesheet">
+        <link href="../../css/v4-font-face.min.css" rel="stylesheet">
+        <link href="../../css/base.css" rel="stylesheet">
+        <link id="hljs-light" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" >
+        <link id="hljs-dark" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github-dark.min.css" disabled>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+        <script>hljs.highlightAll();</script> 
+    </head>
+
+    <body>
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href="../..">Proactive Docs</a>
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar-collapse" aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="nav-item">
+                                <a href="../.." class="nav-link">Home</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"  aria-expanded="false">Dataset Reference</a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../index.md" class="dropdown-item">Overview</a>
+</li>
+                                    
+<li>
+    <a href="../adminaircraft/" class="dropdown-item">adminaircraft</a>
+</li>
+                                    
+<li>
+    <a href="../ati/" class="dropdown-item">ati</a>
+</li>
+                                    
+<li>
+    <a href="../briefingt/" class="dropdown-item">briefingt</a>
+</li>
+                                    
+<li>
+    <a href="../consultations/" class="dropdown-item">consultations</a>
+</li>
+                                    
+<li>
+    <a href="../contracts/" class="dropdown-item">contracts</a>
+</li>
+                                    
+<li>
+    <a href="../contractsa/" class="dropdown-item">contractsa</a>
+</li>
+                                    
+<li>
+    <a href="../dac/" class="dropdown-item">dac</a>
+</li>
+                                    
+<li>
+    <a href="../experiment/" class="dropdown-item">experiment</a>
+</li>
+                                    
+<li>
+    <a href="../grants/" class="dropdown-item">grants</a>
+</li>
+                                    
+<li>
+    <a href="../hospitalityq/" class="dropdown-item">hospitalityq</a>
+</li>
+                                    
+<li>
+    <a href="../inventory/" class="dropdown-item">inventory</a>
+</li>
+                                    
+<li>
+    <a href="../nap5/" class="dropdown-item">nap5</a>
+</li>
+                                    
+<li>
+    <a href="../qpnotes/" class="dropdown-item">qpnotes</a>
+</li>
+                                    
+<li>
+    <a href="../service/" class="dropdown-item">service</a>
+</li>
+                                    
+<li>
+    <a href="../travela/" class="dropdown-item">travela</a>
+</li>
+                                    
+<li>
+    <a href="../travelq/" class="dropdown-item">travelq</a>
+</li>
+                                    
+<li>
+    <a href="../wrongdoing/" class="dropdown-item">wrongdoing</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../../choices/" class="nav-link">Choice Lists</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"  aria-expanded="false">CKAN Schemas</a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../ckan/" class="dropdown-item">Overview</a>
+</li>
+                                    
+<li>
+    <a href="../../ckan/dataset/" class="dropdown-item">dataset</a>
+</li>
+                                    
+<li>
+    <a href="../../ckan/info/" class="dropdown-item">info</a>
+</li>
+                                    
+<li>
+    <a href="../../ckan/organization/" class="dropdown-item">organization</a>
+</li>
+                                    
+<li>
+    <a href="../../ckan/prop/" class="dropdown-item">prop</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a href="../../validator/" class="nav-link">CSV Validator</a>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav ms-md-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-bs-toggle="modal" data-bs-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                            <li class="nav-item">
+                                <a href="https://github.com/PatLittle/proactive-docs/edit/master/docs/reference/aistrategy.md" class="nav-link"><i class="fa-brands fa-github"></i> Edit on GitHub</a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-3"><div class="navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-bs-toggle="collapse" data-bs-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
+        </button>
+    </div>
+
+    
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-body-tertiary">
+        <ul class="nav flex-column">
+            
+            <li class="nav-item" data-bs-level="1"><a href="#ai-strategy-implementation-tracker-outil-de-suivi-de-la-mise-en-uvre-de-la-strategie-en-matiere-dia" class="nav-link">AI Strategy Implementation Tracker / Outil de suivi de la mise en œuvre de la stratégie en matière d'IA</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-bs-level="2"><a href="#resources" class="nav-link">Resources</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#ai-strategy-implementation-tracker-outil-de-suivi-de-la-mise-en-uvre-de-la-strategie-en-matiere-dia_1" class="nav-link">AI Strategy Implementation Tracker / Outil de suivi de la mise en œuvre de la stratégie en matière d'IA</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#appendix" class="nav-link">Appendix</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+        </ul>
+    </div>
+</div></div>
+                    <div class="col-md-9" role="main">
+
+<h1 id="ai-strategy-implementation-tracker-outil-de-suivi-de-la-mise-en-uvre-de-la-strategie-en-matiere-dia">AI Strategy Implementation Tracker / Outil de suivi de la mise en œuvre de la stratégie en matière d'IA<a class="headerlink" href="#ai-strategy-implementation-tracker-outil-de-suivi-de-la-mise-en-uvre-de-la-strategie-en-matiere-dia" title="Permanent link">#</a></h1>
+<p><strong>Dataset Type:</strong> <code>aistrategy</code><br />
+<strong>Last Generated:</strong> 2025-10-08T20:12:48 (UTC)<br />
+<strong>Source:</strong> dictionaries/aistrategy.json<br />
+<strong>Commit:</strong> <code>6af3f8d</code></p>
+<p>Access, upload and modify the AI Strategy Implementation Tracker for your organization / Accédez, téléchargez et modifiez l'outil de la mise en œuvre de la stratégie en matière d'IA pour votre organisation</p>
+<hr />
+<h2 id="resources">Resources<a class="headerlink" href="#resources" title="Permanent link">#</a></h2>
+<ul>
+<li><a href="#aistrategy">AI Strategy Implementation Tracker / Outil de suivi de la mise en œuvre de la stratégie en matière d'IA</a></li>
+</ul>
+<hr />
+<h2 id="ai-strategy-implementation-tracker-outil-de-suivi-de-la-mise-en-uvre-de-la-strategie-en-matiere-dia_1">AI Strategy Implementation Tracker / Outil de suivi de la mise en œuvre de la stratégie en matière d'IA<a class="headerlink" href="#ai-strategy-implementation-tracker-outil-de-suivi-de-la-mise-en-uvre-de-la-strategie-en-matiere-dia_1" title="Permanent link">#</a></h2>
+<h3 id="field-summary">Field Summary<a class="headerlink" href="#field-summary" title="Permanent link">#</a></h3>
+<table>
+<thead>
+<tr>
+<th>Field ID</th>
+<th>Label (EN / FR)</th>
+<th>Type</th>
+<th>Required</th>
+<th>Max Chars</th>
+<th>Choices</th>
+<th>Description (EN)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>ref_number</code></td>
+<td>Reference Number / Numéro de référence</td>
+<td><code>text</code></td>
+<td>Yes</td>
+<td></td>
+<td></td>
+<td>The unique number assigned to a service using AI to make it easier to refer to …</td>
+</tr>
+<tr>
+<td><code>reporting_period</code></td>
+<td>Reporting Period / Période de déclaration</td>
+<td><code>text</code></td>
+<td>Yes</td>
+<td></td>
+<td>reporting_period</td>
+<td>Year and month of the update</td>
+</tr>
+<tr>
+<td><code>priority_area</code></td>
+<td>Priority Area / Domaine Prioritaire</td>
+<td><code>text</code></td>
+<td>Yes</td>
+<td></td>
+<td>priority_area</td>
+<td>The strategic focus area within the AI Strategy Implementation</td>
+</tr>
+<tr>
+<td><code>key_action</code></td>
+<td>Key Action / Action Clé</td>
+<td><code>text</code></td>
+<td>Yes</td>
+<td></td>
+<td>key_action</td>
+<td>The key action described in the AI Strategy</td>
+</tr>
+<tr>
+<td><code>sub_action</code></td>
+<td>Strategic sub-action / Sous-action stratégique</td>
+<td><code>text</code></td>
+<td>Yes</td>
+<td></td>
+<td>sub_action</td>
+<td>Specific sub-action under the AI Strategy</td>
+</tr>
+<tr>
+<td><code>activity</code></td>
+<td>Activity / Activité</td>
+<td><code>text</code></td>
+<td>Yes</td>
+<td></td>
+<td>activity</td>
+<td>Activity in support of the AI Strategy</td>
+</tr>
+<tr>
+<td><code>description_en</code></td>
+<td>Description (English) / Description (anglais)</td>
+<td><code>text</code></td>
+<td>No</td>
+<td></td>
+<td></td>
+<td>Operational description in the AI Strategy</td>
+</tr>
+<tr>
+<td><code>description_fr</code></td>
+<td>Description (French) / Description (français)</td>
+<td><code>text</code></td>
+<td>No</td>
+<td></td>
+<td></td>
+<td>Operational description in the AI Strategy</td>
+</tr>
+<tr>
+<td><code>expected_completion</code></td>
+<td>Expected Completion / Achèvement attendu</td>
+<td><code>text</code></td>
+<td>Yes</td>
+<td></td>
+<td>expected_completion</td>
+<td>Completion of activity</td>
+</tr>
+<tr>
+<td><code>lead_department</code></td>
+<td>Lead Department(s) / Ministère(s) responsable(s)</td>
+<td><code>_text</code></td>
+<td>Yes</td>
+<td></td>
+<td>lead_department</td>
+<td>Primary departments involved</td>
+</tr>
+<tr>
+<td><code>status</code></td>
+<td>Status / État</td>
+<td><code>text</code></td>
+<td>Yes</td>
+<td></td>
+<td>status</td>
+<td>AI Strategy tracker status</td>
+</tr>
+<tr>
+<td><code>progress_en</code></td>
+<td>Progress Made (English) / Progrès réalisés (anglais)</td>
+<td><code>text</code></td>
+<td>No</td>
+<td></td>
+<td></td>
+<td>Describes any progress made</td>
+</tr>
+<tr>
+<td><code>progress_fr</code></td>
+<td>Progress Made (French) / Progrès réalisés (français)</td>
+<td><code>text</code></td>
+<td>No</td>
+<td></td>
+<td></td>
+<td>Describes any progress made</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Legend:</strong> <em>Required</em> = must appear in uploads; <em>Choices</em> = enumerated allowed values (shows choice set name when multiple sets exist).</p>
+<h3 id="detailed-fields">Detailed Fields<a class="headerlink" href="#detailed-fields" title="Permanent link">#</a></h3>
+<h4 id="ref_number-reference-number-numero-de-reference"><code>ref_number</code> – Reference Number / Numéro de référence<a class="headerlink" href="#ref_number-reference-number-numero-de-reference" title="Permanent link">#</a></h4>
+<p><strong>Type:</strong> <code>text</code><br />
+<strong>Required:</strong> Yes<br />
+<strong>Validation:</strong> This field must not be empty.
+This field cannot contain commas.
+ / Ce champ ne doit pas être vide.
+Ce champ ne peut pas contenir de virgules.</p>
+<p><strong>Description:</strong><br />
+EN: The unique number assigned to a service using AI to make it easier to refer to specific services.<br />
+FR: Le numéro unique attribué à un service à l'aide de l'IA pour faciliter le référencement à des services précis.</p>
+<hr />
+<h4 id="reporting_period-reporting-period-periode-de-declaration"><code>reporting_period</code> – Reporting Period / Période de déclaration<a class="headerlink" href="#reporting_period-reporting-period-periode-de-declaration" title="Permanent link">#</a></h4>
+<p><strong>Type:</strong> <code>text</code><br />
+<strong>Required:</strong> Yes<br />
+<strong>Validation:</strong> Must match expected completion options in the controlled list. / Doit correspondre aux options d'achèvement prévues de la liste contrôlée.<br />
+<strong>Choice Set:</strong> reporting_period (8 values)  </p>
+<p><strong>Description:</strong><br />
+EN: Year and month of the update<br />
+FR: Année et mois de la mise à jour</p>
+<h5 id="allowed-values-reporting_period">Allowed Values (reporting_period)<a class="headerlink" href="#allowed-values-reporting_period" title="Permanent link">#</a></h5>
+<table>
+<thead>
+<tr>
+<th>Code</th>
+<th>Label (EN)</th>
+<th>Label (FR)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>2025-Q3</code></td>
+<td>2025-Q3</td>
+<td>2025-T3</td>
+</tr>
+<tr>
+<td><code>2025-Q4</code></td>
+<td>2025-Q4</td>
+<td>2025-T4</td>
+</tr>
+<tr>
+<td><code>2026-Q1</code></td>
+<td>2026-Q1</td>
+<td>2026-T1</td>
+</tr>
+<tr>
+<td><code>2026-Q2</code></td>
+<td>2026-Q2</td>
+<td>2026-T2</td>
+</tr>
+<tr>
+<td><code>2026-Q3</code></td>
+<td>2026-Q3</td>
+<td>2026-T3</td>
+</tr>
+<tr>
+<td><code>2026-Q4</code></td>
+<td>2026-Q4</td>
+<td>2026-T4</td>
+</tr>
+<tr>
+<td><code>2027-Q1</code></td>
+<td>2027-Q1</td>
+<td>2027-T1</td>
+</tr>
+<tr>
+<td><code>2027-Q2</code></td>
+<td>2027-Q2</td>
+<td>2027-T2</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h4 id="priority_area-priority-area-domaine-prioritaire"><code>priority_area</code> – Priority Area / Domaine Prioritaire<a class="headerlink" href="#priority_area-priority-area-domaine-prioritaire" title="Permanent link">#</a></h4>
+<p><strong>Type:</strong> <code>text</code><br />
+<strong>Required:</strong> Yes<br />
+<strong>Validation:</strong> Must match one of the values in the controlled list. / Doit correspondre à l'une des valeurs de la liste contrôlée.<br />
+<strong>Choice Set:</strong> priority_area (4 values)  </p>
+<p><strong>Description:</strong><br />
+EN: The strategic focus area within the AI Strategy Implementation<br />
+FR: Le domaine d'action stratégique dans le cadre de la mise en œuvre de la stratégie en matière d'IA</p>
+<h5 id="allowed-values-priority_area">Allowed Values (priority_area)<a class="headerlink" href="#allowed-values-priority_area" title="Permanent link">#</a></h5>
+<table>
+<thead>
+<tr>
+<th>Code</th>
+<th>Label (EN)</th>
+<th>Label (FR)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>A</code></td>
+<td>Central AI Capacity</td>
+<td>Capacité centrale d’IA</td>
+</tr>
+<tr>
+<td><code>B</code></td>
+<td>Policy, Legislation, and Governance</td>
+<td>Politiques, lois et gouvernance</td>
+</tr>
+<tr>
+<td><code>C</code></td>
+<td>Talent and Training</td>
+<td>Talents et formation</td>
+</tr>
+<tr>
+<td><code>D</code></td>
+<td>Engagement, Transparency, and Value to Canadians</td>
+<td>Engagement, transparence et valeur pour les Canadiens</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h4 id="key_action-key-action-action-cle"><code>key_action</code> – Key Action / Action Clé<a class="headerlink" href="#key_action-key-action-action-cle" title="Permanent link">#</a></h4>
+<p><strong>Type:</strong> <code>text</code><br />
+<strong>Required:</strong> Yes<br />
+<strong>Validation:</strong> Must match predefined action statements. / Doit correspondre à des déclarations d'action prédéfinies.<br />
+<strong>Choice Set:</strong> key_action (12 values)  </p>
+<p><strong>Description:</strong><br />
+EN: The key action described in the AI Strategy<br />
+FR: L'action clé décrite dans la stratégie en matière d'IA</p>
+<h5 id="allowed-values-key_action">Allowed Values (key_action)<a class="headerlink" href="#allowed-values-key_action" title="Permanent link">#</a></h5>
+<table>
+<thead>
+<tr>
+<th>Code</th>
+<th>Label (EN)</th>
+<th>Label (FR)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>A.1</code></td>
+<td>Establish an AI Centre of Expertise for the Government of Canada</td>
+<td>Établir un Centre d’expertise en IA pour le gouvernement du Canada</td>
+</tr>
+<tr>
+<td><code>A.2</code></td>
+<td>Enable common infrastructure for AI adoption and promote adoption of existing approved enterprise solutions</td>
+<td>Mettre en place une infrastructure commune pour permettre l’adoption de l’IA et favoriser l’utilisation des solutions intégrées existantes qui sont autorisées</td>
+</tr>
+<tr>
+<td><code>A.3</code></td>
+<td>Identify and develop a lighthouse project</td>
+<td>Cerner et élaborer un projet phare</td>
+</tr>
+<tr>
+<td><code>B.1</code></td>
+<td>Establish common AI governance and risk management frameworks</td>
+<td>Établir des cadres communs de gouvernance et de gestion des risques en matière d&#39;IA</td>
+</tr>
+<tr>
+<td><code>B.2</code></td>
+<td>Address policy and legislative alignment, gaps, and barriers</td>
+<td>Surmonter les lacunes, les obstacles et le manque d’harmonie dans les politiques et lois</td>
+</tr>
+<tr>
+<td><code>B.3</code></td>
+<td>Adopt a “think AI” approach</td>
+<td>Adopter une approche axée sur l’IA</td>
+</tr>
+<tr>
+<td><code>C.1</code></td>
+<td>Benchmark talent needs</td>
+<td>Évaluer les besoins en matière de talents</td>
+</tr>
+<tr>
+<td><code>C.2</code></td>
+<td>Develop a training plan</td>
+<td>Élaborer un plan de formation</td>
+</tr>
+<tr>
+<td><code>C.3</code></td>
+<td>Develop a talent plan</td>
+<td>Élaborer un plan de gestion des talents</td>
+</tr>
+<tr>
+<td><code>D.1</code></td>
+<td>Strengthen accountability and transparency on AI use</td>
+<td>Accroître la responsabilisation et la transparence quant à l’utilisation de l’IA</td>
+</tr>
+<tr>
+<td><code>D.2</code></td>
+<td>Demonstrate impact and value to Canadians</td>
+<td>Démontrer l’incidence et la valeur pour les Canadiens</td>
+</tr>
+<tr>
+<td><code>D.3</code></td>
+<td>Commit to engagement on AI</td>
+<td>Prendre des engagements de mobilisation sur l’IA</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h4 id="sub_action-strategic-sub-action-sous-action-strategique"><code>sub_action</code> – Strategic sub-action / Sous-action stratégique<a class="headerlink" href="#sub_action-strategic-sub-action-sous-action-strategique" title="Permanent link">#</a></h4>
+<p><strong>Type:</strong> <code>text</code><br />
+<strong>Required:</strong> Yes<br />
+<strong>Validation:</strong> Must match one of the AI Strategy defined sub-action statements. / Doit correspondre à l'une des sous-actions définies dans la stratégie IA.<br />
+<strong>Choice Set:</strong> sub_action (34 values)  </p>
+<p><strong>Description:</strong><br />
+EN: Specific sub-action under the AI Strategy<br />
+FR: Sous-action spécifique dans le cadre de la stratégie d'IA</p>
+<h5 id="allowed-values-sub_action">Allowed Values (sub_action)<a class="headerlink" href="#allowed-values-sub_action" title="Permanent link">#</a></h5>
+<table>
+<thead>
+<tr>
+<th>Code</th>
+<th>Label (EN)</th>
+<th>Label (FR)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>A.1.1</code></td>
+<td>Establish an AI Centre of Expertise for the Government of Canada</td>
+<td>Créer un centre d&#39;expertise en IA pour le gouvernement du Canada</td>
+</tr>
+<tr>
+<td><code>A.1.2</code></td>
+<td>Identify high value use cases for AI Integration</td>
+<td>Identifier les cas d&#39;utilisation à forte valeur ajoutée pour l&#39;intégration de l&#39;IA</td>
+</tr>
+<tr>
+<td><code>A.2.1</code></td>
+<td>Provide high-performance computing (HPC) and cloud infrastructure that is available, secure, and scalable to meet the demands of AI projects</td>
+<td>Fournir une infrastructure de calcul haute performance (CHP) et d&#39;informatique en nuage disponible, sécurisée et évolutive pour répondre aux exigences des projets d&#39;IA</td>
+</tr>
+<tr>
+<td><code>A.2.2</code></td>
+<td>Provide common data and information management systems and practices to support sharing, scaling, and agentic capabilities across Government of Canada platforms</td>
+<td>Fournir des systèmes et des pratiques communs de gestion des données et de l&#39;information pour soutenir le partage, l&#39;extension et les capacités agentiques à travers les plateformes du gouvernement du Canada</td>
+</tr>
+<tr>
+<td><code>A.2.3</code></td>
+<td>Provide access to approved models, services, and application programming interfaces (APIs) within common Government of Canada cloud platforms to build or deploy systems</td>
+<td>Fournir un accès aux modèles, services et interfaces de programmation d&#39;applications (API) approuvés au sein des plates-formes en nuage communes du gouvernement du Canada pour construire ou déployer des systèmes</td>
+</tr>
+<tr>
+<td><code>A.2.4</code></td>
+<td>Provide access to common AI solutions and capabilities in vendor solutions through a standard Government of Canada platform service</td>
+<td>Fournir un accès aux solutions et capacités communes en matière d&#39;IA dans les solutions des fournisseurs par l&#39;intermédiaire d&#39;un service de plateforme standard du gouvernement du Canada</td>
+</tr>
+<tr>
+<td><code>A.2.5</code></td>
+<td>Support Canadian suppliers and vendors to promote the growth of the Canadian AI industry and ensure secure sovereign infrastructure and solutions</td>
+<td>Soutenir les fournisseurs et les vendeurs canadiens afin de promouvoir la croissance de l&#39;industrie canadienne de l&#39;IA et de garantir la sécurité des infrastructures et des solutions souveraines</td>
+</tr>
+<tr>
+<td><code>A.3.1</code></td>
+<td>Self-serve language hub for the Government of Canada</td>
+<td>Carrefour linguistique libre-service pour le gouvernement du Canada</td>
+</tr>
+<tr>
+<td><code>B.1.1</code></td>
+<td>Establish common governance framework for the AI lifecycle to provide clear guidance to AI project teams</td>
+<td>Établir un cadre de gouvernance commun pour le cycle de vie de l&#39;IA afin de fournir des orientations claires aux équipes chargées des projets d&#39;IA</td>
+</tr>
+<tr>
+<td><code>B.1.2</code></td>
+<td>Establish a common risk management framework for the AI lifecycle</td>
+<td>Établir un cadre commun de gestion des risques pour le cycle de vie de l&#39;IA</td>
+</tr>
+<tr>
+<td><code>B.1.3</code></td>
+<td>Establish a government-wide governance structure</td>
+<td>Établir une structure de gouvernance à l&#39;échelle du gouvernement</td>
+</tr>
+<tr>
+<td><code>B.2.1</code></td>
+<td>Review, identify and address legal and policy gaps and ambiguities</td>
+<td>Examiner, identifier et traiter les lacunes et les ambiguïtés juridiques et politiques</td>
+</tr>
+<tr>
+<td><code>B.2.2</code></td>
+<td>Develop agile process to review and update policy, guidance, tools and resources</td>
+<td>Développer un processus agile pour réviser et mettre à jour la politique, les orientations, les outils et les ressources</td>
+</tr>
+<tr>
+<td><code>B.2.3</code></td>
+<td>Identify opportunities to synthesize or interpret existing policy to increase usability</td>
+<td>Identifier les possibilités de synthétiser ou d&#39;interpréter la politique existante afin d&#39;en améliorer l&#39;utilité</td>
+</tr>
+<tr>
+<td><code>B.2.4</code></td>
+<td>Update procurement policies, instruments, and processes</td>
+<td>Mettre à jour les politiques, les instruments et les procédures de passation de marchés</td>
+</tr>
+<tr>
+<td><code>B.2.5</code></td>
+<td>Align internal AI policy with domestic policy or law and with international treaties, legislation and norms</td>
+<td>Aligner la politique interne en matière d&#39;IA sur la politique ou la législation nationale, ainsi que sur les traités, la législation et les normes internationales</td>
+</tr>
+<tr>
+<td><code>B.3.1</code></td>
+<td>Adopt a &#34;think AI&#34; approach</td>
+<td>Adopter une approche axée sur l’IA</td>
+</tr>
+<tr>
+<td><code>C.1.1</code></td>
+<td>Assess talent needs</td>
+<td>Évaluer les besoins en talents</td>
+</tr>
+<tr>
+<td><code>C.2.1</code></td>
+<td>Develop a training plan</td>
+<td>Élaborer un plan de formation</td>
+</tr>
+<tr>
+<td><code>C.3.1</code></td>
+<td>Explore obstacles to recruitment and retention and ways to establish flexible data science career pathways for AI practitioners</td>
+<td>Explorer les obstacles au recrutement et à la fidélisation et les moyens d&#39;établir des parcours de carrière flexibles en science des données pour les praticiens de l&#39;IA</td>
+</tr>
+<tr>
+<td><code>C.3.2</code></td>
+<td>Expand interchanges, apprenticeships, co-op programs, and partnerships with AI institutes and research centres to create a talent pipeline</td>
+<td>Développer les échanges, l&#39;apprentissage, les programmes coopératifs et les partenariats avec les instituts d&#39;IA et les centres de recherche pour créer un vivier de talents</td>
+</tr>
+<tr>
+<td><code>C.3.3</code></td>
+<td>Optimize use of AI talent through flexible assignments</td>
+<td>Optimiser l&#39;utilisation des talents en IA grâce à des affectations flexibles</td>
+</tr>
+<tr>
+<td><code>C.3.4</code></td>
+<td>Competitions and challenges to meet some project-based needs</td>
+<td>Compétitions et défis pour répondre à certains besoins liés à des projets</td>
+</tr>
+<tr>
+<td><code>D.1.1</code></td>
+<td>Strengthen and clarify accountabilities for AI use in policy</td>
+<td>Renforcer et clarifier les responsabilités en matière d&#39;utilisation de l&#39;IA dans les politiques</td>
+</tr>
+<tr>
+<td><code>D.1.2</code></td>
+<td>New requirements and standard language for the disclosure of AI use, explanations of how an AI system reaches a decision, and information about rights and protections, including how to seek explanations or recourse and how to report problems</td>
+<td>De nouvelles exigences et un langage standard pour la divulgation de l&#39;utilisation de l&#39;IA, des explications sur la manière dont un système d&#39;IA prend une décision, et des informations sur les droits et les protections, y compris la manière de demander des explications ou des recours et de signaler les problèmes</td>
+</tr>
+<tr>
+<td><code>D.1.3</code></td>
+<td>Identification of AI capabilities and uses that GC will not pursue</td>
+<td>Identification des capacités et des utilisations de l&#39;IA que le GC ne poursuivra pas</td>
+</tr>
+<tr>
+<td><code>D.1.4</code></td>
+<td>Establishment of a public register of its AI systems within a defined scope</td>
+<td>Mise en place d&#39;un registre public de ses systèmes d&#39;IA dans un périmètre défini</td>
+</tr>
+<tr>
+<td><code>D.1.5</code></td>
+<td>Develop and publish alternative oversight processes for systems that cannot be included in register</td>
+<td>Élaborer et publier des processus de surveillance alternatifs pour les systèmes qui ne peuvent pas être inclus dans le registre</td>
+</tr>
+<tr>
+<td><code>D.2.1</code></td>
+<td>Develop metrics and performance indicators to demonstrate the impact and value of AI initiatives</td>
+<td>Élaborer des mesures et des indicateurs de performance pour démontrer l&#39;impact et la valeur des initiatives en matière d&#39;intelligence artificielle</td>
+</tr>
+<tr>
+<td><code>D.2.2</code></td>
+<td>Develop a framework to track AI adoption</td>
+<td>Élaborer un cadre pour suivre l&#39;adoption de l&#39;IA</td>
+</tr>
+<tr>
+<td><code>D.3.1</code></td>
+<td>Commitment to early and meaningful public and stakeholder engagement on AI initiatives of significant public interest or concern, including targeted engagement of communities that face greater impacts, risks or barriers from AI systems</td>
+<td>Engagement en faveur d&#39;une participation précoce et significative du public et des parties prenantes aux initiatives d&#39;IA présentant un intérêt ou une préoccupation publique importants, y compris une participation ciblée des communautés qui sont confrontées à des impacts, des risques ou des obstacles plus importants liés aux systèmes d&#39;IA</td>
+</tr>
+<tr>
+<td><code>D.3.2</code></td>
+<td>Union and employee engagement on workforce impacts</td>
+<td>L&#39;engagement des syndicats et des employés sur l&#39;impact de la main-d&#39;oeuvre</td>
+</tr>
+<tr>
+<td><code>D.3.3</code></td>
+<td>Client participation in system design to ensure that AI systems do not create or perpetuate barriers to access for clients</td>
+<td>Participation des clients à la conception du système afin de s&#39;assurer que les systèmes d&#39;IA ne créent pas ou ne perpétuent pas d&#39;obstacles à l&#39;accès pour les clients</td>
+</tr>
+<tr>
+<td><code>D.3.4</code></td>
+<td>Provide mechanisms for ongoing public feedback and questions on AI used by the federal government</td>
+<td>Mettre en place des mécanismes permettant au public de formuler des commentaires et des questions sur l&#39;IA utilisée par le gouvernement fédéral</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h4 id="activity-activity-activite"><code>activity</code> – Activity / Activité<a class="headerlink" href="#activity-activity-activite" title="Permanent link">#</a></h4>
+<p><strong>Type:</strong> <code>text</code><br />
+<strong>Required:</strong> Yes<br />
+<strong>Validation:</strong> Must match predefined activities. / Doit correspondre à des activités prédéfinies.<br />
+<strong>Choice Set:</strong> activity (58 values)  </p>
+<p><strong>Description:</strong><br />
+EN: Activity in support of the AI Strategy<br />
+FR: Activité de soutien à la stratégie en matière d'IA</p>
+<h5 id="allowed-values-activity">Allowed Values (activity)<a class="headerlink" href="#allowed-values-activity" title="Permanent link">#</a></h5>
+<table>
+<thead>
+<tr>
+<th>Code</th>
+<th>Label (EN)</th>
+<th>Label (FR)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>A.1.1.1</code></td>
+<td>Develop operating and business models, organizational and governance structures, key performance indicators, and ways to prioritize the use of the AI centre&#39;s resources</td>
+<td>Élaborer des modèles opérationnels et intégrés, des structures organisationnelles et de gouvernance, des indicateurs de rendement clés et des procédures visant à établir l’ordre de priorité de l’utilisation des ressources du Centre d’expertise en IA</td>
+</tr>
+<tr>
+<td><code>A.1.1.2</code></td>
+<td>Consolidate the AI communities of practice under an information hub to support knowledge sharing and prevent duplication</td>
+<td>Regrouper les communautés de pratique de l’IA sous un centre d’information afin d’améliorer l’échange des connaissances et d’éviter les chevauchements</td>
+</tr>
+<tr>
+<td><code>A.1.2.1</code></td>
+<td>Identify other high value use cases that could be pursued as lighthouse projects</td>
+<td>Cerner les cas d’utilisation ayant une grande valeur qui pourraient être réalisés en tant que projets phares</td>
+</tr>
+<tr>
+<td><code>A.2.1.1</code></td>
+<td>Provide high-performance computing (HPC) and cloud infrastructure that is available, secure, and scalable to meet the demands of AI projects</td>
+<td>Fournir une infrastructure infonuagique et des capacités de calcul à haute performance qui sont accessibles, sécurisées et évolutives afin de répondre aux exigences des projets d’IA</td>
+</tr>
+<tr>
+<td><code>A.2.2.1</code></td>
+<td>Provide common data and information management systems and practices to support sharing, scaling, and agentic capabilities across Government of Canada platforms</td>
+<td>Mettre en oeuvre des pratiques et des systèmes communs de gestion des données et de l’information pour appuyer les échanges, la mise à l’échelle et les capacités agentiques dans l’ensemble des plateformes du GC</td>
+</tr>
+<tr>
+<td><code>A.2.3.1</code></td>
+<td>Provide access to approved models, services, and application programming interfaces (APIs) within common Government of Canada cloud platforms to build or deploy systems</td>
+<td>Offrir l’accès à des services, des interfaces de programmation d’applications (API) et des modèles autorisés dans les plateformes infonuagiques communes du GC pour concevoir ou déployer des systèmes</td>
+</tr>
+<tr>
+<td><code>A.2.4.1</code></td>
+<td>Provide access to common AI solutions and capabilities in vendor solutions through a standard Government of Canada platform service</td>
+<td>Donner l’accès à des solutions et capacités communes en matière d’IA dans les solutions de fournisseurs au moyen d’une plateforme de service standard du GC</td>
+</tr>
+<tr>
+<td><code>A.2.5.1</code></td>
+<td>Streamline the AI Source list and develop tools for institutions to procure faster with a focus on Canadian service providers</td>
+<td>Simplifier la liste des fournisseurs d’IA et créer des outils permettant aux institutions de réaliser des achats plus rapidement, en mettant l’accent sur les fournisseurs de services canadiens</td>
+</tr>
+<tr>
+<td><code>A.3.1.1</code></td>
+<td>Develop and scale machine translation tool using GC data, ensuring that translation services are provided at the same time and quality in both official languages</td>
+<td>Élaborer et déployer un outil de traduction automatique à partir des données du gouvernement du Canada, assurant l’accès à des services de traduction sécurisés disponibles en temps réel et de qualité égale dans les deux langues officielles</td>
+</tr>
+<tr>
+<td><code>A.3.1.2</code></td>
+<td>Document project processes and lessons to identify policy and procedural barriers, and project teams’ needs for support, to develop and test governance processes, and to demonstrate how AI can be successfully scaled where necessary for Government of Canada requirements</td>
+<td>Consigner les processus du projet et les leçons apprises pour repérer les obstacles liés aux politiques et aux procédures et les besoins des équipes de projet en matière de soutien. Cette procédure permet d’élaborer et de mettre à l’essai des processus de gouvernance et de démontrer la façon dont l’IA peut être mise à l’échelle avec succès pourraient être adaptés aux exigences du gouvernement du Canada, le cas échéant</td>
+</tr>
+<tr>
+<td><code>B.1.1.1</code></td>
+<td>Identify best practice departmental and international governance frameworks which could be adapted where necessary for Government of Canada requirements</td>
+<td>Cerner les pratiques exemplaires internationales et ministérielles sur les cadres de gouvernance qui pourraient être adaptés aux exigences du gouvernement du Canada, le cas échéant des organes de gouvernance ministériels et des propriétaires de solutions</td>
+</tr>
+<tr>
+<td><code>B.1.1.2</code></td>
+<td>Develop GC governance framework in a user-friendly format structured around the AI lifecycle with varying governance requirements according to system risk, sensitivity, and impact</td>
+<td>Établir un cadre de gouvernance pour le gouvernement du Canada dans un format convivial structuré en fonction du cycle de vie de l’IA avec des exigences de gouvernance variables selon les risques, la sensibilité et l’incidence des systèmes</td>
+</tr>
+<tr>
+<td><code>B.1.2.1</code></td>
+<td>Identify best practice risk frameworks which could be adapted where necessary for Government of Canada requirements</td>
+<td>Cerner les pratiques exemplaires sur les cadres de gestion des risques qui pourraient être adaptés aux exigences du gouvernement du Canada, le cas échéant</td>
+</tr>
+<tr>
+<td><code>B.1.3.1</code></td>
+<td>Scale PSPC’s Operational Ethics Review Board to become a government-wide AI ethics review board</td>
+<td>Élargir le Conseil d’examen de l’éthique opérationnelle de SPAC pour qu’il devienne un conseil d’examen de l’éthique en matière d’IA à l’échelle du gouvernement</td>
+</tr>
+<tr>
+<td><code>B.1.3.2</code></td>
+<td>Develop AI program governance structures for technical assessment and review, including determining role of existing bodies such as GCEARB</td>
+<td>Mettre sur pied des structures de gouvernance concernant le programme d’IA pour effectuer des évaluations et des examens techniques, notamment déterminer le rôle des organes existants comme le Conseil d’examen de l’architecture intégrée (CEAI) du gouvernement du Canada</td>
+</tr>
+<tr>
+<td><code>B.2.1.1</code></td>
+<td>Develop Policy Implementation Notice on AI roles and responsibilities, including those of chief information, data, privacy, and security offices, chief architects, departmental governance bodies, and solution owners</td>
+<td>Élaborer un avis de mise en œuvre de la politique sur les rôles et les responsabilités en matière d’IA, y compris ceux des dirigeants principaux de l’information et des données et les chefs de la protection des renseignements personnels et de la sécurité, des architectes en chef, des organes de gouvernance ministériels et des propriétaires de solutions</td>
+</tr>
+<tr>
+<td><code>B.2.1.2</code></td>
+<td>Define acceptable use of AI by outside organizations in their interactions with the Government of Canada, including AI meeting transcription tools</td>
+<td>Définir l’utilisation acceptable de l’IA par des organisations externes dans leurs interactions avec le gouvernement du Canada, y compris les outils d’IA pour la transcription de réunions</td>
+</tr>
+<tr>
+<td><code>B.2.1.3</code></td>
+<td>Address legal and policy ambiguities related to privacy and training data, including guidance on de-identification for data sharing</td>
+<td>Corriger les ambiguïtés juridiques et politiques liées aux données sur la protection de la vie privée et la formation, y compris des directives sur la dépersonnalisation pour l’échange des données</td>
+</tr>
+<tr>
+<td><code>B.2.1.4</code></td>
+<td>Define scope and application of national security systems in PSD s6.3 and the national security exemption in PIN</td>
+<td>Définir la portée et l’application des systèmes de sécurité nationale à la section 6.3 de la Politique sur les services et le numérique et l’exemption relative à la sécurité nationale dans un avis de mise en oeuvre de la politique</td>
+</tr>
+<tr>
+<td><code>B.2.2.1</code></td>
+<td>Establish agile process to review and update policy, guidance, tools and resources, develop new policy and guidance for emerging technologies and applications, and identify opportunities to synthesize or interpret existing policy to increase usability</td>
+<td>Établir un processus agile pour examiner et mettre à jour les politiques, les directives, les outils et les ressources, élaborer de nouvelles politiques et directives sur des technologies et des applications émergentes et cerner les possibilités de synthétiser ou d’interpréter les politiques existantes afin de les rendre plus faciles à utiliser</td>
+</tr>
+<tr>
+<td><code>B.2.3.1</code></td>
+<td>Review the Directive on Automated Decision-Making and Algorithmic Impact assessment tool, publish guidance, and consider their usability and design to ensure they remain relevant to support departments in a changing technological and legislative landscape</td>
+<td>Examiner la Directive sur la prise de décisions automatisée et l’outil d’évaluation de l’incidence algorithmique, publier des directives et examiner leur convivialité et leur conception pour s’assurer qu’elles sont toujours adaptées aux réalités des ministères dans un paysage technologique et législatif en évolution</td>
+</tr>
+<tr>
+<td><code>B.2.3.2</code></td>
+<td>Update the Guide on the Use of Generative AI to adapt to reflect technological changes and address regular questions received from departments</td>
+<td>Mettre à jour le Guide sur l’utilisation de l’intelligence artificielle générative pour qu’il soit adapté aux changements technologiques et en tienne compte et afin de répondre aux questions que reçoivent régulièrement les ministères</td>
+</tr>
+<tr>
+<td><code>B.2.3.3</code></td>
+<td>Identify policy approaches needed to ensure the responsible use of AI for non-administrative purposes and propose action-oriented and department-focused mechanisms to address them</td>
+<td>Cerner les approches stratégiques nécessaires pour assurer l’utilisation responsable de l’IA à des fins non administratives et proposer des mécanismes axés sur l’action et les ministères pour y remédier</td>
+</tr>
+<tr>
+<td><code>B.2.4.1</code></td>
+<td>Review and update procurement policies, instruments and processes to make them more responsive to pace and requirements of AI procurement</td>
+<td>Passer en revue et mettre à jour les politiques, les instruments et les processus d’approvisionnement afin de mieux les adapter au rythme de l’IA et aux exigences d’approvisionnement en matière d’IA</td>
+</tr>
+<tr>
+<td><code>B.2.5.1</code></td>
+<td>Review existing AI commitments in domestic policy and law, identifying where alignment is required</td>
+<td>Examiner les engagements existants en matière d’IA dans les politiques et les lois nationales et déterminer les domaines où l’harmonisation est nécessaire</td>
+</tr>
+<tr>
+<td><code>B.2.5.2</code></td>
+<td>Identify opportunities to align Pan-Canadian AI Strategy Review and action the United Nations Declaration Act Action Plan commitments to Indigenous Data Sovereignty</td>
+<td>Trouver des possibilités d’harmoniser la Stratégie pancanadienne en matière d’intelligence artificielle et la Stratégie en matière d’intelligence artificielle pour la fonction publique fédérale Examiner et mettre en oeuvre les engagements du Plan d’action de la Loi sur la Déclaration des Nations Unies sur les droits des peuples autochtones à l’égard de la souveraineté des</td>
+</tr>
+<tr>
+<td><code>B.2.5.3</code></td>
+<td>Review and action the United Nations Declaration Act Action Plan commitments to Indigenous Data Sovereignty</td>
+<td>Examiner et mettre en œuvre les engagements du Plan d’action de la Loi sur la Déclaration des Nations Unies sur les droits des peuples autochtones à l’égard de la souveraineté des données autochtones</td>
+</tr>
+<tr>
+<td><code>B.2.5.4</code></td>
+<td>Identify opportunities to increase alignment with relevant international treaties, legislation and norms</td>
+<td>Trouver des moyens de mieux harmoniser les normes, les lois et les traités internationaux applicables</td>
+</tr>
+<tr>
+<td><code>B.3.1.1</code></td>
+<td>Update MC drafter&#39;s guide to include AI and data consideration</td>
+<td>Mettre à jour le guide du rédacteur des mémoires au Cabinet pour inclure les considérations relatives à l’IA et aux données</td>
+</tr>
+<tr>
+<td><code>B.3.1.2</code></td>
+<td>Update TB Submission guide to include AI and data considerations, including data, AI, compute and other relevant resource needs and to prompt exploration of collaboration with other departments or scaling existing projects before building or buying new</td>
+<td>Mettre à jour le guide des présentations au Conseil du Trésor afin d’inclure les considérations relatives à l’IA et aux données, y compris les besoins en matière de données, d’IA, de calcul et d’autres ressources pertinentes. Trouver des moyens de collaborer avec d’autres ministères ou d’adapter des projets existants avant d’en créer ou d’en acheter de nouveaux</td>
+</tr>
+<tr>
+<td><code>B.3.1.3</code></td>
+<td>Strengthen TBS challenge function for AI and data</td>
+<td>Renforcer la fonction de remise en question du SCT relativement à l’IA et aux données</td>
+</tr>
+<tr>
+<td><code>B.3.1.4</code></td>
+<td>Clarify EARB expectations regarding the deployment of IT that includes AI or other intelligence automation including common architecture questions or presentation requirements, such as on model selection assessment, costs, and performance</td>
+<td>Clarifier les attentes du CEAI concernant le déploiement de la technologie de l’information qui comprend l’IA ou d’autres formes d’automatisation, y compris les questions courantes sur l’architecture ou les exigences de présentation, comme l’évaluation de la sélection des modèles, les coûts et le rendement</td>
+</tr>
+<tr>
+<td><code>B.3.1.5</code></td>
+<td>Require departments to consider and prioritize AI infrastructure and adoption within integrated IT planning</td>
+<td>Exiger des ministères qu’ils tiennent compte de l’infrastructure et de l’adoption de l’IA dans la planification intégrée de la TI et qu’ils leur accordent la priorité</td>
+</tr>
+<tr>
+<td><code>B.3.1.6</code></td>
+<td>Support the implementation of the GC Data Strategy mission and actions on data stewardship models, expectations, and common practices to ensure high quality data is available for AI implementation</td>
+<td>Faciliter la mise en oeuvre des missions et des actions de la Stratégie relative aux données du gouvernement du Canada sur les modèles d’intendance des données, les attentes et les pratiques communes afin de s’assurer que des données de haute qualité sont disponibles pour la mise en oeuvre de l’IA</td>
+</tr>
+<tr>
+<td><code>C.1.1.1</code></td>
+<td>Assess digital talent needs to the extent possible by leveraging available data on the Digital Talent Platform</td>
+<td>Évaluer les besoins en matière de talents numériques en utilisant les données disponibles sur la plateforme Talents numériques dans la mesure du possible</td>
+</tr>
+<tr>
+<td><code>C.2.1.1</code></td>
+<td>Meet AI training objectives by leveraging existing efforts under multiple plans, including the CSPS Annual Digital Academy Plan, OCHRO’s Public Service Skills Strategy, and TBS-OCIO’s Digital Talent Strategy. These coordinated plans support an evergreen, role-based approach to AI training that includes foundational and advanced skills</td>
+<td>Atteindre les objectifs de formation en matière d’IA au moyen des nombreux plans existants, notamment l’Académie du numérique de l’EFPC, la Stratégie relative aux compétences de la fonction publique du Bureau du dirigeant principal des ressources humaines et la Stratégie en matière de talents numériques du Bureau du dirigeant principal de l’information. Ces plans coordonnés favorisent une approche évolutive et axée sur les rôles de la formation en IA qui comprend des compétences de base et avancées</td>
+</tr>
+<tr>
+<td><code>C.2.1.2</code></td>
+<td>Curate and promote tailored training and learning paths to address advanced technical skills for IT, AI and data practitioners</td>
+<td>Organiser et promouvoir des parcours de formation et d’apprentissage personnalisés sur des compétences techniques avancées à l’intention des spécialistes de la TI, de l’IA et des données</td>
+</tr>
+<tr>
+<td><code>C.2.1.3</code></td>
+<td>Develop, curate, and promote foundational core learning products and learning paths on AI for all public servants, including executives</td>
+<td>Élaborer, organiser et promouvoir des parcours et des produits d’apprentissage de base sur l’IA pour tous les fonctionnaires, y compris la haute direction</td>
+</tr>
+<tr>
+<td><code>C.2.1.4</code></td>
+<td>Convene working group for key stakeholders in the AI learning space to discuss and evaluate ongoing needs and effectiveness of the centralized learning the GC is providing to all public servants</td>
+<td>Convoquer un groupe de travail pour les principaux intervenants dans le domaine de l’apprentissage de l’IA afin de discuter et d’évaluer les besoins continus et l’efficacité de l’apprentissage centralisé que le gouvernement du Canada offre à tous les fonctionnaires</td>
+</tr>
+<tr>
+<td><code>C.2.1.5</code></td>
+<td>Work with public servants through their bargaining agents to prepare the workforce through upskilling and retraining for changes resulting from AI</td>
+<td>Travailler avec les fonctionnaires et leurs agents négociateurs afin de préparer la main-d’oeuvre aux changements découlant de l’IA en lui offrant du perfectionnement et du recyclage professionnel</td>
+</tr>
+<tr>
+<td><code>C.3.1.1</code></td>
+<td>Develop mobility, recruitment, exchanges, and/or other types of opportunities on the GC Digital Talent Platform to recruit, develop, and retain AI and data talent</td>
+<td>Accroître la mobilité, le recrutement, les échanges ou d’autres types d’occasions sur la plateforme Talents numériques du gouvernement du Canada pour recruter, perfectionner et maintenir en poste les talents en IA et en données</td>
+</tr>
+<tr>
+<td><code>C.3.2.1</code></td>
+<td>Review and scale successful departmental initiatives</td>
+<td>Examiner et reproduire les initiatives ministérielles réussies</td>
+</tr>
+<tr>
+<td><code>C.3.3.1</code></td>
+<td>Explore options to use existing provisions for short-term and flexible staffing to optimize talent use</td>
+<td>Étudier les options permettant d’inclure des dispositions existantes liées à la dotation à court terme et flexible afin d’optimiser l’utilisation des talents</td>
+</tr>
+<tr>
+<td><code>C.3.4.1</code></td>
+<td>Explore reuse of challenge programs for specific projects</td>
+<td>Étudier la possibilité de réutiliser les programmes Défi pour des projets particuliers</td>
+</tr>
+<tr>
+<td><code>D.1.1.1</code></td>
+<td>Review Policy on Service and Digital to clarify roles and responsibilities for AI use</td>
+<td>Examiner la Politique sur les services et le numérique pour clarifier les rôles et les responsabilités liés à l’utilisation de l’IA</td>
+</tr>
+<tr>
+<td><code>D.1.2.1</code></td>
+<td>Develop and publish language for disclosure of AI use based on previously used examples</td>
+<td>Élaborer et publier des libellés pour la divulgation de l’utilisation de l’IA en se fondant sur des exemples déjà utilisés</td>
+</tr>
+<tr>
+<td><code>D.1.3.1</code></td>
+<td>Identify and publish list of prohibited uses based on existing commitments in law, policy, or treaties, with commitment to annual review and update</td>
+<td>Établir et publier une liste des utilisations interdites en fonction des engagements existants dans les lois, les politiques ou les traités. Cette liste doit être examinée et mise à jour chaque année</td>
+</tr>
+<tr>
+<td><code>D.1.4.1</code></td>
+<td>Define and publish register scope</td>
+<td>Définir et publier la portée du registre</td>
+</tr>
+<tr>
+<td><code>D.1.4.2</code></td>
+<td>Develop a minimal viable product AI register that connects to personal information banks (PIBS), the Service Inventory, and AIAs</td>
+<td>Créer un registre de l’IA de type « produit minimum viable » qui se connecte aux jeux de données existants comme les fichiers de renseignements personnels, le répertoire des services et les évaluations de l’incidence algorithmique</td>
+</tr>
+<tr>
+<td><code>D.1.4.3</code></td>
+<td>Engage internal and external stakeholders to refine registry format and content to increase value and usability</td>
+<td>Mobiliser les intervenants internes et externes pour améliorer le format et le contenu du registre afin d’accroître sa valeur et sa convivialité</td>
+</tr>
+<tr>
+<td><code>D.1.5.1</code></td>
+<td>Define and publish alternative oversight processes for AI use that cannot be publicly reported in the register</td>
+<td>Définir et publier d’autres processus de surveillance de l’utilisation de l’IA qui ne peuvent pas être déclarés publiquement dans le registre</td>
+</tr>
+<tr>
+<td><code>D.2.1.1</code></td>
+<td>Develop metrics and performance indicators to demonstrate the impact and value of AI initiatives</td>
+<td>Élaborer des mesures et des indicateurs de rendement pour démontrer l’incidence et la valeur des initiatives en matière d’IA</td>
+</tr>
+<tr>
+<td><code>D.2.2.1</code></td>
+<td>Develop a consolidated dashboard that supports the outcomes and performance indicators of the AI and Data Strategies and the Digital Ambition</td>
+<td>Élaborer un tableau de bord consolidé qui consigne les résultats et les indicateurs de rendement de la Stratégie en matière d’IA, de la Stratégie relative aux données et de l’Ambition numérique</td>
+</tr>
+<tr>
+<td><code>D.2.2.2</code></td>
+<td>Develop metrics for deployment, collaboration, sharing and scaling of solutions, departmental investment in AI and enablers, and financial and non-financial ROI for integration into dashboard</td>
+<td>Élaborer des mesures liées au déploiement, à la collaboration, aux échanges et aux mises à l’échelle des solutions, aux investissements des ministères dans l’IA et les outils habilitants, ainsi qu’au retour sur les investissements financiers et non financiers aux fins d’intégration dans le tableau de bord</td>
+</tr>
+<tr>
+<td><code>D.3.1.1</code></td>
+<td>Develop and publish expectations for meaningful public, Indigenous, and stakeholder engagement, using existing resources</td>
+<td>Formuler et publier les attentes en matière de mobilisation constructive du public, des Autochtones et des intervenants à l’aide des ressources existantes</td>
+</tr>
+<tr>
+<td><code>D.3.2.1</code></td>
+<td>Develop expectations and processes for engagement with bargaining agents</td>
+<td>Formuler les attentes et établir les processus de mobilisation des agents négociateurs</td>
+</tr>
+<tr>
+<td><code>D.3.3.1</code></td>
+<td>Develop expectations and processes for engagement with bargaining agents</td>
+<td>Formuler les attentes et établir les processus de mobilisation des utilisateurs</td>
+</tr>
+<tr>
+<td><code>D.3.4.1</code></td>
+<td>Provide mechanisms for ongoing public feedback and questions on AI used by the federal government</td>
+<td>Fournir des mécanismes facilitant la rétroaction continue et les questions du public sur l’IA utilisée par le gouvernement fédéral</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h4 id="description_en-description-english-description-anglais"><code>description_en</code> – Description (English) / Description (anglais)<a class="headerlink" href="#description_en-description-english-description-anglais" title="Permanent link">#</a></h4>
+<p><strong>Type:</strong> <code>text</code><br />
+<strong>Required:</strong> No<br />
+<strong>Validation:</strong> Limit the number of characters, free text (maximum 1500 characters). / Limiter le nombre de caractères, libre texte (maximum 1500 caractères).  </p>
+<p><strong>Description:</strong><br />
+EN: Operational description in the AI Strategy<br />
+FR: Description opérationnelle de la stratégie en matière d'IA</p>
+<hr />
+<h4 id="description_fr-description-french-description-francais"><code>description_fr</code> – Description (French) / Description (français)<a class="headerlink" href="#description_fr-description-french-description-francais" title="Permanent link">#</a></h4>
+<p><strong>Type:</strong> <code>text</code><br />
+<strong>Required:</strong> No<br />
+<strong>Validation:</strong> Limit the number of characters, free text (maximum 1500 characters). / Limiter le nombre de caractères, libre texte (maximum 1500 caractères).  </p>
+<p><strong>Description:</strong><br />
+EN: Operational description in the AI Strategy<br />
+FR: Description opérationnelle de la stratégie en matière d'IA</p>
+<hr />
+<h4 id="expected_completion-expected-completion-achevement-attendu"><code>expected_completion</code> – Expected Completion / Achèvement attendu<a class="headerlink" href="#expected_completion-expected-completion-achevement-attendu" title="Permanent link">#</a></h4>
+<p><strong>Type:</strong> <code>text</code><br />
+<strong>Required:</strong> Yes<br />
+<strong>Validation:</strong> Must match expected completion options in the controlled list. / Doit correspondre aux options d'achèvement prévues de la liste contrôlée.<br />
+<strong>Choice Set:</strong> expected_completion (8 values)  </p>
+<p><strong>Description:</strong><br />
+EN: Completion of activity<br />
+FR: Achèvement de l'activité</p>
+<h5 id="allowed-values-expected_completion">Allowed Values (expected_completion)<a class="headerlink" href="#allowed-values-expected_completion" title="Permanent link">#</a></h5>
+<table>
+<thead>
+<tr>
+<th>Code</th>
+<th>Label (EN)</th>
+<th>Label (FR)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>2025-Q3</code></td>
+<td>2025-Q3</td>
+<td>2025-T3</td>
+</tr>
+<tr>
+<td><code>2025-Q4</code></td>
+<td>2025-Q4</td>
+<td>2025-T4</td>
+</tr>
+<tr>
+<td><code>2026-Q1</code></td>
+<td>2026-Q1</td>
+<td>2026-T1</td>
+</tr>
+<tr>
+<td><code>2026-Q2</code></td>
+<td>2026-Q2</td>
+<td>2026-T2</td>
+</tr>
+<tr>
+<td><code>2026-Q3</code></td>
+<td>2026-Q3</td>
+<td>2026-T3</td>
+</tr>
+<tr>
+<td><code>2026-Q4</code></td>
+<td>2026-Q4</td>
+<td>2026-T4</td>
+</tr>
+<tr>
+<td><code>2027-Q1</code></td>
+<td>2027-Q1</td>
+<td>2027-T1</td>
+</tr>
+<tr>
+<td><code>2027-Q2</code></td>
+<td>2027-Q2</td>
+<td>2027-T2</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h4 id="lead_department-lead-departments-ministeres-responsables"><code>lead_department</code> – Lead Department(s) / Ministère(s) responsable(s)<a class="headerlink" href="#lead_department-lead-departments-ministeres-responsables" title="Permanent link">#</a></h4>
+<p><strong>Type:</strong> <code>_text</code><br />
+<strong>Required:</strong> Yes<br />
+<strong>Validation:</strong> Must match departments and organizations in the controlled list. / Doit correspondre aux départements et organisations de la liste contrôlée.<br />
+<strong>Choice Set:</strong> lead_department (11 values)  </p>
+<p><strong>Description:</strong><br />
+EN: Primary departments involved<br />
+FR: Principaux départements concernés</p>
+<h5 id="allowed-values-lead_department">Allowed Values (lead_department)<a class="headerlink" href="#allowed-values-lead_department" title="Permanent link">#</a></h5>
+<table>
+<thead>
+<tr>
+<th>Code</th>
+<th>Label (EN)</th>
+<th>Label (FR)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>CDS</code></td>
+<td>Canadian Digital Service</td>
+<td>Service Numérique Canadien</td>
+</tr>
+<tr>
+<td><code>CSE</code></td>
+<td>Communications Security Establishment</td>
+<td>Centre de la sécurité des télécommunications Canada</td>
+</tr>
+<tr>
+<td><code>CSPS</code></td>
+<td>Canadian School of Public Service</td>
+<td>École de la fonction publique du Canada</td>
+</tr>
+<tr>
+<td><code>GAC</code></td>
+<td>Global Affairs Canada</td>
+<td>Affaires Mondiales Canada</td>
+</tr>
+<tr>
+<td><code>ISC</code></td>
+<td>Indigenous Services Canada</td>
+<td>Services aux Autochtones Canada</td>
+</tr>
+<tr>
+<td><code>ISED</code></td>
+<td>Innovation, Science, and Economic Development</td>
+<td>Innovation, Sciences et Développement économique Canada</td>
+</tr>
+<tr>
+<td><code>NRC</code></td>
+<td>National Research Council</td>
+<td>Conseil national de recherches Canada</td>
+</tr>
+<tr>
+<td><code>PCO</code></td>
+<td>Privy Council Office</td>
+<td>Bureau du Conseil Privé</td>
+</tr>
+<tr>
+<td><code>PSPC</code></td>
+<td>Public Services and Procurement Canada</td>
+<td>Services publics et Approvisionnement Canada</td>
+</tr>
+<tr>
+<td><code>SSC</code></td>
+<td>Shared Services Canada</td>
+<td>Services Partagés Canada</td>
+</tr>
+<tr>
+<td><code>TBS</code></td>
+<td>Treasury Board of Canada Secretariat</td>
+<td>Secrétariat du Conseil du Trésor du Canada</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h4 id="status-status-etat"><code>status</code> – Status / État<a class="headerlink" href="#status-status-etat" title="Permanent link">#</a></h4>
+<p><strong>Type:</strong> <code>text</code><br />
+<strong>Required:</strong> Yes<br />
+<strong>Validation:</strong> Must be one of: Not Started, In Progress, Completed. / Il doit s'agir de l'un des éléments suivants : Non commencé, En cours, Terminé.<br />
+<strong>Choice Set:</strong> status (3 values)  </p>
+<p><strong>Description:</strong><br />
+EN: AI Strategy tracker status<br />
+FR: Statut du tracker de la stratégie IA</p>
+<h5 id="allowed-values-status">Allowed Values (status)<a class="headerlink" href="#allowed-values-status" title="Permanent link">#</a></h5>
+<table>
+<thead>
+<tr>
+<th>Code</th>
+<th>Label (EN)</th>
+<th>Label (FR)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>CO</code></td>
+<td>Completed</td>
+<td>Réalisé</td>
+</tr>
+<tr>
+<td><code>IP</code></td>
+<td>In progress</td>
+<td>En cours</td>
+</tr>
+<tr>
+<td><code>NS</code></td>
+<td>Not started</td>
+<td>Non commencé</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h4 id="progress_en-progress-made-english-progres-realises-anglais"><code>progress_en</code> – Progress Made (English) / Progrès réalisés (anglais)<a class="headerlink" href="#progress_en-progress-made-english-progres-realises-anglais" title="Permanent link">#</a></h4>
+<p><strong>Type:</strong> <code>text</code><br />
+<strong>Required:</strong> No<br />
+<strong>Validation:</strong> Limit the number of characters, free text (maximum 1500 characters). / Limiter le nombre de caractères, libre texte (maximum 1500 caractères).  </p>
+<p><strong>Description:</strong><br />
+EN: Describes any progress made<br />
+FR: Décrit les progrès réalisés</p>
+<hr />
+<h4 id="progress_fr-progress-made-french-progres-realises-francais"><code>progress_fr</code> – Progress Made (French) / Progrès réalisés (français)<a class="headerlink" href="#progress_fr-progress-made-french-progres-realises-francais" title="Permanent link">#</a></h4>
+<p><strong>Type:</strong> <code>text</code><br />
+<strong>Required:</strong> No<br />
+<strong>Validation:</strong> Limit the number of characters, free text (maximum 1500 characters). / Limiter le nombre de caractères, libre texte (maximum 1500 caractères).  </p>
+<p><strong>Description:</strong><br />
+EN: Describes any progress made<br />
+FR: Décrit les progrès réalisés</p>
+<hr />
+<h2 id="appendix">Appendix<a class="headerlink" href="#appendix" title="Permanent link">#</a></h2>
+<h3 id="choice-sets-summary-all-resources">Choice Sets Summary (All Resources)<a class="headerlink" href="#choice-sets-summary-all-resources" title="Permanent link">#</a></h3>
+<table>
+<thead>
+<tr>
+<th>Choice Set</th>
+<th>Field(s)</th>
+<th>Values</th>
+<th>Standalone Doc</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h3 id="generation-metadata">Generation Metadata<a class="headerlink" href="#generation-metadata" title="Permanent link">#</a></h3>
+<ul>
+<li>Generated: 2025-10-08T20:12:48 (UTC)</li>
+<li>Source: dictionaries/aistrategy.json</li>
+<li>Commit: <code>6af3f8d</code></li>
+<li>Tool Version: simple-1</li>
+</ul>
+<h3 id="validation">Validation<a class="headerlink" href="#validation" title="Permanent link">#</a></h3>
+<ul>
+<li>JSON Schema Validation: <strong>PASSED</strong></li>
+</ul>
+<h3 id="notes">Notes<a class="headerlink" href="#notes" title="Permanent link">#</a></h3>
+<p>This documentation is auto-generated. Do not hand-edit; instead update the source recombinant JSON and re-run generation.</p></div>
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script src="../../js/bootstrap.bundle.min.js"></script>
+        <script>
+            var base_url = "../..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../../js/base.js"></script>
+        <script src="../../search/main.js"></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>From here you can search these documents. Enter your search terms below.</p>
+                <form>
+                    <div class="form-group">
+                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results" data-no-results-text="No results found"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>
