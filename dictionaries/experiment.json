@@ -155,7 +155,7 @@
           },
           "validation": {
             "en": "This field must not be empty",
-            "fr": "Ce champ ne doit pas être vide"
+            "fr": "This field must not be empty"
           },
           "datastore_type": "text"
         },
