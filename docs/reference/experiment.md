@@ -2,9 +2,9 @@
 # Experimentation Inventory / Répertoire d'expérimentation
 
 **Dataset Type:** `experiment`  
-**Last Generated:** 2025-10-08T20:11:44 (UTC)  
+**Last Generated:** 2025-10-08T20:31:50 (UTC)  
 **Source:** dictionaries/experiment.json  
-**Commit:** `6af3f8d`
+**Commit:** `c58b83d`
 
 Access, upload and modify the Experimentation Inventory for your organization / Accès, téléversement et modifier le répertoire d'expérimentation pour votre organisation
 
@@ -430,9 +430,9 @@ FR: Ce champ incluera un lien URL fournissant des information additionnelles (p.
 
 ### Generation Metadata
 
-- Generated: 2025-10-08T20:11:44 (UTC)
+- Generated: 2025-10-08T20:31:50 (UTC)
 - Source: dictionaries/experiment.json
-- Commit: `6af3f8d`
+- Commit: `c58b83d`
 - Tool Version: simple-1
 
 ### Validation

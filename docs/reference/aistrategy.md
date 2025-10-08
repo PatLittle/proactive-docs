@@ -2,9 +2,9 @@
 # AI Strategy Implementation Tracker / Outil de suivi de la mise en œuvre de la stratégie en matière d'IA
 
 **Dataset Type:** `aistrategy`  
-**Last Generated:** 2025-10-08T20:12:48 (UTC)  
+**Last Generated:** 2025-10-08T20:31:50 (UTC)  
 **Source:** dictionaries/aistrategy.json  
-**Commit:** `6af3f8d`
+**Commit:** `c58b83d`
 
 Access, upload and modify the AI Strategy Implementation Tracker for your organization / Accédez, téléchargez et modifiez l'outil de la mise en œuvre de la stratégie en matière d'IA pour votre organisation
 
@@ -453,9 +453,9 @@ FR: Décrit les progrès réalisés
 
 ### Generation Metadata
 
-- Generated: 2025-10-08T20:12:48 (UTC)
+- Generated: 2025-10-08T20:31:50 (UTC)
 - Source: dictionaries/aistrategy.json
-- Commit: `6af3f8d`
+- Commit: `c58b83d`
 - Tool Version: simple-1
 
 ### Validation
