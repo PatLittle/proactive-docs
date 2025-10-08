@@ -13,7 +13,7 @@
       "resource_name": "grants",
       "title": {
         "en": "Proactive Publication - Grants and Contributions",
-        "fr": "Publication proactive - Subventions et les contributions"
+        "fr": "Proactive Publication - Grants and Contributions"
       },
       "primary_key": [
         "ref_number",
