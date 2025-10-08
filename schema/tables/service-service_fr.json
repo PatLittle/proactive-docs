@@ -2,8 +2,8 @@
   "fields": [
     {
       "name": "fiscal_yr",
-      "title": "Année financière",
-      "description": "Indique l'exercice financier (1 avril au 31 mars) durant lequel les activités du service ont eu lieu. Par exemple, les données pour l’exercice financier 2023-2024 devrait inclure les demandes de service qui ont été reçues entre le 1 avril 2023 et le 31 mars 2024.\n",
+      "title": "Exercice financier",
+      "description": "Indique l'exercice financier (1 avril au 31 mars) durant lequel les activités du service ont eu lieu.  Par exemple, les données pour l’exercice financier 2023-2024 devraient inclure les demandes de service qui  ont été reçues entre le 1er avril 2023 et le 31 mars 2024.\n",
       "type": "string",
       "constraints": {
         "required": true,
@@ -47,7 +47,7 @@
     },
     {
       "name": "service_name_en",
-      "title": "Nom du service (en anglais)",
+      "title": "Nom du service (anglais)",
       "description": "Indique le nom officiel du service.",
       "type": "string",
       "constraints": {
@@ -56,7 +56,7 @@
     },
     {
       "name": "service_name_fr",
-      "title": "Nom du service (en français)",
+      "title": "Nom du service (français)",
       "description": "Indique le nom officiel du service.",
       "type": "string",
       "constraints": {
@@ -65,7 +65,7 @@
     },
     {
       "name": "service_description_en",
-      "title": "Description du service (en anglais)",
+      "title": "Description du service (anglais)",
       "description": "Offre une brève description du service, en langage simple.",
       "type": "string",
       "constraints": {
@@ -74,7 +74,7 @@
     },
     {
       "name": "service_description_fr",
-      "title": "Description du service (en français)",
+      "title": "Description du service (français)",
       "description": "Offre une brève description du service, en langage simple.",
       "type": "string",
       "constraints": {
@@ -148,11 +148,16 @@
     {
       "name": "program_id",
       "title": "Code d'identification du programme",
-      "description": "Indique le code de programme unique associé aux éléments de programme pour tous les résultats stratégiques, les programmes, les sous-programmes et les sous-sous-programmes. Les planificateurs ministériels du ministère ou de l'organisme responsables de la Politique sur les résultats peuvent aider à déterminer le code d'identification du programme, au besoin. Séparez les entrées par une virgule (,) s’il y en a plusieurs qui s’appliquent.\n",
+      "description": "Indique le code de programme unique associé aux éléments de programme pour tous  les résultats stratégiques, les programmes, les sous-programmes et les  sous-sous-programmes. Les codes de programme du Plan comptable à l'échelle de  l'administration fédérale peuvent être utilisés. \nLes planificateurs ministériels du ministère ou de l'organisme responsables de la  Politique sur les résultats peuvent aider à déterminer le code d'identification  du programme, au besoin. Séparez les entrées par une virgule (,) s’il y en a plusieurs  qui s’appliquent.\n",
       "type": "string",
       "constraints": {
         "required": true,
         "enum": [
+          "AYO00",
+          "AYR00",
+          "AYX00",
+          "BAA00",
+          "BAB00",
           "BCZ01",
           "BCZ02",
           "BCZ03",
@@ -170,10 +175,15 @@
           "BEG02",
           "BEG03",
           "BEG04",
+          "BEN00",
+          "BEO00",
           "BEZ01",
+          "BFD00",
+          "BFJ00",
           "BFO01",
           "BFY01",
           "BFZ01",
+          "BGA00",
           "BGB01",
           "BGB02",
           "BGB03",
@@ -199,6 +209,9 @@
           "BGG04",
           "BGH01",
           "BGI01",
+          "BGJ00",
+          "BGK00",
+          "BGL00",
           "BGM01",
           "BGM02",
           "BGM03",
@@ -215,6 +228,8 @@
           "BGN01",
           "BGN02",
           "BGN03",
+          "BGN04",
+          "BGN05",
           "BGO01",
           "BGO02",
           "BGO03",
@@ -244,6 +259,8 @@
           "BGO27",
           "BGO28",
           "BGO29",
+          "BGO30",
+          "BGO31",
           "BGP01",
           "BGP02",
           "BGP03",
@@ -284,6 +301,11 @@
           "BGW04",
           "BGW05",
           "BGX01",
+          "BGY00",
+          "BGZ00",
+          "BKX00",
+          "BKY00",
+          "BKZ00",
           "BLL01",
           "BLL02",
           "BLL03",
@@ -365,6 +387,7 @@
           "BNR01",
           "BNR02",
           "BNR03",
+          "BNS00",
           "BNT01",
           "BNT02",
           "BNT03",
@@ -419,9 +442,15 @@
           "BRG02",
           "BRH01",
           "BRH02",
+          "BRI00",
+          "BRL00",
+          "BRN00",
+          "BRQ00",
           "BRT01",
           "BRT02",
           "BRT03",
+          "BRU00",
+          "BRY00",
           "BSA01",
           "BSB01",
           "BSC01",
@@ -445,10 +474,22 @@
           "BSJ01",
           "BSJ02",
           "BSJ03",
+          "BSK00",
           "BSM01",
+          "BSN00",
           "BSP01",
           "BSP02",
           "BSP03",
+          "BSQ00",
+          "BSR00",
+          "BSS00",
+          "BST00",
+          "BSU00",
+          "BSV00",
+          "BSW00",
+          "BSX00",
+          "BSY00",
+          "BSZ00",
           "BTA01",
           "BTA02",
           "BTB01",
@@ -459,6 +500,7 @@
           "BTC02",
           "BTD01",
           "BTD02",
+          "BTE00",
           "BTF01",
           "BTF02",
           "BTF03",
@@ -537,6 +579,7 @@
           "BTM11",
           "BTM12",
           "BTM13",
+          "BTN00",
           "BTO01",
           "BTO02",
           "BTO03",
@@ -546,11 +589,14 @@
           "BTO07",
           "BTO08",
           "BTO09",
+          "BTQ00",
           "BTR01",
           "BTS01",
           "BTT01",
           "BTT02",
           "BTT03",
+          "BTU00",
+          "BTV00",
           "BTW01",
           "BTW02",
           "BTW03",
@@ -576,6 +622,8 @@
           "BTW23",
           "BTW24",
           "BTW25",
+          "BTW26",
+          "BTW27",
           "BTX01",
           "BTX02",
           "BTX03",
@@ -586,9 +634,11 @@
           "BTY02",
           "BTY03",
           "BTY04",
+          "BTZ00",
           "BUA01",
           "BUB01",
           "BUC01",
+          "BUD00",
           "BUE01",
           "BUF01",
           "BUF02",
@@ -709,6 +759,7 @@
           "BUS13",
           "BUT01",
           "BUT02",
+          "BUU00",
           "BUU01",
           "BUV01",
           "BUV02",
@@ -725,6 +776,7 @@
           "BUW02",
           "BUX01",
           "BUX02",
+          "BUY00",
           "BUZ01",
           "BVA01",
           "BVA02",
@@ -750,6 +802,8 @@
           "BVB18",
           "BVB19",
           "BVB20",
+          "BVB21",
+          "BVB22",
           "BVC01",
           "BVC02",
           "BVC03",
@@ -758,6 +812,8 @@
           "BVC06",
           "BVC07",
           "BVC08",
+          "BVC10",
+          "BVC11",
           "BVD01",
           "BVD02",
           "BVD03",
@@ -772,8 +828,10 @@
           "BVD12",
           "BVD13",
           "BVD14",
+          "BVD15",
           "BVE01",
           "BVE02",
+          "BVE03",
           "BVF01",
           "BVF02",
           "BVF03",
@@ -782,6 +840,8 @@
           "BVF06",
           "BVF07",
           "BVF08",
+          "BVF09",
+          "BVF10",
           "BVG01",
           "BVG02",
           "BVG03",
@@ -1036,8 +1096,10 @@
           "BWW09",
           "BWX01",
           "BWX02",
+          "BWX03",
           "BWY01",
           "BWY02",
+          "BWZ00",
           "BXA01",
           "BXA02",
           "BXA03",
@@ -1164,7 +1226,9 @@
           "BYE05",
           "BYE06",
           "BYE07",
+          "BYF00",
           "BYG01",
+          "BYH00",
           "BYI01",
           "BYI02",
           "BYI03",
@@ -1202,6 +1266,23 @@
           "BYP16",
           "BYP17",
           "BYP18",
+          "BYQ00",
+          "BYR01",
+          "BYR02",
+          "BYS01",
+          "BYS02",
+          "BYT01",
+          "BYT02",
+          "BYT03",
+          "BYT04",
+          "BYT05",
+          "BYT06",
+          "BYU01",
+          "BYU02",
+          "HGD00",
+          "HGE00",
+          "HGF00",
+          "ISS00",
           "ISS01",
           "ISS02",
           "ISS03",
@@ -1212,6 +1293,7 @@
           "ISS08",
           "ISS09",
           "ISS0Z",
+          "ISS10",
           "ISS11",
           "ISS12",
           "ISS13",
@@ -1222,6 +1304,11 @@
           "ISS18",
           "ISS19",
           "ISS1Z",
+          "ISS20",
+          "ISS30",
+          "ISS40",
+          "ISS50",
+          "ISSA0",
           "ISSA1",
           "ISSA2",
           "ISSA3",
@@ -1257,7 +1344,7 @@
     {
       "name": "automated_decision_system",
       "title": "Système décisionnel automatisé",
-      "description": "Un système décisionnel automatisé est défini dans la Directive sur la prise de décisions automatisée et désigne toute technologie qui assiste ou remplace le jugement des décideurs humains, comme ceux qui proviennent de domaines tels que les statistiques, la linguistique et les sciences informatiques, et utilisent des techniques telles que les systèmes basés sur des règles, la régression, l’analytique prédictive, l’apprentissage automatique, l’apprentissage en profondeur et les réseaux neuronaux.\n",
+      "description": "Un système décisionnel automatisé est défini dans la Directive sur la prise de décisions  automatisée et désigne toute technologie qui assiste ou remplace le jugement des décideurs  humains, comme ceux qui proviennent de domaines tels que les statistiques, la linguistique  et les sciences informatiques, et utilisent des techniques telles que les systèmes basés  sur des règles, la régression, l’analytique prédictive, l’apprentissage automatique,  l’apprentissage en profondeur et les réseaux neuronaux.\nPour la portée de cette question, veuillez répondre \"oui\" si le service utilise des systèmes  décisionnel automatisé pour prendre ou aider les agents à prendre des décisions administratives,  celles qui affectent les droits juridiques, les privilèges ou les intérêts des clients, qu'ils  soient internes ou externes. Lorsqu'un système est un système décisionnel automatisé qui prend ou  aide un agent à prendre des décisions, les exigences de la Directive doivent être respectées,  et une Évaluation de l'incidence algorithmique doit être publiée. Référez-vous au Guide  sur la portée de la Directive sur la prise de décisions automatisée pour en savoir plus  sur la portée de la Directive sur la prise de décision automatisée. Vous pouvez également  contacter les bureaux du Dirigeant principal de l'information et du Dirigeant principal  des données de votre ministère pour en savoir plus sur la portée de la Directive.\n",
       "type": "string",
       "constraints": {
         "required": true,
@@ -1270,13 +1357,13 @@
     {
       "name": "automated_decision_system_description_en",
       "title": "Description du système décisionnel automatisé (anglais)",
-      "description": "Décrivez ce que fait le système. Inclure : le nom ou titre du système, le rôle du système dans la prise de décision, s'il s'agit d'une automatisation complète ou partielle, et comment les agents utilisent le système pour prendre ou informer la décision.\n",
+      "description": "Décrivez ce que fait le système. Inclure : le nom ou titre du système,  le rôle du système dans la prise de décision, s'il s'agit d'une automatisation  complète ou partielle, et comment les agents utilisent le système pour prendre  ou informer la décision. Indiquer si une Évaluation de l'incidence algorithmique  est publiée ou non, et si ce n'est pas le cas, indiquez la raison pour laquelle  elle n'est pas publiée.\n",
       "type": "string"
     },
     {
       "name": "automated_decision_system_description_fr",
       "title": "Description du système décisionnel automatisé (français)",
-      "description": "Décrivez ce que fait le système. Inclure : le nom ou titre du système, le rôle du système dans la prise de décision, s'il s'agit d'une automatisation complète ou partielle, et comment les agents utilisent le système pour prendre ou informer la décision.\n",
+      "description": "Décrivez ce que fait le système. Inclure : le nom ou titre du système,  le rôle du système dans la prise de décision, s'il s'agit d'une automatisation  complète ou partielle, et comment les agents utilisent le système pour prendre  ou informer la décision. Indiquer si une Évaluation de l'incidence algorithmique  est publiée ou non, et si ce n'est pas le cas, indiquez la raison pour laquelle  elle n'est pas publiée.\n",
       "type": "string"
     },
     {
@@ -1365,7 +1452,7 @@
     {
       "name": "os_issue_resolution_feedback",
       "title": "Services en ligne : Solution de problème et rétroaction",
-      "description": "Indique si un client peut demander une résolution à leur problèmes avec le service ou fournir de la rétroaction en ligne.",
+      "description": "Indique si un client peut demander une résolution à ses problèmes avec le service ou fournir de la rétroaction en ligne.",
       "type": "string",
       "constraints": {
         "required": true,
@@ -1379,19 +1466,19 @@
     {
       "name": "os_comments_client_interaction_en",
       "title": "Commentaires sur les services électroniques - points d'interaction avec les clients (anglais)",
-      "description": "Commentaires en lien avec les services électroniques - points d'interaction avec les clients (anglais). Pour tout points d'interaction signalés comme « sans objet », des commentaires doivent être fournis.\n",
+      "description": "Commentaires en anglais en lien avec les services en ligne - points d'interaction avec les  clients. Pour tout point d'interaction signalés comme « sans objet », des commentaires  doivent être fournis.\n",
       "type": "string"
     },
     {
       "name": "os_comments_client_interaction_fr",
       "title": "Commentaires sur les services électroniques - points d'interaction avec les clients (français)",
-      "description": "Commentaires en lien avec les services électroniques - points d'interaction avec les clients (français). Pour tout points d'interaction signalés comme « sans objet », des commentaires doivent être fournis.\n",
+      "description": "Commentaires en français en lien avec les services en ligne - points d'interaction avec les  clients (français). Pour tout point d'interaction signalés comme « sans objet », des  commentaires doivent être fournis.\n",
       "type": "string"
     },
     {
       "name": "last_service_review",
       "title": "Année du dernier examen de service",
-      "description": "Identifie l’exercice lors duquel le plus récent examen de service a été mené.",
+      "description": "Identifie l’exercice financier lors duquel le plus récent examen de service a été mené.",
       "type": "string",
       "constraints": {
         "enum": [
@@ -1426,7 +1513,7 @@
     {
       "name": "last_service_improvement",
       "title": "Année de la dernière amélioration du service sur la base de la rétroaction du client",
-      "description": "Quelle a été l'année la plus récente au cours de laquelle ce service a été amélioré en fonction des commentaires des clients?",
+      "description": "Identifie l'exercice financier la plus récente au cours de laquelle ce service a été amélioré en fonction des commentaires des clients.",
       "type": "string",
       "constraints": {
         "enum": [
@@ -1475,7 +1562,7 @@
     {
       "name": "cra_bn_identifier_usage",
       "title": "Utilisation du numéro d’entreprise de l’ARC en tant qu’identificateur standard",
-      "description": "Indique si le numéro d’entreprise de l’Agence du revenu du Canada est utilisé dans la prestation des services en tant qu’identificateur standard, conformément à la Directive sur le numéro d’entreprise.\n",
+      "description": "Indique si le numéro d’entreprise de l’Agence du revenu du Canada est utilisé dans  la prestation des services en tant qu’identificateur standard, conformément à la  Norme référentielle relative aux données sur le numéro d’entreprise.\n",
       "type": "string",
       "constraints": {
         "required": true,
@@ -1488,8 +1575,8 @@
     },
     {
       "name": "num_phone_enquiries",
-      "title": "Nombre des demandes téléphoniques reçus",
-      "description": "Indique le nombre de demandes d'information reçues par téléphone au cours d'un exercice financier. Remarque : Ce champ indique seulement le nombre de demandes d'information au sujet d'un service. Servez-vous du champ \"telephone applications\" pour les demandes de prestation de service reçues par téléphone.\n",
+      "title": "Nombre de demandes de renseignements reçues par telephone",
+      "description": "Indique le nombre de demandes d'information reçues par téléphone au cours  d'un exercice financier. Remarque: Ce champ indique seulement le nombre de  demandes d'information au sujet d'un service. Servez-vous du champ « Nombre  de demandes soumises par téléphone » pour les demandes de prestation de service  reçues par téléphone. La valeur 0 signifie qu'aucun appel n'a été reçu, ND  signifie qu'aucune donnée n'est disponible, et NA signifie qu'il n'est pas  possible de présenter des demandes d’information par téléphone. \nRemarque : Ce champ n'est pas inclus dans « Nombre total de demandes ».\n",
       "type": "string",
       "constraints": {
         "required": true
@@ -1498,7 +1585,7 @@
     {
       "name": "num_applications_by_phone",
       "title": "Nombre de demandes soumises par téléphone",
-      "description": "Indique le nombre de demandes reçues par téléphone au cours d'un exercice. La valeur 0 signifie qu'aucune demande n'a été reçue via ce mode de prestation, aucune donnée (ND) signifie qu'aucune donnée n’est disponible, et sans objet (NA) signifie que le service n’est pas offert au moyen de ce mode de prestation.\n",
+      "description": "Indique le nombre de demandes de prestation de service reçues par téléphone  au cours d'un exercice. La valeur 0 signifie qu'aucune demande n'a été reçue  via ce mode de prestation, aucune donnée (ND) signifie qu'aucune donnée n’est  disponible, et sans objet (NA) signifie que le service n’est pas offert  au moyen de ce mode de prestation.\n",
       "type": "string",
       "constraints": {
         "required": true
@@ -1507,7 +1594,7 @@
     {
       "name": "num_website_visits",
       "title": "Nombre de visites sur le site Web",
-      "description": "Indique le nombre de de visites au site web du service lors d'un exercice financier. La valeur 0 signifie qu'aucune visite au site web n’a été enregistrée, aucune donnée (ND) signifie que le nombre de visites n’est pas mesuré, et sans objet (NA) signifie qu’il n’y a aucune site web à visiter.\n",
+      "description": "Indique le nombre de de visites au site Web du service lors d'un exercice  financier. La valeur 0 signifie qu'aucune visite au site Web n’a été enregistrée,  aucune donnée (ND) signifie que le nombre de visites n’est pas mesuré,  et sans objet (NA) signifie qu’il n’y a aucune site web à visiter. \nRemarque : Ce champ n'est pas inclus dans « Nombre total de demandes ».\n",
       "type": "string",
       "constraints": {
         "required": true
@@ -1516,7 +1603,7 @@
     {
       "name": "num_applications_online",
       "title": "Nombre de demandes soumises en ligne",
-      "description": "Indique le nombre de demandes reçues en ligne au cours d'un exercice. La valeur 0 signifie qu'aucune demande n'a été reçue via ce mode de prestation, aucune donnée (ND) signifie qu'aucune donnée n’est disponible, et sans objet (NA) signifie que le service n’est pas offert au moyen de ce mode de prestation.\n",
+      "description": "Indique le nombre de demandes de prestation de service reçues en  ligne au cours d'un exercice. La valeur 0 signifie qu'aucune demande  n'a été reçue via ce mode de prestation, aucune donnée (ND) signifie  qu'aucune donnée n’est disponible, et sans objet (NA) signifie que  le service n’est pas offert au moyen de ce mode de prestation.  Il s'agit par exemple des demandes reçues sur un site Web ou un portail  en ligne, sur des formulaires Web (p. ex., Ma demande de paye) et des  vérifications et évaluations administrés numériquement.\n",
       "type": "string",
       "constraints": {
         "required": true
@@ -1525,7 +1612,7 @@
     {
       "name": "num_applications_in_person",
       "title": "Nombre de demandes soumises en personne",
-      "description": "Indique le nombre de demandes reçues en personne au cours d'un exercice. La valeur 0 signifie qu'aucune demande n'a été reçue via ce mode de prestation, aucune donnée (ND) signifie qu'aucune donnée n’est disponible, et sans objet (NA) signifie que le service n’est pas offert au moyen de ce mode de prestation.\n",
+      "description": "Indique le nombre de demandes de prestation de service reçues en personne  au cours d'un exercice. La valeur 0 signifie qu'aucune demande n'a été  reçue via ce mode de prestation, aucune donnée (ND) signifie qu'aucune  donnée n’est disponible, et sans objet (NA) signifie que le service n’est  pas offert au moyen de ce mode de prestation. Il s’agit par exemple des  demandes en personne, du volume d'inspections, d'audits, d'évaluations, etc.\n",
       "type": "string",
       "constraints": {
         "required": true
@@ -1534,7 +1621,7 @@
     {
       "name": "num_applications_by_mail",
       "title": "Nombre de demandes soumises par la poste",
-      "description": "Indique le nombre de demandes reçues par la poste au cours d'un exercice. La valeur 0 signifie qu'aucune demande n'a été reçue via ce mode de prestation, aucune donnée (ND) signifie qu'aucune donnée n’est disponible, et sans objet (NA) signifie que le service n’est pas offert au moyen de ce mode de prestation.\n",
+      "description": "Indique le nombre de demandes de prestation de service reçues par la poste au cours  d'un exercice. La valeur 0 signifie qu'aucune demande n'a été reçue via ce mode  de prestation, aucune donnée (ND) signifie qu'aucune donnée n’est disponible,  et sans objet (NA) signifie que le service n’est pas offert au moyen de ce mode  de prestation.\n",
       "type": "string",
       "constraints": {
         "required": true
@@ -1543,7 +1630,7 @@
     {
       "name": "num_applications_by_email",
       "title": "Nombre de demandes soumises par courriel",
-      "description": "Indique le nombre de demandes reçues par courriel au cours d'un exercice. La valeur 0 signifie qu'aucune demande n'a été reçue via ce mode de prestation, aucune donnée (ND) signifie qu'aucune donnée n’est disponible, et sans objet (NA) signifie que le service n’est pas offert au moyen de ce mode de prestation.\n",
+      "description": "Indique le nombre de demandes de prestation de service reçues par courriel  au cours d'un exercice. La valeur 0 signifie qu'aucune demande n'a été reçue  via ce mode de prestation, aucune donnée (ND) signifie qu'aucune donnée n’est  disponible, et sans objet (NA) signifie que le service n’est pas offert au moyen  de ce mode de prestation.\nIl s'agit par exemple des demandes reçues par courriel  et des audits, examens et évaluations par courriel.\n",
       "type": "string",
       "constraints": {
         "required": true
@@ -1552,7 +1639,7 @@
     {
       "name": "num_applications_by_fax",
       "title": "Nombre de demandes soumises par fax",
-      "description": "Indique le nombre de demandes reçues par télécopieur au cours d'un exercice. La valeur 0 signifie qu'aucune demande n'a été reçue via ce mode de prestation, aucune donnée (ND) signifie qu'aucune donnée n’est disponible, et sans objet (NA) signifie que le service n’est pas offert au moyen de ce mode de prestation.\n",
+      "description": "Indique le nombre de demandes de prestation de service reçues par  télécopieur au cours d'un exercice. La valeur 0 signifie qu'aucune  demande n'a été reçue via ce mode de prestation, aucune donnée (ND)  signifie qu'aucune donnée n’est disponible, et sans objet (NA) signifie  que le service n’est pas offert au moyen de ce mode de prestation.\n",
       "type": "string",
       "constraints": {
         "required": true
@@ -1561,7 +1648,7 @@
     {
       "name": "num_applications_by_other",
       "title": "Nombre de demandes soumises par les autre modes de prestations",
-      "description": "Indique le nombre de demandes reçues par des modes de prestations qui ne sont pas énumérés dans ce gabarit au cours d'un exercice. La valeur 0 signifie qu'aucune demande n'a été reçue via ce mode de prestation, aucune donnée (ND) signifie qu'aucune donnée n’est disponible, et sans objet (NA) signifie que le service n’est pas offert au moyen de ce mode de prestation.\n",
+      "description": "Indique le nombre de demandes de prestation de service reçues par des modes  de prestations qui ne sont pas énumérés dans ce gabarit au cours d'un exercice.  La valeur 0 signifie qu'aucune demande n'a été reçue via ce mode de prestation,  aucune donnée (ND) signifie qu'aucune donnée n’est disponible, et sans objet (NA)  signifie que le service n’est pas offert au moyen de ce mode de prestation.\nSi les volumes de service ne sont pas suivis par canal, veuillez inclure les volumes  de service dans ce champ. De même, veuillez inclure dans ce champ les volumes  d'allocations de fonds sans demandes ou d'autres services qui ne nécessitent pas  de demandes (p. ex., examen médical à l'admission, enquêtes, audiences, conseils)  ou qui ne ventilent pas la demande de service par canal de prestation.\nRemarque : les volumes déclarés dans chaque canal doivent s'exclure mutuellement.  Ne déclarez pas la même demande ou interaction dans plus d'un canal.\n",
       "type": "string",
       "constraints": {
         "required": true
@@ -1570,25 +1657,25 @@
     {
       "name": "special_remarks_en",
       "title": "Remarques spéciales (anglais)",
-      "description": "Fournit de l'espace supplémentaire pour les commentaires relatifs aux renseignements sur les volumes. Veuillez vous reporter au code d'identification de la zone, s'il y a lieu. Pour les commentaires relatifs à d'autres zones, les ministères peuvent publier une note explicative sur leur site Web suivi d'un lien vers l'ensemble de données du Répertoire des services du GC. Ce champ est requis s’il y a un montant rapporté sous le champ « Nombre de demandes soumises par les autres modes de prestation »\n",
+      "description": "Fournit de l'espace supplémentaire pour les commentaires relatifs aux  renseignements sur les volumes. Veuillez vous reporter au code d'identification  du champ, s'il y a lieu. Pour les commentaires relatifs à d'autres champs,  les ministères peuvent publier une note explicative sur leur site Web suivi  d'un lien vers l'ensemble de données du Répertoire des services du GC. Ce champ  est requis s’il y a un montant rapporté sous le champ « Nombre de demandes  soumises par les autres modes de prestation »\n",
       "type": "string"
     },
     {
       "name": "special_remarks_fr",
       "title": "Remarques spéciales (français)",
-      "description": "Fournit de l'espace supplémentaire pour les commentaires relatifs aux renseignements sur les volumes. Veuillez vous reporter au code d'identification de la zone, s'il y a lieu. Pour les commentaires relatifs à d'autres zones, les ministères peuvent publier une note explicative sur leur site Web suivi d'un lien vers l'ensemble de données du Répertoire des services du GC. Ce champ est requis s’il y a un montant rapporté sous le champ « Nombre de demandes soumises par les autres modes de prestation »\n",
+      "description": "Fournit de l'espace supplémentaire pour les commentaires relatifs aux  renseignements sur les volumes. Veuillez vous reporter au code d'identification  du champ, s'il y a lieu. Pour les commentaires relatifs à d'autres champs,  les ministères peuvent publier une note explicative sur leur site Web suivi d'un  lien vers l'ensemble de données du Répertoire des services du GC. Ce champ est  requis s’il y a un montant rapporté sous le champ « Nombre de demandes soumises  par les autres modes de prestation »\n",
       "type": "string"
     },
     {
       "name": "service_uri_en",
       "title": "URL du service (anglais)",
-      "description": "Indique la page Web du ministère où le service est décrit et/ou peut être lancé.",
+      "description": "Indique la page Web du ministère où le service est décrit ou peut être lancé.",
       "type": "string"
     },
     {
       "name": "service_uri_fr",
       "title": "URL du service (français)",
-      "description": "Indique la page Web du ministère où le service est décrit et/ou peut être lancé.",
+      "description": "Indique la page Web du ministère où le service est décrit ou peut être lancé.",
       "type": "string"
     }
   ],

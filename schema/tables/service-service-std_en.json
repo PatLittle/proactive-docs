@@ -144,7 +144,7 @@
     {
       "name": "volume_meeting_target",
       "title": "Business Volume That Met Service Standard Target",
-      "description": "Identifies the number of final outputs issued appropriate to the service (eg. payments issued, requests completed, etc) during the fiscal year that met a particular service standard target for a service. Blank indicates no information available, while 0 indicates that no final outputs issued met service standard targets.\n",
+      "description": "Identifies the number of final outputs issued appropriate to the service (eg. payments issued, requests completed, etc) during the fiscal year that met a particular service standard target for a service. Blank indicates no information available, while 0 indicates that no final outputs issued met service standard targets. Note, this value must be less than or equal to the Total Volume.\n",
       "type": "string"
     },
     {

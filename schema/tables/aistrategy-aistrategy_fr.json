@@ -1,0 +1,270 @@
+{
+  "fields": [
+    {
+      "name": "ref_number",
+      "title": "Numéro de référence",
+      "description": "Le numéro unique attribué à un service à l'aide de l'IA pour faciliter le référencement à des services précis.",
+      "type": "string",
+      "constraints": {
+        "required": true
+      }
+    },
+    {
+      "name": "reporting_period",
+      "title": "Période de déclaration",
+      "description": "Année et mois de la mise à jour",
+      "type": "string",
+      "constraints": {
+        "required": true,
+        "enum": [
+          "2025-Q3",
+          "2025-Q4",
+          "2026-Q1",
+          "2026-Q2",
+          "2026-Q3",
+          "2026-Q4",
+          "2027-Q1",
+          "2027-Q2"
+        ]
+      }
+    },
+    {
+      "name": "priority_area",
+      "title": "Domaine Prioritaire",
+      "description": "Le domaine d'action stratégique dans le cadre de la mise en œuvre de la stratégie en matière d'IA",
+      "type": "string",
+      "constraints": {
+        "required": true,
+        "enum": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ]
+      }
+    },
+    {
+      "name": "key_action",
+      "title": "Action Clé",
+      "description": "L'action clé décrite dans la stratégie en matière d'IA",
+      "type": "string",
+      "constraints": {
+        "required": true,
+        "enum": [
+          "A.1",
+          "A.2",
+          "A.3",
+          "B.1",
+          "B.2",
+          "B.3",
+          "C.1",
+          "C.2",
+          "C.3",
+          "D.1",
+          "D.2",
+          "D.3"
+        ]
+      }
+    },
+    {
+      "name": "sub_action",
+      "title": "Sous-action stratégique",
+      "description": "Sous-action spécifique dans le cadre de la stratégie d'IA",
+      "type": "string",
+      "constraints": {
+        "required": true,
+        "enum": [
+          "A.1.1",
+          "A.1.2",
+          "A.2.1",
+          "A.2.2",
+          "A.2.3",
+          "A.2.4",
+          "A.2.5",
+          "A.3.1",
+          "B.1.1",
+          "B.1.2",
+          "B.1.3",
+          "B.2.1",
+          "B.2.2",
+          "B.2.3",
+          "B.2.4",
+          "B.2.5",
+          "B.3.1",
+          "C.1.1",
+          "C.2.1",
+          "C.3.1",
+          "C.3.2",
+          "C.3.3",
+          "C.3.4",
+          "D.1.1",
+          "D.1.2",
+          "D.1.3",
+          "D.1.4",
+          "D.1.5",
+          "D.2.1",
+          "D.2.2",
+          "D.3.1",
+          "D.3.2",
+          "D.3.3",
+          "D.3.4"
+        ]
+      }
+    },
+    {
+      "name": "activity",
+      "title": "Activité",
+      "description": "Activité de soutien à la stratégie en matière d'IA",
+      "type": "string",
+      "constraints": {
+        "required": true,
+        "enum": [
+          "A.1.1.1",
+          "A.1.1.2",
+          "A.1.2.1",
+          "A.2.1.1",
+          "A.2.2.1",
+          "A.2.3.1",
+          "A.2.4.1",
+          "A.2.5.1",
+          "A.3.1.1",
+          "A.3.1.2",
+          "B.1.1.1",
+          "B.1.1.2",
+          "B.1.2.1",
+          "B.1.3.1",
+          "B.1.3.2",
+          "B.2.1.1",
+          "B.2.1.2",
+          "B.2.1.3",
+          "B.2.1.4",
+          "B.2.2.1",
+          "B.2.3.1",
+          "B.2.3.2",
+          "B.2.3.3",
+          "B.2.4.1",
+          "B.2.5.1",
+          "B.2.5.2",
+          "B.2.5.3",
+          "B.2.5.4",
+          "B.3.1.1",
+          "B.3.1.2",
+          "B.3.1.3",
+          "B.3.1.4",
+          "B.3.1.5",
+          "B.3.1.6",
+          "C.1.1.1",
+          "C.2.1.1",
+          "C.2.1.2",
+          "C.2.1.3",
+          "C.2.1.4",
+          "C.2.1.5",
+          "C.3.1.1",
+          "C.3.2.1",
+          "C.3.3.1",
+          "C.3.4.1",
+          "D.1.1.1",
+          "D.1.2.1",
+          "D.1.3.1",
+          "D.1.4.1",
+          "D.1.4.2",
+          "D.1.4.3",
+          "D.1.5.1",
+          "D.2.1.1",
+          "D.2.2.1",
+          "D.2.2.2",
+          "D.3.1.1",
+          "D.3.2.1",
+          "D.3.3.1",
+          "D.3.4.1"
+        ]
+      }
+    },
+    {
+      "name": "description_en",
+      "title": "Description (anglais)",
+      "description": "Description opérationnelle de la stratégie en matière d'IA",
+      "type": "string"
+    },
+    {
+      "name": "description_fr",
+      "title": "Description (français)",
+      "description": "Description opérationnelle de la stratégie en matière d'IA",
+      "type": "string"
+    },
+    {
+      "name": "expected_completion",
+      "title": "Achèvement attendu",
+      "description": "Achèvement de l'activité",
+      "type": "string",
+      "constraints": {
+        "required": true,
+        "enum": [
+          "2025-Q3",
+          "2025-Q4",
+          "2026-Q1",
+          "2026-Q2",
+          "2026-Q3",
+          "2026-Q4",
+          "2027-Q1",
+          "2027-Q2"
+        ]
+      }
+    },
+    {
+      "name": "lead_department",
+      "title": "Ministère(s) responsable(s)",
+      "description": "Principaux départements concernés",
+      "type": "string",
+      "constraints": {
+        "required": true,
+        "enum": [
+          "CDS",
+          "CSE",
+          "CSPS",
+          "GAC",
+          "ISC",
+          "ISED",
+          "NRC",
+          "PCO",
+          "PSPC",
+          "SSC",
+          "TBS"
+        ]
+      }
+    },
+    {
+      "name": "status",
+      "title": "État",
+      "description": "Statut du tracker de la stratégie IA",
+      "type": "string",
+      "constraints": {
+        "required": true,
+        "enum": [
+          "CO",
+          "IP",
+          "NS"
+        ]
+      }
+    },
+    {
+      "name": "progress_en",
+      "title": "Progrès réalisés (anglais)",
+      "description": "Décrit les progrès réalisés",
+      "type": "string"
+    },
+    {
+      "name": "progress_fr",
+      "title": "Progrès réalisés (français)",
+      "description": "Décrit les progrès réalisés",
+      "type": "string"
+    }
+  ],
+  "missingValues": [
+    ""
+  ],
+  "primaryKey": [
+    "ref_number",
+    "reporting_period"
+  ]
+}
