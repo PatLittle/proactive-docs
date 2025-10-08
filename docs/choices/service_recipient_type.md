@@ -1,11 +1,11 @@
 # Choices for service_recipient_type
 
-Generated 2025-07-26T00:47:44 UTC
+Generated 2025-10-08T20:16:24 UTC
 
 | Code | Label (EN) | Label (FR) |
 |------|------------|------------|
-| `CLIENT` | Targeted, Client-based service | Service ciblé, axé sur les clients |
-| `SOCIETY` | Untargeted, Societal-based service | Service non-ciblé, axé sur la société |
+| `CLIENT` | Targeted, Client-based service | Service ciblé axé sur les clients |
+| `SOCIETY` | Untargeted, Societal-based service | Service non-ciblé axé sur la société |
 
 
 ## Referenced By

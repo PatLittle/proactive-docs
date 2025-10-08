@@ -1,6 +1,6 @@
 # Choices for minister
 
-Generated 2025-07-26T00:47:44 UTC
+Generated 2025-10-08T20:16:24 UTC
 
 | Code | Label (EN) | Label (FR) |
 |------|------------|------------|
@@ -144,9 +144,10 @@ Generated 2025-07-26T00:47:44 UTC
 
 | Row | Minister (EN) | Minister (FR) | Start | End |
 |-----|---------------|---------------|-------|-----|
-| 1 | Fisher, Darren (Hon.) | Fisher, Darren (L'hon.) | 2024-12-20T11:30:00 | 2025-03-14T11:30:59 |
-| 2 | Petitpas Taylor, Ginette (Hon.) | Petitpas Taylor, Ginette (L’hon.) | 2023-07-26T10:30:00 | 2024-12-20T11:29:59 |
-| 3 | MacAulay, Lawrence (Hon.) | MacAulay, Lawrence (L’hon.) | 2019-03-01T10:30:01 | 2023-07-26T10:29:59 |
+| 1 | McKnight, Jill (Hon.) | McKnight, Jill (L’hon.) | 2025-05-13T10:45:00 |  |
+| 2 | Fisher, Darren (Hon.) | Fisher, Darren (L'hon.) | 2024-12-20T11:30:00 | 2025-03-14T11:30:59 |
+| 3 | Petitpas Taylor, Ginette (Hon.) | Petitpas Taylor, Ginette (L’hon.) | 2023-07-26T10:30:00 | 2024-12-20T11:29:59 |
+| 4 | MacAulay, Lawrence (Hon.) | MacAulay, Lawrence (L’hon.) | 2019-03-01T10:30:01 | 2023-07-26T10:29:59 |
 
 ### Code `AMPS` – Associate Minister of Public Safety / Ministre associée de la sécurité publique {#AMPS}
 
