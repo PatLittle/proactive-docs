@@ -1,6 +1,6 @@
 # Choices for country_of_vendor
 
-Generated 2025-10-08T20:34:32 UTC
+Generated 2025-10-08T22:26:24 UTC
 
 | Code | Label (EN) | Label (FR) |
 |------|------------|------------|
