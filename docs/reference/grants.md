@@ -2,9 +2,9 @@
 # Proactive Publication - Grants and Contributions / Publication proactive - Subventions et les contributions
 
 **Dataset Type:** `grants`  
-**Last Generated:** 2025-11-30T01:44:11 (UTC)  
+**Last Generated:** 2025-12-07T01:44:35 (UTC)  
 **Source:** dictionaries/grants.json  
-**Commit:** `a238db5`
+**Commit:** `2b83973`
 
 Access, upload and modify the Grants and Contributions reports for your organization / Accès, téléversement et modifications des rapports sur les contributions et les subventions pour votre organisation
 
@@ -31,7 +31,7 @@ Access, upload and modify the Grants and Contributions reports for your organiza
 | `amendment_number` | Amendment Number / Numéro de modification | `int` | Yes |  |  | This field is populated by departments and identifies that an amendment is occu… |
 | `amendment_date` | Amendment Date / Date de modification | `date` | No |  |  | This field is populated by departments and indicates the date on which an amend… |
 | `agreement_type` | Agreement Type / Type d’entente | `text` | Yes |  | agreement_type | This field is populated by departments and indicates whether the agreement sign… |
-| `recipient_type` | Recipient Type / Type de bénéficiaire | `text` | No |  | recipient_type | The recipient type helps identify who is receiving the money. |
+| `recipient_type` | Recipient Type / Type de bénéficiaire | `text` | Yes |  | recipient_type | The recipient type helps identify who is receiving the money. |
 | `recipient_business_number` | Recipient Business Number / Numéro d&#39;entreprise du bénéficiaire | `text` | No |  |  | The Business Number is a nine digit number issued by the Canada Revenue Agency … |
 | `recipient_legal_name` | Recipient Legal Name (English|French) / Nom légal du bénéficiaire (anglais|français) | `text` | Yes |  |  | The recipient legal name is meant to complement the existing “Recipient busines… |
 | `recipient_operating_name` | Recipient Operating Name (English|French) / Nom commercial du bénéficiaire (anglais|français) | `text` | No |  |  | The “Recipient operating name” is an optional field used when an organization o… |
@@ -43,24 +43,24 @@ Access, upload and modify the Grants and Contributions reports for your organiza
 | `federal_riding_name_en` | Federal Riding Name (English) / Nom de la circonscription fédérale (anglais) | `text` | No |  |  | The federal riding name is the name of the riding in which the recipient resides. |
 | `federal_riding_name_fr` | Federal Riding Name (French) / Nom de la circonscription fédérale (français) | `text` | No |  |  | The federal riding name is the name of the riding in which the recipient resides. |
 | `federal_riding_number` | Federal Riding Number / Numéro de la circonscription fédérale | `text` | No |  |  | The federal riding number is based on the riding in which the recipient resides… |
-| `prog_name_en` | Program Name (English) / Nom du programme (anglais) | `text` | No |  |  | The program name is the name of the program, according to the terms and conditi… |
-| `prog_name_fr` | Program Name (French) / Nom du programme (français) | `text` | No |  |  | The program name is the name of the program, according to the terms and conditi… |
-| `prog_purpose_en` | Program Purpose (English) / But du programme (anglais) | `text` | No |  |  | The program purpose is the program’s purpose according to the Ts&Cs. |
-| `prog_purpose_fr` | Program Purpose (French) / But du programme (français) | `text` | No |  |  | The program purpose is the program’s purpose according to the Ts&Cs. |
-| `agreement_title_en` | Agreement Title (English) / Titre de l’entente (anglais) | `text` | No |  |  | The agreement title is the title of the project or agreement that the recipient… |
-| `agreement_title_fr` | Agreement Title (French) / Titre de l’entente (français) | `text` | No |  |  | The agreement title is the title of the project or agreement that the recipient… |
+| `prog_name_en` | Program Name (English) / Nom du programme (anglais) | `text` | Yes |  |  | The program name is the name of the program, according to the terms and conditi… |
+| `prog_name_fr` | Program Name (French) / Nom du programme (français) | `text` | Yes |  |  | The program name is the name of the program, according to the terms and conditi… |
+| `prog_purpose_en` | Program Purpose (English) / But du programme (anglais) | `text` | Yes |  |  | The program purpose is the program’s purpose according to the Ts&Cs. |
+| `prog_purpose_fr` | Program Purpose (French) / But du programme (français) | `text` | Yes |  |  | The program purpose is the program’s purpose according to the Ts&Cs. |
+| `agreement_title_en` | Agreement Title (English) / Titre de l’entente (anglais) | `text` | Yes |  |  | The agreement title is the title of the project or agreement that the recipient… |
+| `agreement_title_fr` | Agreement Title (French) / Titre de l’entente (français) | `text` | Yes |  |  | The agreement title is the title of the project or agreement that the recipient… |
 | `agreement_number` | Agreement Number / Numéro de l’entente | `text` | No |  |  | The agreement number should be the number on the agreement and/or in the depart… |
 | `agreement_value` | Agreement Value in CAD / Valeur de l’entente en dollars canadiens | `money` | Yes |  |  | The agreement value is the dollar amount stated in the grant or contribution ag… |
 | `foreign_currency_type` | Foreign Currency Type / Type de monnaie étrangère | `text` | No |  | foreign_currency_type | The foreign currency type should be selected if a recipient is paid in a curren… |
 | `foreign_currency_value` | Foreign Currency Value / Valeur de la monnaie étrangère | `money` | No |  |  | The foreign currency value is the amount as signed in the grant or contribution… |
-| `agreement_start_date` | Agreement Start Date / Date de début de l’entente | `date` | Yes |  |  | The agreement start date is the assumed start of the agreement, or when the pro… |
-| `agreement_end_date` | Projected Agreement End Date / Date de fin prévue de l’entente | `date` | No |  |  | The projected agreement end date is the assumed end of the agreement, or when t… |
+| `agreement_start_date` | Agreement Start Date / Date de début de l’entente | `date` | Yes |  |  | The agreement start date is the assumed start of the agreement, normally identi… |
+| `agreement_end_date` | Projected Agreement End Date / Date de fin prévue de l’entente | `date` | Yes |  |  | The projected agreement end date is the assumed end of the agreement, or when t… |
 | `coverage` | Coverage (English|French; ...) / Portée (anglais|français; ...) | `text` | No |  |  | Coverage provides information about what will benefit from the project or agree… |
 | `description_en` | Description (English) / Description (anglais) | `text` | Yes |  |  | The description explains why the recipient received funding. It should provide … |
 | `description_fr` | Description (French) / Description (français) | `text` | Yes |  |  | The description explains why the recipient received funding. It should provide … |
 | `naics_identifier` | NAICS Identifier / Identificateur du SCIAN | `text` | No |  |  | The North American Industry Classification System (NAICS) is an industry classi… |
-| `expected_results_en` | Expected Results or Intended Outcome (English) / Résultats attendus ou visés (anglais) | `text` | No |  |  | The expected results or intended outcome is the assumed result of project compl… |
-| `expected_results_fr` | Expected Results or Intended Outcome (French) / Résultats attendus ou visés (français) | `text` | No |  |  | The expected results or intended outcome is the assumed result of project compl… |
+| `expected_results_en` | Expected Results or Intended Outcome (English) / Résultats attendus ou visés (anglais) | `text` | Yes |  |  | The expected results or intended outcome is the assumed result of project compl… |
+| `expected_results_fr` | Expected Results or Intended Outcome (French) / Résultats attendus ou visés (français) | `text` | Yes |  |  | The expected results or intended outcome is the assumed result of project compl… |
 | `additional_information_en` | Additional Information (English) / Renseignements supplémentaires (anglais) | `text` | No |  |  | Additional information is information that departments are required to enter un… |
 | `additional_information_fr` | Additional Information (French) / Renseignements supplémentaires (français) | `text` | No |  |  | Additional information is information that departments are required to enter un… |
 
@@ -108,8 +108,10 @@ Par exemple, les numéros de l'exercice 2018-2019 du T1 devraient recevoir les n
 
 
 **Description:**  
-EN: This field is populated by departments and identifies that an amendment is occurring to original information. Use 0 for original records.  
-FR: Ce champ est rempli par les ministères et indique qu'une modification est apportée aux renseignements originaux. Utiliser 0 pour les enregistrements originaux.
+EN: This field is populated by departments and identifies that an amendment is occurring to original information. Use 0 for original records. The first amendment after the original agreement should be identified as 1, then 2, etc. Agreement terminations should be identified as another amendment number and report 'termination' in the 'Additional information' column.
+  
+FR: Ce champ est rempli par les ministères et indique qu'une modification est apportée aux renseignements originaux. Utiliser 0 pour les enregistrements originaux. La première modification après l'accord initial doit être identifiée comme numéro 1, puis 2, etc. Les résiliations d'accord doivent être identifiées comme un autre numéro de modification et indiquer 'résiliation' dans la colonne 'Renseignements supplémentaires'.
+
 
 
 ---
@@ -155,7 +157,8 @@ FR: Ce champ est rempli par les ministères et indique si l'entente signée vise
 #### `recipient_type` – Recipient Type / Type de bénéficiaire
 
 **Type:** `text`  
-**Required:** No  
+**Required:** Yes  
+**Validation:** Required if "Agreement Start Date" is on or after December 1st 2025 / Requis si la "date de début de l’entente" est le 1er décembre 2025 ou après  
 **Choice Set:** recipient_type (8 values)  
 
 
@@ -186,10 +189,13 @@ FR: Le type de bénéficiaire permet d'identifier qui reçoit l'argent.
 
 **Type:** `text`  
 **Required:** No  
+**Validation:** Must be a 9 digit number if "Agreement Start Date" is on or after December 1st 2025 / Doit être un numéro à neuf chiffres si la "date de début de l’entente" est le 1er décembre 2025 ou après  
 
 
 **Description:**  
 EN: The Business Number is a nine digit number issued by the Canada Revenue Agency since 1994. Per the Directive on the Business Number, it has been identified as the standard identifier for all transactions between businesses and the Government of Canada, including transactions linked to grant and/or contribution funding.
+
+This guidance further aligns with the Government of Canada data reference standard on business number: Data reference standard on the business number - Canada.ca (https://www.canada.ca/en/government/system/digital-government/digital-government-innovations/enabling-interoperability/gc-enterprise-data-reference-standards/data-reference-standard-business-number.html)
 
 The business number should be populated for an organization or charity.
 
@@ -201,11 +207,13 @@ A business number is issued when an organization is registered federally, provin
   
 FR: Depuis 1994, l’Agence du revenu du Canada émet des numéros d’entreprise à neuf chiffres. Aux termes de la Directive sur le numéro d’entreprise, le numéro d’entreprise constitue l’identificateur standard de toutes les opérations effectuées entre une entreprise et le gouvernement du Canada, y compris les opérations associées à une subvention ou à un financement de contribution.
 
+Cette directive est également conforme à la norme de référence sur les données du numéro d'entreprise du gouvernement du Canada : Norme référentielle relative aux données sur le numéro d’entreprise - Canada.ca (https://www.canada.ca/fr/gouvernement/systeme/gouvernement-numerique/innovations-gouvernementales-numeriques/permettre-interoperabilite/normes-referentielles-pangouvernementales-relatives-donnees-gc/norme-referentielle-relative-donnees-numero-entreprise.html)
+
 Le numéro d’entreprise devrait être consigné pour une organisation ou un organisme de bienfaisance.
 
 Les ministères peuvent obtenir la validation en temps réel de l’identité d’une entreprise en saisissant son numéro d’entreprise dans le Service de validation du numéro d’entreprise en ligne, qui inclut le nom légal et le nom commercial pour les entreprises individuelles, les partenariats et les constitutions en personne morale. Si vous voulez obtenir de plus amples renseignements, envoyez un courriel à ic.bnadoptionne.ic@canada.ca.
 
-Pour valider un numéro d’entreprise associé à un organisme de bienfaisance, les ministères peuvent effectuer une recherche de base dans la Liste d’organismes de bienfaisance, sur le site Web Canada.ca. Entrez le nom de l’organisme de bienfaisance, puis cliquez sur le bouton de Recherche. Ensuite, cliquez sur le nom de l’organisme de bienfaisance tiré du résultat de la recherche afin de trouver de plus amples renseignements sur l’organisme de bienfaisance (p. ex., le numéro du programme de bienfaisance, le statut de l’organisme de bienfaisance, la date d’entrée en vigueur du statut et la désignation de l’organisme de bienfaisance). Il est impossible de valider le nom légal et le nom commercial au moyen de la fonction de recherche de base.
+Pour valider un numéro d’entreprise associé à un organisme de bienfaisance, les ministères peuvent effectuer une recherche de base dans la Liste d’organismes de bienfaisance, sur le site Web Canada.ca. Entrez le nom de l’organisme de bienfaisance, puis cliquez sur le bouton de Recherche. Ensuite, cliquez sur le nom de l’organisme de bienfaisance tiré du résultat de la recherche afin de trouver de plus amples renseignements sur l’organisme de bienfaisance (p. ex., le numéro du programme de bienfaisance, le statut de l’organisme de bienfaisance, la date d’entrée en vigueur du statut et la désignation de l’organisme de bienfaisance). Il est impossible de valider le nom légal et le nom commercial au moyen de la fonction de recherche de base.
 
 
 
@@ -224,7 +232,7 @@ Only translated if the legal name is provided in both official languages by the 
   
 FR: Le nom légal du bénéficiaire se veut complémentaire au champ « Numéro d'entreprise du bénéficiaire ». Cette information devrait être tirée de l'entente de subvention ou de contribution.
 
-Traduction seulement si le nom légal est fourni dans les deux langues officielles par le bénéficiaire. Fournir dans le format suivant : nom anglais|nom français.
+Traduction seulement si le nom légal est fourni dans les deux langues officielles par le bénéficiaire. Fournir dans le format suivant : nom anglais|nom français.
 
 
 
@@ -243,7 +251,7 @@ Only translated if the name is provided in both official languages by the recipi
   
 FR: Le champ « Nom commercial du bénéficiaire » est un champ facultatif utilisé dans le cas d'organisations qui exercent leurs activités sous un nom différent de leur nom légal ou de leur numéro d'entreprise. Dans le cas de chercheurs qui reçoivent leur financement par l'entremise d'une université, cette information doit être entrée ici. Ce champ ne sert pas à saisir le nom du bénéficiaire ultime de la subvention ou de la contribution, mais plutôt celui de la personne qui reçoit le financement du gouvernement du Canada.
 
-Traduction seulement si le nom est fourni dans les deux langues officielles par le bénéficiaire. Fournir dans le format suivant : nom anglais|nom français.
+Traduction seulement si le nom est fourni dans les deux langues officielles par le bénéficiaire. Fournir dans le format suivant : nom anglais|nom français.
 
 
 
@@ -590,7 +598,7 @@ Free text, but a controlled list from Canada Revenue Agency’s qualified donees
   
 FR: La « Ville du bénéficiaire » est un champ obligatoire qui indique la ville où le bénéficiaire exerce ses activités. On peut y inscrire le nom de villes canadiennes ou de villes étrangères.
 
-Nom officiel exact de la ville, y compris dans les deux langues officielles (le cas échéant) au format suivant : nom anglais|nom français
+Nom officiel exact de la ville, y compris dans les deux langues officielles (le cas échéant) au format suivant : nom anglais|nom français
 
 Texte libre, mais une liste contrôlée de la liste des municipalités désignées donataires de l’Agence du revenu du Canada peut être consultée: site Web de l’Agence du revenu du Canada (http://www.cra-arc.gc.ca/chrts-gvng/qlfd-dns/mncplts-fra.html).
 
@@ -602,16 +610,17 @@ Texte libre, mais une liste contrôlée de la liste des municipalités désigné
 
 **Type:** `text`  
 **Required:** No  
+**Validation:** Must be in the format "A1A 1A1" if "Agreement Start Date" is on or after December 1st 2025 / Doit être selon le format « A1A 1A1 » si la "date de début de l’entente" est le 1er décembre 2025 ou après  
 
 
 **Description:**  
 EN: The "Recipient postal code" is a mandatory field that serves to identify the specific area in which the recipient operates. In cases where this field cannot be populated this field may be left blank.
 
-Text format locked to "X#X #X#"; The Canada Post tool for looking up a postal code can be found on the Canada Post website.
+Should be in the format "A1A 1A1"; The Canada Post tool for looking up a postal code can be found on the Canada Post website.
   
 FR: Le « Code postal du bénéficiaire » est un champ obligatoire qui sert à identifier avec précision la région où le bénéficiaire exerce ses activités. Si le fait de remplir ce champ suscite des préoccupations à l'égard de la vie privée, il est possible de le laisser vide.
 
-Format de texte : "X#X #X#"; L'outil de Postes Canada permettant de rechercher un code postal se trouve sur le site Web de Postes Canada.
+Devrait être selon le format « A1A 1A1 »; L'outil de Postes Canada permettant de rechercher un code postal se trouve sur le site Web de Postes Canada.
 
 
 
@@ -647,11 +656,12 @@ FR: Le nom de la circonscription fédérale où réside le bénéficiaire.
 
 **Type:** `text`  
 **Required:** No  
+**Validation:** Must be a 5 digit number if "Agreement Start Date" is on or after December 1st 2025 / Doit être un numéro à cinq chiffres si la "date de début de l’entente" est le 1er décembre 2025 ou après  
 
 
 **Description:**  
-EN: The federal riding number is based on the riding in which the recipient resides.  Departments can consult the Elections Canada website in order to retrieve the federal riding number. http://www.elections.ca/content.aspx?section=res&dir=cir/list&document=index338&lang=e  
-FR: Numéro de la circonscription fédérale où réside le bénéficiaire.  Les départements peuvent consulter le site-web d’Élections Canada pour trouver le numéro de la circonscription fédérale. http://www.elections.ca/content.aspx?section=res&dir=cir/list&document=index338&lang=f
+EN: The federal riding number is based on the riding in which the recipient resides. Departments can consult the Elections Canada website in order to retrieve the federal riding number. http://www.elections.ca/content.aspx?section=res&dir=cir/list&document=index338&lang=e  
+FR: Numéro de la circonscription fédérale où réside le bénéficiaire. Les départements peuvent consulter le site-web d’Élections Canada pour trouver le numéro de la circonscription fédérale. http://www.elections.ca/content.aspx?section=res&dir=cir/list&document=index338&lang=f
 
 
 ---
@@ -659,7 +669,8 @@ FR: Numéro de la circonscription fédérale où réside le bénéficiaire.  Les
 #### `prog_name_en` – Program Name (English) / Nom du programme (anglais)
 
 **Type:** `text`  
-**Required:** No  
+**Required:** Yes  
+**Validation:** Required if "Agreement Start Date" is on or after December 1st 2025 / Requis si la "date de début de l’entente" est le 1er décembre 2025 ou après  
 
 
 **Description:**  
@@ -672,7 +683,8 @@ FR: Le nom du programme selon les modalités en vertu desquelles le financement 
 #### `prog_name_fr` – Program Name (French) / Nom du programme (français)
 
 **Type:** `text`  
-**Required:** No  
+**Required:** Yes  
+**Validation:** Required if "Agreement Start Date" is on or after December 1st 2025 / Requis si la "date de début de l’entente" est le 1er décembre 2025 ou après  
 
 
 **Description:**  
@@ -685,7 +697,8 @@ FR: Le nom du programme selon les modalités en vertu desquelles le financement 
 #### `prog_purpose_en` – Program Purpose (English) / But du programme (anglais)
 
 **Type:** `text`  
-**Required:** No  
+**Required:** Yes  
+**Validation:** Required if "Agreement Start Date" is on or after December 1st 2025 / Requis si la "date de début de l’entente" est le 1er décembre 2025 ou après  
 
 
 **Description:**  
@@ -698,7 +711,8 @@ FR: Le but du programme est celui dans lequel le programme a été créé, selon
 #### `prog_purpose_fr` – Program Purpose (French) / But du programme (français)
 
 **Type:** `text`  
-**Required:** No  
+**Required:** Yes  
+**Validation:** Required if "Agreement Start Date" is on or after December 1st 2025 / Requis si la "date de début de l’entente" est le 1er décembre 2025 ou après  
 
 
 **Description:**  
@@ -711,7 +725,8 @@ FR: Le but du programme est celui dans lequel le programme a été créé, selon
 #### `agreement_title_en` – Agreement Title (English) / Titre de l’entente (anglais)
 
 **Type:** `text`  
-**Required:** No  
+**Required:** Yes  
+**Validation:** Required if "Agreement Start Date" is on or after December 1st 2025 / Requis si la "date de début de l’entente" est le 1er décembre 2025 ou après  
 
 
 **Description:**  
@@ -724,7 +739,8 @@ FR: Le nom de l'entente est le titre du projet ou de l'entente à l'égard duque
 #### `agreement_title_fr` – Agreement Title (French) / Titre de l’entente (français)
 
 **Type:** `text`  
-**Required:** No  
+**Required:** Yes  
+**Validation:** Required if "Agreement Start Date" is on or after December 1st 2025 / Requis si la "date de début de l’entente" est le 1er décembre 2025 ou après  
 
 
 **Description:**  
@@ -751,11 +767,18 @@ FR: Le numéro de l'entente est celui qui figure à l'entente et/ou dans le syst
 
 **Type:** `money`  
 **Required:** Yes  
+**Validation:** This field must not be empty.
+The number must be greater than 0.
+ / Ce champ ne doit pas être vide.
+Le nombre doit être supérieur à 0.
+  
 
 
 **Description:**  
-EN: The agreement value is the dollar amount stated in the grant or contribution agreement. This field should be populated with a monetary value in Canadian dollars.  
-FR: La valeur de l'entente est le montant en dollars indiqué dans l'entente de subvention ou de contribution. Ce champ doit indiquer une valeur monétaire en dollars canadiens.
+EN: The agreement value is the dollar amount stated in the grant or contribution agreement. This field should be populated with a monetary value in Canadian dollars. This field should report on the total grant or contribution value, and not the change in agreement value.
+  
+FR: La valeur de l'entente est le montant en dollars indiqué dans l'entente de subvention ou de contribution. Ce champ doit indiquer une valeur monétaire en dollars canadiens. Ce champ doit indiquer la valeur totale de la subvention ou de la contribution, et non la variation de la valeur de l'accord.
+
 
 
 ---
@@ -899,11 +922,22 @@ FR: La valeur en monnaie étrangère est le montant convenu aux termes de l'ente
 
 **Type:** `date`  
 **Required:** Yes  
+**Validation:** This field must not be empty.
+Date can’t be in the future.
+ / Ce champ ne doit pas être vide.
+La date ne doit pas être dans le futur.
+  
 
 
 **Description:**  
-EN: The agreement start date is the assumed start of the agreement, or when the project is supposed to begin, as captured in the initial agreement.  
-FR: La date de début de l'entente est la date d'entrée en vigueur présumée de l'entente ou la date à laquelle le projet est censé commencer, conformément à l'entente initiale.
+EN: The agreement start date is the assumed start of the agreement, normally identified based on the last date of signature, as captured in the initial agreement.
+
+This date should identify the start of the funding agreement, and not the date of the grant or contribution project.
+  
+FR: La date de début de l'entente est la date d'entrée en vigueur présumée de l'entente, commence généralement à être identifié en fonction de la dernière date de signature, conformément à l'entente initiale.
+
+Cette date doit indiquer le début de l'accord de financement, et non la date du projet de subvention ou de contribution.
+
 
 
 ---
@@ -911,7 +945,8 @@ FR: La date de début de l'entente est la date d'entrée en vigueur présumée d
 #### `agreement_end_date` – Projected Agreement End Date / Date de fin prévue de l’entente
 
 **Type:** `date`  
-**Required:** No  
+**Required:** Yes  
+**Validation:** Required if "Agreement Start Date" is on or after December 1st 2025. / Requis si la "date de début de l’entente" est le 1er décembre 2025 ou après.  
 
 
 **Description:**  
@@ -976,7 +1011,8 @@ FR: Le Système de classification des industries de l'Amérique du Nord (SCIAN) 
 #### `expected_results_en` – Expected Results or Intended Outcome (English) / Résultats attendus ou visés (anglais)
 
 **Type:** `text`  
-**Required:** No  
+**Required:** Yes  
+**Validation:** Required if "Agreement Start Date" is on or after December 1st 2025 / Requis si la "date de début de l’entente" est le 1er décembre 2025 ou après  
 
 
 **Description:**  
@@ -989,7 +1025,8 @@ FR: Les résultats attendus ou visés sont les résultats présumés qui découl
 #### `expected_results_fr` – Expected Results or Intended Outcome (French) / Résultats attendus ou visés (français)
 
 **Type:** `text`  
-**Required:** No  
+**Required:** Yes  
+**Validation:** Required if "Agreement Start Date" is on or after December 1st 2025 / Requis si la "date de début de l’entente" est le 1er décembre 2025 ou après  
 
 
 **Description:**  
@@ -1007,30 +1044,32 @@ FR: Les résultats attendus ou visés sont les résultats présumés qui découl
 
 **Description:**  
 EN: Additional information is information that departments are required to enter under the guidance instructions for exceptions but that is not captured in any of the aforementioned fields. It may contain information on:
-•additional funding departments
-•funding through a third party
-•ministerial announcements
-•research fields
-•joint funding
-•collaborators and partners
-•keywords
-•belated reporting
-•novation agreements
-•terminations
-•repayability
+
+• additional funding departments
+• funding through a third party
+• ministerial announcements
+• research fields
+• joint funding
+• collaborators and partners
+• keywords
+• belated reporting
+• novation agreements
+• terminations
+• repayability
   
 FR: Lorsqu'ils sont tenus de le faire conformément aux « Indications » qui traitent des exceptions, les ministères doivent entrer ici les renseignements supplémentaires qui ne sont pas saisis dans les champs précédents. Il peut s'agir de renseignements comme ceux-ci :
-•autres ministères participent au financement;
-•financement par l'intermédiaire d'un tiers;
-•annonces ministérielles;
-•domaines de recherche;
-•financement conjoint;
-•collaborateurs et partenaires;
-•mots-clés;
-•divulgation tardive;
-•entente d'innovation;
-•résiliations;
-•remboursement.
+
+• autres ministères participent au financement;
+• financement par l'intermédiaire d'un tiers;
+• annonces ministérielles;
+• domaines de recherche;
+• financement conjoint;
+• collaborateurs et partenaires;
+• mots-clés;
+• divulgation tardive;
+• entente d'innovation;
+• résiliations;
+• remboursement.
 
 
 
@@ -1044,30 +1083,32 @@ FR: Lorsqu'ils sont tenus de le faire conformément aux « Indications » qui tr
 
 **Description:**  
 EN: Additional information is information that departments are required to enter under the guidance instructions for exceptions but that is not captured in any of the aforementioned fields. It may contain information on:
-•additional funding departments
-•funding through a third party
-•ministerial announcements
-•research fields
-•joint funding
-•collaborators and partners
-•keywords
-•belated reporting
-•novation agreements
-•terminations
-•repayability
+
+• additional funding departments
+• funding through a third party
+• ministerial announcements
+• research fields
+• joint funding
+• collaborators and partners
+• keywords
+• belated reporting
+• novation agreements
+• terminations
+• repayability
   
 FR: Lorsqu'ils sont tenus de le faire conformément aux « Indications » qui traitent des exceptions, les ministères doivent entrer ici les renseignements supplémentaires qui ne sont pas saisis dans les champs précédents. Il peut s'agir de renseignements comme ceux-ci :
-•autres ministères participent au financement;
-•financement par l'intermédiaire d'un tiers;
-•annonces ministérielles;
-•domaines de recherche;
-•financement conjoint;
-•collaborateurs et partenaires;
-•mots-clés;
-•divulgation tardive;
-•entente d'innovation;
-•résiliations;
-•remboursement.
+
+• autres ministères participent au financement;
+• financement par l'intermédiaire d'un tiers;
+• annonces ministérielles;
+• domaines de recherche;
+• financement conjoint;
+• collaborateurs et partenaires;
+• mots-clés;
+• divulgation tardive;
+• entente d'innovation;
+• résiliations;
+• remboursement.
 
 
 
@@ -1175,9 +1216,9 @@ FR:
 
 ### Generation Metadata
 
-- Generated: 2025-11-30T01:44:11 (UTC)
+- Generated: 2025-12-07T01:44:35 (UTC)
 - Source: dictionaries/grants.json
-- Commit: `a238db5`
+- Commit: `2b83973`
 - Tool Version: simple-1
 
 ### Validation
