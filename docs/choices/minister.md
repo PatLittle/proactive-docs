@@ -1,6 +1,6 @@
 # Choices for minister
 
-Generated 2025-10-08T23:20:15 UTC
+Generated 2025-12-20T23:39:37 UTC
 
 | Code | Label (EN) | Label (FR) |
 |------|------------|------------|
@@ -27,6 +27,7 @@ Generated 2025-10-08T23:20:15 UTC
 | [`MDIPD`](#MDIPD) | Minister of Diversity, Inclusion and Persons with Disabilities | Ministre de la diversité, de l’inclusion et des personnes en situation de handicap |
 | [`MDIY`](#MDIY) | Minister of Diversity and Inclusion and Youth | Ministre de la Diversité et de l’Inclusion et de la Jeunesse |
 | [`MECC`](#MECC) | Minister of Environment and Climate Change | Ministre de l'Environnement et du Changement climatique |
+| [`MECCN`](#MECCN) | Minister of the Environment, Climate Change and Nature | Ministre de l’environnement, du changement climatique et de la nature |
 | [`MED`](#MED) | Minister of Economic Development | Ministre du Développement économique |
 | [`MEMCR`](#MEMCR) | Minister of Emergency Management and Community Resilience | Ministre de la gestion des urgences et de la résilience des communautés |
 | [`MENR`](#MENR) | Minister of Energy and Natural Resources | Ministre de l’énergie et des ressources naturelles |
@@ -57,6 +58,7 @@ Generated 2025-10-08T23:20:15 UTC
 | [`MIS`](#MIS) | Minister of Indigenous Services | Ministre des Services aux Autochtones |
 | [`MISI`](#MISI) | Minister of Innovation, Science and Industry | Ministre de l'Innovation, des Sciences et de l'Industrie |
 | [`MIT`](#MIT) | Minister of International Trade | Ministre du Commerce international |
+| [`MIT1`](#MIT1) | Minister of Internal Trade | Ministre du commerce intérieur |
 | [`MITEPSBED`](#MITEPSBED) | Minister of International Trade, Export Promotion, Small Business and Economic Development | Ministre du commerce international, de la promotion des exportations, de la petite entreprise et du développement économique |
 | [`MITIA`](#MITIA) | Minister of International Trade and Intergovernmental Affairs | Ministre du commerce international et des affaires intergouvernementales |
 | [`MJ`](#MJ) | Minister of Justice | Ministre de la Justice |
@@ -221,7 +223,8 @@ Generated 2025-10-08T23:20:15 UTC
 
 | Row | Minister (EN) | Minister (FR) | Start | End |
 |-----|---------------|---------------|-------|-----|
-| 1 | Guilbeault, Steven (Hon.) | Guilbeault, Steven (L’hon.) | 2025-05-13T10:45:00 |  |
+| 1 | Miller, Marc (Hon.) | Miller, Marc (L’hon.) | 2025-12-01T15:06:00 |  |
+| 2 | Guilbeault, Steven (Hon.) | Guilbeault, Steven (L’hon.) | 2025-05-13T10:45:00 | 2025-12-09T00:00:00 |
 
 ### Code `MCR` – Minister of Crown-Indigenous Relations / Ministre des Relations Couronne-Autochtones {#MCR}
 
@@ -274,10 +277,16 @@ Generated 2025-10-08T23:20:15 UTC
 
 | Row | Minister (EN) | Minister (FR) | Start | End |
 |-----|---------------|---------------|-------|-----|
-| 1 | Dabrusin, Julie (Hon.) | Dabrusin, Julie (L’hon.) | 2025-05-13T10:45:00 |  |
+| 1 | Dabrusin, Julie (Hon.) | Dabrusin, Julie (L’hon.) | 2025-05-13T10:45:00 | 2025-12-09T00:00:00 |
 | 2 | Duguid, Terry (Hon.) | Duguid, Terry (L'hon.) | 2025-03-14T11:31:00 | 2025-05-13T10:44:59 |
 | 3 | Guilbeault, Steven (Hon.) | Guilbeault, Steven (L’hon.) | 2021-10-26T10:30:00 | 2025-03-13T23:59:59 |
 | 4 | Wilkinson, Jonathan (Hon.) | Wilkinson, Jonathan (L’hon.) | 2019-11-20T15:00:00 | 2021-10-26T10:29:59 |
+
+### Code `MECCN` – Minister of the Environment, Climate Change and Nature / Ministre de l’environnement, du changement climatique et de la nature {#MECCN}
+
+| Row | Minister (EN) | Minister (FR) | Start | End |
+|-----|---------------|---------------|-------|-----|
+| 1 | Dabrusin, Julie (Hon.) | Dabrusin, Julie (L’hon.) | 2025-12-01T15:06:00 |  |
 
 ### Code `MED` – Minister of Economic Development / Ministre du Développement économique {#MED}
 
@@ -495,6 +504,12 @@ Generated 2025-10-08T23:20:15 UTC
 | 1 | Sidhu, Maninder (Hon.) | Sidhu, Maninder (L’hon.) | 2025-05-13T10:45:00 |  |
 | 2 | Ng, Mary (Hon.) | Ng, Mary (L’hon.) | 2019-11-20T15:00:00 | 2021-10-26T10:29:59 |
 
+### Code `MIT1` – Minister of Internal Trade / Ministre du commerce intérieur {#MIT1}
+
+| Row | Minister (EN) | Minister (FR) | Start | End |
+|-----|---------------|---------------|-------|-----|
+| 1 | LeBlanc, Dominic (Hon.) | LeBlanc, Dominic (L’hon.) | 2025-09-16T16:00:00 |  |
+
 ### Code `MITEPSBED` – Minister of International Trade, Export Promotion, Small Business and Economic Development / Ministre du commerce international, de la promotion des exportations, de la petite entreprise et du développement économique {#MITEPSBED}
 
 | Row | Minister (EN) | Minister (FR) | Start | End |
@@ -693,7 +708,8 @@ Generated 2025-10-08T23:20:15 UTC
 
 | Row | Minister (EN) | Minister (FR) | Start | End |
 |-----|---------------|---------------|-------|-----|
-| 1 | Guilbeault, Steven (Hon.) | Guilbeault, Steven (L’hon.) | 2025-05-13T10:45:00 |  |
+| 1 | Miller, Marc (Hon.) | Miller, Marc (L’hon.) | 2025-12-01T15:06:00 |  |
+| 2 | Guilbeault, Steven (Hon.) | Guilbeault, Steven (L’hon.) | 2025-05-13T10:45:00 | 2025-12-09T00:00:00 |
 
 ### Code `MRPEDAC` – Minister responsible for the Pacific Economic Development Agency of Canada / Ministre responsable de l’agence de développement économique du pacifique canada {#MRPEDAC}
 
@@ -750,10 +766,11 @@ Generated 2025-10-08T23:20:15 UTC
 
 | Row | Minister (EN) | Minister (FR) | Start | End |
 |-----|---------------|---------------|-------|-----|
-| 1 | Anand, Anita (Hon.) | Anand, Anita (L’hon.) | 2024-09-19T11:11:00 | 2024-12-20T11:29:59 |
-| 2 | Rodriguez, Pablo (Hon.) | Rodriguez, Pablo (L’hon.) | 2023-07-26T10:30:00 | 2024-09-19T11:10:59 |
-| 3 | Alghabra, Omar (Hon.) | Alghabra, Omar (L’hon.) | 2021-01-12T00:00:00 | 2023-07-26T10:29:59 |
-| 4 | Garneau, Marc (Hon.) | Garneau, Marc (L’hon.) | 2015-11-04T10:45:00 | 2021-01-11T23:59:59 |
+| 1 | MacKinnon, Steven (Hon.) | MacKinnon, Steven (L’hon.) | 2025-09-16T16:00:00 |  |
+| 2 | Anand, Anita (Hon.) | Anand, Anita (L’hon.) | 2024-09-19T11:11:00 | 2024-12-20T11:29:59 |
+| 3 | Rodriguez, Pablo (Hon.) | Rodriguez, Pablo (L’hon.) | 2023-07-26T10:30:00 | 2024-09-19T11:10:59 |
+| 4 | Alghabra, Omar (Hon.) | Alghabra, Omar (L’hon.) | 2021-01-12T00:00:00 | 2023-07-26T10:29:59 |
+| 5 | Garneau, Marc (Hon.) | Garneau, Marc (L’hon.) | 2015-11-04T10:45:00 | 2021-01-11T23:59:59 |
 
 ### Code `MT1` – Minister of Tourism / Ministre du tourisme {#MT1}
 
@@ -766,8 +783,8 @@ Generated 2025-10-08T23:20:15 UTC
 
 | Row | Minister (EN) | Minister (FR) | Start | End |
 |-----|---------------|---------------|-------|-----|
-| 1 | Freeland, Chrystia (Hon.) | Freeland, Chrystia (L’hon.) | 2025-05-13T10:45:00 |  |
-| 2 | Freeland, Chrystia (Hon.) | Freeland, Chrystia (L’hon.) | 2025-03-14T11:31:00 |  |
+| 1 | Freeland, Chrystia (Hon.) | Freeland, Chrystia (L’hon.) | 2025-05-13T10:45:00 | 2025-09-16T15:59:59 |
+| 2 | Freeland, Chrystia (Hon.) | Freeland, Chrystia (L’hon.) | 2025-03-14T11:31:00 | 2025-05-13T10:44:59 |
 | 3 | Anand, Anita (Hon.) | Anand, Anita (L’hon.) | 2024-12-20T11:30:00 | 2025-03-13T23:59:59 |
 
 ### Code `MVA` – Minister of Veterans Affairs / Ministre des Anciens Combattants {#MVA}
