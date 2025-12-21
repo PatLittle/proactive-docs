@@ -2,9 +2,9 @@
 # Service Inventory / Répertoire de services
 
 **Dataset Type:** `service`  
-**Last Generated:** 2025-12-14T01:45:12 (UTC)  
+**Last Generated:** 2025-12-21T01:44:51 (UTC)  
 **Source:** dictionaries/service.json  
-**Commit:** `ddfad99`
+**Commit:** `5b514ef`
 
 Access, upload and modify the Service Inventory of external and internal enterprise services for your organization / Accèder, téléverser et modifier le catalogue des service internes intégrés et externes pour votre organisation
 
@@ -40,8 +40,8 @@ Access, upload and modify the Service Inventory of external and internal enterpr
 | `program_id` | Program ID Code / Code d&#39;identification du programme | `_text` | Yes |  | program_id | Identifies the unique program code associated with program elements for all str… |
 | `client_feedback_channel` | Client Feedback, by Channel / Commentaires des clients, par canal | `_text` | Yes |  | client_feedback_channel | Identifies which channels, if any, provide users of a service an opportunity to… |
 | `automated_decision_system` | Automated Decision System / Système décisionnel automatisé | `text` | Yes |  | automated_decision_system | An automated decision system is defined in the Directive on Automated Decision-… |
-| `automated_decision_system_description_en` | Automated Decision System Description (English) / Description du système décisionnel automatisé (anglais) | `text` | No |  |  | Describe what the system does. Include: the name or title of the system,  the r… |
-| `automated_decision_system_description_fr` | Automated Decision System Description (French) / Description du système décisionnel automatisé (français) | `text` | No |  |  | Describe what the system does. Include: the name or title of the system, the  r… |
+| `automated_decision_system_description_en` | Automated Decision System Description (English) / Description du système décisionnel automatisé (anglais) | `text` | No |  |  | Describe what the system does. Include: the name or title of the system, the ro… |
+| `automated_decision_system_description_fr` | Automated Decision System Description (French) / Description du système décisionnel automatisé (français) | `text` | No |  |  | Describe what the system does. Include: the name or title of the system, the ro… |
 | `service_fee` | Service Fees / Frais de service | `text` | Yes |  | service_fee | Identifies whether a service fee is collected for the provision of the service. |
 | `os_account_registration` | Online Services: Account Registration/Enrollment / Services en ligne : Enregistrement/inscription du compte | `text` | Yes |  | os_account_registration | Identifies whether a client can register or enroll for a personal account where… |
 | `os_authentication` | Online Services: Authentication / Services en ligne : Authentification | `text` | Yes |  | os_authentication | Identifies whether a client can authenticate their identity online. |
@@ -54,16 +54,16 @@ Access, upload and modify the Service Inventory of external and internal enterpr
 | `last_service_review` | Year of last service review / Année du dernier examen de service | `text` | No |  | last_service_review | Identifies the fiscal year when the most recent service review was completed. |
 | `last_service_improvement` | Year of last service improvement based on client feedback / Année de la dernière amélioration du service sur la base de la rétroaction du client | `text` | No |  | last_service_improvement | Identifies the most recent year in which this service was improved based on cli… |
 | `sin_usage` | Use of Social Insurance Number / Utilisation du numéro d&#39;assurance sociale (NAS) | `text` | Yes |  | sin_usage | Identifies whether the Social Insurance Number (SIN) is used in the delivery of… |
-| `cra_bn_identifier_usage` | Use of CRA Business Number as Standard Identifier / Utilisation du numéro d’entreprise de l’ARC en tant qu’identificateur standard | `text` | Yes |  | cra_bn_identifier_usage | Identifies whether the Canada Revenue Agency's Business Number is used in the  … |
-| `num_phone_enquiries` | Number of Telephone Enquiries Received / Nombre de demandes de renseignements reçues par telephone | `text` | Yes |  |  | Identifies the number of enquiries about the service received in this  fiscal y… |
+| `cra_bn_identifier_usage` | Use of CRA Business Number as Standard Identifier / Utilisation du numéro d’entreprise de l’ARC en tant qu’identificateur standard | `text` | Yes |  | cra_bn_identifier_usage | Identifies whether the Canada Revenue Agency's Business Number is used in the d… |
+| `num_phone_enquiries` | Number of Telephone Enquiries Received / Nombre de demandes de renseignements reçues par telephone | `text` | Yes |  |  | Identifies the number of enquiries about the service received in this fiscal ye… |
 | `num_applications_by_phone` | Number of Applications Submitted by Telephone / Nombre de demandes soumises par téléphone | `text` | Yes |  |  | Identifies the number of applications submitted in a fiscal year for the teleph… |
-| `num_website_visits` | Number of Website Visits / Nombre de visites sur le site Web | `text` | Yes |  |  | Identifies the number of visits to the service's website in a fiscal year.  A v… |
-| `num_applications_online` | Number of Applications Submitted Online / Nombre de demandes soumises en ligne | `text` | Yes |  |  | Identifies the number of applications submitted in a fiscal year for  the onlin… |
-| `num_applications_in_person` | Number of Applications Submitted In-Person / Nombre de demandes soumises en personne | `text` | Yes |  |  | Identifies number of applications received in-person in a fiscal year  for the … |
+| `num_website_visits` | Number of Website Visits / Nombre de visites sur le site Web | `text` | Yes |  |  | Identifies the number of visits to the service's website in a fiscal year. A va… |
+| `num_applications_online` | Number of Applications Submitted Online / Nombre de demandes soumises en ligne | `text` | Yes |  |  | Identifies the number of applications submitted in a fiscal year for the online… |
+| `num_applications_in_person` | Number of Applications Submitted In-Person / Nombre de demandes soumises en personne | `text` | Yes |  |  | Identifies number of applications received in-person in a fiscal year for the s… |
 | `num_applications_by_mail` | Number of Applications Submitted via Postal Mail / Nombre de demandes soumises par la poste | `text` | Yes |  |  | Identifies the number of applications received through postal mail in a fiscal … |
-| `num_applications_by_email` | Number of Applications Submitted by Email / Nombre de demandes soumises par courriel | `text` | Yes |  |  | Identifies the number of applications received through email in a fiscal  year … |
+| `num_applications_by_email` | Number of Applications Submitted by Email / Nombre de demandes soumises par courriel | `text` | Yes |  |  | Identifies the number of applications received through email in a fiscal year f… |
 | `num_applications_by_fax` | Number of Applications Submitted by Fax / Nombre de demandes soumises par fax | `text` | Yes |  |  | Identifies the number of applications received through fax in a fiscal year for… |
-| `num_applications_by_other` | Number of Applications Submitted via other channels / Nombre de demandes soumises par les autre modes de prestations | `text` | Yes |  |  | Identifies the number of applications received through other channels not  list… |
+| `num_applications_by_other` | Number of Applications Submitted via other channels / Nombre de demandes soumises par les autre modes de prestations | `text` | Yes |  |  | Identifies the number of applications received through other channels not liste… |
 | `special_remarks_en` | Special Remarks (English) / Remarques spéciales (anglais) | `text` | No |  |  | Provides additional space for comments related to volumetrics information. Plea… |
 | `special_remarks_fr` | Special Remarks (French) / Remarques spéciales (français) | `text` | No |  |  | Provides additional space for comments related to volumetrics information. Plea… |
 | `service_uri_en` | URL to Service (English) / URL du service (anglais) | `text` | No |  |  | Identifies the departmental webpage where the service is described and/or accessed. |
@@ -86,7 +86,7 @@ Access, upload and modify the Service Inventory of external and internal enterpr
 **Description:**  
 EN: Identifies the fiscal year (April 1 to March 31) during which service activities took place. For example, records for fiscal year 2023-2024 should include applications received from April 1, 2023, to March 31, 2024.
   
-FR: Indique l'exercice financier (1 avril au 31 mars) durant lequel les activités du service ont eu lieu.  Par exemple, les données pour l’exercice financier 2023-2024 devraient inclure les demandes de service qui  ont été reçues entre le 1er avril 2023 et le 31 mars 2024.
+FR: Indique l'exercice financier (1 avril au 31 mars) durant lequel les activités du service ont eu lieu. Par exemple, les données pour l’exercice financier 2023-2024 devraient inclure les demandes de service qui ont été reçues entre le 1er avril 2023 et le 31 mars 2024.
 
 
 
@@ -339,10 +339,10 @@ FR: Identifie les clients ou les groupes de services cibles. Séparez les entré
 
 **Description:**  
 EN: Identifies the unique program code associated with program elements for all strategic outcomes, programs, sub-programs, and sub-sub-programs. The Program codes in the government-wide Chart of Accounts can be used.
-Corporate planners in the department/agency who are responsible for the Policy on Results  can assist in identifying this, if needed. Multiple values must be separated by a comma (,).
+Corporate planners in the department/agency who are responsible for the Policy on Results can assist in identifying this, if needed. Multiple values must be separated by a comma (,).
   
-FR: Indique le code de programme unique associé aux éléments de programme pour tous  les résultats stratégiques, les programmes, les sous-programmes et les  sous-sous-programmes. Les codes de programme du Plan comptable à l'échelle de  l'administration fédérale peuvent être utilisés. 
-Les planificateurs ministériels du ministère ou de l'organisme responsables de la  Politique sur les résultats peuvent aider à déterminer le code d'identification  du programme, au besoin. Séparez les entrées par une virgule (,) s’il y en a plusieurs  qui s’appliquent.
+FR: Indique le code de programme unique associé aux éléments de programme pour tous les résultats stratégiques, les programmes, les sous-programmes et les sous-sous-programmes. Les codes de programme du Plan comptable à l'échelle de l'administration fédérale peuvent être utilisés.
+Les planificateurs ministériels du ministère ou de l'organisme responsables de la Politique sur les résultats peuvent aider à déterminer le code d'identification du programme, au besoin. Séparez les entrées par une virgule (,) s’il y en a plusieurs qui s’appliquent.
 
 
 
@@ -1564,11 +1564,11 @@ FR: Détermine quels canaux, s'il y a lieu, offrent aux utilisateurs d'un servic
 
 
 **Description:**  
-EN: An automated decision system is defined in the Directive on Automated Decision-Making  and means any technology that either assists or replaces the judgment of human  decision-makers, such as those that draw from fields like statistics, linguistics and  computer science, and use techniques such as rules-based systems, regression,  predictive analytics, machine learning, deep learning, and neural networks.
-For the scope of this question, please answer yes if the service uses an automated decision  systems to make or assist officers in making administrative decisions, those that  affect legal rights, privileges or interests of clients, whether internal or external.  When a system is an automated decision system that makes or assists an officer in  making, the requirements of the Directive must be met, and an Algorithmic Impact  Assessment published. Refer to the Guide on the Scope of the Directive on Automated  Decision-Making to learn more about whether the system is in scope of the Directive  on Automated Decision-Making. You can also reach out to your department’s Chief  Information and Chief Data Offices to learn more about whether the system falls in  scope of the Directive.
+EN: An automated decision system is defined in the Directive on Automated Decision-Making and means any technology that either assists or replaces the judgment of human decision-makers, such as those that draw from fields like statistics, linguistics and computer science, and use techniques such as rules-based systems, regression, predictive analytics, machine learning, deep learning, and neural networks.
+For the scope of this question, please answer yes if the service uses an automated decision systems to make or assist officers in making administrative decisions, those that affect legal rights, privileges or interests of clients, whether internal or external. When a system is an automated decision system that makes or assists an officer in making, the requirements of the Directive must be met, and an Algorithmic Impact Assessment published. Refer to the Guide on the Scope of the Directive on Automated Decision-Making to learn more about whether the system is in scope of the Directive on Automated Decision-Making. You can also reach out to your department’s Chief Information and Chief Data Offices to learn more about whether the system falls in scope of the Directive.
   
-FR: Un système décisionnel automatisé est défini dans la Directive sur la prise de décisions  automatisée et désigne toute technologie qui assiste ou remplace le jugement des décideurs  humains, comme ceux qui proviennent de domaines tels que les statistiques, la linguistique  et les sciences informatiques, et utilisent des techniques telles que les systèmes basés  sur des règles, la régression, l’analytique prédictive, l’apprentissage automatique,  l’apprentissage en profondeur et les réseaux neuronaux.
-Pour la portée de cette question, veuillez répondre "oui" si le service utilise des systèmes  décisionnel automatisé pour prendre ou aider les agents à prendre des décisions administratives,  celles qui affectent les droits juridiques, les privilèges ou les intérêts des clients, qu'ils  soient internes ou externes. Lorsqu'un système est un système décisionnel automatisé qui prend ou  aide un agent à prendre des décisions, les exigences de la Directive doivent être respectées,  et une Évaluation de l'incidence algorithmique doit être publiée. Référez-vous au Guide  sur la portée de la Directive sur la prise de décisions automatisée pour en savoir plus  sur la portée de la Directive sur la prise de décision automatisée. Vous pouvez également  contacter les bureaux du Dirigeant principal de l'information et du Dirigeant principal  des données de votre ministère pour en savoir plus sur la portée de la Directive.
+FR: Un système décisionnel automatisé est défini dans la Directive sur la prise de décisions automatisée et désigne toute technologie qui assiste ou remplace le jugement des décideurs humains, comme ceux qui proviennent de domaines tels que les statistiques, la linguistique et les sciences informatiques, et utilisent des techniques telles que les systèmes basés sur des règles, la régression, l’analytique prédictive, l’apprentissage automatique, l’apprentissage en profondeur et les réseaux neuronaux.
+Pour la portée de cette question, veuillez répondre "oui" si le service utilise des systèmes décisionnel automatisé pour prendre ou aider les agents à prendre des décisions administratives, celles qui affectent les droits juridiques, les privilèges ou les intérêts des clients, qu'ils soient internes ou externes. Lorsqu'un système est un système décisionnel automatisé qui prend ou aide un agent à prendre des décisions, les exigences de la Directive doivent être respectées, et une Évaluation de l'incidence algorithmique doit être publiée. Référez-vous au Guide sur la portée de la Directive sur la prise de décisions automatisée pour en savoir plus sur la portée de la Directive sur la prise de décision automatisée. Vous pouvez également contacter les bureaux du Dirigeant principal de l'information et du Dirigeant principal des données de votre ministère pour en savoir plus sur la portée de la Directive.
 
 
 
@@ -1596,9 +1596,9 @@ Ce champ a une longueur maximale de 1800 caractères.
 
 
 **Description:**  
-EN: Describe what the system does. Include: the name or title of the system,  the role of the system in the decision, whether it is full or partial  automation, and how officers use the system to make or inform the decision.  Include whether or not an Algorithmic Impact Assessment is published,  and if not indicate the reason for not publishing one.
+EN: Describe what the system does. Include: the name or title of the system, the role of the system in the decision, whether it is full or partial automation, and how officers use the system to make or inform the decision. Include whether or not an Algorithmic Impact Assessment is published, and if not indicate the reason for not publishing one.
   
-FR: Décrivez ce que fait le système. Inclure : le nom ou titre du système,  le rôle du système dans la prise de décision, s'il s'agit d'une automatisation  complète ou partielle, et comment les agents utilisent le système pour prendre  ou informer la décision. Indiquer si une Évaluation de l'incidence algorithmique  est publiée ou non, et si ce n'est pas le cas, indiquez la raison pour laquelle  elle n'est pas publiée.
+FR: Décrivez ce que fait le système. Inclure : le nom ou titre du système, le rôle du système dans la prise de décision, s'il s'agit d'une automatisation complète ou partielle, et comment les agents utilisent le système pour prendre ou informer la décision. Indiquer si une Évaluation de l'incidence algorithmique est publiée ou non, et si ce n'est pas le cas, indiquez la raison pour laquelle elle n'est pas publiée.
 
 
 
@@ -1616,9 +1616,9 @@ Ce champ a une longueur maximale de 1800 caractères.
 
 
 **Description:**  
-EN: Describe what the system does. Include: the name or title of the system, the  role of the system in the decision, whether it is full or partial automation,  and how officers use the system to make or inform the decision. Include  whether or not an Algorithmic Impact Assessment is published, and if not  indicate the reason for not publishing one.
+EN: Describe what the system does. Include: the name or title of the system, the role of the system in the decision, whether it is full or partial automation, and how officers use the system to make or inform the decision. Include whether or not an Algorithmic Impact Assessment is published, and if not indicate the reason for not publishing one.
   
-FR: Décrivez ce que fait le système. Inclure : le nom ou titre du système,  le rôle du système dans la prise de décision, s'il s'agit d'une automatisation  complète ou partielle, et comment les agents utilisent le système pour prendre  ou informer la décision. Indiquer si une Évaluation de l'incidence algorithmique  est publiée ou non, et si ce n'est pas le cas, indiquez la raison pour laquelle  elle n'est pas publiée.
+FR: Décrivez ce que fait le système. Inclure : le nom ou titre du système, le rôle du système dans la prise de décision, s'il s'agit d'une automatisation complète ou partielle, et comment les agents utilisent le système pour prendre ou informer la décision. Indiquer si une Évaluation de l'incidence algorithmique est publiée ou non, et si ce n'est pas le cas, indiquez la raison pour laquelle elle n'est pas publiée.
 
 
 
@@ -1821,7 +1821,7 @@ Ce champ a une longueur maximale de 1000 caractères.
 **Description:**  
 EN: Comments related to online services - client Interaction points (English). For any interaction points reported as "Not Applicable", comments have to be provided.
   
-FR: Commentaires en anglais en lien avec les services en ligne - points d'interaction avec les  clients. Pour tout point d'interaction signalés comme « sans objet », des commentaires  doivent être fournis.
+FR: Commentaires en anglais en lien avec les services en ligne - points d'interaction avec les clients. Pour tout point d'interaction signalés comme « sans objet », des commentaires doivent être fournis.
 
 
 
@@ -1841,7 +1841,7 @@ Ce champ a une longueur maximale de 1000 caractères.
 **Description:**  
 EN: Comments related to online services - client Interaction points (French). For any interaction points reported as "Not Applicable", comments have to be provided.
   
-FR: Commentaires en français en lien avec les services en ligne - points d'interaction avec les  clients (français). Pour tout point d'interaction signalés comme « sans objet », des  commentaires doivent être fournis.
+FR: Commentaires en français en lien avec les services en ligne - points d'interaction avec les clients (français). Pour tout point d'interaction signalés comme « sans objet », des commentaires doivent être fournis.
 
 
 
@@ -1976,9 +1976,9 @@ FR: Indique si le numéro d'assurance sociale (NAS) est utilisé dans la prestat
 
 
 **Description:**  
-EN: Identifies whether the Canada Revenue Agency's Business Number is used in the  delivery of the service as the standard identifier in accordance with the Data  reference standard on the business number.
+EN: Identifies whether the Canada Revenue Agency's Business Number is used in the delivery of the service as the standard identifier in accordance with the Data reference standard on the business number.
   
-FR: Indique si le numéro d’entreprise de l’Agence du revenu du Canada est utilisé dans  la prestation des services en tant qu’identificateur standard, conformément à la  Norme référentielle relative aux données sur le numéro d’entreprise.
+FR: Indique si le numéro d’entreprise de l’Agence du revenu du Canada est utilisé dans la prestation des services en tant qu’identificateur standard, conformément à la Norme référentielle relative aux données sur le numéro d’entreprise.
 
 
 
@@ -2009,10 +2009,10 @@ Cette valeur ne doit pas être négative.
 
 
 **Description:**  
-EN: Identifies the number of enquiries about the service received in this  fiscal year. Note: This field represents only requests for information  about the service. Report service requests or applications submitted  by telephone in the "telephone applications" field. A value of 0 means  no calls were received; ND means no data was collected; and NA means  it is not possible to submit telephone enquiries. 
+EN: Identifies the number of enquiries about the service received in this fiscal year. Note: This field represents only requests for information about the service. Report service requests or applications submitted by telephone in the "telephone applications" field. A value of 0 means no calls were received; ND means no data was collected; and NA means it is not possible to submit telephone enquiries.
 Note: This field is not included in 'Total Applications'.
   
-FR: Indique le nombre de demandes d'information reçues par téléphone au cours  d'un exercice financier. Remarque: Ce champ indique seulement le nombre de  demandes d'information au sujet d'un service. Servez-vous du champ « Nombre  de demandes soumises par téléphone » pour les demandes de prestation de service  reçues par téléphone. La valeur 0 signifie qu'aucun appel n'a été reçu, ND  signifie qu'aucune donnée n'est disponible, et NA signifie qu'il n'est pas  possible de présenter des demandes d’information par téléphone. 
+FR: Indique le nombre de demandes d'information reçues par téléphone au cours d'un exercice financier. Remarque: Ce champ indique seulement le nombre de demandes d'information au sujet d'un service. Servez-vous du champ « Nombre de demandes soumises par téléphone » pour les demandes de prestation de service reçues par téléphone. La valeur 0 signifie qu'aucun appel n'a été reçu, ND signifie qu'aucune donnée n'est disponible, et NA signifie qu'il n'est pas possible de présenter des demandes d’information par téléphone.
 Remarque : Ce champ n'est pas inclus dans « Nombre total de demandes ».
 
 
@@ -2035,7 +2035,7 @@ Cette valeur ne doit pas être négative.
 **Description:**  
 EN: Identifies the number of applications submitted in a fiscal year for the telephone channel. A value of 0 means no applications were received for this channel; ND means there is no data collected for this channel; and NA means no applications can be submitted through this channel.
   
-FR: Indique le nombre de demandes de prestation de service reçues par téléphone  au cours d'un exercice. La valeur 0 signifie qu'aucune demande n'a été reçue  via ce mode de prestation, aucune donnée (ND) signifie qu'aucune donnée n’est  disponible, et sans objet (NA) signifie que le service n’est pas offert  au moyen de ce mode de prestation.
+FR: Indique le nombre de demandes de prestation de service reçues par téléphone au cours d'un exercice. La valeur 0 signifie qu'aucune demande n'a été reçue via ce mode de prestation, aucune donnée (ND) signifie qu'aucune donnée n’est disponible, et sans objet (NA) signifie que le service n’est pas offert au moyen de ce mode de prestation.
 
 
 
@@ -2055,10 +2055,10 @@ Cette valeur ne doit pas être négative.
 
 
 **Description:**  
-EN: Identifies the number of visits to the service's website in a fiscal year.  A value of 0 means there were no visits; ND means there is no data collected  website visits; and NA means there is no associated public website. 
+EN: Identifies the number of visits to the service's website in a fiscal year. A value of 0 means there were no visits; ND means there is no data collected website visits; and NA means there is no associated public website.
 Note: This field is not included in 'Total Applications'.
   
-FR: Indique le nombre de de visites au site Web du service lors d'un exercice  financier. La valeur 0 signifie qu'aucune visite au site Web n’a été enregistrée,  aucune donnée (ND) signifie que le nombre de visites n’est pas mesuré,  et sans objet (NA) signifie qu’il n’y a aucune site web à visiter. 
+FR: Indique le nombre de de visites au site Web du service lors d'un exercice financier. La valeur 0 signifie qu'aucune visite au site Web n’a été enregistrée, aucune donnée (ND) signifie que le nombre de visites n’est pas mesuré, et sans objet (NA) signifie qu’il n’y a aucune site web à visiter.
 Remarque : Ce champ n'est pas inclus dans « Nombre total de demandes ».
 
 
@@ -2079,9 +2079,9 @@ Cette valeur ne doit pas être négative.
 
 
 **Description:**  
-EN: Identifies the number of applications submitted in a fiscal year for  the online channel. A value of 0 means no applications were received  for this channel; ND means there is no data collected for this channel;  and NA means no applications can be submitted through this channel.  Examples include applications received via a website/online portal,  via web forms (e.g., MyPayEnquiry) and digitally administered audits  and evaluations.
+EN: Identifies the number of applications submitted in a fiscal year for the online channel. A value of 0 means no applications were received for this channel; ND means there is no data collected for this channel; and NA means no applications can be submitted through this channel. Examples include applications received via a website/online portal, via web forms (e.g., MyPayEnquiry) and digitally administered audits and evaluations.
   
-FR: Indique le nombre de demandes de prestation de service reçues en  ligne au cours d'un exercice. La valeur 0 signifie qu'aucune demande  n'a été reçue via ce mode de prestation, aucune donnée (ND) signifie  qu'aucune donnée n’est disponible, et sans objet (NA) signifie que  le service n’est pas offert au moyen de ce mode de prestation.  Il s'agit par exemple des demandes reçues sur un site Web ou un portail  en ligne, sur des formulaires Web (p. ex., Ma demande de paye) et des  vérifications et évaluations administrés numériquement.
+FR: Indique le nombre de demandes de prestation de service reçues en ligne au cours d'un exercice. La valeur 0 signifie qu'aucune demande n'a été reçue via ce mode de prestation, aucune donnée (ND) signifie qu'aucune donnée n’est disponible, et sans objet (NA) signifie que le service n’est pas offert au moyen de ce mode de prestation. Il s'agit par exemple des demandes reçues sur un site Web ou un portail en ligne, sur des formulaires Web (p. ex., Ma demande de paye) et des vérifications et évaluations administrés numériquement.
 
 
 
@@ -2101,9 +2101,9 @@ Cette valeur ne doit pas être négative.
 
 
 **Description:**  
-EN: Identifies number of applications received in-person in a fiscal year  for the service. A value of 0 means no applications were received for  this channel; ND means there is no data collected for this channel;  and NA means no applications can be submitted through this channel.  Examples include in-person applications, volume of inspections,  audits, evaluations, etc.
+EN: Identifies number of applications received in-person in a fiscal year for the service. A value of 0 means no applications were received for this channel; ND means there is no data collected for this channel; and NA means no applications can be submitted through this channel. Examples include in-person applications, volume of inspections, audits, evaluations, etc.
   
-FR: Indique le nombre de demandes de prestation de service reçues en personne  au cours d'un exercice. La valeur 0 signifie qu'aucune demande n'a été  reçue via ce mode de prestation, aucune donnée (ND) signifie qu'aucune  donnée n’est disponible, et sans objet (NA) signifie que le service n’est  pas offert au moyen de ce mode de prestation. Il s’agit par exemple des  demandes en personne, du volume d'inspections, d'audits, d'évaluations, etc.
+FR: Indique le nombre de demandes de prestation de service reçues en personne au cours d'un exercice. La valeur 0 signifie qu'aucune demande n'a été reçue via ce mode de prestation, aucune donnée (ND) signifie qu'aucune donnée n’est disponible, et sans objet (NA) signifie que le service n’est pas offert au moyen de ce mode de prestation. Il s’agit par exemple des demandes en personne, du volume d'inspections, d'audits, d'évaluations, etc.
 
 
 
@@ -2125,7 +2125,7 @@ Cette valeur ne doit pas être négative.
 **Description:**  
 EN: Identifies the number of applications received through postal mail in a fiscal year. A value of 0 means no applications were received for this channel; ND means there is no data collected for this channel; and NA means no applications can be submitted through this channel.
   
-FR: Indique le nombre de demandes de prestation de service reçues par la poste au cours  d'un exercice. La valeur 0 signifie qu'aucune demande n'a été reçue via ce mode  de prestation, aucune donnée (ND) signifie qu'aucune donnée n’est disponible,  et sans objet (NA) signifie que le service n’est pas offert au moyen de ce mode  de prestation.
+FR: Indique le nombre de demandes de prestation de service reçues par la poste au cours d'un exercice. La valeur 0 signifie qu'aucune demande n'a été reçue via ce mode de prestation, aucune donnée (ND) signifie qu'aucune donnée n’est disponible, et sans objet (NA) signifie que le service n’est pas offert au moyen de ce mode de prestation.
 
 
 
@@ -2145,11 +2145,11 @@ Cette valeur ne doit pas être négative.
 
 
 **Description:**  
-EN: Identifies the number of applications received through email in a fiscal  year for the service. A value of 0 means no applications were received  for this channel; ND means there is no data collected for this channel;  and NA means no applications can be submitted through this channel.
-Examples include applications received by email and audits, reviews  and evaluations by email.
+EN: Identifies the number of applications received through email in a fiscal year for the service. A value of 0 means no applications were received for this channel; ND means there is no data collected for this channel; and NA means no applications can be submitted through this channel.
+Examples include applications received by email and audits, reviews and evaluations by email.
   
-FR: Indique le nombre de demandes de prestation de service reçues par courriel  au cours d'un exercice. La valeur 0 signifie qu'aucune demande n'a été reçue  via ce mode de prestation, aucune donnée (ND) signifie qu'aucune donnée n’est  disponible, et sans objet (NA) signifie que le service n’est pas offert au moyen  de ce mode de prestation.
-Il s'agit par exemple des demandes reçues par courriel  et des audits, examens et évaluations par courriel.
+FR: Indique le nombre de demandes de prestation de service reçues par courriel au cours d'un exercice. La valeur 0 signifie qu'aucune demande n'a été reçue via ce mode de prestation, aucune donnée (ND) signifie qu'aucune donnée n’est disponible, et sans objet (NA) signifie que le service n’est pas offert au moyen de ce mode de prestation.
+Il s'agit par exemple des demandes reçues par courriel et des audits, examens et évaluations par courriel.
 
 
 
@@ -2171,7 +2171,7 @@ Cette valeur ne doit pas être négative.
 **Description:**  
 EN: Identifies the number of applications received through fax in a fiscal year for the service. A value of 0 means no applications were received for this channel; ND means there is no data collected for this channel; and NA means no applications can be submitted through this channel.
   
-FR: Indique le nombre de demandes de prestation de service reçues par  télécopieur au cours d'un exercice. La valeur 0 signifie qu'aucune  demande n'a été reçue via ce mode de prestation, aucune donnée (ND)  signifie qu'aucune donnée n’est disponible, et sans objet (NA) signifie  que le service n’est pas offert au moyen de ce mode de prestation.
+FR: Indique le nombre de demandes de prestation de service reçues par télécopieur au cours d'un exercice. La valeur 0 signifie qu'aucune demande n'a été reçue via ce mode de prestation, aucune donnée (ND) signifie qu'aucune donnée n’est disponible, et sans objet (NA) signifie que le service n’est pas offert au moyen de ce mode de prestation.
 
 
 
@@ -2191,13 +2191,13 @@ Cette valeur ne doit pas être négative.
 
 
 **Description:**  
-EN: Identifies the number of applications received through other channels not  listed in a fiscal year for the service. A value of 0 means no applications  were received for this channel; ND means there is no data collected for  this channel; and NA means no applications can be submitted through this  channel.
-If service volumes are not tracked by channel, please include  service volumes in this field. As well, please include in this field volumes  for funding allocations without applications or other services that do not  require applications (e.g. medical screening at intake, investigations,  hearings, advice) or which do not disaggregate service demand by delivery  channel.
-Note: Volumes reported in each channel should be mutually  exclusive. Do not report the same application or interaction in more  than one channel.
+EN: Identifies the number of applications received through other channels not listed in a fiscal year for the service. A value of 0 means no applications were received for this channel; ND means there is no data collected for this channel; and NA means no applications can be submitted through this channel.
+If service volumes are not tracked by channel, please include service volumes in this field. As well, please include in this field volumes for funding allocations without applications or other services that do not require applications (e.g. medical screening at intake, investigations, hearings, advice) or which do not disaggregate service demand by delivery channel.
+Note: Volumes reported in each channel should be mutually exclusive. Do not report the same application or interaction in more than one channel.
   
-FR: Indique le nombre de demandes de prestation de service reçues par des modes  de prestations qui ne sont pas énumérés dans ce gabarit au cours d'un exercice.  La valeur 0 signifie qu'aucune demande n'a été reçue via ce mode de prestation,  aucune donnée (ND) signifie qu'aucune donnée n’est disponible, et sans objet (NA)  signifie que le service n’est pas offert au moyen de ce mode de prestation.
-Si les volumes de service ne sont pas suivis par canal, veuillez inclure les volumes  de service dans ce champ. De même, veuillez inclure dans ce champ les volumes  d'allocations de fonds sans demandes ou d'autres services qui ne nécessitent pas  de demandes (p. ex., examen médical à l'admission, enquêtes, audiences, conseils)  ou qui ne ventilent pas la demande de service par canal de prestation.
-Remarque : les volumes déclarés dans chaque canal doivent s'exclure mutuellement.  Ne déclarez pas la même demande ou interaction dans plus d'un canal.
+FR: Indique le nombre de demandes de prestation de service reçues par des modes de prestations qui ne sont pas énumérés dans ce gabarit au cours d'un exercice. La valeur 0 signifie qu'aucune demande n'a été reçue via ce mode de prestation, aucune donnée (ND) signifie qu'aucune donnée n’est disponible, et sans objet (NA) signifie que le service n’est pas offert au moyen de ce mode de prestation.
+Si les volumes de service ne sont pas suivis par canal, veuillez inclure les volumes de service dans ce champ. De même, veuillez inclure dans ce champ les volumes d'allocations de fonds sans demandes ou d'autres services qui ne nécessitent pas de demandes (p. ex., examen médical à l'admission, enquêtes, audiences, conseils) ou qui ne ventilent pas la demande de service par canal de prestation.
+Remarque : les volumes déclarés dans chaque canal doivent s'exclure mutuellement. Ne déclarez pas la même demande ou interaction dans plus d'un canal.
 
 
 
@@ -2213,7 +2213,7 @@ Remarque : les volumes déclarés dans chaque canal doivent s'exclure mutuellem
 **Description:**  
 EN: Provides additional space for comments related to volumetrics information. Please refer to associated Field ID, where applicable. For comments related to other fields, departments can create and publish an explanatory note on their website with a link to the GC Service Inventory dataset. This field is mandatory if there is an amount reported under “Number of applications submitted via other channels”
   
-FR: Fournit de l'espace supplémentaire pour les commentaires relatifs aux  renseignements sur les volumes. Veuillez vous reporter au code d'identification  du champ, s'il y a lieu. Pour les commentaires relatifs à d'autres champs,  les ministères peuvent publier une note explicative sur leur site Web suivi  d'un lien vers l'ensemble de données du Répertoire des services du GC. Ce champ  est requis s’il y a un montant rapporté sous le champ « Nombre de demandes  soumises par les autres modes de prestation »
+FR: Fournit de l'espace supplémentaire pour les commentaires relatifs aux renseignements sur les volumes. Veuillez vous reporter au code d'identification du champ, s'il y a lieu. Pour les commentaires relatifs à d'autres champs, les ministères peuvent publier une note explicative sur leur site Web suivi d'un lien vers l'ensemble de données du Répertoire des services du GC. Ce champ est requis s’il y a un montant rapporté sous le champ « Nombre de demandes soumises par les autres modes de prestation »
 
 
 
@@ -2229,7 +2229,7 @@ FR: Fournit de l'espace supplémentaire pour les commentaires relatifs aux  rens
 **Description:**  
 EN: Provides additional space for comments related to volumetrics information. Please refer to associated Field ID, where applicable. For comments related to other fields, departments can create and publish an explanatory note on their website with a link to the GC Service Inventory dataset. This field is mandatory if there is an amount reported under “Number of applications submitted via other channels”
   
-FR: Fournit de l'espace supplémentaire pour les commentaires relatifs aux  renseignements sur les volumes. Veuillez vous reporter au code d'identification  du champ, s'il y a lieu. Pour les commentaires relatifs à d'autres champs,  les ministères peuvent publier une note explicative sur leur site Web suivi d'un  lien vers l'ensemble de données du Répertoire des services du GC. Ce champ est  requis s’il y a un montant rapporté sous le champ « Nombre de demandes soumises  par les autres modes de prestation »
+FR: Fournit de l'espace supplémentaire pour les commentaires relatifs aux renseignements sur les volumes. Veuillez vous reporter au code d'identification du champ, s'il y a lieu. Pour les commentaires relatifs à d'autres champs, les ministères peuvent publier une note explicative sur leur site Web suivi d'un lien vers l'ensemble de données du Répertoire des services du GC. Ce champ est requis s’il y a un montant rapporté sous le champ « Nombre de demandes soumises par les autres modes de prestation »
 
 
 
@@ -2309,7 +2309,7 @@ FR: Indique la page Web du ministère où le service est décrit ou peut être l
 **Description:**  
 EN: Identifies the fiscal year (April 1 to March 31) during which service activities took place. For example, records for fiscal year 2023-2024 should include applications received from April 1, 2023, to March 31, 2024.
   
-FR: Indique l'exercice financier (1 avril au 31 mars) durant lequel les activités du service  ont eu lieu. Par exemple, les données pour l’exercice financier 2023-2024 devraient inclure  les demandes de service qui ont été reçues entre le 1er avril 2023 et le 31 mars 2024.
+FR: Indique l'exercice financier (1 avril au 31 mars) durant lequel les activités du service ont eu lieu. Par exemple, les données pour l’exercice financier 2023-2024 devraient inclure les demandes de service qui ont été reçues entre le 1er avril 2023 et le 31 mars 2024.
 
 
 
@@ -2416,7 +2416,7 @@ Ce champ ne peut pas contenir de virgules.
 **Description:**  
 EN: Identifies the unique number assigned to each service standard for that service. Makes it easier for reference purposes as one service may have multiple standards.
   
-FR: Indique le numéro unique attribué à chaque norme de service pour ce  service. Facilite le référencement, car un service peut avoir de multiples  normes.
+FR: Indique le numéro unique attribué à chaque norme de service pour ce service. Facilite le référencement, car un service peut avoir de multiples normes.
 
 
 
@@ -2436,7 +2436,7 @@ Ce champ a une longueur maximale de 500 caractères.
 **Description:**  
 EN: Identifies the service standard related to a particular service. See Guideline on Service and Digital for format to be used when defining service standards.
   
-FR: Indique la norme de service ayant trait à un service en particulier.  Voir la Ligne directrice sur les services et le numérique afin de  connaître le format à utiliser pour définir une norme de service.
+FR: Indique la norme de service ayant trait à un service en particulier. Voir la Ligne directrice sur les services et le numérique afin de connaître le format à utiliser pour définir une norme de service.
 
 
 
@@ -2456,7 +2456,7 @@ Ce champ a une longueur maximale de 500 caractères.
 **Description:**  
 EN: Identifies the service standard related to a particular service. See Guideline on Service and Digital for format to be used when defining service standards.
   
-FR: Indique la norme de service ayant trait à un service en particulier.  Voir la Ligne directrice sur les services et le numérique afin de  connaître le format à utiliser pour définir les normes relatives  aux services.
+FR: Indique la norme de service ayant trait à un service en particulier. Voir la Ligne directrice sur les services et le numérique afin de connaître le format à utiliser pour définir les normes relatives aux services.
 
 
 
@@ -2473,7 +2473,7 @@ FR: Indique la norme de service ayant trait à un service en particulier.  Voir 
 **Description:**  
 EN: Identifies the type of service standard as defined in the Guideline on Service and Digital. Access: a commitment outlining the ease and convenience the client should experience when attempting to access a service. Accuracy: a commitment stipulating that the client will receive a service that is up to date, free of errors, and complete. Timeliness: a commitment stating how long the client should expect to wait to receive a service once the service has been accessed.
   
-FR: Indique le type de norme de service défini selon la Ligne directrice sur les  services et le numérique. Accès : un engagement qui décrit la facilité et la  convivialité que devrait connaître le client lorsqu'il essaie d'accéder à un  service. Exactitude : un engagement qui stipule que le client recevra un  service complet et à jour qui est exempt d'erreurs. Délai : un engagement  qui indique le temps d'attente que devrait connaître le client pour recevoir  un service une fois qu'il y a accédé.
+FR: Indique le type de norme de service défini selon la Ligne directrice sur les services et le numérique. Accès : un engagement qui décrit la facilité et la convivialité que devrait connaître le client lorsqu'il essaie d'accéder à un service. Exactitude : un engagement qui stipule que le client recevra un service complet et à jour qui est exempt d'erreurs. Délai : un engagement qui indique le temps d'attente que devrait connaître le client pour recevoir un service une fois qu'il y a accédé.
 
 
 
@@ -2577,7 +2577,7 @@ Les volumes atteignant la cible ne peuvent pas dépasser le volume total.
 **Description:**  
 EN: Identifies the number of final outputs issued appropriate to the service (eg. payments issued, requests completed, etc) during the fiscal year that met a particular service standard target for a service. Blank indicates no information available, while 0 indicates that no final outputs issued met service standard targets. Note, this value must be less than or equal to the Total Volume.
   
-FR: Indique le nombre total d'opérations de service effectuées (p. ex. les paiements émis,  les demandes traitées, etc.) au cours de l'exercice auxquelles s'appliquent cette  norme de service. Un champ vide indique qu'aucune information n'est disponible, tandis  que 0 indique qu'aucune opération n'a été effectuée. Remarque : cette valeur doit  être inférieure ou égale au volumes totaux.
+FR: Indique le nombre total d'opérations de service effectuées (p. ex. les paiements émis, les demandes traitées, etc.) au cours de l'exercice auxquelles s'appliquent cette norme de service. Un champ vide indique qu'aucune information n'est disponible, tandis que 0 indique qu'aucune opération n'a été effectuée. Remarque : cette valeur doit être inférieure ou égale au volumes totaux.
 
 
 
@@ -2593,7 +2593,7 @@ FR: Indique le nombre total d'opérations de service effectuées (p. ex. les pai
 **Description:**  
 EN: Identifies the total number of final outputs issued appropriate to the service (eg. payments issued, requests completed, etc) during the fiscal year. Blank indicates no information available, while 0 indicates no final outputs issued.
   
-FR: Indique le nombre total d'opérations de service effectuées (p. ex. les paiements  émis, les demandes traitées, etc.) au cours de l'exercice auxquelles s'appliquent  cette norme de service. Un champ vide indique qu'aucune information n'est disponible,  tandis que 0 indique qu'aucune opération n'a été effectuée.
+FR: Indique le nombre total d'opérations de service effectuées (p. ex. les paiements émis, les demandes traitées, etc.) au cours de l'exercice auxquelles s'appliquent cette norme de service. Un champ vide indique qu'aucune information n'est disponible, tandis que 0 indique qu'aucune opération n'a été effectuée.
 
 
 
@@ -2703,9 +2703,9 @@ FR: Indique la page Web (en anglais) sur laquelle les résultats de rendement en
 
 ### Generation Metadata
 
-- Generated: 2025-12-14T01:45:12 (UTC)
+- Generated: 2025-12-21T01:44:51 (UTC)
 - Source: dictionaries/service.json
-- Commit: `ddfad99`
+- Commit: `5b514ef`
 - Tool Version: simple-1
 
 ### Validation

@@ -2,9 +2,9 @@
 # Proactive Publication - Question Period Notes / Publication proactive - Notes pour la période des questions
 
 **Dataset Type:** `qpnotes`  
-**Last Generated:** 2025-12-14T01:45:09 (UTC)  
+**Last Generated:** 2025-12-21T01:44:47 (UTC)  
 **Source:** dictionaries/qpnotes.json  
-**Commit:** `ddfad99`
+**Commit:** `5b514ef`
 
 Access, upload and modify Question Period notes for your organization / Accès, téléversement et modifications des notes de la période de questions pour votre organisation
 
@@ -94,7 +94,7 @@ FR: L’utilisateur indique le titre officiel en français de la note pour la p�
 **Type:** `text`  
 **Required:** Yes  
 **Validation:** This field must not be empty / Ce champ ne doit pas être vide  
-**Choice Set:** minister (111 values)  
+**Choice Set:** minister (113 values)  
 
 
 **Description:**  
@@ -128,6 +128,7 @@ FR: Ce champ affichera le titre du ministre pour qui la note pour la période de
 | `MDIPD` | Minister of Diversity, Inclusion and Persons with Disabilities | Ministre de la diversité, de l’inclusion et des personnes en situation de handicap |
 | `MDIY` | Minister of Diversity and Inclusion and Youth | Ministre de la Diversité et de l’Inclusion et de la Jeunesse |
 | `MECC` | Minister of Environment and Climate Change | Ministre de l&#39;Environnement et du Changement climatique |
+| `MECCN` | Minister of the Environment, Climate Change and Nature | Ministre de l’environnement, du changement climatique et de la nature |
 | `MED` | Minister of Economic Development | Ministre du Développement économique |
 | `MEMCR` | Minister of Emergency Management and Community Resilience | Ministre de la gestion des urgences et de la résilience des communautés |
 | `MENR` | Minister of Energy and Natural Resources | Ministre de l’énergie et des ressources naturelles |
@@ -158,6 +159,7 @@ FR: Ce champ affichera le titre du ministre pour qui la note pour la période de
 | `MIS` | Minister of Indigenous Services | Ministre des Services aux Autochtones |
 | `MISI` | Minister of Innovation, Science and Industry | Ministre de l&#39;Innovation, des Sciences et de l&#39;Industrie |
 | `MIT` | Minister of International Trade | Ministre du Commerce international |
+| `MIT1` | Minister of Internal Trade | Ministre du commerce intérieur |
 | `MITEPSBED` | Minister of International Trade, Export Promotion, Small Business and Economic Development | Ministre du commerce international, de la promotion des exportations, de la petite entreprise et du développement économique |
 | `MITIA` | Minister of International Trade and Intergovernmental Affairs | Ministre du commerce international et des affaires intergouvernementales |
 | `MJ` | Minister of Justice | Ministre de la Justice |
@@ -417,9 +419,9 @@ FR: Cet onglet/champ du modèle n’est rempli que s'il n'y a pas de note pour l
 
 ### Generation Metadata
 
-- Generated: 2025-12-14T01:45:09 (UTC)
+- Generated: 2025-12-21T01:44:47 (UTC)
 - Source: dictionaries/qpnotes.json
-- Commit: `ddfad99`
+- Commit: `5b514ef`
 - Tool Version: simple-1
 
 ### Validation
