@@ -2,9 +2,9 @@
 # Open Data Inventory / Inventaire des données ouvertes
 
 **Dataset Type:** `inventory`  
-**Last Generated:** 2025-12-28T01:49:49 (UTC)  
+**Last Generated:** 2026-01-04T01:51:10 (UTC)  
 **Source:** dictionaries/inventory.json  
-**Commit:** `e4d8be3`
+**Commit:** `7518850`
 
 This dataset houses your departmental open data inventory. This is where you can access and upload your open data inventory template. / Ce jeu de données contient l’inventaire des données ouvertes de votre ministère. C’est l’occasion pour accéder à et pour télécharger votre modèle d'inventaire des données ouvertes.
 
@@ -308,9 +308,9 @@ FR: Nombre d’utilisateurs qui ont voté pour ce jeu de données sur le site We
 
 ### Generation Metadata
 
-- Generated: 2025-12-28T01:49:49 (UTC)
+- Generated: 2026-01-04T01:51:10 (UTC)
 - Source: dictionaries/inventory.json
-- Commit: `e4d8be3`
+- Commit: `7518850`
 - Tool Version: simple-1
 
 ### Validation
