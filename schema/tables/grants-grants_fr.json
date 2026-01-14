@@ -12,7 +12,7 @@
     {
       "name": "amendment_number",
       "title": "Numéro de modification",
-      "description": "Ce champ est rempli par les ministères et indique qu'une modification est apportée aux renseignements originaux. Utiliser 0 pour les enregistrements originaux.",
+      "description": "Ce champ est rempli par les ministères et indique qu'une modification est apportée aux renseignements originaux. Utiliser 0 pour les enregistrements originaux. La première modification après l'accord initial doit être identifiée comme numéro 1, puis 2, etc. Les résiliations d'accord doivent être identifiées comme un autre numéro de modification et indiquer 'résiliation' dans la colonne 'Renseignements supplémentaires'.\n",
       "type": "integer",
       "constraints": {
         "required": true
@@ -47,6 +47,7 @@
       "description": "Le type de bénéficiaire permet d'identifier qui reçoit l'argent.",
       "type": "string",
       "constraints": {
+        "required": true,
         "enum": [
           "A",
           "F",
@@ -62,13 +63,13 @@
     {
       "name": "recipient_business_number",
       "title": "Numéro d'entreprise du bénéficiaire",
-      "description": "Depuis 1994, l’Agence du revenu du Canada émet des numéros d’entreprise à neuf chiffres. Aux termes de la Directive sur le numéro d’entreprise, le numéro d’entreprise constitue l’identificateur standard de toutes les opérations effectuées entre une entreprise et le gouvernement du Canada, y compris les opérations associées à une subvention ou à un financement de contribution.\n\nLe numéro d’entreprise devrait être consigné pour une organisation ou un organisme de bienfaisance.\n\nLes ministères peuvent obtenir la validation en temps réel de l’identité d’une entreprise en saisissant son numéro d’entreprise dans le Service de validation du numéro d’entreprise en ligne, qui inclut le nom légal et le nom commercial pour les entreprises individuelles, les partenariats et les constitutions en personne morale. Si vous voulez obtenir de plus amples renseignements, envoyez un courriel à ic.bnadoptionne.ic@canada.ca.\n\nPour valider un numéro d’entreprise associé à un organisme de bienfaisance, les ministères peuvent effectuer une recherche de base dans la Liste d’organismes de bienfaisance, sur le site Web Canada.ca. Entrez le nom de l’organisme de bienfaisance, puis cliquez sur le bouton de Recherche. Ensuite, cliquez sur le nom de l’organisme de bienfaisance tiré du résultat de la recherche afin de trouver de plus amples renseignements sur l’organisme de bienfaisance (p. ex., le numéro du programme de bienfaisance, le statut de l’organisme de bienfaisance, la date d’entrée en vigueur du statut et la désignation de l’organisme de bienfaisance). Il est impossible de valider le nom légal et le nom commercial au moyen de la fonction de recherche de base.\n",
+      "description": "Depuis 1994, l’Agence du revenu du Canada émet des numéros d’entreprise à neuf chiffres. Aux termes de la Directive sur le numéro d’entreprise, le numéro d’entreprise constitue l’identificateur standard de toutes les opérations effectuées entre une entreprise et le gouvernement du Canada, y compris les opérations associées à une subvention ou à un financement de contribution.\n\nCette directive est également conforme à la norme de référence sur les données du numéro d'entreprise du gouvernement du Canada : Norme référentielle relative aux données sur le numéro d’entreprise - Canada.ca (https://www.canada.ca/fr/gouvernement/systeme/gouvernement-numerique/innovations-gouvernementales-numeriques/permettre-interoperabilite/normes-referentielles-pangouvernementales-relatives-donnees-gc/norme-referentielle-relative-donnees-numero-entreprise.html)\n\nLe numéro d’entreprise devrait être consigné pour une organisation ou un organisme de bienfaisance.\n\nLes ministères peuvent obtenir la validation en temps réel de l’identité d’une entreprise en saisissant son numéro d’entreprise dans le Service de validation du numéro d’entreprise en ligne, qui inclut le nom légal et le nom commercial pour les entreprises individuelles, les partenariats et les constitutions en personne morale. Si vous voulez obtenir de plus amples renseignements, envoyez un courriel à ic.bnadoptionne.ic@canada.ca.\n\nPour valider un numéro d’entreprise associé à un organisme de bienfaisance, les ministères peuvent effectuer une recherche de base dans la Liste d’organismes de bienfaisance, sur le site Web Canada.ca. Entrez le nom de l’organisme de bienfaisance, puis cliquez sur le bouton de Recherche. Ensuite, cliquez sur le nom de l’organisme de bienfaisance tiré du résultat de la recherche afin de trouver de plus amples renseignements sur l’organisme de bienfaisance (p. ex., le numéro du programme de bienfaisance, le statut de l’organisme de bienfaisance, la date d’entrée en vigueur du statut et la désignation de l’organisme de bienfaisance). Il est impossible de valider le nom légal et le nom commercial au moyen de la fonction de recherche de base.\n",
       "type": "string"
     },
     {
       "name": "recipient_legal_name",
       "title": "Nom légal du bénéficiaire (anglais|français)",
-      "description": "Le nom légal du bénéficiaire se veut complémentaire au champ « Numéro d'entreprise du bénéficiaire ». Cette information devrait être tirée de l'entente de subvention ou de contribution.\n\nTraduction seulement si le nom légal est fourni dans les deux langues officielles par le bénéficiaire. Fournir dans le format suivant : nom anglais|nom français.\n",
+      "description": "Le nom légal du bénéficiaire se veut complémentaire au champ « Numéro d'entreprise du bénéficiaire ». Cette information devrait être tirée de l'entente de subvention ou de contribution.\n\nTraduction seulement si le nom légal est fourni dans les deux langues officielles par le bénéficiaire. Fournir dans le format suivant : nom anglais|nom français.\n",
       "type": "string",
       "constraints": {
         "required": true
@@ -77,7 +78,7 @@
     {
       "name": "recipient_operating_name",
       "title": "Nom commercial du bénéficiaire (anglais|français)",
-      "description": "Le champ « Nom commercial du bénéficiaire » est un champ facultatif utilisé dans le cas d'organisations qui exercent leurs activités sous un nom différent de leur nom légal ou de leur numéro d'entreprise. Dans le cas de chercheurs qui reçoivent leur financement par l'entremise d'une université, cette information doit être entrée ici. Ce champ ne sert pas à saisir le nom du bénéficiaire ultime de la subvention ou de la contribution, mais plutôt celui de la personne qui reçoit le financement du gouvernement du Canada.\n\nTraduction seulement si le nom est fourni dans les deux langues officielles par le bénéficiaire. Fournir dans le format suivant : nom anglais|nom français.\n",
+      "description": "Le champ « Nom commercial du bénéficiaire » est un champ facultatif utilisé dans le cas d'organisations qui exercent leurs activités sous un nom différent de leur nom légal ou de leur numéro d'entreprise. Dans le cas de chercheurs qui reçoivent leur financement par l'entremise d'une université, cette information doit être entrée ici. Ce champ ne sert pas à saisir le nom du bénéficiaire ultime de la subvention ou de la contribution, mais plutôt celui de la personne qui reçoit le financement du gouvernement du Canada.\n\nTraduction seulement si le nom est fourni dans les deux langues officielles par le bénéficiaire. Fournir dans le format suivant : nom anglais|nom français.\n",
       "type": "string"
     },
     {
@@ -374,7 +375,7 @@
     {
       "name": "recipient_city",
       "title": "Ville du bénéficiaire (anglais|français)",
-      "description": "La « Ville du bénéficiaire » est un champ obligatoire qui indique la ville où le bénéficiaire exerce ses activités. On peut y inscrire le nom de villes canadiennes ou de villes étrangères.\n\nNom officiel exact de la ville, y compris dans les deux langues officielles (le cas échéant) au format suivant : nom anglais|nom français\n\nTexte libre, mais une liste contrôlée de la liste des municipalités désignées donataires de l’Agence du revenu du Canada peut être consultée: site Web de l’Agence du revenu du Canada (http://www.cra-arc.gc.ca/chrts-gvng/qlfd-dns/mncplts-fra.html).\n",
+      "description": "La « Ville du bénéficiaire » est un champ obligatoire qui indique la ville où le bénéficiaire exerce ses activités. On peut y inscrire le nom de villes canadiennes ou de villes étrangères.\n\nNom officiel exact de la ville, y compris dans les deux langues officielles (le cas échéant) au format suivant : nom anglais|nom français\n\nTexte libre, mais une liste contrôlée de la liste des municipalités désignées donataires de l’Agence du revenu du Canada peut être consultée: site Web de l’Agence du revenu du Canada (http://www.cra-arc.gc.ca/chrts-gvng/qlfd-dns/mncplts-fra.html).\n",
       "type": "string",
       "constraints": {
         "required": true
@@ -383,7 +384,7 @@
     {
       "name": "recipient_postal_code",
       "title": "Code postal du bénéficiaire",
-      "description": "Le « Code postal du bénéficiaire » est un champ obligatoire qui sert à identifier avec précision la région où le bénéficiaire exerce ses activités. Si le fait de remplir ce champ suscite des préoccupations à l'égard de la vie privée, il est possible de le laisser vide.\n\nFormat de texte : \"X#X #X#\"; L'outil de Postes Canada permettant de rechercher un code postal se trouve sur le site Web de Postes Canada.\n",
+      "description": "Le « Code postal du bénéficiaire » est un champ obligatoire qui sert à identifier avec précision la région où le bénéficiaire exerce ses activités. Si le fait de remplir ce champ suscite des préoccupations à l'égard de la vie privée, il est possible de le laisser vide.\n\nDevrait être selon le format « A1A 1A1 »; L'outil de Postes Canada permettant de rechercher un code postal se trouve sur le site Web de Postes Canada.\n",
       "type": "string"
     },
     {
@@ -401,44 +402,62 @@
     {
       "name": "federal_riding_number",
       "title": "Numéro de la circonscription fédérale",
-      "description": "Numéro de la circonscription fédérale où réside le bénéficiaire.  Les départements peuvent consulter le site-web d’Élections Canada pour trouver le numéro de la circonscription fédérale. http://www.elections.ca/content.aspx?section=res&dir=cir/list&document=index338&lang=f",
+      "description": "Numéro de la circonscription fédérale où réside le bénéficiaire. Les départements peuvent consulter le site-web d’Élections Canada pour trouver le numéro de la circonscription fédérale. http://www.elections.ca/content.aspx?section=res&dir=cir/list&document=index338&lang=f",
       "type": "string"
     },
     {
       "name": "prog_name_en",
       "title": "Nom du programme (anglais)",
       "description": "Le nom du programme selon les modalités en vertu desquelles le financement est versé au bénéficiaire.",
-      "type": "string"
+      "type": "string",
+      "constraints": {
+        "required": true
+      }
     },
     {
       "name": "prog_name_fr",
       "title": "Nom du programme (français)",
       "description": "Le nom du programme selon les modalités en vertu desquelles le financement est versé au bénéficiaire.",
-      "type": "string"
+      "type": "string",
+      "constraints": {
+        "required": true
+      }
     },
     {
       "name": "prog_purpose_en",
       "title": "But du programme (anglais)",
       "description": "Le but du programme est celui dans lequel le programme a été créé, selon les modalités du programme.",
-      "type": "string"
+      "type": "string",
+      "constraints": {
+        "required": true
+      }
     },
     {
       "name": "prog_purpose_fr",
       "title": "But du programme (français)",
       "description": "Le but du programme est celui dans lequel le programme a été créé, selon les modalités du programme.",
-      "type": "string"
+      "type": "string",
+      "constraints": {
+        "required": true
+      }
     },
     {
       "name": "agreement_title_en",
       "title": "Titre de l’entente (anglais)",
       "description": "Le nom de l'entente est le titre du projet ou de l'entente à l'égard duquel s'engage le bénéficiaire. S'il n'y a pas de titre, le numéro de l'entente peut être réinscrit ici.",
-      "type": "string"
+      "type": "string",
+      "constraints": {
+        "required": true
+      }
     },
     {
       "name": "agreement_title_fr",
       "title": "Titre de l’entente (français)",
       "description": "Le nom de l'entente est le titre du projet ou de l'entente à l'égard duquel s'engage le bénéficiaire. S'il n'y a pas de titre, le numéro de l'entente peut être réinscrit ici.",
-      "type": "string"
+      "type": "string",
+      "constraints": {
+        "required": true
+      }
     },
     {
       "name": "agreement_number",
@@ -449,7 +468,7 @@
     {
       "name": "agreement_value",
       "title": "Valeur de l’entente en dollars canadiens",
-      "description": "La valeur de l'entente est le montant en dollars indiqué dans l'entente de subvention ou de contribution. Ce champ doit indiquer une valeur monétaire en dollars canadiens.",
+      "description": "La valeur de l'entente est le montant en dollars indiqué dans l'entente de subvention ou de contribution. Ce champ doit indiquer une valeur monétaire en dollars canadiens. Ce champ doit indiquer la valeur totale de la subvention ou de la contribution, et non la variation de la valeur de l'accord.\n",
       "type": "number",
       "constraints": {
         "required": true
@@ -571,7 +590,7 @@
     {
       "name": "agreement_start_date",
       "title": "Date de début de l’entente",
-      "description": "La date de début de l'entente est la date d'entrée en vigueur présumée de l'entente ou la date à laquelle le projet est censé commencer, conformément à l'entente initiale.",
+      "description": "La date de début de l'entente est la date d'entrée en vigueur présumée de l'entente, commence généralement à être identifié en fonction de la dernière date de signature, conformément à l'entente initiale.\n\nCette date doit indiquer le début de l'accord de financement, et non la date du projet de subvention ou de contribution.\n",
       "type": "date",
       "constraints": {
         "required": true
@@ -581,7 +600,10 @@
       "name": "agreement_end_date",
       "title": "Date de fin prévue de l’entente",
       "description": "La date de fin prévue de l'entente est la date de fin présumée de l'entente, ou la date à laquelle le projet est censé prendre fin, conformément à l'entente initiale.",
-      "type": "date"
+      "type": "date",
+      "constraints": {
+        "required": true
+      }
     },
     {
       "name": "coverage",
@@ -617,24 +639,30 @@
       "name": "expected_results_en",
       "title": "Résultats attendus ou visés (anglais)",
       "description": "Les résultats attendus ou visés sont les résultats présumés qui découlent de l'exécution d'un projet. Le champ doit être rempli en fonction du projet qu'entreprend le bénéficiaire ou conformément au programme en vertu duquel il est financé. Ce champ vise à offrir une description de la raisond'être du projet et de ce que devraient être les résultats finaux.",
-      "type": "string"
+      "type": "string",
+      "constraints": {
+        "required": true
+      }
     },
     {
       "name": "expected_results_fr",
       "title": "Résultats attendus ou visés (français)",
       "description": "Les résultats attendus ou visés sont les résultats présumés qui découlent de l'exécution d'un projet. Le champ doit être rempli en fonction du projet qu'entreprend le bénéficiaire ou conformément au programme en vertu duquel il est financé. Ce champ vise à offrir une description de la raisond'être du projet et de ce que devraient être les résultats finaux.",
-      "type": "string"
+      "type": "string",
+      "constraints": {
+        "required": true
+      }
     },
     {
       "name": "additional_information_en",
       "title": "Renseignements supplémentaires (anglais)",
-      "description": "Lorsqu'ils sont tenus de le faire conformément aux « Indications » qui traitent des exceptions, les ministères doivent entrer ici les renseignements supplémentaires qui ne sont pas saisis dans les champs précédents. Il peut s'agir de renseignements comme ceux-ci :\n•autres ministères participent au financement;\n•financement par l'intermédiaire d'un tiers;\n•annonces ministérielles;\n•domaines de recherche;\n•financement conjoint;\n•collaborateurs et partenaires;\n•mots-clés;\n•divulgation tardive;\n•entente d'innovation;\n•résiliations;\n•remboursement.\n",
+      "description": "Lorsqu'ils sont tenus de le faire conformément aux « Indications » qui traitent des exceptions, les ministères doivent entrer ici les renseignements supplémentaires qui ne sont pas saisis dans les champs précédents. Il peut s'agir de renseignements comme ceux-ci :\n\n• autres ministères participent au financement;\n• financement par l'intermédiaire d'un tiers;\n• annonces ministérielles;\n• domaines de recherche;\n• financement conjoint;\n• collaborateurs et partenaires;\n• mots-clés;\n• divulgation tardive;\n• entente d'innovation;\n• résiliations;\n• remboursement.\n",
       "type": "string"
     },
     {
       "name": "additional_information_fr",
       "title": "Renseignements supplémentaires (français)",
-      "description": "Lorsqu'ils sont tenus de le faire conformément aux « Indications » qui traitent des exceptions, les ministères doivent entrer ici les renseignements supplémentaires qui ne sont pas saisis dans les champs précédents. Il peut s'agir de renseignements comme ceux-ci :\n•autres ministères participent au financement;\n•financement par l'intermédiaire d'un tiers;\n•annonces ministérielles;\n•domaines de recherche;\n•financement conjoint;\n•collaborateurs et partenaires;\n•mots-clés;\n•divulgation tardive;\n•entente d'innovation;\n•résiliations;\n•remboursement.\n",
+      "description": "Lorsqu'ils sont tenus de le faire conformément aux « Indications » qui traitent des exceptions, les ministères doivent entrer ici les renseignements supplémentaires qui ne sont pas saisis dans les champs précédents. Il peut s'agir de renseignements comme ceux-ci :\n\n• autres ministères participent au financement;\n• financement par l'intermédiaire d'un tiers;\n• annonces ministérielles;\n• domaines de recherche;\n• financement conjoint;\n• collaborateurs et partenaires;\n• mots-clés;\n• divulgation tardive;\n• entente d'innovation;\n• résiliations;\n• remboursement.\n",
       "type": "string"
     }
   ],

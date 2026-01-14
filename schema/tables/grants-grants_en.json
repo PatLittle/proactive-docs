@@ -12,7 +12,7 @@
     {
       "name": "amendment_number",
       "title": "Amendment Number",
-      "description": "This field is populated by departments and identifies that an amendment is occurring to original information. Use 0 for original records.",
+      "description": "This field is populated by departments and identifies that an amendment is occurring to original information. Use 0 for original records. The first amendment after the original agreement should be identified as 1, then 2, etc. Agreement terminations should be identified as another amendment number and report 'termination' in the 'Additional information' column.\n",
       "type": "integer",
       "constraints": {
         "required": true
@@ -47,6 +47,7 @@
       "description": "The recipient type helps identify who is receiving the money.",
       "type": "string",
       "constraints": {
+        "required": true,
         "enum": [
           "A",
           "F",
@@ -62,7 +63,7 @@
     {
       "name": "recipient_business_number",
       "title": "Recipient Business Number",
-      "description": "The Business Number is a nine digit number issued by the Canada Revenue Agency since 1994. Per the Directive on the Business Number, it has been identified as the standard identifier for all transactions between businesses and the Government of Canada, including transactions linked to grant and/or contribution funding.\n\nThe business number should be populated for an organization or charity.\n\nReal-time validation of business identity information linked to the Business Number, including legal name and operating name, for sole proprietorship, partnerships and incorporations, is available to departments through the Business Number Web Validation Service. For more details contact ic.bnadoptionne.ic@canada.ca.\n\nTo validate a Business Number associated with a charity, departments can access the List of Charities basic search on the Canada.ca website. Enter the Charity name and click the Search button. Then click the Charity name of the search result to find additional information about the charity (e.g., Charity Program number, charity status, effective date of status, designation, etc.) Legal name and operating name cannot be validated using this basic search.\n\nA business number is issued when an organization is registered federally, provincially or municipally. It does not change and will allow for consistent identification even if the legal name, the operation name or the organization changes over the life cycle of the grant or contribution.\n",
+      "description": "The Business Number is a nine digit number issued by the Canada Revenue Agency since 1994. Per the Directive on the Business Number, it has been identified as the standard identifier for all transactions between businesses and the Government of Canada, including transactions linked to grant and/or contribution funding.\n\nThis guidance further aligns with the Government of Canada data reference standard on business number: Data reference standard on the business number - Canada.ca (https://www.canada.ca/en/government/system/digital-government/digital-government-innovations/enabling-interoperability/gc-enterprise-data-reference-standards/data-reference-standard-business-number.html)\n\nThe business number should be populated for an organization or charity.\n\nReal-time validation of business identity information linked to the Business Number, including legal name and operating name, for sole proprietorship, partnerships and incorporations, is available to departments through the Business Number Web Validation Service. For more details contact ic.bnadoptionne.ic@canada.ca.\n\nTo validate a Business Number associated with a charity, departments can access the List of Charities basic search on the Canada.ca website. Enter the Charity name and click the Search button. Then click the Charity name of the search result to find additional information about the charity (e.g., Charity Program number, charity status, effective date of status, designation, etc.) Legal name and operating name cannot be validated using this basic search.\n\nA business number is issued when an organization is registered federally, provincially or municipally. It does not change and will allow for consistent identification even if the legal name, the operation name or the organization changes over the life cycle of the grant or contribution.\n",
       "type": "string"
     },
     {
@@ -383,7 +384,7 @@
     {
       "name": "recipient_postal_code",
       "title": "Recipient Postal Code",
-      "description": "The \"Recipient postal code\" is a mandatory field that serves to identify the specific area in which the recipient operates. In cases where this field cannot be populated this field may be left blank.\n\nText format locked to \"X#X #X#\"; The Canada Post tool for looking up a postal code can be found on the Canada Post website.\n",
+      "description": "The \"Recipient postal code\" is a mandatory field that serves to identify the specific area in which the recipient operates. In cases where this field cannot be populated this field may be left blank.\n\nShould be in the format \"A1A 1A1\"; The Canada Post tool for looking up a postal code can be found on the Canada Post website.\n",
       "type": "string"
     },
     {
@@ -401,44 +402,62 @@
     {
       "name": "federal_riding_number",
       "title": "Federal Riding Number",
-      "description": "The federal riding number is based on the riding in which the recipient resides.  Departments can consult the Elections Canada website in order to retrieve the federal riding number. http://www.elections.ca/content.aspx?section=res&dir=cir/list&document=index338&lang=e",
+      "description": "The federal riding number is based on the riding in which the recipient resides. Departments can consult the Elections Canada website in order to retrieve the federal riding number. http://www.elections.ca/content.aspx?section=res&dir=cir/list&document=index338&lang=e",
       "type": "string"
     },
     {
       "name": "prog_name_en",
       "title": "Program Name (English)",
       "description": "The program name is the name of the program, according to the terms and conditions (Ts&Cs), under which a recipient is funded.",
-      "type": "string"
+      "type": "string",
+      "constraints": {
+        "required": true
+      }
     },
     {
       "name": "prog_name_fr",
       "title": "Program Name (French)",
       "description": "The program name is the name of the program, according to the terms and conditions (Ts&Cs), under which a recipient is funded.",
-      "type": "string"
+      "type": "string",
+      "constraints": {
+        "required": true
+      }
     },
     {
       "name": "prog_purpose_en",
       "title": "Program Purpose (English)",
       "description": "The program purpose is the program’s purpose according to the Ts&Cs.",
-      "type": "string"
+      "type": "string",
+      "constraints": {
+        "required": true
+      }
     },
     {
       "name": "prog_purpose_fr",
       "title": "Program Purpose (French)",
       "description": "The program purpose is the program’s purpose according to the Ts&Cs.",
-      "type": "string"
+      "type": "string",
+      "constraints": {
+        "required": true
+      }
     },
     {
       "name": "agreement_title_en",
       "title": "Agreement Title (English)",
       "description": "The agreement title is the title of the project or agreement that the recipient is undertaking. In cases where there is no title, the agreement number will be duplicated here.",
-      "type": "string"
+      "type": "string",
+      "constraints": {
+        "required": true
+      }
     },
     {
       "name": "agreement_title_fr",
       "title": "Agreement Title (French)",
       "description": "The agreement title is the title of the project or agreement that the recipient is undertaking. In cases where there is no title, the agreement number will be duplicated here.",
-      "type": "string"
+      "type": "string",
+      "constraints": {
+        "required": true
+      }
     },
     {
       "name": "agreement_number",
@@ -449,7 +468,7 @@
     {
       "name": "agreement_value",
       "title": "Agreement Value in CAD",
-      "description": "The agreement value is the dollar amount stated in the grant or contribution agreement. This field should be populated with a monetary value in Canadian dollars.",
+      "description": "The agreement value is the dollar amount stated in the grant or contribution agreement. This field should be populated with a monetary value in Canadian dollars. This field should report on the total grant or contribution value, and not the change in agreement value.\n",
       "type": "number",
       "constraints": {
         "required": true
@@ -571,7 +590,7 @@
     {
       "name": "agreement_start_date",
       "title": "Agreement Start Date",
-      "description": "The agreement start date is the assumed start of the agreement, or when the project is supposed to begin, as captured in the initial agreement.",
+      "description": "The agreement start date is the assumed start of the agreement, normally identified based on the last date of signature, as captured in the initial agreement.\n\nThis date should identify the start of the funding agreement, and not the date of the grant or contribution project.\n",
       "type": "date",
       "constraints": {
         "required": true
@@ -581,7 +600,10 @@
       "name": "agreement_end_date",
       "title": "Projected Agreement End Date",
       "description": "The projected agreement end date is the assumed end of the agreement, or when the project is supposed to end, as captured in the initial agreement.",
-      "type": "date"
+      "type": "date",
+      "constraints": {
+        "required": true
+      }
     },
     {
       "name": "coverage",
@@ -617,24 +639,30 @@
       "name": "expected_results_en",
       "title": "Expected Results or Intended Outcome (English)",
       "description": "The expected results or intended outcome is the assumed result of project completion. It should be populated in accordance with the project that the recipient is undertaking or the program under which it is funded. This field will attempt to explain why the project is being undertaken, and what the final results should be.",
-      "type": "string"
+      "type": "string",
+      "constraints": {
+        "required": true
+      }
     },
     {
       "name": "expected_results_fr",
       "title": "Expected Results or Intended Outcome (French)",
       "description": "The expected results or intended outcome is the assumed result of project completion. It should be populated in accordance with the project that the recipient is undertaking or the program under which it is funded. This field will attempt to explain why the project is being undertaken, and what the final results should be.",
-      "type": "string"
+      "type": "string",
+      "constraints": {
+        "required": true
+      }
     },
     {
       "name": "additional_information_en",
       "title": "Additional Information (English)",
-      "description": "Additional information is information that departments are required to enter under the guidance instructions for exceptions but that is not captured in any of the aforementioned fields. It may contain information on:\n•additional funding departments\n•funding through a third party\n•ministerial announcements\n•research fields\n•joint funding\n•collaborators and partners\n•keywords\n•belated reporting\n•novation agreements\n•terminations\n•repayability\n",
+      "description": "Additional information is information that departments are required to enter under the guidance instructions for exceptions but that is not captured in any of the aforementioned fields. It may contain information on:\n\n• additional funding departments\n• funding through a third party\n• ministerial announcements\n• research fields\n• joint funding\n• collaborators and partners\n• keywords\n• belated reporting\n• novation agreements\n• terminations\n• repayability\n",
       "type": "string"
     },
     {
       "name": "additional_information_fr",
       "title": "Additional Information (French)",
-      "description": "Additional information is information that departments are required to enter under the guidance instructions for exceptions but that is not captured in any of the aforementioned fields. It may contain information on:\n•additional funding departments\n•funding through a third party\n•ministerial announcements\n•research fields\n•joint funding\n•collaborators and partners\n•keywords\n•belated reporting\n•novation agreements\n•terminations\n•repayability\n",
+      "description": "Additional information is information that departments are required to enter under the guidance instructions for exceptions but that is not captured in any of the aforementioned fields. It may contain information on:\n\n• additional funding departments\n• funding through a third party\n• ministerial announcements\n• research fields\n• joint funding\n• collaborators and partners\n• keywords\n• belated reporting\n• novation agreements\n• terminations\n• repayability\n",
       "type": "string"
     }
   ],
