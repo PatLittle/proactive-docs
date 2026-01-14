@@ -215,9 +215,9 @@
 
 <h1 id="proactive-publication-grants-and-contributions-publication-proactive-subventions-et-les-contributions">Proactive Publication - Grants and Contributions / Publication proactive - Subventions et les contributions<a class="headerlink" href="#proactive-publication-grants-and-contributions-publication-proactive-subventions-et-les-contributions" title="Permanent link">#</a></h1>
 <p><strong>Dataset Type:</strong> <code>grants</code><br />
-<strong>Last Generated:</strong> 2025-10-08T22:14:16 (UTC)<br />
+<strong>Last Generated:</strong> 2026-01-11T01:50:56 (UTC)<br />
 <strong>Source:</strong> dictionaries/grants.json<br />
-<strong>Commit:</strong> <code>5b17e83</code></p>
+<strong>Commit:</strong> <code>ae7220e</code></p>
 <p>Access, upload and modify the Grants and Contributions reports for your organization / Accès, téléversement et modifications des rapports sur les contributions et les subventions pour votre organisation</p>
 <hr />
 <h2 id="resources">Resources<a class="headerlink" href="#resources" title="Permanent link">#</a></h2>
@@ -285,7 +285,7 @@
 <td><code>recipient_type</code></td>
 <td>Recipient Type / Type de bénéficiaire</td>
 <td><code>text</code></td>
-<td>No</td>
+<td>Yes</td>
 <td></td>
 <td>recipient_type</td>
 <td>The recipient type helps identify who is receiving the money.</td>
@@ -393,7 +393,7 @@
 <td><code>prog_name_en</code></td>
 <td>Program Name (English) / Nom du programme (anglais)</td>
 <td><code>text</code></td>
-<td>No</td>
+<td>Yes</td>
 <td></td>
 <td></td>
 <td>The program name is the name of the program, according to the terms and conditi…</td>
@@ -402,7 +402,7 @@
 <td><code>prog_name_fr</code></td>
 <td>Program Name (French) / Nom du programme (français)</td>
 <td><code>text</code></td>
-<td>No</td>
+<td>Yes</td>
 <td></td>
 <td></td>
 <td>The program name is the name of the program, according to the terms and conditi…</td>
@@ -411,7 +411,7 @@
 <td><code>prog_purpose_en</code></td>
 <td>Program Purpose (English) / But du programme (anglais)</td>
 <td><code>text</code></td>
-<td>No</td>
+<td>Yes</td>
 <td></td>
 <td></td>
 <td>The program purpose is the program’s purpose according to the Ts&amp;Cs.</td>
@@ -420,7 +420,7 @@
 <td><code>prog_purpose_fr</code></td>
 <td>Program Purpose (French) / But du programme (français)</td>
 <td><code>text</code></td>
-<td>No</td>
+<td>Yes</td>
 <td></td>
 <td></td>
 <td>The program purpose is the program’s purpose according to the Ts&amp;Cs.</td>
@@ -429,7 +429,7 @@
 <td><code>agreement_title_en</code></td>
 <td>Agreement Title (English) / Titre de l’entente (anglais)</td>
 <td><code>text</code></td>
-<td>No</td>
+<td>Yes</td>
 <td></td>
 <td></td>
 <td>The agreement title is the title of the project or agreement that the recipient…</td>
@@ -438,7 +438,7 @@
 <td><code>agreement_title_fr</code></td>
 <td>Agreement Title (French) / Titre de l’entente (français)</td>
 <td><code>text</code></td>
-<td>No</td>
+<td>Yes</td>
 <td></td>
 <td></td>
 <td>The agreement title is the title of the project or agreement that the recipient…</td>
@@ -486,13 +486,13 @@
 <td>Yes</td>
 <td></td>
 <td></td>
-<td>The agreement start date is the assumed start of the agreement, or when the pro…</td>
+<td>The agreement start date is the assumed start of the agreement, normally identi…</td>
 </tr>
 <tr>
 <td><code>agreement_end_date</code></td>
 <td>Projected Agreement End Date / Date de fin prévue de l’entente</td>
 <td><code>date</code></td>
-<td>No</td>
+<td>Yes</td>
 <td></td>
 <td></td>
 <td>The projected agreement end date is the assumed end of the agreement, or when t…</td>
@@ -537,7 +537,7 @@
 <td><code>expected_results_en</code></td>
 <td>Expected Results or Intended Outcome (English) / Résultats attendus ou visés (anglais)</td>
 <td><code>text</code></td>
-<td>No</td>
+<td>Yes</td>
 <td></td>
 <td></td>
 <td>The expected results or intended outcome is the assumed result of project compl…</td>
@@ -546,7 +546,7 @@
 <td><code>expected_results_fr</code></td>
 <td>Expected Results or Intended Outcome (French) / Résultats attendus ou visés (français)</td>
 <td><code>text</code></td>
-<td>No</td>
+<td>Yes</td>
 <td></td>
 <td></td>
 <td>The expected results or intended outcome is the assumed result of project compl…</td>
@@ -596,8 +596,8 @@ EN: The Reference number is populated by departments. It is a unique reference n
 <p><strong>Type:</strong> <code>int</code><br />
 <strong>Required:</strong> Yes  </p>
 <p><strong>Description:</strong><br />
-EN: This field is populated by departments and identifies that an amendment is occurring to original information. Use 0 for original records.<br />
-FR: Ce champ est rempli par les ministères et indique qu'une modification est apportée aux renseignements originaux. Utiliser 0 pour les enregistrements originaux.</p>
+EN: This field is populated by departments and identifies that an amendment is occurring to original information. Use 0 for original records. The first amendment after the original agreement should be identified as 1, then 2, etc. Agreement terminations should be identified as another amendment number and report 'termination' in the 'Additional information' column.</p>
+<p>FR: Ce champ est rempli par les ministères et indique qu'une modification est apportée aux renseignements originaux. Utiliser 0 pour les enregistrements originaux. La première modification après l'accord initial doit être identifiée comme numéro 1, puis 2, etc. Les résiliations d'accord doivent être identifiées comme un autre numéro de modification et indiquer 'résiliation' dans la colonne 'Renseignements supplémentaires'.</p>
 <hr />
 <h4 id="amendment_date-amendment-date-date-de-modification"><code>amendment_date</code> – Amendment Date / Date de modification<a class="headerlink" href="#amendment_date-amendment-date-date-de-modification" title="Permanent link">#</a></h4>
 <p><strong>Type:</strong> <code>date</code><br />
@@ -643,7 +643,8 @@ FR: Ce champ est rempli par les ministères et indique si l'entente signée vise
 <hr />
 <h4 id="recipient_type-recipient-type-type-de-beneficiaire"><code>recipient_type</code> – Recipient Type / Type de bénéficiaire<a class="headerlink" href="#recipient_type-recipient-type-type-de-beneficiaire" title="Permanent link">#</a></h4>
 <p><strong>Type:</strong> <code>text</code><br />
-<strong>Required:</strong> No<br />
+<strong>Required:</strong> Yes<br />
+<strong>Validation:</strong> Required if "Agreement Start Date" is on or after December 1st 2025 / Requis si la "date de début de l’entente" est le 1er décembre 2025 ou après<br />
 <strong>Choice Set:</strong> recipient_type (8 values)  </p>
 <p><strong>Description:</strong><br />
 EN: The recipient type helps identify who is receiving the money.<br />
@@ -703,17 +704,20 @@ FR: Le type de bénéficiaire permet d'identifier qui reçoit l'argent.</p>
 <hr />
 <h4 id="recipient_business_number-recipient-business-number-numero-dentreprise-du-beneficiaire"><code>recipient_business_number</code> – Recipient Business Number / Numéro d'entreprise du bénéficiaire<a class="headerlink" href="#recipient_business_number-recipient-business-number-numero-dentreprise-du-beneficiaire" title="Permanent link">#</a></h4>
 <p><strong>Type:</strong> <code>text</code><br />
-<strong>Required:</strong> No  </p>
+<strong>Required:</strong> No<br />
+<strong>Validation:</strong> Must be a 9 digit number if "Agreement Start Date" is on or after December 1st 2025 / Doit être un numéro à neuf chiffres si la "date de début de l’entente" est le 1er décembre 2025 ou après  </p>
 <p><strong>Description:</strong><br />
 EN: The Business Number is a nine digit number issued by the Canada Revenue Agency since 1994. Per the Directive on the Business Number, it has been identified as the standard identifier for all transactions between businesses and the Government of Canada, including transactions linked to grant and/or contribution funding.</p>
+<p>This guidance further aligns with the Government of Canada data reference standard on business number: Data reference standard on the business number - Canada.ca (https://www.canada.ca/en/government/system/digital-government/digital-government-innovations/enabling-interoperability/gc-enterprise-data-reference-standards/data-reference-standard-business-number.html)</p>
 <p>The business number should be populated for an organization or charity.</p>
 <p>Real-time validation of business identity information linked to the Business Number, including legal name and operating name, for sole proprietorship, partnerships and incorporations, is available to departments through the Business Number Web Validation Service. For more details contact ic.bnadoptionne.ic@canada.ca.</p>
 <p>To validate a Business Number associated with a charity, departments can access the List of Charities basic search on the Canada.ca website. Enter the Charity name and click the Search button. Then click the Charity name of the search result to find additional information about the charity (e.g., Charity Program number, charity status, effective date of status, designation, etc.) Legal name and operating name cannot be validated using this basic search.</p>
 <p>A business number is issued when an organization is registered federally, provincially or municipally. It does not change and will allow for consistent identification even if the legal name, the operation name or the organization changes over the life cycle of the grant or contribution.</p>
 <p>FR: Depuis 1994, l’Agence du revenu du Canada émet des numéros d’entreprise à neuf chiffres. Aux termes de la Directive sur le numéro d’entreprise, le numéro d’entreprise constitue l’identificateur standard de toutes les opérations effectuées entre une entreprise et le gouvernement du Canada, y compris les opérations associées à une subvention ou à un financement de contribution.</p>
+<p>Cette directive est également conforme à la norme de référence sur les données du numéro d'entreprise du gouvernement du Canada : Norme référentielle relative aux données sur le numéro d’entreprise - Canada.ca (https://www.canada.ca/fr/gouvernement/systeme/gouvernement-numerique/innovations-gouvernementales-numeriques/permettre-interoperabilite/normes-referentielles-pangouvernementales-relatives-donnees-gc/norme-referentielle-relative-donnees-numero-entreprise.html)</p>
 <p>Le numéro d’entreprise devrait être consigné pour une organisation ou un organisme de bienfaisance.</p>
 <p>Les ministères peuvent obtenir la validation en temps réel de l’identité d’une entreprise en saisissant son numéro d’entreprise dans le Service de validation du numéro d’entreprise en ligne, qui inclut le nom légal et le nom commercial pour les entreprises individuelles, les partenariats et les constitutions en personne morale. Si vous voulez obtenir de plus amples renseignements, envoyez un courriel à ic.bnadoptionne.ic@canada.ca.</p>
-<p>Pour valider un numéro d’entreprise associé à un organisme de bienfaisance, les ministères peuvent effectuer une recherche de base dans la Liste d’organismes de bienfaisance, sur le site Web Canada.ca. Entrez le nom de l’organisme de bienfaisance, puis cliquez sur le bouton de Recherche. Ensuite, cliquez sur le nom de l’organisme de bienfaisance tiré du résultat de la recherche afin de trouver de plus amples renseignements sur l’organisme de bienfaisance (p. ex., le numéro du programme de bienfaisance, le statut de l’organisme de bienfaisance, la date d’entrée en vigueur du statut et la désignation de l’organisme de bienfaisance). Il est impossible de valider le nom légal et le nom commercial au moyen de la fonction de recherche de base.</p>
+<p>Pour valider un numéro d’entreprise associé à un organisme de bienfaisance, les ministères peuvent effectuer une recherche de base dans la Liste d’organismes de bienfaisance, sur le site Web Canada.ca. Entrez le nom de l’organisme de bienfaisance, puis cliquez sur le bouton de Recherche. Ensuite, cliquez sur le nom de l’organisme de bienfaisance tiré du résultat de la recherche afin de trouver de plus amples renseignements sur l’organisme de bienfaisance (p. ex., le numéro du programme de bienfaisance, le statut de l’organisme de bienfaisance, la date d’entrée en vigueur du statut et la désignation de l’organisme de bienfaisance). Il est impossible de valider le nom légal et le nom commercial au moyen de la fonction de recherche de base.</p>
 <hr />
 <h4 id="recipient_legal_name-recipient-legal-name-englishfrench-nom-legal-du-beneficiaire-anglaisfrancais"><code>recipient_legal_name</code> – Recipient Legal Name (English|French) / Nom légal du bénéficiaire (anglais|français)<a class="headerlink" href="#recipient_legal_name-recipient-legal-name-englishfrench-nom-legal-du-beneficiaire-anglaisfrancais" title="Permanent link">#</a></h4>
 <p><strong>Type:</strong> <code>text</code><br />
@@ -722,7 +726,7 @@ EN: The Business Number is a nine digit number issued by the Canada Revenue Agen
 EN: The recipient legal name is meant to complement the existing “Recipient business number” field. It is the legal name of the recipient. This information should be taken from the agreement.</p>
 <p>Only translated if the legal name is provided in both official languages by the recipient.  Provide in the following format: name English|name French.</p>
 <p>FR: Le nom légal du bénéficiaire se veut complémentaire au champ « Numéro d'entreprise du bénéficiaire ». Cette information devrait être tirée de l'entente de subvention ou de contribution.</p>
-<p>Traduction seulement si le nom légal est fourni dans les deux langues officielles par le bénéficiaire. Fournir dans le format suivant : nom anglais|nom français.</p>
+<p>Traduction seulement si le nom légal est fourni dans les deux langues officielles par le bénéficiaire. Fournir dans le format suivant : nom anglais|nom français.</p>
 <hr />
 <h4 id="recipient_operating_name-recipient-operating-name-englishfrench-nom-commercial-du-beneficiaire-anglaisfrancais"><code>recipient_operating_name</code> – Recipient Operating Name (English|French) / Nom commercial du bénéficiaire (anglais|français)<a class="headerlink" href="#recipient_operating_name-recipient-operating-name-englishfrench-nom-commercial-du-beneficiaire-anglaisfrancais" title="Permanent link">#</a></h4>
 <p><strong>Type:</strong> <code>text</code><br />
@@ -731,7 +735,7 @@ EN: The recipient legal name is meant to complement the existing “Recipient bu
 EN: The “Recipient operating name” is an optional field used when an organization operates under a name that differs from its legal name or business number. When a researcher receives funding through a university, this information would be populated here. This field is not intended to capture the ultimate recipient of a grant or contribution; instead, the name of the person receiving funding from the Government of Canada should be entered.</p>
 <p>Only translated if the name is provided in both official languages by the recipient. Provide in the following format: Legal name English|Legal name French.</p>
 <p>FR: Le champ « Nom commercial du bénéficiaire » est un champ facultatif utilisé dans le cas d'organisations qui exercent leurs activités sous un nom différent de leur nom légal ou de leur numéro d'entreprise. Dans le cas de chercheurs qui reçoivent leur financement par l'entremise d'une université, cette information doit être entrée ici. Ce champ ne sert pas à saisir le nom du bénéficiaire ultime de la subvention ou de la contribution, mais plutôt celui de la personne qui reçoit le financement du gouvernement du Canada.</p>
-<p>Traduction seulement si le nom est fourni dans les deux langues officielles par le bénéficiaire. Fournir dans le format suivant : nom anglais|nom français.</p>
+<p>Traduction seulement si le nom est fourni dans les deux langues officielles par le bénéficiaire. Fournir dans le format suivant : nom anglais|nom français.</p>
 <hr />
 <h4 id="research_organization_name-research-organization-englishfrench-organisme-de-recherche-anglaisfrancais"><code>research_organization_name</code> – Research Organization (English|French) / Organisme de recherche (anglais|français)<a class="headerlink" href="#research_organization_name-research-organization-englishfrench-organisme-de-recherche-anglaisfrancais" title="Permanent link">#</a></h4>
 <p><strong>Type:</strong> <code>text</code><br />
@@ -2105,17 +2109,18 @@ EN: The "Recipient city" is a mandatory field that identifies which city the rec
 <p>Official city names should be provided, including both official languages (where applicable in the following format: name English|name French</p>
 <p>Free text, but a controlled list from Canada Revenue Agency’s qualified donees list of municipalities can be consulted: Canada Revenue Agency website (http://www.cra-arc.gc.ca/chrts-gvng/qlfd-dns/mncplts-eng.html).</p>
 <p>FR: La « Ville du bénéficiaire » est un champ obligatoire qui indique la ville où le bénéficiaire exerce ses activités. On peut y inscrire le nom de villes canadiennes ou de villes étrangères.</p>
-<p>Nom officiel exact de la ville, y compris dans les deux langues officielles (le cas échéant) au format suivant : nom anglais|nom français</p>
+<p>Nom officiel exact de la ville, y compris dans les deux langues officielles (le cas échéant) au format suivant : nom anglais|nom français</p>
 <p>Texte libre, mais une liste contrôlée de la liste des municipalités désignées donataires de l’Agence du revenu du Canada peut être consultée: site Web de l’Agence du revenu du Canada (http://www.cra-arc.gc.ca/chrts-gvng/qlfd-dns/mncplts-fra.html).</p>
 <hr />
 <h4 id="recipient_postal_code-recipient-postal-code-code-postal-du-beneficiaire"><code>recipient_postal_code</code> – Recipient Postal Code / Code postal du bénéficiaire<a class="headerlink" href="#recipient_postal_code-recipient-postal-code-code-postal-du-beneficiaire" title="Permanent link">#</a></h4>
 <p><strong>Type:</strong> <code>text</code><br />
-<strong>Required:</strong> No  </p>
+<strong>Required:</strong> No<br />
+<strong>Validation:</strong> Must be in the format "A1A 1A1" if "Agreement Start Date" is on or after December 1st 2025 / Doit être selon le format « A1A 1A1 » si la "date de début de l’entente" est le 1er décembre 2025 ou après  </p>
 <p><strong>Description:</strong><br />
 EN: The "Recipient postal code" is a mandatory field that serves to identify the specific area in which the recipient operates. In cases where this field cannot be populated this field may be left blank.</p>
-<p>Text format locked to "X#X #X#"; The Canada Post tool for looking up a postal code can be found on the Canada Post website.</p>
+<p>Should be in the format "A1A 1A1"; The Canada Post tool for looking up a postal code can be found on the Canada Post website.</p>
 <p>FR: Le « Code postal du bénéficiaire » est un champ obligatoire qui sert à identifier avec précision la région où le bénéficiaire exerce ses activités. Si le fait de remplir ce champ suscite des préoccupations à l'égard de la vie privée, il est possible de le laisser vide.</p>
-<p>Format de texte : "X#X #X#"; L'outil de Postes Canada permettant de rechercher un code postal se trouve sur le site Web de Postes Canada.</p>
+<p>Devrait être selon le format « A1A 1A1 »; L'outil de Postes Canada permettant de rechercher un code postal se trouve sur le site Web de Postes Canada.</p>
 <hr />
 <h4 id="federal_riding_name_en-federal-riding-name-english-nom-de-la-circonscription-federale-anglais"><code>federal_riding_name_en</code> – Federal Riding Name (English) / Nom de la circonscription fédérale (anglais)<a class="headerlink" href="#federal_riding_name_en-federal-riding-name-english-nom-de-la-circonscription-federale-anglais" title="Permanent link">#</a></h4>
 <p><strong>Type:</strong> <code>text</code><br />
@@ -2133,49 +2138,56 @@ FR: Le nom de la circonscription fédérale où réside le bénéficiaire.</p>
 <hr />
 <h4 id="federal_riding_number-federal-riding-number-numero-de-la-circonscription-federale"><code>federal_riding_number</code> – Federal Riding Number / Numéro de la circonscription fédérale<a class="headerlink" href="#federal_riding_number-federal-riding-number-numero-de-la-circonscription-federale" title="Permanent link">#</a></h4>
 <p><strong>Type:</strong> <code>text</code><br />
-<strong>Required:</strong> No  </p>
+<strong>Required:</strong> No<br />
+<strong>Validation:</strong> Must be a 5 digit number if "Agreement Start Date" is on or after December 1st 2025 / Doit être un numéro à cinq chiffres si la "date de début de l’entente" est le 1er décembre 2025 ou après  </p>
 <p><strong>Description:</strong><br />
-EN: The federal riding number is based on the riding in which the recipient resides.  Departments can consult the Elections Canada website in order to retrieve the federal riding number. http://www.elections.ca/content.aspx?section=res&amp;dir=cir/list&amp;document=index338&amp;lang=e<br />
-FR: Numéro de la circonscription fédérale où réside le bénéficiaire.  Les départements peuvent consulter le site-web d’Élections Canada pour trouver le numéro de la circonscription fédérale. http://www.elections.ca/content.aspx?section=res&amp;dir=cir/list&amp;document=index338&amp;lang=f</p>
+EN: The federal riding number is based on the riding in which the recipient resides. Departments can consult the Elections Canada website in order to retrieve the federal riding number. http://www.elections.ca/content.aspx?section=res&amp;dir=cir/list&amp;document=index338&amp;lang=e<br />
+FR: Numéro de la circonscription fédérale où réside le bénéficiaire. Les départements peuvent consulter le site-web d’Élections Canada pour trouver le numéro de la circonscription fédérale. http://www.elections.ca/content.aspx?section=res&amp;dir=cir/list&amp;document=index338&amp;lang=f</p>
 <hr />
 <h4 id="prog_name_en-program-name-english-nom-du-programme-anglais"><code>prog_name_en</code> – Program Name (English) / Nom du programme (anglais)<a class="headerlink" href="#prog_name_en-program-name-english-nom-du-programme-anglais" title="Permanent link">#</a></h4>
 <p><strong>Type:</strong> <code>text</code><br />
-<strong>Required:</strong> No  </p>
+<strong>Required:</strong> Yes<br />
+<strong>Validation:</strong> Required if "Agreement Start Date" is on or after December 1st 2025 / Requis si la "date de début de l’entente" est le 1er décembre 2025 ou après  </p>
 <p><strong>Description:</strong><br />
 EN: The program name is the name of the program, according to the terms and conditions (Ts&amp;Cs), under which a recipient is funded.<br />
 FR: Le nom du programme selon les modalités en vertu desquelles le financement est versé au bénéficiaire.</p>
 <hr />
 <h4 id="prog_name_fr-program-name-french-nom-du-programme-francais"><code>prog_name_fr</code> – Program Name (French) / Nom du programme (français)<a class="headerlink" href="#prog_name_fr-program-name-french-nom-du-programme-francais" title="Permanent link">#</a></h4>
 <p><strong>Type:</strong> <code>text</code><br />
-<strong>Required:</strong> No  </p>
+<strong>Required:</strong> Yes<br />
+<strong>Validation:</strong> Required if "Agreement Start Date" is on or after December 1st 2025 / Requis si la "date de début de l’entente" est le 1er décembre 2025 ou après  </p>
 <p><strong>Description:</strong><br />
 EN: The program name is the name of the program, according to the terms and conditions (Ts&amp;Cs), under which a recipient is funded.<br />
 FR: Le nom du programme selon les modalités en vertu desquelles le financement est versé au bénéficiaire.</p>
 <hr />
 <h4 id="prog_purpose_en-program-purpose-english-but-du-programme-anglais"><code>prog_purpose_en</code> – Program Purpose (English) / But du programme (anglais)<a class="headerlink" href="#prog_purpose_en-program-purpose-english-but-du-programme-anglais" title="Permanent link">#</a></h4>
 <p><strong>Type:</strong> <code>text</code><br />
-<strong>Required:</strong> No  </p>
+<strong>Required:</strong> Yes<br />
+<strong>Validation:</strong> Required if "Agreement Start Date" is on or after December 1st 2025 / Requis si la "date de début de l’entente" est le 1er décembre 2025 ou après  </p>
 <p><strong>Description:</strong><br />
 EN: The program purpose is the program’s purpose according to the Ts&amp;Cs.<br />
 FR: Le but du programme est celui dans lequel le programme a été créé, selon les modalités du programme.</p>
 <hr />
 <h4 id="prog_purpose_fr-program-purpose-french-but-du-programme-francais"><code>prog_purpose_fr</code> – Program Purpose (French) / But du programme (français)<a class="headerlink" href="#prog_purpose_fr-program-purpose-french-but-du-programme-francais" title="Permanent link">#</a></h4>
 <p><strong>Type:</strong> <code>text</code><br />
-<strong>Required:</strong> No  </p>
+<strong>Required:</strong> Yes<br />
+<strong>Validation:</strong> Required if "Agreement Start Date" is on or after December 1st 2025 / Requis si la "date de début de l’entente" est le 1er décembre 2025 ou après  </p>
 <p><strong>Description:</strong><br />
 EN: The program purpose is the program’s purpose according to the Ts&amp;Cs.<br />
 FR: Le but du programme est celui dans lequel le programme a été créé, selon les modalités du programme.</p>
 <hr />
 <h4 id="agreement_title_en-agreement-title-english-titre-de-lentente-anglais"><code>agreement_title_en</code> – Agreement Title (English) / Titre de l’entente (anglais)<a class="headerlink" href="#agreement_title_en-agreement-title-english-titre-de-lentente-anglais" title="Permanent link">#</a></h4>
 <p><strong>Type:</strong> <code>text</code><br />
-<strong>Required:</strong> No  </p>
+<strong>Required:</strong> Yes<br />
+<strong>Validation:</strong> Required if "Agreement Start Date" is on or after December 1st 2025 / Requis si la "date de début de l’entente" est le 1er décembre 2025 ou après  </p>
 <p><strong>Description:</strong><br />
 EN: The agreement title is the title of the project or agreement that the recipient is undertaking. In cases where there is no title, the agreement number will be duplicated here.<br />
 FR: Le nom de l'entente est le titre du projet ou de l'entente à l'égard duquel s'engage le bénéficiaire. S'il n'y a pas de titre, le numéro de l'entente peut être réinscrit ici.</p>
 <hr />
 <h4 id="agreement_title_fr-agreement-title-french-titre-de-lentente-francais"><code>agreement_title_fr</code> – Agreement Title (French) / Titre de l’entente (français)<a class="headerlink" href="#agreement_title_fr-agreement-title-french-titre-de-lentente-francais" title="Permanent link">#</a></h4>
 <p><strong>Type:</strong> <code>text</code><br />
-<strong>Required:</strong> No  </p>
+<strong>Required:</strong> Yes<br />
+<strong>Validation:</strong> Required if "Agreement Start Date" is on or after December 1st 2025 / Requis si la "date de début de l’entente" est le 1er décembre 2025 ou après  </p>
 <p><strong>Description:</strong><br />
 EN: The agreement title is the title of the project or agreement that the recipient is undertaking. In cases where there is no title, the agreement number will be duplicated here.<br />
 FR: Le nom de l'entente est le titre du projet ou de l'entente à l'égard duquel s'engage le bénéficiaire. S'il n'y a pas de titre, le numéro de l'entente peut être réinscrit ici.</p>
@@ -2189,10 +2201,14 @@ FR: Le numéro de l'entente est celui qui figure à l'entente et/ou dans le syst
 <hr />
 <h4 id="agreement_value-agreement-value-in-cad-valeur-de-lentente-en-dollars-canadiens"><code>agreement_value</code> – Agreement Value in CAD / Valeur de l’entente en dollars canadiens<a class="headerlink" href="#agreement_value-agreement-value-in-cad-valeur-de-lentente-en-dollars-canadiens" title="Permanent link">#</a></h4>
 <p><strong>Type:</strong> <code>money</code><br />
-<strong>Required:</strong> Yes  </p>
+<strong>Required:</strong> Yes<br />
+<strong>Validation:</strong> This field must not be empty.
+The number must be greater than 0.
+ / Ce champ ne doit pas être vide.
+Le nombre doit être supérieur à 0.</p>
 <p><strong>Description:</strong><br />
-EN: The agreement value is the dollar amount stated in the grant or contribution agreement. This field should be populated with a monetary value in Canadian dollars.<br />
-FR: La valeur de l'entente est le montant en dollars indiqué dans l'entente de subvention ou de contribution. Ce champ doit indiquer une valeur monétaire en dollars canadiens.</p>
+EN: The agreement value is the dollar amount stated in the grant or contribution agreement. This field should be populated with a monetary value in Canadian dollars. This field should report on the total grant or contribution value, and not the change in agreement value.</p>
+<p>FR: La valeur de l'entente est le montant en dollars indiqué dans l'entente de subvention ou de contribution. Ce champ doit indiquer une valeur monétaire en dollars canadiens. Ce champ doit indiquer la valeur totale de la subvention ou de la contribution, et non la variation de la valeur de l'accord.</p>
 <hr />
 <h4 id="foreign_currency_type-foreign-currency-type-type-de-monnaie-etrangere"><code>foreign_currency_type</code> – Foreign Currency Type / Type de monnaie étrangère<a class="headerlink" href="#foreign_currency_type-foreign-currency-type-type-de-monnaie-etrangere" title="Permanent link">#</a></h4>
 <p><strong>Type:</strong> <code>text</code><br />
@@ -2695,14 +2711,21 @@ FR: La valeur en monnaie étrangère est le montant convenu aux termes de l'ente
 <hr />
 <h4 id="agreement_start_date-agreement-start-date-date-de-debut-de-lentente"><code>agreement_start_date</code> – Agreement Start Date / Date de début de l’entente<a class="headerlink" href="#agreement_start_date-agreement-start-date-date-de-debut-de-lentente" title="Permanent link">#</a></h4>
 <p><strong>Type:</strong> <code>date</code><br />
-<strong>Required:</strong> Yes  </p>
+<strong>Required:</strong> Yes<br />
+<strong>Validation:</strong> This field must not be empty.
+Date can’t be in the future.
+ / Ce champ ne doit pas être vide.
+La date ne doit pas être dans le futur.</p>
 <p><strong>Description:</strong><br />
-EN: The agreement start date is the assumed start of the agreement, or when the project is supposed to begin, as captured in the initial agreement.<br />
-FR: La date de début de l'entente est la date d'entrée en vigueur présumée de l'entente ou la date à laquelle le projet est censé commencer, conformément à l'entente initiale.</p>
+EN: The agreement start date is the assumed start of the agreement, normally identified based on the last date of signature, as captured in the initial agreement.</p>
+<p>This date should identify the start of the funding agreement, and not the date of the grant or contribution project.</p>
+<p>FR: La date de début de l'entente est la date d'entrée en vigueur présumée de l'entente, commence généralement à être identifié en fonction de la dernière date de signature, conformément à l'entente initiale.</p>
+<p>Cette date doit indiquer le début de l'accord de financement, et non la date du projet de subvention ou de contribution.</p>
 <hr />
 <h4 id="agreement_end_date-projected-agreement-end-date-date-de-fin-prevue-de-lentente"><code>agreement_end_date</code> – Projected Agreement End Date / Date de fin prévue de l’entente<a class="headerlink" href="#agreement_end_date-projected-agreement-end-date-date-de-fin-prevue-de-lentente" title="Permanent link">#</a></h4>
 <p><strong>Type:</strong> <code>date</code><br />
-<strong>Required:</strong> No  </p>
+<strong>Required:</strong> Yes<br />
+<strong>Validation:</strong> Required if "Agreement Start Date" is on or after December 1st 2025. / Requis si la "date de début de l’entente" est le 1er décembre 2025 ou après.  </p>
 <p><strong>Description:</strong><br />
 EN: The projected agreement end date is the assumed end of the agreement, or when the project is supposed to end, as captured in the initial agreement.<br />
 FR: La date de fin prévue de l'entente est la date de fin présumée de l'entente, ou la date à laquelle le projet est censé prendre fin, conformément à l'entente initiale.</p>
@@ -2737,14 +2760,16 @@ FR: Le Système de classification des industries de l'Amérique du Nord (SCIAN) 
 <hr />
 <h4 id="expected_results_en-expected-results-or-intended-outcome-english-resultats-attendus-ou-vises-anglais"><code>expected_results_en</code> – Expected Results or Intended Outcome (English) / Résultats attendus ou visés (anglais)<a class="headerlink" href="#expected_results_en-expected-results-or-intended-outcome-english-resultats-attendus-ou-vises-anglais" title="Permanent link">#</a></h4>
 <p><strong>Type:</strong> <code>text</code><br />
-<strong>Required:</strong> No  </p>
+<strong>Required:</strong> Yes<br />
+<strong>Validation:</strong> Required if "Agreement Start Date" is on or after December 1st 2025 / Requis si la "date de début de l’entente" est le 1er décembre 2025 ou après  </p>
 <p><strong>Description:</strong><br />
 EN: The expected results or intended outcome is the assumed result of project completion. It should be populated in accordance with the project that the recipient is undertaking or the program under which it is funded. This field will attempt to explain why the project is being undertaken, and what the final results should be.<br />
 FR: Les résultats attendus ou visés sont les résultats présumés qui découlent de l'exécution d'un projet. Le champ doit être rempli en fonction du projet qu'entreprend le bénéficiaire ou conformément au programme en vertu duquel il est financé. Ce champ vise à offrir une description de la raisond'être du projet et de ce que devraient être les résultats finaux.</p>
 <hr />
 <h4 id="expected_results_fr-expected-results-or-intended-outcome-french-resultats-attendus-ou-vises-francais"><code>expected_results_fr</code> – Expected Results or Intended Outcome (French) / Résultats attendus ou visés (français)<a class="headerlink" href="#expected_results_fr-expected-results-or-intended-outcome-french-resultats-attendus-ou-vises-francais" title="Permanent link">#</a></h4>
 <p><strong>Type:</strong> <code>text</code><br />
-<strong>Required:</strong> No  </p>
+<strong>Required:</strong> Yes<br />
+<strong>Validation:</strong> Required if "Agreement Start Date" is on or after December 1st 2025 / Requis si la "date de début de l’entente" est le 1er décembre 2025 ou après  </p>
 <p><strong>Description:</strong><br />
 EN: The expected results or intended outcome is the assumed result of project completion. It should be populated in accordance with the project that the recipient is undertaking or the program under which it is funded. This field will attempt to explain why the project is being undertaken, and what the final results should be.<br />
 FR: Les résultats attendus ou visés sont les résultats présumés qui découlent de l'exécution d'un projet. Le champ doit être rempli en fonction du projet qu'entreprend le bénéficiaire ou conformément au programme en vertu duquel il est financé. Ce champ vise à offrir une description de la raisond'être du projet et de ce que devraient être les résultats finaux.</p>
@@ -2753,59 +2778,59 @@ FR: Les résultats attendus ou visés sont les résultats présumés qui découl
 <p><strong>Type:</strong> <code>text</code><br />
 <strong>Required:</strong> No  </p>
 <p><strong>Description:</strong><br />
-EN: Additional information is information that departments are required to enter under the guidance instructions for exceptions but that is not captured in any of the aforementioned fields. It may contain information on:
-•additional funding departments
-•funding through a third party
-•ministerial announcements
-•research fields
-•joint funding
-•collaborators and partners
-•keywords
-•belated reporting
-•novation agreements
-•terminations
-•repayability</p>
-<p>FR: Lorsqu'ils sont tenus de le faire conformément aux « Indications » qui traitent des exceptions, les ministères doivent entrer ici les renseignements supplémentaires qui ne sont pas saisis dans les champs précédents. Il peut s'agir de renseignements comme ceux-ci :
-•autres ministères participent au financement;
-•financement par l'intermédiaire d'un tiers;
-•annonces ministérielles;
-•domaines de recherche;
-•financement conjoint;
-•collaborateurs et partenaires;
-•mots-clés;
-•divulgation tardive;
-•entente d'innovation;
-•résiliations;
-•remboursement.</p>
+EN: Additional information is information that departments are required to enter under the guidance instructions for exceptions but that is not captured in any of the aforementioned fields. It may contain information on:</p>
+<p>• additional funding departments
+• funding through a third party
+• ministerial announcements
+• research fields
+• joint funding
+• collaborators and partners
+• keywords
+• belated reporting
+• novation agreements
+• terminations
+• repayability</p>
+<p>FR: Lorsqu'ils sont tenus de le faire conformément aux « Indications » qui traitent des exceptions, les ministères doivent entrer ici les renseignements supplémentaires qui ne sont pas saisis dans les champs précédents. Il peut s'agir de renseignements comme ceux-ci :</p>
+<p>• autres ministères participent au financement;
+• financement par l'intermédiaire d'un tiers;
+• annonces ministérielles;
+• domaines de recherche;
+• financement conjoint;
+• collaborateurs et partenaires;
+• mots-clés;
+• divulgation tardive;
+• entente d'innovation;
+• résiliations;
+• remboursement.</p>
 <hr />
 <h4 id="additional_information_fr-additional-information-french-renseignements-supplementaires-francais"><code>additional_information_fr</code> – Additional Information (French) / Renseignements supplémentaires (français)<a class="headerlink" href="#additional_information_fr-additional-information-french-renseignements-supplementaires-francais" title="Permanent link">#</a></h4>
 <p><strong>Type:</strong> <code>text</code><br />
 <strong>Required:</strong> No  </p>
 <p><strong>Description:</strong><br />
-EN: Additional information is information that departments are required to enter under the guidance instructions for exceptions but that is not captured in any of the aforementioned fields. It may contain information on:
-•additional funding departments
-•funding through a third party
-•ministerial announcements
-•research fields
-•joint funding
-•collaborators and partners
-•keywords
-•belated reporting
-•novation agreements
-•terminations
-•repayability</p>
-<p>FR: Lorsqu'ils sont tenus de le faire conformément aux « Indications » qui traitent des exceptions, les ministères doivent entrer ici les renseignements supplémentaires qui ne sont pas saisis dans les champs précédents. Il peut s'agir de renseignements comme ceux-ci :
-•autres ministères participent au financement;
-•financement par l'intermédiaire d'un tiers;
-•annonces ministérielles;
-•domaines de recherche;
-•financement conjoint;
-•collaborateurs et partenaires;
-•mots-clés;
-•divulgation tardive;
-•entente d'innovation;
-•résiliations;
-•remboursement.</p>
+EN: Additional information is information that departments are required to enter under the guidance instructions for exceptions but that is not captured in any of the aforementioned fields. It may contain information on:</p>
+<p>• additional funding departments
+• funding through a third party
+• ministerial announcements
+• research fields
+• joint funding
+• collaborators and partners
+• keywords
+• belated reporting
+• novation agreements
+• terminations
+• repayability</p>
+<p>FR: Lorsqu'ils sont tenus de le faire conformément aux « Indications » qui traitent des exceptions, les ministères doivent entrer ici les renseignements supplémentaires qui ne sont pas saisis dans les champs précédents. Il peut s'agir de renseignements comme ceux-ci :</p>
+<p>• autres ministères participent au financement;
+• financement par l'intermédiaire d'un tiers;
+• annonces ministérielles;
+• domaines de recherche;
+• financement conjoint;
+• collaborateurs et partenaires;
+• mots-clés;
+• divulgation tardive;
+• entente d'innovation;
+• résiliations;
+• remboursement.</p>
 <hr />
 <h2 id="proactive-publication-grants-and-contributions-nothing-to-report-publication-proactive-subventions-et-contributions-rien-a-signalerpublication-proactive-subventions-et-les-contributions-rien-a-signaler">Proactive Publication - Grants and Contributions Nothing to Report / Publication proactive – Subventions et contributions, rien à signalerPublication proactive - Subventions et les contributions  (Rien à signaler)<a class="headerlink" href="#proactive-publication-grants-and-contributions-nothing-to-report-publication-proactive-subventions-et-contributions-rien-a-signalerpublication-proactive-subventions-et-les-contributions-rien-a-signaler" title="Permanent link">#</a></h2>
 <h3 id="field-summary_1">Field Summary<a class="headerlink" href="#field-summary_1" title="Permanent link">#</a></h3>
@@ -3051,9 +3076,9 @@ FR: </p>
 </table>
 <h3 id="generation-metadata">Generation Metadata<a class="headerlink" href="#generation-metadata" title="Permanent link">#</a></h3>
 <ul>
-<li>Generated: 2025-10-08T22:14:16 (UTC)</li>
+<li>Generated: 2026-01-11T01:50:56 (UTC)</li>
 <li>Source: dictionaries/grants.json</li>
-<li>Commit: <code>5b17e83</code></li>
+<li>Commit: <code>ae7220e</code></li>
 <li>Tool Version: simple-1</li>
 </ul>
 <h3 id="validation">Validation<a class="headerlink" href="#validation" title="Permanent link">#</a></h3>
