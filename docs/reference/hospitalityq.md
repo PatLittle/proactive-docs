@@ -2,9 +2,9 @@
 # Proactive Publication - Hospitality Expenses / Publication proactive - Dépenses d'accueil
 
 **Dataset Type:** `hospitalityq`  
-**Last Generated:** 2026-01-18T01:49:55 (UTC)  
+**Last Generated:** 2026-01-25T01:52:43 (UTC)  
 **Source:** dictionaries/hospitalityq.json  
-**Commit:** `4793aa3`
+**Commit:** `1c71b61`
 
 Access, upload and modify the quarterly hospitality expenses for your organization / Accès, téléversement et modification des dépenses trimestriellement liées à l’accueil pour votre organisation
 
@@ -475,9 +475,9 @@ FR: Cet onglet/champ du modèle n’est rempli que s'il n'y a pas de frais d'acc
 
 ### Generation Metadata
 
-- Generated: 2026-01-18T01:49:55 (UTC)
+- Generated: 2026-01-25T01:52:43 (UTC)
 - Source: dictionaries/hospitalityq.json
-- Commit: `4793aa3`
+- Commit: `1c71b61`
 - Tool Version: simple-1
 
 ### Validation
