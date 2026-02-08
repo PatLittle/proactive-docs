@@ -2,9 +2,9 @@
 # Proactive Publication - Grants and Contributions / Publication proactive - Subventions et les contributions
 
 **Dataset Type:** `grants`  
-**Last Generated:** 2026-02-01T02:22:16 (UTC)  
+**Last Generated:** 2026-02-08T02:30:17 (UTC)  
 **Source:** dictionaries/grants.json  
-**Commit:** `3dbe79a`
+**Commit:** `55f5dea`
 
 Access, upload and modify the Grants and Contributions reports for your organization / Accès, téléversement et modifications des rapports sur les contributions et les subventions pour votre organisation
 
@@ -923,9 +923,7 @@ FR: La valeur en monnaie étrangère est le montant convenu aux termes de l'ente
 **Type:** `date`  
 **Required:** Yes  
 **Validation:** This field must not be empty.
-Date can’t be in the future.
  / Ce champ ne doit pas être vide.
-La date ne doit pas être dans le futur.
   
 
 
@@ -1216,9 +1214,9 @@ FR:
 
 ### Generation Metadata
 
-- Generated: 2026-02-01T02:22:16 (UTC)
+- Generated: 2026-02-08T02:30:17 (UTC)
 - Source: dictionaries/grants.json
-- Commit: `3dbe79a`
+- Commit: `55f5dea`
 - Tool Version: simple-1
 
 ### Validation
