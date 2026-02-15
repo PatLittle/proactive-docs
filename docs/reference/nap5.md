@@ -2,9 +2,9 @@
 # 5th National Action Plan on Open Government Tracker / Outil de suivi pour le 5ᵉ Plan d'action national pour un gouvernement ouvert
 
 **Dataset Type:** `nap5`  
-**Last Generated:** 2026-02-08T02:30:17 (UTC)  
+**Last Generated:** 2026-02-15T02:09:51 (UTC)  
 **Source:** dictionaries/nap5.json  
-**Commit:** `55f5dea`
+**Commit:** `41d8df9`
 
 Access, upload and modify the National Action Plan on Open Government Tracker for your organization / Accès, téléversement et Modifier le outil de suivi pour le Plan d'action national pour un gouvernement ouvert pour votre organisation
 
@@ -389,9 +389,9 @@ FR: Décrivez les défis rencontrés
 
 ### Generation Metadata
 
-- Generated: 2026-02-08T02:30:17 (UTC)
+- Generated: 2026-02-15T02:09:51 (UTC)
 - Source: dictionaries/nap5.json
-- Commit: `55f5dea`
+- Commit: `41d8df9`
 - Tool Version: simple-1
 
 ### Validation
