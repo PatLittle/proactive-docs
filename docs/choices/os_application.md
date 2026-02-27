@@ -1,6 +1,6 @@
 # Choices for os_application
 
-Generated 2025-12-20T23:39:37 UTC
+Generated 2026-02-27T09:34:29 UTC
 
 | Code | Label (EN) | Label (FR) |
 |------|------------|------------|
