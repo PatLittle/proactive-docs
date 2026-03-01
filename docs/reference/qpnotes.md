@@ -2,9 +2,9 @@
 # Proactive Publication - Question Period Notes / Publication proactive - Notes pour la période des questions
 
 **Dataset Type:** `qpnotes`  
-**Last Generated:** 2026-02-22T02:05:33 (UTC)  
+**Last Generated:** 2026-03-01T02:12:14 (UTC)  
 **Source:** dictionaries/qpnotes.json  
-**Commit:** `4cc5e7b`
+**Commit:** `366506c`
 
 Access, upload and modify Question Period notes for your organization / Accès, téléversement et modifications des notes de la période de questions pour votre organisation
 
@@ -419,9 +419,9 @@ FR: Cet onglet/champ du modèle n’est rempli que s'il n'y a pas de note pour l
 
 ### Generation Metadata
 
-- Generated: 2026-02-22T02:05:33 (UTC)
+- Generated: 2026-03-01T02:12:14 (UTC)
 - Source: dictionaries/qpnotes.json
-- Commit: `4cc5e7b`
+- Commit: `366506c`
 - Tool Version: simple-1
 
 ### Validation
