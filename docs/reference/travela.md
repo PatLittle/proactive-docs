@@ -2,9 +2,9 @@
 # Proactive Publication - Annual Travel, Hospitality and Conferences / Publication proactive - Dépenses annuelles de voyages, d’accueil, de conférences et d’événements
 
 **Dataset Type:** `travela`  
-**Last Generated:** 2026-03-01T02:12:15 (UTC)  
+**Last Generated:** 2026-03-08T02:03:22 (UTC)  
 **Source:** dictionaries/travela.json  
-**Commit:** `366506c`
+**Commit:** `7e9ee9d`
 
 This dataset includes all of the annual reports on travel expenses incurred within your organization. / Ce jeu de données comprend tous les rapports annuels sur les dépenses de voyage ayant été encourues au sein de votre organisation.
 
@@ -340,9 +340,9 @@ FR: Expliquez brièvement, en français, la ou les raisons significatives de l�
 
 ### Generation Metadata
 
-- Generated: 2026-03-01T02:12:15 (UTC)
+- Generated: 2026-03-08T02:03:22 (UTC)
 - Source: dictionaries/travela.json
-- Commit: `366506c`
+- Commit: `7e9ee9d`
 - Tool Version: simple-1
 
 ### Validation
