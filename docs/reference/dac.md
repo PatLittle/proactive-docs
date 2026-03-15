@@ -2,9 +2,9 @@
 # Proactive Publication - Departmental Audit Committee / Publication proactive - Comités ministériels d’audit
 
 **Dataset Type:** `dac`  
-**Last Generated:** 2026-03-08T02:03:27 (UTC)  
+**Last Generated:** 2026-03-15T02:23:43 (UTC)  
 **Source:** dictionaries/dac.json  
-**Commit:** `7e9ee9d`
+**Commit:** `c74f540`
 
 Access, upload and modify your Departmental Audit Committee members’ remuneration and expenses. / Accès, téléversement et modification de la rémunération et des dépenses des membres de votre Comité ministériel d’audit.
 
@@ -276,9 +276,9 @@ FR: Toute autre information pertinente (par exemple, une description des activit
 
 ### Generation Metadata
 
-- Generated: 2026-03-08T02:03:27 (UTC)
+- Generated: 2026-03-15T02:23:43 (UTC)
 - Source: dictionaries/dac.json
-- Commit: `7e9ee9d`
+- Commit: `c74f540`
 - Tool Version: simple-1
 
 ### Validation
