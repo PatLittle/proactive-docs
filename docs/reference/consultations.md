@@ -2,9 +2,9 @@
 # Open Dialogue - Consultations / Dialogue ouvert - Consultations
 
 **Dataset Type:** `consultations`  
-**Last Generated:** 2026-03-15T02:23:43 (UTC)  
+**Last Generated:** 2026-03-22T02:09:33 (UTC)  
 **Source:** dictionaries/consultations.json  
-**Commit:** `c74f540`
+**Commit:** `a0d78b2`
 
 Access, upload and modify consultation reports for your organization / Accès, téléversement et modifications des rapports sur les consultations pour votre organisation
 
@@ -573,9 +573,9 @@ FR: Cette zone comprend le(s) motif(s) de l’activité de participation du publ
 
 ### Generation Metadata
 
-- Generated: 2026-03-15T02:23:43 (UTC)
+- Generated: 2026-03-22T02:09:33 (UTC)
 - Source: dictionaries/consultations.json
-- Commit: `c74f540`
+- Commit: `a0d78b2`
 - Tool Version: simple-1
 
 ### Validation
