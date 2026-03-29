@@ -2,9 +2,9 @@
 # Proactive Publication - Use of Administrative Aircraft / Publication proactive - Utilisation des avions d'affaires
 
 **Dataset Type:** `adminaircraft`  
-**Last Generated:** 2026-03-22T02:09:31 (UTC)  
+**Last Generated:** 2026-03-29T02:25:05 (UTC)  
 **Source:** dictionaries/adminaircraft.json  
-**Commit:** `a0d78b2`
+**Commit:** `2471e07`
 
 Access, upload and modify government administrative aircraft use / Accès, téléversement et modifications des rapports sur la utilisation des avions d'affaires
 
@@ -347,9 +347,9 @@ FR: Ce champ affichera tout renseignement supplémentaire, en français, selon l
 
 ### Generation Metadata
 
-- Generated: 2026-03-22T02:09:31 (UTC)
+- Generated: 2026-03-29T02:25:05 (UTC)
 - Source: dictionaries/adminaircraft.json
-- Commit: `a0d78b2`
+- Commit: `2471e07`
 - Tool Version: simple-1
 
 ### Validation

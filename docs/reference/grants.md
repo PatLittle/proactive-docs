@@ -2,9 +2,9 @@
 # Proactive Publication - Grants and Contributions / Publication proactive - Subventions et les contributions
 
 **Dataset Type:** `grants`  
-**Last Generated:** 2026-03-22T02:09:31 (UTC)  
+**Last Generated:** 2026-03-29T02:25:05 (UTC)  
 **Source:** dictionaries/grants.json  
-**Commit:** `a0d78b2`
+**Commit:** `2471e07`
 
 Access, upload and modify the Grants and Contributions reports for your organization / Accès, téléversement et modifications des rapports sur les contributions et les subventions pour votre organisation
 
@@ -1214,9 +1214,9 @@ FR:
 
 ### Generation Metadata
 
-- Generated: 2026-03-22T02:09:31 (UTC)
+- Generated: 2026-03-29T02:25:05 (UTC)
 - Source: dictionaries/grants.json
-- Commit: `a0d78b2`
+- Commit: `2471e07`
 - Tool Version: simple-1
 
 ### Validation
