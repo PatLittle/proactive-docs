@@ -134,7 +134,7 @@
           "character_limit": 1800,
           "obligation": {
             "en": "Mandatory",
-            "fr": "Obligatoire"
+            "fr": "Mandatory"
           },
           "label": {
             "en": "Service Description (English)",

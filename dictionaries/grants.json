@@ -1977,8 +1977,8 @@
             "fr": "La date de début de l'entente est la date d'entrée en vigueur présumée de l'entente, commence généralement à être identifié en fonction de la dernière date de signature, conformément à l'entente initiale.\n\nCette date doit indiquer le début de l'accord de financement, et non la date du projet de subvention ou de contribution.\n"
           },
           "validation": {
-            "en": "This field must not be empty.\nDate can’t be in the future.\n",
-            "fr": "Ce champ ne doit pas être vide.\nLa date ne doit pas être dans le futur.\n"
+            "en": "This field must not be empty.\n",
+            "fr": "Ce champ ne doit pas être vide.\n"
           },
           "datastore_type": "date"
         },

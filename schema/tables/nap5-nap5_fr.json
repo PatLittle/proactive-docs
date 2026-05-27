@@ -26,7 +26,7 @@
     {
       "name": "commitments",
       "title": "Engagements",
-      "description": "Les 5 engagements dans le Plan d’action national du Canada pour un gouvernement ouvert de 2022-2024",
+      "description": "Les 5 engagements dans le Plan d'action national du Canada pour un gouvernement ouvert de 2022-2024",
       "type": "string",
       "constraints": {
         "required": true,
@@ -189,7 +189,7 @@
     {
       "name": "status",
       "title": "État",
-      "description": "Indiquer l’état actuel de l'engagement",
+      "description": "Indiquer l'état actuel de l'engagement",
       "type": "string",
       "constraints": {
         "required": true,
@@ -222,13 +222,13 @@
     {
       "name": "evidence_en",
       "title": "Preuve de progrès (anglais)",
-      "description": "Toute preuve à l'appui pour démontrer les progrès que vous avez accomplis. Cela peut inclure des sites Web, des liens vers des documents ou d’autres informations.",
+      "description": "Toute preuve à l'appui pour démontrer les progrès que vous avez accomplis. Cela peut inclure des sites Web, des liens vers des documents ou d'autres informations.",
       "type": "string"
     },
     {
       "name": "evidence_fr",
       "title": "Preuve de progrès (français)",
-      "description": "Toute preuve à l'appui pour démontrer les progrès que vous avez accomplis. Cela peut inclure des sites Web, des liens vers des documents ou d’autres informations.",
+      "description": "Toute preuve à l'appui pour démontrer les progrès que vous avez accomplis. Cela peut inclure des sites Web, des liens vers des documents ou d'autres informations.",
       "type": "string"
     },
     {
