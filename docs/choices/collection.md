@@ -1,6 +1,6 @@
 # Choices for collection
 
-Generated 2026-02-27T09:34:29 UTC
+Generated 2026-05-27T18:04:54 UTC
 
 | Code | Label (EN) | Label (FR) |
 |------|------------|------------|
