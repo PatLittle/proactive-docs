@@ -10,6 +10,7 @@ https://open.canada.ca/data/en/recombinant-schema/adminaircraft.json
 https://open.canada.ca/data/en/recombinant-schema/grants.json
 https://open.canada.ca/data/en/recombinant-schema/briefingt.json
 https://open.canada.ca/data/en/recombinant-schema/nap5.json
+https://open.canada.ca/data/en/recombinant-schema/nap6.json
 https://open.canada.ca/data/en/recombinant-schema/consultations.json
 https://open.canada.ca/data/en/recombinant-schema/dac.json
 https://open.canada.ca/data/en/recombinant-schema/wrongdoing.json
