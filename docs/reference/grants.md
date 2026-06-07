@@ -2,9 +2,9 @@
 # Proactive Publication - Grants and Contributions / Publication proactive - Subventions et les contributions
 
 **Dataset Type:** `grants`  
-**Last Generated:** 2026-05-31T03:44:29 (UTC)  
+**Last Generated:** 2026-06-07T03:51:30 (UTC)  
 **Source:** dictionaries/grants.json  
-**Commit:** `4a2562b`
+**Commit:** `c55ef3d`
 
 Access, upload and modify the Grants and Contributions reports for your organization / Accès, téléversement et modifications des rapports sur les contributions et les subventions pour votre organisation
 
@@ -768,9 +768,9 @@ FR: Le numéro de l'entente est celui qui figure à l'entente et/ou dans le syst
 **Type:** `money`  
 **Required:** Yes  
 **Validation:** This field must not be empty.
-The number must be greater than 0.
+The number must be greater than or equal to 0.
  / Ce champ ne doit pas être vide.
-Le nombre doit être supérieur à 0.
+Le nombre doit être supérieur ou égal à 0.
   
 
 
@@ -1214,9 +1214,9 @@ FR:
 
 ### Generation Metadata
 
-- Generated: 2026-05-31T03:44:29 (UTC)
+- Generated: 2026-06-07T03:51:30 (UTC)
 - Source: dictionaries/grants.json
-- Commit: `4a2562b`
+- Commit: `c55ef3d`
 - Tool Version: simple-1
 
 ### Validation
