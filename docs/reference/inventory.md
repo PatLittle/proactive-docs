@@ -2,9 +2,9 @@
 # Open Data Inventory / Inventaire des données ouvertes
 
 **Dataset Type:** `inventory`  
-**Last Generated:** 2026-06-14T03:59:27 (UTC)  
+**Last Generated:** 2026-06-21T04:07:54 (UTC)  
 **Source:** dictionaries/inventory.json  
-**Commit:** `545d7c5`
+**Commit:** `3ecbe5d`
 
 This dataset houses your departmental open data inventory. This is where you can access and upload your open data inventory template. / Ce jeu de données contient l’inventaire des données ouvertes de votre ministère. C’est l’occasion pour accéder à et pour télécharger votre modèle d'inventaire des données ouvertes.
 
@@ -28,7 +28,7 @@ This dataset houses your departmental open data inventory. This is where you can
 | `ref_number` | Reference Number / Numéro de référence | `text` | Yes |  |  | The unique reference number given to each line item in the spreadsheet. Having … |
 | `title_en` | Title (English) / Titre (anglais) | `text` | Yes |  |  | The English name by which the dataset is known. |
 | `title_fr` | Title (French) / Titre (français) | `text` | Yes |  |  | The French name by which the dataset is known. |
-| `description_en` | Description (English) / Description (anglais) | `text` | Yes |  |  | An account of the dataset, in English. A description may include but is not lim… |
+| `description_en` | Description (English) / Description (English) | `text` | Yes |  |  | An account of the dataset, in English. A description may include but is not lim… |
 | `description_fr` | Description (French) / Description (français) | `text` | Yes |  |  | An account of the dataset, in French. A description may include but is not limi… |
 | `publisher_en` | Publisher - Name at Publication (English) / Publisher - Name at Publication (English) | `text` | No |  |  | Name, in English, of the organization primarily responsible for publishing the … |
 | `publisher_fr` | Publisher - Name at Publication (French) / Publisher - Name at Publication (French) | `text` | No |  |  | Name, in French, of the organization primarily responsible for publishing the d… |
@@ -88,7 +88,7 @@ FR: Le nom en français sous lequel le jeu de données est connu.
 
 ---
 
-#### `description_en` – Description (English) / Description (anglais)
+#### `description_en` – Description (English) / Description (English)
 
 **Type:** `text`  
 **Required:** Yes  
@@ -308,9 +308,9 @@ FR: Nombre d’utilisateurs qui ont voté pour ce jeu de données sur le site We
 
 ### Generation Metadata
 
-- Generated: 2026-06-14T03:59:27 (UTC)
+- Generated: 2026-06-21T04:07:54 (UTC)
 - Source: dictionaries/inventory.json
-- Commit: `545d7c5`
+- Commit: `3ecbe5d`
 - Tool Version: simple-1
 
 ### Validation
