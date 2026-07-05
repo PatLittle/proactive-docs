@@ -2,9 +2,9 @@
 # Proactive Publication - Contracts over $10,000 / Publication proactive - Contrats attribués de plus de 10 000 $
 
 **Dataset Type:** `contracts`  
-**Last Generated:** 2026-06-28T03:42:08 (UTC)  
+**Last Generated:** 2026-07-05T03:18:43 (UTC)  
 **Source:** dictionaries/contracts.json  
-**Commit:** `1a689eb`
+**Commit:** `ca7a391`
 
 Access, upload and modify the Contracts over 10K reports for your organization / Accès, téléversement et modification des rapports  sur les contrats attribués de plus de 10 000 $ pour votre organisation
 
@@ -1501,7 +1501,7 @@ FR: Il est recommandé d’indiquer dans ce champ si l’approvisionnement est r
 **Type:** `text`  
 **Required:** No  
 **Validation:** Mandatory for contracts after 2019-01-01 / Obligatoire pour les marchés conclus après le 2019-01-01  
-**Choice Set:** reporting_period (124 values)  
+**Choice Set:** reporting_period (128 values)  
 
 
 **Description:**  
@@ -1641,6 +1641,10 @@ Lorsqu’il est publié sur le portail du Gouvernement Ouvert, ce champ contiend
 | `2025-2026-Q2` | 2025-2026-Q2 | 2025-2026-Q2 |
 | `2025-2026-Q3` | 2025-2026-Q3 | 2025-2026-Q3 |
 | `2025-2026-Q4` | 2025-2026-Q4 | 2025-2026-Q4 |
+| `2026-2027-Q1` | 2026-2027-Q1 | 2026-2027-Q1 |
+| `2026-2027-Q2` | 2026-2027-Q2 | 2026-2027-Q2 |
+| `2026-2027-Q3` | 2026-2027-Q3 | 2026-2027-Q3 |
+| `2026-2027-Q4` | 2026-2027-Q4 | 2026-2027-Q4 |
 
 
 
@@ -1667,7 +1671,7 @@ Lorsqu’il est publié sur le portail du Gouvernement Ouvert, ce champ contiend
 
 **Type:** `text`  
 **Required:** Yes  
-**Choice Set:** reporting_period (124 values)  
+**Choice Set:** reporting_period (128 values)  
 
 
 **Description:**  
@@ -1803,6 +1807,10 @@ FR:
 | `2025-2026-Q2` | 2025-2026-Q2 | 2025-2026-Q2 |
 | `2025-2026-Q3` | 2025-2026-Q3 | 2025-2026-Q3 |
 | `2025-2026-Q4` | 2025-2026-Q4 | 2025-2026-Q4 |
+| `2026-2027-Q1` | 2026-2027-Q1 | 2026-2027-Q1 |
+| `2026-2027-Q2` | 2026-2027-Q2 | 2026-2027-Q2 |
+| `2026-2027-Q3` | 2026-2027-Q3 | 2026-2027-Q3 |
+| `2026-2027-Q4` | 2026-2027-Q4 | 2026-2027-Q4 |
 
 
 
@@ -1821,9 +1829,9 @@ FR:
 
 ### Generation Metadata
 
-- Generated: 2026-06-28T03:42:08 (UTC)
+- Generated: 2026-07-05T03:18:43 (UTC)
 - Source: dictionaries/contracts.json
-- Commit: `1a689eb`
+- Commit: `ca7a391`
 - Tool Version: simple-1
 
 ### Validation
