@@ -2,9 +2,9 @@
 # Proactive Publication - Contracts over $10,000 / Publication proactive - Contrats attribués de plus de 10 000 $
 
 **Dataset Type:** `contracts`  
-**Last Generated:** 2026-07-05T03:18:43 (UTC)  
+**Last Generated:** 2026-07-12T02:39:27 (UTC)  
 **Source:** dictionaries/contracts.json  
-**Commit:** `ca7a391`
+**Commit:** `6fb5483`
 
 Access, upload and modify the Contracts over 10K reports for your organization / Accès, téléversement et modification des rapports  sur les contrats attribués de plus de 10 000 $ pour votre organisation
 
@@ -1829,9 +1829,9 @@ FR:
 
 ### Generation Metadata
 
-- Generated: 2026-07-05T03:18:43 (UTC)
+- Generated: 2026-07-12T02:39:27 (UTC)
 - Source: dictionaries/contracts.json
-- Commit: `ca7a391`
+- Commit: `6fb5483`
 - Tool Version: simple-1
 
 ### Validation
