@@ -2,9 +2,9 @@
 # Proactive Publication - Question Period Notes / Publication proactive - Notes pour la période des questions
 
 **Dataset Type:** `qpnotes`  
-**Last Generated:** 2026-07-19T02:35:48 (UTC)  
+**Last Generated:** 2026-07-26T02:40:23 (UTC)  
 **Source:** dictionaries/qpnotes.json  
-**Commit:** `27ff5a1`
+**Commit:** `489fd62`
 
 Access, upload and modify Question Period notes for your organization / Accès, téléversement et modifications des notes de la période de questions pour votre organisation
 
@@ -94,7 +94,7 @@ FR: L’utilisateur indique le titre officiel en français de la note pour la p�
 **Type:** `text`  
 **Required:** Yes  
 **Validation:** This field must not be empty / Ce champ ne doit pas être vide  
-**Choice Set:** minister (113 values)  
+**Choice Set:** minister (114 values)  
 
 
 **Description:**  
@@ -146,6 +146,7 @@ FR: Ce champ affichera le titre du ministre pour qui la note pour la période de
 | `MFOCCG` | Minister of Fisheries, Oceans and the Canadian Coast Guard | Ministre des Pêches, des Océans et de la Garde côtière canadienne |
 | `MGTPSP` | Minister of Government Transformation, Public Services and Procurement | Ministre de la transformation du gouvernement, des services publics et de l’approvisionnement |
 | `MGTPWP` | Minister of Government Transformation, Public Works and Procurement | Ministre de la transformation du gouvernement, des travaux publics et de l’approvisionnement |
+| `MGTPWPQL` | Minister of Government Transformation, Public Works and Procurement and Quebec Lieutenant | Ministre de la transformation du gouvernement, des travaux publics et de l’approvisionnement et lieutenant du québec |
 | `MH` | Minister of Health | Ministre de la Santé |
 | `MHDI` | Minister of Housing and Diversity and Inclusion | Ministre du logement et de la diversité et de l’inclusion |
 | `MHI` | Minister of Housing and Infrastructure | Ministre du logement et de l’infrastructure |
@@ -419,9 +420,9 @@ FR: Cet onglet/champ du modèle n’est rempli que s'il n'y a pas de note pour l
 
 ### Generation Metadata
 
-- Generated: 2026-07-19T02:35:48 (UTC)
+- Generated: 2026-07-26T02:40:23 (UTC)
 - Source: dictionaries/qpnotes.json
-- Commit: `27ff5a1`
+- Commit: `489fd62`
 - Tool Version: simple-1
 
 ### Validation
