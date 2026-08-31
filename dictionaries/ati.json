@@ -43,7 +43,7 @@
           "id": "month",
           "obligation": {
             "en": "Mandatory",
-            "fr": "Mandatory"
+            "fr": "Obligatoire"
           },
           "label": {
             "en": "Month (1-12)",
