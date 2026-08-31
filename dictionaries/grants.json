@@ -1547,8 +1547,8 @@
             "fr": "La valeur de l'entente est le montant en dollars indiqué dans l'entente de subvention ou de contribution. Ce champ doit indiquer une valeur monétaire en dollars canadiens. Ce champ doit indiquer la valeur totale de la subvention ou de la contribution, et non la variation de la valeur de l'accord.\n"
           },
           "validation": {
-            "en": "This field must not be empty.\nThe number must be greater than 0.\n",
-            "fr": "Ce champ ne doit pas être vide.\nLe nombre doit être supérieur à 0.\n"
+            "en": "This field must not be empty.\n\"Agreement Value\" must be zero or greater for agreements starting on or after May 1, 2026.\n",
+            "fr": "Ce champ ne doit pas être vide.\nLa « valeur de l’entente » doit être supérieur ou égal à 0 pour les accords qui commencent le 1er mai 2026 ou après.\n"
           },
           "datastore_type": "money"
         },
