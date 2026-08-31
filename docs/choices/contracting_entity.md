@@ -1,6 +1,6 @@
 # Choices for contracting_entity
 
-Generated 2026-08-31T05:44:58 UTC
+Generated 2026-08-31T05:47:00 UTC
 
 | Code | Label (EN) | Label (FR) |
 |------|------------|------------|
