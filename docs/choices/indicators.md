@@ -1,22 +1,33 @@
 # Choices for indicators
 
-Generated 2026-05-27T18:04:54 UTC
+Generated 2026-08-31T05:44:58 UTC
 
 | Code | Label (EN) | Label (FR) |
 |------|------------|------------|
-| [`C01.1.1`](#C01.1.1) | Add content and features to the Open Science and Data Platform, using user engagement and feedback, both internal and external to government to set priorities for additions | Ajouter du contenu et des fonctionnalités à la Plateforme de science et de données ouvertes, en mobilisant les utilisateurs et en obtenant leurs commentaires, tant à l'intérieur qu'à l'extérieur du gouvernement, pour établir des priorités |
-| [`C01.1.2`](#C01.1.2) | Provide accessible science-based educational content on 10 key topics (air, biodiversity, climate, cumulative effects, development activities, economy and industry, health, land, society and culture, and water), which may be supported by interactive maps | Fournir un contenu éducatif axé sur les sciences en langage accessible sur dix sujets clés (air, biodiversité, climat, effets cumulatifs, activités de développement, économie et industrie, santé, terre, société et culture, et eau), qui peut être complété par des cartes interactives |
-| [`C01.1.3`](#C01.1.3) | Engage with governments, Indigenous Peoples, and external groups (e.g. industry, environmental non – government organizations) to verify that cumulative effects are better understood, new content is identified (data, publications) and overall use of the platform is increased | Mobiliser les gouvernements, les peuples autochtones et les groupes externes (par exemple, industrie et organisations non gouvernementales environnementales) pour vérifier s'ils comprennent mieux les effets cumulatifs, s'ils ont repéré de nouveaux contenus (données et publications) et s'ils utilisent davantage la plateforme dans son ensemble |
-| [`C01.2.1`](#C01.2.1) | Disseminate an infographic and datasets related to greenhouse gas (GHG) emissions embedded in goods and services purchased by households. Link and disseminate environmental data on energy consumption and GHG emission physical flow accounts with economic satellite accounts on tourism, clean technologies, natural resources | Diffuser une infographie et des jeux de données relatifs aux émissions de GES intégrées aux biens et services achetés par les ménages. Partager les données environnementales des comptes de flux physiques pour la consommation d'énergie et les émissions de GES et établir un lien entre celles-ci et les données des comptes satellites économiques pour le tourisme, les technologies propres et les ressources naturelles |
-| [`C01.2.2`](#C01.2.2) | Develop an "Energy and Environment" webpage for the Canadian Centre for Energy Information portal that will include detailed GHG information from both Statistics Canada and Environment and Climate Change Canada, including several data visualization dashboards and indicators | Créer une page Web « Énergie et environnement » pour le portail du CCEI, qui comprendra de l'information détaillée sur les GES provenant de StatCan et d'ECCC, y compris plusieurs indicateurs et tableaux de bord de visualisation des données |
-| [`C01.2.3`](#C01.2.3) | Link and disseminate environmental data on energy consumption and GHG emission Physical Flow Accounts with economic satellite accounts on transportation and agriculture | Partager les données environnementales des comptes de flux physiques pour la consommation d'énergie et les émissions de GES et établir un lien entre celles-ci et les données des comptes satellites économiques pour le transport et l'agriculture |
-| [`C01.3.1`](#C01.3.1) | New metric to be designed and included in yearly reports to assess open access of climate change science publication using data from an abstract and citation database | Concevoir une nouvelle mesure à inclure dans les rapports annuels pour évaluer le libre accès aux publications scientifiques sur les changements climatiques en utilisant les données d'une base de données de résumés et de citations |
-| [`C01.3.2`](#C01.3.2) | Yearly reports on progress against existing metrics measuring implementation of open science by Science-Based Departments and Agencies, with a focus on open access metrics and diverse types of open access, to be released in the open | Établir des rapports annuels sur les progrès réalisés en fonction des indicateurs existants qui mesurent la façon dont les ministères et organismes à vocation scientifique mettent en oeuvre la science ouverte, en mettant l'accent sur les indicateurs de libre accès et les divers types de libre accès, et les mettre à disposition du public |
-| [`C01.3.3`](#C01.3.3) | Support 10 climate change innovation research projects as well as 10 master's students focused on the intersection of machine learning and climate change in Sub-Saharan Africa and promote knowledge exchange with Canadian scholars | Appuyer dix projets de recherche sur l'innovation en matière de changement climatique et les travaux de dix étudiants à la maîtrise qui seront axés sur les recoupements entre l'apprentissage automatique et les changements climatiques en Afrique subsaharienne et promouvoir l'échange de connaissances avec des chercheurs canadiens |
+| [`C01.1.1`](#C01.1.1) | Draft a strategic plan to establish a multi-collaborator forum. The draft strategic plan outlines the role and mandate of, and the context behind, the creation of the consultation body. | Rédiger un plan stratégique pour établir un Forum multi-intervenants. L'ébauche de plan stratégique décrit le rôle et le mandat de l'organisme de consultation, ainsi que le contexte dans lequel il a été créé. |
+| [`C01.1.2`](#C01.1.2) | Conduct a three-week consultation with communities across Canada to gather feedback on the strategic plan. | Mener une consultation de trois semaines auprès de communautés de partout au Canada pour recueillir des commentaires sur le plan stratégique. |
+| [`C01.1.3`](#C01.1.3) | Analyze the feedback received during the consultation period, incorporate it into the final draft of the strategic plan and publish the strategic plan as an open asset (in other words, designed for reuse in future initiatives). | Analyser les commentaires reçus durant la période de consultation, les intégrer à la version finale du plan stratégique et publier le plan stratégique en tant qu'actif ouvert (autrement dit, conçu pour être réutilisé dans des initiatives futures). |
+| [`C01.1.4`](#C01.1.4) | Set up the multi-collaborator forum (that is, decide on nomination criteria, governance structure, engagement approach, and so on). | Mettre en place le Forum multi-intervenants (par exemple, déterminer les critères de mise en candidature, la structure de gouvernance, l'approche en matière d'engagement). |
+| [`C01.1.5`](#C01.1.5) | Secure additional resources for the forum's activities. | Obtenir des ressources supplémentaires pour les activités du Forum. |
+| [`C01.2.1`](#C01.2.1) | Establish an enterprise-wide consultation platform. | Mettre en place une plateforme de consultation pangouvernementale. |
+| [`C01.2.2`](#C01.2.2) | Using the RCMP's public participation framework, incorporate a feedback loop into each consultation. Publish feedback on the Open Government portal. | Intégrer une boucle de rétroaction à chaque consultation au moyen du cadre de participation du public de la GRC. Publier la rétroaction sur le Portail du gouvernement ouvert. |
+| [`C01.2.3`](#C01.2.3) | Increase the percentage of Canadians who respond to the Organisation for Economic Co-operation and Development (OECD) survey on drivers of trust in public institutions from the 2024 baseline of 49%. | Accroître le pourcentage de Canadiens qui répondent à l'enquête de l'Organisation de coopération et de développement économiques sur les déterminants de la confiance dans les institutions publiques par rapport au pourcentage de référence de 2024, soit 49 %. |
+| [`C01.2.4`](#C01.2.4) | Reduce the percentage of ethnically diverse Canadians who report a hate crime or hate- motivated event from the 79% high in 2022. | Réduire le pourcentage de Canadiens de diverses origines ethniques qui signalent un crime haineux ou un événement motivé par la haine par rapport au niveau record de 79 % atteint en 2022. |
+| [`C01.3.1`](#C01.3.1) | Contribute to the government-wide implementation of the Action Plan Measure for Shared Priority 30 of the United Nations Declaration on the Rights of Indigenous Peoples Act. | Contribuer à la mise en oeuvre pangouvernementale de la mesure pour la priorité partagée 30 du Plan d'action de la Loi sur la Déclaration des Nations Unies sur les droits des peuples autochtones. |
+| [`C01.3.2`](#C01.3.2) | Identify concrete steps the Government of Canada can take to advance this approach, including identifying how to leverage each department's mandate. | Déterminer les mesures concrètes que le gouvernement du Canada peut prendre pour faire progresser cette approche, y compris quant à la façon de mettre à profit le mandat de chaque ministère. |
+| [`C01.3.3`](#C01.3.3) | Make meaningful progress on the RCMP's commitments to reconciliation that were outlined by the Truth and Reconciliation Council. | Réaliser des progrès significatifs par rapport aux engagements de la GRC en matière de réconciliation qui ont été présentés par le Conseil national de la réconciliation. |
 | [`C01.3.4`](#C01.3.4) | Work with Lacuna Fund to support the creation, aggregation, and maintenance of open datasets for the training and evaluation of machine learning models by and for local communities most affected by climate change around the world | Collaborer avec Lacuna Fund pour contribuer à la création, au regroupement et à mise à jour de jeux de données ouvertes pour des projets de formation et d'évaluation sur les modèles d'apprentissage automatique visant les communautés locales les plus touchées par les changements climatiques dans le monde |
-| [`C01.4.1`](#C01.4.1) | Increase the number of clients accessing climate information through Canadian Centre for Climate Services (CCCS) services by 10% by 2023 from 2021 baseline, by working to increase climate data and addressing information gaps driven by user needs | Augmenter de 10 % le nombre de clients ayant accès à l'information climatique par l'intermédiaire du Centre canadien des services climatiques (CCSC) d'ici 2023 par rapport au niveau de référence de 2021, en s'efforçant d'accroître la quantité de données climatiques et de combler les lacunes en matière d'information d'après les besoins des utilisateurs |
-| [`C01.4.2`](#C01.4.2) | Publish two sector-based modules on Climate Data by 2023 to provide relevant climate projections and information for users in the buildings and transportation sectors | Publier deux modules sectoriels sur Données climatiques d'ici 2023, afin de fournir des projections et de l'information pertinentes sur le climat aux utilisateurs des secteurs du bâtiment et du transport |
-| [`C01.4.3`](#C01.4.3) | Respond to at least 300 user enquiries via the Canadian Centre for Climate Services support desk each year to continue to provide high-level quality of support, and use their feedback to help us advance our mandate to help users understand and become more resilient to climate change | Répondre à au moins 300 demandes de renseignements des utilisateurs chaque année par l'intermédiaire du bureau de service du CCSC afin de continuer à fournir un soutien de grande qualité et d'utiliser les commentaires de ceux ci pour remplir notre mandat qui consiste à les aider à mieux comprendre les changements climatiques et à devenir plus résilients face à ceux-ci |
+| [`C01.4.1`](#C01.4.1) | Publicly launch the Public Participation Maturity Model tool, including launching a webinar, and a presentation at the 2025 Open Government Partnership Summit. | Lancer publiquement l'outil du modèle de maturité pour la participation du public, qui comprend le lancement d'un webinaire et d'une présentation au Sommet du Partenariat pour un gouvernement ouvert 2025. |
+| [`C01.4.2`](#C01.4.2) | Test the maturity model framework through the Maturity Model Pilot Program, which includes two one-year test groups (four to six departments in each) to assess the functionality of the model in different settings. | Mettre à l'essai le cadre de modèle de maturité au moyen du programme pilote du modèle de maturité, qui comprend deux groupes d'essai sur une période d'un an (quatre à six ministères pour chaque groupe) afin d'évaluer la fonctionnalité du modèle dans différents contextes. |
+| [`C01.4.3`](#C01.4.3) | Collect input from two years of the Maturity Model Pilot Program and refine the model based on the evidence collected. | Recueillir les commentaires pendant les deux années du programme pilote du modèle de maturité et peaufiner le modèle en fonction des données probantes recueillies. |
+| [`C01.4.4`](#C01.4.4) | Share reflections and best practices from the pilot program and make recommendations to senior leadership on the future of public participation in the Government of Canada. | Transmettre les réflexions et les pratiques exemplaires qui ont découlé du programme pilote et faire des recommandations à la haute direction sur l'avenir de la participation du public au sein du gouvernement du Canada. |
+| [`C01.5.1`](#C01.5.1) | Develop and advance infrastructure by, for example, building capacity, providing guidance and creating a digital prototype platform, to facilitate dialogue and the successful adoption of participatory research and citizen science in the federal science ecosystem. | Concevoir et consolider l'infrastructure, par exemple, en renforçant les capacités, en fournissant une orientation et en créant une plateforme numérique prototype afin de faciliter le dialogue et d'assurer l'adoption de la recherche participative et de la science citoyenne dans l'écosystème scientifique fédéral. |
+| [`C01.6.1`](#C01.6.1) | Development of a proposal detailing the design, framework and governance structure for a new external portal that will provide controlled, login-based access to unprotected, non-sensitive data assets and datasets for selected Indigenous organizations and governments. | Élaborer une proposition détaillant la conception, le cadre et la structure de gouvernance d'un nouveau portail externe qui offrira un accès contrôlé, avec authentification, à des actifs et ensembles de données non protégés et non sensibles pour certains gouvernements et certaines organisations autochtones. |
+| [`C01.6.2`](#C01.6.2) | Development of a data-sensitivity framework to help identify and categorize non-sensitive data assets that should be proactively shared, including determination of potential data-sharing platforms, in collaboration with Indigenous governments and organizations. | Élaborer un cadre de sensibilité des données pour aider à cerner les actifs de données qui ne sont pas sensibles, et à les catégoriser en conséquence, et qui devraient donc être transmis de façon proactive. Comprend le choix des plateformes potentielles de partage de données, en collaboration avec les gouvernements et les organisations autochtones. |
+| [`C01.6.3`](#C01.6.3) | Identification and prioritization of datasets that should be proactively shared. | Cerner les ensembles de données qui devraient être transmis de façon proactive et établir leur ordre de priorité. |
+| [`C01.7.1`](#C01.7.1) | Invite branches to think about their own holdings and consider what could be made available through the Open Government Portal in an accessible format. | Inviter les directions générales à réfléchir à leurs propres données et à ce qu'elles pourraient publier dans un format accessible par l'intermédiaire du Portail du gouvernement ouvert. |
+| [`C01.7.2`](#C01.7.2) | Encourage branches to consider whether the work they are doing will include opportunities to promote accountability and citizen engagement. | Encourager les directions générales à se demander si le travail qu'elles accomplissent comprendra des occasions de promouvoir la responsabilité et l'engagement des citoyens. |
+| [`C01.7.3`](#C01.7.3) | Ensure that twice annually, open government awareness activities are highlighted (once during Open Government Week and once during “Right to Know” week), with the goal of raising awareness at VAC. Success would be measured through participatory activities like employee knowledge challenges. | Veiller à ce que deux fois par année, les activités de sensibilisation à l'égard du gouvernement ouvert soient mises en évidence (une fois dans le cadre de la Semaine du gouvernement ouvert et une fois dans le cadre de la Semaine du droit à l'information), dans le but de mieux faire connaître le gouvernement ouvert au sein d'ACC. Le succès serait évalué au moyen d'activités participatives comme des tests de connaissances à l'intention des employés. |
 | [`C02.1.01`](#C02.1.01) | Projects are supported by the Digital Citizen Contribution Program with a focus of combatting online disinformation and other harms in a Canadian context to better understand the origins, impacts and potential response to online disinformation | les projets sont appuyés par le Programme de contributions en matière de citoyenneté numérique et ont pour objectif premier de lutter contre la désinformation en ligne et d'autres préjudices dans un contexte canadien afin de mieux comprendre les origines, les répercussions et les mesures d'intervention possibles pour lutter contre la désinformation en ligne |
 | [`C02.1.02`](#C02.1.02) | Projects are supported by Canadian Heritage's Joint Initiative with Social Sciences and Humanities Research Council with a focus on combatting online disinformation and other harms in a Canadian context | les projets sont appuyés par l'initiative conjointe de Patrimoine canadien et du Conseil de recherches en sciences humaines et visent à combattre la désinformation en ligne et d'autres préjudices dans un contexte canadien |
 | [`C02.1.03`](#C02.1.03) | Annual Digital Citizen Initiative conferences are held, bringing together stakeholders for capacity building and knowledge dissemination | des conférences annuelles sur l'initiative de citoyenneté numérique sont organisées, réunissant des intervenants afin de renforcer les capacités et de favoriser le transfert de connaissances |
@@ -26,52 +37,62 @@ Generated 2026-05-27T18:04:54 UTC
 | [`C02.1.07`](#C02.1.07) | Finalize voluntary actions in line with the Guiding Principles on diversity of content online | Mettre la touche finale à des actions volontaires en tenant compte des principes directeurs s'appliquant à la diversité des contenus en ligne |
 | [`C02.1.08`](#C02.1.08) | Countries, private sector, and civil society organizations sign on to the Guiding Principles and commit to advance voluntary actions | Les pays, le secteur privé et les organisations de la société civile adhèrent aux principes directeurs et s'engagent à faire progresser des actions volontaires |
 | [`C02.1.09`](#C02.1.09) | During its tenure as Chair of the International Institute for Democracy and Electoral Assistance (IDEA) in 2022, Canada will engage partners on the challenges created by disinformation, particularly those affecting governments and marginalized and vulnerable groups, and its impact on democratic processes, including participation and representation | pendant son mandat de président de l'Institut international pour la démocratie et l'assistance électorale en 2022, le Canada fera appel à des partenaires pour s'attaquer aux défis liés à la désinformation, en particulier ceux qui touchent les gouvernements et les groupes marginalisés et vulnérables, et leurs répercussions sur les processus démocratiques, y compris la participation et la représentation |
+| [`C02.1.1`](#C02.1.1) | Publish the RCMP Public Participation Framework and accompanying guidebook. | Publier le cadre de participation du public de la GRC et le guide connexe. |
 | [`C02.1.10`](#C02.1.10) | Publish an educational document for Canadians that would raise awareness on what the national security community does, why they do it and how, with specific reference to national security efforts to combat disinformation meant to undermine our democratic system and social cohesion | Publier un document éducatif à l'intention des Canadiens pour les sensibiliser à ce que fait la communauté de la sécurité nationale, pourquoi elle le fait et comment elle le fait, en faisant particulièrement référence aux efforts déployés par la communauté de la sécurité nationale pour lutter contre la désinformation qui visent à porter atteinte à notre système démocratique et à notre cohésion sociale |
 | [`C02.1.11`](#C02.1.11) | Launch an online engagement tool to foster dialogue with Canadians on national security transparency issues, with specific reference to national security efforts to combat disinformation meant to undermine our democratic system and social cohesion | Lancer un outil de mobilisation en ligne pour favoriser le dialogue avec les Canadiens sur les questions de transparence en matière de sécurité nationale, en faisant particulièrement référence aux efforts déployés par la communauté de la sécurité nationale pour lutter contre la désinformation qui visent à porter atteinte à notre système démocratique et à notre cohésion sociale |
-| [`C02.2.1`](#C02.2.1) | Release an annual G7 Rapid Response Mechanism public report aimed at raising awareness of and strengthening societal resilience to foreign interference, including state sponsored disinformation, by keeping publics in the G7 member states informed about the latest threats and countermeasures | publier un rapport public annuel sur le mécanisme de réponse rapide du G7 visant à sensibiliser la société à l'ingérence étrangère, notamment la désinformation parrainée par l'État – et à renforcer la résilience de la société face à celle-ci, en informant la population des États membres du G7 des dernières menaces et contre-mesures |
-| [`C02.2.2`](#C02.2.2) | Share Canada's experience implementing its Plan to Protect Democracy, such as the Critical Election Incident Public Protocol and the Declaration, with domestic and international partners | partager avec les partenaires nationaux et internationaux l'expérience du Canada dans la mise en oeuvre de son plan de protection de la démocratie, comme le Protocole public en cas d'incident électoral majeur et la Déclaration du Canada sur l'intégrité électorale en ligne |
-| [`C02.2.3`](#C02.2.3) | Engage provincial and territorial officials on threat awareness including countering cyber threats and disinformation in electoral processes | mobiliser des représentants provinciaux et territoriaux pour les sensibiliser aux menaces, notamment à la lutte contre les cybermenaces et la désinformation dans les processus électoraux |
-| [`C02.2.4`](#C02.2.4) | Implement the Declaration for Electoral Integrity Online commitment to enhance the circulation of authoritative and verifiable government information in the Internet ecosystem, including ensuring that electoral management bodies are identified as the leading source of information online for where, when, and how to vote | réaliser l'engagement pris au titre de la Déclaration du Canada sur l'intégrité électorale en ligne afin d'améliorer la circulation d'informations gouvernementales officielles et vérifiables dans l'écosystème Internet, notamment veiller à ce que les organismes de gestion électorale soient désignés comme la principale source d'information en ligne sur le lieu, la date du scrutin et la manière de voter |
+| [`C02.1.2`](#C02.1.2) | Promote the framework and guidebook throughout the RCMP to facilitate their adoption and implementation. | Faire la promotion du cadre et du guide dans l'ensemble de la GRC afin de faciliter leur adoption et leur mise en oevreu. |
+| [`C02.1.3`](#C02.1.3) | Create an ethics and personal data tool to ensure that data is collected legally and ethically during public consultations. | Créer un outil d'éthique et de données personnelles pour veiller à ce que les données soient recueillies de manière légale et éthique durant les consultations publiques. |
+| [`C02.2.1`](#C02.2.1) | Prepare a draft paper that assesses progress to date, identifies domestic and international best practices, and lays out potential approaches to strengthen Canadians' resilience to online disinformation. | Préparer une ébauche d'un document qui évalue les progrès réalisés à ce jour, dégage les pratiques exemplaires nationales et internationales et présente des approches possibles pour renforcer la capacité des Canadiens à faire face à la désinformation en ligne. |
+| [`C02.2.2`](#C02.2.2) | Consult on the paper with government and non-government partners. | Consulter les partenaires gouvernementaux et non gouvernementaux au sujet du document. |
+| [`C02.2.3`](#C02.2.3) | Develop a revised knowledge-sharing and communications strategy for the Digital Citizen Initiative. | Élaborer une stratégie révisée de partage des connaissances et de communication pour l'Initiative de citoyenneté numérique. |
+| [`C02.2.4`](#C02.2.4) | Host three events to build capacity and share best practices among researchers and civil society organizations that work in civic engagement and digital media literacy. | Organiser trois événements pour renforcer les capacités et permettre l'échange de pratiques exemplaires entre les chercheurs et les organisations de la société civile qui oeuvrent dans le domaine de l'engagement civique et de la littératie numérique. |
 | [`C02.2.5`](#C02.2.5) | Work with social media companies on the next iteration of the Declaration | collaborer avec les entreprises de médias sociaux concernant la prochaine version de la Déclaration du Canada sur l'intégrité électorale en ligne |
 | [`C02.2.6`](#C02.2.6) | Canada will establish a new centre to expand the availability of Canadian expertise and assistance to those seeking to build peace, advance justice, promote human rights, inclusion and democracy, and deliver good governance | le Canada établira un nouveau centre qui mettra l'aide et l'expertise du Canada à la disposition de tous ceux qui aspirent à consolider la paix, à faire avancer la justice, à promouvoir les droits de la personne et la démocratie, et à favoriser la bonne gouvernance |
 | [`C02.2.7`](#C02.2.7) | As co-chairs of the Media Freedom Coalition in 2022, Canada will take positive steps towards strengthening capacity to defend journalists around the world and protect the right to freedom of expression, public interest media, and the safety of journalists | en tant que coprésident de la Coalition pour la liberté des médias en 2022, le Canada prendra des mesures positives pour renforcer sa capacité à défendre les journalistes dans le monde entier et à protéger le droit à la liberté d'expression, les médias d'intérêt public et la sécurité des journalistes |
-| [`C02.3.1`](#C02.3.1) | Monitor trends on trust in government and identify lessons learned from other countries through the OECD's work and survey on the drivers of trust and how it can foster greater social cohesion | surveiller les tendances dans la confiance à l'égard du gouvernement, et relever les leçons retenues des autres pays en consultant les travaux et les résultats des enquêtes de l'OCDE sur les facteurs de confiance et la manière ils peuvent favoriser une plus grande cohésion sociale |
-| [`C02.3.2`](#C02.3.2) | Support research to better understand the state of civic discourse (both online and offline) and social cohesion in Canada | soutenir la recherche pour mieux comprendre l'état du discours civique (en ligne et hors ligne) et la cohésion sociale au Canada |
-| [`C02.3.3`](#C02.3.3) | Canada will launch its first-ever federal LGBTQ2 Action Plan with a view to advance the health, social and economic outcomes of LGBTQ2 people in Canada and the human rights of LGBTQ2 individuals internationally | le Canada lancera son tout premier plan d'action fédéral pour les communautés LGBTQ2 en vue d'améliorer les résultats des communautés LGBTQ2 au Canada sur les plans social, économique et de la santé et de faire progresser les droits de leurs membres à l'échelle internationale |
+| [`C02.3.1`](#C02.3.1) | Renew and revise LAC's Access Policy Framework and programs and processes to maximize access to federal records held by LAC. | Renouveler et réviser le Cadre de politique d'accès de BAC ainsi que ses programmes et processus afin de maximiser l'accès aux documents fédéraux détenus par BAC. |
+| [`C02.3.2`](#C02.3.2) | Proactively remove access barriers to GC archival records and have 30% to 50% of the archival GC records held at LAC open and readily available for Canadians to access either in person or online. | Éliminer de façon proactive les obstacles à l'accès aux documents archivés du gouvernement du Canada. Faire en sorte que de 30 % à 50 % des documents archivés du gouvernement du Canada détenus par BAC soient ouverts et facilement accessibles aux Canadiens, en personne ou en ligne. |
+| [`C02.3.3`](#C02.3.3) | Integrate public demand into the prioritization process of federal archival records to be proactively opened and maximize access to those records. | Intégrer la demande du public dans le processus d'établissement de la priorité des documents fédéraux archivés afin qu'ils soient ouverts de façon proactive et d'optimiser l'accès à ces documents. |
 | [`C02.4.1`](#C02.4.1) | Launch a program of action for 2022 Canada's chairship of the Freedom Online Coalition to advance digital inclusion that will foster meaningful participation in society online and offline, at home and abroad, with a focus on shaping global norms and expanding diplomatic networks, promoting multi-stakeholder engagement, and ramping up advocacy, communication and outreach | lancer un programme d'action pour la présidence canadienne de la Coalition pour la liberté en ligne 2022 afin de promouvoir l'inclusion numérique et, ainsi, favoriser une participation significative à la société en ligne et hors ligne, au pays et à l'étranger, en mettant l'accent sur l'élaboration de normes mondiales et l'expansion des réseaux diplomatiques, la promotion de la mobilisation multi-intervenants et l'intensification des activités de défense, de communication et de sensibilisation |
 | [`C02.4.2`](#C02.4.2) | Conduct a landscape study and a mapping on disinformation in the four global south regions - Middle East and North Africa, Latin America, sub-Saharan Africa, Asia; examine policies and actors; and build an agenda to work together to reduce disinformation | Réaliser une étude du paysage de la désinformation et en établir la cartographie dans les quatre régions du Sud (Moyen-Orient et Afrique du Nord, Amérique latine, Afrique subsaharienne et Asie), examiner les politiques et les acteurs et élaborer un programme de collaboration pour réduire la désinformation |
 | [`C02.4.3`](#C02.4.3) | Support research in 18 countries on the extent of technology facilitated Gender-based violence (GBV) | Appuyer des projets de recherche dans 18 pays sur la façon dont la technologie a facilité la violence fondée sur le sexe (VFS) |
 | [`C02.4.4`](#C02.4.4) | Conduct research on fostering a feminist Internet - infrastructure, data, discourse from artificial intelligence to LGBTQI+ (lesbian, gay, bisexual, transgender, queer and intersex, plus) to labour to Gender-based violence (GBV) | Mener des recherches sur la promotion d'un Internet féministe - infrastructure, données, discours, de l'IA aux communautés LGBTQI+ (lesbiennes, gaies, bisexuelles, transgenres, queers et intersexuées plus), en passant par le travail et la VFS |
 | [`C02.4.5`](#C02.4.5) | Support 2 countries in the global south to advance legal and gender transformative approaches to countering sexist hate speech online [India and Brazil] | Offrir un soutien à deux pays du Sud de la planète afin de promouvoir des approches transformatrices juridiques et en matière de genre pour mettre fin aux discours sexistes haineux en ligne (Inde et Brésil) |
-| [`C03.1.1`](#C03.1.1) | The Government's approach to beneficial ownership disclosures is informed by stakeholders' views on specifications for a made-in-Canada solution | L'approche du gouvernement en matière de divulgation de la propriété effective repose sur les points de vue des intervenants portant sur les spécifications d'une solution proprement canadienne |
-| [`C03.1.2`](#C03.1.2) | Federal legislative provisions necessary to implement the national beneficial ownership registry are in place in a timely manner, to support launch of the registry | Les dispositions législatives fédérales nécessaires à la mise en oeuvre du registre national des bénéficiaires effectifs sont en place en temps opportun, afin de soutenir le lancement du registre |
-| [`C03.1.3`](#C03.1.3) | The registry is accessible to the public by the end of 2023 | Le registre sera accessible au public d'ici la fin de 2023 |
-| [`C03.2.1`](#C03.2.1) | Regular consultations are held with federal, provincial and territorial partners and counterparts to discuss a harmonized made-in-Canada solution that is scalable and can facilitate participation by the provinces and territories | Des consultations régulières ont lieu avec les partenaires et les homologues fédéraux, provinciaux et territoriaux afin de discuter d'une solution harmonisée proprement canadienne, qui peut être élargie et qui peut faciliter la participation des provinces et des territoires |
-| [`C03.2.2`](#C03.2.2) | Canada consults with international counterparts to acquire lessons learned and best practices for implementing a publicly accessible beneficial ownership registry | Le Canada consulte ses homologues internationaux afin d'obtenir des leçons apprises et des pratiques exemplaires pour la mise en oeuvre d'un registre des bénéficiaires effectifs accessible au public |
-| [`C03.3.1`](#C03.3.1) | Subject to data availability, release the aggregate details of applications used by the Government of Canada | Selon la disponibilité des données, publier des renseignements agrégés sur les applications utilisées par le gouvernement du Canada |
-| [`C03.3.2`](#C03.3.2) | Work towards developing policy instruments around the ethical use of information technology in the Government of Canada | Travailler à l'élaboration d'instruments de politique concernant l'utilisation éthique des technologies de l'information au sein du gouvernement du Canada |
-| [`C04.1.1`](#C04.1.1) | Completion of Canadian Legal Problems Survey (CLPS) and sharing of results, including Public Use Microdata File (PUMF) | Répondre à l'Enquête canadienne sur les problèmes juridiques (ECPJ) et partager les résultats, y compris le fichier de microdonnées à grande diffusion (FMGD) |
-| [`C04.1.2`](#C04.1.2) | Completion and sharing of findings of Qualitative Studies on LGBTQ2S+ populations, Black Canadians, persons with disabilities, immigrants and Indigenous peoples, to complement the CLPS quantitative data | Mener à bien des études qualitatives sur les populations LGBTQ2S, les Canadiens noirs, les personnes en situation de handicap, les immigrants et les peuples autochtones, et en partager les résultats, afin de compléter les données quantitatives de l'ECPJ |
-| [`C04.1.3`](#C04.1.3) | Preparing and publishing Legal Aid Reports (annually) | Préparer et publier les Rapports sur l'aide juridique |
+| [`C03.1.1`](#C03.1.1) | Increase transparency at the RCMP by publicly disclosing data and information that demonstrates what evidence warrants an investigation into potential criminal activity. Information disclosed complies with requirements of releasing information about ongoing investigations. | Accroître la transparence au sein de la GRC en publiant publiquement des données et des renseignements qui démontrent les éléments probants justifiant une enquête sur une activité criminelle potentielle. De telles communications sont conformes aux exigences pour la communication de renseignements concernant les enquêtes en cours. |
+| [`C03.1.2`](#C03.1.2) | Increase Canadians' trust in the federal government, which was at 49% in 2023 according to the OECD Surveys on Drivers of Trust in Public Institutions. | Accroître la confiance des Canadiens envers le gouvernement fédéral, qui était de 49 % en 2023 selon l'enquête de l'Organisation de coopération et de développement économiques sur les déterminants de la confiance dans les institutions publiques. |
+| [`C03.1.3`](#C03.1.3) | Provide dashboards on high-level crime statistics and aggregated occurrence maps. | Fournir des tableaux de bord sur les statistiques criminelles globales et des cartes d'événements agrégées. |
+| [`C03.2.1`](#C03.2.1) | Develop interactive and accessible versions of the Creative Export Strategy's data viewer. | Développer des versions interactives et accessibles du visualiseur de données sur la Stratégie d'exportation créative. |
+| [`C03.2.2`](#C03.2.2) | Publish the Creative Export Strategy Interactive Data Viewer on the Canadian Heritage website. | Publier le visualiseur de données interactif sur la Stratégie d'exportation créative dans le site Web de Patrimoine canadien. |
+| [`C03.2.3`](#C03.2.3) | Announce the publication of the data viewer to stakeholders. | Annoncer la publication du visualiseur de données aux intervenants. |
+| [`C03.3.1`](#C03.3.1) | Research to identify existing sources of data, information and good practices from other jurisdictions, researchers and organizations. | Effectuer des recherches pour déterminer les sources existantes de données, de renseignements et de bonnes pratiques provenant d'autres administrations, chercheurs et organisations. |
+| [`C03.3.2`](#C03.3.2) | Publication of minimum viable product (MVP) register using existing data and information. | Publier un registre sur le produit minimum viable au moyen des données et renseignements existants. |
+| [`C03.3.3`](#C03.3.3) | Engagement of internal and external stakeholders to further develop and refine MVP content, format and functionality, and to identify where needed data and information can be sourced. | Mobiliser des intervenants internes et externes afin de poursuivre l'élaboration et le peaufinage du contenu, du format et des fonctionnalités du produit minimum viable ainsi que de déterminer où les données et l'information nécessaires peuvent être obtenues. |
+| [`C03.3.4`](#C03.3.4) | Development and publication of second version of register incorporating user feedback. | Préparer et publier une deuxième version du registre intégrant les commentaires des utilisateurs. |
+| [`C03.4.1`](#C03.4.1) | Foster dialogue with key stakeholders (for example, unions, media and federal public servants) through activities like polling, public opinion research, question-and-answer sessions with senior officials, newsletters, and technical briefings. | Favoriser un dialogue avec les principaux intervenants (par exemple, les syndicats, les médias et les fonctionnaires fédéraux) au moyen d'activités comme des sondages, des recherches sur l'opinion publique, des séances de questions et réponses avec les hauts fonctionnaires, des bulletins et des séances d'information technique. |
+| [`C03.4.2`](#C03.4.2) | PSPC and TBS collaborate to publish internal documents related to HR and pay initiatives, as well as relevant data and findings. Share these documents on the Open Government Portal and promote them through multiple channels to ensure broader access. | SPAC et le SCT collaborent pour publier des documents internes liés aux initiatives de RH et de paye, ainsi que des données et des constatations pertinentes. Diffuser ces documents sur le Portail du gouvernement ouvert et en faire la promotion sur de multiples canaux afin de permettre un plus grand accès. |
+| [`C03.4.3`](#C03.4.3) | Develop and maintain a publicly accessible tracker to monitor progress on key commitments related to HR and pay operations and transformation activities. | Créer et tenir à jour un outil de suivi accessible au public pour surveiller les progrès réalisés par rapport aux principaux engagements liés aux opérations des RH et de la paye et aux activités de transformation. |
+| [`C04.1.1`](#C04.1.1) | Review the processes required for Indigenous people when accessing their data and information held by the RCMP. | Examiner les processus requis pour les peuples autochtones lorsqu'ils accèdent à leurs données et aux renseignements détenus par la GRC. |
+| [`C04.1.2`](#C04.1.2) | Collaborate with Indigenous communities (First Nations, Inuit and Métis communities) to determine what information should be prioritized in the process. | Collaborer avec les communautés autochtones (communautés inuites, métisses et des Premières Nations) pour déterminer les renseignements prioritaires dans le cadre du processus. |
+| [`C04.1.3`](#C04.1.3) | Identify and address key barriers in the process to promote proactive disclosure for Indigenous communities accessing their data. | Cerner et éliminer les principaux obstacles au processus afin de promouvoir la communication proactive pour les communautés autochtones qui accèdent à leurs données. |
 | [`C04.1.4`](#C04.1.4) | Updating and maintaining the State of the Criminal Justice System Report and Dashboard (annually) | Tenir à jour le Rapport et le Tableau de bord sur l'État du système de justice pénale |
 | [`C04.1.5`](#C04.1.5) | Collecting and releasing high value data related to various policing activities, workforce composition and more | Collecter des données de grande valeur concernant, entre autres, les diverses activités de maintien de l'ordre et la composition de la main-d'oeuvre, et les communiquer |
-| [`C04.2.1`](#C04.2.1) | Collaboration with Council of Canadian Administrative Tribunals (CCAT) to support delivery of workshops to better understand and promote good practices | Collaborer avec le Conseil des tribunaux administratifs canadiens (CTAC) pour appuyer la tenue d'ateliers ayant pour but d'assurer une meilleure compréhension des bonnes pratiques et d'en faire la promotion |
-| [`C04.2.2`](#C04.2.2) | Support development of Community Justice Centres as a promising practice (ongoing) | Soutenir le développement de centres de justice communautaires en tant que pratique prometteuse |
-| [`C04.2.3`](#C04.2.3) | Publish promising practices from evaluations, annual reports and Federal, Provincial, Territorial work, as appropriate (ongoing) | Publier les pratiques prometteuses issues des évaluations, des rapports annuels et des travaux effectués par les gouvernements fédéral, provinciaux et territoriaux, le cas échéant |
-| [`C04.3.1`](#C04.3.1) | Regularly update Charterpedia on the Justice website (ongoing) | Assurer la mise à jour régulière de Chartepédia sur le site du ministère de la Justice |
-| [`C04.3.2`](#C04.3.2) | Publication of geo-spatial mapping of services funded by Indigenous Justice Program (ongoing) | Publier une cartographie géospatiale des services financés par le Programme de la justice applicable aux Autochtones |
-| [`C04.3.3`](#C04.3.3) | Release Five forthcoming online courses on Bill C-78 (family violence, relocation, family dispute resolution and the duties of the parties, parenting and, interjurisdictional support) | Diffuser Cinq cours en ligne à venir sur le projet de loi C-78 (violence familiale, réinstallation, règlement des différends familiaux et obligations des parties, rôle parental et exécution réciproque des ordonnances alimentaires) |
-| [`C04.3.4`](#C04.3.4) | Develop a Children's Rights Impact Assessment (CRIA) tool, and accompanying online course on the United Nations Convention on the Rights of the Child and how to use the CRIA tool | Mettre au point un outil d'évaluation de l'incidence sur les droits de l'enfant et un guide sur la façon d'utiliser cet outil, ainsi que le cours en ligne connexe sur la Convention relative aux droits de l'enfant des Nations Unies |
+| [`C04.2.1`](#C04.2.1) | Consult stakeholders on the essential content and desired outcomes of a foundational training or learning program for the federal public service on open data. | Consulter les intervenants sur le contenu essentiel et les résultats souhaités relativement à une formation de base ou à un programme d'apprentissage sur les données ouvertes s'adressant à la fonction publique fédérale. |
+| [`C04.2.2`](#C04.2.2) | Co-create the module(s) with civil society and Canada School of Public Service and do user testing. | Créer un ou des modules en collaboration avec la société civile et l'École de la fonction publique du Canada et procéder à des essais par les utilisateurs. |
+| [`C04.2.3`](#C04.2.3) | Publish the module(s) on an appropriate platform. | Publier le ou les modules sur une plateforme appropriée. |
+| [`C04.2.4`](#C04.2.4) | Assess the effectiveness of the update of the module, by soliciting feedback on how to continually improve it. | Évaluer l'efficacité de la mise à jour du module en sollicitant de la rétroaction sur la façon de l'améliorer de manière continue. |
+| [`C04.3.1`](#C04.3.1) | Number of hits on the National Justice Survey results | Nombre de consultations des résultats du Sondage national sur la justice. |
+| [`C04.3.2`](#C04.3.2) | Number of Justice Canada research publications and resources that use National Justice Survey data and are publicly available | Nombre de ressources et de publications de recherche du ministère de la Justice Canada utilisant les données du Sondage national sur la justice et qui sont accessibles au public. |
+| [`C04.3.3`](#C04.3.3) | Provide examples of National Justice Survey data being used to inform decision-making | Fournir des exemples de données du Sondage national sur la justice qui sont utilisées pour éclairer le processus décisionnel. |
+| [`C04.3.4`](#C04.3.4) | Qualitative feedback from key stakeholders on accessibility and usability of the data. | Rétroaction qualitative des intervenants clés sur l'accessibilité et la facilité d'utilisation des données. |
 | [`C04.3.5`](#C04.3.5) | Support for a network of legal information hubs providing free services to Official Language Minority Communities (ongoing) | Assurer le soutien à un réseau de centres d'information juridique offrant des services gratuits aux communautés de langues officielles en situation minoritaire |
 | [`C04.3.6`](#C04.3.6) | Communications activities to support legal literacy | Mener des activités de communication pour appuyer l'amélioration des connaissances juridiques |
-| [`C04.4.1`](#C04.4.1) | Work in concert with Provincial and Territorial partners | Collaborer avec les partenaires provinciaux et territoriaux |
-| [`C04.4.2`](#C04.4.2) | Participation on OGP Coalition on Justice | Participer à la Coalition du PGO pour la justice |
-| [`C04.4.3`](#C04.4.3) | Collaboration with Action Committee on Access to Justice in Civil and Family Matters | Collaborer avec le Comité d'action sur l'accès à la justice en matière civile et familiale |
-| [`C04.4.4`](#C04.4.4) | Fostering international partnerships including the Organisation for Economic Co-operation and Development (OECD) and Pathfinders | Encourager les partenariats internationaux, y compris ceux avec l'OCDE et Pathfinders |
-| [`C04.5.1`](#C04.5.1) | Develop an RCMP Open Government strategy with multi-year action plan (Released publicly) | Élaborer une stratégie de gouvernement ouvert pour la GRC et un plan d'action pluriannuel connexe (rendu public) |
-| [`C04.5.2`](#C04.5.2) | Establish an Open Government Office with resources dedicated to the advancement of openness and transparency across the RCMP | Établir un bureau pour un gouvernement ouvert comprenant des ressources consacrées à la promotion de l'ouverture et de la transparence à la GRC |
-| [`C04.5.3`](#C04.5.3) | Establish an RCMP Open Government Working Group comprised of key stakeholders across the RCMP to identify and release data and information as well as advance a culture of openness, transparency and accountability based on open government principles and practices. In addition, the RCMP will be an active participant in interdepartmental working groups/efforts around Justice and Justice related topics of transparency and Open Government | Créer un Groupe de travail sur le gouvernement ouvert pour la GRC regroupant des intervenants clés provenant de l'ensemble de la GRC, à qui il appartiendra de trouver des données et de l'information, et de les publier, et de promouvoir une culture d'ouverture, de transparence et de responsabilisation fondée sur les principes et les pratiques d'un gouvernement ouvert. De plus, la GRC participera activement aux initiatives et aux groupes de travail interministériels sur la justice et les questions connexes à la justice portant sur la transparence et le gouvernement ouvert |
-| [`C04.5.4`](#C04.5.4) | Establish an RCMP Multi-Stakeholder Forum (ex. non-governmental organizations, other government departments, private sector, academia, community representatives including Indigenous Peoples, LBGTQ, youth, etc..) to help engage in discussions around priorities and areas of focus for openness and transparency in the RCMP | Créer un Forum multi intervenants à la GRC (p. ex., organisations non gouvernementales, autres ministères, secteur privé, milieu universitaire, représentants de la collectivité, notamment les peuples autochtones, les communautés LGBTQ et les jeunes) pour faciliter l'entretien de discussions sur les priorités et les domaines d'intérêt pour favoriser l'ouverture et la transparence à la GRC |
+| [`C04.4.1`](#C04.4.1) | Number of Canada's State of the Criminal Justice System Dashboard indicators that have been automated | Nombre d'indicateurs du Tableau de bord sur l'état du système de justice pénale du Canada qui ont été automatisés. |
+| [`C04.4.2`](#C04.4.2) | Number of hits on Canada's State of the Criminal Justice System Dashboard webpages | Nombre de visites des pages Web du Tableau de bord sur l'état du système de justice pénale du Canada. |
+| [`C04.4.3`](#C04.4.3) | Provide examples of data being used to inform decision-making. | Fournir des exemples de données qui sont utilisées pour éclairer le processus décisionnel. |
+| [`C04.4.4`](#C04.4.4) | Qualitative feedback from key stakeholders on accessibility and usability of the data. | Rétroaction qualitative des intervenants clés sur l'accessibilité et la facilité d'utilisation des données. |
+| [`C04.5.1`](#C04.5.1) | The number of administrative bodies (federal, provincial and territorial) that apply the Access to Justice Index to their operations for an initial assessment. | Nombre d'entités administratives (fédérales, provinciales et territoriales) qui appliquent l'Indice de l'accès à la justice à leurs activités pour une première évaluation. |
+| [`C04.5.2`](#C04.5.2) | The number of administrative bodies that use the index for a further self-assessment to evaluate progress and identify additional improvements. | Nombre d'entités administratives qui utilisent l'Indice pour procéder à une autoévaluation plus poussée visant à évaluer les progrès et à cerner toute amélioration supplémentaire requise. |
+| [`C04.5.3`](#C04.5.3) | Feedback from administrative bodies on the effectiveness of the index as a tool to support more accessible and user-friendly services. | Rétroaction des entités administratives sur l'efficacité de l'Indice comme outil favorisant des services plus accessibles et conviviaux. |
+| [`C04.5.4`](#C04.5.4) | Number of awareness raising activities (for example, webinars, talks at conferences). | Nombre d'activités de sensibilisation (par exemple, webinaires, présentations lors de conférences). |
 | [`C05.1.1`](#C05.1.1) | Develop a roadmap identifying and prioritizing federal data standards | Élaborer une feuille de route indiquant, en ordre de priorité, les normes de données fédérales |
 | [`C05.1.2`](#C05.1.2) | Create a protocol for the development and management of federal data standards | Créer un protocole pour l'élaboration et la gestion des normes de données fédérales |
 | [`C05.1.3`](#C05.1.3) | Establish a data and information governance framework to support a holistic approach to governance and inform direction and decision-making on federal data and information initiatives | Établir un cadre de gouvernance des données et de l'information à l'appui d'une approche holistique de la gouvernance et éclairer l'orientation et la prise de décisions concernant les initiatives fédérales en matière de données et d'information |
@@ -111,86 +132,89 @@ Generated 2026-05-27T18:04:54 UTC
 | [`C05.3.17`](#C05.3.17) | Conduct additional public opinion research to address further data gaps | Mener des recherches supplémentaires sur l'opinion publique pour combler d'autres lacunes dans les données |
 | [`C05.3.18`](#C05.3.18) | Publish additional Canada Pension Plan Disability datasets on the Open Government Portal | Publier d'autres jeux de données sur le Programme de prestations d'invalidité du Canada sur le Portail du gouvernement ouvert |
 
-### Code `C01.1.1` – Add content and features to the Open Science and Data Platform, using user engagement and feedback, both internal and external to government to set priorities for additions / Ajouter du contenu et des fonctionnalités à la Plateforme de science et de données ouvertes, en mobilisant les utilisateurs et en obtenant leurs commentaires, tant à l'intérieur qu'à l'extérieur du gouvernement, pour établir des priorités {#C01.1.1}
+### Code `C01.1.1` – Draft a strategic plan to establish a multi-collaborator forum. The draft strategic plan outlines the role and mandate of, and the context behind, the creation of the consultation body. / Rédiger un plan stratégique pour établir un Forum multi-intervenants. L'ébauche de plan stratégique décrit le rôle et le mandat de l'organisme de consultation, ainsi que le contexte dans lequel il a été créé. {#C01.1.1}
 
 | Key | Value |
 |-----|-------|
-| due_date | 2023-12 |
-| deadline | {"en": "By 2023", "fr": "D'ici 2023"} |
-| lead_dept | nrcan-rncan |
-| s4d | False |
+| deadline | {"en": "Fall 2027", "fr": "Automne 2027"} |
+| lead_dept | rcmp-grc |
 
-### Code `C01.1.2` – Provide accessible science-based educational content on 10 key topics (air, biodiversity, climate, cumulative effects, development activities, economy and industry, health, land, society and culture, and water), which may be supported by interactive maps / Fournir un contenu éducatif axé sur les sciences en langage accessible sur dix sujets clés (air, biodiversité, climat, effets cumulatifs, activités de développement, économie et industrie, santé, terre, société et culture, et eau), qui peut être complété par des cartes interactives {#C01.1.2}
+### Code `C01.1.2` – Conduct a three-week consultation with communities across Canada to gather feedback on the strategic plan. / Mener une consultation de trois semaines auprès de communautés de partout au Canada pour recueillir des commentaires sur le plan stratégique. {#C01.1.2}
 
 | Key | Value |
 |-----|-------|
-| due_date | 2023-12 |
-| deadline | {"en": "By 2023", "fr": "D'ici 2023"} |
-| lead_dept | nrcan-rncan |
-| s4d | False |
+| deadline | {"en": "By winter 2025", "fr": "D'ici l'hiver 2025"} |
+| lead_dept | rcmp-grc |
 
-### Code `C01.1.3` – Engage with governments, Indigenous Peoples, and external groups (e.g. industry, environmental non – government organizations) to verify that cumulative effects are better understood, new content is identified (data, publications) and overall use of the platform is increased / Mobiliser les gouvernements, les peuples autochtones et les groupes externes (par exemple, industrie et organisations non gouvernementales environnementales) pour vérifier s'ils comprennent mieux les effets cumulatifs, s'ils ont repéré de nouveaux contenus (données et publications) et s'ils utilisent davantage la plateforme dans son ensemble {#C01.1.3}
+### Code `C01.1.3` – Analyze the feedback received during the consultation period, incorporate it into the final draft of the strategic plan and publish the strategic plan as an open asset (in other words, designed for reuse in future initiatives). / Analyser les commentaires reçus durant la période de consultation, les intégrer à la version finale du plan stratégique et publier le plan stratégique en tant qu'actif ouvert (autrement dit, conçu pour être réutilisé dans des initiatives futures). {#C01.1.3}
 
 | Key | Value |
 |-----|-------|
-| due_date | 2023-12 |
-| deadline | {"en": "By 2023", "fr": "D'ici 2023"} |
-| lead_dept | nrcan-rncan |
-| s4d | False |
+| deadline | {"en": "By summer 2025", "fr": "D'ici l'été 2025"} |
+| lead_dept | rcmp-grc |
 
-### Code `C01.2.1` – Disseminate an infographic and datasets related to greenhouse gas (GHG) emissions embedded in goods and services purchased by households. Link and disseminate environmental data on energy consumption and GHG emission physical flow accounts with economic satellite accounts on tourism, clean technologies, natural resources / Diffuser une infographie et des jeux de données relatifs aux émissions de GES intégrées aux biens et services achetés par les ménages. Partager les données environnementales des comptes de flux physiques pour la consommation d'énergie et les émissions de GES et établir un lien entre celles-ci et les données des comptes satellites économiques pour le tourisme, les technologies propres et les ressources naturelles {#C01.2.1}
+### Code `C01.1.4` – Set up the multi-collaborator forum (that is, decide on nomination criteria, governance structure, engagement approach, and so on). / Mettre en place le Forum multi-intervenants (par exemple, déterminer les critères de mise en candidature, la structure de gouvernance, l'approche en matière d'engagement). {#C01.1.4}
 
 | Key | Value |
 |-----|-------|
-| due_date | 2024-06 |
-| deadline | {"en": "By June 2024", "fr": "D'ici juin 2024"} |
-| lead_dept | statcan |
-| s4d | False |
+| deadline | {"en": "By fall 2028", "fr": "D'ici l'automne 2028"} |
+| lead_dept | rcmp-grc |
 
-### Code `C01.2.2` – Develop an "Energy and Environment" webpage for the Canadian Centre for Energy Information portal that will include detailed GHG information from both Statistics Canada and Environment and Climate Change Canada, including several data visualization dashboards and indicators / Créer une page Web « Énergie et environnement » pour le portail du CCEI, qui comprendra de l'information détaillée sur les GES provenant de StatCan et d'ECCC, y compris plusieurs indicateurs et tableaux de bord de visualisation des données {#C01.2.2}
+### Code `C01.1.5` – Secure additional resources for the forum's activities. / Obtenir des ressources supplémentaires pour les activités du Forum. {#C01.1.5}
 
 | Key | Value |
 |-----|-------|
-| due_date | 2022-12 |
-| deadline | {"en": "By 2022", "fr": "D'ici 2022"} |
-| lead_dept | statcan |
-| s4d | False |
+| deadline | {"en": "By fall 2028", "fr": "D'ici l'automne 2028"} |
+| lead_dept | rcmp-grc |
 
-### Code `C01.2.3` – Link and disseminate environmental data on energy consumption and GHG emission Physical Flow Accounts with economic satellite accounts on transportation and agriculture / Partager les données environnementales des comptes de flux physiques pour la consommation d'énergie et les émissions de GES et établir un lien entre celles-ci et les données des comptes satellites économiques pour le transport et l'agriculture {#C01.2.3}
+### Code `C01.2.1` – Establish an enterprise-wide consultation platform. / Mettre en place une plateforme de consultation pangouvernementale. {#C01.2.1}
 
 | Key | Value |
 |-----|-------|
-| due_date | 2024-06 |
-| deadline | {"en": "By June 2024", "fr": "D'ici juin 2024"} |
-| lead_dept | statcan |
-| s4d | False |
+| deadline | {"en": "By fall 2027", "fr": "D'ici l'automne 2027"} |
+| lead_dept | rcmp-grc |
 
-### Code `C01.3.1` – New metric to be designed and included in yearly reports to assess open access of climate change science publication using data from an abstract and citation database / Concevoir une nouvelle mesure à inclure dans les rapports annuels pour évaluer le libre accès aux publications scientifiques sur les changements climatiques en utilisant les données d'une base de données de résumés et de citations {#C01.3.1}
+### Code `C01.2.2` – Using the RCMP's public participation framework, incorporate a feedback loop into each consultation. Publish feedback on the Open Government portal. / Intégrer une boucle de rétroaction à chaque consultation au moyen du cadre de participation du public de la GRC. Publier la rétroaction sur le Portail du gouvernement ouvert. {#C01.2.2}
 
 | Key | Value |
 |-----|-------|
-| due_date | 2022-06 |
-| deadline | {"en": "By June 2022", "fr": "D'ici juin 2022"} |
-| lead_dept | ec |
-| s4d | False |
+| deadline | {"en": "Ongoing", "fr": "Permanent"} |
+| lead_dept | rcmp-grc |
 
-### Code `C01.3.2` – Yearly reports on progress against existing metrics measuring implementation of open science by Science-Based Departments and Agencies, with a focus on open access metrics and diverse types of open access, to be released in the open / Établir des rapports annuels sur les progrès réalisés en fonction des indicateurs existants qui mesurent la façon dont les ministères et organismes à vocation scientifique mettent en oeuvre la science ouverte, en mettant l'accent sur les indicateurs de libre accès et les divers types de libre accès, et les mettre à disposition du public {#C01.3.2}
+### Code `C01.2.3` – Increase the percentage of Canadians who respond to the Organisation for Economic Co-operation and Development (OECD) survey on drivers of trust in public institutions from the 2024 baseline of 49%. / Accroître le pourcentage de Canadiens qui répondent à l'enquête de l'Organisation de coopération et de développement économiques sur les déterminants de la confiance dans les institutions publiques par rapport au pourcentage de référence de 2024, soit 49 %. {#C01.2.3}
 
 | Key | Value |
 |-----|-------|
-| due_date | 2022-06 |
-| deadline | {"en": "By June 2022 for reporting year 2022, and June 2023 for reporting year 2023", "fr": "D'ici juin 2022 pour le rapport de 2022, et juin 2023 pour le rapport de 2023"} |
-| lead_dept | ec |
-| s4d | False |
+| deadline | {"en": "By winter 2028", "fr": "D'ici l'hiver 2028"} |
+| lead_dept | rcmp-grc |
 
-### Code `C01.3.3` – Support 10 climate change innovation research projects as well as 10 master's students focused on the intersection of machine learning and climate change in Sub-Saharan Africa and promote knowledge exchange with Canadian scholars / Appuyer dix projets de recherche sur l'innovation en matière de changement climatique et les travaux de dix étudiants à la maîtrise qui seront axés sur les recoupements entre l'apprentissage automatique et les changements climatiques en Afrique subsaharienne et promouvoir l'échange de connaissances avec des chercheurs canadiens {#C01.3.3}
+### Code `C01.2.4` – Reduce the percentage of ethnically diverse Canadians who report a hate crime or hate- motivated event from the 79% high in 2022. / Réduire le pourcentage de Canadiens de diverses origines ethniques qui signalent un crime haineux ou un événement motivé par la haine par rapport au niveau record de 79 % atteint en 2022. {#C01.2.4}
 
 | Key | Value |
 |-----|-------|
-| due_date | 2024-12 |
-| deadline | {"en": "By December 2024", "fr": "D'ici décembre 2024"} |
-| lead_dept | idrc-crdi |
-| s4d | False |
+| deadline | {"en": "Ongoing", "fr": "Permanent"} |
+| lead_dept | rcmp-grc |
+
+### Code `C01.3.1` – Contribute to the government-wide implementation of the Action Plan Measure for Shared Priority 30 of the United Nations Declaration on the Rights of Indigenous Peoples Act. / Contribuer à la mise en oeuvre pangouvernementale de la mesure pour la priorité partagée 30 du Plan d'action de la Loi sur la Déclaration des Nations Unies sur les droits des peuples autochtones. {#C01.3.1}
+
+| Key | Value |
+|-----|-------|
+| deadline | {"en": "Ongoing", "fr": "Permanent"} |
+| lead_dept | rcmp-grc |
+
+### Code `C01.3.2` – Identify concrete steps the Government of Canada can take to advance this approach, including identifying how to leverage each department's mandate. / Déterminer les mesures concrètes que le gouvernement du Canada peut prendre pour faire progresser cette approche, y compris quant à la façon de mettre à profit le mandat de chaque ministère. {#C01.3.2}
+
+| Key | Value |
+|-----|-------|
+| deadline | {"en": "By end of 2028", "fr": "D'ici la fin de 2028"} |
+| lead_dept | rcmp-grc |
+
+### Code `C01.3.3` – Make meaningful progress on the RCMP's commitments to reconciliation that were outlined by the Truth and Reconciliation Council. / Réaliser des progrès significatifs par rapport aux engagements de la GRC en matière de réconciliation qui ont été présentés par le Conseil national de la réconciliation. {#C01.3.3}
+
+| Key | Value |
+|-----|-------|
+| deadline | {"en": "By end of 2028", "fr": "D'ici la fin de 2028"} |
+| lead_dept | rcmp-grc |
 
 ### Code `C01.3.4` – Work with Lacuna Fund to support the creation, aggregation, and maintenance of open datasets for the training and evaluation of machine learning models by and for local communities most affected by climate change around the world / Collaborer avec Lacuna Fund pour contribuer à la création, au regroupement et à mise à jour de jeux de données ouvertes pour des projets de formation et d'évaluation sur les modèles d'apprentissage automatique visant les communautés locales les plus touchées par les changements climatiques dans le monde {#C01.3.4}
 
@@ -201,32 +225,82 @@ Generated 2026-05-27T18:04:54 UTC
 | lead_dept | idrc-crdi |
 | s4d | False |
 
-### Code `C01.4.1` – Increase the number of clients accessing climate information through Canadian Centre for Climate Services (CCCS) services by 10% by 2023 from 2021 baseline, by working to increase climate data and addressing information gaps driven by user needs / Augmenter de 10 % le nombre de clients ayant accès à l'information climatique par l'intermédiaire du Centre canadien des services climatiques (CCSC) d'ici 2023 par rapport au niveau de référence de 2021, en s'efforçant d'accroître la quantité de données climatiques et de combler les lacunes en matière d'information d'après les besoins des utilisateurs {#C01.4.1}
+### Code `C01.4.1` – Publicly launch the Public Participation Maturity Model tool, including launching a webinar, and a presentation at the 2025 Open Government Partnership Summit. / Lancer publiquement l'outil du modèle de maturité pour la participation du public, qui comprend le lancement d'un webinaire et d'une présentation au Sommet du Partenariat pour un gouvernement ouvert 2025. {#C01.4.1}
 
 | Key | Value |
 |-----|-------|
-| due_date | 2023-03 |
-| deadline | {"en": "By March 2023", "fr": "D'ici mars 2023"} |
-| lead_dept | ec |
-| s4d | False |
+| deadline | {"en": "By end of 2025", "fr": "D'ici la fin de 2025"} |
+| lead_dept | tbs-sct |
 
-### Code `C01.4.2` – Publish two sector-based modules on Climate Data by 2023 to provide relevant climate projections and information for users in the buildings and transportation sectors / Publier deux modules sectoriels sur Données climatiques d'ici 2023, afin de fournir des projections et de l'information pertinentes sur le climat aux utilisateurs des secteurs du bâtiment et du transport {#C01.4.2}
+### Code `C01.4.2` – Test the maturity model framework through the Maturity Model Pilot Program, which includes two one-year test groups (four to six departments in each) to assess the functionality of the model in different settings. / Mettre à l'essai le cadre de modèle de maturité au moyen du programme pilote du modèle de maturité, qui comprend deux groupes d'essai sur une période d'un an (quatre à six ministères pour chaque groupe) afin d'évaluer la fonctionnalité du modèle dans différents contextes. {#C01.4.2}
 
 | Key | Value |
 |-----|-------|
-| due_date | 2023-03 |
-| deadline | {"en": "By March 2023", "fr": "D'ici mars 2023"} |
-| lead_dept | ec |
-| s4d | False |
+| deadline | {"en": "2026-27", "fr": "2026‑2027"} |
+| lead_dept | tbs-sct |
 
-### Code `C01.4.3` – Respond to at least 300 user enquiries via the Canadian Centre for Climate Services support desk each year to continue to provide high-level quality of support, and use their feedback to help us advance our mandate to help users understand and become more resilient to climate change / Répondre à au moins 300 demandes de renseignements des utilisateurs chaque année par l'intermédiaire du bureau de service du CCSC afin de continuer à fournir un soutien de grande qualité et d'utiliser les commentaires de ceux ci pour remplir notre mandat qui consiste à les aider à mieux comprendre les changements climatiques et à devenir plus résilients face à ceux-ci {#C01.4.3}
+### Code `C01.4.3` – Collect input from two years of the Maturity Model Pilot Program and refine the model based on the evidence collected. / Recueillir les commentaires pendant les deux années du programme pilote du modèle de maturité et peaufiner le modèle en fonction des données probantes recueillies. {#C01.4.3}
 
 | Key | Value |
 |-----|-------|
-| due_date | 2023-03 |
-| deadline | {"en": "By March 2023", "fr": "D'ici mars 2023"} |
-| lead_dept | ec |
-| s4d | False |
+| deadline | {"en": "2026-27", "fr": "2026‑2027"} |
+| lead_dept | tbs-sct |
+
+### Code `C01.4.4` – Share reflections and best practices from the pilot program and make recommendations to senior leadership on the future of public participation in the Government of Canada. / Transmettre les réflexions et les pratiques exemplaires qui ont découlé du programme pilote et faire des recommandations à la haute direction sur l'avenir de la participation du public au sein du gouvernement du Canada. {#C01.4.4}
+
+| Key | Value |
+|-----|-------|
+| deadline | {"en": "By end of 2028", "fr": "D'ici la fin de 2028"} |
+| lead_dept | tbs-sct |
+
+### Code `C01.5.1` – Develop and advance infrastructure by, for example, building capacity, providing guidance and creating a digital prototype platform, to facilitate dialogue and the successful adoption of participatory research and citizen science in the federal science ecosystem. / Concevoir et consolider l'infrastructure, par exemple, en renforçant les capacités, en fournissant une orientation et en créant une plateforme numérique prototype afin de faciliter le dialogue et d'assurer l'adoption de la recherche participative et de la science citoyenne dans l'écosystème scientifique fédéral. {#C01.5.1}
+
+| Key | Value |
+|-----|-------|
+| deadline | {"en": "By end of 2029", "fr": "D'ici la fin de 2029"} |
+| lead_dept | ["pwgsc-tpsgc", "hc-sc"] |
+
+### Code `C01.6.1` – Development of a proposal detailing the design, framework and governance structure for a new external portal that will provide controlled, login-based access to unprotected, non-sensitive data assets and datasets for selected Indigenous organizations and governments. / Élaborer une proposition détaillant la conception, le cadre et la structure de gouvernance d'un nouveau portail externe qui offrira un accès contrôlé, avec authentification, à des actifs et ensembles de données non protégés et non sensibles pour certains gouvernements et certaines organisations autochtones. {#C01.6.1}
+
+| Key | Value |
+|-----|-------|
+| deadline | {"en": "By March 2026", "fr": "D'ici mars 2026"} |
+| lead_dept | isc-sac |
+
+### Code `C01.6.2` – Development of a data-sensitivity framework to help identify and categorize non-sensitive data assets that should be proactively shared, including determination of potential data-sharing platforms, in collaboration with Indigenous governments and organizations. / Élaborer un cadre de sensibilité des données pour aider à cerner les actifs de données qui ne sont pas sensibles, et à les catégoriser en conséquence, et qui devraient donc être transmis de façon proactive. Comprend le choix des plateformes potentielles de partage de données, en collaboration avec les gouvernements et les organisations autochtones. {#C01.6.2}
+
+| Key | Value |
+|-----|-------|
+| deadline | {"en": "By March 2027", "fr": "D'ici mars 2027"} |
+| lead_dept | isc-sac |
+
+### Code `C01.6.3` – Identification and prioritization of datasets that should be proactively shared. / Cerner les ensembles de données qui devraient être transmis de façon proactive et établir leur ordre de priorité. {#C01.6.3}
+
+| Key | Value |
+|-----|-------|
+| deadline | {"en": "By March 2027", "fr": "D'ici mars 2027"} |
+| lead_dept | isc-sac |
+
+### Code `C01.7.1` – Invite branches to think about their own holdings and consider what could be made available through the Open Government Portal in an accessible format. / Inviter les directions générales à réfléchir à leurs propres données et à ce qu'elles pourraient publier dans un format accessible par l'intermédiaire du Portail du gouvernement ouvert. {#C01.7.1}
+
+| Key | Value |
+|-----|-------|
+| deadline | {"en": "March 2029", "fr": "Mars 2029"} |
+| lead_dept | vac-acc |
+
+### Code `C01.7.2` – Encourage branches to consider whether the work they are doing will include opportunities to promote accountability and citizen engagement. / Encourager les directions générales à se demander si le travail qu'elles accomplissent comprendra des occasions de promouvoir la responsabilité et l'engagement des citoyens. {#C01.7.2}
+
+| Key | Value |
+|-----|-------|
+| deadline | {"en": "March 2029", "fr": "Mars 2029"} |
+| lead_dept | vac-acc |
+
+### Code `C01.7.3` – Ensure that twice annually, open government awareness activities are highlighted (once during Open Government Week and once during “Right to Know” week), with the goal of raising awareness at VAC. Success would be measured through participatory activities like employee knowledge challenges. / Veiller à ce que deux fois par année, les activités de sensibilisation à l'égard du gouvernement ouvert soient mises en évidence (une fois dans le cadre de la Semaine du gouvernement ouvert et une fois dans le cadre de la Semaine du droit à l'information), dans le but de mieux faire connaître le gouvernement ouvert au sein d'ACC. Le succès serait évalué au moyen d'activités participatives comme des tests de connaissances à l'intention des employés. {#C01.7.3}
+
+| Key | Value |
+|-----|-------|
+| deadline | {"en": "Annually, by March 31; to be reported as part of VAC's access to information and privacy annual reports", "fr": "Chaque année, au plus tard le 31 mars; en rendre compte dans le cadre des rapports annuels d'ACC sur l'accès à l'information et la protection des renseignements personnels"} |
+| lead_dept | vac-acc |
 
 ### Code `C02.1.01` – Projects are supported by the Digital Citizen Contribution Program with a focus of combatting online disinformation and other harms in a Canadian context to better understand the origins, impacts and potential response to online disinformation / les projets sont appuyés par le Programme de contributions en matière de citoyenneté numérique et ont pour objectif premier de lutter contre la désinformation en ligne et d'autres préjudices dans un contexte canadien afin de mieux comprendre les origines, les répercussions et les mesures d'intervention possibles pour lutter contre la désinformation en ligne {#C02.1.01}
 
@@ -309,6 +383,13 @@ Generated 2026-05-27T18:04:54 UTC
 | lead_dept | dfatd-maecd |
 | s4d | True |
 
+### Code `C02.1.1` – Publish the RCMP Public Participation Framework and accompanying guidebook. / Publier le cadre de participation du public de la GRC et le guide connexe. {#C02.1.1}
+
+| Key | Value |
+|-----|-------|
+| deadline | {"en": "By summer 2025", "fr": "D'ici l'été 2025"} |
+| lead_dept | rcmp-grc |
+
 ### Code `C02.1.10` – Publish an educational document for Canadians that would raise awareness on what the national security community does, why they do it and how, with specific reference to national security efforts to combat disinformation meant to undermine our democratic system and social cohesion / Publier un document éducatif à l'intention des Canadiens pour les sensibiliser à ce que fait la communauté de la sécurité nationale, pourquoi elle le fait et comment elle le fait, en faisant particulièrement référence aux efforts déployés par la communauté de la sécurité nationale pour lutter contre la désinformation qui visent à porter atteinte à notre système démocratique et à notre cohésion sociale {#C02.1.10}
 
 | Key | Value |
@@ -327,41 +408,47 @@ Generated 2026-05-27T18:04:54 UTC
 | lead_dept | ps-sp |
 | s4d | False |
 
-### Code `C02.2.1` – Release an annual G7 Rapid Response Mechanism public report aimed at raising awareness of and strengthening societal resilience to foreign interference, including state sponsored disinformation, by keeping publics in the G7 member states informed about the latest threats and countermeasures / publier un rapport public annuel sur le mécanisme de réponse rapide du G7 visant à sensibiliser la société à l'ingérence étrangère, notamment la désinformation parrainée par l'État – et à renforcer la résilience de la société face à celle-ci, en informant la population des États membres du G7 des dernières menaces et contre-mesures {#C02.2.1}
+### Code `C02.1.2` – Promote the framework and guidebook throughout the RCMP to facilitate their adoption and implementation. / Faire la promotion du cadre et du guide dans l'ensemble de la GRC afin de faciliter leur adoption et leur mise en oevreu. {#C02.1.2}
 
 | Key | Value |
 |-----|-------|
-| due_date | 2022-05 |
-| deadline | {"en": "By May 2022", "fr": "D'ici mai 2022"} |
-| lead_dept | dfatd-maecd |
-| s4d | True |
+| deadline | {"en": "By summer 2025", "fr": "D'ici l'été 2025"} |
+| lead_dept | rcmp-grc |
 
-### Code `C02.2.2` – Share Canada's experience implementing its Plan to Protect Democracy, such as the Critical Election Incident Public Protocol and the Declaration, with domestic and international partners / partager avec les partenaires nationaux et internationaux l'expérience du Canada dans la mise en oeuvre de son plan de protection de la démocratie, comme le Protocole public en cas d'incident électoral majeur et la Déclaration du Canada sur l'intégrité électorale en ligne {#C02.2.2}
+### Code `C02.1.3` – Create an ethics and personal data tool to ensure that data is collected legally and ethically during public consultations. / Créer un outil d'éthique et de données personnelles pour veiller à ce que les données soient recueillies de manière légale et éthique durant les consultations publiques. {#C02.1.3}
 
 | Key | Value |
 |-----|-------|
-| due_date | 2022-11 |
-| deadline | {"en": "By fall 2022", "fr": "D'ici l'automne 2022"} |
-| lead_dept | pco-bcp |
-| s4d | True |
+| deadline | {"en": "By summer 2025", "fr": "D'ici l'été 2025"} |
+| lead_dept | rcmp-grc |
 
-### Code `C02.2.3` – Engage provincial and territorial officials on threat awareness including countering cyber threats and disinformation in electoral processes / mobiliser des représentants provinciaux et territoriaux pour les sensibiliser aux menaces, notamment à la lutte contre les cybermenaces et la désinformation dans les processus électoraux {#C02.2.3}
+### Code `C02.2.1` – Prepare a draft paper that assesses progress to date, identifies domestic and international best practices, and lays out potential approaches to strengthen Canadians' resilience to online disinformation. / Préparer une ébauche d'un document qui évalue les progrès réalisés à ce jour, dégage les pratiques exemplaires nationales et internationales et présente des approches possibles pour renforcer la capacité des Canadiens à faire face à la désinformation en ligne. {#C02.2.1}
 
 | Key | Value |
 |-----|-------|
-| due_date | 2022-11 |
-| deadline | {"en": "By fall 2022", "fr": "D'ici l'automne 2022"} |
-| lead_dept | pco-bcp |
-| s4d | True |
+| deadline | {"en": "By April 2026", "fr": "D'ici avril 2026"} |
+| lead_dept | pch |
 
-### Code `C02.2.4` – Implement the Declaration for Electoral Integrity Online commitment to enhance the circulation of authoritative and verifiable government information in the Internet ecosystem, including ensuring that electoral management bodies are identified as the leading source of information online for where, when, and how to vote / réaliser l'engagement pris au titre de la Déclaration du Canada sur l'intégrité électorale en ligne afin d'améliorer la circulation d'informations gouvernementales officielles et vérifiables dans l'écosystème Internet, notamment veiller à ce que les organismes de gestion électorale soient désignés comme la principale source d'information en ligne sur le lieu, la date du scrutin et la manière de voter {#C02.2.4}
+### Code `C02.2.2` – Consult on the paper with government and non-government partners. / Consulter les partenaires gouvernementaux et non gouvernementaux au sujet du document. {#C02.2.2}
 
 | Key | Value |
 |-----|-------|
-| due_date | 2022-11 |
-| deadline | {"en": "By fall 2022", "fr": "D'ici l'automne 2022"} |
-| lead_dept | pco-bcp |
-| s4d | True |
+| deadline | {"en": "By spring 2026", "fr": "D'ici le printemps 2026"} |
+| lead_dept | pch |
+
+### Code `C02.2.3` – Develop a revised knowledge-sharing and communications strategy for the Digital Citizen Initiative. / Élaborer une stratégie révisée de partage des connaissances et de communication pour l'Initiative de citoyenneté numérique. {#C02.2.3}
+
+| Key | Value |
+|-----|-------|
+| deadline | {"en": "By June 2026", "fr": "D'ici juin 2026"} |
+| lead_dept | pch |
+
+### Code `C02.2.4` – Host three events to build capacity and share best practices among researchers and civil society organizations that work in civic engagement and digital media literacy. / Organiser trois événements pour renforcer les capacités et permettre l'échange de pratiques exemplaires entre les chercheurs et les organisations de la société civile qui oeuvrent dans le domaine de l'engagement civique et de la littératie numérique. {#C02.2.4}
+
+| Key | Value |
+|-----|-------|
+| deadline | {"en": "By 2026", "fr": "D'ici 2026"} |
+| lead_dept | pch |
 
 ### Code `C02.2.5` – Work with social media companies on the next iteration of the Declaration / collaborer avec les entreprises de médias sociaux concernant la prochaine version de la Déclaration du Canada sur l'intégrité électorale en ligne {#C02.2.5}
 
@@ -390,32 +477,26 @@ Generated 2026-05-27T18:04:54 UTC
 | lead_dept | dfatd-maecd |
 | s4d | True |
 
-### Code `C02.3.1` – Monitor trends on trust in government and identify lessons learned from other countries through the OECD's work and survey on the drivers of trust and how it can foster greater social cohesion / surveiller les tendances dans la confiance à l'égard du gouvernement, et relever les leçons retenues des autres pays en consultant les travaux et les résultats des enquêtes de l'OCDE sur les facteurs de confiance et la manière ils peuvent favoriser une plus grande cohésion sociale {#C02.3.1}
+### Code `C02.3.1` – Renew and revise LAC's Access Policy Framework and programs and processes to maximize access to federal records held by LAC. / Renouveler et réviser le Cadre de politique d'accès de BAC ainsi que ses programmes et processus afin de maximiser l'accès aux documents fédéraux détenus par BAC. {#C02.3.1}
 
 | Key | Value |
 |-----|-------|
-| due_date | 2022-11 |
-| deadline | {"en": "By fall 2022", "fr": "D'ici l'automne 2022"} |
-| lead_dept | pco-bcp |
-| s4d | True |
+| deadline | {"en": "2025 to 2028", "fr": "De 2025 à 2028"} |
+| lead_dept | lac-bac |
 
-### Code `C02.3.2` – Support research to better understand the state of civic discourse (both online and offline) and social cohesion in Canada / soutenir la recherche pour mieux comprendre l'état du discours civique (en ligne et hors ligne) et la cohésion sociale au Canada {#C02.3.2}
+### Code `C02.3.2` – Proactively remove access barriers to GC archival records and have 30% to 50% of the archival GC records held at LAC open and readily available for Canadians to access either in person or online. / Éliminer de façon proactive les obstacles à l'accès aux documents archivés du gouvernement du Canada. Faire en sorte que de 30 % à 50 % des documents archivés du gouvernement du Canada détenus par BAC soient ouverts et facilement accessibles aux Canadiens, en personne ou en ligne. {#C02.3.2}
 
 | Key | Value |
 |-----|-------|
-| due_date | 2022-11 |
-| deadline | {"en": "By fall 2022", "fr": "D'ici l'automne 2022"} |
-| lead_dept | pco-bcp |
-| s4d | True |
+| deadline | {"en": "By 2029", "fr": "D'ici 2029"} |
+| lead_dept | lac-bac |
 
-### Code `C02.3.3` – Canada will launch its first-ever federal LGBTQ2 Action Plan with a view to advance the health, social and economic outcomes of LGBTQ2 people in Canada and the human rights of LGBTQ2 individuals internationally / le Canada lancera son tout premier plan d'action fédéral pour les communautés LGBTQ2 en vue d'améliorer les résultats des communautés LGBTQ2 au Canada sur les plans social, économique et de la santé et de faire progresser les droits de leurs membres à l'échelle internationale {#C02.3.3}
+### Code `C02.3.3` – Integrate public demand into the prioritization process of federal archival records to be proactively opened and maximize access to those records. / Intégrer la demande du public dans le processus d'établissement de la priorité des documents fédéraux archivés afin qu'ils soient ouverts de façon proactive et d'optimiser l'accès à ces documents. {#C02.3.3}
 
 | Key | Value |
 |-----|-------|
-| due_date | 2022-12 |
-| deadline | {"en": "By December 2022", "fr": "D'ici décembre 2022"} |
-| lead_dept | wage |
-| s4d | True |
+| deadline | {"en": "2025 to 2029", "fr": "De 2025 à 2029"} |
+| lead_dept | lac-bac |
 
 ### Code `C02.4.1` – Launch a program of action for 2022 Canada's chairship of the Freedom Online Coalition to advance digital inclusion that will foster meaningful participation in society online and offline, at home and abroad, with a focus on shaping global norms and expanding diplomatic networks, promoting multi-stakeholder engagement, and ramping up advocacy, communication and outreach / lancer un programme d'action pour la présidence canadienne de la Coalition pour la liberté en ligne 2022 afin de promouvoir l'inclusion numérique et, ainsi, favoriser une participation significative à la société en ligne et hors ligne, au pays et à l'étranger, en mettant l'accent sur l'élaboration de normes mondiales et l'expansion des réseaux diplomatiques, la promotion de la mobilisation multi-intervenants et l'intensification des activités de défense, de communication et de sensibilisation {#C02.4.1}
 
@@ -462,94 +543,118 @@ Generated 2026-05-27T18:04:54 UTC
 | lead_dept | idrc-crdi |
 | s4d | False |
 
-### Code `C03.1.1` – The Government's approach to beneficial ownership disclosures is informed by stakeholders' views on specifications for a made-in-Canada solution / L'approche du gouvernement en matière de divulgation de la propriété effective repose sur les points de vue des intervenants portant sur les spécifications d'une solution proprement canadienne {#C03.1.1}
+### Code `C03.1.1` – Increase transparency at the RCMP by publicly disclosing data and information that demonstrates what evidence warrants an investigation into potential criminal activity. Information disclosed complies with requirements of releasing information about ongoing investigations. / Accroître la transparence au sein de la GRC en publiant publiquement des données et des renseignements qui démontrent les éléments probants justifiant une enquête sur une activité criminelle potentielle. De telles communications sont conformes aux exigences pour la communication de renseignements concernant les enquêtes en cours. {#C03.1.1}
 
 | Key | Value |
 |-----|-------|
-| due_date | 2023-12 |
-| deadline | {"en": "By December 2023", "fr": "D'ici décembre 2023"} |
-| lead_dept | ic |
-| s4d | True |
+| deadline | {"en": "Ongoing", "fr": "Permanent"} |
+| lead_dept | rcmp-grc |
 
-### Code `C03.1.2` – Federal legislative provisions necessary to implement the national beneficial ownership registry are in place in a timely manner, to support launch of the registry / Les dispositions législatives fédérales nécessaires à la mise en oeuvre du registre national des bénéficiaires effectifs sont en place en temps opportun, afin de soutenir le lancement du registre {#C03.1.2}
+### Code `C03.1.2` – Increase Canadians' trust in the federal government, which was at 49% in 2023 according to the OECD Surveys on Drivers of Trust in Public Institutions. / Accroître la confiance des Canadiens envers le gouvernement fédéral, qui était de 49 % en 2023 selon l'enquête de l'Organisation de coopération et de développement économiques sur les déterminants de la confiance dans les institutions publiques. {#C03.1.2}
 
 | Key | Value |
 |-----|-------|
-| deadline | {"en": "By December 2023", "fr": "D'ici décembre 2023"} |
-| lead_dept | ic |
-| s4d | False |
+| deadline | {"en": "By winter 2028", "fr": "D'ici l'hiver 2028"} |
+| lead_dept | rcmp-grc |
 
-### Code `C03.1.3` – The registry is accessible to the public by the end of 2023 / Le registre sera accessible au public d'ici la fin de 2023 {#C03.1.3}
-
-| Key | Value |
-|-----|-------|
-| due_date | 2023-12 |
-| deadline | {"en": "By December 2023", "fr": "D'ici décembre 2023"} |
-| lead_dept | ic |
-| s4d | False |
-
-### Code `C03.2.1` – Regular consultations are held with federal, provincial and territorial partners and counterparts to discuss a harmonized made-in-Canada solution that is scalable and can facilitate participation by the provinces and territories / Des consultations régulières ont lieu avec les partenaires et les homologues fédéraux, provinciaux et territoriaux afin de discuter d'une solution harmonisée proprement canadienne, qui peut être élargie et qui peut faciliter la participation des provinces et des territoires {#C03.2.1}
+### Code `C03.1.3` – Provide dashboards on high-level crime statistics and aggregated occurrence maps. / Fournir des tableaux de bord sur les statistiques criminelles globales et des cartes d'événements agrégées. {#C03.1.3}
 
 | Key | Value |
 |-----|-------|
-| due_date | 2023-12 |
-| deadline | {"en": "By December 2023", "fr": "D'ici décembre 2023"} |
-| lead_dept | ic |
-| s4d | True |
+| deadline | {"en": "By fall 2027", "fr": "D'ici l'automne 2027"} |
+| lead_dept | rcmp-grc |
 
-### Code `C03.2.2` – Canada consults with international counterparts to acquire lessons learned and best practices for implementing a publicly accessible beneficial ownership registry / Le Canada consulte ses homologues internationaux afin d'obtenir des leçons apprises et des pratiques exemplaires pour la mise en oeuvre d'un registre des bénéficiaires effectifs accessible au public {#C03.2.2}
+### Code `C03.2.1` – Develop interactive and accessible versions of the Creative Export Strategy's data viewer. / Développer des versions interactives et accessibles du visualiseur de données sur la Stratégie d'exportation créative. {#C03.2.1}
 
 | Key | Value |
 |-----|-------|
-| due_date | 2023-12 |
-| deadline | {"en": "By December 2023", "fr": "D'ici décembre 2023"} |
-| lead_dept | ic |
-| s4d | False |
+| deadline | {"en": "By summer 2025", "fr": "D'ici l'été 2025"} |
+| lead_dept | pch |
 
-### Code `C03.3.1` – Subject to data availability, release the aggregate details of applications used by the Government of Canada / Selon la disponibilité des données, publier des renseignements agrégés sur les applications utilisées par le gouvernement du Canada {#C03.3.1}
+### Code `C03.2.2` – Publish the Creative Export Strategy Interactive Data Viewer on the Canadian Heritage website. / Publier le visualiseur de données interactif sur la Stratégie d'exportation créative dans le site Web de Patrimoine canadien. {#C03.2.2}
 
 | Key | Value |
 |-----|-------|
-| due_date | 2024-06 |
-| deadline | {"en": "By June 2024", "fr": "D'ici juin 2024"} |
+| deadline | {"en": "By fall 2025", "fr": "D'ici l'automne 2025"} |
+| lead_dept | pch |
+
+### Code `C03.2.3` – Announce the publication of the data viewer to stakeholders. / Annoncer la publication du visualiseur de données aux intervenants. {#C03.2.3}
+
+| Key | Value |
+|-----|-------|
+| deadline | {"en": "By fall 2025", "fr": "D'ici l'automne 2025"} |
+| lead_dept | pch |
+
+### Code `C03.3.1` – Research to identify existing sources of data, information and good practices from other jurisdictions, researchers and organizations. / Effectuer des recherches pour déterminer les sources existantes de données, de renseignements et de bonnes pratiques provenant d'autres administrations, chercheurs et organisations. {#C03.3.1}
+
+| Key | Value |
+|-----|-------|
+| deadline | {"en": "By fall 2025", "fr": "D'ici l'automne 2025"} |
 | lead_dept | tbs-sct |
-| s4d | False |
 
-### Code `C03.3.2` – Work towards developing policy instruments around the ethical use of information technology in the Government of Canada / Travailler à l'élaboration d'instruments de politique concernant l'utilisation éthique des technologies de l'information au sein du gouvernement du Canada {#C03.3.2}
+### Code `C03.3.2` – Publication of minimum viable product (MVP) register using existing data and information. / Publier un registre sur le produit minimum viable au moyen des données et renseignements existants. {#C03.3.2}
 
 | Key | Value |
 |-----|-------|
-| due_date | 2024-06 |
-| deadline | {"en": "By June 2024", "fr": "D'ici juin 2024"} |
+| deadline | {"en": "By November 2025", "fr": "D'ici novembre 2025"} |
 | lead_dept | tbs-sct |
-| s4d | False |
 
-### Code `C04.1.1` – Completion of Canadian Legal Problems Survey (CLPS) and sharing of results, including Public Use Microdata File (PUMF) / Répondre à l'Enquête canadienne sur les problèmes juridiques (ECPJ) et partager les résultats, y compris le fichier de microdonnées à grande diffusion (FMGD) {#C04.1.1}
-
-| Key | Value |
-|-----|-------|
-| due_date | 2022-02 |
-| deadline | {"en": "By February 2022", "fr": "D'ici février 2022"} |
-| lead_dept | jus |
-| s4d | False |
-
-### Code `C04.1.2` – Completion and sharing of findings of Qualitative Studies on LGBTQ2S+ populations, Black Canadians, persons with disabilities, immigrants and Indigenous peoples, to complement the CLPS quantitative data / Mener à bien des études qualitatives sur les populations LGBTQ2S, les Canadiens noirs, les personnes en situation de handicap, les immigrants et les peuples autochtones, et en partager les résultats, afin de compléter les données quantitatives de l'ECPJ {#C04.1.2}
+### Code `C03.3.3` – Engagement of internal and external stakeholders to further develop and refine MVP content, format and functionality, and to identify where needed data and information can be sourced. / Mobiliser des intervenants internes et externes afin de poursuivre l'élaboration et le peaufinage du contenu, du format et des fonctionnalités du produit minimum viable ainsi que de déterminer où les données et l'information nécessaires peuvent être obtenues. {#C03.3.3}
 
 | Key | Value |
 |-----|-------|
-| due_date | 2022-05 |
-| deadline | {"en": "By spring 2022", "fr": "D'ici le printemps 2022"} |
-| lead_dept | jus |
-| s4d | False |
+| deadline | {"en": "By early 2026", "fr": "D'ici le début de 2026"} |
+| lead_dept | tbs-sct |
+| s4d | None |
 
-### Code `C04.1.3` – Preparing and publishing Legal Aid Reports (annually) / Préparer et publier les Rapports sur l'aide juridique {#C04.1.3}
+### Code `C03.3.4` – Development and publication of second version of register incorporating user feedback. / Préparer et publier une deuxième version du registre intégrant les commentaires des utilisateurs. {#C03.3.4}
 
 | Key | Value |
 |-----|-------|
-| due_date | 2024-12 |
-| deadline | {"en": "Annually", "fr": "Chaque année"} |
-| lead_dept | jus |
-| s4d | False |
+| deadline | {"en": "By end of 2026", "fr": "D'ici la fin de 2026"} |
+| lead_dept | tbs-sct |
+
+### Code `C03.4.1` – Foster dialogue with key stakeholders (for example, unions, media and federal public servants) through activities like polling, public opinion research, question-and-answer sessions with senior officials, newsletters, and technical briefings. / Favoriser un dialogue avec les principaux intervenants (par exemple, les syndicats, les médias et les fonctionnaires fédéraux) au moyen d'activités comme des sondages, des recherches sur l'opinion publique, des séances de questions et réponses avec les hauts fonctionnaires, des bulletins et des séances d'information technique. {#C03.4.1}
+
+| Key | Value |
+|-----|-------|
+| deadline | {"en": "Ongoing, annually", "fr": "Permanent, chaque année"} |
+| lead_dept | pwgsc-tpsgc |
+
+### Code `C03.4.2` – PSPC and TBS collaborate to publish internal documents related to HR and pay initiatives, as well as relevant data and findings. Share these documents on the Open Government Portal and promote them through multiple channels to ensure broader access. / SPAC et le SCT collaborent pour publier des documents internes liés aux initiatives de RH et de paye, ainsi que des données et des constatations pertinentes. Diffuser ces documents sur le Portail du gouvernement ouvert et en faire la promotion sur de multiples canaux afin de permettre un plus grand accès. {#C03.4.2}
+
+| Key | Value |
+|-----|-------|
+| deadline | {"en": "Ongoing, annually", "fr": "Permanent, chaque année"} |
+| lead_dept | pwgsc-tpsgc |
+
+### Code `C03.4.3` – Develop and maintain a publicly accessible tracker to monitor progress on key commitments related to HR and pay operations and transformation activities. / Créer et tenir à jour un outil de suivi accessible au public pour surveiller les progrès réalisés par rapport aux principaux engagements liés aux opérations des RH et de la paye et aux activités de transformation. {#C03.4.3}
+
+| Key | Value |
+|-----|-------|
+| deadline | {"en": "Updated monthly internally to reflect progress and published quarterly to the [Integrated strategy for human resources and pay webpage](https://www.canada.ca/en/public-services-procurement/services/pay-pension/pay-administration/integrated-strategy-human-resources-pay.html).\n\nUpdated annually to reflect new commitments.\n", "fr": "Effectuer une mise à jour à l'interne chaque mois pour refléter les progrès et procéder à une publication trimestrielle sur [la page Web Stratégie intégrée en matière de ressources humaines et de paye](https://www.canada.ca/fr/services-publics-approvisionnement/services/paye-pension/administration-paye/strategie-integree-ressources-humaines-salaire.html).\n\nProcéder à une mise à jour annuelle pour refléter les nouveaux engagements.\n"} |
+| lead_dept | pwgsc-tpsgc |
+
+### Code `C04.1.1` – Review the processes required for Indigenous people when accessing their data and information held by the RCMP. / Examiner les processus requis pour les peuples autochtones lorsqu'ils accèdent à leurs données et aux renseignements détenus par la GRC. {#C04.1.1}
+
+| Key | Value |
+|-----|-------|
+| deadline | {"en": "By end of 2028", "fr": "D'ici la fin de 2028"} |
+| lead_dept | rcmp-grc |
+
+### Code `C04.1.2` – Collaborate with Indigenous communities (First Nations, Inuit and Métis communities) to determine what information should be prioritized in the process. / Collaborer avec les communautés autochtones (communautés inuites, métisses et des Premières Nations) pour déterminer les renseignements prioritaires dans le cadre du processus. {#C04.1.2}
+
+| Key | Value |
+|-----|-------|
+| deadline | {"en": "By end of 2028", "fr": "D'ici la fin de 2028"} |
+| lead_dept | rcmp-grc |
+
+### Code `C04.1.3` – Identify and address key barriers in the process to promote proactive disclosure for Indigenous communities accessing their data. / Cerner et éliminer les principaux obstacles au processus afin de promouvoir la communication proactive pour les communautés autochtones qui accèdent à leurs données. {#C04.1.3}
+
+| Key | Value |
+|-----|-------|
+| deadline | {"en": "By end of 2028", "fr": "D'ici la fin de 2028"} |
+| lead_dept | rcmp-grc |
 
 ### Code `C04.1.4` – Updating and maintaining the State of the Criminal Justice System Report and Dashboard (annually) / Tenir à jour le Rapport et le Tableau de bord sur l'État du système de justice pénale {#C04.1.4}
 
@@ -569,68 +674,61 @@ Generated 2026-05-27T18:04:54 UTC
 | lead_dept | rcmp-grc |
 | s4d | False |
 
-### Code `C04.2.1` – Collaboration with Council of Canadian Administrative Tribunals (CCAT) to support delivery of workshops to better understand and promote good practices / Collaborer avec le Conseil des tribunaux administratifs canadiens (CTAC) pour appuyer la tenue d'ateliers ayant pour but d'assurer une meilleure compréhension des bonnes pratiques et d'en faire la promotion {#C04.2.1}
+### Code `C04.2.1` – Consult stakeholders on the essential content and desired outcomes of a foundational training or learning program for the federal public service on open data. / Consulter les intervenants sur le contenu essentiel et les résultats souhaités relativement à une formation de base ou à un programme d'apprentissage sur les données ouvertes s'adressant à la fonction publique fédérale. {#C04.2.1}
 
 | Key | Value |
 |-----|-------|
-| due_date | 2022-06 |
-| deadline | {"en": "By June 2022", "fr": "D'ici juin 2022"} |
-| lead_dept | jus |
-| s4d | False |
+| deadline | {"en": "By December 2026", "fr": "D'ici décembre 2026"} |
+| lead_dept | tbs-sct |
 
-### Code `C04.2.2` – Support development of Community Justice Centres as a promising practice (ongoing) / Soutenir le développement de centres de justice communautaires en tant que pratique prometteuse {#C04.2.2}
+### Code `C04.2.2` – Co-create the module(s) with civil society and Canada School of Public Service and do user testing. / Créer un ou des modules en collaboration avec la société civile et l'École de la fonction publique du Canada et procéder à des essais par les utilisateurs. {#C04.2.2}
 
 | Key | Value |
 |-----|-------|
-| due_date | 2024-12 |
-| deadline | {"en": "Ongoing", "fr": "En cours"} |
-| lead_dept | jus |
-| s4d | False |
+| deadline | {"en": "By December 2027", "fr": "D'ici décembre 2027"} |
+| lead_dept | tbs-sct |
 
-### Code `C04.2.3` – Publish promising practices from evaluations, annual reports and Federal, Provincial, Territorial work, as appropriate (ongoing) / Publier les pratiques prometteuses issues des évaluations, des rapports annuels et des travaux effectués par les gouvernements fédéral, provinciaux et territoriaux, le cas échéant {#C04.2.3}
+### Code `C04.2.3` – Publish the module(s) on an appropriate platform. / Publier le ou les modules sur une plateforme appropriée. {#C04.2.3}
 
 | Key | Value |
 |-----|-------|
-| due_date | 2024-12 |
-| deadline | {"en": "Ongoing", "fr": "En cours"} |
-| lead_dept | jus |
-| s4d | False |
+| deadline | {"en": "By December 2028", "fr": "D'ici décembre 2028"} |
+| lead_dept | tbs-sct |
 
-### Code `C04.3.1` – Regularly update Charterpedia on the Justice website (ongoing) / Assurer la mise à jour régulière de Chartepédia sur le site du ministère de la Justice {#C04.3.1}
+### Code `C04.2.4` – Assess the effectiveness of the update of the module, by soliciting feedback on how to continually improve it. / Évaluer l'efficacité de la mise à jour du module en sollicitant de la rétroaction sur la façon de l'améliorer de manière continue. {#C04.2.4}
 
 | Key | Value |
 |-----|-------|
-| due_date | 2024-12 |
-| deadline | {"en": "Ongoing", "fr": "En cours"} |
-| lead_dept | jus |
-| s4d | False |
+| deadline | {"en": "By December 2029", "fr": "D'ici décembre 2029"} |
+| lead_dept | tbs-sct |
 
-### Code `C04.3.2` – Publication of geo-spatial mapping of services funded by Indigenous Justice Program (ongoing) / Publier une cartographie géospatiale des services financés par le Programme de la justice applicable aux Autochtones {#C04.3.2}
+### Code `C04.3.1` – Number of hits on the National Justice Survey results / Nombre de consultations des résultats du Sondage national sur la justice. {#C04.3.1}
 
 | Key | Value |
 |-----|-------|
-| due_date | 2024-12 |
-| deadline | {"en": "Ongoing", "fr": "En cours"} |
+| deadline | {"en": "Biannually until 2029", "fr": "Deux fois par année jusqu'en 2029"} |
 | lead_dept | jus |
-| s4d | False |
 
-### Code `C04.3.3` – Release Five forthcoming online courses on Bill C-78 (family violence, relocation, family dispute resolution and the duties of the parties, parenting and, interjurisdictional support) / Diffuser Cinq cours en ligne à venir sur le projet de loi C-78 (violence familiale, réinstallation, règlement des différends familiaux et obligations des parties, rôle parental et exécution réciproque des ordonnances alimentaires) {#C04.3.3}
+### Code `C04.3.2` – Number of Justice Canada research publications and resources that use National Justice Survey data and are publicly available / Nombre de ressources et de publications de recherche du ministère de la Justice Canada utilisant les données du Sondage national sur la justice et qui sont accessibles au public. {#C04.3.2}
 
 | Key | Value |
 |-----|-------|
-| due_date | 2023-08 |
-| deadline | {"en": "By Summer 2023", "fr": "D'ici l'été 2023"} |
+| deadline | {"en": "Biannually until 2029", "fr": "Deux fois par année jusqu'en 2029"} |
 | lead_dept | jus |
-| s4d | False |
 
-### Code `C04.3.4` – Develop a Children's Rights Impact Assessment (CRIA) tool, and accompanying online course on the United Nations Convention on the Rights of the Child and how to use the CRIA tool / Mettre au point un outil d'évaluation de l'incidence sur les droits de l'enfant et un guide sur la façon d'utiliser cet outil, ainsi que le cours en ligne connexe sur la Convention relative aux droits de l'enfant des Nations Unies {#C04.3.4}
+### Code `C04.3.3` – Provide examples of National Justice Survey data being used to inform decision-making / Fournir des exemples de données du Sondage national sur la justice qui sont utilisées pour éclairer le processus décisionnel. {#C04.3.3}
 
 | Key | Value |
 |-----|-------|
-| due_date | 2022-05 |
-| deadline | {"en": "By May 2022", "fr": "D'ici mai 2022"} |
+| deadline | {"en": "Feedback will be compiled in March 2027 and at the end of the commitment and published in a report.", "fr": "La rétroaction sera compilée en mars 2027 ainsi qu'à la fin de l'engagement et publiée dans un rapport."} |
 | lead_dept | jus |
-| s4d | False |
+
+### Code `C04.3.4` – Qualitative feedback from key stakeholders on accessibility and usability of the data. / Rétroaction qualitative des intervenants clés sur l'accessibilité et la facilité d'utilisation des données. {#C04.3.4}
+
+| Key | Value |
+|-----|-------|
+| deadline | {"en": "Feedback will be compiled in March 2027 and at the end of the commitment and published in a report.", "fr": "La rétroaction sera compilée en mars 2027 ainsi qu'à la fin de l'engagement et publiée dans un rapport"} |
+| lead_dept | jus |
 
 ### Code `C04.3.5` – Support for a network of legal information hubs providing free services to Official Language Minority Communities (ongoing) / Assurer le soutien à un réseau de centres d'information juridique offrant des services gratuits aux communautés de langues officielles en situation minoritaire {#C04.3.5}
 
@@ -650,77 +748,61 @@ Generated 2026-05-27T18:04:54 UTC
 | lead_dept | jus |
 | s4d | False |
 
-### Code `C04.4.1` – Work in concert with Provincial and Territorial partners / Collaborer avec les partenaires provinciaux et territoriaux {#C04.4.1}
+### Code `C04.4.1` – Number of Canada's State of the Criminal Justice System Dashboard indicators that have been automated / Nombre d'indicateurs du Tableau de bord sur l'état du système de justice pénale du Canada qui ont été automatisés. {#C04.4.1}
 
 | Key | Value |
 |-----|-------|
-| due_date | 2024-12 |
-| deadline | {"en": "Ongoing", "fr": "En cours"} |
+| deadline | {"en": "Biannually until 2029", "fr": "Deux fois par année jusqu'en 2029"} |
 | lead_dept | jus |
-| s4d | False |
 
-### Code `C04.4.2` – Participation on OGP Coalition on Justice / Participer à la Coalition du PGO pour la justice {#C04.4.2}
+### Code `C04.4.2` – Number of hits on Canada's State of the Criminal Justice System Dashboard webpages / Nombre de visites des pages Web du Tableau de bord sur l'état du système de justice pénale du Canada. {#C04.4.2}
 
 | Key | Value |
 |-----|-------|
-| due_date | 2022-05 |
-| deadline | {"en": "By spring 2022", "fr": "D'ici le printemps 2022"} |
+| deadline | {"en": "Biannually until 2029", "fr": "Deux fois par année jusqu'en 2029"} |
 | lead_dept | jus |
-| s4d | False |
 
-### Code `C04.4.3` – Collaboration with Action Committee on Access to Justice in Civil and Family Matters / Collaborer avec le Comité d'action sur l'accès à la justice en matière civile et familiale {#C04.4.3}
+### Code `C04.4.3` – Provide examples of data being used to inform decision-making. / Fournir des exemples de données qui sont utilisées pour éclairer le processus décisionnel. {#C04.4.3}
 
 | Key | Value |
 |-----|-------|
-| due_date | 2024-12 |
-| deadline | {"en": "Ongoing", "fr": "En cours"} |
+| deadline | {"en": "Examples will be compiled in March 2027 and at the end of the commitment and shared via public report.", "fr": "Les exemples seront compilés en mars 2027 ainsi qu'à la fin de l'engagement et publiés dans un rapport public"} |
 | lead_dept | jus |
-| s4d | False |
 
-### Code `C04.4.4` – Fostering international partnerships including the Organisation for Economic Co-operation and Development (OECD) and Pathfinders / Encourager les partenariats internationaux, y compris ceux avec l'OCDE et Pathfinders {#C04.4.4}
+### Code `C04.4.4` – Qualitative feedback from key stakeholders on accessibility and usability of the data. / Rétroaction qualitative des intervenants clés sur l'accessibilité et la facilité d'utilisation des données. {#C04.4.4}
 
 | Key | Value |
 |-----|-------|
-| due_date | 2024-12 |
-| deadline | {"en": "Ongoing", "fr": "En cours"} |
+| deadline | {"en": "Feedback will be compiled in March 2027 and at the end of the commitment and shared via public report.", "fr": "La rétroaction sera compilée en mars 2027 ainsi qu'à la fin de l'engagement et publiée dans un rapport public"} |
 | lead_dept | jus |
-| s4d | False |
 
-### Code `C04.5.1` – Develop an RCMP Open Government strategy with multi-year action plan (Released publicly) / Élaborer une stratégie de gouvernement ouvert pour la GRC et un plan d'action pluriannuel connexe (rendu public) {#C04.5.1}
-
-| Key | Value |
-|-----|-------|
-| due_date | 2022-09 |
-| deadline | {"en": "By September 2022", "fr": "D'ici septembre 2022"} |
-| lead_dept | rcmp-grc |
-| s4d | False |
-
-### Code `C04.5.2` – Establish an Open Government Office with resources dedicated to the advancement of openness and transparency across the RCMP / Établir un bureau pour un gouvernement ouvert comprenant des ressources consacrées à la promotion de l'ouverture et de la transparence à la GRC {#C04.5.2}
+### Code `C04.5.1` – The number of administrative bodies (federal, provincial and territorial) that apply the Access to Justice Index to their operations for an initial assessment. / Nombre d'entités administratives (fédérales, provinciales et territoriales) qui appliquent l'Indice de l'accès à la justice à leurs activités pour une première évaluation. {#C04.5.1}
 
 | Key | Value |
 |-----|-------|
-| due_date | 2022-08 |
-| deadline | {"en": "Ongoing", "fr": "En cours"} |
-| lead_dept | rcmp-grc |
-| s4d | False |
+| deadline | {"en": "Biannually until 2029", "fr": "Deux fois par année jusqu'en 2029"} |
+| lead_dept | jus |
 
-### Code `C04.5.3` – Establish an RCMP Open Government Working Group comprised of key stakeholders across the RCMP to identify and release data and information as well as advance a culture of openness, transparency and accountability based on open government principles and practices. In addition, the RCMP will be an active participant in interdepartmental working groups/efforts around Justice and Justice related topics of transparency and Open Government / Créer un Groupe de travail sur le gouvernement ouvert pour la GRC regroupant des intervenants clés provenant de l'ensemble de la GRC, à qui il appartiendra de trouver des données et de l'information, et de les publier, et de promouvoir une culture d'ouverture, de transparence et de responsabilisation fondée sur les principes et les pratiques d'un gouvernement ouvert. De plus, la GRC participera activement aux initiatives et aux groupes de travail interministériels sur la justice et les questions connexes à la justice portant sur la transparence et le gouvernement ouvert {#C04.5.3}
+### Code `C04.5.2` – The number of administrative bodies that use the index for a further self-assessment to evaluate progress and identify additional improvements. / Nombre d'entités administratives qui utilisent l'Indice pour procéder à une autoévaluation plus poussée visant à évaluer les progrès et à cerner toute amélioration supplémentaire requise. {#C04.5.2}
 
 | Key | Value |
 |-----|-------|
-| due_date | 2022-08 |
-| deadline | {"en": "Ongoing", "fr": "En cours"} |
-| lead_dept | rcmp-grc |
-| s4d | False |
+| deadline | {"en": "Biannually until 2029", "fr": "Deux fois par année jusqu'en 2029"} |
+| lead_dept | jus |
 
-### Code `C04.5.4` – Establish an RCMP Multi-Stakeholder Forum (ex. non-governmental organizations, other government departments, private sector, academia, community representatives including Indigenous Peoples, LBGTQ, youth, etc..) to help engage in discussions around priorities and areas of focus for openness and transparency in the RCMP / Créer un Forum multi intervenants à la GRC (p. ex., organisations non gouvernementales, autres ministères, secteur privé, milieu universitaire, représentants de la collectivité, notamment les peuples autochtones, les communautés LGBTQ et les jeunes) pour faciliter l'entretien de discussions sur les priorités et les domaines d'intérêt pour favoriser l'ouverture et la transparence à la GRC {#C04.5.4}
+### Code `C04.5.3` – Feedback from administrative bodies on the effectiveness of the index as a tool to support more accessible and user-friendly services. / Rétroaction des entités administratives sur l'efficacité de l'Indice comme outil favorisant des services plus accessibles et conviviaux. {#C04.5.3}
 
 | Key | Value |
 |-----|-------|
-| due_date | 2022-08 |
-| deadline | {"en": "Ongoing", "fr": "En cours"} |
-| lead_dept | rcmp-grc |
-| s4d | False |
+| deadline | {"en": "Feedback will be compiled at the end of two years of promoting the Index, November 2027.", "fr": "La rétroaction sera compilée à la fin des deux années de promotion de l'Indice, soit en novembre 2027"} |
+| lead_dept | jus |
+
+### Code `C04.5.4` – Number of awareness raising activities (for example, webinars, talks at conferences). / Nombre d'activités de sensibilisation (par exemple, webinaires, présentations lors de conférences). {#C04.5.4}
+
+| Key | Value |
+|-----|-------|
+| deadline | {"en": "Biannually until 2029", "fr": "Deux fois par année jusqu'en 2029"} |
+| lead_dept | jus |
 
 ### Code `C05.1.1` – Develop a roadmap identifying and prioritizing federal data standards / Élaborer une feuille de route indiquant, en ordre de priorité, les normes de données fédérales {#C05.1.1}
 
@@ -1087,3 +1169,4 @@ Generated 2026-05-27T18:04:54 UTC
 ## Referenced By
 
 - [reference/nap5.md](../reference/nap5.md)
+- [reference/nap6.md](../reference/nap6.md)

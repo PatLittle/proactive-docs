@@ -1,6 +1,6 @@
 # Choices for minister
 
-Generated 2026-05-27T18:04:54 UTC
+Generated 2026-08-31T05:44:58 UTC
 
 | Code | Label (EN) | Label (FR) |
 |------|------------|------------|
@@ -45,6 +45,7 @@ Generated 2026-05-27T18:04:54 UTC
 | [`MFOCCG`](#MFOCCG) | Minister of Fisheries, Oceans and the Canadian Coast Guard | Ministre des Pêches, des Océans et de la Garde côtière canadienne |
 | [`MGTPSP`](#MGTPSP) | Minister of Government Transformation, Public Services and Procurement | Ministre de la transformation du gouvernement, des services publics et de l’approvisionnement |
 | [`MGTPWP`](#MGTPWP) | Minister of Government Transformation, Public Works and Procurement | Ministre de la transformation du gouvernement, des travaux publics et de l’approvisionnement |
+| [`MGTPWPQL`](#MGTPWPQL) | Minister of Government Transformation, Public Works and Procurement and Quebec Lieutenant | Ministre de la transformation du gouvernement, des travaux publics et de l’approvisionnement et lieutenant du québec |
 | [`MH`](#MH) | Minister of Health | Ministre de la Santé |
 | [`MHDI`](#MHDI) | Minister of Housing and Diversity and Inclusion | Ministre du logement et de la diversité et de l’inclusion |
 | [`MHI`](#MHI) | Minister of Housing and Infrastructure | Ministre du logement et de l’infrastructure |
@@ -354,7 +355,7 @@ Generated 2026-05-27T18:04:54 UTC
 
 | Row | Minister (EN) | Minister (FR) | Start | End |
 |-----|---------------|---------------|-------|-----|
-| 1 | Thompson, Joanne (Hon.) | Thompson, Joanne (L'hon.) | 2025-05-13T10:45:00 |  |
+| 1 | Thompson, Joanne (Hon.) | Thompson, Joanne (L'hon.) | 2025-05-13T10:45:00 | 2026-07-24T00:00:00 |
 
 ### Code `MFA` – Minister of Foreign Affairs / Ministre des Affaires étrangères {#MFA}
 
@@ -404,7 +405,13 @@ Generated 2026-05-27T18:04:54 UTC
 
 | Row | Minister (EN) | Minister (FR) | Start | End |
 |-----|---------------|---------------|-------|-----|
-| 1 | Lightbound, Joël (Hon.) | Lightbound, Joël (L’hon.) | 2025-05-13T10:45:00 |  |
+| 1 | Lightbound, Joël (Hon.) | Lightbound, Joël (L’hon.) | 2025-05-13T10:45:00 | 2026-07-24T00:00:00 |
+
+### Code `MGTPWPQL` – Minister of Government Transformation, Public Works and Procurement and Quebec Lieutenant / Ministre de la transformation du gouvernement, des travaux publics et de l’approvisionnement et lieutenant du québec {#MGTPWPQL}
+
+| Row | Minister (EN) | Minister (FR) | Start | End |
+|-----|---------------|---------------|-------|-----|
+| 1 | Lightbound, Joël (Hon.) | Lightbound, Joël (L’hon.) | 2025-12-01T15:06:00 |  |
 
 ### Code `MH` – Minister of Health / Ministre de la Santé {#MH}
 
@@ -807,7 +814,7 @@ Generated 2026-05-27T18:04:54 UTC
 
 | Row | Minister (EN) | Minister (FR) | Start | End |
 |-----|---------------|---------------|-------|-----|
-| 1 | Valdez, Rechie (Hon.) | Valdez, Rechie (L’hon.) | 2025-05-13T10:45:00 |  |
+| 1 | Valdez, Rechie (Hon.) | Valdez, Rechie (L’hon.) | 2025-05-13T10:45:00 | 2026-07-24T00:00:00 |
 
 ### Code `MWGEY` – Minister for Women and Gender Equality and Youth / Ministre des femmes et de l’égalité des genres et de la jeunesse {#MWGEY}
 
@@ -919,7 +926,7 @@ Generated 2026-05-27T18:04:54 UTC
 
 | Row | Minister (EN) | Minister (FR) | Start | End |
 |-----|---------------|---------------|-------|-----|
-| 1 | Valdez, Rechie (Hon.) | Valdez, Rechie (L’hon.) | 2025-05-13T10:45:00 |  |
+| 1 | Valdez, Rechie (Hon.) | Valdez, Rechie (L’hon.) | 2025-05-13T10:45:00 | 2026-07-24T00:00:00 |
 
 
 ## Referenced By

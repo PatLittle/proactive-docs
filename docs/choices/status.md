@@ -1,11 +1,11 @@
 # Choices for status
 
-Generated 2026-05-27T18:04:54 UTC
+Generated 2026-08-31T05:44:58 UTC
 
 | Code | Label (EN) | Label (FR) |
 |------|------------|------------|
 | `ACT` | Active | Actif |
-| `C` | Complete | Réalisé |
+| [`C`](#C) | Complete | Réalisé |
 | `CA` | Closed – Analyzing Input | Fermée – Analyse en cours |
 | `CN` | Closed – No Report Expected | Fermée – Aucun rapport en attente |
 | `CO` | Completed | Réalisé |
@@ -13,12 +13,12 @@ Generated 2026-05-27T18:04:54 UTC
 | `CR` | Closed – Report Available | Fermée – Rapport disponible |
 | `INA` | Inactive | Inactif |
 | `IP` | In progress | En cours |
-| `LP` | Limited progress | Progrès limité |
+| [`LP`](#LP) | Limited progress | Progrès limité |
 | `NF` | Not Going Forward | Ne va pas de l'avant |
 | `NS` | Not started | Non commencé |
 | `O` | Open – Accepting Input | Ouverte – Avis acceptés |
 | `P` | Planned | Prévue |
-| `SP` | Substantial progress | Progrès important |
+| [`SP`](#SP) | Substantial progress | Progrès important |
 | `completed` | Completed | Complété |
 | `historical_archive` | Historical Archive | Archive historique |
 | `obsolete` | Obsolete | Périmé |
@@ -28,6 +28,24 @@ Generated 2026-05-27T18:04:54 UTC
 | `required` | Required | Requis |
 | `under_development` | Under Development | En développement |
 
+### Code `C` – Complete / Réalisé {#C}
+
+| Key | Value |
+|-----|-------|
+| order | 3 |
+
+### Code `LP` – Limited progress / Progrès limité {#LP}
+
+| Key | Value |
+|-----|-------|
+| order | 1 |
+
+### Code `SP` – Substantial progress / Progrès important {#SP}
+
+| Key | Value |
+|-----|-------|
+| order | 2 |
+
 
 ## Referenced By
 
@@ -36,3 +54,4 @@ Generated 2026-05-27T18:04:54 UTC
 - [reference/consultations.md](../reference/consultations.md)
 - [reference/experiment.md](../reference/experiment.md)
 - [reference/nap5.md](../reference/nap5.md)
+- [reference/nap6.md](../reference/nap6.md)
