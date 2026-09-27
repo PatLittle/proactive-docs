@@ -2,9 +2,9 @@
 # 6th National Action Plan on Open Government Tracker / Outil de suivi pour le 6ᵉ Plan d'action national pour un gouvernement ouvert
 
 **Dataset Type:** `nap6`  
-**Last Generated:** 2026-09-20T03:32:41 (UTC)  
+**Last Generated:** 2026-09-27T03:49:14 (UTC)  
 **Source:** dictionaries/nap6.json  
-**Commit:** `45e8503`
+**Commit:** `192aa76`
 
 Access, upload and modify the National Action Plan on Open Government Tracker for your organization / Accès, téléversement et Modifier le outil de suivi pour le Plan d'action national pour un gouvernement ouvert pour votre organisation
 
@@ -362,9 +362,9 @@ FR: Décrivez les défis rencontrés en français
 
 ### Generation Metadata
 
-- Generated: 2026-09-20T03:32:41 (UTC)
+- Generated: 2026-09-27T03:49:14 (UTC)
 - Source: dictionaries/nap6.json
-- Commit: `45e8503`
+- Commit: `192aa76`
 - Tool Version: simple-1
 
 ### Validation
