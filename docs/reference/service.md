@@ -2,9 +2,9 @@
 # Service Inventory / Répertoire de services
 
 **Dataset Type:** `service`  
-**Last Generated:** 2026-09-27T03:49:11 (UTC)  
+**Last Generated:** 2026-10-04T04:26:54 (UTC)  
 **Source:** dictionaries/service.json  
-**Commit:** `192aa76`
+**Commit:** `22ad121`
 
 Access, upload and modify the Service Inventory of external and internal enterprise services for your organization / Accèder, téléverser et modifier le catalogue des service internes intégrés et externes pour votre organisation
 
@@ -122,7 +122,7 @@ This field cannot contain commas.
  / Ce champ ne doit pas être vide.
 Ce champ ne peut pas contenir de virgules.
   
-**Choice Set:** service_id (2595 values)  
+**Choice Set:** service_id (2673 values)  
 
 
 **Description:**  
@@ -138,7 +138,7 @@ FR: Le numéro unique attribué à un service dans le répertoire afin de facili
 | `10` | Procurement | Approvisionnement |
 | `1000` | Reconciliation | Réconciliation |
 | `1001` | Old Age Security (OAS) Benefits | Prestations de la Sécurité de la vieillesse |
-| `1002` | Research Data Centres (RDC) | Les centres de données de recherche (CDR) |
+| `1002` | Research Data Centres (RDC) | Centres de données de recherche (CDR) |
 | `1003` | Employment Insurance (EI) Benefits | Prestations d’assurance-emploi |
 | `1004` | Canada Nature Fund for Aquatic Species at Risk | Le Fonds de la nature du Canada pour les espèces aquatiques en péril |
 | `1005` | Canadian Benefit for Parents of Young Victims of Crime | Allocation canadienne aux parents de jeunes victimes de crimes |
@@ -162,7 +162,7 @@ FR: Le numéro unique attribué à un service dans le répertoire afin de facili
 | `1023` | Inuit Housing | Logement des Inuit |
 | `1024` | MPA Activity Plan Application Process - Musquash Estuary MPA | Processus de demande d&#39;activités pour la ZPM - Estuaire de la Musquash |
 | `1025` | MPA Activity Plan Application Process - St. Anns Bank MPA | Processus de demande d&#39;activités pour la ZPM - Banc de Sainte-Anne |
-| `1026` | Online Licensing Services | Services d&#39;émission de permis en ligne |
+| `1026` | National Online License System (NOLS) | Système national d&#39;émission de permis en ligne (SNEPL) |
 | `1027` | National Recreational Licensing System (NRLS) (Pacific Only) | Système national d&#39;émission de permis de pêche récréative (SNDPP) |
 | `1028` | Observer Designation Application and Renewal Processing | demandes de désignation d&#39;observateur et des demandes de renouvellement |
 | `1029` | Oceans Management Contribution Program in support of oceans conservation and management | Programme de contributions pour la gestion des océans pour appuyer l&#39;élaboration et la mise en œuvre d&#39;activités de conservation et de gestion des océans |
@@ -202,7 +202,7 @@ FR: Le numéro unique attribué à un service dans le répertoire afin de facili
 | `1066` | Ministerial Correspondence Unit | Unité de la correspondance ministérielle |
 | `1088` | Special Access Programs | Programmes d&#39;accès spéciale |
 | `1089` | Food Market Authorization and Standards | Autorisation et normes du marché alimentaire |
-| `1090` | Wage Earner Protection Program (WEPP) | Programme de protection des salariés (PPS) |
+| `1090` | Wage Earner Protection Program | Programme de protection des salariés |
 | `1091` | Analytical testing services | Services d’analyse |
 | `1092` | Science Horizons Youth Internship Program | Programme de stages Horizons Sciences pour les jeunes |
 | `1093` | General Enquiry and Referral Telephone Service (1-800 O Canada) | Demande de renseignements généraux et service d’aiguillage par téléphone (1-800 O Canada) |
@@ -214,7 +214,7 @@ FR: Le numéro unique attribué à un service dans le répertoire afin de facili
 | `1099` | GST/HST Returns | Production d&#39;une déclaration de la TPS/TVH |
 | `1100` | GST/HST Rulings | Décisions en matière de TPS/TVH |
 | `1101` | T2 Corporation Income Tax Returns | Déclaration de revenus des sociétés T2 |
-| `1102` | Excise Duty, Excise Tax, Air Travellers Security Charge, Fuel Charge and Luxury Tax returns | Déclarations de droit d&#39;accise, taxe d&#39;accise, droit pour la sécurité des passagers du transport aérien, de redevance sur les combustibles, et taxe de luxe |
+| `1102` | Excise Duty, Excise Tax, Air Travellers Security Charge, and Fuel Charge returns | Droits d&#39;accise, taxes d&#39;accise, droit pour la sécurité des passagers du transport aérien, et déclaration de la redevance sur les combustibles |
 | `1103` | IT Interoperability - GC Interop | Interopérabilité TI - GC Interop |
 | `1104` | Income Tax Rulings | Décisions en Impôt |
 | `1105` | Charity Information Return Filing | Déclaration de renseignements des organismes de bienfaisance |
@@ -256,7 +256,7 @@ FR: Le numéro unique attribué à un service dans le répertoire afin de facili
 | `1143` | Benefit Enquiries (Contact Centre) | Demandes de renseignements sur les prestations (Centre de contact) |
 | `1144` | Pay and Benefits | Rémunération et avantages sociaux |
 | `1145` | Maintain and update the Indian Register | Tenir le Registre des Indiens et le mettre à jour |
-| `1146` | Disability Tax Credit (DTC) | Crédit d&#39;impôt pour personnes handicapées (CIPH) |
+| `1146` | Disability Tax Credit | Crédit d&#39;impôt pour personnes handicapées |
 | `1147` | My Government of Canada Human Resources (MyGCHR) | Mes ressources humaines du gouvernement du Canada (MesRHGC) |
 | `1148` | Secure Certificate of Indian Status | Certificat sécurisé de statut d&#39;Indien |
 | `1149` | Canada.ca | Canada.ca |
@@ -311,9 +311,9 @@ FR: Le numéro unique attribué à un service dans le répertoire afin de facili
 | `1219` | Contaminated Sites On Reserve Program | Programme des sites contaminés dans les réserves |
 | `1220` | Approvals | Approbations |
 | `1221` | Bankruptcy and Insolvency Records Search | Recherche de dossiers de faillite et d&#39;insolvabilité |
-| `1222` | Licensed Insolvency Trustee (LIT) Licence Renewal | Renouvellement de licence de syndic autorisé en insolvabilité (SAI) |
+| `1222` | Licensed Insolvency Trustee (LIT) Licence Renewal | Renouvellement de Licence de syndics autorisés en insolvabilité (SAI) |
 | `1223` | Heritage Designations | Désignation patrimoniales |
-| `1225` | Federal Heritage Review Office | Bureau d&#39;examen du patrimoine fédéral |
+| `1225` | Federal Heritage Buildings Review Office | Bureau d&#39;examen des édifices fédéraux du patrimoine |
 | `1228` | Rulings / Interpretations | Décisions / interprétations |
 | `1229` | Amend, upon ministerial approval, Schedule I of The First Nation Oil And Gas And | Modifier, avec l’approbation ministérielle, l’annexe 1 de la Loi sur la gestion du pétrole et du gaz des fonds des Premières Nations pour y inclure les Premières Nations ayant tenu avec succès un vote visant à permettre l’exercice de la gouvernance a |
 | `1230` | With First Nation consent, issue leases, permits or licenses to industry stakeho | Avec le consentement des Premières Nations, délivrer des baux, des permis ou des licences aux intervenants de l’industrie pour faciliter la prospection pétrolière et gazière et la mise en valeur des ressources sur les terres des Premières Nations. As |
@@ -358,7 +358,7 @@ FR: Le numéro unique attribué à un service dans le répertoire afin de facili
 | `1269` | Financial Support for Long Term Care | Aide financière pour soins de longue durée |
 | `127` | Canadian Soil Information Services (CanSIS) | Système d’information sur les sols du Canada (SISCan) |
 | `1270` | Healthcare Costs and Supports | Coûts de soins de santé et soutien |
-| `1271` | Veterans Independence Program Benefits Administration | Administration des avantages du Programme d’autonomie des vétérans |
+| `1271` | Veterans Independence Grants &amp; Reimbursements | Programme pour l&#39;autonomie des anciens combattants – Subventions et remboursements |
 | `1272` | Educational Assistance for Children | Aide à l&#39;éducation pour les enfants |
 | `1273` | War Veterans Allowance | Allocation aux anciens combattants |
 | `1274` | Accessible Technology Development Program (ATP) | Programme de développement de la technologie accessible |
@@ -366,7 +366,7 @@ FR: Le numéro unique attribué à un service dans le répertoire afin de facili
 | `1276` | Connecting Families Initiative (CFi), formerly Affordable Access Initiative | L&#39;initiative Familles branchées, anciennement l&#39;Initiative d&#39;accès abordable |
 | `1277` | Care and Maintenance of Veterans&#39; Graves | Programme d&#39;entretien des stèles funéraires |
 | `1278` | Earnings Loss Benefit | Allocation pour perte de revenus |
-| `1279` | Public Recognition and Awareness Services | Services de reconnaissance et de sensibilisation du public |
+| `1279` | Public Recognition and Awareness | Reconnaissance et sensibilisation du public |
 | `1280` | Commemorative Partnerships | Programme de partenariat pour la commémoration |
 | `1281` | Funeral and Burial | Aide pour les funérailles et l&#39;inhumation |
 | `1282` | Computers for School Plus (CFS+) | Ordinateurs pour les écoles et Plus (OPE+) |
@@ -378,7 +378,7 @@ FR: Le numéro unique attribué à un service dans le répertoire afin de facili
 | `1289` | Digital Skills for Youth (DS4Y) | Programme de compétences numériques pour les jeunes (CNJ) |
 | `129` | Geospatial | Produits géospatiaux |
 | `1290` | Work-Sharing | Travail partagé |
-| `1291` | Canadian Consumer Protection Initiative | Initiative canadienne de protection des consommateurs |
+| `1291` | Contributions Program for Non-Profit Consumer and Voluntary Organizations | Programme de contributions pour les organisations sans but lucratif de consommateurs et de bénévoles |
 | `1292` | Provision of a Social Insurance Number | Émission d’un numéro d’assurance sociale |
 | `1293` | Job Bank - Find a Job | Guichet-Emplois– Trouver un emploi |
 | `1294` | Job Bank for Employers | Guichet-Emplois pour les employeurs |
@@ -389,7 +389,7 @@ FR: Le numéro unique attribué à un service dans le répertoire afin de facili
 | `1299` | Contact Us- General Information to Data Users and Technical Support to Survey Respondents | Contactez-nous - Information générale aux utilisateurs des données et support technique aux répondants |
 | `13` | Information and Education Services to Businesses | Services d&#39;information et de formation aux entreprises |
 | `130` | Drought Watch | Guetter la sécheresse |
-| `1300` | Funding Essential Community-Based Services: Elementary and Secondary Education Funding and High-Cost Special Education Program | Financement des services essentiels communautaires : financement de l&#39;éducation primaire et secondaire et programme d&#39;éducation spécialisée à coûts élevés |
+| `1300` | Funding Essential Community-Based Services: Elementary and Secondary Education | Financement des services essentiels communautaires : financement de l’éducation primaire et secondaire |
 | `1301` | Clean Growth Hub | Carrefour de la croissance propre |
 | `1302` | First Nations and Inuit Skills Link Program | Programme Connexion compétences à l’intention des Premières Nations et des Inuits |
 | `1303` | Certification, Coordination, and Technical Analysis for Broadcast Radio and TV | Certification, coordination et analyse technique pour la radiodiffusion et la télévision |
@@ -403,7 +403,7 @@ FR: Le numéro unique attribué à un service dans le répertoire afin de facili
 | `1310` | First Nations and Inuit Cultural Education Centres Program Funding | Financement du Programme des centres éducatifs et culturels des Premières Nations et des Inuits |
 | `1311` | Issuance of permits | Émission des permis |
 | `1312` | Indspire | Indspire |
-| `1313` | First Nations Post-Secondary Education Strategy, Inuit Post-Secondary Education Strategy, Métis Nation Post-Secondary Education Strategy | Stratégie d’éducation postsecondaire des Premières Nations, Stratégie d’éducation postsecondaire des Inuits, Stratégie d’éducation postsecondaire de la Nation métisse |
+| `1313` | First Nations, Métis Nation and Inuit Post-Secondary Education Strategies | Stratégies d’éducation postsecondaire des Premières Nations, de la Nation métisse et des Inuits |
 | `1314` | Métis Nation Post-Secondary Education Strategy | Stratégie d’éducation postsecondaire de la Nation métisse |
 | `1315` | Radio and Terminal Equipment Certification | Homologation de l&#39;équipement radio et du matériel terminal |
 | `1316` | Inuit Post-Secondary Strategy | Stratégie d’éducation postsecondaire des Inuits |
@@ -424,7 +424,7 @@ FR: Le numéro unique attribué à un service dans le répertoire afin de facili
 | `1330` | Consumer Price Index (CPI) | l&#39;Indice des prix à la consommation (IPC) |
 | `1331` | Canada Disability Savings Grant and Canada Disability Savings Bond | Subvention canadienne pour l’épargne-invalidité et Bon canadien pour l’épargne-invalidité |
 | `1332` | ISED Citizen Services Centre | Centre de services aux citoyens d&#39;ISDE |
-| `1333` | BizPaL | PerLe |
+| `1333` | BizPal | PerLe |
 | `1334` | Canadian Occupational Projection System | Système sur la projection des professions du Canada |
 | `1335` | Business Benefits Finder | Outil de recherche d&#39;aide aux entreprise |
 | `1336` | Access to Information and Privacy | Accès à l’information et protection des renseignements personnels |
@@ -443,7 +443,7 @@ FR: Le numéro unique attribué à un service dans le répertoire afin de facili
 | `1348` | Treasury Board of Canada Secretariat’s Claims Office | Bureau des réclamations du Secrétariat du Conseil du Trésor du Canada |
 | `1349` | Open Government Portal - Access to data and information | Portail gouvernement ouvert – accès à l’information ouverte et données ouvertes. |
 | `135` | Farm Debt Mediation Service | Service de médiation en matière d&#39;endettement agricole |
-| `1350` | Organization and Classification | Organisation et classification |
+| `1350` | Classification Program | Programme de classification |
 | `1351` | Release of Statistical Data on Census of Population | Diffusion de données statistiques sur le Recensement de la population |
 | `1352` | Labour Force Survey | Enquête sur la population active |
 | `1353` | Release of Statistical Data on Employment, Payroll and Hours | Diffusion de données statistiques sur l&#39;emploi, la rémunération et les heures de travail |
@@ -481,7 +481,7 @@ FR: Le numéro unique attribué à un service dans le répertoire afin de facili
 | `1391` | View our Reference Resources | Consultez nos ressources de références |
 | `1393` | Read our Analysis | Lisez nos analyses |
 | `1397` | Investigations; Conduct investigations on staffing irregularities and improper political activities. | Enquêtes: Mener des enquêtes sur les irrégularités en dotation et les activités politiques irrégulières |
-| `14` | Wide Area Network (WAN) | Réseau étendu (RE) |
+| `14` | GC WAN | Réseau étendu du RGC |
 | `140` | AgriRisk: Administrative Capacity Stream | Initiatives Agri-risques: Volet de renforcement des capacités administratives |
 | `1403` | Monitoring Services: Surveys and analytical databases | Activités de surveillance: Sondages et bases de données analytiques |
 | `1407` | Personal Information Requests Services | Services de demande d’accès à des renseignements personnels |
@@ -573,7 +573,7 @@ FR: Le numéro unique attribué à un service dans le répertoire afin de facili
 | `1497` | Visa facilitation for Official Travel | Facilitation de l&#39;octroi des visas pour les voyages officiels |
 | `1498` | Addition of a special stamp in a passport or other travel document | Ajout d&#39;une estampille spéciale sur le passeport ou un autre titre de voyage |
 | `1499` | Addition of an observation in a passport or other travel document | Ajout d’une observation sur un passeport ou un autre titre de voyage |
-| `15` | Mobile | Téléphone cellulaire |
+| `15` | Mobile Devices | Gestion des appareils mobiles d’entreprise |
 | `150` | Market Access Single Window | Guichet unique pour l&#39;accès aux marchés |
 | `1500` | Certifying true copies of part of a passport or another travel document | Certifier les copies conformes d&#39;une partie d&#39;un passeport ou d&#39;un autre titre de voyage |
 | `1501` | Verification of Status / Replacement of Immigration Document | Vérification du statut ou remplacement d&#39;un document d&#39;immigration |
@@ -603,13 +603,13 @@ FR: Le numéro unique attribué à un service dans le répertoire afin de facili
 | `1524` | Canadian Wildland Fire Information System | Système canadien d&#39;information sur les feux de végétation |
 | `1525` | Flight Operations | Operations Aériennes |
 | `1526` | Public Screenings | Projections publiques |
-| `1527` | Case Management Services | Services de gestion de cas |
+| `1527` | Case Management | Gestion de cas |
 | `1528` | Media Enquiries | Demandes des médias |
 | `1529` | Media Enquiries | Demandes des médias |
 | `153` | Access to Information and Privacy | L&#39;accès à l&#39;information et de la protection des renseignements personnels |
 | `1530` | Industry Advisory Service / Northern Projects Management Office (NPMO) | Soutien de l&#39;industrie / Le Bureau de gestion des projets nordiques (BGPN) |
 | `1531` | Social media responses to public enquiries | Réponses aux demandes de renseignements publiques dans les médias sociaux |
-| `1532` | Education and Training Benefits Administration | Administration des avantages d’éducation et de formation |
+| `1532` | Funds to Support Education and Training for Veterans | Fonds pour appuyer les études et la formation des vétérans |
 | `1533` | Access to Information and Privacy | Accès à l’information et protection des renseignements personnels |
 | `1534` | Social Media Responses to Public Enquiries | Réponses aux demandes de renseignements publiques dans les médias sociaux |
 | `1535` | Contribution Program for the Centre of Excellence for the Marine Transportation | Programme de contribution au Centre d’excellence pour le transport maritime des hydrocarbures et de gaz naturel liquéfié (GNL) |
@@ -713,12 +713,12 @@ FR: Le numéro unique attribué à un service dans le répertoire afin de facili
 | `1625` | Transport Canada Situation Centre | Centre d&#39;intervention de Transports Canada |
 | `1626` | Enforce the Coasting Trade Act - Penalties and Periods of Sanction | Application de la loi sur le cabotage - Sanctions et périodes de sanction |
 | `1627` | Respond to designation requests by Canadian airlines | Répondre aux demandes de désignation des lignes aériennes canadiennes |
-| `1628` | Caregiver Recognition Benefits Administration | Administration des avantages de reconnaissance des proches aidants |
+| `1628` | Financial Recognition for Veterans&#39; Caregivers | Reconnaissance financière pour les aidants de vétérans |
 | `1629` | Ministerial and Deputy Correspondance | Correspondance ministérielle et du sous-ministre |
 | `163` | Living Laboratories Initiative: Collaborative Program | Initiative des laboratoires vivants : Programme de collaboration |
 | `1631` | Grants and Contributions to support the Northern Transportation Adaptation Initi | Subventions et contributions pour soutenir l&#39;initiative d&#39;adaptation du transport dans le nord |
 | `1632` | Grants and Contributions to support the Transportation Assets Risk Assessment In | Subventions et contributions pour soutenir l&#39;initiative d&#39;évaluation des risques liés aux actifs de transport |
-| `1633` | Family Support Services | Services de soutien aux familles |
+| `1633` | Veteran Family Program | Programme pour les familles des vétérans |
 | `1634` | Grants and Contributions to Support Clean Transportation Initiatives | Subventions et contributions pour soutenir des initiatives de transport propre |
 | `1635` | Grant to the International Civil Aviation Organization (ICAO) for Cooperative De | Subvention au Programme de développement coopératif de la sécurité opérationnelle et de maintien de la navigabilité de l&#39;Organisation de l&#39;aviation civile internationale (OACI) |
 | `1636` | Payments to other governments or international agencies for the operation and ma | Versements aux autres gouvernements ou organismes internationaux pour l&#39;exploitation et l&#39;entretien des aéroports, des installations de navigation aérienne et des voies aériennes |
@@ -726,14 +726,14 @@ FR: Le numéro unique attribué à un service dans le répertoire afin de facili
 | `1638` | Aircraft airworthiness | Navigabilité des aéronefs |
 | `1639` | Provide Environmental Assessment Related Technical Advice | Fournir des conseils techniques connexes à l&#39;évaluation environnementale |
 | `164` | AgriMarketing Program: Small and Medium-sized Enterprisers | Programme Agri-marketing : Volet Petites et moyennes entreprises |
-| `1640` | License, Storage &amp; Sales of Explosives | Licence, vente et stockage d&#39;explosifs |
+| `1640` | Licences for the manufacture, storage and sale of explosives | Licences pour la fabrication, l&#39;entreposage et la vente des explosifs |
 | `1641` | Authorization of explosives | Autorisation des explosifs |
 | `1642` | Analysis and Certification of Explosives | Analyse et certification des explosifs |
-| `1643` | National Fireworks Certification Program | Programme national de certification des feux d&#39;artifice |
-| `1644` | Restricted Components - Explosives | Composants d’explosif limités |
-| `1645` | Importing, Exporting and Transporting-in-Transit Permits | Importation, exportation et transport d’explosifs |
+| `1643` | National Fireworks Certification Program | Programme national de certification des artificiers |
+| `1644` | Control of Explosives Precursor Chemicals (Restricted Components) | Contrôle des précurseurs chimique d’explosifs (composants d’explosif limités) |
+| `1645` | Importing, Exporting and Transporting-in-Transit Permits | Permis d&#39;Importation, exportation et transport en transit |
 | `1646` | Processing, by an employee of the Department of Transport, of a medical certific | Traitement par un employé du ministère des Transports d&#39;un certificat médical relativement à une licence de pilote ou à un permis de pilote, sauf un permis d&#39;élève-pilote |
-| `1647` | Security Screening | Contrôle de sécurité - Explosifs |
+| `1647` | Security Screening | Contrôle de sécurité |
 | `1648` | Licensing for pilots and personnel | Délivrance de licences pour les pilotes et le personnel |
 | `1649` | Registering and leasing aircraft | Immatriculation et location des aéronefs |
 | `165` | Dispute Resolution | Règlement des Différends |
@@ -757,7 +757,7 @@ FR: Le numéro unique attribué à un service dans le répertoire afin de facili
 | `1666` | Aircraft Services Logistics | Logistique entourant le services des aéronefs |
 | `1668` | Aircraft Engineering | Service de génie en aéronautique |
 | `1669` | Aircraft Maintenance | Entretien des aéronefs |
-| `167` | Determinations | Déterminations |
+| `167` | Determinations and Compliance | Déterminations et Conformité |
 | `1670` | NDTCB: General Standards Board certification for non-destructive testing | Organisme de certification nationale en essais non destructifs de Ressources naturelles Canada : certification par l&#39;Office des normes générales du Canada en essais non destructifs |
 | `1671` | Canadian Space Agency Class Grants and Contributions Program | Programme global des subventions et contributions de l&#39;Agence spatiale canadienne |
 | `1672` | NDTCB: Portable tube-based X-ray fluorescence analyzer operator certification | Organisme de certification nationale en essais non destructifs de Ressources naturelles Canada : certification des opérateurs d&#39;analyseur à fluorescence rayons X à tube à rayons X portatif |
@@ -768,7 +768,7 @@ FR: Le numéro unique attribué à un service dans le répertoire afin de facili
 | `1677` | The Canadian Astronomy Data Centre (CADC) | Le Centre canadien de données astronomiques (CCDA) |
 | `1678` | Grants and Contributions | Subventions et Contributions |
 | `1679` | Canadian Impact Assessment Registry | Registre canadien d’évaluation d’impact |
-| `168` | Information Provision | Information |
+| `168` | Information, Advice and Expertise | Information, Conseils et Expertise |
 | `1680` | Physical Security Abroad – Security, Maintenance and Service Line Delivery | Sécurité Physique à l&#39;étranger - Sécurité, Entretien et Service d&#39;Exécution des Projets de ligne |
 | `1681` | Engineering Services | Services d&#39;ingénierie |
 | `1682` | Capital Project Delivery Services | Services de Réalisation de Projets immobiliers |
@@ -794,7 +794,7 @@ FR: Le numéro unique attribué à un service dans le répertoire afin de facili
 | `1701` | Aircraft Operations and Maintenance Training | Formation sur les opérations et l&#39;entretien des aéronefs |
 | `1702` | Parliamentary Affairs | Relations avec le Parlement |
 | `1703` | Ministerial non-GIC appointments and GIC non-diplomatic appointments | Nominations ministérielles non effectuées par le gouverneur en conseil et nominations non diplomatiques effectuées par le gouverneur en conseil |
-| `1704` | Ministerial Correspondence | Services de correspondance ministérielle |
+| `1704` | Strategic Governance, Ministerial Correspondence | Gouvernance stratégique, Correspondance ministérielle |
 | `1705` | Corporate and common service management and delivery for DM and MIN offices | Services corporatif et services communs livré aux bureaux des ministres et des sous-ministres |
 | `1706` | Access to Information and Privacy (ATIP) | Accès à l&#39;information et la protection des renseignements personnels |
 | `1707` | Access to Information and Privacy | Accès à l&#39;information et protection des renseignements personnels |
@@ -828,7 +828,7 @@ FR: Le numéro unique attribué à un service dans le répertoire afin de facili
 | `1735` | Enterprise Information and Records Management (EIRM) | Gestion des archives et de l&#39;information de l&#39;entreprise (GAIE) |
 | `1736` | Public Enquiries | Renseignements au public |
 | `1737` | Aboriginal Aquatic Resource &amp; Ocean Management Contribution Agreements | Ententes de contribution du Programme autochtone de gestion des ressources aquatiques et océaniques |
-| `1738` | Aboriginal Fisheries Strategy Food, Social and Ceremonial (FSC) Contribution Agreements | Accords de contribution relatifs aux pêches autochtones à des fins alimentaires, sociales et rituell |
+| `1738` | Aboriginal Fisheries Strategy Food, Social and Ceremonial (FSC) Contribution Agr | Accords de contribution relatifs aux pêches autochtones à des fins alimentaires, sociales et rituelles (ASR) dans le cadre de la Stratégie relative aux pêches autochtones |
 | `1739` | Aboriginal Fund for Species at Risk Contribution Agreements | Ententes de contribution des Fonds autochtones pour les espèces en péril (FAEP) |
 | `1740` | Atlantic Integrated Fisheries Initiative Contribution Agreements | Ententes de contribution de l&#39;Initiative des pêches commerciales intégrées de l&#39;Atlantique (IPCIA) |
 | `1741` | Access to information | Accès à l&#39;information |
@@ -848,7 +848,7 @@ FR: Le numéro unique attribué à un service dans le répertoire afin de facili
 | `1756` | Tribal Council Funding | Financement des conseils tribaux |
 | `1757` | Employee Benefits | Avantages sociaux des employés |
 | `1758` | Professional and Institutional Development | Dévelopement professionnel et institutionnel |
-| `1759` | Emergency Management Assistance | Aide à la gestion des urgences |
+| `1759` | Emergency Management, Crisis &amp; Strategic Communications: First Nations Emergency Management Funding | Gestion des urgences, communications de crise et stratégiques : Financement de la gestion des urgences des Premières Nations |
 | `1760` | On-Reserve Education Facilities Funding | Fonds d&#39;installations d&#39;enseignement pour les collectivités dans les réserves |
 | `1761` | On-Reserve Education Facilities Policy and Technical Support | Politique et soutien technique en matière d&#39;installations d&#39;enseignement pour les collectivités dans les réserves |
 | `1763` | On-Reserve Education Facilities Capacity Building | Renforcement des capacités pour les installations d&#39;enseignement pour les collectivités dans les réserves |
@@ -866,13 +866,13 @@ FR: Le numéro unique attribué à un service dans le répertoire afin de facili
 | `1775` | Public Transit Infrastructure Fund (PTIF) | Fonds pour l&#39;infrastructure de transport en commun (FITC) |
 | `1776` | Clean Water and Wastewater Fund (CWWF) | Fonds pour l&#39;eau potable et le traitement des eaux usées (FEPTEU) |
 | `1777` | Investing in Canada Infrastructure Program (ICIP) | Programme d&#39;infrastructure investir dans le Canada (PIIC) |
-| `1778` | Supplementary Health Benefits - Direct Service Delivery | Prestations de santé supplémentaires – Prestation directe de services |
+| `1778` | Supplementary Health Benefits - Direct Service Delivery | Prestations de santé supplémentaires – Prestation directe de services. |
 | `1779` | Disaster Mitigation and Adaption Fund (DMAF) | Fonds d&#39;atténuation et d&#39;adaptation en matière de catastrophes (FAAC) |
 | `178` | Funding Decisions for Grants to Researchers | Décisions sur le financement des subventions de recherche |
 | `1780` | Municipal Asset Management Program (MAMP) | Programme de gestion des actifs municipaux (PGAM) |
 | `1781` | Municipalities for Climate Innovation Program (MCIP) | Programme Municipalités pour l&#39;innovation climatique (PMIC) |
 | `1782` | Smart Cities Challenge (SCC) | Défi des villes intelligentes |
-| `1783` | Supplementary Health Benefits- Funding | Prestations de santé supplémentaires – Prestation directe de services |
+| `1783` | Supplementary Health Benefits- Funding | Prestations de santé supplémentaires – Prestation directe de services. |
 | `1784` | Ministerial and Deputy Correspondance | Correspondance ministérielle et du sous-ministre |
 | `1785` | Access to Information and Privacy (ATIP) | Accès à l&#39;information et protection des renseignements personnels (AIPRP) |
 | `1786` | Primary Health Care: Clinical and Client Care - Direct Service Delivery | Soins de santé primaires : soins cliniques et soins aux clients – prestation de services directe |
@@ -914,9 +914,9 @@ FR: Le numéro unique attribué à un service dans le répertoire afin de facili
 | `1828` | New Building Canada Fund (NBCF) - National Infrastructure Component (NIC) | Nouveau Fonds Chantiers Canada (NFCC) - Volet Infrastructures Nationales (VIN) |
 | `1829` | Green Infrastructure Fund (GIF) | Fonds d&#39;infrastructure verte (FIV) |
 | `1830` | Toronto Waterfront Revitalization Initiative (TWRI) | Infrastructure Canada et l&#39;Initiative de revitalisation du secteur riverain de Toronto |
-| `1831` | Access to Information and Privacy | Accès à l&#39;information et protection des renseingments personnels |
+| `1831` | Access to Information and Privacy | Accès à l&#39;information et protection des renseignements personnels |
 | `1832` | SECURITAS | SECURITAS |
-| `1833` | Independent Safety Investigations | Enquêtes indépendantes de sécurité |
+| `1833` | Independent safety investigations | Enquêtes indépendantes de sécurité |
 | `1834` | Smart Cities Community Support Program | Programme de soutien aux collectivités sur les villes intelligentes |
 | `1835` | Access to Information and Privacy | Accès à l&#39;information et protection des renseignements personnels |
 | `1836` | Evaluation Services and Learning Division | Direction des services à l’évaluation et de l’apprentissage |
@@ -939,8 +939,8 @@ FR: Le numéro unique attribué à un service dans le répertoire afin de facili
 | `1861` | Canadian Technology Accelerators | Accélérateurs technologiques canadiens |
 | `1862` | Public Enquiries | Demande d&#39;informations parvenant du public |
 | `1863` | Access to Information and Privacy | Accès à l&#39;information et protection des renseignements personnels |
-| `1866` | Law Enforcement Records Checks (LERC) | Vérification des dossiers policiers (VPD) |
-| `1867` | Copy Services | Service de copies |
+| `1866` | Law Enforcement Records Checks | Vérification des dossiers policiers |
+| `1867` | Copy Services | Services de copies |
 | `1868` | Documentary Heritage Communities Program - DHCP | Programme pour les collectivités du patrimoine documentaire - PCPD |
 | `1869` | Reference | Référence |
 | `1870` | Ship Sanitation Inspections | Inspections sanitaires de navire |
@@ -988,7 +988,7 @@ FR: Le numéro unique attribué à un service dans le répertoire afin de facili
 | `1916` | Canadian Conservation Institute and Canadian Heritage Information Network | Institut canadien de conservation et Réseau canadien d&#39;information sur le patrimoine |
 | `1917` | Privacy Act Requests | Demandes en vertu de la Loi sur la protection des renseignements personnels. |
 | `1919` | Support and assistance to athletes | Soutien et aide aux athlètes |
-| `192` | Contract &amp; Indigenous Policing (C&amp;IP) | Services de police contractuels et autochtones (SPCA) |
+| `192` | RCMP- Contract &amp; Indigenous Policing (C &amp; IP) | (GRC) Services de police contractuels et autochtones (SPCA) |
 | `1920` | Support for Hosting - Canada Games | Soutien pour l&#39;acceuil - Jeux du Canada |
 | `1921` | Sport Support - National Sport Organization | Soutien au sport - Organismes nationaux de sport |
 | `1922` | Indigenous Languages and Cultures - Indigenous Languages | Langues et cultures autochtones - Langues autochtones |
@@ -1003,38 +1003,38 @@ FR: Le numéro unique attribué à un service dans le répertoire afin de facili
 | `1934` | Pharmacy Referrals to Provincial Regulatory Authorities for situations of non-co | Renvois aux autorités réglementaires provinciales pour les pharmacies en situations de non-conformité |
 | `1935` | Referrals to Law Enforcement | Renvois aux organismes d&#39;application de la loi |
 | `1936` | Approval of retained controlled substances by law enforcement | Approbation des substances désignées retenues par les organismes d&#39;application de la loi |
-| `1937` | Responding to Enquiries from law enforcement | Répondre aux demandes des autorités chargées de l&#39;application de la loi |
-| `1938` | Responding to enquiries from external stakeholders | Répondre aux demandes de renseignements provenant de parties prenantes externes |
+| `1937` | Responding to enquiries from law enforcement | Répondre aux demandes des organismes d&#39;application de la loi (Demandes d&#39;état et ordres de production) |
+| `1938` | Responding to enquiries from external stakeholders | Répondre aux demandes des parties prenantes externes |
 | `1939` | Responding to enquiries from internal stakeholders | Répondre aux demandes des parties prenantes internes |
 | `1940` | Pre-Licence Inspection Packages | Trousses d&#39;inspection pré-licence |
-| `1941` | Notices of Restriction for Pharmacists and Practitioners | Avis de restriction à l&#39;intention des pharmaciens et des praticiens |
+| `1941` | Notices of Restriction for Pharmacists and Practitioners | Avis de restriction pour les pharmaciens et practiciens |
 | `1942` | Substance Use and Addictions Program | Programme sur l&#39;usage et les dépendances aux substances |
-| `1943` | Import-Export Permits | Permis d&#39;importation et d&#39;exportation |
+| `1943` | Import-Export Permits | Permis d’importation-exportation |
 | `1944` | Issuance of Industrial Hemp Import and Export Permits under the Cannabis Act and | Délivrance des permis d’importation et d’exportation de chanvre industriel en vertu de la Loi sur le cannabis et de ses règlements |
 | `1945` | Issuance of licence for Analytical Testing under the Cannabis Act and its Regula | Délivrance de licences d&#39;essais analytiques en vertu de la Loi sur le cannabis et de ses règlements |
 | `1946` | Issuance of Cannabis Drug Licences under the Cannabis Act and its Regulations | Délivrance de licences de drogues contenant du cannabis en vertu de la Loi sur le cannabis et de ses règlements |
-| `1947` | Industrial Hemp Licences | Licences pour le chanvre industriel |
+| `1947` | Industrial Hemp Licences | Licences liée au chanvre industriel |
 | `1948` | Issuance of licence for Research under the Cannabis Act and its Regulations | Délivrance de licences de recherche en vertu de la Loi sur le cannabis et de ses règlements |
-| `1949` | Administer Exemptions under the Cannabis Act | Administrer les exemptions en vertu de la Loi sur le cannabis |
+| `1949` | Exemptions under the Cannabis Act | Exemptions en vertu de la Loi sur le cannabis |
 | `195` | Money Services Businesses (MSBs) Registry - Registration | Registre des entreprises de services monétaires (ESM) – Inscription |
-| `1950` | Tobacco Control Program - Enquiries and Complaints | Programme de lutte contre le tabagisme - Demandes de renseignements et plaintes |
+| `1950` | Tobacco Control Program - Enquiries and Complaints | Programme de lutte au tabagisme - Demandes et plaintes |
 | `1951` | Compliance Promotion Activities | Activité de promotion de la conformité |
 | `1952` | Review, assess and action compliance issues related to cannabis and hemp | Examiner, évaluer et traiter les questions de conformité liées au cannabis et au chanvre |
-| `1953` | Cannabis Product Recalls management (type II, type III) | Gestion des rappels de produits à base de cannabis (type II, type III) |
+| `1953` | Cannabis Product Recalls | Rappels de produits du cannabis |
 | `1954` | Initial Licensing | Octroi de licences initiales |
 | `1955` | Renewals and Amendments | Renouvellements et modifications |
 | `1956` | Security | Sécurité |
-| `1957` | Personal Registration Centre | Centre d&#39;enregistrement personnel |
-| `1958` | Client Services – Call Centre, Cannabis, Correspondence | Services à la clientèle – Centre d&#39;appels, cannabis, correspondance |
+| `1957` | Personal Registration Certificates | Certificats d’inscription personnelle |
+| `1958` | Client Services - Call Centre, Cannabis, Correspondence | Services à la clientèle — Centre d’appels, cannabis, correspondance |
 | `1959` | Email: cannabis@canada.ca | Le courriel: cannabis@canada.ca |
-| `1960` | Cannabis Police Services | Services policiers liés au cannabis |
-| `1961` | Issuance of Licences for controlled substances and precursor chemicals under the Controlled Drugs and Substances Act and its Regulations (New, Renewal, Amendment) | Délivrance de licences pour les substances contrôlées et les précurseurs chimiques en vertu de la Loi réglementant certaines drogues et autres substances et de son règlement d&#39;application (nouvelles licences, renouvellements, modifications) |
+| `1960` | Cannabis Police Services | Services à la clientèle - Services policiers relatifs au cannabis |
+| `1961` | Issuance of Licences for controlled substances and precursor chemicals under the Controlled Drugs and Substances Act and its Regulations (New, Renewal, Amendment) (CSCB) | Délivrance de licences pour des substances réglementées et des précurseurs chimiques en vertu de la loi sur les drogues et les substances réglementées et de ses règlements (nouvelles licences, renouvellements, modifications) (DGSCC) |
 | `1962` | Issuance of Import and Export Permits for Controlled Substances and Chemical Precursors under the Controlled Drugs and Substances Act and its Regulations (CSCB) | Délivrance de licences d&#39;importation et d&#39;exportation de substances réglementées et de précurseurs chimiques en vertu de la loi réglementant certaines drogues et autres substances et de son règlement d&#39;application (DGSCC) |
-| `1963` | Issuance of Registrations for Class B Precursors under the Controlled Drugs and Substances Act and its Regulations | Délivrance d&#39;enregistrements pour les précurseurs de catégorie B en vertu de la Loi réglementant certaines drogues et autres substances et de son règlement d&#39;application |
-| `1964` | Issuance of Authorization Certificates for Preparations or Mixtures of Class A or Class B Precursors under the Controlled Drugs and Substances Act and its Regulations | Délivrance de certificats d&#39;autorisation pour les préparations ou les mélanges de précurseurs de classe A ou de classe B en vertu de la Loi réglementant certaines drogues et autres substances et de son règlement d&#39;application |
-| `1965` | Exemptions to conduct research with controlled substances including clinical trials | Exemptions pour mener des recherches avec des substances contrôlées, y compris des essais cliniques |
-| `1966` | Exemptions to operate a supervised consumption site | Exemptions pour exploiter un site de consommation supervisée |
-| `1967` | Issuance of Test Kit Registrations under the Controlled Drugs and Substances Act and its Regulations | Délivrance d&#39;enregistrements de trousses d&#39;essai en vertu de la Loi réglementant certaines drogues et autres substances et de son règlement d&#39;application |
+| `1963` | Issuance of Registrations for Class B Precursors | Inscriptions de précurseurs chimiques de catégorie B |
+| `1964` | Issuance of Authorization Certificates for Preparations or Mixtures of Class A or Class B Precursors under the Controlled Drugs and Substances Act and its Regulations (CSCB) | Délivrance de certificats d&#39;autorisation pour les préparations ou mélanges de précurseurs de classe A ou B en vertu de la loi réglementant certaines drogues et autres substances et de son règlement d&#39;application (DGSCC) |
+| `1965` | Exemptions to conduct research with controlled substances including clinical trials | Exemptions relatives a la recherche incluant les essais cliniques |
+| `1966` | Exemptions to operate a supervised consumption site | Exemptions relatives aux sites de consommation supervisée |
+| `1967` | Issuance of Test Kit Registrations under the Controlled Drugs and Substances Act and its Regulations | Octroi d&#39;enregistrements de nécessaires d&#39;essai pour les substances désignées |
 | `1968` | Investor Services - Government Liaison | To be provided |
 | `1969` | Investor Services - Proposals and Information Gathering | To be provided |
 | `1970` | Investors Services - Advice and Support | To be provided |
@@ -1052,15 +1052,15 @@ FR: Le numéro unique attribué à un service dans le répertoire afin de facili
 | `1984` | Agricultural Clean Technology Program: Adoption Stream | Programme des technologies propres en agriculture |
 | `1985` | Local Food Infrastructure Fund | Fonds des infrastructures alimentaires locales |
 | `1986` | Dairy Direct Payment Program | Programme de paiements directs pour les producteurs laitiers |
-| `1987` | SIS Advisory | Service consultatif du SIS |
+| `1987` | Solutions Integration Service | Service d&#39;intégration des solutions |
 | `1988` | Responses to Access to Information and Privacy | Réponses aux demandes en vertu de la Loi sur l’accès à l’information ou de la Loi sur la protection des renseignements personnels |
-| `1989` | Conferencing | Conférences |
+| `1989` | Conferencing Services | Services de conférence |
 | `1990` | Statistical, Research and Technical Publications | Publications statistiques, scientifiques et techniques |
 | `1991` | Harvest Sample Crop Quality Results (Unofficial Results) | Programme d&#39;échantillons de récolte (résultats non officiels) |
 | `1992` | Climate Change Funding Programs - Energy Savings Rebate program | Programme de remises écoénergétiques |
 | `1993` | Climate Change Funding Programs - Climate Action Incentive Fund - SME | Fonds d’incitation à l’action pour le climat - PME |
 | `1994` | Climate Change Funding Programs - Climate Action Incentive Fund - MUSH | Fonds d’incitation à l’action pour le climat - MUEH |
-| `1995` | Weather and Environmental Prediction Services | Services de prévision météorologique et environnementale |
+| `1995` | Public Weather | Météo publique |
 | `1996` | Income Replacement Benefit | Prestation de remplacement du revenu |
 | `1997` | Authorized Service Providers | Fournisseur de services autorisé |
 | `1998` | Provision of Calibration Sets | Ensembles d&#39;étalonnage |
@@ -1074,9 +1074,9 @@ FR: Le numéro unique attribué à un service dans le répertoire afin de facili
 | `2004` | Payment Protection for Grain Producers | Protection du paiement à l&#39;intention des producteurs de grain |
 | `2005` | Additional Pain and Suffering Compensation | Indemnité supplémentaire pour douleur et souffrance |
 | `2006` | Responses to Public and Media Inquiries | Réponses aux demandes de renseignements du public et des médias |
-| `2007` | Ice Forecasts and Information Services | Prévisions et services d&#39;information sur la glace |
+| `2007` | Ice Warnings, Forecasts and Information | Avertissements, prévisions et informations sur les glaces |
 | `2008` | State funeral | Funérailles d&#39;État |
-| `2009` | Atmospheric data and information service | Service de données et d&#39;informations atmosphériques |
+| `2009` | Atmospheric Data and Information Service | Service de données et d&#39;informations atmosphériques |
 | `2010` | New Fiscal Relationship (10 Year) Grant | Subvention nouvelle relation financière (de 10 ans) |
 | `2013` | Canada Energy Regulator Management System Audits of Regulated Companies | Vérifications des systèmes de gestion des sociétés réglementées par la Régie de l&#39;énergie du Canada. |
 | `2014` | Canada Energy Regulator Financial Audit of Regulated Companies. | Vérification des états financiers des sociétés réglementées par la Régie de l&#39;énergie du Canada. |
@@ -1092,9 +1092,9 @@ FR: Le numéro unique attribué à un service dans le répertoire afin de facili
 | `2024` | Treasury Board Submission Centre | Centre des présentations du Conseil du Trésor |
 | `2025` | Provision of Grants and Contributions | Octroi de subventions et de contributions |
 | `2028` | New Substances Notification | Déclaration de substances nouvelles |
-| `2029` | Accessibility and Inclusivity in the Built Environment | Accessibilité et inclusivité dans l&#39;environnement bâti |
+| `2029` | Accessibility and Inclusivity in the Built Environment | Accessiblité et inclusivité dans l&#39;environnement bâti |
 | `2030` | Green and Sustainable Government for Real Property | Gouvernement vert et durable pour les biens immobiliers |
-| `2031` | Canadian Shellfish Sanitation Program (Emergency (bi-valve) shellfish area closure) | Programme canadien de contrôle de la salubrité des mollusques (Recommandations pour la fermeture d&#39;urgence de la zone des mollusques) |
+| `2031` | Canadian Shellfish Sanitation Program (Emergency (bi-valve) shellfish area closu | Programme canadien de contrôle de la salubrité des mollusques (Recommandations pour la fermeture d&#39;urgence de la zone des mollusques) |
 | `2032` | Athlete Assistance | Aide aux athlètes |
 | `2033` | Appraisal and Valuation Services | Services d&#39;évaluation |
 | `2034` | GC Talent Cloud | Nuage de talents du GC |
@@ -1150,14 +1150,14 @@ FR: Le numéro unique attribué à un service dans le répertoire afin de facili
 | `2086` | National Collision Database (NCDB) | Base nationale de données sur les collisions (BNDC) |
 | `2087` | Indigenous Habitat Participation Program | Programme pour la participation autochtone sur les habitats |
 | `2091` | BC Salmon Restoration and Innovation Fund (BCSRIF) | Fonds de restauration et d&#39;innovation pour le saumon de la Colombie-Britannique (FRISB) |
-| `2092` | Marine Mammal Response Program Capacity Building Fund | Fonds de renforcement des capacités du Programme d’intervention auprès des mammifères marins |
+| `2092` | Marine Mammal Response Program | Programme d&#39;intervention auprès des mammifères marins |
 | `2093` | TMX Accommodation Measure Salish Sea Initiative (SSI) | Initiative de la mer Salish (IMS) |
 | `2094` | Enhanced Nature Legacy - Canada Target 1 Challenge Top-up | Complément du Défi de l’objectif 1 du Patrimoine naturel bonifié du Canada |
 | `2095` | Canada Nature Fund - Community-nominated priority places for species at risk | Les lieux prioritaires désignés par les collectivités pour les espèces en péril du Fonds de la nature du Canada |
 | `2096` | International Assistance Group | Service d&#39;entraide internationale |
 | `2098` | Legal Services - Advisory | Services juridiques - Conseils |
 | `2099` | Legal Services - Litigation | Services juridiques - Contentieux |
-| `21` | Grants and Contributions Programs | Programmes de subventions et de contributions |
+| `21` | Grants and Contribution Programs | Programmes de subventions et de contributions |
 | `2100` | Legal Services - Legislative and Regulatory | Services juridiques – Législation et réglementation |
 | `2101` | Investment Support | Soutien en matière d&#39;investissement |
 | `2102` | Introductions | Présentations |
@@ -1190,7 +1190,7 @@ FR: Le numéro unique attribué à un service dans le répertoire afin de facili
 | `2132` | Settlement Program Transfer Payments | Paiements de transfert du Programme d&#39;établissement |
 | `2133` | Privacy | Protection des renseignements personnels |
 | `2134` | Canada Energy Regulator (CER)&#39;s Emergency Response Procedures | Procedures d&#39;intervention d&#39;urgence de la Régie de l&#39;énergie du Canada |
-| `2136` | Canadian Criminal Real Time Identification Services (CCRTIS) - Biometric Business Solutions (BBS) Certification Services | Les Services canadiens d&#39;identification criminelle en temps réel (SCICTR) - Services de certification- Solutions biométriques d&#39;entreprise (SBE) |
+| `2136` | Canadian Criminal Real Time Identification Services (CCRTIS) - Biometric Business Solutions (BBS) Certification Services. | Les Services canadiens d&#39;identification criminelle en temps réel (SCICTR) - Services de certification- Solutions biométriques d&#39;entreprise (SBE) |
 | `2137` | Sensitive and Specialized Investigative Services (SSIS) | Services d&#39;enquêtes spécialisées et de nature délicate (SESND) |
 | `2138` | Criminal Intelligence Service Canada (CISC) | Service canadian de renseignements criminels (SCRC) |
 | `2139` | Departmental Correspondence Unit | Unité de la correspondance ministérielle |
@@ -1201,8 +1201,8 @@ FR: Le numéro unique attribué à un service dans le répertoire afin de facili
 | `2144` | Alerts and advisories | Alertes et avis |
 | `2145` | Government Resiliency and Continuity Management (Centre for Resiliency and Continuity Management) | Gestion de la continuité et de la résilience du gouvernement (Centre de gestion de la continuité et de la résilience) |
 | `2146` | Accelerated Growth Service | Service de croissance accélérée |
-| `2148` | Media relations | Relations avec les média |
-| `2149` | Stakeholder Relations | Relations avec les intervenants |
+| `2148` | Media relations | Relations avec les médias |
+| `2149` | Stakeholder Relations | Stakeholder Relations |
 | `2150` | Make a Complaint | Dépôt d&#39;une plainte |
 | `2151` | Request a Review | Demande d&#39;examen |
 | `2152` | Public Education and Outreach | Sensibilisation du public et liaison avec les collectivités |
@@ -1250,7 +1250,7 @@ FR: Le numéro unique attribué à un service dans le répertoire afin de facili
 | `2250` | Indigenous Intellectual Property Program Grant (Gs&amp;Cs) | Subvention du programme sur la propriété intellectuelle autochtone |
 | `2251` | Intellectual Property Clinics Program (Gs&amp;Cs) | Programme de cliniques sur la propriété intellectuelle |
 | `2253` | GC Integrated Planning submission | Soumission du Plan Intégrée GC |
-| `2254` | COVID Vaccines Inventory ManagementNote : Beginning in FY 2025‑26, the service transitioned to support HVAI logistics operations. | Gestion des inventaires vaccins COVIDNote : À compter de l’exercice financier 2025‑2026, le service est consacré à la logistique VHIA. |
+| `2254` | COVID Vaccines Inventory Management | Gestion des inventaires vaccins COVID |
 | `2255` | New Substances Program | Programme des substances nouvelles |
 | `2256` | New Substances Notifications (Food and Drugs Act use) | Déclaration de substances nouvelles (usage en vertu de la Loi sur les aliments et drogues) |
 | `2257` | Treasury Board Policy Suite Website | Site Web des politiques du Conseil du Trésor |
@@ -1273,7 +1273,7 @@ FR: Le numéro unique attribué à un service dans le répertoire afin de facili
 | `2277` | Emergency Support Function #10 | Fonction de soutien d&#39;urgence no. 10 |
 | `2278` | National Fine Recovery Program (NFRP) | Programme national de recouvrement des amendes (PNRA) |
 | `2280` | Class A Precursor Licences (New, Renewals, Amendments, Closures) | Octroi de licences de précurseurs chimiques de catégorie A (Nouvelles, renouvellements, modifications et fermetures) |
-| `2281` | Cannabis Status Confirmation Service | Service de confirmation du statut du cannabis |
+| `2281` | Cannabis Status Confirmation Service | Service de confirmation du statut en matiere du cannabis |
 | `2283` | Amend Industrial Hemp Licences | Modifier les licences de chanvre en vertu de la Loi sur le cannabis et de ses règlements |
 | `2284` | Fish Harvester Benefit and Grants program | Programme de Prestation et Subvention aux Pêcheurs |
 | `2285` | One-Time Payment to Persons with Disabilities | Paiement Unique aux Personnes en Situation de Handicap |
@@ -1282,7 +1282,7 @@ FR: Le numéro unique attribué à un service dans le répertoire afin de facili
 | `2288` | Public Legal Education and Information | Éducation et information juridiques publiques |
 | `2289` | Professional Training | Formation professionnelle |
 | `2290` | Garnishment Registry of the National Capital Region (GAPDA) | Greffe de la saisie-arrêt de la région de la capitale nationale (LSADP) |
-| `2291` | Central Registry of Divorce Proceedings | Bureau d&#39;enregistrement des actions en divorce |
+| `2291` | Central Registry of Divorce Proceedings (CRDP) | Bureau d&#39;enregistrement des actions en divorce (BEAD) |
 | `2292` | Health Care Policy and Strategies Program | Programme des politiques et des stratégies en matière de soins de santé |
 | `2293` | COVID-19 Public Enquiries | Demandes de renseignement sur la COVID-19 |
 | `2294` | ArriveCAN Public Enquiries | Demandes de renseignement sur ArriveCAN |
@@ -1310,7 +1310,7 @@ FR: Le numéro unique attribué à un service dans le répertoire afin de facili
 | `2372` | Program to Advance Indigenous Reconciliation: Program to Enhance Maritime Situat | Programme visant à favoriser la réconciliation avec les peuples autochtones : Programme de sensibilisation accrue aux activités maritimes |
 | `2373` | Program to Advance Indigenous Reconciliation: Marine Safety Equipment and Traini | Programme visant à favoriser la réconciliation avec les peuples autochtones : Programme de formation et d&#39;équipement de sécurité maritime |
 | `2374` | Inspecting a Railway | Inspection d&#39;un chemin de fer |
-| `2375` | 1-866 Toll-free Services (National Contact Cente Network) | Services sans frais 1-866 (Réseau national des centres d’appels) |
+| `2375` | National Contact Centre Network (NCCN) | Réseau national des centres de contact (RNCC) |
 | `2376` | Natural Infrastructure Fund (NIF) | Fonds pour les infrastructures naturelles (FIN) |
 | `2377` | Green and Inclusive Community Buildings (GICB) | Bâtiments communautaires verts et inclusifs (BCVI) |
 | `2378` | General Enquiry Services | Services de renseignements généraux (SRG) |
@@ -1322,7 +1322,7 @@ FR: Le numéro unique attribué à un service dans le répertoire afin de facili
 | `2442` | RCMP Operations Coordination Centre (ROCC) | Centre de coordination des opérations de la GRC (CCOG) |
 | `2443` | RCMP-Indigenous Relations Services (RIRS) | GRC services de relations avec les autochtones (GRC-SRA) |
 | `2444` | Youth Officer Training (YOT) (online and in-person) | Formation des policiers éducateurs (FPE) (en ligne et en personne) |
-| `2445` | RCMPTalks | DiscussionsGRC |
+| `2445` | RCMPTalks | Discussions GRC |
 | `2446` | Youth Leadership Workshop (YLW) | Atelier de perfectionnement en leadership (APL) |
 | `2447` | Indian Act Land Administration | Gestion des terres sous la Loi sur les Indiens |
 | `2448` | Vulnerable Persons Unit (VPU) - Family Violence Initiative Fund (FVIF) | Section des personnes vulnérables - Fonds de l&#39;Initiative de lutte contre la violence familiale de la GRC |
@@ -1332,8 +1332,8 @@ FR: Le numéro unique attribué à un service dans le répertoire afin de facili
 | `2451` | Coordination Agreement Discussions Tables | Tables de discussions sur l&#39;accord de coordination |
 | `2452` | Notices and requests related to An Act respecting First Nations, Inuit and Métis children, youth and families | Avis et demandes liés à la Loi concernant les enfants, les jeunes et les familles des Premières Nations, des Inuits et des Métis |
 | `2453` | Specialized Technical Investigative Services (STIS) | Les Services d’enquêtes spécialisées et techniques |
-| `2454` | Information sharing service between INTERPOL/Europol and Canadian Law Enforcement | Service d’échange d’information entre INTERPOL/Europol et les organismes canadiens d’application de la loi |
-| `2456` | Support for Operational Stress Injury Program (SOSI) | Programme Soutien - blessures de stress opérationnel (SBSO) |
+| `2454` | Information sharing service between INTERPOL/Europol and Canadian Law Enforcement | Service d’échange d’information entre INTERPOL/Europol |
+| `2456` | Support to employees and veterans experiencing symptoms of or who have been diagnosed with an operational stress injury | Soutien aux employés et vétérans présentant des symptômes ou ayant reçu un diagnostic de traumatisme lié au stress opérationnel |
 | `2457` | Canada Recovery Benefit (CRB) | Prestation canadienne de la relance économique (PCRE) |
 | `2458` | Canada Recovery Caregiving Benefit (CRCB) | Prestation canadienne de la relance économique pour proches aidants (PCREPA) |
 | `2459` | Canada Recovery Sickness Benefit (CRSB) | Prestation canadienne de maladie pour la relance économique (PCMRE) |
@@ -1362,9 +1362,9 @@ FR: Le numéro unique attribué à un service dans le répertoire afin de facili
 | `2534` | Genealogy | Généalogie |
 | `2536` | Loans to other institutions | Prêts à d&#39;autres institutions |
 | `2537` | LAC User Card Registration Form | Formulaire d&#39;inscription pour la carte d&#39;usager de BAC |
-| `2538` | Consultation of Published and Archival Material | Consultation de matériel publié et archivistique |
+| `2538` | Consultation of published and archival material | Consultation de matériel publié et archivistique |
 | `2539` | Respond to requests for information from Parliamentarians. | Répondre aux demandes d&#39;information des parlementaires. |
-| `254` | Environmental Funding - Indigenous Partnerships for Species at Risk | Partenariats autochtone pour les espèces en péril |
+| `254` | Environmental Funding - Aboriginal Fund for Species at Risk | Fonds autochtone pour les espèces en péril |
 | `2540` | Loan request for exhibitions | Demande de prêts pour expositions |
 | `2541` | «Listen, Hear Our Voices» Initiative | Initiative «Écoutez pour entendre nos voix» |
 | `2542` | Access to records in support of the Federal Indian Day School Class Action Settl | Accès aux dossiers à l&#39;appui du règlement du recours collectif des externats indiens fédéraux |
@@ -1373,10 +1373,10 @@ FR: Le numéro unique attribué à un service dans le répertoire afin de facili
 | `255` | Environmental Funding - Atlantic Ecosystems Initiatives | Initiatives des écosystèmes de l&#39;Atlantique |
 | `2550` | Contributions Program of the Office of the Privacy Commissioner of Canada. | Programme des contributions du Commissariat à la protection de la vie privée du Canada. |
 | `2551` | Surplus Canadian Publications | Publications canadiennes en surplus |
-| `2552` | Privacy Impact Assessment (PIAs) Reviews. | Examens d’Évaluations des facteurs relatifs à la vie privée (EFVP). |
+| `2552` | Privacy Impact Assessment (PIAs) Reviews. | Examens de Évaluations des facteurs relatifs à la vie privée (EFVP). |
 | `2553` | Consultation services with federal institutions | Services-conseils au gouvernement |
-| `2554` | Review and investigate complaints under the Privacy Act. | Examiner et enquêter les plaintes en vertu de la Loi sur la protection des renseignements personnels. |
-| `2555` | Receive and review Privacy Act breach reports submitted in accordance with TBS Privacy Policy Instruments. | Recevoir et examiner les rapports d&#39;atteintes à la vie privée en vertu de la Loi sur la protection des renseignements personnels. |
+| `2554` | Review and Investigate complaints under the Privacy Act. | Examiner et enquêter sur les plaintes en vertu de la Loi sur la protection des renseignements personnels. |
+| `2555` | Receive and review Privacy Act breach reports. | Recevoir et examiner les rapports d&#39;atteintes à la vie privée en vertu de la Loi sur la protection des renseignements personnels. |
 | `2556` | Review and investigate complaints under PIPEDA. | Examiner et enquêter les plaintes en vertu de la LPRPDE. |
 | `2557` | On-Reserve Other Community Infrastructure Capacity Building | Renforcement des capacités pour les autres infrastructures communautaires pour les collectivités dans les réserves |
 | `2558` | Receive and review breach reports under PIPEDA. | Recevoir et examiner les atteintes à la vie privée en vertu de la LPRPDE. |
@@ -1385,7 +1385,7 @@ FR: Le numéro unique attribué à un service dans le répertoire afin de facili
 | `2561` | Strategic Policy, Cabinet and Parliamentary Affairs Branch | Direction générale des politiques stratégiques, des affaires du Cabinet et des affaires parlementaires |
 | `2562` | Reconciliation Secretariat Branch | Direction générale du Secrétariat de la réconciliation |
 | `2563` | Claims Assessment | Évaluation des revendications |
-| `2564` | Contribution Funding to support Indigenous Communities Programs | Fonds de contribution pour soutenir les programmes de négociations, de reconstruction des Nation et d’Espaces culturels dans les communautés autochtones. |
+| `2564` | Contribution and Loan Funding to support Indigenous Communities Programs | Fonds de contribution et de prêt pour soutenir les programmes de négociations, de reconstruction des Nation et d’Espaces culturels dans les communautés autochtones. s |
 | `2565` | Negotiations | Négociations |
 | `2566` | BC Treaty Funding | Financement des traités CB |
 | `2567` | Surplus Federal Real Property Initiative | Initiative sur les biens immobiliers excédentaires fédéraux |
@@ -1396,15 +1396,15 @@ FR: Le numéro unique attribué à un service dans le répertoire afin de facili
 | `2572` | Projects subject to federal assessment under the IAA | Projets assujettis à l&#39;évaluation fédérale en vertu de la Loi sur l&#39;évaluation d’impact (LEI) |
 | `2573` | Research Program | Programme de recherche |
 | `2574` | Extractive Sector Transparency Measures Act | Loi sur les mesures de transparence dans le secteur extractif |
-| `2576` | Pilimmaksaivik&#39;s Inuksugait Resume Inventory | Répertoire Inuksugait de postulants de Pilimmaksaivik |
+| `2576` | Pilimmaksaivik&#39;s Inuksugait Inventory | Inventaire des Inuksugait de Pilimmaksaivik |
 | `2577` | Contribution in support of Climate Change Adaptation | Contribution à l&#39;appui de l&#39;adaptation au changement climatique |
 | `2579` | Grants in support of Geo-Mapping for Energy and Minerals | Subventions à l&#39;appui du Programme Géocartographie de l?énergie et des minéraux |
-| `2585` | Energy Innovation Program | Programme d&#39;innovation énergétique |
+| `2585` | Contributions in support of the ENERGY Innovation Program | Contributions à l&#39;appui des Programmes d&#39;innovation énergétique |
 | `2586` | Electric Vehicle Infrastructure Demonstrations | Démonstrations d&#39;infrastructures pour véhicules électriques |
 | `2587` | Smart Grid Infrastructure Demonstrations Program | Programme de démonstration de l&#39;infrastructure des réseaux électriques intelligents |
 | `2588` | Clean Growth in the Natural Resources Sectors Innovation Program | Programme d&#39;innovation sur la croissance propre dans les secteurs des ressources naturelles |
-| `2589` | Energy Efficient Buildings Research, Development and Demonstration Program | Programme de recherche, développement et démonstration de bâtiments écoénergétiques |
-| `2590` | Clean Energy for Rural and Remote Communities - demonstration stream | Énergie propre pour les collectivités rurales et éloignées - volet démonstration |
+| `2589` | Energy Efficient Buildings Program | Programme de bâtiments écoénergétiques |
+| `2590` | Clean Energy for Rural and Remote Communities Program - Demonstration | Programme d&#39;énergie propre pour les collectivités rurales et éloignées |
 | `2591` | Clean Technology Challenges - Impact Canada Initiative - Grants Portion | Défis de technologies propres - Initiative Impact Canada - subventions |
 | `2592` | Clean Technology Challenges - Impact Canada Initiative | Défis de technologies propres - Initiative Impact Canada |
 | `2593` | Emissions Reduction Fund Offshore Research, Development and Demonstration | Le programme de recherche, développement et démonstration extracôtière du Fonds de réduction des émissions |
@@ -1420,7 +1420,7 @@ FR: Le numéro unique attribué à un service dans le répertoire afin de facili
 | `2602` | Grants and Contributions in support of Geoscience | Subventions et contributions en soutien aux géosciences |
 | `2603` | BioHeat component of the Clean Energy for Rural and Remote Communities Program | Volet biothermie du programme Énergie propre pour les collectivités rurales et éloignées (EPCRE) |
 | `2604` | CIM&#39;s Our Earth&#39;s Riches Mineral Literacy Installation | Installation Our Earth&#39;s Riches de l&#39;ICM pour mieux faire connaître le domaine minier aux jeunes Canadiens |
-| `2605` | Spruce Budworm Early Intervention Strategy – Phase III Contribution Program | Stratégie d’intervention précoce contre la tordeuse des bourgeons de l’épinette – Phase III |
+| `2605` | Spruce Budworm Early Intervention Strategy – Phase II Contribution Program | Stratégie d’intervention précoce contre la tordeuse des bourgeons de l’épinette – Phase II |
 | `2606` | Mining Matters Educational Resources for Students | Ressources éducatives pour les étudiants &#39;Mining Matters&#39; |
 | `2607` | Support for research on Woodland Caribou in support of conservation | Appuyer les recherches sur le caribou des bois à l&#39;appui de la conservation de cette espèce en péril |
 | `2608` | Development and Delivery of Regional Mining Webinars | Développement et livraison de séminaire en ligne régionaux pour l&#39;exploitation minière |
@@ -1449,17 +1449,17 @@ FR: Le numéro unique attribué à un service dans le répertoire afin de facili
 | `263` | Environmental Funding - EcoAction Community Funding Program | Appel de propositions pour ÉcoAction |
 | `2630` | Media monitoring and analysis, media relations | Surveillance et analyse médiatiques, relations avec les médias |
 | `2631` | Fisheries Act - Aquatic Invasive Species Regulations Authorizations | la Loi sur les pêches - Autorisations en vertu du Règlement sur les especes aquatiques envahisantes |
-| `2632` | Fisheries Act - Fisheries (General) Regulations - Licences to control aquatic invasive species | La Loi sur les pêches - Règlement de pêche (dispositions générales) - Le permis de pêche de contrôle des espèces aquatiques envahissantes |
+| `2632` | Fisheries Act - Aquatic Invasive Species Regulations Fishing Licences | La Loi sur les pêches - permis de pêches du Règlement sur les especes aquatiques envahisantes |
 | `2633` | Aquatic Invasive Species Program - Contribution Agreements | Programme sur les espèces aquatiques envahissantes - Ententes de contribution |
-| `2634` | TMX Accommodation Measure Aquatic Habitat Restoration Program (AHRF) | TMX mesures d’accommodement&lt;br&gt;Fonds de restauration de l’habitat aquatique (FRAH) |
-| `2635` | TMX Accommodation Measure Terrestrial Cumulative Effects Initiative (TCEI) | TMX mesures d’accommodement&lt;br&gt;Initiative sur les effets cumulatifs en milieu terrestre (IEETC) |
+| `2634` | TMX Accommodation Measure Aquatic Habitat Restoration Program (AHRF) | Les mesures d&#39;accommodement TMX Fonds de restauration de l&#39;habitat aquatique (FRHA) |
+| `2635` | TMX Accommodation Measure Terrestrial Cumulative Effects Initiative (TCEI) | Les mesures d&#39;accommodement TMX Initiative sur les effets cumulatifs en milieu terrestre (IECT) |
 | `2636` | Contributions in support of the Salmonid and Salmon Enhancement Programming | Contributions à l&#39;appui du Programme de mise en valeur des salmonidés |
 | `2637` | Indigenous Fisheries Management | Gestion des pêches autochtones |
-| `2638` | Enforcement of Fisheries Legislation and the Management of Contaminated Fisheries Regulations | Application des lois sur les pêches et des règlements sur la gestion de la pêche du poisson contaminé |
+| `2638` | Enforcement of Fisheries Legislation and Contaminated Shellfish Harvest Areas Closure Regulations | Application des lois sur les pêches et des règlements de fermeture de secteurs coquilliers contaminés |
 | `2641` | CAMPUS - Individual subscription | CAMPUS - Abonnement individuel |
 | `2642` | NFB.ca-Digital Store | ONF.ca-Boutique numérique |
 | `265` | Environmental Funding - Lake Winnipeg Basin Program | Le programme du bassin du lac Winnipeg |
-| `267` | Environmental Funding - Habitat Stewardship Program for Species at Risk | Programme d&#39;intendance de l&#39;habitat pour les espèces en péril |
+| `267` | Environmental Funding - Habitat Stewardship Program | Programme d&#39;intendance de l&#39;habitat pour les espèces en péril |
 | `268` | Environmental Funding - Great Lakes Protection Initiative | Initiative de protection des Grands Lacs |
 | `27` | Access to historic, thematic and educational activities | Accès à des activités historiques, thématiques et éducative |
 | `278` | COSPAS-SARSAT Secretariat Contribution | Contribution du secrétariat COSPAS-SARSAT |
@@ -1492,9 +1492,9 @@ FR: Le numéro unique attribué à un service dans le répertoire afin de facili
 | `335` | Community Resilience Fund | Fonds pour la résilience communautaire |
 | `337` | Crime Prevention Action Fund | Fonds d&#39;action en prévention du crime |
 | `339` | International Association of Fire Fighters | Programme de contribution a l&#39;Association international des pompiers |
-| `34` | Telephony Fixed Lines | Téléphones fixes |
+| `34` | Fixed Line Phones | Téléphones fixes (filaires) |
 | `341` | Northern and Indigenous Crime Prevention Fund | Fonds de prévention du crime chez les collectivités Autochtones et du Nord |
-| `344` | Canada Community Security Program | Programme pour la sécurité communautaire du Canada |
+| `344` | Communities at Risk: Security Infrastructure Program | Programme de financement des projets d&#39;infrastructure de sécurité pour les collectivités à risque |
 | `35` | Bulk Print | Impression en bloc |
 | `351` | Gun and Gang Violence Action Fund | Fonds de lutte contre la violence liée aux armes à feu et aux gangs |
 | `352` | Funding for First Nation and Inuit Policing Facilities Program (FNIPF) | Programme de financement des installations pour les services de police des Premières Nations et des Inuits (PISPPNI) |
@@ -1503,10 +1503,10 @@ FR: Le numéro unique attribué à un service dans le répertoire afin de facili
 | `355` | Avalanche Canada | Avalanche Canada |
 | `356` | Memorial Grant Program for First Responders | Programme de subvention commémoratif pour les premiers répondants |
 | `357` | Funding Decisions for Institutional Capacity | Décisions sur le financement de la capacité institutionnelle |
-| `3570` | Veteran Homelessness Program (VHP) | Programme de lutte contre l&#39;itinérance chez les vétérans (PLIV) |
+| `3570` | Veteran Homelessness (VH) | Programme de lutte contre l&#39;itinérance chez les vétérans (PLIV) |
 | `3572` | Events, exhibitions and tours | Événements, expositions et visites |
 | `3573` | Copyright | Droits d&#39;auteur |
-| `3574` | Information Management and Disposition of Government Records | Gestion de l&#39;information et disposition des documents fédéraux |
+| `3574` | Information Management and Disposition of Government Records | Gestion de l’information et disposition des documents fédéraux |
 | `3575` | International Standard Numbers | Numéros internationaux normalisés |
 | `3576` | Loans | Prêts |
 | `3577` | Research Support | Soutien à la recherche |
@@ -1516,16 +1516,16 @@ FR: Le numéro unique attribué à un service dans le répertoire afin de facili
 | `3585` | Business Information Services | Services d&#39;information aux entreprises |
 | `3586` | Media Relations | Relations avec les médias |
 | `3589` | Shared Human Resources Services | Services partagés en ressources humaines |
-| `3590` | Procurement Options Analysis / Procurement Triage Tool / Ongoing Procurement Support and Advisory | Analyse des options d’approvisionnement / l’Outil de triage / Soutien à l’approvisionnement et services consultatifs en continu |
+| `3590` | Procurement Options Analysis / Procurement Triage Tool/Ongoing Procurement Support and Advisory | Analyse des options d’approvisionnement / l’Outil de triage / Soutien à l’approvisionnement et services consultatifs en continu |
 | `3591` | Real Property Disposals Sector | Secteur de l’aliénation des biens immobiliers |
 | `3593` | Climate Change Funding Programs - Low Carbon Economy Challenge 2023 | Défi pour une économie à faibles émissions de carbone 2023 |
 | `3594` | Community Development Wrap-Around Initiative | Initiative de soutien globale au développement communautaire |
 | `3595` | ATSSC Law Library Services | Services de Bibliothèque du SCDATA |
 | `3596` | ATSSC General Inquiries | Demandes générales SCDATA |
 | `3597` | ATSSC Registry Services | Services de greffe |
-| `3598` | Access to information and privacy | Accès à l’information et protection des renseignements personnels |
+| `3598` | Access to Information and Privacy | Accès à l’information et protection des renseignements personnels |
 | `3599` | Global Innovation Clusters Program | grappes mondiales de l’innovation |
-| `36` | Identity, Credential and Access Management | Gestion des identités, des informations d&#39;identification et des accès |
+| `36` | Internal Credential Management | Gestion des justificatifs internes |
 | `3600` | ElevateIP | ÉleverlaPI |
 | `3601` | Portfolio Management | de gestion de portefeuille |
 | `3602` | Canadian Dental Care Plan Eligibility Verification and Information | Vérification et renseignements sur l’admissibilité au Régime canadien de soins dentaires |
@@ -1560,7 +1560,7 @@ FR: Le numéro unique attribué à un service dans le répertoire afin de facili
 | `3633` | Special Access Programs: Human Drugs | Programmes d&#39;accès spéciale: médicaments à usage humain |
 | `3634` | Special Access Programs: Medical Devices | Programmes d&#39;accès spéciale: instruments médicaux |
 | `3635` | Natural Health Product Application Reviews | Évaluation des applications de produits de santé naturels |
-| `3636` | NHP Site Licence Applications | Demandes de licence d&#39;exploitation de produit de santé naturel |
+| `3636` | Natural Health Product Site Licence Application Reviews | Évaluation des applications de licence des sites de produits de santé naturels |
 | `3637` | Research Ethics Board | Comité d&#39;éthique de la recherche |
 | `3638` | Stratospheric Balloon Flight Opportunities (STRATOS) | Opportunités de vols de ballons stratosphériques (STRATOS) |
 | `3639` | CCOHS Inquiries Service | Le Service des demandes de renseignements du CCHST |
@@ -1574,11 +1574,11 @@ FR: Le numéro unique attribué à un service dans le répertoire afin de facili
 | `3647` | Compliance Reviews / Certifications - Common Criteria Recognition Arrangement (CCRA) | Certifications/examens de conformité – Arrangement de reconnaissance des Critères communs |
 | `3648` | Cyber Centre Learning Hub - Custom Course Development | Carrefour de l’apprentissage du Centre pour la cybersécurité – Élaboration de cours sur mesure |
 | `3649` | Digital Communications – Web Communications | Communications numériques – Communications Web |
-| `3650` | Cyber Flipbook | Le livre de poche cybernétique |
+| `3650` | Cyber Flipbook | Le livre d epoche cybernétique |
 | `3651` | Canadian Anti-Fraud Centre-Online Fraud Reporting Systems | Centre Antifraude du Canada - système de signalement en ligne |
 | `3652` | Indigenous Policing Services - National Directorate | Service de police autochtone – national |
 | `3653` | Issuance of Discharge Books | Délivrance des livrets de service des marins |
-| `3654` | Transportation Merger and Acquisition Review and Assessment Process | Processus d&#39;examen et d&#39;évaluation des fusions et acquisitions dans le domaine des transports |
+| `3654` | Surface Transportation Merger and Acquisition Review and Assessment Process | Processus d&#39;examen et d&#39;évaluation des fusions et acquisitions dans le domaine des transports de surface |
 | `3657` | Transportation Data and Information Hub | Carrefour de données et d&#39;information sur les transports |
 | `3658` | Motor Vehicle Safety Call Centre | Centre d&#39;appels pour la sécurité des véhicules automobiles |
 | `3659` | Assistance for a formal application for certification | Aide fournie en vue de la préparation d’une demande de services de certification |
@@ -1604,13 +1604,13 @@ FR: Le numéro unique attribué à un service dans le répertoire afin de facili
 | `3684` | Research Support Process | Processus de soutien à la recherche |
 | `3685` | Grants and Contributions Programs | Programmes de subventions et contributions |
 | `3686` | Indigenous Program Agreements | Accords sur les programmes autochtones |
-| `3687` | MPA Activity Plan Application Process | Processus des applications de plans d’activités dans les ZPM |
+| `3687` | MPA Activity Plan Application Process | Processus de demande d&#39;activités pour la ZPM - Anguniaqvia niqiqyuam |
 | `3688` | Small Craft Harbours | Ports pour petits bateaux |
 | `3689` | Small Craft Harbours Grant and Contribution Programs | Programmes de subventions et de contributions pour les ports pour petits bateaux |
 | `3690` | Access to activities at the Plains of Abraham Museum | Accès aux activités du Musée des plaines d&#39;Abraham |
 | `3691` | Access to social, cultural and heritage content online (no fee) | Accès à du contenu socio-culturel et patrimonial en ligne (sans frais) |
 | `3692` | Access to a parking space | Accès à une place de stationnement |
-| `3693` | Access to archives (no fee) | Accès aux archives (sans frais) |
+| `3693` | Access to archives (no fee) | Accès aux archives (sans frais |
 | `3694` | Receipt of requests from the media and public at large (no fee) | Réception des demandes des médias et du public (sans frais) |
 | `3695` | Access to social, cultural, heritage and sports activities for the public at large (no fee) | Accès à des activités socio-culturelles, patrimoniales et sportives gratuites pour le grand public (sans frais) |
 | `3698` | Payment of judges&#39; salaries | Paiement des salaires des juges |
@@ -1631,7 +1631,7 @@ FR: Le numéro unique attribué à un service dans le répertoire afin de facili
 | `3714` | Applications for Charitable registration or re-registration | Demandes d&#39;enregistrement ou de réenregistrement d&#39;organismes de bienfaisance |
 | `3716` | Actuarial Validation Report Reviews | Les rapports d’évaluation actuarielle |
 | `3717` | Charities written enquiries | Demandes écrites des organismes de bienfaisance |
-| `3718` | Service Feedback - Problem Resolution | Rétroaction sur les services - Solution de problèmes |
+| `3718` | Problem Resolution | Solution de problèmes |
 | `3719` | GST/HST rulings and interpretations - telephone enquiries | Décisions et interprétations en matière de TPS/TVH – Demandes de renseignements téléphoniques |
 | `3720` | Charities telephone enquiries | Renseignements téléphoniques sur les organismes de bienfaisance (complexes) |
 | `3721` | Clearance Certificate Requests | Demande de certificat de décharge |
@@ -1643,39 +1643,44 @@ FR: Le numéro unique attribué à un service dans le répertoire afin de facili
 | `3727` | Canada Dental Benefit (CDB)To note: The interim Canada Dental Benefit ended on June 30, 2024. | Prestation dentaire canadienne (PDC) |
 | `3728` | Canada Carbon Rebate (previously known as the Climate action incentive payment) | Remise canadienne sur le carbone (auparavant appelée paiement de l’incitatif à agir pour le climat) |
 | `3729` | Community Volunteer Income Tax Program | Programme communautaire des bénévoles en matière d&#39;impôt |
-| `3730` | Animal Health Movement Control Permission | Permis de contrôle des déplacements en lien avec la santé des animaux |
-| `3731` | Veterinary Biologics Special Outline | Protocole spécial pour produits biologiques vétérinaires |
-| `3732` | Veterinary Biologics outline of Production | Protocole de production pour produits biologiques vétérinaires |
+| `3730` | Animal Health Movement Control Permit | Permis de contrôle des déplacements pour santé animale |
+| `3731` | Special Outline for Veterinary Biologics | Protocole spécial pour produits biologiques vétérinaires |
+| `3732` | Outline of Production - Veterinary Biologics | Protocole de production pour produits biologiques vétérinaires |
 | `3733` | Adjudication of Immigration and Refugee cases | Décision des cas d’immigration et de statut de réfugié |
 | `3734` | Ministerial Exemption for the Purpose of Selling a Test Market Food | Exemptions ministérielles pour vendre un aliment d&#39;essai |
 | `3735` | Federal Policing Security Intelligence | Renseignement de sécurité de la Police Fédérale |
 | `3736` | Air Carrier Support Centre (ACSC) | Centre de soutien aux transporteurs aériens (CSTA) |
 | `3737` | Trade Compliance Verification | Vérifications de l&#39;observation commerciale |
 | `3738` | TCS Website - Inquiries Page | SDC Site web - page de demandes |
-| `3739` | Sanctions asset seizure and forfeiture implementation, including request for review of orders for the seizure of assets | Mise en œuvre de la saisie et de la confiscation des biens en vertu des sanctions, y compris les demandes de révision des ordonnances de saisie des biens. |
+| `3739` | Sanctions asset seizure and forfeiture implementation, including review of orders for the seizure of assets. | Mise en œuvre de la saisie et de la confiscation des biens en vertu des sanctions, y compris la révision des ordonnances de saisie des biens. |
 | `3740` | Administration to the Canada Fund for Local Initiatives (CFLI) | Administration du Fond Canadien d&#39;Initiative Local |
-| `3741` | The G7/G20 Summits Bureau | Le bureau des sommets G7 et G20 |
+| `3741` | Coordinate Canada&#39;s engagement in the G7 and G20 at the Leaders and Foreign Ministers levels, including time-sensitive meetings and rapid responses to emerging global events. | Coordonner la participation du Canada au G7 et au G20 au niveau des dirigeants et des ministres des Affaires étrangères, y compris les réunions urgentes et les réponses rapides aux événements mondiaux émergents. |
 | `3757` | Short-Term Rental Enforcement Fund (STREF) | Fonds pour l&#39;application des restrictions sur la location de courte durée (FARLCD) |
 | `38` | Secure Remote Access | Accès à distance protégé |
 | `39` | Midrange | Ordinateurs de milieu de gamme |
 | `4` | Food Recalls and safety alerts | Rappels d&#39;aliments et avis de sécurité |
 | `40` | Mainframe | Ordinateur central |
 | `4000` | School Food Infrastructure Fund | Fonds pour l&#39;infrastructure alimentaire scolaire |
-| `4001` | Review of Complaints | Examen des plaintes |
-| `4002` | Review of federal organization’s procurement practices | Examen des pratiques d’approvisionnement des organisations fédérales |
-| `4003` | Alternative Dispute Resolution | Règlement extrajudiciaire des différends |
-| `4004` | Shared Ombuds Services | Services d’ombuds partagés |
+| `4001` | Review of Complaints | L&#39;examen des plaintes |
+| `4002` | Review of federal organization’s procurement practices | L’examen des pratiques d’approvisionnement des organisations fédérales |
+| `4003` | Alternative Dispute Resolution | Règlement des différends |
+| `4004` | Shared Ombuds services | Services d’ombuds partagés |
+| `4005` | Enterprise Service Project Management | Gestion de projets de services d’entreprise |
 | `4006` | Media Relations | Bureau des relations avec les médias |
 | `4007` | Warehouse Assessment Services | Services d&#39;évaluation d&#39;entrepôt |
 | `4008` | Events | Événements |
-| `4009` | Guided Tours | Visites Guidées |
+| `4009` | Tours | Visites guidées |
+| `4010` | Exhibitions | Expositions |
 | `4011` | LiquidFiles | FichersLiquides |
-| `4012` | Specialized Digital Systems | Systèmes numériques spécialisés |
-| `4013` | National Communications &amp; Public Affairs (NCPA) - Digital Communications | Communications nationales et Affaires publiques (CNAP) - Communications numériques |
+| `4012` | National Communications &amp; Public Affairs (NCPA) - Digital Communications | Communications nationales et Affaires publiques (CNAP) - Communications numériques |
+| `4013` | Specialized Digital Systems | Systèmes numériques spécialisés |
 | `4014` | Specialized Services | Services spécialisés |
+| `4015` | General Consular Guidance | Assistance consulaire générale |
+| `4016` | Personnel Security and Contracting | Sécurité du personnel et des marchés |
 | `4017` | Domestic Physical Security | Sécurité matérielle nationale |
 | `4018` | Registrations of Canadians Abroad (ROCA) | Inscription des Canadiens à l&#39;étranger |
 | `4019` | Passport Services | Services de passeports |
+| `4020` | Citizenship Services | Services de citoyenneté |
 | `4021` | Access to Canadian Top Secret Network | Accès au Réseau canadien très secret |
 | `4022` | Administration of Authorization Regime | Administration du régime d’autorisations |
 | `4023` | Cyber Attributions | Connaissances des menaces cybernétiques |
@@ -1684,16 +1689,28 @@ FR: Le numéro unique attribué à un service dans le répertoire afin de facili
 | `4026` | Family Support Unit | Unité de soutien aux familles |
 | `4027` | Government in Council (GIC) and Ministerial Appointments | Nominations par le gouverneur en conseil (GEC) et ministérielles |
 | `4028` | Integrated support for international assistance programming (G&amp;Cs, RBM, Risk, APP, specialist support: gender, environment, sexual exploitation and abuse) | Ressources en matière de Gestion axée sur les résultats (GAR) |
+| `4029` | Labour Relations Centre of Expertise - Corporate Services | Centre d&#39;expertise en relations de travail - Services ministériels |
+| `4030` | LES Benefits management - End of service entitlements | Gestion des prestations ERP - indemnités de départ |
+| `4031` | LES Benefits management - Financial Operations/Management and Oversight - Contract and invoice Management | Gestion des prestations ERP - opérations financières/gestion et surveillance - Gestion des contrats et des factures |
+| `4032` | LES Benefits management - Financial Operations/Management and Oversight - Funds Management | Gestion des prestations ERP - opérations financières/gestion et surveillance - Gestion des fonds |
+| `4033` | LES Benefits management - Insured Benefit Plans | Gestion des avantages sociaux des ERP - Régimes de prestations assurées |
 | `4034` | LES HR Framework - LES Labour Relations and Terms and Conditions of Employment | Cadre des RH ERP - Relations de travail et termes et conditions d&#39;emploi des ERP |
 | `4035` | LES HR Framework -Management of Program and Policy Design for Performance management | Cadre des RH ERP - Gestion de la conception des programmes et politiques pour la gestion du rendement |
 | `4036` | LES HR Framework -Policy Stewardship - Management of Program and Policy Design for Staffing, Classification, Labour Relations and Terms and Conditions of Employment | Cadre des RH ERP - Gestion des politiques et direction de la conception des programmes et des politiques pour la dotation, la classification, les relations de travail et les conditions d&#39;emploi |
+| `4037` | LES HR Framework- Salary scale determination &amp; administration | Cadre de RH ERP-Établissement et administration des échelles salariales |
 | `4038` | LES HR learning Framework -Management of Program and Policy Design for Learning | Cadre des RH ERP - Gestion de la conception des programmes et des politiques pour l’apprentissage |
+| `4039` | LES Leave Admin system tool (Avilar) Pilot | Projet pilote (Avilar) du système d&#39;administration des congés ERP |
+| `4040` | LES Program co-lead for LES HR systems Software as a service contract requirements | Co-direction du programme ERP pour le contrat de service des logiciels des systèmes de RH ERP |
+| `4041` | LES Social Security Participation management | Gestion de la participation des ERP aux régimes locaux de sécurité sociale |
+| `4042` | Parliamentary briefing materials for Deputy Ministers and Ministers | Documents de breffage parlementaire à l&#39;intention des sous-ministres et des ministres |
 | `4043` | Request for Particulars | Demande de renseignements |
 | `4044` | Seasonal Influenza Immunization for Locally Engaged Staff | Vaccination contre la grippe saisonnière pour les employés recrutés sur place |
-| `4045` | CanadaBuys Service Desk (Level 1) | Bureau D&#39;aide Achats Canada (Niveau 1) |
-| `4046` | Electronic Procurement Solution (EPS) | Solutions d&#39;achats électroniques (SAE) |
+| `4045` | Electronic Procurement Solution (EPS) | Solutions d&#39;achats électroniques (SAE) |
+| `4046` | CanadaBuys Service Desk (Level 1) | Bureau D&#39;aide Achats Canada (Niveau 1) |
 | `4047` | Onboarding Services | Services d&#39;intégration |
 | `4048` | Federal Policing Border Integrity | Intégrité frontalière de la police fédérale |
+| `4049` | Information Requests | Demande d`informations |
+| `4050` | Regional Security Operations Division | Direction des opérations de sécurité régionales |
 | `4051` | Consular Case Management | Gestion de cas consulaire |
 | `4052` | Advice to the Minister | Conseils au ministre |
 | `4053` | Canadian Technology Accelerator | Accélérateurs technologiques canadiens |
@@ -1701,36 +1718,57 @@ FR: Le numéro unique attribué à un service dans le répertoire afin de facili
 | `4055` | Diplomatic Security Liasion Services | Services de liaison pour la protection des diplomates |
 | `4056` | Economic modelling | Modélisation économique |
 | `4057` | Export Permit Services (Softwood Lumber and Logs) | Service des licences d&#39;exportation (bois d&#39;œuvre résineux and billes de bois) |
+| `4058` | Governance of LES-Missions&#39; Management Consultative Board processes | Gouvernance du processus de Consultations entre les Conseils de direction des missions et les ERP |
 | `4059` | Provide leadership on Emergency Response and Preparedness for Health International Assistance portfolio. | Assurer la direction en matière de réponse et de préparation aux urgences pour le secteur d&#39;assistance internationale en santé. |
 | `4060` | Provision of humanitarian assistance and operational response to natural disasters abroad in developing countries | Prestation d&#39;assistance humanitaire et réponse opérationnelle aux catastrophes naturelles à l&#39;étranger dans les pays en développement |
 | `4061` | Rapid Response Mechanism (RRM) | Mécanisme de réponse rapide (MRR) |
 | `4062` | Moodle | Moodle |
+| `4063` | Reconciliation and Indigenous engagement advice and policy development | Activités de réconciliation et de mobilisation des Autochtones et élaboration de politiques |
+| `4064` | Horizontal Policies (Greening) - strategic environmental and economic assessments, compliance management, public statements, and reporting mandatory for all departmental proposals to Cabinet (ie. Budget asks, TB subs, MCs, regulations) | Services d&#39;appoint en matière de politiques (recherche, analyse et conseils en matière de politiques). |
 | `4065` | Workstation Software Provisioning | Approvisionnement en logiciels de poste de travail |
+| `4066` | Wide Area Network (WAN) | Réseau étendu (RE) |
+| `4067` | Intra-building Network | Réseau à l’intérieur des immeubles |
 | `4068` | External Network Connectivity | Connectivité au réseau externe |
 | `4069` | Parliamentary District Policing Program | Programme de services de police du district parlementaire |
-| `4070` | Assault-Style Firearms Compensation Program | Programme d&#39;indemnisation pour les armes à feu de style arme d&#39;assaut |
-| `4074` | Research and Innovation Programs Benefits Administration (Veteran and Family Well-being Fund) | Administration des prestations des programmes de recherche et d’innovation (Fonds pour le bien-être des vêtêrans et de leur famille) |
-| `4075` | My VAC Account - Secure Online Services | Mon dossier ACC – Services en ligne sécurisés |
+| `4070` | Assault-Style Firearms Compensation Program | Programme d&#39;indemnisation pour les armes à feu de style arme d&#39;assaut (PIAFSAA) |
+| `4071` | Preparation of the Federal Budget | Préparation du budget fédéral |
+| `4072` | Lead Coordination of Financial Sector | Préparation du budget fédéral |
+| `4073` | International Economic Leadership | Préparation du budget fédéral |
+| `4074` | Research and Innovation Programs Benefits Administration | Administration des avantages des programmes de recherche et d’innovation |
+| `4075` | Online Services | Services en ligne |
 | `4076` | ATIP Requests Processing | Traitement des demandes d’AIPRP |
+| `4077` | Paper Records Management | gestion des documents papier |
 | `4078` | Canadian Grain Sampling Program Sample Inspection | Inspection d’échantillon du Programme canadien d’échantillonnage des grains |
 | `4079` | Christmas Tree Export Program | Programme d&#39;exportation d&#39;arbres de Noël |
-| `4080` | Disability Benefits Administration | Administration des prestations d’invalidité |
-| `4081` | Income Replacement and Financial Assistance, Benefits Administration | Remplacement du revenu et de l’assistance financière, Administration des prestations |
-| `4082` | Commemorative Benefits and Services | Avantages et services de commémoration |
-| `4083` | Financial Support for Health Care | Soutien financier pour les soins de santé |
+| `4080` | Disability Benefits Program Benefits Administration | Administration des avantages du Programme de prestations d’invalidité |
+| `4081` | Financial Assistance and Income Replacement Programs Benefits Administration | Administration des avantages des programmes d’aide financière et de remplacement du revenu |
+| `4082` | Commemorative Benefits and Services | Avantages et services commémoratifs |
+| `4083` | Financial Support for Health Care Programs | Soutien financier pour les programmes de soins de santé |
+| `4085` | Development of Official-Language Communities – Post-Secondary Sector and Scientific Knowledge in French Support Fund | Développement des communautés de langue officielle - Fonds d’appui au secteur postsecondaire et aux savoirs scientifiques en français |
 | `4086` | Multiculturalism and Anti-Racism Initiatives - National Holocaust Remembrance Program | Multiculturalisme et la lutte contre le racisme - Programme national de commémoration de l’Holocauste |
 | `4087` | Indigenous Business Navigator Service | Service de navigateur pour les entreprises autochtones |
-| `4088` | Commemorating the National Day for Truth and Reconciliation | Commemorating the National Day for Truth and Reconciliation |
+| `4088` | Commemorating the National Day for Truth and Reconciliation | Commémoration de la Journée nationale de la vérité et de la réconciliation |
 | `4089` | Trade Missions and Events | Missions et activités commerciales |
 | `4090` | Greener Neighbourhoods Pilot Program | Programme pilote pour des quartiers plus verts |
 | `4091` | Oil Spill Response Challenge | Défi d’intervention en cas de déversement d’hydrocarbures |
+| `4092` | Clean Energy for Rural and Remote Communities - demonstration stream | Énergie propre pour les collectivités rurales et éloignées - volet démonstration |
 | `4093` | Consumer Information Centre | Centre d&#39;information aux consommateurs |
-| `4094` | Oral Health Access Funding (OHAF) applications&#39; review and transfer of funds to eligible recipients | Examen des demandes du Fonds d&#39;accès à la santé buccodentaire (FASB) et transfert des fonds aux demandeurs admissibles |
+| `4094` | Oral Health Access Funding (OHAF) applications&#39; review and transfer of funds to eligible recipients | Oral Health Access Funding (OHAF) applications&#39; review and transfer of funds to eligible recipients |
 | `4095` | Oral health providers claims&#39; and estimates&#39; processing and payment as part of the Canadian Dental Care Plan | Traitement des réclamations et des demandes d&#39;autorisations préalables et paiement aux fournisseurs de soins buccodentaires dans le cadre du Régime canadien de soins dentaires |
+| `4096` | Compliance response and enforcement escalation | Réponse en matière de conformité et escalade en matière d&#39;application |
+| `4097` | Compliance response and enforcement action to a Type I mandatory recall (MO) | Réponse en matière de conformité et mesures coercitives à la suite d&#39;un rappel obligatoire (MO) de type I |
+| `4098` | Regulatory and legislative advice and guidance | Conseils et orientations en matière de réglementation et de legislation |
+| `4099` | Education and Outreach | Éducation et sensibilisation |
 | `41` | Storage | Stockage |
+| `4100` | International, Intergovernmental and Stakeholder Relations | Relations internationales, intergouvernementales et avec les parties prenantes |
+| `4101` | Status Confirmation Service | Service de confirmation du statut |
+| `4102` | Office of Controlled Substances Licensed Dealer | Bureau des substances contrôlées Distributeur agréé |
 | `4103` | Emergency Treatment Fund | Fonds d&#39;urgence pour le traitement |
 | `4104` | Medical Access Support | Assistance en matière d&#39;accès aux soins médicaux |
+| `4105` | Tobacco Quit Lines | Lignes d&#39;aide pour arrêter de fumer |
 | `4106` | Approval of retained controlled substances by law enforcement | Autorisation de conservation des substances contrôlées par les forces de l&#39;ordre |
+| `4107` | Licensing and registration recommendation | Recommandation en matière de licences et d’enregistrements |
+| `4108` | Regulatory exemption guidance | Orientation sur les exemptions réglementaires |
 | `4109` | Canadian Coast Guard Marine Operations and Response Transfer Payment Program | Programme de paiements de transfert pour les opérations maritimes et les interventions de la Garde côtière canadienne |
 | `4110` | Certification and Market Access Program for Seals Contribution Agreement (CMAPS) | Le Programme de certification et d&#39;accès aux marchés des produits du phoque (PCAMPP) |
 | `4111` | Contribution Program for Pacific Salmon Foundation | Programme de contribution à la Fondation du saumon du Pacifique |
@@ -1742,13 +1780,18 @@ FR: Le numéro unique attribué à un service dans le répertoire afin de facili
 | `4117` | Marine Spatial Planning Atlas | Atlas de planification spatiale marine |
 | `4118` | Media Relations | Relations médias |
 | `4119` | Multi-Partners Oil Spill Response Research Contribution Program | Programme de contribution à la recherche en matière d’intervention à partenaires multiples lors d’un déversement d’hydrocarbures |
-| `4120` | Licensing under the Fisheries Act that is offline | Licences délivrées en vertu de la Loi sur les pêches qui sont hors ligne |
+| `4120` | Offline Licensing Services | Services d&#39;émission de permis hors ligne |
 | `4121` | Pacific Salmon Commercial Transition Program | Programme de transition commerciale pour le saumon du Pacifique |
 | `4122` | Pacific Salmon Conservation and Stewardship Partnerships Program | Programme de partenariats pour la conservation et la gestion du saumon du Pacifique |
 | `4123` | Public Enquiries | Demande de renseignements du public |
 | `4124` | Sustainable Fisheries Contribution Program - Shared Ocean Fund (Indo-Pacific Strategy) | Programme de contribution aux pêches durables - Fonds commun pour les océans (Stratégie indo-pacifique) |
 | `4125` | Consular Enquiries | Renseignements consulaires |
 | `4126` | Cannabis Product Recalls management (type I) | Gestion des rappels de produits à base de cannabis (type I) |
+| `4127` | Stakeholder engagement and communications | Engagement des parties prenantes et communications |
+| `4128` | Strategic policy and planning for stakeholder relations with various groups on the opioid overdose crisis and chronic pain | Politique stratégique et planification des relations avec les parties prenantes de divers groupes concernant la crise des surdoses d&#39;opioïdes et la douleur chronique |
+| `4129` | Provide executive leadership, oversight and decision-making | Assurer la direction exécutive, la supervision et la prise de decisions |
+| `4130` | Compliance monitoring and reporting | Surveillance et rapports de conformité |
+| `4131` | Policy development and regulatory updates | Élaboration de politiques et mises à jour réglementaires |
 | `4132` | Ship Security Alert System (SSAS) Testing | Système d’alerte de sécurité du navire |
 | `4133` | CSC National Victim Services Program: Process victim registration request | Programme national de services aux victims du SCC : demande d&#39;inscription |
 | `4134` | CSC National Victim Services Program: Process Victim Statement | Programme national de services aux victims du SCC : traiter les déclarations de la victime |
@@ -1767,17 +1810,52 @@ FR: Le numéro unique attribué à un service dans le répertoire afin de facili
 | `4147` | Receive and review notification of Public Interest Disclosures under the Privacy Act. | Recevoir et examiner les notifications de communications dans l&#39;intérêt public par les institutions fédérales en vertu de la Loi sur la protection des renseignements personnels. |
 | `4148` | CCOHS Business Safety Portal | Portail pour la sécurité en entreprise du CCHST |
 | `4149` | Intake and Printing - Personal Registration applications | Réception et impression - Demandes d&#39;enregistrement personnel |
+| `4150` | Access to Guided Tours of the Governor General&#39;s Official Residences (free) | Accès aux visites guidées des résidences officielles du gouverneur général (gratuit) |
+| `4151` | Provisioning of Greetings and Messages from the Governor General | Envoi de messages et de vœux du gouverneur général |
+| `4152` | Recognition of Canadian Excellence with the Canadian Honors and Awards Programs | Reconnaissance de l&#39;excellence canadienne grâce aux programmes d&#39;honneurs et de distinctions canadiens |
+| `4153` | Earthquake Early Warning System | Système d&#39;alerte précoce en cas de tremblement de terre |
 | `4154` | Conduct a Review | Effectuer un examen |
 | `4155` | Access to Information and Privacy | Accès à l’information et protection des renseignements personnels |
 | `4156` | Media and Public Inquiries | Médias et demandes de renseignements du public |
-| `4157` | Quasi-judicial review of certain ministerial authorizations | Examen quasi judiciaire de certaines autorisations ministérielles |
-| `4160` | Incidents and Investigations - Explosives | Incidents et investigations - Explosifs |
-| `4161` | Outreach - Explosives | Sensibilisation - Explosifs |
+| `4157` | Quasi-judicial review of certain ministerial authorizations | Examen quasi judiciaire de certaines autorisations |
+| `4158` | Customs Brokers Professional Examination | Examen de compétences professionnelles des courtiers en douane |
+| `4159` | Customs Brokers Licensing | Agrément des courtiers en douane |
+| `4160` | Incidents and Investigations | Incidents et investigations - Explosifs |
+| `4161` | Outreach | Sensibilisation - Explosifs |
 | `4162` | Comprehensive Nuclear-Test-Ban Treaty (CTBT) International Monitoring System (IMS) | Traité d&#39;interdiction complète des essais nucléaires (TICE) Système international de surveillance (SIS) |
 | `4163` | Geomagnetic Monitoring and Space Weather Forecasting (GMSWF) | Surveillance géomagnétique et prévisions météorologiques spatiales |
 | `4164` | Nuclear Emergency Response (NER) | Intervention en cas d&#39;urgence nucléaire |
 | `4165` | Seismic Monitoring (SM) | Surveillance sismique |
 | `4166` | Earthquake Early Warning System | Le système d’alerte sismique précoce canadien |
+| `4167` | Canada Housing Infrastructure Fund (CHIF) | Fonds canadien pour les infrastructures liées au logement (FCIL) |
+| `4168` | Canada Public Transit Fund (CPTF) | Fonds pour le transport en commun du Canada (FTCC) |
+| `4169` | Funding for Research Training and Talent Development | Financement de la formation en recherche et du développement des talents |
+| `4170` | Funding for Discovery Research | Financement de la recherche axée sur la découverte |
+| `4171` | Funding for Research and Technology Partnerships | Financement des partenariats en recherche et en technologie |
+| `4172` | EPS Operations | Opérations de la SAE |
+| `4173` | AgriAssurance Program: Kosher and Halal Investment Component | Programme Agri-assurance : Volet Investissement casher et halal |
+| `4174` | Agricultural Clean Technology Program: Research and Innovation Stream - Accelerator | Programme des technologies propres en agriculture : Volet Recherche et innovation - Accélérateur |
+| `4175` | AgriMarketing Program: Kosher and Halal Investment Component | Programme Agri-marketing : Volet Investissement casher et halal |
+| `4176` | AgriMarketing Program: Market Diversification - National Industry Association Component | Programme Agri-marketing : Volet Diversification des marchés pour les associations nationales de l’industrie |
+| `4177` | AgriMarketing Program: Market Diversification - Small and Medium-sized Entreprise | Programme Agri-marketing : Diversification des marchés pour les petites et moyennes entreprises |
+| `4178` | Kosher and Halal Investment Program | Programme d’investissement casher et halal |
+| `4179` | Program Payment Services Unit | Unité des services de paiement des programmes |
+| `4180` | Tax Payer Relief Provisions | Dispositions d’allègement pour les contribuables |
+| `4181` | Canadian Beacon Registry (CBR) | Registre canadien des balises |
+| `4182` | Military spouse employment initiative | Initiative d’emploi pour les conjoints de militaires |
+| `4183` | National Claims &amp; Litigation Directorate | Direction nationale des réclamations et du contentieux |
+| `4184` | Service-related injury or illness benefits administered by Veterans Affairs Canada | Programmes de soins de santé pour une blessure ou une maladie liée au service administrés par Anciens Combattants Canada |
+| `4185` | National Communications &amp; Public Affairs (NCPA) - Intellectual Property Office | Communications nationales et Affaires publiques (CNAP) - Bureau de la propriété intellectuelle |
+| `4186` | National Armourer Program (IPTMP) | Programme national d’armurerie (SPAPTM) |
+| `4187` | Police Dog Service Training Centre (PDSTC) | Centre de dressage des chiens de police (CDCP) |
+| `4188` | Physical Security Program - Lead Security Agency for Physical Security and Internal Services for Physical Security | Programme de sécurité matérielle – Le principal organisme responsable de la sécurité matérielle (POSM) et services internes de sécurité matérielle |
+| `4189` | Receive and review codes of practice submitted in accordance with Proceeds of Crime (Money Laundering) and Terrorist Financing Regulations (PCMLTFR) | Recevoir et examiner les codes de pratique soumis conformément au Règlement sur le recyclage des produits de la criminalité et le financement des activités terroristes (RRPCFAT) |
+| `4190` | Potato Wart Program | Programme de la galle verruqueuse de la pomme de terre |
+| `4191` | Livestock Feeds Licence | Licence d&#39;aliments pour animaux de ferme |
+| `4192` | Insight Research | Programme de recherche axée sur la connaissance |
+| `4193` | Research Partnerships | Programme de partenariats de recherche |
+| `4194` | Canada Biomedical Research Fund | Fonds de recherche biomédicale du Canada |
+| `4195` | Research Support Fund | Fonds de soutien à la recherche |
 | `423` | Conduct Complaints | Plaintes pour inconduites |
 | `424` | Interference Complaints | Plaintes pour ingérence |
 | `425` | Direct Funding Payments | Paiements d&#39;aide financière directs |
@@ -1788,8 +1866,8 @@ FR: Le numéro unique attribué à un service dans le répertoire afin de facili
 | `44` | Middleware | Intergiciel |
 | `45` | Database | Base de données |
 | `46` | Cloud Brokering | Courtage infonuagique |
-| `47` | Secret Systems | Systèmes secrets |
-| `48` | Workstation Hardware Provisioning | Approvisionnement en matériel de poste de travail |
+| `47` | Classified Infrastructure | Infrastructure classifiée |
+| `48` | Workplace Technology Devices Provisioning | Approvisionnements des appareils technologiques en milieu de travail |
 | `49` | Web Conferencing | Cyberconférence |
 | `5` | Regulatory Clarification | Clarification règlementaires |
 | `50` | Audio Conferencing | Téléconférence |
@@ -1800,7 +1878,7 @@ FR: Le numéro unique attribué à un service dans le répertoire afin de facili
 | `6` | Service Complaints | Plaintes de service |
 | `655` | Grant, Scholarship and Fellowship Funding Transfers to Administering Institution | Transferts de subventions et de bourses d&#39;études et de perfectionnement à des établissements administrateurs |
 | `656` | Grant, Scholarship, Fellowship and Award Administration | Administration des subventions, des bourses de perfectionnement et des bourses d&#39;études |
-| `657` | CanNor Grants and Contributions | Subventions et contributions de CanNor |
+| `657` | CanNor Grants and Contributions | Subventions et contributions CanNor |
 | `658` | Access to Information and Privacy (ATIP) | Accès à l&#39;information et protection des renseignements personnels (AIPRP) |
 | `659` | Youth Justice Fund | Fonds du système de justice pour les jeunes |
 | `660` | Victims Fund | Fonds d&#39;aide aux victimes |
@@ -1824,7 +1902,7 @@ FR: Le numéro unique attribué à un service dans le répertoire afin de facili
 | `678` | Refugee Claims | Demandes d&#39;asile |
 | `679` | Border Information Service (BIS) | Service d&#39;information sur la frontière (SIF) |
 | `680` | Customs Special Services | Services spéciaux des douanes |
-| `687` | Hydrological Services | Services hydrométriques |
+| `687` | Hydrometric data and information service | Service de données et d&#39;informations hydrométriques |
 | `688` | Health and air quality forecast services | Services de prévision relatifs à la santé et à la qualité de l&#39;air |
 | `689` | Marine program weather services | Services du programme météorologique maritime |
 | `690` | Direct Funding Payments | Versements faits directement aux boursiers |
@@ -1841,7 +1919,7 @@ FR: Le numéro unique attribué à un service dans le répertoire afin de facili
 | `721` | Partners in Protection Program Membership Application Processing | Traitement des demandes d&#39;adhésion au programme Partenaires en protection |
 | `722` | Trusted Trader Application- Customs Self-Assessment (CSA) | Demande de négociant digne de confiance - Programme d&#39;autocotisation des douanes (PAD) |
 | `723` | Cultural Property Export Permits | Biens culturels - Délivrance des licences d&#39;exportation |
-| `724` | Request for Assisstance Application for Intellectual Property Rights (IPR) | Demande d&#39;aide de droits de propriété intellectuelle |
+| `724` | Request for Assistance Application for Intellectual Property Rights (IPR) | Demande d&#39;aide de droits de propriété intellectuelle |
 | `725` | Employee Assistance Services | Services d’aide aux employés |
 | `726` | Employee Assistance Services: Employee Assistance Program | Services d’aide aux employés : Programme d’aide aux employés |
 | `728` | Commercial Processing (highway, air, rail, marine, postal and courier) | Traitement commercial (routier, aérien, ferroviaire, maritime, postaux et messageries) |
@@ -1865,8 +1943,8 @@ FR: Le numéro unique attribué à un service dans le répertoire afin de facili
 | `746` | Drawback Claims | Demandes de drawback |
 | `747` | Access to Information and Privacy | Accès à l&#39;information et la protection des renseignements personnels |
 | `748` | Feedback Mechanism | Mécanisme de rétroaction |
-| `749` | Enforcement, Trusted Traveller and Trade Appeals Litigation | Appels des mesures d&#39;exécution et litige |
-| `750` | Trade and Commerical Appeals and Litigation | Appels des échanges commerciaux et litige |
+| `749` | Enforcement and Appeals Litigation | Appels des mesures d&#39;exécution et litige |
+| `750` | Trade Appeals and Litigation | Appels des échanges commerciaux et litige |
 | `751` | Employee Assistance Services: Specialized Organizational Services | Services d’aide aux employés : Services organisationnels spécialisés |
 | `752` | Access to Information and Privacy | Accès à l&#39;information et protection des renseignements personnels |
 | `753` | Employee Assistance Services: Trauma Services | Services d’aide aux employés : Services d’intervention post-traumatique |
@@ -1895,7 +1973,7 @@ FR: Le numéro unique attribué à un service dans le répertoire afin de facili
 | `792` | Critical Infrastructure Exercises | Exercices des infrastructures essentielles |
 | `795` | Cyber Security Cooperation Program | Programme de coopération en matière de cybersécurité |
 | `798` | Passenger Protect Inquiries Office (PPIO) | Demandes de renseignement du Programme de protection des passagers (BRPPP) |
-| `8` | Email | Courriel |
+| `8` | Email | Courriel (Yes et Legacy) |
 | `800` | Access to information and privacy | Accès à l’information et protection des renseignements personnels |
 | `801` | Safeguarding Science Outreach | Sensibilisation de la science en sécurité |
 | `803` | Listed Terrorist Entities | Entités terroristes inscrites |
@@ -1907,7 +1985,7 @@ FR: Le numéro unique attribué à un service dans le répertoire afin de facili
 | `811` | Contribution to Combat Serious and Organized Crime | Programme de contribution pour combattre les crimes graves et le crime organisé |
 | `813` | Major International Events Security Cost Framework | Cadre sur les coûts de sécurité des événements internationaux majeurs |
 | `814` | Nation&#39;s Capital Extraordinary Policing Costs | Contribution pour les coûts extraordinaire des services de police de la capitale nationale |
-| `815` | National Flagging System | Système national de repérage |
+| `815` | National Flagging System Class Grant | Global de subventions du système national de repérage |
 | `816` | Grants and Contributions Program to National Voluntary Organizations | Programme de subventions et de contributions pour les organismes bénévoles nationaux |
 | `817` | Biology Casework Analysis Contribution Program | Programme de contribution aux analyses biologiques |
 | `818` | National Office for Victims | Bureau national pour les victimes d&#39;actes criminels |
@@ -1916,7 +1994,7 @@ FR: Le numéro unique attribué à un service dans le répertoire afin de facili
 | `838` | NewsDesk | InfoMedia |
 | `839` | Federal Emergency Communications Coordination | Coordination des communications fédérales d&#39;urgence |
 | `840` | Coordination of Federal Emergency Management (Government Operations Centre) | Coordination de la gestion fédérale des situations d&#39;urgence (Centre des opérations du gouvernement) |
-| `843` | GCdocs | GCdocs |
+| `843` | GCdocs | Gcdocs |
 | `844` | GCcase | GCcas |
 | `845` | Regional Resilience Assessments | Évaluations de la résilience régionale |
 | `846` | Grants for the Disposal of Surplus Lighthouses | Programme de subventions et de contributions pour l&#39;aliénation de phares excédentaires |
@@ -1938,7 +2016,7 @@ FR: Le numéro unique attribué à un service dans le répertoire afin de facili
 | `871` | Interpretation | Interprétation |
 | `872` | Terminology Standardization | Normalisation terminologique |
 | `873` | Executive Correspondence | Correspondance de la haute gestion |
-| `874` | Certificate of Pharmaceutical Product (CPP) &amp; Good Manufacturing Practices (GMP) | Certificat de produit pharmaceutique (CPP) et de Bonnes Pratiques de Fabrication (BPF) |
+| `874` | Certificate of Pharmaceutical Product (CPP) &amp; Good Manufacturing Practices (GMP) | Certificat de produit pharmaceutique (CPP) de Bonnes Pratiques de Fabrication (BPF) |
 | `875` | Drug Establishment Licensing (DEL) | Les licences d&#39;établissement de produits pharmaceutiques (LEPP) |
 | `876` | Manufacturer&#39;s Certificate to Export licenced medical devices from Canada (MCE) | Certificat du fabricant relatif à l&#39;exportation d&#39;instruments médicaux homologués au Canada (CFE) |
 | `877` | Medical Device Establishment Licencing (MDEL) | Licence d&#39;établissement pour les instruments médicaux (LEIM) |
@@ -1950,8 +2028,8 @@ FR: Le numéro unique attribué à un service dans le répertoire afin de facili
 | `888` | Grants and Contributions Services | Services des subventions et contributions |
 | `890` | National Emergency Strategic Stockpile: Request for Assistance (RFA) | Réserve nationale stratégique d&#39;urgence |
 | `891` | Authorization to Conduct Controlled Activities with Pathogens and Toxins | Autorisation d’exercer des activités réglementées avec des agents pathogènes et des toxines |
-| `892` | Human Pathogens and Toxins Act Security Clearance | Habilitation de sécurité en vertu de la Loi sur les agents pathogènes humains et les toxines (LAPHT) |
-| `895` | YFVCD -YELLOW FEVER VACCINATION CENTRE DESIGNATION | DESIGNATION D&#39;UN CENTRE DE VACCINATION CONTRE LA FIEVRE JAUNE |
+| `892` | Human Pathogens and Toxins Act Security Clearance | Loi sur les agents pathogènes et les toxines (LAPHT) autorisation de sécurité |
+| `895` | Yellow Fever Vaccination Centre Designation | Désignation d&#39;un centre de vaccination contre la fièvre jaune |
 | `896` | Access to Information and Privacy (ATIP) | Accès à l&#39;information et la protection des renseignements personnels (AIPRP) |
 | `898` | Public Enquiries | Demandes de renseignement |
 | `899` | Public Health Agency of Canada Publications | Publications de l&#39;Agence de la santé publique du Canada |
@@ -1977,22 +2055,22 @@ FR: Le numéro unique attribué à un service dans le répertoire afin de facili
 | `919` | Application for certification of exposure device operators | Demande d’accréditation des opérateurs d’appareil d’exposition |
 | `920` | Transport licence application | Demande de permis de transport |
 | `921` | Participant Funding Program | Programme de financement des participants |
-| `9223` | Climate Change Funding Programs - Implementation Readiness Fund | Programmes de financement des changements climatiques - Fonds de préparation à la mise en œuvre |
+| `9223` | Climate Change Funding Programs - Implementation Readiness Fund | Programmes de financement pour le changement climatique - Fonds de préparation à la mise en œuvre |
 | `924` | Professional and Technical Services | Services Professionnels et Techniques |
 | `925` | Ministerial Correspondence | Correspondance ministérielle |
 | `926` | Canadian Firearms Program (CFP) - Firearms Licensing for individuals | Programme canadien des armes à feu (PCAF) - Permis d&#39;armes à feu pour les particuliers |
 | `927` | Canadian Firearms Program (CFP) - Firearms Licensing for businesses | Programme canadien des armes à feu (PCAF) - Permis d&#39;armes à feu pour les entreprises |
-| `928` | National Forensic Laboratory Services (NFLS) | Services nationaux de laboratoire judiciaire (SNLJ) |
+| `928` | National Forensic Laboratory Services (NFLS) | Services nationaux de laboratoire judiciaure (SNLJ) |
 | `929` | Certified Criminal Record Checks | Attestation de vérification de casier judiciaire |
 | `930` | Canadian Criminal Real Time Identification Services (CCRTIS) - Accreditation Services | Les Services canadiens d&#39;identification criminelle en temps réel (SCICTR) - Service d&#39;accréditation |
-| `931` | Integrated Forensic Identification Services (IFIS) - Disaster Victim Identification (DVI) | Service intégré de l&#39;identité judiciaire (SIIJ) - d&#39;identification des victimes de catastrophes (IVC). |
-| `932` | National DNA Data Bank (NDDB) Indices Comparison | Banque nationale de données génétiques - comparaison des fichiers (BNDG) |
+| `931` | Integrated Forensic Identification Services (IFIS)- Disaster Victim Identification (DVI) | Service intégré de l&#39;identité judiciaire (SIIJ) - d&#39;identification des victimes de catastrophes (IVC). |
+| `932` | National DNA Data Bank (NDDB) Indices Comparison | Banque nationale de données génétiques - comparaison des indices (BNDG) |
 | `934` | Canadian Police Information Centre (CPI Centre) | Centre d&#39;information de la police canadienne (Centre IPC) |
 | `935` | Canadian Police College (CPC) | Collège canadian de police (CCP) |
 | `936` | National Law Enforcement Training (NLET) | Groupe de la formation policière nationale (GFPN) |
 | `937` | Access to Information and Privacy (ATIP) | Accès à l’information et de protection des renseignements personnels (AIPRP) |
 | `938` | Contract Security (Company Registration, Personal Security Screening, Call Centre) | Sécurité des contrats (enregistrement d&#39;une entreprise, filtrage de la sécurité du personnel, centre d&#39;appels) |
-| `939` | Integrity Verification Services | Services de vérification de l&#39;intégrité |
+| `939` | Integrity Verification Services | Services de vérification d&#39;intégrité |
 | `940` | Controlled Goods (Company Registration, Security Assessments, Exemption Applications for Visitors, Temporary Workers and International Students) | Marchandises contrôlées (enregistrement des entreprises, évaluations de sécurité, demandes d&#39;exemption pour les visiteurs, les travailleurs temporaires et étudiants étrangers) |
 | `941` | Fairness Monitoring Services | Services de surveillance de l&#39;équité |
 | `942` | Business Dispute Management Services | Gestion des conflits d&#39;ordre commercial |
@@ -2001,7 +2079,7 @@ FR: Le numéro unique attribué à un service dans le répertoire afin de facili
 | `946` | Federal Leadership on Law Enforcement and Policing Research | Leadership fédéral en recherche en matière d&#39;application de la loi et la police |
 | `947` | Passport Cancellation Reconsideration | Réexamen de l&#39;annulation des passeports |
 | `949` | Registry Services (Registrar) | Service du greffe (greffier) |
-| `95` | Intra-building Network | Réseau à l’intérieur des immeubles |
+| `95` | Intra-building Network Services | Services de réseau à l’intérieur des immeubles |
 | `950` | Library Services | Service de Bibliothèque |
 | `951` | Visitor Services and Experiences | Services et expériences aux visiteurs |
 | `952` | Accommodation services in Parks Canada&#39;s Places | Services d&#39;hébergement dans les endroits de Parcs Canada |
@@ -2012,14 +2090,14 @@ FR: Le numéro unique attribué à un service dans le répertoire afin de facili
 | `960` | Shared Travel Services | Services de voyage partagés |
 | `961` | Access to Information Service | Service d&#39;accès à l&#39;information |
 | `962` | Output-Based Pricing System (OPBS) Registration System | Système de tarification fondé sur le rendement |
-| `963` | National Environmental Emergencies Centre (NEEC) | Centre national des urgences environnementales (CNEE) |
+| `963` | National Environmental Emergencies Centre | Centre National des Urgences Environnementales |
 | `965` | Antarctic Environmental Protection Act permitting | Délivrance de permis - Loi sur la protection de l’environnement en Antarctique |
-| `966` | Workplace Accommodations Services | Service d&#39;aménagement en milieux de travail |
+| `966` | GC Accommodations space management system | Système de gestion de l&#39;espace de GC locaux |
 | `967` | Property and Facility Management | Gestion des biens et des installations |
 | `968` | Events and Conference Management | Gestion d&#39;événements et de conférences |
 | `969` | Architecture and Engineering | Architecture et génie |
 | `970` | Payments in Lieu of Taxes | Paiements en remplacement d&#39;impôts |
-| `971` | Real Estate Transactions Services | Services des transactions immobilières |
+| `971` | Real Estate Services | Services des biens immobiliers |
 | `972` | Property Portfolio and Asset Advisory Services | Services consultatifs en matière de gestion de portefeuilles de biens immobiliers et de biens |
 | `973` | Environment, Health and Safety Services for Real Property | Services en matière d&#39;environnement, de santé et de sécurité pour les biens immobiliers |
 | `974` | Geomatics Services | Services géomatique |
@@ -2033,7 +2111,7 @@ FR: Le numéro unique attribué à un service dans le répertoire afin de facili
 | `983` | Access to Information and Privacy | Accès à l&#39;information et protection des renseignements personnels |
 | `984` | Shared Human Resources Services | Services partagés en ressources humaines |
 | `985` | Import permits for species harmful to Canadian ecosystems | Permis d&#39;importation d&#39;espèces nuisibles aux écosystèmes du Canada |
-| `986` | Convention on International Trade in Endangered Species (CITES) | la Convention sur le commerce international des espèces de faune et de flore sauvages menacées d’extinction |
+| `986` | Permits for trade in protected species | Permis pour le commerce d&#39;espèces protégées |
 | `987` | Migratory Birds: all other permits | Oiseaux migrateurs: autres permis |
 | `988` | Permits under the Wildlife Area Regulations | Permis en vertu du Règlement sur les réserves d&#39;espèces sauvages |
 | `989` | Complaint Investigation of Suspected Inaccurate Measurement | Enquête sur les plaintes concernant les mesures inexactes soupçonnées |
@@ -2066,10 +2144,10 @@ FR: Le numéro unique attribué à un service dans le répertoire afin de facili
 | `SRV02660` | Livestock Feed Registration or Renewal | Enregistrement ou renouvellement des aliments pour animaux de ferme |
 | `SRV02661` | Research Exemption with Safety - Research with Livestock Feeds | Dispense de recherche avec la sécurité - Recherche sur les aliments pour animaux de ferme |
 | `SRV02662` | Research Exemption - Research with Livestock Feeds | Dispense de recherche - Recherche sur les aliments pour animaux de ferme |
-| `SRV02663` | Research Approval Livestock Feeds | Autorisation de recherche - Recherche sur les aliments pour animaux de ferme |
-| `SRV02664` | Veterinary Biologics Product Licence | Demandes d&#39;homologation de nouveaux produits |
+| `SRV02663` | Research Authorization- Research with Livestock Feeds | Autorisation de recherche - Recherche sur les aliments pour animaux de ferme |
+| `SRV02664` | Product Licensing Submissions for Veterinary Biologics | Demandes d&#39;homologation de nouveaux produits |
 | `SRV02665` | Veterinary Biologics Serial Release | Mise en circulation des séries de produits biologiques vétérinaires |
-| `SRV02666` | Veterinary Biologics Label | Évaluation de l&#39;étiquette |
+| `SRV02666` | Label review for major and or minor Veterinary Biologics | Évaluation de l&#39;étiquette |
 | `SRV02667` | Aquatic Animal Health Compartmentalization Program | Programme de compartimentation santé des animaux aquatiques |
 | `SRV02668` | Equine Infectious Anemia Control Program | Programme de lutte contre l&#39;anémie infectieuse des équidés |
 | `SRV02669` | Chronic Wasting Disease Herd Certification Programs | Programmes de certification des troupeaux pour la maladie débilitante chronique |
@@ -2084,9 +2162,9 @@ FR: Le numéro unique attribué à un service dans le répertoire afin de facili
 | `SRV02678` | Import Animal Products and By-Products | Importation des produits et sous-produits d&#39;animaux terrestres |
 | `SRV02679` | Import Aquatic Animals | Importation d&#39;animaux aquatiques |
 | `SRV02680` | Import Animal Pathogens | Importation des zoonoses pathogènes |
-| `SRV02681` | Veterinary Biologics Import | Importation de produits biologiques vétérinaires |
+| `SRV02681` | Import Veterinary Biologics | Importation de produits biologiques vétérinaires |
 | `SRV02682` | Veterinary Biologics Export Certificates | Certificats d&#39;exportation de produits biologiques vétérinaires |
-| `SRV02683` | Export Animal - Certificates - live animal, animal products and by-products | Certificats de santé pour l&#39;exportation - des produits et sous-produits d&#39;animaux terrestres |
+| `SRV02683` | Export Certificates - live animal, animal products and by-products | Certificats de santé pour l&#39;exportation - des produits et sous-produits d&#39;animaux terrestres |
 | `SRV02687` | Licence to Print Official Seed Tag | Licence pour imprimer des etiquettes officielles de semence |
 | `SRV02688` | Multiplication Agreement for Varietal Certification of Seed Multiplied Abroad | Entente de multiplication pour la certification variétale des semences à l&#39;étranger |
 | `SRV02689` | Recognition of Export Grain Analysis by Authorized Laboratories (REGAL) program | Le Programme de laboratoires autorisé pour l&#39;analyse des grains à l&#39;exportation (PLAAGE) |
@@ -2110,7 +2188,7 @@ FR: Le numéro unique attribué à un service dans le répertoire afin de facili
 | `SRV02707` | Hardwood Export Program | Programme d&#39;exportation de bois de feuillus |
 | `SRV02708` | Wild Rice Export Program | Programme d&#39;exportation de riz sauvage |
 | `SRV02709` | Canadian Sawn Wood Certification Program | Programme canadien de certification du bois scié |
-| `SRV02710` | Greenhouse-Grown Plant Certification Program | Programme de certification des végétaux cultivés en serre |
+| `SRV02710` | United States – Canada Greenhouse-Grown Plant Certification Program | Programme États-Unis - Canada de certification des végétaux cultivés en serre |
 | `SRV02711` | Canadian Growing Media Program, Approval Process and Import Requirements | Programme canadien des milieux de culture, processus d&#39;approbation préalable et exigences en matière d&#39;importation de végétaux enracinés dans des milieux de culture approuvés |
 | `SRV02712` | Grapevine Export Program | Programme d&#39;exportation de la vigne |
 | `SRV02713` | Systems Approach Based Oriental Fruit Moth Certification Program | Programme de certification visant la tordeuse orientale du pêcher fondé sur une approche systémique |
@@ -2157,7 +2235,7 @@ FR: Le numéro unique attribué à un service dans le répertoire afin de facili
 | `SRV02755` | Fertilizer Export Certificates | Certificats d&#39;exportation pour l&#39;engrais |
 | `SRV02762` | Permit to Import - Plants and Plant Products | Permis d&#39;importation - les végétaux et les produits végétaux |
 | `SRV02763` | Notice to Industry | Avis à l&#39;industrie |
-| `SRV02764` | Preventive Control Inspection | l&#39;inspection de contrôle préventif |
+| `SRV02764` | Preventative Control Inspection | l&#39;inspection de contrôle préventif |
 | `SRV02765` | Supporting a Humanitarian Workforce to Respond to COVID-19 and Other Large-Scale Emergencies | Appuyer une main-d&#39;œuvre humanitaire pour répondre à la COVID-19 et à d&#39;autres urgence de grande envergure |
 | `SRV02766` | Building Safer Communities Fund | Fonds pour bâtir des communautés sécuritaires |
 | `SRV02767` | Written Authorization to Conduct Activities on Plant Pests | Autorisation écrite de mener des Activités sur des phytoravageurs |
@@ -2168,7 +2246,7 @@ FR: Le numéro unique attribué à un service dans le répertoire afin de facili
 | `SRV02772` | Tourism Relief Fund (TRF) | Le Fonds d’aide au tourisme |
 | `SRV02773` | Jobs and Growth Fund (JGF) | Le Fonds pour l’emploi et la croissance |
 | `SRV02774` | Aerospace Regional Recovery Initiative (ARRI) | L’Initiative de relance régionale de l’aérospatiale (IRRA) |
-| `SRV02775` | Data Centre Facilities Management | Gestion des installations des centres de données |
+| `SRV02775` | Data Centre Facilities | Installations des centres de données |
 | `SRV02776` | Public Awareness Contribution Program (PACP) | Programme de contribution à la sensibilisation du publique (PCEP) |
 | `SRV02779` | Real Property Contract Oversight Services | Services de surveillance des contrats immobiliers |
 | `SRV02780` | Project Management | Gestion de projet |
@@ -2180,9 +2258,9 @@ FR: Le numéro unique attribué à un service dans le répertoire afin de facili
 | `SRV02789` | Application for Cannabis Record Suspension | Demande de suspension du casier liée au cannabis |
 | `SRV02790` | Intellectual Property Centre of Expertise (IP CoE) | Centre d&#39;expertise en Propriété intellectuelle (CE PI) |
 | `SRV02791` | Canada Digital Adoption Program - Boost Your Business Technology | Programme canadien d’adoption du numérique - Améliorez les technologies de votre entreprise |
-| `SRV02792` | Weather information services to public authorities | Services d&#39;informations météorologiques aux autorités publiques |
-| `SRV02793` | Meteorological support for environmental emergency response | Soutien météorologique pour les urgences environnementales |
-| `SRV02795` | Temporary exemption for emergency circumstances under the Reduction of Carbon Dioxide Emissions from Coal-Fired Generation of Electricity Regulations | Exemption temporaire pour situations d&#39;urgence en vertu du Règlement sur la réduction des émissions de dioxyde de carbone — secteur de l’électricité thermique au charbon |
+| `SRV02792` | Weather Information Services to Public Authorities | Services d&#39;informations météorologiques aux autorités publiques |
+| `SRV02793` | Meteorological Support for Environmental Emergency Response | Soutien météorologique pour les urgences environnementales |
+| `SRV02795` | Temporary exemption for emergency circumstances under the Reduction of Carbon | Exemption temporaire pour situations d&#39;urgence en vertu du Règlement sur la réduction des émissions de dioxyde de carbone |
 | `SRV02798` | Temporary waivers to fuel regulations | Exemptions temporaires en vertu des règlements sur les carburants |
 | `SRV02800` | Antarctic Environmental Protection Act permitting | Protection de l&#39;environnement en Antarctique |
 | `SRV02811` | Enhanced Nature Legacy - Indigenous-led Area Based Conservation | Conservation par zone menée par les Autochtones - Capacité et formation |
@@ -2192,15 +2270,15 @@ FR: Le numéro unique attribué à un service dans le répertoire afin de facili
 | `SRV02815` | GCXchange | GCéchange |
 | `SRV02816` | Taxation Statistical Analyses and Data Processing | Analyse statistique et traitement de données de l’impôt |
 | `SRV02817` | Debt Management Call Centre | Centre d’appels de la gestion des créances |
-| `SRV02818` | Public Accounts of Canada | Comptes publics du Canada |
+| `SRV02818` | Financial audits of the Public Accounts of Canada | Audit des états financiers des Comptes publics du Canada |
 | `SRV02820` | Internal Audit | Audit Interne |
 | `SRV02821` | Scientific Research and Experimental Development (SR&amp;ED) Tax Credits, Canadian film or video production tax credit (CPTC), and film or video production services tax credit (PSTC) – Claims not selected for a review or an audit | Crédit d’impôt pour la recherche scientifique et le développement expérimental (RS&amp;DE), crédit d’impôt pour production cinématographique ou magnétoscopique canadienne (CIPC) et crédit d’impôt pour services de production cinématographique ou magnétoscopique (CISP) Demandes non sélectionnées pour un examen ou une vérification |
-| `SRV02822` | Scientific Research and Experimental Development (SR&amp;ED) Tax Credits – Refundable claims selected for a review | Crédit d’impôt pour la recherche scientifique et le développement expérimentale (RS&amp;DE) demandes remboursables sélectionnées pour un examen |
+| `SRV02822` | Scientific Research and Experimental Development (SR&amp;ED) Tax Credits – Refundable claims selected for a review | Crédit d’impôt pour la recherche scientifique et le développement expérimentale (RS&amp;DE) – demandes remboursables sélectionnées pour un examen |
 | `SRV02823` | Event Management Service | Service de gestion d&#39;évenements |
 | `SRV02824` | Canadian film or video production tax credit (CPTC) and film or video production services tax credit (PSTC) – Claims selected for an audit | Crédit d’impôt pour production cinématographique ou magnétoscopique canadienne (CIPC) et crédit d&#39;impôt pour services de production cinématographique ou magnétoscopique (CISP) – Demandes sélectionnées pour une vérification |
 | `SRV02825` | Canada Worker Lockdown Benefit (CWLB) | Prestation canadienne pour les travailleurs en cas de confinement (PCTCC) |
 | `SRV02826` | Hardest-Hit Business Recovery Program (HHBRP) | Programme de relance pour les entreprises les plus durement touchées (PREPDT) |
-| `SRV02827` | Export Development Canada filings | Le dépôt des déclarations d&#39;Exportation et développement Canada. |
+| `SRV02827` | Financial audit of Export Development Canada’s consolidated financial statements | Audit d’états financiers consolidés d’Exportation et développement Canada |
 | `SRV02828` | Tourism and Hospitality Recovery Program (THRP) | Programme de relance pour le tourisme et l&#39;accueil (PRTA) |
 | `SRV02829` | Financial audits of territorial organizations | Audits financiers des organisations territoriales |
 | `SRV02830` | Canada Recovery Hiring Program (CRHP) | Programme d&#39;embauche pour la relance économique du Canada (PEREC) |
@@ -2209,7 +2287,7 @@ FR: Le numéro unique attribué à un service dans le répertoire afin de facili
 | `SRV02834` | Graphic Design Services | Services de conception graphique |
 | `SRV02836` | Editing Services | Services de révision |
 | `SRV02838` | Public Enquiries Services | Services de renseignements au public |
-| `SRV02840` | Web Services | Services Web |
+| `SRV02840` | Web services | Services web |
 | `SRV02841` | Social Media Services | Services des médias sociaux |
 | `SRV02842` | Strategic Communications | Communication Stratégiques |
 | `SRV02843` | Digital Communications and Design Support | Communications numériques et aide à la conception |
@@ -2238,7 +2316,7 @@ FR: Le numéro unique attribué à un service dans le répertoire afin de facili
 | `SRV02869` | International Accommodation Services | Services d&#39;hébergement internationaux |
 | `SRV02870` | Client Relations | Relations avec les clients |
 | `SRV02871` | Engineering Services | Service d&#39;ingénierie |
-| `SRV02872` | Material Management Service | Service de Gestion du Matériel |
+| `SRV02872` | Material Management Service | Service de gestion du matériel |
 | `SRV02873` | Transfer and diffusion of space technology | Diffusion et transfert de technologies spatiales |
 | `SRV02874` | Security Program Management Service | Service de gestion de programme de sécurité |
 | `SRV02875` | Atmospheric data on carbon monoxide concentration (MOPITT on Terra) | Données atmosphériques sur la concentration de monoxyde de carbone (MOPITT sur Terra) |
@@ -2253,7 +2331,7 @@ FR: Le numéro unique attribué à un service dans le répertoire afin de facili
 | `SRV02884` | Historical Earth observation data (R1) | Données historiques d&#39;observation de la Terre (R1) |
 | `SRV02885` | Guidelines on risk-based monitoring of grants and contributions | Lignes directrices sur le suivi axé sur les risques des subventions et de contributions |
 | `SRV02886` | Access to Places Administered by Parks Canada | Accès aux Lieux Administrés par Parcs Canada |
-| `SRV02887` | Emergency Dispatch | Répatition d&#39;uregence |
+| `SRV02887` | Emergency Dispatch | Envoi d&#39;urgence |
 | `SRV02888` | User support for SAR data (Service Desk) | Support aux utilisateurs des données SAR (Service Desk) |
 | `SRV02889` | Support for SCISAT data users | Support aux utilisateurs des données SCISAT |
 | `SRV02890` | Weights and Measures Calibration | L&#39;étalonnage des appareils de pesage et de mesure |
@@ -2262,7 +2340,7 @@ FR: Le numéro unique attribué à un service dans le répertoire afin de facili
 | `SRV02898` | Promotion and Disease Prevention: Communicable Disease Control and Management - Direct Service Delivery | Promotion et prévention des maladies : Contrôle et gestion des maladies transmissibles - Prestation directe de services |
 | `SRV02899` | Pathways to Safe Indigenous Communities | Voies vers des communautés autochtones sûres |
 | `SRV02900` | National Compensation Services (NCS) | Services nationaux de rémunération (SNR) |
-| `SRV02901` | Substance Use and Addictions Program | Programme sur l&#39;usage et les dépendances aux substances |
+| `SRV02901` | Substance Use and Addictions Program | Programme sur l’usage et des dépendances aux substances |
 | `SRV02902` | Respond to requests for information and complaints of Cannabis promotion prohibitions | Répondre aux demandes d&#39;information et aux plaintes relatives aux interdictions de promotion du cannabis |
 | `SRV02903` | Screening and Triage-Personal Registration | Examen et triage – Demandes d’inscription personnelle |
 | `SRV02904` | Media Enquiries | Demandes des médias |
@@ -2270,12 +2348,12 @@ FR: Le numéro unique attribué à un service dans le répertoire afin de facili
 | `SRV02908` | Correspondence Referrals to other Departments (dep&#39;t email, contact us page) | Correspondance Renvois vers d&#39;autres départements (courriel du département, page Contactez-nous) |
 | `SRV02909` | Departmental Correspondence (not including referrals) | Correspondance ministérielle (à l&#39;exclusion des renvois) |
 | `SRV02910` | Public Enquiries (not referrals) | Demandes de renseignements du public (pas de renvois) |
-| `SRV02911` | Ministerial Correspondence | Correspondance ministérielle |
+| `SRV02911` | Ministerial Correspondence (SPB) | Correspondance ministérielle (DGPS) |
 | `SRV02912` | Canadian Hazards Information Service (Untargeted) | Service canadien d&#39;information sur les risques (non ciblé) |
 | `SRV02913` | GeoConnections Program | Programme GéoConnexions |
 | `SRV02914` | Canada Greener Homes Initiative | Initiative canadienne pour des maisons plus vertes |
 | `SRV02915` | Youth Employment and Skills Strategy - S &amp; T Internship Program - Green Jobs | Stratégie emploi et compétences jeunesse - le Programme de stages en sciences et technologie - emplois verts |
-| `SRV02916` | Security Screening Management System (SSMS) | Systeme de gestion du filtrage de sécurité (SGFS) |
+| `SRV02916` | Departmental Security Management System (DSMS) - Service name updated to :Security Screening Management System (SSMS) | Systeme de gestion du filtrage de sécurité (SGFS) |
 | `SRV02917` | Open Science and Data Platform | Plateforme de science et de données ouvertes |
 | `SRV02918` | Emissions Reduction Fund Offshore Deployment Program | Programme de déploiement extracôtier du fonds de réduction des émissions |
 | `SRV02919` | Smart Grid Deployment Program | Programme de déploiement de réseaux intelligents |
@@ -2284,10 +2362,10 @@ FR: Le numéro unique attribué à un service dans le répertoire afin de facili
 | `SRV02922` | Strategic Interties Predevelopment Program | Programme de prédéveloppement des interconnexions stratégiques |
 | `SRV02923` | Smart Renewables and Electrification Pathways Program - Capacity Building and Indigenous Engagement Grants | Programme des énergies renouvelables intelligentes et de trajectoires d’électrification - Renforcement des capacités et Subventions pour l’engagement des Autochtones |
 | `SRV02924` | Nature Conservation | Conservation de la nature |
-| `SRV02925` | Wildfire Emergency Preparedness and Response | Préparation et intervention d&#39;urgence en cas d&#39;incendie de forêt |
+| `SRV02925` | Wildfire Emergency Response | Intervention d&#39;urgence en cas d&#39;incendie de forêt |
 | `SRV02926` | Large Value Transfer Payment | Paiement de transfert de grande valeur |
 | `SRV02927` | Results of the Survey of Private Sector Economic Forecasters | Résultats de l&#39;enquête auprès des prévisionnistes économiques du secteur privé |
-| `SRV02928` | Law Enforcement | L&#39;Application de la loi |
+| `SRV02928` | Law Enforcement | Forces de l&#39;ordre |
 | `SRV02930` | Publication of key economic documents | Publication de documents économiques clés |
 | `SRV02932` | CCOHS E-Learning | Apprentissage en ligne du CCHST |
 | `SRV02933` | Value-Added Services Provided at Places Administered by Parks Canada | Services à valeur ajoutée offerts dans les lieux administrés par Parcs Canada |
@@ -2297,7 +2375,7 @@ FR: Le numéro unique attribué à un service dans le répertoire afin de facili
 | `SRV02937` | Emergency geomatics and satellite mapping service | Service de géomatique d&#39;urgence et de cartographie par satellite |
 | `SRV02938` | Satellite Ground Stations | Stations-relais pour satellites |
 | `SRV02939` | Canada Map Office | Bureau des cartes du Canada |
-| `SRV02940` | Clean Energy for Rural and Remote Communities Program - Capacity Building and Grants | Programme d&#39;énergie propre pour les collectivités rurales et éloignées - Renforcement des capacités et subventions |
+| `SRV02940` | Clean Energy for Rural and Remote Communities Program - Capacity Building | Programme d&#39;énergie propre pour les collectivités rurales et éloignées - Renforcement des capacités |
 | `SRV02941` | Radiological Risk Assessments | Évaluation des risques radiologiques |
 | `SRV02942` | Human Monitoring and Assessment | Surveillance et évaluation humaines |
 | `SRV02943` | National Calibration Reference Centre Performance Testing Program | Centre national de référenceProgramme de test de performance |
@@ -2326,36 +2404,36 @@ FR: Le numéro unique attribué à un service dans le répertoire afin de facili
 | `SRV02973` | National Criminal Operations (NCROPS) | Opérations criminelles nationales (SNPC) |
 | `SRV02974` | Operational Communication Centers (OCC) | Stations de transmissions opérationnelles (STO) |
 | `SRV02975` | Strategic Policing Agreements and Service | Accords de services de police stratégiques et Service |
-| `SRV02976` | Operational Systems Service Centre (OSSC) | Centre de service des systèmes de la police opérationnels (CSSPO) |
+| `SRV02976` | Operational Systems Service Centre (OSSC) : | Centre de service des systèmes de la police opérationnels (CSSPO) |
 | `SRV02977` | RCMP- National Crime Prevention and Indigenous Policing Services | (GRC) Services nationaux de prévention du crime et de police autochtone |
 | `SRV02978` | Federal Policing Criminal Operations (FPCO) | Opérations Criminelles de la Police Fédérale (OCPF) |
 | `SRV02979` | National Security | Sécurité nationale |
 | `SRV02980` | RCMP- National Critical Infrastructure Team | (GRC) Équipe nationale des infrastructures essentielles |
 | `SRV02981` | Canadian Air Carrier Protective Program | Programme de protection des transporteurs aériens canadiens |
-| `SRV02982` | Protective Policing | Operations internationales de la paix |
+| `SRV02982` | Protective Policing | Police de protection |
 | `SRV02983` | RCMP- Witness Protection | (GRC) Protection des témoins |
 | `SRV02984` | Project Seahorse | Projet Seahorse |
-| `SRV02985` | Federal Policing National Intelligence | Police fédérale renseignement national |
+| `SRV02985` | National Intelligence | Renseignement national |
 | `SRV02987` | Interpol/Europol | Interpol/Europol |
 | `SRV02988` | Passport Selection | Sélection de passeports |
 | `SRV02990` | Operational Information Management | Gestion de l&#39;information opérationnelle |
-| `SRV02991` | International Operations and Policing Development **International Capacity Building Program | Opérations internationales et développement des services de police **Programme international de renforcement des capacités |
-| `SRV02992` | International Liaison and Deployment Centre | Centre de coordination et de liaison internationale |
-| `SRV02993` | International Peace Operations | Services de déploiement international |
-| `SRV02994` | International Health Services | Services de santé international |
+| `SRV02991` | International Operations and, Policing Development | Opérations internationales et développement des services de police |
+| `SRV02992` | International Liaison and Coordination Centre | Centre de coordination et de liaison internationale |
+| `SRV02993` | International Deployment Services | Services de déploiement international |
+| `SRV02994` | International Health, Protection and Wellness | Santé, protection et bien-être international |
 | `SRV02997` | RCMP- Canadian Police Information Center | (GRC) Centre d&#39;information de la police canadienne |
 | `SRV02998` | RCMP- Canadian Criminal Real Time Identification Services | (GRC) Services canadiens d&#39;identification criminelle en temps réel |
 | `SRV02999` | RCMP- Science and Strategic Partnerships | (GRC) Partenariats scientifiques et stratégiques |
-| `SRV03000` | Air Services | Service de l&#39;air |
+| `SRV03000` | Air Services | Services aériens |
 | `SRV03001` | Specialized Technical Investigative Services | Services d&#39;enquêtes techniques spécialisées |
 | `SRV03002` | Protective Technical Services | Services techniques de protection |
-| `SRV03003` | Chemical, Biological, Radiological, Nuclear and Explosives (CBRNE) | Chimique, biologique, radiologique, nucléaire et explosifs |
+| `SRV03003` | Chemical, Biological, Radiological, Nuclear and Explosives | Chimique, biologique, radiologique, nucléaire et explosifs |
 | `SRV03004` | Behavioural Sciences Investigative Services (BSIS) | Services d&#39;enquêtes en sciences du comportement (SESC) |
 | `SRV03005` | National Centre for Missing Persons and Unidentified Remains (NCMPUR) | Centre national pour les personnes disparues et les restes non identifiés (CNPDRN) |
 | `SRV03006` | National Child Exploitation Crime Centre (NCECC) | Centre national contre l&#39;exploitation des enfants (CNCEE) |
 | `SRV03007` | Truth Verification Section (TVS) | Section des contrôles de sincérité (SCS) |
 | `SRV03008` | National Radio Services (NRS) | Programme de services radio nationaux (SRN) |
-| `SRV03009` | Cyber Security, Operations and Platform Support | Cybersécurité, soutien des opérations et des plateformes |
+| `SRV03009` | Operations and Platform Support | Soutien des opérations et des plateformes |
 | `SRV03010` | Digital Systems and Solutions Delivery | Soutien aux forces de l&#39;ordre des systèmes, applications et services critiques |
 | `SRV03012` | Corporate Staffing - Member | Dotation ministérielle - Membre |
 | `SRV03014` | Cadet Training Services | Services de formation des cadets |
@@ -2363,7 +2441,7 @@ FR: Le numéro unique attribué à un service dans le répertoire afin de facili
 | `SRV03016` | Liaison with national and international enforcement partners | Liaison avec les partenaires nationaux et internationaux chargés de l&#39;application de la loi |
 | `SRV03017` | Exemptions from the Controlled Drugs and Substances Act in reponse to emergencies (CSCB) | Exemptions pour l&#39;utilisation de substances contrôlées en réponse à des urgences (DGSCC) |
 | `SRV03018` | Issuance of No Objection Letters for imports | Délivrance de lettres de non-objection pour les importations |
-| `SRV03019` | Issuance of Designated Device Registrations under the Controlled Drugs and Substances Act | Délivrance d&#39;enregistrements de dispositifs désignés en vertu de la Loi réglementant certaines drogues et autres substances |
+| `SRV03019` | Issuance of Designated Device Registrations under the Controlled Drugs and Substances Act | Délivrance de l&#39;enregistrement d&#39;un instruments désignés |
 | `SRV03044` | Federal Economic Immigration- Permanent Residence | Immigration économique fédérale- Résidence permanente |
 | `SRV03045` | Regional Economic Immigration- Permanent Residence | Immigration économique régionale- Résidence permanente |
 | `SRV03046` | Family Reunification- Permanent Residence | Regroupement familial- Résidence permanente |
@@ -2375,7 +2453,7 @@ FR: Le numéro unique attribué à un service dans le répertoire afin de facili
 | `SRV03054` | African Swine Fever Industry Preparedness Program: Prevention and Preparedness Stream | Programme de préparation de l’industrie à la peste porcine africaine : Volet Prévention et préparation |
 | `SRV03055` | African Swine Fever Industry Preparedness Program: Welfare Slaughter and Disposal Stream | Programme de préparation de l’industrie à la peste porcine africaine : Volet Abattage par compassion et élimination |
 | `SRV03056` | AgriCommunication | Programme Agri-communication |
-| `SRV03057` | Agricultural Clean Technology: Research and Innovation Stream | Programme des technologies propres en agriculture : Volet Recherche et innovation |
+| `SRV03057` | Agricultural Clean Technology:Research and Innovation Stream | Programme des technologies propres en agriculture : Volet Recherche et innovation |
 | `SRV03058` | Wine Sector Support Program | Programme d&#39;aide au secteur du vin |
 | `SRV03060` | The Victim Liaison Officer | L&#39;agent de liaison de la victime |
 | `SRV03061` | Sexual Misconduct Support and Resource Center&#39;s Community Support for Sexual Misconduct Survivors Grant Program | Le programme de subventions pour le soutien communitaire pour les personnes surviantes d&#39;inconduite sexuelle du Centre de soutien et de resources sur l&#39;inconduite sexuelle |
@@ -2412,13 +2490,13 @@ FR: Le numéro unique attribué à un service dans le répertoire afin de facili
 | `SRV03153` | LDD Forest Products - Receiving Regulated Product | Produits forestiers LDD - Réception de produits réglementés |
 | `SRV03154` | License for Removal of Animals or Things Under the authority of The Health of Animals Act | Permis pour l&#39;enlèvement d&#39;animaux ou de choses en vertu de la Loi sur la santé des animaux |
 | `SRV03155` | Anti-Crime and Counter-Terrorism Capacity Building Programs (AC/CTCBP) | Programme d’aide au renforcement des capacités en matière de lute contre la criminalité et le terrorism |
-| `SRV03156` | Application for a certificate of mistaken identity | Demande de certificat d’erreur d&#39;identité |
+| `SRV03156` | Application for a certificate - Mistaken identity | Demande d&#39;attestation - erreur d&#39;identité |
 | `SRV03157` | Application for Review of Seizure Order | Demande d&#39;examination de décret concernant la saisie de biens situés au Canada |
 | `SRV03158` | Application to no longer be a designated person | Demande de radiation |
 | `SRV03159` | Shipborne Dunnage Program | Programme du bois de calage transporté par les navires |
 | `SRV03160` | Avian Influenza Movement - General Permit | Mouvement de la grippe aviaire – Permis général |
 | `SRV03161` | Peat Export Program | Programme d&#39;exportation de tourbe |
-| `SRV03162` | Biosafety and biocontainment facility compliance | Conformité des installations en biosécurité et bioconfinement |
+| `SRV03162` | Compliance Letter (Animal Pathogen Laboratories) | Lettre de conformité (Laboratoires d&#39;agents pathogènes animaux) |
 | `SRV03164` | Baseline Threat Assessments (BTAs) | L’évaluation de base des menaces(EBM) |
 | `SRV03168` | Cancellation and revocation of passports and refusal of passport services | Annulation et révocation de passeports et refus de services de passeport |
 | `SRV03170` | Research Security Centre | Centre de la sécurité de la recherche |
@@ -2428,7 +2506,7 @@ FR: Le numéro unique attribué à un service dans le répertoire afin de facili
 | `SRV03175` | Canada Book Fund - Support for Publishers- Publishing Support | Fonds du livre du Canada - Soutien aux éditeurs - Soutien à l’édition |
 | `SRV03176` | Canadian International Innovation Program (CIIP) | Le programme canadien de l&#39; innovation à l&#39;internationale (PCII) |
 | `SRV03177` | Development of Emergency Economic Stimulus Packages | Élaboration de plans de relance économique d’urgence |
-| `SRV03178` | Canadian Police Arrangement and Civilian Deployment Platform | Arrangement de la police civile canadienne et la Plateforme de déploiements de ressources civiles |
+| `SRV03178` | Canadian Police Arrangement and Civilian Deployment Platform | l’Arrangement sur la police civile canadienne (APCC)/la Plateforme de déploiements de ressources civiles |
 | `SRV03179` | Canada Book Fund - Support for Organizations | Fonds du livre du Canada - Soutien aux organismes |
 | `SRV03181` | Cyber Defence Services | Services de cyberdéfense |
 | `SRV03182` | Certificates under the United Nations Act | Certification en vertu de la Loi sur les Nations Unies |
@@ -2448,15 +2526,15 @@ FR: Le numéro unique attribué à un service dans le répertoire afin de facili
 | `SRV03196` | Weapons Threat Reduction Program (WTRP) | Programme de réduction de la menace liée aux armes |
 | `SRV03197` | Vetting | Vérification |
 | `SRV03199` | Venture Capital Attraction | Attraction du capital de risque |
-| `SRV03200` | Chemical Weapons Convention Implementation Act administration | Gestion de la loi sur la mise en oeuvre de la Convention sur les armes chimiques |
-| `SRV03203` | FSD Claim and entitlement administration | Administration des réclamations et des droits des DSE |
+| `SRV03200` | Chemical Weapons Convention Implementation Act (CWCIA) administration | Gestion de la loi sur la mise en oeuvre de la Convention sur les armes chimiques |
+| `SRV03203` | FSD Claim and entitlement administration | Administration des réclamations et des droits liés aux DSE |
 | `SRV03204` | Training: Governance, Access, Technical Security and Espionage (GATE) | Formation : Gouvernance, accès, sécurité technique et espionnage (GATE) |
 | `SRV03207` | Canada Periodical Fund - Special Measures for Journalism | Fonds du Canada pour les périodiques - Mesures spéciales pour appuyer le journalisme |
 | `SRV03209` | Celebration and Commemoration - Commemorate Canada | Célébrations et commémorations - Commémoration Canada |
 | `SRV03212` | Support for Hosting - International Multisport Games for Aboriginal Peoples and Persons with a Disability | Soutien pour l&#39;acceuil - Jeux internationaux multisports pour les Autochtones et les personnes ayant un handicap |
 | `SRV03214` | Support for Hosting - International Single Sport Events | Soutien pour l&#39;acceuil - Manifestations internationales unisport |
 | `SRV03215` | Zero Emission Vehicles Infrastructure Program (ZEVIP) | Programme d’infrastructure pour les véhicules à émission zéro (PIVEZ) |
-| `SRV03216` | Support for Hosting - International Major Multisport Games | Soutient pour l&#39;acceuil- Grands Jeux internationaux multisports |
+| `SRV03216` | International Major Multisport Games | Grands Jeux internationaux multisports |
 | `SRV03219` | Support the TCS clients (external) and the TCS Network (internal) with the Canadian Technology Accelerator applications (external) and assessments (internal) | Accélérateurs technologiques canadiens - support aux clients du SDC (externe) et au réseau interne |
 | `SRV03220` | Zero Emission Vehicle Awareness Initiative (ZEVAI) | Initiative de sensibilisation aux véhicules à émission zéro (ISVEZ) |
 | `SRV03221` | Fuel Consumption Guide (FCG) | Guide de consommation de carburant |
@@ -2485,7 +2563,7 @@ FR: Le numéro unique attribué à un service dans le répertoire afin de facili
 | `SRV03248` | Electricity and Natural Gas Meter Inspection | Inspections de compteurs d&#39;électricité et de gaz naturel |
 | `SRV03250` | Research Security | Sécurité de la recherche |
 | `SRV03251` | Clean Fuels Fund (CFF) | Fonds pour les combustibles propres |
-| `SRV03253` | Remote Sensing Space Systems Act administration, including licensing and regulatory activities | Administration de la Loi sur les systèmes de télédétection spatiaux (LSTS), y compris les activités de licence et de réglementation |
+| `SRV03253` | Remote Sensing Space Systems Act (RSSSA) administration, including licensing and regulatory activities | Administration de la Loi sur les systèmes de télédétection spatiaux (LSTS), y compris les activités de licence et de réglementation |
 | `SRV03254` | Regulatory Affairs and Litigation Support | Affaires réglementaires et d&#39;appui au litige |
 | `SRV03255` | Building Communities through Arts and Heritage - Community Anniversaries | Développement des communautés par le biais des arts et du patrimoine - Commémorations communautaires |
 | `SRV03256` | Providing statistical analysis and reports (CFO-Stats) | Fournir de l&#39;analyse et des rapports statistiques (DPF-Stats) |
@@ -2497,7 +2575,7 @@ FR: Le numéro unique attribué à un service dans le répertoire afin de facili
 | `SRV03264` | Electricity and Natural Gas Approvals | Approbation de compteurs d&#39;électricité et de gaz naturel |
 | `SRV03267` | Electricity and Natural Gas Measuring Apparatus Accuracy | Précision des appareils de mesure de l&#39;électricité et de gaz naturel |
 | `SRV03268` | Coordination of international STI Canadian priorities with SBDA&#39;s | Coordination des priorités internationales en STI avec les ministères et agences fédéraux à vocation scientifique |
-| `SRV03270` | FSD Policy compliance and guidance | Conformité et orientation de la politique des DSE |
+| `SRV03270` | FSD Policy compliance and guidance | Conformité et orientation en matière de politique des DSE |
 | `SRV03272` | Corporate Governance | Gouvernance |
 | `SRV03276` | Permits under the Special Economic Measures Act and the Justice for Victims of Corrupt Foreign Officials Act | Permis en vertu de la Loi sur les mesures économiques spéciales et de la Loi sur la justice pour les victimes de dirigeants étrangers corrompus |
 | `SRV03278` | Corporate Performance and Reporting | Rendement et rapports de l&#39;entreprise |
@@ -2517,7 +2595,7 @@ FR: Le numéro unique attribué à un service dans le répertoire afin de facili
 | `SRV03307` | Canada Travelling Exhibitions Indemnification | Indemnisation pour les expositions itinérantes au Canada |
 | `SRV03308` | Cultural Property Export and Import Act - Movable Cultural Property Grants | Loi sur l’exportation et l’importation de biens culturels - Subventions de biens culturels mobiliers |
 | `SRV03309` | Cultural Property Export and Import Act - Designation of institutions and public authorities | Loi sur l’exportation et l’importation de biens culturels - Désignation d’établissements et d’administrations publiques |
-| `SRV03311` | Marine Scientific Research request management | Gestion des demandes de recherche scientifique marine |
+| `SRV03311` | Marine Scientific Research (MSR) request management | Gestion des demandes de recherche scientifique marine |
 | `SRV03316` | Management of FDI events | Gestion des évènements IDE |
 | `SRV03322` | Canadian Conservation Institute and Canadian Heritage Information Network - Scientific Services | Institut canadien de conservation et Réseau canadien d&#39;information sur le patrimoine - Services scientifiques |
 | `SRV03323` | Canadian Conservation Institute and Canadian Heritage Information Network - General Information Requests | Institut canadien de conservation et Réseau canadien d&#39;information sur le patrimoine - Demandes d&#39;informations générales |
@@ -2541,7 +2619,7 @@ FR: Le numéro unique attribué à un service dans le répertoire afin de facili
 | `SRV03360` | Federal-Provincial Consultative Committee on Education-related International Activities (FPCCERIA) | Comité consultatif fédéral-provincial sur les activités internationales liées à l&#39;éducation (CCFPAIE) |
 | `SRV03365` | Foreign military ship visit request management | Visite de navires militaires étrangers |
 | `SRV03368` | Geographic Advice | Conseil géographique |
-| `SRV03370` | Global Security Reporting Program | Programme des rapports sur la securité mondiale |
+| `SRV03370` | Global Security Reporting Program (GSRP) | Programme des rapports sur la securité mondiale (PRSM) |
 | `SRV03371` | Grants and Contributions - CanExport Community Investments | Subventions et contributions - CanExport investissements des communautés |
 | `SRV03374` | Monitoring and Compliance | Surveillance et conformité |
 | `SRV03375` | Fighting and Managing Wildfires in a Changing Climate | Combattre et gérer les feux de forêt dans un climat en changement |
@@ -2583,8 +2661,8 @@ FR: Le numéro unique attribué à un service dans le répertoire afin de facili
 | `SRV03418` | Sustainable Fisheries Science Fund Contribution Program (SFSRSP) | Programme de contributions du Fonds des sciences halieutiques durables |
 | `SRV03419` | Marine Environmental Quality Regulatory / Non Regulatory Measures Contribution Program | Qualité du milieu marin réglementaire / non réglementaire |
 | `SRV03420` | Pacific Integrated Commercial Fisheries Initiative (PICFI) | Initiative des pêches commerciales intégrées du Pacifique (IPCIP) |
-| `SRV03421` | Human-Wildlife Coexistence- Incident Response and Safety Management | Coexistence entre l&#39;humain et la faune - Réponse aux incidents et gestion de la sécurité |
-| `SRV03422` | Parks Canada National Library | Bibliothèque nationale du Parcs Canada |
+| `SRV03421` | Human-Wildlife Coexistence- Incident Response and Safety Management | Coexistence entre l&#39;homme et la faune - Réponse aux incidents et gestion de la sécurité |
+| `SRV03422` | Library Services | Services de bibliothèque |
 | `SRV03423` | Reducing The Threat Of Vessel Traffic On Marine Mammals Contribution Program | Programme de contribution pour réduire la menace du trafic maritime sur les mammifères marins |
 | `SRV03424` | Media and Promotion of Canada&#39;s Natural and Cultural Heritage | Médias et promotion du patrimoine naturel et culturel du Canada |
 | `SRV03425` | Environmental Protection Services | Services de protection de l’environnement |
@@ -2600,7 +2678,7 @@ FR: Le numéro unique attribué à un service dans le répertoire afin de facili
 | `SRV03435` | Wildfire Prevention and Risk Mitigation | Prévention des incendies de forêt et atténuation des risques |
 | `SRV03436` | National Infrastructure Component (NIC) | Volet Infrastructures nationales (VIN) |
 | `SRV03437` | Clean Water and Wastewater Fund (CWWF) | Le Fonds pour l&#39;eau potable et le traitement des eaux usées (FEPTEU) |
-| `SRV03438` | Disaster Mitigation and Adaptation Fund (DMAF) | Fonds d&#39;atténuation et d&#39;adaptation en matière de catastrophes (FAAC) |
+| `SRV03438` | Disaster Mitigation and Adaptation Fund | Fonds d&#39;atténuation et d&#39;adaptation en matière de catastrophes |
 | `SRV03440` | Investing in Canada Infrastructure Program (ICIP) | Programme d&#39;infrastructure Investir dans le Canada (PIIC) |
 | `SRV03441` | Active Transportation Fund (ATF) | Le Fonds pour le transport actif (FTA) |
 | `SRV03442` | National and Regional Projects (NRP) | Projets nationaux et régionaux (PNR) |
@@ -2610,10 +2688,10 @@ FR: Le numéro unique attribué à un service dans le répertoire afin de facili
 | `SRV03446` | Zero Emissions Transit Fund (ZETF) | Fonds pour le transport en commun à zéro émission (FTCZE) |
 | `SRV03447` | Copyright Services | Services des droits d&#39;auteur |
 | `SRV03448` | Frontline Avalanche Safety and Control Service | Service de sécurité et de contrôle des avalanches en première ligne |
-| `SRV03449` | Public Avalanche Bulletin and Information | Surveillance et Rapport sur les Avalanches en Arrière-Pays |
+| `SRV03449` | Backcountry Avalanche Monitoring and Reporting | Surveillance et Rapport sur les Avalanches en Arrière-Pays |
 | `SRV03450` | Canadian Heritage accessibility feedback process | Processus de rétroaction sur l&#39;accessibilité de Patrimoine canadien |
 | `SRV03451` | Access to Information and Privacy (ATIP) | Demande d&#39;accès à l&#39;information et de protection des renseignements personnels (AIPRP) |
-| `SRV03452` | Reaching Home (RH) | Vers un chez-soi (VCS) |
+| `SRV03452` | Reaching Home (RH) | Directives de Vers un chez-soi (DVC) |
 | `SRV03453` | Public Service Employee Survey (PSES) | Sondage auprès des fonctionnaires fédéraux (SAFF) |
 | `SRV03454` | Cyber Maturity Self-Assessment (CMSA) | Autoévaluation de la cybermaturité (AECM) |
 | `SRV03455` | GC Digital Talent | Talents numériques du GC |
@@ -2621,7 +2699,7 @@ FR: Le numéro unique attribué à un service dans le répertoire afin de facili
 | `SRV03457` | Grants and Contribution Programs | Programmes de subventions et de contributions |
 | `SRV03458` | Web Inquiries | Demandes de renseignements sur le Web |
 | `SRV03459` | Policy, Advocacy, and Coordination | Politique, représentation et coordination |
-| `SRV03461` | Ministerial exemption | Exemption ministérielle |
+| `SRV03461` | Ministerial exemption under subsection 5.9(2) of the Aeronautics Act | Exemption ministérielle en vertu du paragraphe 5.9(2) de la Loi sur l&#39;aéronautique |
 | `SRV03462` | Statement of aerobatic competency | Énoncé de compétence en voltige aérienne |
 | `SRV03463` | Aviation Exams | Examens aéronautiques |
 | `SRV03464` | Ministerial authorization under Part VII, other than under section 701.10 | Autorisation ministérielle en vertu de la partie VII, autre qu&#39;en vertu de l&#39;article 701.10 |
@@ -2631,7 +2709,7 @@ FR: Le numéro unique attribué à un service dans le répertoire afin de facili
 | `SRV03468` | Aircraft Landing and Flying Training | Formation à l&#39;atterrissage et au vol d&#39;avions |
 | `SRV03469` | Emergency Response Services | Services d&#39;intervention d&#39;urgence |
 | `SRV03470` | Annual Mobile Equipment Registration | L&#39;enregistrement annuelle d&#39;équipement mobile |
-| `SRV03471` | Coasting Trade Inspections | Inspections des métiers du cabotage |
+| `SRV03471` | Coasting Trade inspections : Letters of Compliance Issued | Inspections des métiers du cabotage : Lettres de conformité émises |
 | `SRV03472` | Air cargo screening equipment certification | Certification des équipements de contrôle du fret aérien |
 | `SRV03473` | Inspection on a domestic vessel | Inspection à bord d’un bâtiment canadien |
 | `SRV03475` | Ministerial and Deputy Correspondence | Correspondance ministérielle et du sous-ministre |
@@ -2644,16 +2722,16 @@ FR: Le numéro unique attribué à un service dans le répertoire afin de facili
 | `SRV03482` | Certification for a seafarer | Certification des gens de mer |
 | `SRV03483` | Search for Sea Service | Recherche de service en mer |
 | `SRV03484` | Identity document for a seafarer | Document d&#39;identité pour un marin |
-| `SRV03485` | Registering a Vessel | Immatriculation d&#39;un bâtiment |
+| `SRV03485` | Register a vessel | Immatriculer un bâtiment |
 | `SRV03486` | Transfer of Vessel Ownership | Transfert de propriété d&#39;un navire |
-| `SRV03487` | Register a marine vessel mortgage | Enregistrement d&#39;un hypothèque de bâtiment |
-| `SRV03488` | Researching a registered vessel | Recherche documentaire d&#39;un bâtiment immatriculé |
+| `SRV03487` | Register a mortgage for a vessel | Enregistrer une hypothèque sur un bâtiment |
+| `SRV03488` | Vessel History | Historique du bâtiment |
 | `SRV03489` | Replacement of a Canadian aviation document | Remplacement d&#39;un document d&#39;aviation canadien |
 | `SRV03490` | Access Public Ports Facilities | Accès aux Installations des Ports Publics |
 | `SRV03491` | Issuance, in response to a request by industry, of an evaluation or authorization of industry training products. | Délivrance, à la suite d’une demande de l’industrie, d’une évaluation ou d’une autorisation concernant des produits de formation de l’industrie. |
 | `SRV03492` | Marine Insurance Certificate for a Vessel | Certificat d&#39;assurance maritime pour un bâtiment |
 | `SRV03493` | Vessel Operations Restriction Regulation (VORR) Permit | Règlement sur les restrictions visant l’utilisation des bâtiments (RRVUB) permis |
-| `SRV03494` | Marine Cargo Inspections | Inspection des cargaisons maritimes |
+| `SRV03494` | Cargo Inspection | Inspection des cargaisons |
 | `SRV03495` | Dangerous Goods inspection | Inspection des marchandises dangereuses |
 | `SRV03496` | Canadian Flagged Vessels (SOLAS &amp; Domestic Ferries) Security Certification | Certification de sûreté pour les bâtiments battant Pavillon canadien (SOLAS et traversiers intérieurs) |
 | `SRV03497` | Verification of outstanding deficiencies for foreign vessels | Vérification des déficiences en suspens pour les navires étrangers |
@@ -2670,11 +2748,11 @@ FR: Le numéro unique attribué à un service dans le répertoire afin de facili
 | `SRV03508` | Exemption by Order under subsection 24(1) of the Canadian Navigable Waters Act | Exemption par décret en vertu du paragraphe 24(1) de la Loi sur les eaux navigables canadiennes |
 | `SRV03509` | Pleasure Craft Licence | Délivrance des permis d&#39;embarcations de plaisance |
 | `SRV03510` | Railway Operating Certificate | Certificat d&#39;exploitation ferroviaire |
-| `SRV03511` | Transportation Security Clearance | Habilitation de sécurité en matière de transport |
+| `SRV03511` | Transportation Security Clearance | Autorisation de sécurité des transports |
 | `SRV03512` | Licensing for aircraft maintenance engineers | Licences pour les ingénieurs en maintenance d&#39;aéronefs |
 | `SRV03513` | Canadian Airline Designations and Airline Capacity Allocation | Désignations des compagnies aériennes canadiennes |
 | `SRV03514` | Education and Awareness | Éducation et sensibilisation |
-| `SRV03515` | Equivalency Certificates | Certificats d’équivalence |
+| `SRV03515` | Equivalency and Temporary Certificates | Certificats d’équivalence et certificats temporaires |
 | `SRV03516` | General Inquiries related to the TDG Program, including means of containment, regulations and legislation | Demandes de renseignements généraux concernant le programme du TMD, y compris les contenants, les règlements et les lois. |
 | `SRV03517` | Reservation of an aircraft registration mark | Réservation d&#39;une marque d&#39;immatriculation d&#39;aéronef |
 | `SRV03518` | Approval of Emergency Response Assistance Plans (ERAP) | Approbation des plans d’intervention d’urgence (PIU) |
@@ -2682,7 +2760,7 @@ FR: Le numéro unique attribué à un service dans le répertoire afin de facili
 | `SRV03520` | Canadian Transport Emergency Centre (CANUTEC) - Publication of the Emergency Response Guidebook (ERG) | Centre canadien d&#39;urgence transport (CANUTEC) - Publication du Guide des interventions d&#39;urgence (ERG) |
 | `SRV03521` | CANUTEC Registration system | Service à l&#39;inscription de CANUTEC |
 | `SRV03522` | Approval for a marine training program or course provided by a marine training institution | Approbation d&#39;un programme ou d&#39;un cours de formation maritime dispensé par un établissement d&#39;enseignement maritime reconnu |
-| `SRV03523` | Maritime Labour Convention Certificates | Certificat de travail maritime |
+| `SRV03523` | Maritime Labour Convention Certificates | Certificat de travail maritime. |
 | `SRV03524` | Seafarer Recruitment and Placement Service (SRPS) provider licensing | Licence de service de recrutement et de placement des gens de mer (SRPGM) |
 | `SRV03525` | TC Situation Centre (SitCen) | Centre d’intervention de Transports Canada (SitCen) |
 | `SRV03526` | Marine Medical Certificate | Certificat médical de la marine |
@@ -2694,7 +2772,7 @@ FR: Le numéro unique attribué à un service dans le répertoire afin de facili
 | `SRV03532` | Approval of Air Cargo Security Program Participants | Approbation des participants au Programme de sûreté du fret aérien |
 | `SRV03533` | Small Vessel Compliance Program (SVCP) | Programme de conformité des petits bâtiments (PCPB) |
 | `SRV03534` | Medical certificates for aviation personnel | Certificats médicaux pour le personnel en aviation |
-| `SRV03535` | Pre-Arrival Information Report Screening | Contrôle des rapports d&#39;information préalables à l&#39;arrivée |
+| `SRV03535` | Marine Security Operations Centres : Pre-Arrival Information Report Screening | Centres des opérations de la sûreté maritime : Contrôle des rapports d&#39;information préalables à l&#39;arrivée |
 | `SRV03536` | Ports &amp; Marine Facilities Security Certification | Certification de sûreté des ports et des installations maritimes |
 | `SRV03537` | Grants and Contributions | Subventions et contributions |
 | `SRV03538` | Access defect and recall information | Accéder aux informations sur les défauts et les rappels |
@@ -2716,8 +2794,8 @@ FR: Le numéro unique attribué à un service dans le répertoire afin de facili
 | `SRV03554` | Approval of an aircraft maintenance schedule | Approbation des calendriers de maintenance d&#39;aéronefs |
 | `SRV03555` | Restricted certification authority for an individual | Autorité de certification restreinte pour un particulier |
 | `SRV03556` | Inspection of an amateur-built aircraft | Inspection d&#39;un avion de construction amateur |
-| `SRV03557` | Prewash Endorsement | Approbation d&#39;une opération de prélavage |
-| `SRV03558` | Verification of shippers&#39; procedures for cargoes that may liquefy | Approbation des procédures des expéditeurs pour les cargaisons susceptible pouvant se liquéfier |
+| `SRV03557` | Prewash Endorsement | Approbation du prélavage |
+| `SRV03558` | Verification of Shipper&#39;s procedures | Vérification des procédures de l&#39;Expéditeur |
 | `SRV03559` | Rescinding detention of a foreign vessel | Annuler une ordonnance de détention pour un bâtiment étranger |
 | `SRV03560` | Report a safety defect | Signaler un défaut de sécurité |
 | `SRV03561` | Request a Motor Vehicle Transport Act Exemption | Demander une exemption prévue par la Loi sur les transports routiers |
@@ -5002,7 +5080,7 @@ This field cannot contain commas.
  / Ce champ ne doit pas être vide.
 Ce champ ne peut pas contenir de virgules.
   
-**Choice Set:** service_id (2595 values)  
+**Choice Set:** service_id (2673 values)  
 
 
 **Description:**  
@@ -5018,7 +5096,7 @@ FR: Le numéro unique attribué à un service dans le répertoire afin de facili
 | `10` | Procurement | Approvisionnement |
 | `1000` | Reconciliation | Réconciliation |
 | `1001` | Old Age Security (OAS) Benefits | Prestations de la Sécurité de la vieillesse |
-| `1002` | Research Data Centres (RDC) | Les centres de données de recherche (CDR) |
+| `1002` | Research Data Centres (RDC) | Centres de données de recherche (CDR) |
 | `1003` | Employment Insurance (EI) Benefits | Prestations d’assurance-emploi |
 | `1004` | Canada Nature Fund for Aquatic Species at Risk | Le Fonds de la nature du Canada pour les espèces aquatiques en péril |
 | `1005` | Canadian Benefit for Parents of Young Victims of Crime | Allocation canadienne aux parents de jeunes victimes de crimes |
@@ -5042,7 +5120,7 @@ FR: Le numéro unique attribué à un service dans le répertoire afin de facili
 | `1023` | Inuit Housing | Logement des Inuit |
 | `1024` | MPA Activity Plan Application Process - Musquash Estuary MPA | Processus de demande d&#39;activités pour la ZPM - Estuaire de la Musquash |
 | `1025` | MPA Activity Plan Application Process - St. Anns Bank MPA | Processus de demande d&#39;activités pour la ZPM - Banc de Sainte-Anne |
-| `1026` | Online Licensing Services | Services d&#39;émission de permis en ligne |
+| `1026` | National Online License System (NOLS) | Système national d&#39;émission de permis en ligne (SNEPL) |
 | `1027` | National Recreational Licensing System (NRLS) (Pacific Only) | Système national d&#39;émission de permis de pêche récréative (SNDPP) |
 | `1028` | Observer Designation Application and Renewal Processing | demandes de désignation d&#39;observateur et des demandes de renouvellement |
 | `1029` | Oceans Management Contribution Program in support of oceans conservation and management | Programme de contributions pour la gestion des océans pour appuyer l&#39;élaboration et la mise en œuvre d&#39;activités de conservation et de gestion des océans |
@@ -5082,7 +5160,7 @@ FR: Le numéro unique attribué à un service dans le répertoire afin de facili
 | `1066` | Ministerial Correspondence Unit | Unité de la correspondance ministérielle |
 | `1088` | Special Access Programs | Programmes d&#39;accès spéciale |
 | `1089` | Food Market Authorization and Standards | Autorisation et normes du marché alimentaire |
-| `1090` | Wage Earner Protection Program (WEPP) | Programme de protection des salariés (PPS) |
+| `1090` | Wage Earner Protection Program | Programme de protection des salariés |
 | `1091` | Analytical testing services | Services d’analyse |
 | `1092` | Science Horizons Youth Internship Program | Programme de stages Horizons Sciences pour les jeunes |
 | `1093` | General Enquiry and Referral Telephone Service (1-800 O Canada) | Demande de renseignements généraux et service d’aiguillage par téléphone (1-800 O Canada) |
@@ -5094,7 +5172,7 @@ FR: Le numéro unique attribué à un service dans le répertoire afin de facili
 | `1099` | GST/HST Returns | Production d&#39;une déclaration de la TPS/TVH |
 | `1100` | GST/HST Rulings | Décisions en matière de TPS/TVH |
 | `1101` | T2 Corporation Income Tax Returns | Déclaration de revenus des sociétés T2 |
-| `1102` | Excise Duty, Excise Tax, Air Travellers Security Charge, Fuel Charge and Luxury Tax returns | Déclarations de droit d&#39;accise, taxe d&#39;accise, droit pour la sécurité des passagers du transport aérien, de redevance sur les combustibles, et taxe de luxe |
+| `1102` | Excise Duty, Excise Tax, Air Travellers Security Charge, and Fuel Charge returns | Droits d&#39;accise, taxes d&#39;accise, droit pour la sécurité des passagers du transport aérien, et déclaration de la redevance sur les combustibles |
 | `1103` | IT Interoperability - GC Interop | Interopérabilité TI - GC Interop |
 | `1104` | Income Tax Rulings | Décisions en Impôt |
 | `1105` | Charity Information Return Filing | Déclaration de renseignements des organismes de bienfaisance |
@@ -5136,7 +5214,7 @@ FR: Le numéro unique attribué à un service dans le répertoire afin de facili
 | `1143` | Benefit Enquiries (Contact Centre) | Demandes de renseignements sur les prestations (Centre de contact) |
 | `1144` | Pay and Benefits | Rémunération et avantages sociaux |
 | `1145` | Maintain and update the Indian Register | Tenir le Registre des Indiens et le mettre à jour |
-| `1146` | Disability Tax Credit (DTC) | Crédit d&#39;impôt pour personnes handicapées (CIPH) |
+| `1146` | Disability Tax Credit | Crédit d&#39;impôt pour personnes handicapées |
 | `1147` | My Government of Canada Human Resources (MyGCHR) | Mes ressources humaines du gouvernement du Canada (MesRHGC) |
 | `1148` | Secure Certificate of Indian Status | Certificat sécurisé de statut d&#39;Indien |
 | `1149` | Canada.ca | Canada.ca |
@@ -5191,9 +5269,9 @@ FR: Le numéro unique attribué à un service dans le répertoire afin de facili
 | `1219` | Contaminated Sites On Reserve Program | Programme des sites contaminés dans les réserves |
 | `1220` | Approvals | Approbations |
 | `1221` | Bankruptcy and Insolvency Records Search | Recherche de dossiers de faillite et d&#39;insolvabilité |
-| `1222` | Licensed Insolvency Trustee (LIT) Licence Renewal | Renouvellement de licence de syndic autorisé en insolvabilité (SAI) |
+| `1222` | Licensed Insolvency Trustee (LIT) Licence Renewal | Renouvellement de Licence de syndics autorisés en insolvabilité (SAI) |
 | `1223` | Heritage Designations | Désignation patrimoniales |
-| `1225` | Federal Heritage Review Office | Bureau d&#39;examen du patrimoine fédéral |
+| `1225` | Federal Heritage Buildings Review Office | Bureau d&#39;examen des édifices fédéraux du patrimoine |
 | `1228` | Rulings / Interpretations | Décisions / interprétations |
 | `1229` | Amend, upon ministerial approval, Schedule I of The First Nation Oil And Gas And | Modifier, avec l’approbation ministérielle, l’annexe 1 de la Loi sur la gestion du pétrole et du gaz des fonds des Premières Nations pour y inclure les Premières Nations ayant tenu avec succès un vote visant à permettre l’exercice de la gouvernance a |
 | `1230` | With First Nation consent, issue leases, permits or licenses to industry stakeho | Avec le consentement des Premières Nations, délivrer des baux, des permis ou des licences aux intervenants de l’industrie pour faciliter la prospection pétrolière et gazière et la mise en valeur des ressources sur les terres des Premières Nations. As |
@@ -5238,7 +5316,7 @@ FR: Le numéro unique attribué à un service dans le répertoire afin de facili
 | `1269` | Financial Support for Long Term Care | Aide financière pour soins de longue durée |
 | `127` | Canadian Soil Information Services (CanSIS) | Système d’information sur les sols du Canada (SISCan) |
 | `1270` | Healthcare Costs and Supports | Coûts de soins de santé et soutien |
-| `1271` | Veterans Independence Program Benefits Administration | Administration des avantages du Programme d’autonomie des vétérans |
+| `1271` | Veterans Independence Grants &amp; Reimbursements | Programme pour l&#39;autonomie des anciens combattants – Subventions et remboursements |
 | `1272` | Educational Assistance for Children | Aide à l&#39;éducation pour les enfants |
 | `1273` | War Veterans Allowance | Allocation aux anciens combattants |
 | `1274` | Accessible Technology Development Program (ATP) | Programme de développement de la technologie accessible |
@@ -5246,7 +5324,7 @@ FR: Le numéro unique attribué à un service dans le répertoire afin de facili
 | `1276` | Connecting Families Initiative (CFi), formerly Affordable Access Initiative | L&#39;initiative Familles branchées, anciennement l&#39;Initiative d&#39;accès abordable |
 | `1277` | Care and Maintenance of Veterans&#39; Graves | Programme d&#39;entretien des stèles funéraires |
 | `1278` | Earnings Loss Benefit | Allocation pour perte de revenus |
-| `1279` | Public Recognition and Awareness Services | Services de reconnaissance et de sensibilisation du public |
+| `1279` | Public Recognition and Awareness | Reconnaissance et sensibilisation du public |
 | `1280` | Commemorative Partnerships | Programme de partenariat pour la commémoration |
 | `1281` | Funeral and Burial | Aide pour les funérailles et l&#39;inhumation |
 | `1282` | Computers for School Plus (CFS+) | Ordinateurs pour les écoles et Plus (OPE+) |
@@ -5258,7 +5336,7 @@ FR: Le numéro unique attribué à un service dans le répertoire afin de facili
 | `1289` | Digital Skills for Youth (DS4Y) | Programme de compétences numériques pour les jeunes (CNJ) |
 | `129` | Geospatial | Produits géospatiaux |
 | `1290` | Work-Sharing | Travail partagé |
-| `1291` | Canadian Consumer Protection Initiative | Initiative canadienne de protection des consommateurs |
+| `1291` | Contributions Program for Non-Profit Consumer and Voluntary Organizations | Programme de contributions pour les organisations sans but lucratif de consommateurs et de bénévoles |
 | `1292` | Provision of a Social Insurance Number | Émission d’un numéro d’assurance sociale |
 | `1293` | Job Bank - Find a Job | Guichet-Emplois– Trouver un emploi |
 | `1294` | Job Bank for Employers | Guichet-Emplois pour les employeurs |
@@ -5269,7 +5347,7 @@ FR: Le numéro unique attribué à un service dans le répertoire afin de facili
 | `1299` | Contact Us- General Information to Data Users and Technical Support to Survey Respondents | Contactez-nous - Information générale aux utilisateurs des données et support technique aux répondants |
 | `13` | Information and Education Services to Businesses | Services d&#39;information et de formation aux entreprises |
 | `130` | Drought Watch | Guetter la sécheresse |
-| `1300` | Funding Essential Community-Based Services: Elementary and Secondary Education Funding and High-Cost Special Education Program | Financement des services essentiels communautaires : financement de l&#39;éducation primaire et secondaire et programme d&#39;éducation spécialisée à coûts élevés |
+| `1300` | Funding Essential Community-Based Services: Elementary and Secondary Education | Financement des services essentiels communautaires : financement de l’éducation primaire et secondaire |
 | `1301` | Clean Growth Hub | Carrefour de la croissance propre |
 | `1302` | First Nations and Inuit Skills Link Program | Programme Connexion compétences à l’intention des Premières Nations et des Inuits |
 | `1303` | Certification, Coordination, and Technical Analysis for Broadcast Radio and TV | Certification, coordination et analyse technique pour la radiodiffusion et la télévision |
@@ -5283,7 +5361,7 @@ FR: Le numéro unique attribué à un service dans le répertoire afin de facili
 | `1310` | First Nations and Inuit Cultural Education Centres Program Funding | Financement du Programme des centres éducatifs et culturels des Premières Nations et des Inuits |
 | `1311` | Issuance of permits | Émission des permis |
 | `1312` | Indspire | Indspire |
-| `1313` | First Nations Post-Secondary Education Strategy, Inuit Post-Secondary Education Strategy, Métis Nation Post-Secondary Education Strategy | Stratégie d’éducation postsecondaire des Premières Nations, Stratégie d’éducation postsecondaire des Inuits, Stratégie d’éducation postsecondaire de la Nation métisse |
+| `1313` | First Nations, Métis Nation and Inuit Post-Secondary Education Strategies | Stratégies d’éducation postsecondaire des Premières Nations, de la Nation métisse et des Inuits |
 | `1314` | Métis Nation Post-Secondary Education Strategy | Stratégie d’éducation postsecondaire de la Nation métisse |
 | `1315` | Radio and Terminal Equipment Certification | Homologation de l&#39;équipement radio et du matériel terminal |
 | `1316` | Inuit Post-Secondary Strategy | Stratégie d’éducation postsecondaire des Inuits |
@@ -5304,7 +5382,7 @@ FR: Le numéro unique attribué à un service dans le répertoire afin de facili
 | `1330` | Consumer Price Index (CPI) | l&#39;Indice des prix à la consommation (IPC) |
 | `1331` | Canada Disability Savings Grant and Canada Disability Savings Bond | Subvention canadienne pour l’épargne-invalidité et Bon canadien pour l’épargne-invalidité |
 | `1332` | ISED Citizen Services Centre | Centre de services aux citoyens d&#39;ISDE |
-| `1333` | BizPaL | PerLe |
+| `1333` | BizPal | PerLe |
 | `1334` | Canadian Occupational Projection System | Système sur la projection des professions du Canada |
 | `1335` | Business Benefits Finder | Outil de recherche d&#39;aide aux entreprise |
 | `1336` | Access to Information and Privacy | Accès à l’information et protection des renseignements personnels |
@@ -5323,7 +5401,7 @@ FR: Le numéro unique attribué à un service dans le répertoire afin de facili
 | `1348` | Treasury Board of Canada Secretariat’s Claims Office | Bureau des réclamations du Secrétariat du Conseil du Trésor du Canada |
 | `1349` | Open Government Portal - Access to data and information | Portail gouvernement ouvert – accès à l’information ouverte et données ouvertes. |
 | `135` | Farm Debt Mediation Service | Service de médiation en matière d&#39;endettement agricole |
-| `1350` | Organization and Classification | Organisation et classification |
+| `1350` | Classification Program | Programme de classification |
 | `1351` | Release of Statistical Data on Census of Population | Diffusion de données statistiques sur le Recensement de la population |
 | `1352` | Labour Force Survey | Enquête sur la population active |
 | `1353` | Release of Statistical Data on Employment, Payroll and Hours | Diffusion de données statistiques sur l&#39;emploi, la rémunération et les heures de travail |
@@ -5361,7 +5439,7 @@ FR: Le numéro unique attribué à un service dans le répertoire afin de facili
 | `1391` | View our Reference Resources | Consultez nos ressources de références |
 | `1393` | Read our Analysis | Lisez nos analyses |
 | `1397` | Investigations; Conduct investigations on staffing irregularities and improper political activities. | Enquêtes: Mener des enquêtes sur les irrégularités en dotation et les activités politiques irrégulières |
-| `14` | Wide Area Network (WAN) | Réseau étendu (RE) |
+| `14` | GC WAN | Réseau étendu du RGC |
 | `140` | AgriRisk: Administrative Capacity Stream | Initiatives Agri-risques: Volet de renforcement des capacités administratives |
 | `1403` | Monitoring Services: Surveys and analytical databases | Activités de surveillance: Sondages et bases de données analytiques |
 | `1407` | Personal Information Requests Services | Services de demande d’accès à des renseignements personnels |
@@ -5453,7 +5531,7 @@ FR: Le numéro unique attribué à un service dans le répertoire afin de facili
 | `1497` | Visa facilitation for Official Travel | Facilitation de l&#39;octroi des visas pour les voyages officiels |
 | `1498` | Addition of a special stamp in a passport or other travel document | Ajout d&#39;une estampille spéciale sur le passeport ou un autre titre de voyage |
 | `1499` | Addition of an observation in a passport or other travel document | Ajout d’une observation sur un passeport ou un autre titre de voyage |
-| `15` | Mobile | Téléphone cellulaire |
+| `15` | Mobile Devices | Gestion des appareils mobiles d’entreprise |
 | `150` | Market Access Single Window | Guichet unique pour l&#39;accès aux marchés |
 | `1500` | Certifying true copies of part of a passport or another travel document | Certifier les copies conformes d&#39;une partie d&#39;un passeport ou d&#39;un autre titre de voyage |
 | `1501` | Verification of Status / Replacement of Immigration Document | Vérification du statut ou remplacement d&#39;un document d&#39;immigration |
@@ -5483,13 +5561,13 @@ FR: Le numéro unique attribué à un service dans le répertoire afin de facili
 | `1524` | Canadian Wildland Fire Information System | Système canadien d&#39;information sur les feux de végétation |
 | `1525` | Flight Operations | Operations Aériennes |
 | `1526` | Public Screenings | Projections publiques |
-| `1527` | Case Management Services | Services de gestion de cas |
+| `1527` | Case Management | Gestion de cas |
 | `1528` | Media Enquiries | Demandes des médias |
 | `1529` | Media Enquiries | Demandes des médias |
 | `153` | Access to Information and Privacy | L&#39;accès à l&#39;information et de la protection des renseignements personnels |
 | `1530` | Industry Advisory Service / Northern Projects Management Office (NPMO) | Soutien de l&#39;industrie / Le Bureau de gestion des projets nordiques (BGPN) |
 | `1531` | Social media responses to public enquiries | Réponses aux demandes de renseignements publiques dans les médias sociaux |
-| `1532` | Education and Training Benefits Administration | Administration des avantages d’éducation et de formation |
+| `1532` | Funds to Support Education and Training for Veterans | Fonds pour appuyer les études et la formation des vétérans |
 | `1533` | Access to Information and Privacy | Accès à l’information et protection des renseignements personnels |
 | `1534` | Social Media Responses to Public Enquiries | Réponses aux demandes de renseignements publiques dans les médias sociaux |
 | `1535` | Contribution Program for the Centre of Excellence for the Marine Transportation | Programme de contribution au Centre d’excellence pour le transport maritime des hydrocarbures et de gaz naturel liquéfié (GNL) |
@@ -5593,12 +5671,12 @@ FR: Le numéro unique attribué à un service dans le répertoire afin de facili
 | `1625` | Transport Canada Situation Centre | Centre d&#39;intervention de Transports Canada |
 | `1626` | Enforce the Coasting Trade Act - Penalties and Periods of Sanction | Application de la loi sur le cabotage - Sanctions et périodes de sanction |
 | `1627` | Respond to designation requests by Canadian airlines | Répondre aux demandes de désignation des lignes aériennes canadiennes |
-| `1628` | Caregiver Recognition Benefits Administration | Administration des avantages de reconnaissance des proches aidants |
+| `1628` | Financial Recognition for Veterans&#39; Caregivers | Reconnaissance financière pour les aidants de vétérans |
 | `1629` | Ministerial and Deputy Correspondance | Correspondance ministérielle et du sous-ministre |
 | `163` | Living Laboratories Initiative: Collaborative Program | Initiative des laboratoires vivants : Programme de collaboration |
 | `1631` | Grants and Contributions to support the Northern Transportation Adaptation Initi | Subventions et contributions pour soutenir l&#39;initiative d&#39;adaptation du transport dans le nord |
 | `1632` | Grants and Contributions to support the Transportation Assets Risk Assessment In | Subventions et contributions pour soutenir l&#39;initiative d&#39;évaluation des risques liés aux actifs de transport |
-| `1633` | Family Support Services | Services de soutien aux familles |
+| `1633` | Veteran Family Program | Programme pour les familles des vétérans |
 | `1634` | Grants and Contributions to Support Clean Transportation Initiatives | Subventions et contributions pour soutenir des initiatives de transport propre |
 | `1635` | Grant to the International Civil Aviation Organization (ICAO) for Cooperative De | Subvention au Programme de développement coopératif de la sécurité opérationnelle et de maintien de la navigabilité de l&#39;Organisation de l&#39;aviation civile internationale (OACI) |
 | `1636` | Payments to other governments or international agencies for the operation and ma | Versements aux autres gouvernements ou organismes internationaux pour l&#39;exploitation et l&#39;entretien des aéroports, des installations de navigation aérienne et des voies aériennes |
@@ -5606,14 +5684,14 @@ FR: Le numéro unique attribué à un service dans le répertoire afin de facili
 | `1638` | Aircraft airworthiness | Navigabilité des aéronefs |
 | `1639` | Provide Environmental Assessment Related Technical Advice | Fournir des conseils techniques connexes à l&#39;évaluation environnementale |
 | `164` | AgriMarketing Program: Small and Medium-sized Enterprisers | Programme Agri-marketing : Volet Petites et moyennes entreprises |
-| `1640` | License, Storage &amp; Sales of Explosives | Licence, vente et stockage d&#39;explosifs |
+| `1640` | Licences for the manufacture, storage and sale of explosives | Licences pour la fabrication, l&#39;entreposage et la vente des explosifs |
 | `1641` | Authorization of explosives | Autorisation des explosifs |
 | `1642` | Analysis and Certification of Explosives | Analyse et certification des explosifs |
-| `1643` | National Fireworks Certification Program | Programme national de certification des feux d&#39;artifice |
-| `1644` | Restricted Components - Explosives | Composants d’explosif limités |
-| `1645` | Importing, Exporting and Transporting-in-Transit Permits | Importation, exportation et transport d’explosifs |
+| `1643` | National Fireworks Certification Program | Programme national de certification des artificiers |
+| `1644` | Control of Explosives Precursor Chemicals (Restricted Components) | Contrôle des précurseurs chimique d’explosifs (composants d’explosif limités) |
+| `1645` | Importing, Exporting and Transporting-in-Transit Permits | Permis d&#39;Importation, exportation et transport en transit |
 | `1646` | Processing, by an employee of the Department of Transport, of a medical certific | Traitement par un employé du ministère des Transports d&#39;un certificat médical relativement à une licence de pilote ou à un permis de pilote, sauf un permis d&#39;élève-pilote |
-| `1647` | Security Screening | Contrôle de sécurité - Explosifs |
+| `1647` | Security Screening | Contrôle de sécurité |
 | `1648` | Licensing for pilots and personnel | Délivrance de licences pour les pilotes et le personnel |
 | `1649` | Registering and leasing aircraft | Immatriculation et location des aéronefs |
 | `165` | Dispute Resolution | Règlement des Différends |
@@ -5637,7 +5715,7 @@ FR: Le numéro unique attribué à un service dans le répertoire afin de facili
 | `1666` | Aircraft Services Logistics | Logistique entourant le services des aéronefs |
 | `1668` | Aircraft Engineering | Service de génie en aéronautique |
 | `1669` | Aircraft Maintenance | Entretien des aéronefs |
-| `167` | Determinations | Déterminations |
+| `167` | Determinations and Compliance | Déterminations et Conformité |
 | `1670` | NDTCB: General Standards Board certification for non-destructive testing | Organisme de certification nationale en essais non destructifs de Ressources naturelles Canada : certification par l&#39;Office des normes générales du Canada en essais non destructifs |
 | `1671` | Canadian Space Agency Class Grants and Contributions Program | Programme global des subventions et contributions de l&#39;Agence spatiale canadienne |
 | `1672` | NDTCB: Portable tube-based X-ray fluorescence analyzer operator certification | Organisme de certification nationale en essais non destructifs de Ressources naturelles Canada : certification des opérateurs d&#39;analyseur à fluorescence rayons X à tube à rayons X portatif |
@@ -5648,7 +5726,7 @@ FR: Le numéro unique attribué à un service dans le répertoire afin de facili
 | `1677` | The Canadian Astronomy Data Centre (CADC) | Le Centre canadien de données astronomiques (CCDA) |
 | `1678` | Grants and Contributions | Subventions et Contributions |
 | `1679` | Canadian Impact Assessment Registry | Registre canadien d’évaluation d’impact |
-| `168` | Information Provision | Information |
+| `168` | Information, Advice and Expertise | Information, Conseils et Expertise |
 | `1680` | Physical Security Abroad – Security, Maintenance and Service Line Delivery | Sécurité Physique à l&#39;étranger - Sécurité, Entretien et Service d&#39;Exécution des Projets de ligne |
 | `1681` | Engineering Services | Services d&#39;ingénierie |
 | `1682` | Capital Project Delivery Services | Services de Réalisation de Projets immobiliers |
@@ -5674,7 +5752,7 @@ FR: Le numéro unique attribué à un service dans le répertoire afin de facili
 | `1701` | Aircraft Operations and Maintenance Training | Formation sur les opérations et l&#39;entretien des aéronefs |
 | `1702` | Parliamentary Affairs | Relations avec le Parlement |
 | `1703` | Ministerial non-GIC appointments and GIC non-diplomatic appointments | Nominations ministérielles non effectuées par le gouverneur en conseil et nominations non diplomatiques effectuées par le gouverneur en conseil |
-| `1704` | Ministerial Correspondence | Services de correspondance ministérielle |
+| `1704` | Strategic Governance, Ministerial Correspondence | Gouvernance stratégique, Correspondance ministérielle |
 | `1705` | Corporate and common service management and delivery for DM and MIN offices | Services corporatif et services communs livré aux bureaux des ministres et des sous-ministres |
 | `1706` | Access to Information and Privacy (ATIP) | Accès à l&#39;information et la protection des renseignements personnels |
 | `1707` | Access to Information and Privacy | Accès à l&#39;information et protection des renseignements personnels |
@@ -5708,7 +5786,7 @@ FR: Le numéro unique attribué à un service dans le répertoire afin de facili
 | `1735` | Enterprise Information and Records Management (EIRM) | Gestion des archives et de l&#39;information de l&#39;entreprise (GAIE) |
 | `1736` | Public Enquiries | Renseignements au public |
 | `1737` | Aboriginal Aquatic Resource &amp; Ocean Management Contribution Agreements | Ententes de contribution du Programme autochtone de gestion des ressources aquatiques et océaniques |
-| `1738` | Aboriginal Fisheries Strategy Food, Social and Ceremonial (FSC) Contribution Agreements | Accords de contribution relatifs aux pêches autochtones à des fins alimentaires, sociales et rituell |
+| `1738` | Aboriginal Fisheries Strategy Food, Social and Ceremonial (FSC) Contribution Agr | Accords de contribution relatifs aux pêches autochtones à des fins alimentaires, sociales et rituelles (ASR) dans le cadre de la Stratégie relative aux pêches autochtones |
 | `1739` | Aboriginal Fund for Species at Risk Contribution Agreements | Ententes de contribution des Fonds autochtones pour les espèces en péril (FAEP) |
 | `1740` | Atlantic Integrated Fisheries Initiative Contribution Agreements | Ententes de contribution de l&#39;Initiative des pêches commerciales intégrées de l&#39;Atlantique (IPCIA) |
 | `1741` | Access to information | Accès à l&#39;information |
@@ -5728,7 +5806,7 @@ FR: Le numéro unique attribué à un service dans le répertoire afin de facili
 | `1756` | Tribal Council Funding | Financement des conseils tribaux |
 | `1757` | Employee Benefits | Avantages sociaux des employés |
 | `1758` | Professional and Institutional Development | Dévelopement professionnel et institutionnel |
-| `1759` | Emergency Management Assistance | Aide à la gestion des urgences |
+| `1759` | Emergency Management, Crisis &amp; Strategic Communications: First Nations Emergency Management Funding | Gestion des urgences, communications de crise et stratégiques : Financement de la gestion des urgences des Premières Nations |
 | `1760` | On-Reserve Education Facilities Funding | Fonds d&#39;installations d&#39;enseignement pour les collectivités dans les réserves |
 | `1761` | On-Reserve Education Facilities Policy and Technical Support | Politique et soutien technique en matière d&#39;installations d&#39;enseignement pour les collectivités dans les réserves |
 | `1763` | On-Reserve Education Facilities Capacity Building | Renforcement des capacités pour les installations d&#39;enseignement pour les collectivités dans les réserves |
@@ -5746,13 +5824,13 @@ FR: Le numéro unique attribué à un service dans le répertoire afin de facili
 | `1775` | Public Transit Infrastructure Fund (PTIF) | Fonds pour l&#39;infrastructure de transport en commun (FITC) |
 | `1776` | Clean Water and Wastewater Fund (CWWF) | Fonds pour l&#39;eau potable et le traitement des eaux usées (FEPTEU) |
 | `1777` | Investing in Canada Infrastructure Program (ICIP) | Programme d&#39;infrastructure investir dans le Canada (PIIC) |
-| `1778` | Supplementary Health Benefits - Direct Service Delivery | Prestations de santé supplémentaires – Prestation directe de services |
+| `1778` | Supplementary Health Benefits - Direct Service Delivery | Prestations de santé supplémentaires – Prestation directe de services. |
 | `1779` | Disaster Mitigation and Adaption Fund (DMAF) | Fonds d&#39;atténuation et d&#39;adaptation en matière de catastrophes (FAAC) |
 | `178` | Funding Decisions for Grants to Researchers | Décisions sur le financement des subventions de recherche |
 | `1780` | Municipal Asset Management Program (MAMP) | Programme de gestion des actifs municipaux (PGAM) |
 | `1781` | Municipalities for Climate Innovation Program (MCIP) | Programme Municipalités pour l&#39;innovation climatique (PMIC) |
 | `1782` | Smart Cities Challenge (SCC) | Défi des villes intelligentes |
-| `1783` | Supplementary Health Benefits- Funding | Prestations de santé supplémentaires – Prestation directe de services |
+| `1783` | Supplementary Health Benefits- Funding | Prestations de santé supplémentaires – Prestation directe de services. |
 | `1784` | Ministerial and Deputy Correspondance | Correspondance ministérielle et du sous-ministre |
 | `1785` | Access to Information and Privacy (ATIP) | Accès à l&#39;information et protection des renseignements personnels (AIPRP) |
 | `1786` | Primary Health Care: Clinical and Client Care - Direct Service Delivery | Soins de santé primaires : soins cliniques et soins aux clients – prestation de services directe |
@@ -5794,9 +5872,9 @@ FR: Le numéro unique attribué à un service dans le répertoire afin de facili
 | `1828` | New Building Canada Fund (NBCF) - National Infrastructure Component (NIC) | Nouveau Fonds Chantiers Canada (NFCC) - Volet Infrastructures Nationales (VIN) |
 | `1829` | Green Infrastructure Fund (GIF) | Fonds d&#39;infrastructure verte (FIV) |
 | `1830` | Toronto Waterfront Revitalization Initiative (TWRI) | Infrastructure Canada et l&#39;Initiative de revitalisation du secteur riverain de Toronto |
-| `1831` | Access to Information and Privacy | Accès à l&#39;information et protection des renseingments personnels |
+| `1831` | Access to Information and Privacy | Accès à l&#39;information et protection des renseignements personnels |
 | `1832` | SECURITAS | SECURITAS |
-| `1833` | Independent Safety Investigations | Enquêtes indépendantes de sécurité |
+| `1833` | Independent safety investigations | Enquêtes indépendantes de sécurité |
 | `1834` | Smart Cities Community Support Program | Programme de soutien aux collectivités sur les villes intelligentes |
 | `1835` | Access to Information and Privacy | Accès à l&#39;information et protection des renseignements personnels |
 | `1836` | Evaluation Services and Learning Division | Direction des services à l’évaluation et de l’apprentissage |
@@ -5819,8 +5897,8 @@ FR: Le numéro unique attribué à un service dans le répertoire afin de facili
 | `1861` | Canadian Technology Accelerators | Accélérateurs technologiques canadiens |
 | `1862` | Public Enquiries | Demande d&#39;informations parvenant du public |
 | `1863` | Access to Information and Privacy | Accès à l&#39;information et protection des renseignements personnels |
-| `1866` | Law Enforcement Records Checks (LERC) | Vérification des dossiers policiers (VPD) |
-| `1867` | Copy Services | Service de copies |
+| `1866` | Law Enforcement Records Checks | Vérification des dossiers policiers |
+| `1867` | Copy Services | Services de copies |
 | `1868` | Documentary Heritage Communities Program - DHCP | Programme pour les collectivités du patrimoine documentaire - PCPD |
 | `1869` | Reference | Référence |
 | `1870` | Ship Sanitation Inspections | Inspections sanitaires de navire |
@@ -5868,7 +5946,7 @@ FR: Le numéro unique attribué à un service dans le répertoire afin de facili
 | `1916` | Canadian Conservation Institute and Canadian Heritage Information Network | Institut canadien de conservation et Réseau canadien d&#39;information sur le patrimoine |
 | `1917` | Privacy Act Requests | Demandes en vertu de la Loi sur la protection des renseignements personnels. |
 | `1919` | Support and assistance to athletes | Soutien et aide aux athlètes |
-| `192` | Contract &amp; Indigenous Policing (C&amp;IP) | Services de police contractuels et autochtones (SPCA) |
+| `192` | RCMP- Contract &amp; Indigenous Policing (C &amp; IP) | (GRC) Services de police contractuels et autochtones (SPCA) |
 | `1920` | Support for Hosting - Canada Games | Soutien pour l&#39;acceuil - Jeux du Canada |
 | `1921` | Sport Support - National Sport Organization | Soutien au sport - Organismes nationaux de sport |
 | `1922` | Indigenous Languages and Cultures - Indigenous Languages | Langues et cultures autochtones - Langues autochtones |
@@ -5883,38 +5961,38 @@ FR: Le numéro unique attribué à un service dans le répertoire afin de facili
 | `1934` | Pharmacy Referrals to Provincial Regulatory Authorities for situations of non-co | Renvois aux autorités réglementaires provinciales pour les pharmacies en situations de non-conformité |
 | `1935` | Referrals to Law Enforcement | Renvois aux organismes d&#39;application de la loi |
 | `1936` | Approval of retained controlled substances by law enforcement | Approbation des substances désignées retenues par les organismes d&#39;application de la loi |
-| `1937` | Responding to Enquiries from law enforcement | Répondre aux demandes des autorités chargées de l&#39;application de la loi |
-| `1938` | Responding to enquiries from external stakeholders | Répondre aux demandes de renseignements provenant de parties prenantes externes |
+| `1937` | Responding to enquiries from law enforcement | Répondre aux demandes des organismes d&#39;application de la loi (Demandes d&#39;état et ordres de production) |
+| `1938` | Responding to enquiries from external stakeholders | Répondre aux demandes des parties prenantes externes |
 | `1939` | Responding to enquiries from internal stakeholders | Répondre aux demandes des parties prenantes internes |
 | `1940` | Pre-Licence Inspection Packages | Trousses d&#39;inspection pré-licence |
-| `1941` | Notices of Restriction for Pharmacists and Practitioners | Avis de restriction à l&#39;intention des pharmaciens et des praticiens |
+| `1941` | Notices of Restriction for Pharmacists and Practitioners | Avis de restriction pour les pharmaciens et practiciens |
 | `1942` | Substance Use and Addictions Program | Programme sur l&#39;usage et les dépendances aux substances |
-| `1943` | Import-Export Permits | Permis d&#39;importation et d&#39;exportation |
+| `1943` | Import-Export Permits | Permis d’importation-exportation |
 | `1944` | Issuance of Industrial Hemp Import and Export Permits under the Cannabis Act and | Délivrance des permis d’importation et d’exportation de chanvre industriel en vertu de la Loi sur le cannabis et de ses règlements |
 | `1945` | Issuance of licence for Analytical Testing under the Cannabis Act and its Regula | Délivrance de licences d&#39;essais analytiques en vertu de la Loi sur le cannabis et de ses règlements |
 | `1946` | Issuance of Cannabis Drug Licences under the Cannabis Act and its Regulations | Délivrance de licences de drogues contenant du cannabis en vertu de la Loi sur le cannabis et de ses règlements |
-| `1947` | Industrial Hemp Licences | Licences pour le chanvre industriel |
+| `1947` | Industrial Hemp Licences | Licences liée au chanvre industriel |
 | `1948` | Issuance of licence for Research under the Cannabis Act and its Regulations | Délivrance de licences de recherche en vertu de la Loi sur le cannabis et de ses règlements |
-| `1949` | Administer Exemptions under the Cannabis Act | Administrer les exemptions en vertu de la Loi sur le cannabis |
+| `1949` | Exemptions under the Cannabis Act | Exemptions en vertu de la Loi sur le cannabis |
 | `195` | Money Services Businesses (MSBs) Registry - Registration | Registre des entreprises de services monétaires (ESM) – Inscription |
-| `1950` | Tobacco Control Program - Enquiries and Complaints | Programme de lutte contre le tabagisme - Demandes de renseignements et plaintes |
+| `1950` | Tobacco Control Program - Enquiries and Complaints | Programme de lutte au tabagisme - Demandes et plaintes |
 | `1951` | Compliance Promotion Activities | Activité de promotion de la conformité |
 | `1952` | Review, assess and action compliance issues related to cannabis and hemp | Examiner, évaluer et traiter les questions de conformité liées au cannabis et au chanvre |
-| `1953` | Cannabis Product Recalls management (type II, type III) | Gestion des rappels de produits à base de cannabis (type II, type III) |
+| `1953` | Cannabis Product Recalls | Rappels de produits du cannabis |
 | `1954` | Initial Licensing | Octroi de licences initiales |
 | `1955` | Renewals and Amendments | Renouvellements et modifications |
 | `1956` | Security | Sécurité |
-| `1957` | Personal Registration Centre | Centre d&#39;enregistrement personnel |
-| `1958` | Client Services – Call Centre, Cannabis, Correspondence | Services à la clientèle – Centre d&#39;appels, cannabis, correspondance |
+| `1957` | Personal Registration Certificates | Certificats d’inscription personnelle |
+| `1958` | Client Services - Call Centre, Cannabis, Correspondence | Services à la clientèle — Centre d’appels, cannabis, correspondance |
 | `1959` | Email: cannabis@canada.ca | Le courriel: cannabis@canada.ca |
-| `1960` | Cannabis Police Services | Services policiers liés au cannabis |
-| `1961` | Issuance of Licences for controlled substances and precursor chemicals under the Controlled Drugs and Substances Act and its Regulations (New, Renewal, Amendment) | Délivrance de licences pour les substances contrôlées et les précurseurs chimiques en vertu de la Loi réglementant certaines drogues et autres substances et de son règlement d&#39;application (nouvelles licences, renouvellements, modifications) |
+| `1960` | Cannabis Police Services | Services à la clientèle - Services policiers relatifs au cannabis |
+| `1961` | Issuance of Licences for controlled substances and precursor chemicals under the Controlled Drugs and Substances Act and its Regulations (New, Renewal, Amendment) (CSCB) | Délivrance de licences pour des substances réglementées et des précurseurs chimiques en vertu de la loi sur les drogues et les substances réglementées et de ses règlements (nouvelles licences, renouvellements, modifications) (DGSCC) |
 | `1962` | Issuance of Import and Export Permits for Controlled Substances and Chemical Precursors under the Controlled Drugs and Substances Act and its Regulations (CSCB) | Délivrance de licences d&#39;importation et d&#39;exportation de substances réglementées et de précurseurs chimiques en vertu de la loi réglementant certaines drogues et autres substances et de son règlement d&#39;application (DGSCC) |
-| `1963` | Issuance of Registrations for Class B Precursors under the Controlled Drugs and Substances Act and its Regulations | Délivrance d&#39;enregistrements pour les précurseurs de catégorie B en vertu de la Loi réglementant certaines drogues et autres substances et de son règlement d&#39;application |
-| `1964` | Issuance of Authorization Certificates for Preparations or Mixtures of Class A or Class B Precursors under the Controlled Drugs and Substances Act and its Regulations | Délivrance de certificats d&#39;autorisation pour les préparations ou les mélanges de précurseurs de classe A ou de classe B en vertu de la Loi réglementant certaines drogues et autres substances et de son règlement d&#39;application |
-| `1965` | Exemptions to conduct research with controlled substances including clinical trials | Exemptions pour mener des recherches avec des substances contrôlées, y compris des essais cliniques |
-| `1966` | Exemptions to operate a supervised consumption site | Exemptions pour exploiter un site de consommation supervisée |
-| `1967` | Issuance of Test Kit Registrations under the Controlled Drugs and Substances Act and its Regulations | Délivrance d&#39;enregistrements de trousses d&#39;essai en vertu de la Loi réglementant certaines drogues et autres substances et de son règlement d&#39;application |
+| `1963` | Issuance of Registrations for Class B Precursors | Inscriptions de précurseurs chimiques de catégorie B |
+| `1964` | Issuance of Authorization Certificates for Preparations or Mixtures of Class A or Class B Precursors under the Controlled Drugs and Substances Act and its Regulations (CSCB) | Délivrance de certificats d&#39;autorisation pour les préparations ou mélanges de précurseurs de classe A ou B en vertu de la loi réglementant certaines drogues et autres substances et de son règlement d&#39;application (DGSCC) |
+| `1965` | Exemptions to conduct research with controlled substances including clinical trials | Exemptions relatives a la recherche incluant les essais cliniques |
+| `1966` | Exemptions to operate a supervised consumption site | Exemptions relatives aux sites de consommation supervisée |
+| `1967` | Issuance of Test Kit Registrations under the Controlled Drugs and Substances Act and its Regulations | Octroi d&#39;enregistrements de nécessaires d&#39;essai pour les substances désignées |
 | `1968` | Investor Services - Government Liaison | To be provided |
 | `1969` | Investor Services - Proposals and Information Gathering | To be provided |
 | `1970` | Investors Services - Advice and Support | To be provided |
@@ -5932,15 +6010,15 @@ FR: Le numéro unique attribué à un service dans le répertoire afin de facili
 | `1984` | Agricultural Clean Technology Program: Adoption Stream | Programme des technologies propres en agriculture |
 | `1985` | Local Food Infrastructure Fund | Fonds des infrastructures alimentaires locales |
 | `1986` | Dairy Direct Payment Program | Programme de paiements directs pour les producteurs laitiers |
-| `1987` | SIS Advisory | Service consultatif du SIS |
+| `1987` | Solutions Integration Service | Service d&#39;intégration des solutions |
 | `1988` | Responses to Access to Information and Privacy | Réponses aux demandes en vertu de la Loi sur l’accès à l’information ou de la Loi sur la protection des renseignements personnels |
-| `1989` | Conferencing | Conférences |
+| `1989` | Conferencing Services | Services de conférence |
 | `1990` | Statistical, Research and Technical Publications | Publications statistiques, scientifiques et techniques |
 | `1991` | Harvest Sample Crop Quality Results (Unofficial Results) | Programme d&#39;échantillons de récolte (résultats non officiels) |
 | `1992` | Climate Change Funding Programs - Energy Savings Rebate program | Programme de remises écoénergétiques |
 | `1993` | Climate Change Funding Programs - Climate Action Incentive Fund - SME | Fonds d’incitation à l’action pour le climat - PME |
 | `1994` | Climate Change Funding Programs - Climate Action Incentive Fund - MUSH | Fonds d’incitation à l’action pour le climat - MUEH |
-| `1995` | Weather and Environmental Prediction Services | Services de prévision météorologique et environnementale |
+| `1995` | Public Weather | Météo publique |
 | `1996` | Income Replacement Benefit | Prestation de remplacement du revenu |
 | `1997` | Authorized Service Providers | Fournisseur de services autorisé |
 | `1998` | Provision of Calibration Sets | Ensembles d&#39;étalonnage |
@@ -5954,9 +6032,9 @@ FR: Le numéro unique attribué à un service dans le répertoire afin de facili
 | `2004` | Payment Protection for Grain Producers | Protection du paiement à l&#39;intention des producteurs de grain |
 | `2005` | Additional Pain and Suffering Compensation | Indemnité supplémentaire pour douleur et souffrance |
 | `2006` | Responses to Public and Media Inquiries | Réponses aux demandes de renseignements du public et des médias |
-| `2007` | Ice Forecasts and Information Services | Prévisions et services d&#39;information sur la glace |
+| `2007` | Ice Warnings, Forecasts and Information | Avertissements, prévisions et informations sur les glaces |
 | `2008` | State funeral | Funérailles d&#39;État |
-| `2009` | Atmospheric data and information service | Service de données et d&#39;informations atmosphériques |
+| `2009` | Atmospheric Data and Information Service | Service de données et d&#39;informations atmosphériques |
 | `2010` | New Fiscal Relationship (10 Year) Grant | Subvention nouvelle relation financière (de 10 ans) |
 | `2013` | Canada Energy Regulator Management System Audits of Regulated Companies | Vérifications des systèmes de gestion des sociétés réglementées par la Régie de l&#39;énergie du Canada. |
 | `2014` | Canada Energy Regulator Financial Audit of Regulated Companies. | Vérification des états financiers des sociétés réglementées par la Régie de l&#39;énergie du Canada. |
@@ -5972,9 +6050,9 @@ FR: Le numéro unique attribué à un service dans le répertoire afin de facili
 | `2024` | Treasury Board Submission Centre | Centre des présentations du Conseil du Trésor |
 | `2025` | Provision of Grants and Contributions | Octroi de subventions et de contributions |
 | `2028` | New Substances Notification | Déclaration de substances nouvelles |
-| `2029` | Accessibility and Inclusivity in the Built Environment | Accessibilité et inclusivité dans l&#39;environnement bâti |
+| `2029` | Accessibility and Inclusivity in the Built Environment | Accessiblité et inclusivité dans l&#39;environnement bâti |
 | `2030` | Green and Sustainable Government for Real Property | Gouvernement vert et durable pour les biens immobiliers |
-| `2031` | Canadian Shellfish Sanitation Program (Emergency (bi-valve) shellfish area closure) | Programme canadien de contrôle de la salubrité des mollusques (Recommandations pour la fermeture d&#39;urgence de la zone des mollusques) |
+| `2031` | Canadian Shellfish Sanitation Program (Emergency (bi-valve) shellfish area closu | Programme canadien de contrôle de la salubrité des mollusques (Recommandations pour la fermeture d&#39;urgence de la zone des mollusques) |
 | `2032` | Athlete Assistance | Aide aux athlètes |
 | `2033` | Appraisal and Valuation Services | Services d&#39;évaluation |
 | `2034` | GC Talent Cloud | Nuage de talents du GC |
@@ -6030,14 +6108,14 @@ FR: Le numéro unique attribué à un service dans le répertoire afin de facili
 | `2086` | National Collision Database (NCDB) | Base nationale de données sur les collisions (BNDC) |
 | `2087` | Indigenous Habitat Participation Program | Programme pour la participation autochtone sur les habitats |
 | `2091` | BC Salmon Restoration and Innovation Fund (BCSRIF) | Fonds de restauration et d&#39;innovation pour le saumon de la Colombie-Britannique (FRISB) |
-| `2092` | Marine Mammal Response Program Capacity Building Fund | Fonds de renforcement des capacités du Programme d’intervention auprès des mammifères marins |
+| `2092` | Marine Mammal Response Program | Programme d&#39;intervention auprès des mammifères marins |
 | `2093` | TMX Accommodation Measure Salish Sea Initiative (SSI) | Initiative de la mer Salish (IMS) |
 | `2094` | Enhanced Nature Legacy - Canada Target 1 Challenge Top-up | Complément du Défi de l’objectif 1 du Patrimoine naturel bonifié du Canada |
 | `2095` | Canada Nature Fund - Community-nominated priority places for species at risk | Les lieux prioritaires désignés par les collectivités pour les espèces en péril du Fonds de la nature du Canada |
 | `2096` | International Assistance Group | Service d&#39;entraide internationale |
 | `2098` | Legal Services - Advisory | Services juridiques - Conseils |
 | `2099` | Legal Services - Litigation | Services juridiques - Contentieux |
-| `21` | Grants and Contributions Programs | Programmes de subventions et de contributions |
+| `21` | Grants and Contribution Programs | Programmes de subventions et de contributions |
 | `2100` | Legal Services - Legislative and Regulatory | Services juridiques – Législation et réglementation |
 | `2101` | Investment Support | Soutien en matière d&#39;investissement |
 | `2102` | Introductions | Présentations |
@@ -6070,7 +6148,7 @@ FR: Le numéro unique attribué à un service dans le répertoire afin de facili
 | `2132` | Settlement Program Transfer Payments | Paiements de transfert du Programme d&#39;établissement |
 | `2133` | Privacy | Protection des renseignements personnels |
 | `2134` | Canada Energy Regulator (CER)&#39;s Emergency Response Procedures | Procedures d&#39;intervention d&#39;urgence de la Régie de l&#39;énergie du Canada |
-| `2136` | Canadian Criminal Real Time Identification Services (CCRTIS) - Biometric Business Solutions (BBS) Certification Services | Les Services canadiens d&#39;identification criminelle en temps réel (SCICTR) - Services de certification- Solutions biométriques d&#39;entreprise (SBE) |
+| `2136` | Canadian Criminal Real Time Identification Services (CCRTIS) - Biometric Business Solutions (BBS) Certification Services. | Les Services canadiens d&#39;identification criminelle en temps réel (SCICTR) - Services de certification- Solutions biométriques d&#39;entreprise (SBE) |
 | `2137` | Sensitive and Specialized Investigative Services (SSIS) | Services d&#39;enquêtes spécialisées et de nature délicate (SESND) |
 | `2138` | Criminal Intelligence Service Canada (CISC) | Service canadian de renseignements criminels (SCRC) |
 | `2139` | Departmental Correspondence Unit | Unité de la correspondance ministérielle |
@@ -6081,8 +6159,8 @@ FR: Le numéro unique attribué à un service dans le répertoire afin de facili
 | `2144` | Alerts and advisories | Alertes et avis |
 | `2145` | Government Resiliency and Continuity Management (Centre for Resiliency and Continuity Management) | Gestion de la continuité et de la résilience du gouvernement (Centre de gestion de la continuité et de la résilience) |
 | `2146` | Accelerated Growth Service | Service de croissance accélérée |
-| `2148` | Media relations | Relations avec les média |
-| `2149` | Stakeholder Relations | Relations avec les intervenants |
+| `2148` | Media relations | Relations avec les médias |
+| `2149` | Stakeholder Relations | Stakeholder Relations |
 | `2150` | Make a Complaint | Dépôt d&#39;une plainte |
 | `2151` | Request a Review | Demande d&#39;examen |
 | `2152` | Public Education and Outreach | Sensibilisation du public et liaison avec les collectivités |
@@ -6130,7 +6208,7 @@ FR: Le numéro unique attribué à un service dans le répertoire afin de facili
 | `2250` | Indigenous Intellectual Property Program Grant (Gs&amp;Cs) | Subvention du programme sur la propriété intellectuelle autochtone |
 | `2251` | Intellectual Property Clinics Program (Gs&amp;Cs) | Programme de cliniques sur la propriété intellectuelle |
 | `2253` | GC Integrated Planning submission | Soumission du Plan Intégrée GC |
-| `2254` | COVID Vaccines Inventory ManagementNote : Beginning in FY 2025‑26, the service transitioned to support HVAI logistics operations. | Gestion des inventaires vaccins COVIDNote : À compter de l’exercice financier 2025‑2026, le service est consacré à la logistique VHIA. |
+| `2254` | COVID Vaccines Inventory Management | Gestion des inventaires vaccins COVID |
 | `2255` | New Substances Program | Programme des substances nouvelles |
 | `2256` | New Substances Notifications (Food and Drugs Act use) | Déclaration de substances nouvelles (usage en vertu de la Loi sur les aliments et drogues) |
 | `2257` | Treasury Board Policy Suite Website | Site Web des politiques du Conseil du Trésor |
@@ -6153,7 +6231,7 @@ FR: Le numéro unique attribué à un service dans le répertoire afin de facili
 | `2277` | Emergency Support Function #10 | Fonction de soutien d&#39;urgence no. 10 |
 | `2278` | National Fine Recovery Program (NFRP) | Programme national de recouvrement des amendes (PNRA) |
 | `2280` | Class A Precursor Licences (New, Renewals, Amendments, Closures) | Octroi de licences de précurseurs chimiques de catégorie A (Nouvelles, renouvellements, modifications et fermetures) |
-| `2281` | Cannabis Status Confirmation Service | Service de confirmation du statut du cannabis |
+| `2281` | Cannabis Status Confirmation Service | Service de confirmation du statut en matiere du cannabis |
 | `2283` | Amend Industrial Hemp Licences | Modifier les licences de chanvre en vertu de la Loi sur le cannabis et de ses règlements |
 | `2284` | Fish Harvester Benefit and Grants program | Programme de Prestation et Subvention aux Pêcheurs |
 | `2285` | One-Time Payment to Persons with Disabilities | Paiement Unique aux Personnes en Situation de Handicap |
@@ -6162,7 +6240,7 @@ FR: Le numéro unique attribué à un service dans le répertoire afin de facili
 | `2288` | Public Legal Education and Information | Éducation et information juridiques publiques |
 | `2289` | Professional Training | Formation professionnelle |
 | `2290` | Garnishment Registry of the National Capital Region (GAPDA) | Greffe de la saisie-arrêt de la région de la capitale nationale (LSADP) |
-| `2291` | Central Registry of Divorce Proceedings | Bureau d&#39;enregistrement des actions en divorce |
+| `2291` | Central Registry of Divorce Proceedings (CRDP) | Bureau d&#39;enregistrement des actions en divorce (BEAD) |
 | `2292` | Health Care Policy and Strategies Program | Programme des politiques et des stratégies en matière de soins de santé |
 | `2293` | COVID-19 Public Enquiries | Demandes de renseignement sur la COVID-19 |
 | `2294` | ArriveCAN Public Enquiries | Demandes de renseignement sur ArriveCAN |
@@ -6190,7 +6268,7 @@ FR: Le numéro unique attribué à un service dans le répertoire afin de facili
 | `2372` | Program to Advance Indigenous Reconciliation: Program to Enhance Maritime Situat | Programme visant à favoriser la réconciliation avec les peuples autochtones : Programme de sensibilisation accrue aux activités maritimes |
 | `2373` | Program to Advance Indigenous Reconciliation: Marine Safety Equipment and Traini | Programme visant à favoriser la réconciliation avec les peuples autochtones : Programme de formation et d&#39;équipement de sécurité maritime |
 | `2374` | Inspecting a Railway | Inspection d&#39;un chemin de fer |
-| `2375` | 1-866 Toll-free Services (National Contact Cente Network) | Services sans frais 1-866 (Réseau national des centres d’appels) |
+| `2375` | National Contact Centre Network (NCCN) | Réseau national des centres de contact (RNCC) |
 | `2376` | Natural Infrastructure Fund (NIF) | Fonds pour les infrastructures naturelles (FIN) |
 | `2377` | Green and Inclusive Community Buildings (GICB) | Bâtiments communautaires verts et inclusifs (BCVI) |
 | `2378` | General Enquiry Services | Services de renseignements généraux (SRG) |
@@ -6202,7 +6280,7 @@ FR: Le numéro unique attribué à un service dans le répertoire afin de facili
 | `2442` | RCMP Operations Coordination Centre (ROCC) | Centre de coordination des opérations de la GRC (CCOG) |
 | `2443` | RCMP-Indigenous Relations Services (RIRS) | GRC services de relations avec les autochtones (GRC-SRA) |
 | `2444` | Youth Officer Training (YOT) (online and in-person) | Formation des policiers éducateurs (FPE) (en ligne et en personne) |
-| `2445` | RCMPTalks | DiscussionsGRC |
+| `2445` | RCMPTalks | Discussions GRC |
 | `2446` | Youth Leadership Workshop (YLW) | Atelier de perfectionnement en leadership (APL) |
 | `2447` | Indian Act Land Administration | Gestion des terres sous la Loi sur les Indiens |
 | `2448` | Vulnerable Persons Unit (VPU) - Family Violence Initiative Fund (FVIF) | Section des personnes vulnérables - Fonds de l&#39;Initiative de lutte contre la violence familiale de la GRC |
@@ -6212,8 +6290,8 @@ FR: Le numéro unique attribué à un service dans le répertoire afin de facili
 | `2451` | Coordination Agreement Discussions Tables | Tables de discussions sur l&#39;accord de coordination |
 | `2452` | Notices and requests related to An Act respecting First Nations, Inuit and Métis children, youth and families | Avis et demandes liés à la Loi concernant les enfants, les jeunes et les familles des Premières Nations, des Inuits et des Métis |
 | `2453` | Specialized Technical Investigative Services (STIS) | Les Services d’enquêtes spécialisées et techniques |
-| `2454` | Information sharing service between INTERPOL/Europol and Canadian Law Enforcement | Service d’échange d’information entre INTERPOL/Europol et les organismes canadiens d’application de la loi |
-| `2456` | Support for Operational Stress Injury Program (SOSI) | Programme Soutien - blessures de stress opérationnel (SBSO) |
+| `2454` | Information sharing service between INTERPOL/Europol and Canadian Law Enforcement | Service d’échange d’information entre INTERPOL/Europol |
+| `2456` | Support to employees and veterans experiencing symptoms of or who have been diagnosed with an operational stress injury | Soutien aux employés et vétérans présentant des symptômes ou ayant reçu un diagnostic de traumatisme lié au stress opérationnel |
 | `2457` | Canada Recovery Benefit (CRB) | Prestation canadienne de la relance économique (PCRE) |
 | `2458` | Canada Recovery Caregiving Benefit (CRCB) | Prestation canadienne de la relance économique pour proches aidants (PCREPA) |
 | `2459` | Canada Recovery Sickness Benefit (CRSB) | Prestation canadienne de maladie pour la relance économique (PCMRE) |
@@ -6242,9 +6320,9 @@ FR: Le numéro unique attribué à un service dans le répertoire afin de facili
 | `2534` | Genealogy | Généalogie |
 | `2536` | Loans to other institutions | Prêts à d&#39;autres institutions |
 | `2537` | LAC User Card Registration Form | Formulaire d&#39;inscription pour la carte d&#39;usager de BAC |
-| `2538` | Consultation of Published and Archival Material | Consultation de matériel publié et archivistique |
+| `2538` | Consultation of published and archival material | Consultation de matériel publié et archivistique |
 | `2539` | Respond to requests for information from Parliamentarians. | Répondre aux demandes d&#39;information des parlementaires. |
-| `254` | Environmental Funding - Indigenous Partnerships for Species at Risk | Partenariats autochtone pour les espèces en péril |
+| `254` | Environmental Funding - Aboriginal Fund for Species at Risk | Fonds autochtone pour les espèces en péril |
 | `2540` | Loan request for exhibitions | Demande de prêts pour expositions |
 | `2541` | «Listen, Hear Our Voices» Initiative | Initiative «Écoutez pour entendre nos voix» |
 | `2542` | Access to records in support of the Federal Indian Day School Class Action Settl | Accès aux dossiers à l&#39;appui du règlement du recours collectif des externats indiens fédéraux |
@@ -6253,10 +6331,10 @@ FR: Le numéro unique attribué à un service dans le répertoire afin de facili
 | `255` | Environmental Funding - Atlantic Ecosystems Initiatives | Initiatives des écosystèmes de l&#39;Atlantique |
 | `2550` | Contributions Program of the Office of the Privacy Commissioner of Canada. | Programme des contributions du Commissariat à la protection de la vie privée du Canada. |
 | `2551` | Surplus Canadian Publications | Publications canadiennes en surplus |
-| `2552` | Privacy Impact Assessment (PIAs) Reviews. | Examens d’Évaluations des facteurs relatifs à la vie privée (EFVP). |
+| `2552` | Privacy Impact Assessment (PIAs) Reviews. | Examens de Évaluations des facteurs relatifs à la vie privée (EFVP). |
 | `2553` | Consultation services with federal institutions | Services-conseils au gouvernement |
-| `2554` | Review and investigate complaints under the Privacy Act. | Examiner et enquêter les plaintes en vertu de la Loi sur la protection des renseignements personnels. |
-| `2555` | Receive and review Privacy Act breach reports submitted in accordance with TBS Privacy Policy Instruments. | Recevoir et examiner les rapports d&#39;atteintes à la vie privée en vertu de la Loi sur la protection des renseignements personnels. |
+| `2554` | Review and Investigate complaints under the Privacy Act. | Examiner et enquêter sur les plaintes en vertu de la Loi sur la protection des renseignements personnels. |
+| `2555` | Receive and review Privacy Act breach reports. | Recevoir et examiner les rapports d&#39;atteintes à la vie privée en vertu de la Loi sur la protection des renseignements personnels. |
 | `2556` | Review and investigate complaints under PIPEDA. | Examiner et enquêter les plaintes en vertu de la LPRPDE. |
 | `2557` | On-Reserve Other Community Infrastructure Capacity Building | Renforcement des capacités pour les autres infrastructures communautaires pour les collectivités dans les réserves |
 | `2558` | Receive and review breach reports under PIPEDA. | Recevoir et examiner les atteintes à la vie privée en vertu de la LPRPDE. |
@@ -6265,7 +6343,7 @@ FR: Le numéro unique attribué à un service dans le répertoire afin de facili
 | `2561` | Strategic Policy, Cabinet and Parliamentary Affairs Branch | Direction générale des politiques stratégiques, des affaires du Cabinet et des affaires parlementaires |
 | `2562` | Reconciliation Secretariat Branch | Direction générale du Secrétariat de la réconciliation |
 | `2563` | Claims Assessment | Évaluation des revendications |
-| `2564` | Contribution Funding to support Indigenous Communities Programs | Fonds de contribution pour soutenir les programmes de négociations, de reconstruction des Nation et d’Espaces culturels dans les communautés autochtones. |
+| `2564` | Contribution and Loan Funding to support Indigenous Communities Programs | Fonds de contribution et de prêt pour soutenir les programmes de négociations, de reconstruction des Nation et d’Espaces culturels dans les communautés autochtones. s |
 | `2565` | Negotiations | Négociations |
 | `2566` | BC Treaty Funding | Financement des traités CB |
 | `2567` | Surplus Federal Real Property Initiative | Initiative sur les biens immobiliers excédentaires fédéraux |
@@ -6276,15 +6354,15 @@ FR: Le numéro unique attribué à un service dans le répertoire afin de facili
 | `2572` | Projects subject to federal assessment under the IAA | Projets assujettis à l&#39;évaluation fédérale en vertu de la Loi sur l&#39;évaluation d’impact (LEI) |
 | `2573` | Research Program | Programme de recherche |
 | `2574` | Extractive Sector Transparency Measures Act | Loi sur les mesures de transparence dans le secteur extractif |
-| `2576` | Pilimmaksaivik&#39;s Inuksugait Resume Inventory | Répertoire Inuksugait de postulants de Pilimmaksaivik |
+| `2576` | Pilimmaksaivik&#39;s Inuksugait Inventory | Inventaire des Inuksugait de Pilimmaksaivik |
 | `2577` | Contribution in support of Climate Change Adaptation | Contribution à l&#39;appui de l&#39;adaptation au changement climatique |
 | `2579` | Grants in support of Geo-Mapping for Energy and Minerals | Subventions à l&#39;appui du Programme Géocartographie de l?énergie et des minéraux |
-| `2585` | Energy Innovation Program | Programme d&#39;innovation énergétique |
+| `2585` | Contributions in support of the ENERGY Innovation Program | Contributions à l&#39;appui des Programmes d&#39;innovation énergétique |
 | `2586` | Electric Vehicle Infrastructure Demonstrations | Démonstrations d&#39;infrastructures pour véhicules électriques |
 | `2587` | Smart Grid Infrastructure Demonstrations Program | Programme de démonstration de l&#39;infrastructure des réseaux électriques intelligents |
 | `2588` | Clean Growth in the Natural Resources Sectors Innovation Program | Programme d&#39;innovation sur la croissance propre dans les secteurs des ressources naturelles |
-| `2589` | Energy Efficient Buildings Research, Development and Demonstration Program | Programme de recherche, développement et démonstration de bâtiments écoénergétiques |
-| `2590` | Clean Energy for Rural and Remote Communities - demonstration stream | Énergie propre pour les collectivités rurales et éloignées - volet démonstration |
+| `2589` | Energy Efficient Buildings Program | Programme de bâtiments écoénergétiques |
+| `2590` | Clean Energy for Rural and Remote Communities Program - Demonstration | Programme d&#39;énergie propre pour les collectivités rurales et éloignées |
 | `2591` | Clean Technology Challenges - Impact Canada Initiative - Grants Portion | Défis de technologies propres - Initiative Impact Canada - subventions |
 | `2592` | Clean Technology Challenges - Impact Canada Initiative | Défis de technologies propres - Initiative Impact Canada |
 | `2593` | Emissions Reduction Fund Offshore Research, Development and Demonstration | Le programme de recherche, développement et démonstration extracôtière du Fonds de réduction des émissions |
@@ -6300,7 +6378,7 @@ FR: Le numéro unique attribué à un service dans le répertoire afin de facili
 | `2602` | Grants and Contributions in support of Geoscience | Subventions et contributions en soutien aux géosciences |
 | `2603` | BioHeat component of the Clean Energy for Rural and Remote Communities Program | Volet biothermie du programme Énergie propre pour les collectivités rurales et éloignées (EPCRE) |
 | `2604` | CIM&#39;s Our Earth&#39;s Riches Mineral Literacy Installation | Installation Our Earth&#39;s Riches de l&#39;ICM pour mieux faire connaître le domaine minier aux jeunes Canadiens |
-| `2605` | Spruce Budworm Early Intervention Strategy – Phase III Contribution Program | Stratégie d’intervention précoce contre la tordeuse des bourgeons de l’épinette – Phase III |
+| `2605` | Spruce Budworm Early Intervention Strategy – Phase II Contribution Program | Stratégie d’intervention précoce contre la tordeuse des bourgeons de l’épinette – Phase II |
 | `2606` | Mining Matters Educational Resources for Students | Ressources éducatives pour les étudiants &#39;Mining Matters&#39; |
 | `2607` | Support for research on Woodland Caribou in support of conservation | Appuyer les recherches sur le caribou des bois à l&#39;appui de la conservation de cette espèce en péril |
 | `2608` | Development and Delivery of Regional Mining Webinars | Développement et livraison de séminaire en ligne régionaux pour l&#39;exploitation minière |
@@ -6329,17 +6407,17 @@ FR: Le numéro unique attribué à un service dans le répertoire afin de facili
 | `263` | Environmental Funding - EcoAction Community Funding Program | Appel de propositions pour ÉcoAction |
 | `2630` | Media monitoring and analysis, media relations | Surveillance et analyse médiatiques, relations avec les médias |
 | `2631` | Fisheries Act - Aquatic Invasive Species Regulations Authorizations | la Loi sur les pêches - Autorisations en vertu du Règlement sur les especes aquatiques envahisantes |
-| `2632` | Fisheries Act - Fisheries (General) Regulations - Licences to control aquatic invasive species | La Loi sur les pêches - Règlement de pêche (dispositions générales) - Le permis de pêche de contrôle des espèces aquatiques envahissantes |
+| `2632` | Fisheries Act - Aquatic Invasive Species Regulations Fishing Licences | La Loi sur les pêches - permis de pêches du Règlement sur les especes aquatiques envahisantes |
 | `2633` | Aquatic Invasive Species Program - Contribution Agreements | Programme sur les espèces aquatiques envahissantes - Ententes de contribution |
-| `2634` | TMX Accommodation Measure Aquatic Habitat Restoration Program (AHRF) | TMX mesures d’accommodement&lt;br&gt;Fonds de restauration de l’habitat aquatique (FRAH) |
-| `2635` | TMX Accommodation Measure Terrestrial Cumulative Effects Initiative (TCEI) | TMX mesures d’accommodement&lt;br&gt;Initiative sur les effets cumulatifs en milieu terrestre (IEETC) |
+| `2634` | TMX Accommodation Measure Aquatic Habitat Restoration Program (AHRF) | Les mesures d&#39;accommodement TMX Fonds de restauration de l&#39;habitat aquatique (FRHA) |
+| `2635` | TMX Accommodation Measure Terrestrial Cumulative Effects Initiative (TCEI) | Les mesures d&#39;accommodement TMX Initiative sur les effets cumulatifs en milieu terrestre (IECT) |
 | `2636` | Contributions in support of the Salmonid and Salmon Enhancement Programming | Contributions à l&#39;appui du Programme de mise en valeur des salmonidés |
 | `2637` | Indigenous Fisheries Management | Gestion des pêches autochtones |
-| `2638` | Enforcement of Fisheries Legislation and the Management of Contaminated Fisheries Regulations | Application des lois sur les pêches et des règlements sur la gestion de la pêche du poisson contaminé |
+| `2638` | Enforcement of Fisheries Legislation and Contaminated Shellfish Harvest Areas Closure Regulations | Application des lois sur les pêches et des règlements de fermeture de secteurs coquilliers contaminés |
 | `2641` | CAMPUS - Individual subscription | CAMPUS - Abonnement individuel |
 | `2642` | NFB.ca-Digital Store | ONF.ca-Boutique numérique |
 | `265` | Environmental Funding - Lake Winnipeg Basin Program | Le programme du bassin du lac Winnipeg |
-| `267` | Environmental Funding - Habitat Stewardship Program for Species at Risk | Programme d&#39;intendance de l&#39;habitat pour les espèces en péril |
+| `267` | Environmental Funding - Habitat Stewardship Program | Programme d&#39;intendance de l&#39;habitat pour les espèces en péril |
 | `268` | Environmental Funding - Great Lakes Protection Initiative | Initiative de protection des Grands Lacs |
 | `27` | Access to historic, thematic and educational activities | Accès à des activités historiques, thématiques et éducative |
 | `278` | COSPAS-SARSAT Secretariat Contribution | Contribution du secrétariat COSPAS-SARSAT |
@@ -6372,9 +6450,9 @@ FR: Le numéro unique attribué à un service dans le répertoire afin de facili
 | `335` | Community Resilience Fund | Fonds pour la résilience communautaire |
 | `337` | Crime Prevention Action Fund | Fonds d&#39;action en prévention du crime |
 | `339` | International Association of Fire Fighters | Programme de contribution a l&#39;Association international des pompiers |
-| `34` | Telephony Fixed Lines | Téléphones fixes |
+| `34` | Fixed Line Phones | Téléphones fixes (filaires) |
 | `341` | Northern and Indigenous Crime Prevention Fund | Fonds de prévention du crime chez les collectivités Autochtones et du Nord |
-| `344` | Canada Community Security Program | Programme pour la sécurité communautaire du Canada |
+| `344` | Communities at Risk: Security Infrastructure Program | Programme de financement des projets d&#39;infrastructure de sécurité pour les collectivités à risque |
 | `35` | Bulk Print | Impression en bloc |
 | `351` | Gun and Gang Violence Action Fund | Fonds de lutte contre la violence liée aux armes à feu et aux gangs |
 | `352` | Funding for First Nation and Inuit Policing Facilities Program (FNIPF) | Programme de financement des installations pour les services de police des Premières Nations et des Inuits (PISPPNI) |
@@ -6383,10 +6461,10 @@ FR: Le numéro unique attribué à un service dans le répertoire afin de facili
 | `355` | Avalanche Canada | Avalanche Canada |
 | `356` | Memorial Grant Program for First Responders | Programme de subvention commémoratif pour les premiers répondants |
 | `357` | Funding Decisions for Institutional Capacity | Décisions sur le financement de la capacité institutionnelle |
-| `3570` | Veteran Homelessness Program (VHP) | Programme de lutte contre l&#39;itinérance chez les vétérans (PLIV) |
+| `3570` | Veteran Homelessness (VH) | Programme de lutte contre l&#39;itinérance chez les vétérans (PLIV) |
 | `3572` | Events, exhibitions and tours | Événements, expositions et visites |
 | `3573` | Copyright | Droits d&#39;auteur |
-| `3574` | Information Management and Disposition of Government Records | Gestion de l&#39;information et disposition des documents fédéraux |
+| `3574` | Information Management and Disposition of Government Records | Gestion de l’information et disposition des documents fédéraux |
 | `3575` | International Standard Numbers | Numéros internationaux normalisés |
 | `3576` | Loans | Prêts |
 | `3577` | Research Support | Soutien à la recherche |
@@ -6396,16 +6474,16 @@ FR: Le numéro unique attribué à un service dans le répertoire afin de facili
 | `3585` | Business Information Services | Services d&#39;information aux entreprises |
 | `3586` | Media Relations | Relations avec les médias |
 | `3589` | Shared Human Resources Services | Services partagés en ressources humaines |
-| `3590` | Procurement Options Analysis / Procurement Triage Tool / Ongoing Procurement Support and Advisory | Analyse des options d’approvisionnement / l’Outil de triage / Soutien à l’approvisionnement et services consultatifs en continu |
+| `3590` | Procurement Options Analysis / Procurement Triage Tool/Ongoing Procurement Support and Advisory | Analyse des options d’approvisionnement / l’Outil de triage / Soutien à l’approvisionnement et services consultatifs en continu |
 | `3591` | Real Property Disposals Sector | Secteur de l’aliénation des biens immobiliers |
 | `3593` | Climate Change Funding Programs - Low Carbon Economy Challenge 2023 | Défi pour une économie à faibles émissions de carbone 2023 |
 | `3594` | Community Development Wrap-Around Initiative | Initiative de soutien globale au développement communautaire |
 | `3595` | ATSSC Law Library Services | Services de Bibliothèque du SCDATA |
 | `3596` | ATSSC General Inquiries | Demandes générales SCDATA |
 | `3597` | ATSSC Registry Services | Services de greffe |
-| `3598` | Access to information and privacy | Accès à l’information et protection des renseignements personnels |
+| `3598` | Access to Information and Privacy | Accès à l’information et protection des renseignements personnels |
 | `3599` | Global Innovation Clusters Program | grappes mondiales de l’innovation |
-| `36` | Identity, Credential and Access Management | Gestion des identités, des informations d&#39;identification et des accès |
+| `36` | Internal Credential Management | Gestion des justificatifs internes |
 | `3600` | ElevateIP | ÉleverlaPI |
 | `3601` | Portfolio Management | de gestion de portefeuille |
 | `3602` | Canadian Dental Care Plan Eligibility Verification and Information | Vérification et renseignements sur l’admissibilité au Régime canadien de soins dentaires |
@@ -6440,7 +6518,7 @@ FR: Le numéro unique attribué à un service dans le répertoire afin de facili
 | `3633` | Special Access Programs: Human Drugs | Programmes d&#39;accès spéciale: médicaments à usage humain |
 | `3634` | Special Access Programs: Medical Devices | Programmes d&#39;accès spéciale: instruments médicaux |
 | `3635` | Natural Health Product Application Reviews | Évaluation des applications de produits de santé naturels |
-| `3636` | NHP Site Licence Applications | Demandes de licence d&#39;exploitation de produit de santé naturel |
+| `3636` | Natural Health Product Site Licence Application Reviews | Évaluation des applications de licence des sites de produits de santé naturels |
 | `3637` | Research Ethics Board | Comité d&#39;éthique de la recherche |
 | `3638` | Stratospheric Balloon Flight Opportunities (STRATOS) | Opportunités de vols de ballons stratosphériques (STRATOS) |
 | `3639` | CCOHS Inquiries Service | Le Service des demandes de renseignements du CCHST |
@@ -6454,11 +6532,11 @@ FR: Le numéro unique attribué à un service dans le répertoire afin de facili
 | `3647` | Compliance Reviews / Certifications - Common Criteria Recognition Arrangement (CCRA) | Certifications/examens de conformité – Arrangement de reconnaissance des Critères communs |
 | `3648` | Cyber Centre Learning Hub - Custom Course Development | Carrefour de l’apprentissage du Centre pour la cybersécurité – Élaboration de cours sur mesure |
 | `3649` | Digital Communications – Web Communications | Communications numériques – Communications Web |
-| `3650` | Cyber Flipbook | Le livre de poche cybernétique |
+| `3650` | Cyber Flipbook | Le livre d epoche cybernétique |
 | `3651` | Canadian Anti-Fraud Centre-Online Fraud Reporting Systems | Centre Antifraude du Canada - système de signalement en ligne |
 | `3652` | Indigenous Policing Services - National Directorate | Service de police autochtone – national |
 | `3653` | Issuance of Discharge Books | Délivrance des livrets de service des marins |
-| `3654` | Transportation Merger and Acquisition Review and Assessment Process | Processus d&#39;examen et d&#39;évaluation des fusions et acquisitions dans le domaine des transports |
+| `3654` | Surface Transportation Merger and Acquisition Review and Assessment Process | Processus d&#39;examen et d&#39;évaluation des fusions et acquisitions dans le domaine des transports de surface |
 | `3657` | Transportation Data and Information Hub | Carrefour de données et d&#39;information sur les transports |
 | `3658` | Motor Vehicle Safety Call Centre | Centre d&#39;appels pour la sécurité des véhicules automobiles |
 | `3659` | Assistance for a formal application for certification | Aide fournie en vue de la préparation d’une demande de services de certification |
@@ -6484,13 +6562,13 @@ FR: Le numéro unique attribué à un service dans le répertoire afin de facili
 | `3684` | Research Support Process | Processus de soutien à la recherche |
 | `3685` | Grants and Contributions Programs | Programmes de subventions et contributions |
 | `3686` | Indigenous Program Agreements | Accords sur les programmes autochtones |
-| `3687` | MPA Activity Plan Application Process | Processus des applications de plans d’activités dans les ZPM |
+| `3687` | MPA Activity Plan Application Process | Processus de demande d&#39;activités pour la ZPM - Anguniaqvia niqiqyuam |
 | `3688` | Small Craft Harbours | Ports pour petits bateaux |
 | `3689` | Small Craft Harbours Grant and Contribution Programs | Programmes de subventions et de contributions pour les ports pour petits bateaux |
 | `3690` | Access to activities at the Plains of Abraham Museum | Accès aux activités du Musée des plaines d&#39;Abraham |
 | `3691` | Access to social, cultural and heritage content online (no fee) | Accès à du contenu socio-culturel et patrimonial en ligne (sans frais) |
 | `3692` | Access to a parking space | Accès à une place de stationnement |
-| `3693` | Access to archives (no fee) | Accès aux archives (sans frais) |
+| `3693` | Access to archives (no fee) | Accès aux archives (sans frais |
 | `3694` | Receipt of requests from the media and public at large (no fee) | Réception des demandes des médias et du public (sans frais) |
 | `3695` | Access to social, cultural, heritage and sports activities for the public at large (no fee) | Accès à des activités socio-culturelles, patrimoniales et sportives gratuites pour le grand public (sans frais) |
 | `3698` | Payment of judges&#39; salaries | Paiement des salaires des juges |
@@ -6511,7 +6589,7 @@ FR: Le numéro unique attribué à un service dans le répertoire afin de facili
 | `3714` | Applications for Charitable registration or re-registration | Demandes d&#39;enregistrement ou de réenregistrement d&#39;organismes de bienfaisance |
 | `3716` | Actuarial Validation Report Reviews | Les rapports d’évaluation actuarielle |
 | `3717` | Charities written enquiries | Demandes écrites des organismes de bienfaisance |
-| `3718` | Service Feedback - Problem Resolution | Rétroaction sur les services - Solution de problèmes |
+| `3718` | Problem Resolution | Solution de problèmes |
 | `3719` | GST/HST rulings and interpretations - telephone enquiries | Décisions et interprétations en matière de TPS/TVH – Demandes de renseignements téléphoniques |
 | `3720` | Charities telephone enquiries | Renseignements téléphoniques sur les organismes de bienfaisance (complexes) |
 | `3721` | Clearance Certificate Requests | Demande de certificat de décharge |
@@ -6523,39 +6601,44 @@ FR: Le numéro unique attribué à un service dans le répertoire afin de facili
 | `3727` | Canada Dental Benefit (CDB)To note: The interim Canada Dental Benefit ended on June 30, 2024. | Prestation dentaire canadienne (PDC) |
 | `3728` | Canada Carbon Rebate (previously known as the Climate action incentive payment) | Remise canadienne sur le carbone (auparavant appelée paiement de l’incitatif à agir pour le climat) |
 | `3729` | Community Volunteer Income Tax Program | Programme communautaire des bénévoles en matière d&#39;impôt |
-| `3730` | Animal Health Movement Control Permission | Permis de contrôle des déplacements en lien avec la santé des animaux |
-| `3731` | Veterinary Biologics Special Outline | Protocole spécial pour produits biologiques vétérinaires |
-| `3732` | Veterinary Biologics outline of Production | Protocole de production pour produits biologiques vétérinaires |
+| `3730` | Animal Health Movement Control Permit | Permis de contrôle des déplacements pour santé animale |
+| `3731` | Special Outline for Veterinary Biologics | Protocole spécial pour produits biologiques vétérinaires |
+| `3732` | Outline of Production - Veterinary Biologics | Protocole de production pour produits biologiques vétérinaires |
 | `3733` | Adjudication of Immigration and Refugee cases | Décision des cas d’immigration et de statut de réfugié |
 | `3734` | Ministerial Exemption for the Purpose of Selling a Test Market Food | Exemptions ministérielles pour vendre un aliment d&#39;essai |
 | `3735` | Federal Policing Security Intelligence | Renseignement de sécurité de la Police Fédérale |
 | `3736` | Air Carrier Support Centre (ACSC) | Centre de soutien aux transporteurs aériens (CSTA) |
 | `3737` | Trade Compliance Verification | Vérifications de l&#39;observation commerciale |
 | `3738` | TCS Website - Inquiries Page | SDC Site web - page de demandes |
-| `3739` | Sanctions asset seizure and forfeiture implementation, including request for review of orders for the seizure of assets | Mise en œuvre de la saisie et de la confiscation des biens en vertu des sanctions, y compris les demandes de révision des ordonnances de saisie des biens. |
+| `3739` | Sanctions asset seizure and forfeiture implementation, including review of orders for the seizure of assets. | Mise en œuvre de la saisie et de la confiscation des biens en vertu des sanctions, y compris la révision des ordonnances de saisie des biens. |
 | `3740` | Administration to the Canada Fund for Local Initiatives (CFLI) | Administration du Fond Canadien d&#39;Initiative Local |
-| `3741` | The G7/G20 Summits Bureau | Le bureau des sommets G7 et G20 |
+| `3741` | Coordinate Canada&#39;s engagement in the G7 and G20 at the Leaders and Foreign Ministers levels, including time-sensitive meetings and rapid responses to emerging global events. | Coordonner la participation du Canada au G7 et au G20 au niveau des dirigeants et des ministres des Affaires étrangères, y compris les réunions urgentes et les réponses rapides aux événements mondiaux émergents. |
 | `3757` | Short-Term Rental Enforcement Fund (STREF) | Fonds pour l&#39;application des restrictions sur la location de courte durée (FARLCD) |
 | `38` | Secure Remote Access | Accès à distance protégé |
 | `39` | Midrange | Ordinateurs de milieu de gamme |
 | `4` | Food Recalls and safety alerts | Rappels d&#39;aliments et avis de sécurité |
 | `40` | Mainframe | Ordinateur central |
 | `4000` | School Food Infrastructure Fund | Fonds pour l&#39;infrastructure alimentaire scolaire |
-| `4001` | Review of Complaints | Examen des plaintes |
-| `4002` | Review of federal organization’s procurement practices | Examen des pratiques d’approvisionnement des organisations fédérales |
-| `4003` | Alternative Dispute Resolution | Règlement extrajudiciaire des différends |
-| `4004` | Shared Ombuds Services | Services d’ombuds partagés |
+| `4001` | Review of Complaints | L&#39;examen des plaintes |
+| `4002` | Review of federal organization’s procurement practices | L’examen des pratiques d’approvisionnement des organisations fédérales |
+| `4003` | Alternative Dispute Resolution | Règlement des différends |
+| `4004` | Shared Ombuds services | Services d’ombuds partagés |
+| `4005` | Enterprise Service Project Management | Gestion de projets de services d’entreprise |
 | `4006` | Media Relations | Bureau des relations avec les médias |
 | `4007` | Warehouse Assessment Services | Services d&#39;évaluation d&#39;entrepôt |
 | `4008` | Events | Événements |
-| `4009` | Guided Tours | Visites Guidées |
+| `4009` | Tours | Visites guidées |
+| `4010` | Exhibitions | Expositions |
 | `4011` | LiquidFiles | FichersLiquides |
-| `4012` | Specialized Digital Systems | Systèmes numériques spécialisés |
-| `4013` | National Communications &amp; Public Affairs (NCPA) - Digital Communications | Communications nationales et Affaires publiques (CNAP) - Communications numériques |
+| `4012` | National Communications &amp; Public Affairs (NCPA) - Digital Communications | Communications nationales et Affaires publiques (CNAP) - Communications numériques |
+| `4013` | Specialized Digital Systems | Systèmes numériques spécialisés |
 | `4014` | Specialized Services | Services spécialisés |
+| `4015` | General Consular Guidance | Assistance consulaire générale |
+| `4016` | Personnel Security and Contracting | Sécurité du personnel et des marchés |
 | `4017` | Domestic Physical Security | Sécurité matérielle nationale |
 | `4018` | Registrations of Canadians Abroad (ROCA) | Inscription des Canadiens à l&#39;étranger |
 | `4019` | Passport Services | Services de passeports |
+| `4020` | Citizenship Services | Services de citoyenneté |
 | `4021` | Access to Canadian Top Secret Network | Accès au Réseau canadien très secret |
 | `4022` | Administration of Authorization Regime | Administration du régime d’autorisations |
 | `4023` | Cyber Attributions | Connaissances des menaces cybernétiques |
@@ -6564,16 +6647,28 @@ FR: Le numéro unique attribué à un service dans le répertoire afin de facili
 | `4026` | Family Support Unit | Unité de soutien aux familles |
 | `4027` | Government in Council (GIC) and Ministerial Appointments | Nominations par le gouverneur en conseil (GEC) et ministérielles |
 | `4028` | Integrated support for international assistance programming (G&amp;Cs, RBM, Risk, APP, specialist support: gender, environment, sexual exploitation and abuse) | Ressources en matière de Gestion axée sur les résultats (GAR) |
+| `4029` | Labour Relations Centre of Expertise - Corporate Services | Centre d&#39;expertise en relations de travail - Services ministériels |
+| `4030` | LES Benefits management - End of service entitlements | Gestion des prestations ERP - indemnités de départ |
+| `4031` | LES Benefits management - Financial Operations/Management and Oversight - Contract and invoice Management | Gestion des prestations ERP - opérations financières/gestion et surveillance - Gestion des contrats et des factures |
+| `4032` | LES Benefits management - Financial Operations/Management and Oversight - Funds Management | Gestion des prestations ERP - opérations financières/gestion et surveillance - Gestion des fonds |
+| `4033` | LES Benefits management - Insured Benefit Plans | Gestion des avantages sociaux des ERP - Régimes de prestations assurées |
 | `4034` | LES HR Framework - LES Labour Relations and Terms and Conditions of Employment | Cadre des RH ERP - Relations de travail et termes et conditions d&#39;emploi des ERP |
 | `4035` | LES HR Framework -Management of Program and Policy Design for Performance management | Cadre des RH ERP - Gestion de la conception des programmes et politiques pour la gestion du rendement |
 | `4036` | LES HR Framework -Policy Stewardship - Management of Program and Policy Design for Staffing, Classification, Labour Relations and Terms and Conditions of Employment | Cadre des RH ERP - Gestion des politiques et direction de la conception des programmes et des politiques pour la dotation, la classification, les relations de travail et les conditions d&#39;emploi |
+| `4037` | LES HR Framework- Salary scale determination &amp; administration | Cadre de RH ERP-Établissement et administration des échelles salariales |
 | `4038` | LES HR learning Framework -Management of Program and Policy Design for Learning | Cadre des RH ERP - Gestion de la conception des programmes et des politiques pour l’apprentissage |
+| `4039` | LES Leave Admin system tool (Avilar) Pilot | Projet pilote (Avilar) du système d&#39;administration des congés ERP |
+| `4040` | LES Program co-lead for LES HR systems Software as a service contract requirements | Co-direction du programme ERP pour le contrat de service des logiciels des systèmes de RH ERP |
+| `4041` | LES Social Security Participation management | Gestion de la participation des ERP aux régimes locaux de sécurité sociale |
+| `4042` | Parliamentary briefing materials for Deputy Ministers and Ministers | Documents de breffage parlementaire à l&#39;intention des sous-ministres et des ministres |
 | `4043` | Request for Particulars | Demande de renseignements |
 | `4044` | Seasonal Influenza Immunization for Locally Engaged Staff | Vaccination contre la grippe saisonnière pour les employés recrutés sur place |
-| `4045` | CanadaBuys Service Desk (Level 1) | Bureau D&#39;aide Achats Canada (Niveau 1) |
-| `4046` | Electronic Procurement Solution (EPS) | Solutions d&#39;achats électroniques (SAE) |
+| `4045` | Electronic Procurement Solution (EPS) | Solutions d&#39;achats électroniques (SAE) |
+| `4046` | CanadaBuys Service Desk (Level 1) | Bureau D&#39;aide Achats Canada (Niveau 1) |
 | `4047` | Onboarding Services | Services d&#39;intégration |
 | `4048` | Federal Policing Border Integrity | Intégrité frontalière de la police fédérale |
+| `4049` | Information Requests | Demande d`informations |
+| `4050` | Regional Security Operations Division | Direction des opérations de sécurité régionales |
 | `4051` | Consular Case Management | Gestion de cas consulaire |
 | `4052` | Advice to the Minister | Conseils au ministre |
 | `4053` | Canadian Technology Accelerator | Accélérateurs technologiques canadiens |
@@ -6581,36 +6676,57 @@ FR: Le numéro unique attribué à un service dans le répertoire afin de facili
 | `4055` | Diplomatic Security Liasion Services | Services de liaison pour la protection des diplomates |
 | `4056` | Economic modelling | Modélisation économique |
 | `4057` | Export Permit Services (Softwood Lumber and Logs) | Service des licences d&#39;exportation (bois d&#39;œuvre résineux and billes de bois) |
+| `4058` | Governance of LES-Missions&#39; Management Consultative Board processes | Gouvernance du processus de Consultations entre les Conseils de direction des missions et les ERP |
 | `4059` | Provide leadership on Emergency Response and Preparedness for Health International Assistance portfolio. | Assurer la direction en matière de réponse et de préparation aux urgences pour le secteur d&#39;assistance internationale en santé. |
 | `4060` | Provision of humanitarian assistance and operational response to natural disasters abroad in developing countries | Prestation d&#39;assistance humanitaire et réponse opérationnelle aux catastrophes naturelles à l&#39;étranger dans les pays en développement |
 | `4061` | Rapid Response Mechanism (RRM) | Mécanisme de réponse rapide (MRR) |
 | `4062` | Moodle | Moodle |
+| `4063` | Reconciliation and Indigenous engagement advice and policy development | Activités de réconciliation et de mobilisation des Autochtones et élaboration de politiques |
+| `4064` | Horizontal Policies (Greening) - strategic environmental and economic assessments, compliance management, public statements, and reporting mandatory for all departmental proposals to Cabinet (ie. Budget asks, TB subs, MCs, regulations) | Services d&#39;appoint en matière de politiques (recherche, analyse et conseils en matière de politiques). |
 | `4065` | Workstation Software Provisioning | Approvisionnement en logiciels de poste de travail |
+| `4066` | Wide Area Network (WAN) | Réseau étendu (RE) |
+| `4067` | Intra-building Network | Réseau à l’intérieur des immeubles |
 | `4068` | External Network Connectivity | Connectivité au réseau externe |
 | `4069` | Parliamentary District Policing Program | Programme de services de police du district parlementaire |
-| `4070` | Assault-Style Firearms Compensation Program | Programme d&#39;indemnisation pour les armes à feu de style arme d&#39;assaut |
-| `4074` | Research and Innovation Programs Benefits Administration (Veteran and Family Well-being Fund) | Administration des prestations des programmes de recherche et d’innovation (Fonds pour le bien-être des vêtêrans et de leur famille) |
-| `4075` | My VAC Account - Secure Online Services | Mon dossier ACC – Services en ligne sécurisés |
+| `4070` | Assault-Style Firearms Compensation Program | Programme d&#39;indemnisation pour les armes à feu de style arme d&#39;assaut (PIAFSAA) |
+| `4071` | Preparation of the Federal Budget | Préparation du budget fédéral |
+| `4072` | Lead Coordination of Financial Sector | Préparation du budget fédéral |
+| `4073` | International Economic Leadership | Préparation du budget fédéral |
+| `4074` | Research and Innovation Programs Benefits Administration | Administration des avantages des programmes de recherche et d’innovation |
+| `4075` | Online Services | Services en ligne |
 | `4076` | ATIP Requests Processing | Traitement des demandes d’AIPRP |
+| `4077` | Paper Records Management | gestion des documents papier |
 | `4078` | Canadian Grain Sampling Program Sample Inspection | Inspection d’échantillon du Programme canadien d’échantillonnage des grains |
 | `4079` | Christmas Tree Export Program | Programme d&#39;exportation d&#39;arbres de Noël |
-| `4080` | Disability Benefits Administration | Administration des prestations d’invalidité |
-| `4081` | Income Replacement and Financial Assistance, Benefits Administration | Remplacement du revenu et de l’assistance financière, Administration des prestations |
-| `4082` | Commemorative Benefits and Services | Avantages et services de commémoration |
-| `4083` | Financial Support for Health Care | Soutien financier pour les soins de santé |
+| `4080` | Disability Benefits Program Benefits Administration | Administration des avantages du Programme de prestations d’invalidité |
+| `4081` | Financial Assistance and Income Replacement Programs Benefits Administration | Administration des avantages des programmes d’aide financière et de remplacement du revenu |
+| `4082` | Commemorative Benefits and Services | Avantages et services commémoratifs |
+| `4083` | Financial Support for Health Care Programs | Soutien financier pour les programmes de soins de santé |
+| `4085` | Development of Official-Language Communities – Post-Secondary Sector and Scientific Knowledge in French Support Fund | Développement des communautés de langue officielle - Fonds d’appui au secteur postsecondaire et aux savoirs scientifiques en français |
 | `4086` | Multiculturalism and Anti-Racism Initiatives - National Holocaust Remembrance Program | Multiculturalisme et la lutte contre le racisme - Programme national de commémoration de l’Holocauste |
 | `4087` | Indigenous Business Navigator Service | Service de navigateur pour les entreprises autochtones |
-| `4088` | Commemorating the National Day for Truth and Reconciliation | Commemorating the National Day for Truth and Reconciliation |
+| `4088` | Commemorating the National Day for Truth and Reconciliation | Commémoration de la Journée nationale de la vérité et de la réconciliation |
 | `4089` | Trade Missions and Events | Missions et activités commerciales |
 | `4090` | Greener Neighbourhoods Pilot Program | Programme pilote pour des quartiers plus verts |
 | `4091` | Oil Spill Response Challenge | Défi d’intervention en cas de déversement d’hydrocarbures |
+| `4092` | Clean Energy for Rural and Remote Communities - demonstration stream | Énergie propre pour les collectivités rurales et éloignées - volet démonstration |
 | `4093` | Consumer Information Centre | Centre d&#39;information aux consommateurs |
-| `4094` | Oral Health Access Funding (OHAF) applications&#39; review and transfer of funds to eligible recipients | Examen des demandes du Fonds d&#39;accès à la santé buccodentaire (FASB) et transfert des fonds aux demandeurs admissibles |
+| `4094` | Oral Health Access Funding (OHAF) applications&#39; review and transfer of funds to eligible recipients | Oral Health Access Funding (OHAF) applications&#39; review and transfer of funds to eligible recipients |
 | `4095` | Oral health providers claims&#39; and estimates&#39; processing and payment as part of the Canadian Dental Care Plan | Traitement des réclamations et des demandes d&#39;autorisations préalables et paiement aux fournisseurs de soins buccodentaires dans le cadre du Régime canadien de soins dentaires |
+| `4096` | Compliance response and enforcement escalation | Réponse en matière de conformité et escalade en matière d&#39;application |
+| `4097` | Compliance response and enforcement action to a Type I mandatory recall (MO) | Réponse en matière de conformité et mesures coercitives à la suite d&#39;un rappel obligatoire (MO) de type I |
+| `4098` | Regulatory and legislative advice and guidance | Conseils et orientations en matière de réglementation et de legislation |
+| `4099` | Education and Outreach | Éducation et sensibilisation |
 | `41` | Storage | Stockage |
+| `4100` | International, Intergovernmental and Stakeholder Relations | Relations internationales, intergouvernementales et avec les parties prenantes |
+| `4101` | Status Confirmation Service | Service de confirmation du statut |
+| `4102` | Office of Controlled Substances Licensed Dealer | Bureau des substances contrôlées Distributeur agréé |
 | `4103` | Emergency Treatment Fund | Fonds d&#39;urgence pour le traitement |
 | `4104` | Medical Access Support | Assistance en matière d&#39;accès aux soins médicaux |
+| `4105` | Tobacco Quit Lines | Lignes d&#39;aide pour arrêter de fumer |
 | `4106` | Approval of retained controlled substances by law enforcement | Autorisation de conservation des substances contrôlées par les forces de l&#39;ordre |
+| `4107` | Licensing and registration recommendation | Recommandation en matière de licences et d’enregistrements |
+| `4108` | Regulatory exemption guidance | Orientation sur les exemptions réglementaires |
 | `4109` | Canadian Coast Guard Marine Operations and Response Transfer Payment Program | Programme de paiements de transfert pour les opérations maritimes et les interventions de la Garde côtière canadienne |
 | `4110` | Certification and Market Access Program for Seals Contribution Agreement (CMAPS) | Le Programme de certification et d&#39;accès aux marchés des produits du phoque (PCAMPP) |
 | `4111` | Contribution Program for Pacific Salmon Foundation | Programme de contribution à la Fondation du saumon du Pacifique |
@@ -6622,13 +6738,18 @@ FR: Le numéro unique attribué à un service dans le répertoire afin de facili
 | `4117` | Marine Spatial Planning Atlas | Atlas de planification spatiale marine |
 | `4118` | Media Relations | Relations médias |
 | `4119` | Multi-Partners Oil Spill Response Research Contribution Program | Programme de contribution à la recherche en matière d’intervention à partenaires multiples lors d’un déversement d’hydrocarbures |
-| `4120` | Licensing under the Fisheries Act that is offline | Licences délivrées en vertu de la Loi sur les pêches qui sont hors ligne |
+| `4120` | Offline Licensing Services | Services d&#39;émission de permis hors ligne |
 | `4121` | Pacific Salmon Commercial Transition Program | Programme de transition commerciale pour le saumon du Pacifique |
 | `4122` | Pacific Salmon Conservation and Stewardship Partnerships Program | Programme de partenariats pour la conservation et la gestion du saumon du Pacifique |
 | `4123` | Public Enquiries | Demande de renseignements du public |
 | `4124` | Sustainable Fisheries Contribution Program - Shared Ocean Fund (Indo-Pacific Strategy) | Programme de contribution aux pêches durables - Fonds commun pour les océans (Stratégie indo-pacifique) |
 | `4125` | Consular Enquiries | Renseignements consulaires |
 | `4126` | Cannabis Product Recalls management (type I) | Gestion des rappels de produits à base de cannabis (type I) |
+| `4127` | Stakeholder engagement and communications | Engagement des parties prenantes et communications |
+| `4128` | Strategic policy and planning for stakeholder relations with various groups on the opioid overdose crisis and chronic pain | Politique stratégique et planification des relations avec les parties prenantes de divers groupes concernant la crise des surdoses d&#39;opioïdes et la douleur chronique |
+| `4129` | Provide executive leadership, oversight and decision-making | Assurer la direction exécutive, la supervision et la prise de decisions |
+| `4130` | Compliance monitoring and reporting | Surveillance et rapports de conformité |
+| `4131` | Policy development and regulatory updates | Élaboration de politiques et mises à jour réglementaires |
 | `4132` | Ship Security Alert System (SSAS) Testing | Système d’alerte de sécurité du navire |
 | `4133` | CSC National Victim Services Program: Process victim registration request | Programme national de services aux victims du SCC : demande d&#39;inscription |
 | `4134` | CSC National Victim Services Program: Process Victim Statement | Programme national de services aux victims du SCC : traiter les déclarations de la victime |
@@ -6647,17 +6768,52 @@ FR: Le numéro unique attribué à un service dans le répertoire afin de facili
 | `4147` | Receive and review notification of Public Interest Disclosures under the Privacy Act. | Recevoir et examiner les notifications de communications dans l&#39;intérêt public par les institutions fédérales en vertu de la Loi sur la protection des renseignements personnels. |
 | `4148` | CCOHS Business Safety Portal | Portail pour la sécurité en entreprise du CCHST |
 | `4149` | Intake and Printing - Personal Registration applications | Réception et impression - Demandes d&#39;enregistrement personnel |
+| `4150` | Access to Guided Tours of the Governor General&#39;s Official Residences (free) | Accès aux visites guidées des résidences officielles du gouverneur général (gratuit) |
+| `4151` | Provisioning of Greetings and Messages from the Governor General | Envoi de messages et de vœux du gouverneur général |
+| `4152` | Recognition of Canadian Excellence with the Canadian Honors and Awards Programs | Reconnaissance de l&#39;excellence canadienne grâce aux programmes d&#39;honneurs et de distinctions canadiens |
+| `4153` | Earthquake Early Warning System | Système d&#39;alerte précoce en cas de tremblement de terre |
 | `4154` | Conduct a Review | Effectuer un examen |
 | `4155` | Access to Information and Privacy | Accès à l’information et protection des renseignements personnels |
 | `4156` | Media and Public Inquiries | Médias et demandes de renseignements du public |
-| `4157` | Quasi-judicial review of certain ministerial authorizations | Examen quasi judiciaire de certaines autorisations ministérielles |
-| `4160` | Incidents and Investigations - Explosives | Incidents et investigations - Explosifs |
-| `4161` | Outreach - Explosives | Sensibilisation - Explosifs |
+| `4157` | Quasi-judicial review of certain ministerial authorizations | Examen quasi judiciaire de certaines autorisations |
+| `4158` | Customs Brokers Professional Examination | Examen de compétences professionnelles des courtiers en douane |
+| `4159` | Customs Brokers Licensing | Agrément des courtiers en douane |
+| `4160` | Incidents and Investigations | Incidents et investigations - Explosifs |
+| `4161` | Outreach | Sensibilisation - Explosifs |
 | `4162` | Comprehensive Nuclear-Test-Ban Treaty (CTBT) International Monitoring System (IMS) | Traité d&#39;interdiction complète des essais nucléaires (TICE) Système international de surveillance (SIS) |
 | `4163` | Geomagnetic Monitoring and Space Weather Forecasting (GMSWF) | Surveillance géomagnétique et prévisions météorologiques spatiales |
 | `4164` | Nuclear Emergency Response (NER) | Intervention en cas d&#39;urgence nucléaire |
 | `4165` | Seismic Monitoring (SM) | Surveillance sismique |
 | `4166` | Earthquake Early Warning System | Le système d’alerte sismique précoce canadien |
+| `4167` | Canada Housing Infrastructure Fund (CHIF) | Fonds canadien pour les infrastructures liées au logement (FCIL) |
+| `4168` | Canada Public Transit Fund (CPTF) | Fonds pour le transport en commun du Canada (FTCC) |
+| `4169` | Funding for Research Training and Talent Development | Financement de la formation en recherche et du développement des talents |
+| `4170` | Funding for Discovery Research | Financement de la recherche axée sur la découverte |
+| `4171` | Funding for Research and Technology Partnerships | Financement des partenariats en recherche et en technologie |
+| `4172` | EPS Operations | Opérations de la SAE |
+| `4173` | AgriAssurance Program: Kosher and Halal Investment Component | Programme Agri-assurance : Volet Investissement casher et halal |
+| `4174` | Agricultural Clean Technology Program: Research and Innovation Stream - Accelerator | Programme des technologies propres en agriculture : Volet Recherche et innovation - Accélérateur |
+| `4175` | AgriMarketing Program: Kosher and Halal Investment Component | Programme Agri-marketing : Volet Investissement casher et halal |
+| `4176` | AgriMarketing Program: Market Diversification - National Industry Association Component | Programme Agri-marketing : Volet Diversification des marchés pour les associations nationales de l’industrie |
+| `4177` | AgriMarketing Program: Market Diversification - Small and Medium-sized Entreprise | Programme Agri-marketing : Diversification des marchés pour les petites et moyennes entreprises |
+| `4178` | Kosher and Halal Investment Program | Programme d’investissement casher et halal |
+| `4179` | Program Payment Services Unit | Unité des services de paiement des programmes |
+| `4180` | Tax Payer Relief Provisions | Dispositions d’allègement pour les contribuables |
+| `4181` | Canadian Beacon Registry (CBR) | Registre canadien des balises |
+| `4182` | Military spouse employment initiative | Initiative d’emploi pour les conjoints de militaires |
+| `4183` | National Claims &amp; Litigation Directorate | Direction nationale des réclamations et du contentieux |
+| `4184` | Service-related injury or illness benefits administered by Veterans Affairs Canada | Programmes de soins de santé pour une blessure ou une maladie liée au service administrés par Anciens Combattants Canada |
+| `4185` | National Communications &amp; Public Affairs (NCPA) - Intellectual Property Office | Communications nationales et Affaires publiques (CNAP) - Bureau de la propriété intellectuelle |
+| `4186` | National Armourer Program (IPTMP) | Programme national d’armurerie (SPAPTM) |
+| `4187` | Police Dog Service Training Centre (PDSTC) | Centre de dressage des chiens de police (CDCP) |
+| `4188` | Physical Security Program - Lead Security Agency for Physical Security and Internal Services for Physical Security | Programme de sécurité matérielle – Le principal organisme responsable de la sécurité matérielle (POSM) et services internes de sécurité matérielle |
+| `4189` | Receive and review codes of practice submitted in accordance with Proceeds of Crime (Money Laundering) and Terrorist Financing Regulations (PCMLTFR) | Recevoir et examiner les codes de pratique soumis conformément au Règlement sur le recyclage des produits de la criminalité et le financement des activités terroristes (RRPCFAT) |
+| `4190` | Potato Wart Program | Programme de la galle verruqueuse de la pomme de terre |
+| `4191` | Livestock Feeds Licence | Licence d&#39;aliments pour animaux de ferme |
+| `4192` | Insight Research | Programme de recherche axée sur la connaissance |
+| `4193` | Research Partnerships | Programme de partenariats de recherche |
+| `4194` | Canada Biomedical Research Fund | Fonds de recherche biomédicale du Canada |
+| `4195` | Research Support Fund | Fonds de soutien à la recherche |
 | `423` | Conduct Complaints | Plaintes pour inconduites |
 | `424` | Interference Complaints | Plaintes pour ingérence |
 | `425` | Direct Funding Payments | Paiements d&#39;aide financière directs |
@@ -6668,8 +6824,8 @@ FR: Le numéro unique attribué à un service dans le répertoire afin de facili
 | `44` | Middleware | Intergiciel |
 | `45` | Database | Base de données |
 | `46` | Cloud Brokering | Courtage infonuagique |
-| `47` | Secret Systems | Systèmes secrets |
-| `48` | Workstation Hardware Provisioning | Approvisionnement en matériel de poste de travail |
+| `47` | Classified Infrastructure | Infrastructure classifiée |
+| `48` | Workplace Technology Devices Provisioning | Approvisionnements des appareils technologiques en milieu de travail |
 | `49` | Web Conferencing | Cyberconférence |
 | `5` | Regulatory Clarification | Clarification règlementaires |
 | `50` | Audio Conferencing | Téléconférence |
@@ -6680,7 +6836,7 @@ FR: Le numéro unique attribué à un service dans le répertoire afin de facili
 | `6` | Service Complaints | Plaintes de service |
 | `655` | Grant, Scholarship and Fellowship Funding Transfers to Administering Institution | Transferts de subventions et de bourses d&#39;études et de perfectionnement à des établissements administrateurs |
 | `656` | Grant, Scholarship, Fellowship and Award Administration | Administration des subventions, des bourses de perfectionnement et des bourses d&#39;études |
-| `657` | CanNor Grants and Contributions | Subventions et contributions de CanNor |
+| `657` | CanNor Grants and Contributions | Subventions et contributions CanNor |
 | `658` | Access to Information and Privacy (ATIP) | Accès à l&#39;information et protection des renseignements personnels (AIPRP) |
 | `659` | Youth Justice Fund | Fonds du système de justice pour les jeunes |
 | `660` | Victims Fund | Fonds d&#39;aide aux victimes |
@@ -6704,7 +6860,7 @@ FR: Le numéro unique attribué à un service dans le répertoire afin de facili
 | `678` | Refugee Claims | Demandes d&#39;asile |
 | `679` | Border Information Service (BIS) | Service d&#39;information sur la frontière (SIF) |
 | `680` | Customs Special Services | Services spéciaux des douanes |
-| `687` | Hydrological Services | Services hydrométriques |
+| `687` | Hydrometric data and information service | Service de données et d&#39;informations hydrométriques |
 | `688` | Health and air quality forecast services | Services de prévision relatifs à la santé et à la qualité de l&#39;air |
 | `689` | Marine program weather services | Services du programme météorologique maritime |
 | `690` | Direct Funding Payments | Versements faits directement aux boursiers |
@@ -6721,7 +6877,7 @@ FR: Le numéro unique attribué à un service dans le répertoire afin de facili
 | `721` | Partners in Protection Program Membership Application Processing | Traitement des demandes d&#39;adhésion au programme Partenaires en protection |
 | `722` | Trusted Trader Application- Customs Self-Assessment (CSA) | Demande de négociant digne de confiance - Programme d&#39;autocotisation des douanes (PAD) |
 | `723` | Cultural Property Export Permits | Biens culturels - Délivrance des licences d&#39;exportation |
-| `724` | Request for Assisstance Application for Intellectual Property Rights (IPR) | Demande d&#39;aide de droits de propriété intellectuelle |
+| `724` | Request for Assistance Application for Intellectual Property Rights (IPR) | Demande d&#39;aide de droits de propriété intellectuelle |
 | `725` | Employee Assistance Services | Services d’aide aux employés |
 | `726` | Employee Assistance Services: Employee Assistance Program | Services d’aide aux employés : Programme d’aide aux employés |
 | `728` | Commercial Processing (highway, air, rail, marine, postal and courier) | Traitement commercial (routier, aérien, ferroviaire, maritime, postaux et messageries) |
@@ -6745,8 +6901,8 @@ FR: Le numéro unique attribué à un service dans le répertoire afin de facili
 | `746` | Drawback Claims | Demandes de drawback |
 | `747` | Access to Information and Privacy | Accès à l&#39;information et la protection des renseignements personnels |
 | `748` | Feedback Mechanism | Mécanisme de rétroaction |
-| `749` | Enforcement, Trusted Traveller and Trade Appeals Litigation | Appels des mesures d&#39;exécution et litige |
-| `750` | Trade and Commerical Appeals and Litigation | Appels des échanges commerciaux et litige |
+| `749` | Enforcement and Appeals Litigation | Appels des mesures d&#39;exécution et litige |
+| `750` | Trade Appeals and Litigation | Appels des échanges commerciaux et litige |
 | `751` | Employee Assistance Services: Specialized Organizational Services | Services d’aide aux employés : Services organisationnels spécialisés |
 | `752` | Access to Information and Privacy | Accès à l&#39;information et protection des renseignements personnels |
 | `753` | Employee Assistance Services: Trauma Services | Services d’aide aux employés : Services d’intervention post-traumatique |
@@ -6775,7 +6931,7 @@ FR: Le numéro unique attribué à un service dans le répertoire afin de facili
 | `792` | Critical Infrastructure Exercises | Exercices des infrastructures essentielles |
 | `795` | Cyber Security Cooperation Program | Programme de coopération en matière de cybersécurité |
 | `798` | Passenger Protect Inquiries Office (PPIO) | Demandes de renseignement du Programme de protection des passagers (BRPPP) |
-| `8` | Email | Courriel |
+| `8` | Email | Courriel (Yes et Legacy) |
 | `800` | Access to information and privacy | Accès à l’information et protection des renseignements personnels |
 | `801` | Safeguarding Science Outreach | Sensibilisation de la science en sécurité |
 | `803` | Listed Terrorist Entities | Entités terroristes inscrites |
@@ -6787,7 +6943,7 @@ FR: Le numéro unique attribué à un service dans le répertoire afin de facili
 | `811` | Contribution to Combat Serious and Organized Crime | Programme de contribution pour combattre les crimes graves et le crime organisé |
 | `813` | Major International Events Security Cost Framework | Cadre sur les coûts de sécurité des événements internationaux majeurs |
 | `814` | Nation&#39;s Capital Extraordinary Policing Costs | Contribution pour les coûts extraordinaire des services de police de la capitale nationale |
-| `815` | National Flagging System | Système national de repérage |
+| `815` | National Flagging System Class Grant | Global de subventions du système national de repérage |
 | `816` | Grants and Contributions Program to National Voluntary Organizations | Programme de subventions et de contributions pour les organismes bénévoles nationaux |
 | `817` | Biology Casework Analysis Contribution Program | Programme de contribution aux analyses biologiques |
 | `818` | National Office for Victims | Bureau national pour les victimes d&#39;actes criminels |
@@ -6796,7 +6952,7 @@ FR: Le numéro unique attribué à un service dans le répertoire afin de facili
 | `838` | NewsDesk | InfoMedia |
 | `839` | Federal Emergency Communications Coordination | Coordination des communications fédérales d&#39;urgence |
 | `840` | Coordination of Federal Emergency Management (Government Operations Centre) | Coordination de la gestion fédérale des situations d&#39;urgence (Centre des opérations du gouvernement) |
-| `843` | GCdocs | GCdocs |
+| `843` | GCdocs | Gcdocs |
 | `844` | GCcase | GCcas |
 | `845` | Regional Resilience Assessments | Évaluations de la résilience régionale |
 | `846` | Grants for the Disposal of Surplus Lighthouses | Programme de subventions et de contributions pour l&#39;aliénation de phares excédentaires |
@@ -6818,7 +6974,7 @@ FR: Le numéro unique attribué à un service dans le répertoire afin de facili
 | `871` | Interpretation | Interprétation |
 | `872` | Terminology Standardization | Normalisation terminologique |
 | `873` | Executive Correspondence | Correspondance de la haute gestion |
-| `874` | Certificate of Pharmaceutical Product (CPP) &amp; Good Manufacturing Practices (GMP) | Certificat de produit pharmaceutique (CPP) et de Bonnes Pratiques de Fabrication (BPF) |
+| `874` | Certificate of Pharmaceutical Product (CPP) &amp; Good Manufacturing Practices (GMP) | Certificat de produit pharmaceutique (CPP) de Bonnes Pratiques de Fabrication (BPF) |
 | `875` | Drug Establishment Licensing (DEL) | Les licences d&#39;établissement de produits pharmaceutiques (LEPP) |
 | `876` | Manufacturer&#39;s Certificate to Export licenced medical devices from Canada (MCE) | Certificat du fabricant relatif à l&#39;exportation d&#39;instruments médicaux homologués au Canada (CFE) |
 | `877` | Medical Device Establishment Licencing (MDEL) | Licence d&#39;établissement pour les instruments médicaux (LEIM) |
@@ -6830,8 +6986,8 @@ FR: Le numéro unique attribué à un service dans le répertoire afin de facili
 | `888` | Grants and Contributions Services | Services des subventions et contributions |
 | `890` | National Emergency Strategic Stockpile: Request for Assistance (RFA) | Réserve nationale stratégique d&#39;urgence |
 | `891` | Authorization to Conduct Controlled Activities with Pathogens and Toxins | Autorisation d’exercer des activités réglementées avec des agents pathogènes et des toxines |
-| `892` | Human Pathogens and Toxins Act Security Clearance | Habilitation de sécurité en vertu de la Loi sur les agents pathogènes humains et les toxines (LAPHT) |
-| `895` | YFVCD -YELLOW FEVER VACCINATION CENTRE DESIGNATION | DESIGNATION D&#39;UN CENTRE DE VACCINATION CONTRE LA FIEVRE JAUNE |
+| `892` | Human Pathogens and Toxins Act Security Clearance | Loi sur les agents pathogènes et les toxines (LAPHT) autorisation de sécurité |
+| `895` | Yellow Fever Vaccination Centre Designation | Désignation d&#39;un centre de vaccination contre la fièvre jaune |
 | `896` | Access to Information and Privacy (ATIP) | Accès à l&#39;information et la protection des renseignements personnels (AIPRP) |
 | `898` | Public Enquiries | Demandes de renseignement |
 | `899` | Public Health Agency of Canada Publications | Publications de l&#39;Agence de la santé publique du Canada |
@@ -6857,22 +7013,22 @@ FR: Le numéro unique attribué à un service dans le répertoire afin de facili
 | `919` | Application for certification of exposure device operators | Demande d’accréditation des opérateurs d’appareil d’exposition |
 | `920` | Transport licence application | Demande de permis de transport |
 | `921` | Participant Funding Program | Programme de financement des participants |
-| `9223` | Climate Change Funding Programs - Implementation Readiness Fund | Programmes de financement des changements climatiques - Fonds de préparation à la mise en œuvre |
+| `9223` | Climate Change Funding Programs - Implementation Readiness Fund | Programmes de financement pour le changement climatique - Fonds de préparation à la mise en œuvre |
 | `924` | Professional and Technical Services | Services Professionnels et Techniques |
 | `925` | Ministerial Correspondence | Correspondance ministérielle |
 | `926` | Canadian Firearms Program (CFP) - Firearms Licensing for individuals | Programme canadien des armes à feu (PCAF) - Permis d&#39;armes à feu pour les particuliers |
 | `927` | Canadian Firearms Program (CFP) - Firearms Licensing for businesses | Programme canadien des armes à feu (PCAF) - Permis d&#39;armes à feu pour les entreprises |
-| `928` | National Forensic Laboratory Services (NFLS) | Services nationaux de laboratoire judiciaire (SNLJ) |
+| `928` | National Forensic Laboratory Services (NFLS) | Services nationaux de laboratoire judiciaure (SNLJ) |
 | `929` | Certified Criminal Record Checks | Attestation de vérification de casier judiciaire |
 | `930` | Canadian Criminal Real Time Identification Services (CCRTIS) - Accreditation Services | Les Services canadiens d&#39;identification criminelle en temps réel (SCICTR) - Service d&#39;accréditation |
-| `931` | Integrated Forensic Identification Services (IFIS) - Disaster Victim Identification (DVI) | Service intégré de l&#39;identité judiciaire (SIIJ) - d&#39;identification des victimes de catastrophes (IVC). |
-| `932` | National DNA Data Bank (NDDB) Indices Comparison | Banque nationale de données génétiques - comparaison des fichiers (BNDG) |
+| `931` | Integrated Forensic Identification Services (IFIS)- Disaster Victim Identification (DVI) | Service intégré de l&#39;identité judiciaire (SIIJ) - d&#39;identification des victimes de catastrophes (IVC). |
+| `932` | National DNA Data Bank (NDDB) Indices Comparison | Banque nationale de données génétiques - comparaison des indices (BNDG) |
 | `934` | Canadian Police Information Centre (CPI Centre) | Centre d&#39;information de la police canadienne (Centre IPC) |
 | `935` | Canadian Police College (CPC) | Collège canadian de police (CCP) |
 | `936` | National Law Enforcement Training (NLET) | Groupe de la formation policière nationale (GFPN) |
 | `937` | Access to Information and Privacy (ATIP) | Accès à l’information et de protection des renseignements personnels (AIPRP) |
 | `938` | Contract Security (Company Registration, Personal Security Screening, Call Centre) | Sécurité des contrats (enregistrement d&#39;une entreprise, filtrage de la sécurité du personnel, centre d&#39;appels) |
-| `939` | Integrity Verification Services | Services de vérification de l&#39;intégrité |
+| `939` | Integrity Verification Services | Services de vérification d&#39;intégrité |
 | `940` | Controlled Goods (Company Registration, Security Assessments, Exemption Applications for Visitors, Temporary Workers and International Students) | Marchandises contrôlées (enregistrement des entreprises, évaluations de sécurité, demandes d&#39;exemption pour les visiteurs, les travailleurs temporaires et étudiants étrangers) |
 | `941` | Fairness Monitoring Services | Services de surveillance de l&#39;équité |
 | `942` | Business Dispute Management Services | Gestion des conflits d&#39;ordre commercial |
@@ -6881,7 +7037,7 @@ FR: Le numéro unique attribué à un service dans le répertoire afin de facili
 | `946` | Federal Leadership on Law Enforcement and Policing Research | Leadership fédéral en recherche en matière d&#39;application de la loi et la police |
 | `947` | Passport Cancellation Reconsideration | Réexamen de l&#39;annulation des passeports |
 | `949` | Registry Services (Registrar) | Service du greffe (greffier) |
-| `95` | Intra-building Network | Réseau à l’intérieur des immeubles |
+| `95` | Intra-building Network Services | Services de réseau à l’intérieur des immeubles |
 | `950` | Library Services | Service de Bibliothèque |
 | `951` | Visitor Services and Experiences | Services et expériences aux visiteurs |
 | `952` | Accommodation services in Parks Canada&#39;s Places | Services d&#39;hébergement dans les endroits de Parcs Canada |
@@ -6892,14 +7048,14 @@ FR: Le numéro unique attribué à un service dans le répertoire afin de facili
 | `960` | Shared Travel Services | Services de voyage partagés |
 | `961` | Access to Information Service | Service d&#39;accès à l&#39;information |
 | `962` | Output-Based Pricing System (OPBS) Registration System | Système de tarification fondé sur le rendement |
-| `963` | National Environmental Emergencies Centre (NEEC) | Centre national des urgences environnementales (CNEE) |
+| `963` | National Environmental Emergencies Centre | Centre National des Urgences Environnementales |
 | `965` | Antarctic Environmental Protection Act permitting | Délivrance de permis - Loi sur la protection de l’environnement en Antarctique |
-| `966` | Workplace Accommodations Services | Service d&#39;aménagement en milieux de travail |
+| `966` | GC Accommodations space management system | Système de gestion de l&#39;espace de GC locaux |
 | `967` | Property and Facility Management | Gestion des biens et des installations |
 | `968` | Events and Conference Management | Gestion d&#39;événements et de conférences |
 | `969` | Architecture and Engineering | Architecture et génie |
 | `970` | Payments in Lieu of Taxes | Paiements en remplacement d&#39;impôts |
-| `971` | Real Estate Transactions Services | Services des transactions immobilières |
+| `971` | Real Estate Services | Services des biens immobiliers |
 | `972` | Property Portfolio and Asset Advisory Services | Services consultatifs en matière de gestion de portefeuilles de biens immobiliers et de biens |
 | `973` | Environment, Health and Safety Services for Real Property | Services en matière d&#39;environnement, de santé et de sécurité pour les biens immobiliers |
 | `974` | Geomatics Services | Services géomatique |
@@ -6913,7 +7069,7 @@ FR: Le numéro unique attribué à un service dans le répertoire afin de facili
 | `983` | Access to Information and Privacy | Accès à l&#39;information et protection des renseignements personnels |
 | `984` | Shared Human Resources Services | Services partagés en ressources humaines |
 | `985` | Import permits for species harmful to Canadian ecosystems | Permis d&#39;importation d&#39;espèces nuisibles aux écosystèmes du Canada |
-| `986` | Convention on International Trade in Endangered Species (CITES) | la Convention sur le commerce international des espèces de faune et de flore sauvages menacées d’extinction |
+| `986` | Permits for trade in protected species | Permis pour le commerce d&#39;espèces protégées |
 | `987` | Migratory Birds: all other permits | Oiseaux migrateurs: autres permis |
 | `988` | Permits under the Wildlife Area Regulations | Permis en vertu du Règlement sur les réserves d&#39;espèces sauvages |
 | `989` | Complaint Investigation of Suspected Inaccurate Measurement | Enquête sur les plaintes concernant les mesures inexactes soupçonnées |
@@ -6946,10 +7102,10 @@ FR: Le numéro unique attribué à un service dans le répertoire afin de facili
 | `SRV02660` | Livestock Feed Registration or Renewal | Enregistrement ou renouvellement des aliments pour animaux de ferme |
 | `SRV02661` | Research Exemption with Safety - Research with Livestock Feeds | Dispense de recherche avec la sécurité - Recherche sur les aliments pour animaux de ferme |
 | `SRV02662` | Research Exemption - Research with Livestock Feeds | Dispense de recherche - Recherche sur les aliments pour animaux de ferme |
-| `SRV02663` | Research Approval Livestock Feeds | Autorisation de recherche - Recherche sur les aliments pour animaux de ferme |
-| `SRV02664` | Veterinary Biologics Product Licence | Demandes d&#39;homologation de nouveaux produits |
+| `SRV02663` | Research Authorization- Research with Livestock Feeds | Autorisation de recherche - Recherche sur les aliments pour animaux de ferme |
+| `SRV02664` | Product Licensing Submissions for Veterinary Biologics | Demandes d&#39;homologation de nouveaux produits |
 | `SRV02665` | Veterinary Biologics Serial Release | Mise en circulation des séries de produits biologiques vétérinaires |
-| `SRV02666` | Veterinary Biologics Label | Évaluation de l&#39;étiquette |
+| `SRV02666` | Label review for major and or minor Veterinary Biologics | Évaluation de l&#39;étiquette |
 | `SRV02667` | Aquatic Animal Health Compartmentalization Program | Programme de compartimentation santé des animaux aquatiques |
 | `SRV02668` | Equine Infectious Anemia Control Program | Programme de lutte contre l&#39;anémie infectieuse des équidés |
 | `SRV02669` | Chronic Wasting Disease Herd Certification Programs | Programmes de certification des troupeaux pour la maladie débilitante chronique |
@@ -6964,9 +7120,9 @@ FR: Le numéro unique attribué à un service dans le répertoire afin de facili
 | `SRV02678` | Import Animal Products and By-Products | Importation des produits et sous-produits d&#39;animaux terrestres |
 | `SRV02679` | Import Aquatic Animals | Importation d&#39;animaux aquatiques |
 | `SRV02680` | Import Animal Pathogens | Importation des zoonoses pathogènes |
-| `SRV02681` | Veterinary Biologics Import | Importation de produits biologiques vétérinaires |
+| `SRV02681` | Import Veterinary Biologics | Importation de produits biologiques vétérinaires |
 | `SRV02682` | Veterinary Biologics Export Certificates | Certificats d&#39;exportation de produits biologiques vétérinaires |
-| `SRV02683` | Export Animal - Certificates - live animal, animal products and by-products | Certificats de santé pour l&#39;exportation - des produits et sous-produits d&#39;animaux terrestres |
+| `SRV02683` | Export Certificates - live animal, animal products and by-products | Certificats de santé pour l&#39;exportation - des produits et sous-produits d&#39;animaux terrestres |
 | `SRV02687` | Licence to Print Official Seed Tag | Licence pour imprimer des etiquettes officielles de semence |
 | `SRV02688` | Multiplication Agreement for Varietal Certification of Seed Multiplied Abroad | Entente de multiplication pour la certification variétale des semences à l&#39;étranger |
 | `SRV02689` | Recognition of Export Grain Analysis by Authorized Laboratories (REGAL) program | Le Programme de laboratoires autorisé pour l&#39;analyse des grains à l&#39;exportation (PLAAGE) |
@@ -6990,7 +7146,7 @@ FR: Le numéro unique attribué à un service dans le répertoire afin de facili
 | `SRV02707` | Hardwood Export Program | Programme d&#39;exportation de bois de feuillus |
 | `SRV02708` | Wild Rice Export Program | Programme d&#39;exportation de riz sauvage |
 | `SRV02709` | Canadian Sawn Wood Certification Program | Programme canadien de certification du bois scié |
-| `SRV02710` | Greenhouse-Grown Plant Certification Program | Programme de certification des végétaux cultivés en serre |
+| `SRV02710` | United States – Canada Greenhouse-Grown Plant Certification Program | Programme États-Unis - Canada de certification des végétaux cultivés en serre |
 | `SRV02711` | Canadian Growing Media Program, Approval Process and Import Requirements | Programme canadien des milieux de culture, processus d&#39;approbation préalable et exigences en matière d&#39;importation de végétaux enracinés dans des milieux de culture approuvés |
 | `SRV02712` | Grapevine Export Program | Programme d&#39;exportation de la vigne |
 | `SRV02713` | Systems Approach Based Oriental Fruit Moth Certification Program | Programme de certification visant la tordeuse orientale du pêcher fondé sur une approche systémique |
@@ -7037,7 +7193,7 @@ FR: Le numéro unique attribué à un service dans le répertoire afin de facili
 | `SRV02755` | Fertilizer Export Certificates | Certificats d&#39;exportation pour l&#39;engrais |
 | `SRV02762` | Permit to Import - Plants and Plant Products | Permis d&#39;importation - les végétaux et les produits végétaux |
 | `SRV02763` | Notice to Industry | Avis à l&#39;industrie |
-| `SRV02764` | Preventive Control Inspection | l&#39;inspection de contrôle préventif |
+| `SRV02764` | Preventative Control Inspection | l&#39;inspection de contrôle préventif |
 | `SRV02765` | Supporting a Humanitarian Workforce to Respond to COVID-19 and Other Large-Scale Emergencies | Appuyer une main-d&#39;œuvre humanitaire pour répondre à la COVID-19 et à d&#39;autres urgence de grande envergure |
 | `SRV02766` | Building Safer Communities Fund | Fonds pour bâtir des communautés sécuritaires |
 | `SRV02767` | Written Authorization to Conduct Activities on Plant Pests | Autorisation écrite de mener des Activités sur des phytoravageurs |
@@ -7048,7 +7204,7 @@ FR: Le numéro unique attribué à un service dans le répertoire afin de facili
 | `SRV02772` | Tourism Relief Fund (TRF) | Le Fonds d’aide au tourisme |
 | `SRV02773` | Jobs and Growth Fund (JGF) | Le Fonds pour l’emploi et la croissance |
 | `SRV02774` | Aerospace Regional Recovery Initiative (ARRI) | L’Initiative de relance régionale de l’aérospatiale (IRRA) |
-| `SRV02775` | Data Centre Facilities Management | Gestion des installations des centres de données |
+| `SRV02775` | Data Centre Facilities | Installations des centres de données |
 | `SRV02776` | Public Awareness Contribution Program (PACP) | Programme de contribution à la sensibilisation du publique (PCEP) |
 | `SRV02779` | Real Property Contract Oversight Services | Services de surveillance des contrats immobiliers |
 | `SRV02780` | Project Management | Gestion de projet |
@@ -7060,9 +7216,9 @@ FR: Le numéro unique attribué à un service dans le répertoire afin de facili
 | `SRV02789` | Application for Cannabis Record Suspension | Demande de suspension du casier liée au cannabis |
 | `SRV02790` | Intellectual Property Centre of Expertise (IP CoE) | Centre d&#39;expertise en Propriété intellectuelle (CE PI) |
 | `SRV02791` | Canada Digital Adoption Program - Boost Your Business Technology | Programme canadien d’adoption du numérique - Améliorez les technologies de votre entreprise |
-| `SRV02792` | Weather information services to public authorities | Services d&#39;informations météorologiques aux autorités publiques |
-| `SRV02793` | Meteorological support for environmental emergency response | Soutien météorologique pour les urgences environnementales |
-| `SRV02795` | Temporary exemption for emergency circumstances under the Reduction of Carbon Dioxide Emissions from Coal-Fired Generation of Electricity Regulations | Exemption temporaire pour situations d&#39;urgence en vertu du Règlement sur la réduction des émissions de dioxyde de carbone — secteur de l’électricité thermique au charbon |
+| `SRV02792` | Weather Information Services to Public Authorities | Services d&#39;informations météorologiques aux autorités publiques |
+| `SRV02793` | Meteorological Support for Environmental Emergency Response | Soutien météorologique pour les urgences environnementales |
+| `SRV02795` | Temporary exemption for emergency circumstances under the Reduction of Carbon | Exemption temporaire pour situations d&#39;urgence en vertu du Règlement sur la réduction des émissions de dioxyde de carbone |
 | `SRV02798` | Temporary waivers to fuel regulations | Exemptions temporaires en vertu des règlements sur les carburants |
 | `SRV02800` | Antarctic Environmental Protection Act permitting | Protection de l&#39;environnement en Antarctique |
 | `SRV02811` | Enhanced Nature Legacy - Indigenous-led Area Based Conservation | Conservation par zone menée par les Autochtones - Capacité et formation |
@@ -7072,15 +7228,15 @@ FR: Le numéro unique attribué à un service dans le répertoire afin de facili
 | `SRV02815` | GCXchange | GCéchange |
 | `SRV02816` | Taxation Statistical Analyses and Data Processing | Analyse statistique et traitement de données de l’impôt |
 | `SRV02817` | Debt Management Call Centre | Centre d’appels de la gestion des créances |
-| `SRV02818` | Public Accounts of Canada | Comptes publics du Canada |
+| `SRV02818` | Financial audits of the Public Accounts of Canada | Audit des états financiers des Comptes publics du Canada |
 | `SRV02820` | Internal Audit | Audit Interne |
 | `SRV02821` | Scientific Research and Experimental Development (SR&amp;ED) Tax Credits, Canadian film or video production tax credit (CPTC), and film or video production services tax credit (PSTC) – Claims not selected for a review or an audit | Crédit d’impôt pour la recherche scientifique et le développement expérimental (RS&amp;DE), crédit d’impôt pour production cinématographique ou magnétoscopique canadienne (CIPC) et crédit d’impôt pour services de production cinématographique ou magnétoscopique (CISP) Demandes non sélectionnées pour un examen ou une vérification |
-| `SRV02822` | Scientific Research and Experimental Development (SR&amp;ED) Tax Credits – Refundable claims selected for a review | Crédit d’impôt pour la recherche scientifique et le développement expérimentale (RS&amp;DE) demandes remboursables sélectionnées pour un examen |
+| `SRV02822` | Scientific Research and Experimental Development (SR&amp;ED) Tax Credits – Refundable claims selected for a review | Crédit d’impôt pour la recherche scientifique et le développement expérimentale (RS&amp;DE) – demandes remboursables sélectionnées pour un examen |
 | `SRV02823` | Event Management Service | Service de gestion d&#39;évenements |
 | `SRV02824` | Canadian film or video production tax credit (CPTC) and film or video production services tax credit (PSTC) – Claims selected for an audit | Crédit d’impôt pour production cinématographique ou magnétoscopique canadienne (CIPC) et crédit d&#39;impôt pour services de production cinématographique ou magnétoscopique (CISP) – Demandes sélectionnées pour une vérification |
 | `SRV02825` | Canada Worker Lockdown Benefit (CWLB) | Prestation canadienne pour les travailleurs en cas de confinement (PCTCC) |
 | `SRV02826` | Hardest-Hit Business Recovery Program (HHBRP) | Programme de relance pour les entreprises les plus durement touchées (PREPDT) |
-| `SRV02827` | Export Development Canada filings | Le dépôt des déclarations d&#39;Exportation et développement Canada. |
+| `SRV02827` | Financial audit of Export Development Canada’s consolidated financial statements | Audit d’états financiers consolidés d’Exportation et développement Canada |
 | `SRV02828` | Tourism and Hospitality Recovery Program (THRP) | Programme de relance pour le tourisme et l&#39;accueil (PRTA) |
 | `SRV02829` | Financial audits of territorial organizations | Audits financiers des organisations territoriales |
 | `SRV02830` | Canada Recovery Hiring Program (CRHP) | Programme d&#39;embauche pour la relance économique du Canada (PEREC) |
@@ -7089,7 +7245,7 @@ FR: Le numéro unique attribué à un service dans le répertoire afin de facili
 | `SRV02834` | Graphic Design Services | Services de conception graphique |
 | `SRV02836` | Editing Services | Services de révision |
 | `SRV02838` | Public Enquiries Services | Services de renseignements au public |
-| `SRV02840` | Web Services | Services Web |
+| `SRV02840` | Web services | Services web |
 | `SRV02841` | Social Media Services | Services des médias sociaux |
 | `SRV02842` | Strategic Communications | Communication Stratégiques |
 | `SRV02843` | Digital Communications and Design Support | Communications numériques et aide à la conception |
@@ -7118,7 +7274,7 @@ FR: Le numéro unique attribué à un service dans le répertoire afin de facili
 | `SRV02869` | International Accommodation Services | Services d&#39;hébergement internationaux |
 | `SRV02870` | Client Relations | Relations avec les clients |
 | `SRV02871` | Engineering Services | Service d&#39;ingénierie |
-| `SRV02872` | Material Management Service | Service de Gestion du Matériel |
+| `SRV02872` | Material Management Service | Service de gestion du matériel |
 | `SRV02873` | Transfer and diffusion of space technology | Diffusion et transfert de technologies spatiales |
 | `SRV02874` | Security Program Management Service | Service de gestion de programme de sécurité |
 | `SRV02875` | Atmospheric data on carbon monoxide concentration (MOPITT on Terra) | Données atmosphériques sur la concentration de monoxyde de carbone (MOPITT sur Terra) |
@@ -7133,7 +7289,7 @@ FR: Le numéro unique attribué à un service dans le répertoire afin de facili
 | `SRV02884` | Historical Earth observation data (R1) | Données historiques d&#39;observation de la Terre (R1) |
 | `SRV02885` | Guidelines on risk-based monitoring of grants and contributions | Lignes directrices sur le suivi axé sur les risques des subventions et de contributions |
 | `SRV02886` | Access to Places Administered by Parks Canada | Accès aux Lieux Administrés par Parcs Canada |
-| `SRV02887` | Emergency Dispatch | Répatition d&#39;uregence |
+| `SRV02887` | Emergency Dispatch | Envoi d&#39;urgence |
 | `SRV02888` | User support for SAR data (Service Desk) | Support aux utilisateurs des données SAR (Service Desk) |
 | `SRV02889` | Support for SCISAT data users | Support aux utilisateurs des données SCISAT |
 | `SRV02890` | Weights and Measures Calibration | L&#39;étalonnage des appareils de pesage et de mesure |
@@ -7142,7 +7298,7 @@ FR: Le numéro unique attribué à un service dans le répertoire afin de facili
 | `SRV02898` | Promotion and Disease Prevention: Communicable Disease Control and Management - Direct Service Delivery | Promotion et prévention des maladies : Contrôle et gestion des maladies transmissibles - Prestation directe de services |
 | `SRV02899` | Pathways to Safe Indigenous Communities | Voies vers des communautés autochtones sûres |
 | `SRV02900` | National Compensation Services (NCS) | Services nationaux de rémunération (SNR) |
-| `SRV02901` | Substance Use and Addictions Program | Programme sur l&#39;usage et les dépendances aux substances |
+| `SRV02901` | Substance Use and Addictions Program | Programme sur l’usage et des dépendances aux substances |
 | `SRV02902` | Respond to requests for information and complaints of Cannabis promotion prohibitions | Répondre aux demandes d&#39;information et aux plaintes relatives aux interdictions de promotion du cannabis |
 | `SRV02903` | Screening and Triage-Personal Registration | Examen et triage – Demandes d’inscription personnelle |
 | `SRV02904` | Media Enquiries | Demandes des médias |
@@ -7150,12 +7306,12 @@ FR: Le numéro unique attribué à un service dans le répertoire afin de facili
 | `SRV02908` | Correspondence Referrals to other Departments (dep&#39;t email, contact us page) | Correspondance Renvois vers d&#39;autres départements (courriel du département, page Contactez-nous) |
 | `SRV02909` | Departmental Correspondence (not including referrals) | Correspondance ministérielle (à l&#39;exclusion des renvois) |
 | `SRV02910` | Public Enquiries (not referrals) | Demandes de renseignements du public (pas de renvois) |
-| `SRV02911` | Ministerial Correspondence | Correspondance ministérielle |
+| `SRV02911` | Ministerial Correspondence (SPB) | Correspondance ministérielle (DGPS) |
 | `SRV02912` | Canadian Hazards Information Service (Untargeted) | Service canadien d&#39;information sur les risques (non ciblé) |
 | `SRV02913` | GeoConnections Program | Programme GéoConnexions |
 | `SRV02914` | Canada Greener Homes Initiative | Initiative canadienne pour des maisons plus vertes |
 | `SRV02915` | Youth Employment and Skills Strategy - S &amp; T Internship Program - Green Jobs | Stratégie emploi et compétences jeunesse - le Programme de stages en sciences et technologie - emplois verts |
-| `SRV02916` | Security Screening Management System (SSMS) | Systeme de gestion du filtrage de sécurité (SGFS) |
+| `SRV02916` | Departmental Security Management System (DSMS) - Service name updated to :Security Screening Management System (SSMS) | Systeme de gestion du filtrage de sécurité (SGFS) |
 | `SRV02917` | Open Science and Data Platform | Plateforme de science et de données ouvertes |
 | `SRV02918` | Emissions Reduction Fund Offshore Deployment Program | Programme de déploiement extracôtier du fonds de réduction des émissions |
 | `SRV02919` | Smart Grid Deployment Program | Programme de déploiement de réseaux intelligents |
@@ -7164,10 +7320,10 @@ FR: Le numéro unique attribué à un service dans le répertoire afin de facili
 | `SRV02922` | Strategic Interties Predevelopment Program | Programme de prédéveloppement des interconnexions stratégiques |
 | `SRV02923` | Smart Renewables and Electrification Pathways Program - Capacity Building and Indigenous Engagement Grants | Programme des énergies renouvelables intelligentes et de trajectoires d’électrification - Renforcement des capacités et Subventions pour l’engagement des Autochtones |
 | `SRV02924` | Nature Conservation | Conservation de la nature |
-| `SRV02925` | Wildfire Emergency Preparedness and Response | Préparation et intervention d&#39;urgence en cas d&#39;incendie de forêt |
+| `SRV02925` | Wildfire Emergency Response | Intervention d&#39;urgence en cas d&#39;incendie de forêt |
 | `SRV02926` | Large Value Transfer Payment | Paiement de transfert de grande valeur |
 | `SRV02927` | Results of the Survey of Private Sector Economic Forecasters | Résultats de l&#39;enquête auprès des prévisionnistes économiques du secteur privé |
-| `SRV02928` | Law Enforcement | L&#39;Application de la loi |
+| `SRV02928` | Law Enforcement | Forces de l&#39;ordre |
 | `SRV02930` | Publication of key economic documents | Publication de documents économiques clés |
 | `SRV02932` | CCOHS E-Learning | Apprentissage en ligne du CCHST |
 | `SRV02933` | Value-Added Services Provided at Places Administered by Parks Canada | Services à valeur ajoutée offerts dans les lieux administrés par Parcs Canada |
@@ -7177,7 +7333,7 @@ FR: Le numéro unique attribué à un service dans le répertoire afin de facili
 | `SRV02937` | Emergency geomatics and satellite mapping service | Service de géomatique d&#39;urgence et de cartographie par satellite |
 | `SRV02938` | Satellite Ground Stations | Stations-relais pour satellites |
 | `SRV02939` | Canada Map Office | Bureau des cartes du Canada |
-| `SRV02940` | Clean Energy for Rural and Remote Communities Program - Capacity Building and Grants | Programme d&#39;énergie propre pour les collectivités rurales et éloignées - Renforcement des capacités et subventions |
+| `SRV02940` | Clean Energy for Rural and Remote Communities Program - Capacity Building | Programme d&#39;énergie propre pour les collectivités rurales et éloignées - Renforcement des capacités |
 | `SRV02941` | Radiological Risk Assessments | Évaluation des risques radiologiques |
 | `SRV02942` | Human Monitoring and Assessment | Surveillance et évaluation humaines |
 | `SRV02943` | National Calibration Reference Centre Performance Testing Program | Centre national de référenceProgramme de test de performance |
@@ -7206,36 +7362,36 @@ FR: Le numéro unique attribué à un service dans le répertoire afin de facili
 | `SRV02973` | National Criminal Operations (NCROPS) | Opérations criminelles nationales (SNPC) |
 | `SRV02974` | Operational Communication Centers (OCC) | Stations de transmissions opérationnelles (STO) |
 | `SRV02975` | Strategic Policing Agreements and Service | Accords de services de police stratégiques et Service |
-| `SRV02976` | Operational Systems Service Centre (OSSC) | Centre de service des systèmes de la police opérationnels (CSSPO) |
+| `SRV02976` | Operational Systems Service Centre (OSSC) : | Centre de service des systèmes de la police opérationnels (CSSPO) |
 | `SRV02977` | RCMP- National Crime Prevention and Indigenous Policing Services | (GRC) Services nationaux de prévention du crime et de police autochtone |
 | `SRV02978` | Federal Policing Criminal Operations (FPCO) | Opérations Criminelles de la Police Fédérale (OCPF) |
 | `SRV02979` | National Security | Sécurité nationale |
 | `SRV02980` | RCMP- National Critical Infrastructure Team | (GRC) Équipe nationale des infrastructures essentielles |
 | `SRV02981` | Canadian Air Carrier Protective Program | Programme de protection des transporteurs aériens canadiens |
-| `SRV02982` | Protective Policing | Operations internationales de la paix |
+| `SRV02982` | Protective Policing | Police de protection |
 | `SRV02983` | RCMP- Witness Protection | (GRC) Protection des témoins |
 | `SRV02984` | Project Seahorse | Projet Seahorse |
-| `SRV02985` | Federal Policing National Intelligence | Police fédérale renseignement national |
+| `SRV02985` | National Intelligence | Renseignement national |
 | `SRV02987` | Interpol/Europol | Interpol/Europol |
 | `SRV02988` | Passport Selection | Sélection de passeports |
 | `SRV02990` | Operational Information Management | Gestion de l&#39;information opérationnelle |
-| `SRV02991` | International Operations and Policing Development **International Capacity Building Program | Opérations internationales et développement des services de police **Programme international de renforcement des capacités |
-| `SRV02992` | International Liaison and Deployment Centre | Centre de coordination et de liaison internationale |
-| `SRV02993` | International Peace Operations | Services de déploiement international |
-| `SRV02994` | International Health Services | Services de santé international |
+| `SRV02991` | International Operations and, Policing Development | Opérations internationales et développement des services de police |
+| `SRV02992` | International Liaison and Coordination Centre | Centre de coordination et de liaison internationale |
+| `SRV02993` | International Deployment Services | Services de déploiement international |
+| `SRV02994` | International Health, Protection and Wellness | Santé, protection et bien-être international |
 | `SRV02997` | RCMP- Canadian Police Information Center | (GRC) Centre d&#39;information de la police canadienne |
 | `SRV02998` | RCMP- Canadian Criminal Real Time Identification Services | (GRC) Services canadiens d&#39;identification criminelle en temps réel |
 | `SRV02999` | RCMP- Science and Strategic Partnerships | (GRC) Partenariats scientifiques et stratégiques |
-| `SRV03000` | Air Services | Service de l&#39;air |
+| `SRV03000` | Air Services | Services aériens |
 | `SRV03001` | Specialized Technical Investigative Services | Services d&#39;enquêtes techniques spécialisées |
 | `SRV03002` | Protective Technical Services | Services techniques de protection |
-| `SRV03003` | Chemical, Biological, Radiological, Nuclear and Explosives (CBRNE) | Chimique, biologique, radiologique, nucléaire et explosifs |
+| `SRV03003` | Chemical, Biological, Radiological, Nuclear and Explosives | Chimique, biologique, radiologique, nucléaire et explosifs |
 | `SRV03004` | Behavioural Sciences Investigative Services (BSIS) | Services d&#39;enquêtes en sciences du comportement (SESC) |
 | `SRV03005` | National Centre for Missing Persons and Unidentified Remains (NCMPUR) | Centre national pour les personnes disparues et les restes non identifiés (CNPDRN) |
 | `SRV03006` | National Child Exploitation Crime Centre (NCECC) | Centre national contre l&#39;exploitation des enfants (CNCEE) |
 | `SRV03007` | Truth Verification Section (TVS) | Section des contrôles de sincérité (SCS) |
 | `SRV03008` | National Radio Services (NRS) | Programme de services radio nationaux (SRN) |
-| `SRV03009` | Cyber Security, Operations and Platform Support | Cybersécurité, soutien des opérations et des plateformes |
+| `SRV03009` | Operations and Platform Support | Soutien des opérations et des plateformes |
 | `SRV03010` | Digital Systems and Solutions Delivery | Soutien aux forces de l&#39;ordre des systèmes, applications et services critiques |
 | `SRV03012` | Corporate Staffing - Member | Dotation ministérielle - Membre |
 | `SRV03014` | Cadet Training Services | Services de formation des cadets |
@@ -7243,7 +7399,7 @@ FR: Le numéro unique attribué à un service dans le répertoire afin de facili
 | `SRV03016` | Liaison with national and international enforcement partners | Liaison avec les partenaires nationaux et internationaux chargés de l&#39;application de la loi |
 | `SRV03017` | Exemptions from the Controlled Drugs and Substances Act in reponse to emergencies (CSCB) | Exemptions pour l&#39;utilisation de substances contrôlées en réponse à des urgences (DGSCC) |
 | `SRV03018` | Issuance of No Objection Letters for imports | Délivrance de lettres de non-objection pour les importations |
-| `SRV03019` | Issuance of Designated Device Registrations under the Controlled Drugs and Substances Act | Délivrance d&#39;enregistrements de dispositifs désignés en vertu de la Loi réglementant certaines drogues et autres substances |
+| `SRV03019` | Issuance of Designated Device Registrations under the Controlled Drugs and Substances Act | Délivrance de l&#39;enregistrement d&#39;un instruments désignés |
 | `SRV03044` | Federal Economic Immigration- Permanent Residence | Immigration économique fédérale- Résidence permanente |
 | `SRV03045` | Regional Economic Immigration- Permanent Residence | Immigration économique régionale- Résidence permanente |
 | `SRV03046` | Family Reunification- Permanent Residence | Regroupement familial- Résidence permanente |
@@ -7255,7 +7411,7 @@ FR: Le numéro unique attribué à un service dans le répertoire afin de facili
 | `SRV03054` | African Swine Fever Industry Preparedness Program: Prevention and Preparedness Stream | Programme de préparation de l’industrie à la peste porcine africaine : Volet Prévention et préparation |
 | `SRV03055` | African Swine Fever Industry Preparedness Program: Welfare Slaughter and Disposal Stream | Programme de préparation de l’industrie à la peste porcine africaine : Volet Abattage par compassion et élimination |
 | `SRV03056` | AgriCommunication | Programme Agri-communication |
-| `SRV03057` | Agricultural Clean Technology: Research and Innovation Stream | Programme des technologies propres en agriculture : Volet Recherche et innovation |
+| `SRV03057` | Agricultural Clean Technology:Research and Innovation Stream | Programme des technologies propres en agriculture : Volet Recherche et innovation |
 | `SRV03058` | Wine Sector Support Program | Programme d&#39;aide au secteur du vin |
 | `SRV03060` | The Victim Liaison Officer | L&#39;agent de liaison de la victime |
 | `SRV03061` | Sexual Misconduct Support and Resource Center&#39;s Community Support for Sexual Misconduct Survivors Grant Program | Le programme de subventions pour le soutien communitaire pour les personnes surviantes d&#39;inconduite sexuelle du Centre de soutien et de resources sur l&#39;inconduite sexuelle |
@@ -7292,13 +7448,13 @@ FR: Le numéro unique attribué à un service dans le répertoire afin de facili
 | `SRV03153` | LDD Forest Products - Receiving Regulated Product | Produits forestiers LDD - Réception de produits réglementés |
 | `SRV03154` | License for Removal of Animals or Things Under the authority of The Health of Animals Act | Permis pour l&#39;enlèvement d&#39;animaux ou de choses en vertu de la Loi sur la santé des animaux |
 | `SRV03155` | Anti-Crime and Counter-Terrorism Capacity Building Programs (AC/CTCBP) | Programme d’aide au renforcement des capacités en matière de lute contre la criminalité et le terrorism |
-| `SRV03156` | Application for a certificate of mistaken identity | Demande de certificat d’erreur d&#39;identité |
+| `SRV03156` | Application for a certificate - Mistaken identity | Demande d&#39;attestation - erreur d&#39;identité |
 | `SRV03157` | Application for Review of Seizure Order | Demande d&#39;examination de décret concernant la saisie de biens situés au Canada |
 | `SRV03158` | Application to no longer be a designated person | Demande de radiation |
 | `SRV03159` | Shipborne Dunnage Program | Programme du bois de calage transporté par les navires |
 | `SRV03160` | Avian Influenza Movement - General Permit | Mouvement de la grippe aviaire – Permis général |
 | `SRV03161` | Peat Export Program | Programme d&#39;exportation de tourbe |
-| `SRV03162` | Biosafety and biocontainment facility compliance | Conformité des installations en biosécurité et bioconfinement |
+| `SRV03162` | Compliance Letter (Animal Pathogen Laboratories) | Lettre de conformité (Laboratoires d&#39;agents pathogènes animaux) |
 | `SRV03164` | Baseline Threat Assessments (BTAs) | L’évaluation de base des menaces(EBM) |
 | `SRV03168` | Cancellation and revocation of passports and refusal of passport services | Annulation et révocation de passeports et refus de services de passeport |
 | `SRV03170` | Research Security Centre | Centre de la sécurité de la recherche |
@@ -7308,7 +7464,7 @@ FR: Le numéro unique attribué à un service dans le répertoire afin de facili
 | `SRV03175` | Canada Book Fund - Support for Publishers- Publishing Support | Fonds du livre du Canada - Soutien aux éditeurs - Soutien à l’édition |
 | `SRV03176` | Canadian International Innovation Program (CIIP) | Le programme canadien de l&#39; innovation à l&#39;internationale (PCII) |
 | `SRV03177` | Development of Emergency Economic Stimulus Packages | Élaboration de plans de relance économique d’urgence |
-| `SRV03178` | Canadian Police Arrangement and Civilian Deployment Platform | Arrangement de la police civile canadienne et la Plateforme de déploiements de ressources civiles |
+| `SRV03178` | Canadian Police Arrangement and Civilian Deployment Platform | l’Arrangement sur la police civile canadienne (APCC)/la Plateforme de déploiements de ressources civiles |
 | `SRV03179` | Canada Book Fund - Support for Organizations | Fonds du livre du Canada - Soutien aux organismes |
 | `SRV03181` | Cyber Defence Services | Services de cyberdéfense |
 | `SRV03182` | Certificates under the United Nations Act | Certification en vertu de la Loi sur les Nations Unies |
@@ -7328,15 +7484,15 @@ FR: Le numéro unique attribué à un service dans le répertoire afin de facili
 | `SRV03196` | Weapons Threat Reduction Program (WTRP) | Programme de réduction de la menace liée aux armes |
 | `SRV03197` | Vetting | Vérification |
 | `SRV03199` | Venture Capital Attraction | Attraction du capital de risque |
-| `SRV03200` | Chemical Weapons Convention Implementation Act administration | Gestion de la loi sur la mise en oeuvre de la Convention sur les armes chimiques |
-| `SRV03203` | FSD Claim and entitlement administration | Administration des réclamations et des droits des DSE |
+| `SRV03200` | Chemical Weapons Convention Implementation Act (CWCIA) administration | Gestion de la loi sur la mise en oeuvre de la Convention sur les armes chimiques |
+| `SRV03203` | FSD Claim and entitlement administration | Administration des réclamations et des droits liés aux DSE |
 | `SRV03204` | Training: Governance, Access, Technical Security and Espionage (GATE) | Formation : Gouvernance, accès, sécurité technique et espionnage (GATE) |
 | `SRV03207` | Canada Periodical Fund - Special Measures for Journalism | Fonds du Canada pour les périodiques - Mesures spéciales pour appuyer le journalisme |
 | `SRV03209` | Celebration and Commemoration - Commemorate Canada | Célébrations et commémorations - Commémoration Canada |
 | `SRV03212` | Support for Hosting - International Multisport Games for Aboriginal Peoples and Persons with a Disability | Soutien pour l&#39;acceuil - Jeux internationaux multisports pour les Autochtones et les personnes ayant un handicap |
 | `SRV03214` | Support for Hosting - International Single Sport Events | Soutien pour l&#39;acceuil - Manifestations internationales unisport |
 | `SRV03215` | Zero Emission Vehicles Infrastructure Program (ZEVIP) | Programme d’infrastructure pour les véhicules à émission zéro (PIVEZ) |
-| `SRV03216` | Support for Hosting - International Major Multisport Games | Soutient pour l&#39;acceuil- Grands Jeux internationaux multisports |
+| `SRV03216` | International Major Multisport Games | Grands Jeux internationaux multisports |
 | `SRV03219` | Support the TCS clients (external) and the TCS Network (internal) with the Canadian Technology Accelerator applications (external) and assessments (internal) | Accélérateurs technologiques canadiens - support aux clients du SDC (externe) et au réseau interne |
 | `SRV03220` | Zero Emission Vehicle Awareness Initiative (ZEVAI) | Initiative de sensibilisation aux véhicules à émission zéro (ISVEZ) |
 | `SRV03221` | Fuel Consumption Guide (FCG) | Guide de consommation de carburant |
@@ -7365,7 +7521,7 @@ FR: Le numéro unique attribué à un service dans le répertoire afin de facili
 | `SRV03248` | Electricity and Natural Gas Meter Inspection | Inspections de compteurs d&#39;électricité et de gaz naturel |
 | `SRV03250` | Research Security | Sécurité de la recherche |
 | `SRV03251` | Clean Fuels Fund (CFF) | Fonds pour les combustibles propres |
-| `SRV03253` | Remote Sensing Space Systems Act administration, including licensing and regulatory activities | Administration de la Loi sur les systèmes de télédétection spatiaux (LSTS), y compris les activités de licence et de réglementation |
+| `SRV03253` | Remote Sensing Space Systems Act (RSSSA) administration, including licensing and regulatory activities | Administration de la Loi sur les systèmes de télédétection spatiaux (LSTS), y compris les activités de licence et de réglementation |
 | `SRV03254` | Regulatory Affairs and Litigation Support | Affaires réglementaires et d&#39;appui au litige |
 | `SRV03255` | Building Communities through Arts and Heritage - Community Anniversaries | Développement des communautés par le biais des arts et du patrimoine - Commémorations communautaires |
 | `SRV03256` | Providing statistical analysis and reports (CFO-Stats) | Fournir de l&#39;analyse et des rapports statistiques (DPF-Stats) |
@@ -7377,7 +7533,7 @@ FR: Le numéro unique attribué à un service dans le répertoire afin de facili
 | `SRV03264` | Electricity and Natural Gas Approvals | Approbation de compteurs d&#39;électricité et de gaz naturel |
 | `SRV03267` | Electricity and Natural Gas Measuring Apparatus Accuracy | Précision des appareils de mesure de l&#39;électricité et de gaz naturel |
 | `SRV03268` | Coordination of international STI Canadian priorities with SBDA&#39;s | Coordination des priorités internationales en STI avec les ministères et agences fédéraux à vocation scientifique |
-| `SRV03270` | FSD Policy compliance and guidance | Conformité et orientation de la politique des DSE |
+| `SRV03270` | FSD Policy compliance and guidance | Conformité et orientation en matière de politique des DSE |
 | `SRV03272` | Corporate Governance | Gouvernance |
 | `SRV03276` | Permits under the Special Economic Measures Act and the Justice for Victims of Corrupt Foreign Officials Act | Permis en vertu de la Loi sur les mesures économiques spéciales et de la Loi sur la justice pour les victimes de dirigeants étrangers corrompus |
 | `SRV03278` | Corporate Performance and Reporting | Rendement et rapports de l&#39;entreprise |
@@ -7397,7 +7553,7 @@ FR: Le numéro unique attribué à un service dans le répertoire afin de facili
 | `SRV03307` | Canada Travelling Exhibitions Indemnification | Indemnisation pour les expositions itinérantes au Canada |
 | `SRV03308` | Cultural Property Export and Import Act - Movable Cultural Property Grants | Loi sur l’exportation et l’importation de biens culturels - Subventions de biens culturels mobiliers |
 | `SRV03309` | Cultural Property Export and Import Act - Designation of institutions and public authorities | Loi sur l’exportation et l’importation de biens culturels - Désignation d’établissements et d’administrations publiques |
-| `SRV03311` | Marine Scientific Research request management | Gestion des demandes de recherche scientifique marine |
+| `SRV03311` | Marine Scientific Research (MSR) request management | Gestion des demandes de recherche scientifique marine |
 | `SRV03316` | Management of FDI events | Gestion des évènements IDE |
 | `SRV03322` | Canadian Conservation Institute and Canadian Heritage Information Network - Scientific Services | Institut canadien de conservation et Réseau canadien d&#39;information sur le patrimoine - Services scientifiques |
 | `SRV03323` | Canadian Conservation Institute and Canadian Heritage Information Network - General Information Requests | Institut canadien de conservation et Réseau canadien d&#39;information sur le patrimoine - Demandes d&#39;informations générales |
@@ -7421,7 +7577,7 @@ FR: Le numéro unique attribué à un service dans le répertoire afin de facili
 | `SRV03360` | Federal-Provincial Consultative Committee on Education-related International Activities (FPCCERIA) | Comité consultatif fédéral-provincial sur les activités internationales liées à l&#39;éducation (CCFPAIE) |
 | `SRV03365` | Foreign military ship visit request management | Visite de navires militaires étrangers |
 | `SRV03368` | Geographic Advice | Conseil géographique |
-| `SRV03370` | Global Security Reporting Program | Programme des rapports sur la securité mondiale |
+| `SRV03370` | Global Security Reporting Program (GSRP) | Programme des rapports sur la securité mondiale (PRSM) |
 | `SRV03371` | Grants and Contributions - CanExport Community Investments | Subventions et contributions - CanExport investissements des communautés |
 | `SRV03374` | Monitoring and Compliance | Surveillance et conformité |
 | `SRV03375` | Fighting and Managing Wildfires in a Changing Climate | Combattre et gérer les feux de forêt dans un climat en changement |
@@ -7463,8 +7619,8 @@ FR: Le numéro unique attribué à un service dans le répertoire afin de facili
 | `SRV03418` | Sustainable Fisheries Science Fund Contribution Program (SFSRSP) | Programme de contributions du Fonds des sciences halieutiques durables |
 | `SRV03419` | Marine Environmental Quality Regulatory / Non Regulatory Measures Contribution Program | Qualité du milieu marin réglementaire / non réglementaire |
 | `SRV03420` | Pacific Integrated Commercial Fisheries Initiative (PICFI) | Initiative des pêches commerciales intégrées du Pacifique (IPCIP) |
-| `SRV03421` | Human-Wildlife Coexistence- Incident Response and Safety Management | Coexistence entre l&#39;humain et la faune - Réponse aux incidents et gestion de la sécurité |
-| `SRV03422` | Parks Canada National Library | Bibliothèque nationale du Parcs Canada |
+| `SRV03421` | Human-Wildlife Coexistence- Incident Response and Safety Management | Coexistence entre l&#39;homme et la faune - Réponse aux incidents et gestion de la sécurité |
+| `SRV03422` | Library Services | Services de bibliothèque |
 | `SRV03423` | Reducing The Threat Of Vessel Traffic On Marine Mammals Contribution Program | Programme de contribution pour réduire la menace du trafic maritime sur les mammifères marins |
 | `SRV03424` | Media and Promotion of Canada&#39;s Natural and Cultural Heritage | Médias et promotion du patrimoine naturel et culturel du Canada |
 | `SRV03425` | Environmental Protection Services | Services de protection de l’environnement |
@@ -7480,7 +7636,7 @@ FR: Le numéro unique attribué à un service dans le répertoire afin de facili
 | `SRV03435` | Wildfire Prevention and Risk Mitigation | Prévention des incendies de forêt et atténuation des risques |
 | `SRV03436` | National Infrastructure Component (NIC) | Volet Infrastructures nationales (VIN) |
 | `SRV03437` | Clean Water and Wastewater Fund (CWWF) | Le Fonds pour l&#39;eau potable et le traitement des eaux usées (FEPTEU) |
-| `SRV03438` | Disaster Mitigation and Adaptation Fund (DMAF) | Fonds d&#39;atténuation et d&#39;adaptation en matière de catastrophes (FAAC) |
+| `SRV03438` | Disaster Mitigation and Adaptation Fund | Fonds d&#39;atténuation et d&#39;adaptation en matière de catastrophes |
 | `SRV03440` | Investing in Canada Infrastructure Program (ICIP) | Programme d&#39;infrastructure Investir dans le Canada (PIIC) |
 | `SRV03441` | Active Transportation Fund (ATF) | Le Fonds pour le transport actif (FTA) |
 | `SRV03442` | National and Regional Projects (NRP) | Projets nationaux et régionaux (PNR) |
@@ -7490,10 +7646,10 @@ FR: Le numéro unique attribué à un service dans le répertoire afin de facili
 | `SRV03446` | Zero Emissions Transit Fund (ZETF) | Fonds pour le transport en commun à zéro émission (FTCZE) |
 | `SRV03447` | Copyright Services | Services des droits d&#39;auteur |
 | `SRV03448` | Frontline Avalanche Safety and Control Service | Service de sécurité et de contrôle des avalanches en première ligne |
-| `SRV03449` | Public Avalanche Bulletin and Information | Surveillance et Rapport sur les Avalanches en Arrière-Pays |
+| `SRV03449` | Backcountry Avalanche Monitoring and Reporting | Surveillance et Rapport sur les Avalanches en Arrière-Pays |
 | `SRV03450` | Canadian Heritage accessibility feedback process | Processus de rétroaction sur l&#39;accessibilité de Patrimoine canadien |
 | `SRV03451` | Access to Information and Privacy (ATIP) | Demande d&#39;accès à l&#39;information et de protection des renseignements personnels (AIPRP) |
-| `SRV03452` | Reaching Home (RH) | Vers un chez-soi (VCS) |
+| `SRV03452` | Reaching Home (RH) | Directives de Vers un chez-soi (DVC) |
 | `SRV03453` | Public Service Employee Survey (PSES) | Sondage auprès des fonctionnaires fédéraux (SAFF) |
 | `SRV03454` | Cyber Maturity Self-Assessment (CMSA) | Autoévaluation de la cybermaturité (AECM) |
 | `SRV03455` | GC Digital Talent | Talents numériques du GC |
@@ -7501,7 +7657,7 @@ FR: Le numéro unique attribué à un service dans le répertoire afin de facili
 | `SRV03457` | Grants and Contribution Programs | Programmes de subventions et de contributions |
 | `SRV03458` | Web Inquiries | Demandes de renseignements sur le Web |
 | `SRV03459` | Policy, Advocacy, and Coordination | Politique, représentation et coordination |
-| `SRV03461` | Ministerial exemption | Exemption ministérielle |
+| `SRV03461` | Ministerial exemption under subsection 5.9(2) of the Aeronautics Act | Exemption ministérielle en vertu du paragraphe 5.9(2) de la Loi sur l&#39;aéronautique |
 | `SRV03462` | Statement of aerobatic competency | Énoncé de compétence en voltige aérienne |
 | `SRV03463` | Aviation Exams | Examens aéronautiques |
 | `SRV03464` | Ministerial authorization under Part VII, other than under section 701.10 | Autorisation ministérielle en vertu de la partie VII, autre qu&#39;en vertu de l&#39;article 701.10 |
@@ -7511,7 +7667,7 @@ FR: Le numéro unique attribué à un service dans le répertoire afin de facili
 | `SRV03468` | Aircraft Landing and Flying Training | Formation à l&#39;atterrissage et au vol d&#39;avions |
 | `SRV03469` | Emergency Response Services | Services d&#39;intervention d&#39;urgence |
 | `SRV03470` | Annual Mobile Equipment Registration | L&#39;enregistrement annuelle d&#39;équipement mobile |
-| `SRV03471` | Coasting Trade Inspections | Inspections des métiers du cabotage |
+| `SRV03471` | Coasting Trade inspections : Letters of Compliance Issued | Inspections des métiers du cabotage : Lettres de conformité émises |
 | `SRV03472` | Air cargo screening equipment certification | Certification des équipements de contrôle du fret aérien |
 | `SRV03473` | Inspection on a domestic vessel | Inspection à bord d’un bâtiment canadien |
 | `SRV03475` | Ministerial and Deputy Correspondence | Correspondance ministérielle et du sous-ministre |
@@ -7524,16 +7680,16 @@ FR: Le numéro unique attribué à un service dans le répertoire afin de facili
 | `SRV03482` | Certification for a seafarer | Certification des gens de mer |
 | `SRV03483` | Search for Sea Service | Recherche de service en mer |
 | `SRV03484` | Identity document for a seafarer | Document d&#39;identité pour un marin |
-| `SRV03485` | Registering a Vessel | Immatriculation d&#39;un bâtiment |
+| `SRV03485` | Register a vessel | Immatriculer un bâtiment |
 | `SRV03486` | Transfer of Vessel Ownership | Transfert de propriété d&#39;un navire |
-| `SRV03487` | Register a marine vessel mortgage | Enregistrement d&#39;un hypothèque de bâtiment |
-| `SRV03488` | Researching a registered vessel | Recherche documentaire d&#39;un bâtiment immatriculé |
+| `SRV03487` | Register a mortgage for a vessel | Enregistrer une hypothèque sur un bâtiment |
+| `SRV03488` | Vessel History | Historique du bâtiment |
 | `SRV03489` | Replacement of a Canadian aviation document | Remplacement d&#39;un document d&#39;aviation canadien |
 | `SRV03490` | Access Public Ports Facilities | Accès aux Installations des Ports Publics |
 | `SRV03491` | Issuance, in response to a request by industry, of an evaluation or authorization of industry training products. | Délivrance, à la suite d’une demande de l’industrie, d’une évaluation ou d’une autorisation concernant des produits de formation de l’industrie. |
 | `SRV03492` | Marine Insurance Certificate for a Vessel | Certificat d&#39;assurance maritime pour un bâtiment |
 | `SRV03493` | Vessel Operations Restriction Regulation (VORR) Permit | Règlement sur les restrictions visant l’utilisation des bâtiments (RRVUB) permis |
-| `SRV03494` | Marine Cargo Inspections | Inspection des cargaisons maritimes |
+| `SRV03494` | Cargo Inspection | Inspection des cargaisons |
 | `SRV03495` | Dangerous Goods inspection | Inspection des marchandises dangereuses |
 | `SRV03496` | Canadian Flagged Vessels (SOLAS &amp; Domestic Ferries) Security Certification | Certification de sûreté pour les bâtiments battant Pavillon canadien (SOLAS et traversiers intérieurs) |
 | `SRV03497` | Verification of outstanding deficiencies for foreign vessels | Vérification des déficiences en suspens pour les navires étrangers |
@@ -7550,11 +7706,11 @@ FR: Le numéro unique attribué à un service dans le répertoire afin de facili
 | `SRV03508` | Exemption by Order under subsection 24(1) of the Canadian Navigable Waters Act | Exemption par décret en vertu du paragraphe 24(1) de la Loi sur les eaux navigables canadiennes |
 | `SRV03509` | Pleasure Craft Licence | Délivrance des permis d&#39;embarcations de plaisance |
 | `SRV03510` | Railway Operating Certificate | Certificat d&#39;exploitation ferroviaire |
-| `SRV03511` | Transportation Security Clearance | Habilitation de sécurité en matière de transport |
+| `SRV03511` | Transportation Security Clearance | Autorisation de sécurité des transports |
 | `SRV03512` | Licensing for aircraft maintenance engineers | Licences pour les ingénieurs en maintenance d&#39;aéronefs |
 | `SRV03513` | Canadian Airline Designations and Airline Capacity Allocation | Désignations des compagnies aériennes canadiennes |
 | `SRV03514` | Education and Awareness | Éducation et sensibilisation |
-| `SRV03515` | Equivalency Certificates | Certificats d’équivalence |
+| `SRV03515` | Equivalency and Temporary Certificates | Certificats d’équivalence et certificats temporaires |
 | `SRV03516` | General Inquiries related to the TDG Program, including means of containment, regulations and legislation | Demandes de renseignements généraux concernant le programme du TMD, y compris les contenants, les règlements et les lois. |
 | `SRV03517` | Reservation of an aircraft registration mark | Réservation d&#39;une marque d&#39;immatriculation d&#39;aéronef |
 | `SRV03518` | Approval of Emergency Response Assistance Plans (ERAP) | Approbation des plans d’intervention d’urgence (PIU) |
@@ -7562,7 +7718,7 @@ FR: Le numéro unique attribué à un service dans le répertoire afin de facili
 | `SRV03520` | Canadian Transport Emergency Centre (CANUTEC) - Publication of the Emergency Response Guidebook (ERG) | Centre canadien d&#39;urgence transport (CANUTEC) - Publication du Guide des interventions d&#39;urgence (ERG) |
 | `SRV03521` | CANUTEC Registration system | Service à l&#39;inscription de CANUTEC |
 | `SRV03522` | Approval for a marine training program or course provided by a marine training institution | Approbation d&#39;un programme ou d&#39;un cours de formation maritime dispensé par un établissement d&#39;enseignement maritime reconnu |
-| `SRV03523` | Maritime Labour Convention Certificates | Certificat de travail maritime |
+| `SRV03523` | Maritime Labour Convention Certificates | Certificat de travail maritime. |
 | `SRV03524` | Seafarer Recruitment and Placement Service (SRPS) provider licensing | Licence de service de recrutement et de placement des gens de mer (SRPGM) |
 | `SRV03525` | TC Situation Centre (SitCen) | Centre d’intervention de Transports Canada (SitCen) |
 | `SRV03526` | Marine Medical Certificate | Certificat médical de la marine |
@@ -7574,7 +7730,7 @@ FR: Le numéro unique attribué à un service dans le répertoire afin de facili
 | `SRV03532` | Approval of Air Cargo Security Program Participants | Approbation des participants au Programme de sûreté du fret aérien |
 | `SRV03533` | Small Vessel Compliance Program (SVCP) | Programme de conformité des petits bâtiments (PCPB) |
 | `SRV03534` | Medical certificates for aviation personnel | Certificats médicaux pour le personnel en aviation |
-| `SRV03535` | Pre-Arrival Information Report Screening | Contrôle des rapports d&#39;information préalables à l&#39;arrivée |
+| `SRV03535` | Marine Security Operations Centres : Pre-Arrival Information Report Screening | Centres des opérations de la sûreté maritime : Contrôle des rapports d&#39;information préalables à l&#39;arrivée |
 | `SRV03536` | Ports &amp; Marine Facilities Security Certification | Certification de sûreté des ports et des installations maritimes |
 | `SRV03537` | Grants and Contributions | Subventions et contributions |
 | `SRV03538` | Access defect and recall information | Accéder aux informations sur les défauts et les rappels |
@@ -7596,8 +7752,8 @@ FR: Le numéro unique attribué à un service dans le répertoire afin de facili
 | `SRV03554` | Approval of an aircraft maintenance schedule | Approbation des calendriers de maintenance d&#39;aéronefs |
 | `SRV03555` | Restricted certification authority for an individual | Autorité de certification restreinte pour un particulier |
 | `SRV03556` | Inspection of an amateur-built aircraft | Inspection d&#39;un avion de construction amateur |
-| `SRV03557` | Prewash Endorsement | Approbation d&#39;une opération de prélavage |
-| `SRV03558` | Verification of shippers&#39; procedures for cargoes that may liquefy | Approbation des procédures des expéditeurs pour les cargaisons susceptible pouvant se liquéfier |
+| `SRV03557` | Prewash Endorsement | Approbation du prélavage |
+| `SRV03558` | Verification of Shipper&#39;s procedures | Vérification des procédures de l&#39;Expéditeur |
 | `SRV03559` | Rescinding detention of a foreign vessel | Annuler une ordonnance de détention pour un bâtiment étranger |
 | `SRV03560` | Report a safety defect | Signaler un défaut de sécurité |
 | `SRV03561` | Request a Motor Vehicle Transport Act Exemption | Demander une exemption prévue par la Loi sur les transports routiers |
@@ -7952,9 +8108,9 @@ FR: Indique la page Web (en anglais) sur laquelle les résultats de rendement en
 
 ### Generation Metadata
 
-- Generated: 2026-09-27T03:49:11 (UTC)
+- Generated: 2026-10-04T04:26:54 (UTC)
 - Source: dictionaries/service.json
-- Commit: `192aa76`
+- Commit: `22ad121`
 - Tool Version: simple-1
 
 ### Validation
