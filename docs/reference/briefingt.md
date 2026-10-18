@@ -2,9 +2,9 @@
 # Proactive Publication - Briefing Note Titles and Numbers / Publication proactive - Titres et numéros des notes d’information
 
 **Dataset Type:** `briefingt`  
-**Last Generated:** 2026-10-11T04:10:09 (UTC)  
+**Last Generated:** 2026-10-18T03:08:51 (UTC)  
 **Source:** dictionaries/briefingt.json  
-**Commit:** `31f178d`
+**Commit:** `7c3d1a2`
 
 Access, upload and modify the Briefing Note Titles and Numbers reports for your organization / Accès, téléversement et modifications des rapports sur les titres at numéros des notes d’information pour votre organisation
 
@@ -27,7 +27,7 @@ Access, upload and modify the Briefing Note Titles and Numbers reports for your 
 
 | Field ID | Label (EN / FR) | Type | Required | Max Chars | Choices | Description (EN) |
 |----------|-----------------|------|----------|-----------|---------|------------------|
-| `tracking_number` | Briefing Note Number / Numéro de suivi | `text` | Yes |  |  | This field will display the internal tracking number of the Briefing Note. |
+| `tracking_number` | Reference Number / Numéro de référence | `text` | Yes |  |  | This field will display the internal tracking number of the Briefing Note. |
 | `title_en` | Title (English) / Titre (en anglais) | `text` | Yes |  |  | This field is populated by the user with the official title of the Briefing Not… |
 | `title_fr` | Title (French) / Titre (en français) | `text` | Yes |  |  | This field is populated by the user with the official title of the Briefing Not… |
 | `originating_sector_en` | Originating Sector (English) / Secteur d’origine (en anglais) | `text` | Yes |  |  | The Sector, Branch, or Division where the Briefing Note originated in English. … |
@@ -44,7 +44,7 @@ Access, upload and modify the Briefing Note Titles and Numbers reports for your 
 ### Detailed Fields
 
 
-#### `tracking_number` – Briefing Note Number / Numéro de suivi
+#### `tracking_number` – Reference Number / Numéro de référence
 
 **Type:** `text`  
 **Required:** Yes  
@@ -264,9 +264,9 @@ FR: Cet onglet/champ du modèle n’est rempli que s'il n'y a pas de notes de br
 
 ### Generation Metadata
 
-- Generated: 2026-10-11T04:10:09 (UTC)
+- Generated: 2026-10-18T03:08:51 (UTC)
 - Source: dictionaries/briefingt.json
-- Commit: `31f178d`
+- Commit: `7c3d1a2`
 - Tool Version: simple-1
 
 ### Validation
