@@ -2,9 +2,9 @@
 # Proactive Publication - Travel Expenses / Publication proactive - Dépenses de voyage
 
 **Dataset Type:** `travelq`  
-**Last Generated:** 2026-10-25T03:20:10 (UTC)  
+**Last Generated:** 2026-11-01T04:31:49 (UTC)  
 **Source:** dictionaries/travelq.json  
-**Commit:** `7c90240`
+**Commit:** `1b802c4`
 
 Access, upload and modify the monthly travel expense reports for your organization / Accès, téléversement et modification des rapports mensuels sur les frais de déplacement pour votre organisation
 
@@ -497,9 +497,9 @@ FR: Cet onglet/champ du modèle n’est rempli que s'il n'y a pas de frais de vo
 
 ### Generation Metadata
 
-- Generated: 2026-10-25T03:20:10 (UTC)
+- Generated: 2026-11-01T04:31:49 (UTC)
 - Source: dictionaries/travelq.json
-- Commit: `7c90240`
+- Commit: `1b802c4`
 - Tool Version: simple-1
 
 ### Validation
