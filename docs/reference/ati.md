@@ -2,9 +2,9 @@
 # ATI Summaries / Accès à l’information sommaires complétés
 
 **Dataset Type:** `ati`  
-**Last Generated:** 2026-11-01T04:31:48 (UTC)  
+**Last Generated:** 2026-11-15T04:56:05 (UTC)  
 **Source:** dictionaries/ati.json  
-**Commit:** `1b802c4`
+**Commit:** `d76dbc5`
 
 Access, upload and modify the monthly ATI Summaries and ATI Nothing to Report for your organization / Accès, téléversement et modification des sommaires mensuels des demandes d’accès à l’information et des demandes d’accès pour lesquelles rien n’est à signaler pour votre organisation
 
@@ -234,9 +234,9 @@ FR: Une représentation numérique du mois pour lequel vous ne signalez aucun r�
 
 ### Generation Metadata
 
-- Generated: 2026-11-01T04:31:48 (UTC)
+- Generated: 2026-11-15T04:56:05 (UTC)
 - Source: dictionaries/ati.json
-- Commit: `1b802c4`
+- Commit: `d76dbc5`
 - Tool Version: simple-1
 
 ### Validation

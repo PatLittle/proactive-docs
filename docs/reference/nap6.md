@@ -2,9 +2,9 @@
 # 6th National Action Plan on Open Government Tracker / Outil de suivi pour le 6ᵉ Plan d'action national pour un gouvernement ouvert
 
 **Dataset Type:** `nap6`  
-**Last Generated:** 2026-11-01T04:31:56 (UTC)  
+**Last Generated:** 2026-11-15T04:56:10 (UTC)  
 **Source:** dictionaries/nap6.json  
-**Commit:** `1b802c4`
+**Commit:** `d76dbc5`
 
 Access, upload and modify the National Action Plan on Open Government Tracker for your organization / Accès, téléversement et Modifier le outil de suivi pour le Plan d'action national pour un gouvernement ouvert pour votre organisation
 
@@ -124,32 +124,16 @@ FR: Cette liste contient des jalons correspondant à l'engagement choisi
 | `C01.6` | Proactively address Indigenous organizations&#39; data needs, when feasible, to improve efficiency and increase transparency | Dans la mesure du possible, combler de façon proactive les besoins en données des organisations autochtones afin d&#39;accroître l&#39;efficacité et la transparence. |
 | `C01.7` | Establish an internal working group at VAC to identify and act on opportunities to promote open government at VAC | Former un groupe de travail interne au sein d&#39;ACC chargé de cerner et de mettre en oeuvre les occasions de promouvoir le gouvernement ouvert dans ACC. |
 | `C02.1` | Establish an organization-wide approach to conducting public participation activities with Canadian communities. Engage with communities on a wide variety of topics and encourage feedback at multiple levels to demonstrate the RCMP&#39;s commitment to the principles in the Government of Canada (GC) Digital Standards: Playbook | Mettre en place une approche pangouvernementale pour la réalisation d&#39;activités de participation publique auprès des communautés canadiennes. Mobiliser les communautés sur un grand nombre de sujets et encourager la rétroaction à plusieurs niveaux pour démontrer l&#39;engagement de la GRC envers les principes figurant dans les Normes relatives au numérique du gouvernement du Canada : Directives. |
-| `C02.2` | Improve the effectiveness of the Digital Citizen Initiative | Accroître l&#39;efficacité de l&#39;Initiative de citoyenneté numérique. |
+| `C02.2` | Bolster Canadians&#39; resilience to online disinformation by developing options to strengthen the Digital Citizen Initiative, including through strategic assessment, stakeholder engagement, and knowledge mobilization | Renforcer la résilience des Canadiennes et des Canadiens face à la désinformation en ligne en élaborant des options pour renforcer l’Initiative de citoyenneté numérique, notamment par moyen d’évaluation stratégique; ainsi que la mobilisation des parties prenantes et la partage des connaissances. |
 | `C02.3` | Increase Canadians&#39; access to government information | Accroître l&#39;accès des Canadiens à l&#39;information gouvernementale. |
 | `C03.1` | Disclose crime occurrence data and calls for service received through the Police Reporting and Occurrence System (PROS) | Communiquer les données sur les crimes commis et les appels de service reçus par l&#39;intermédiaire du Système d&#39;incidents et de rapports de police. |
 | `C03.2` | Consolidate key data from the Creative Export Strategy into one user-friendly interface that is interactive and accessible | Regrouper les données clés de la Stratégie d&#39;exportation créative en une seule interface conviviale, interactive et accessible. |
-| `C03.3` | Publish a Government of Canada Artificial Intelligence (AI) Register that would include information about what and how data is being used, how the AI model was trained, and what quality assurance, accountability, success metrics, bias identification and mitigation, and privacy and security measures are in place | Publier un registre de l&#39;intelligence artificielle (IA) du gouvernement du Canada qui contiendrait des renseignements sur les données qui sont utilisées et la façon dont celles-ci sont utilisées, sur la façon dont le modèle d&#39;IA a été entraîné, ainsi que sur l&#39;assurance de la qualité, la responsabilisation, les indicateurs de réussite, la détermination et l&#39;atténuation des préjugés, et les mesures de sécurité et de protection de la vie privée en place. |
+| `C03.3` | Publish a Government of Canada Artificial Intelligence (AI) Register | Publier un registre de l&#39;intelligence artificielle (IA) du gouvernement du Canada. |
 | `C03.4` | Advance trust and transparency for the Government of Canada&#39;s human resources (HR) and pay transformation | Accroître la confiance et la transparence par rapport à la transformation des ressources humaines (RH) et de la paye du gouvernement du Canada. |
 | `C04.1` | Align the &#34;open-by- default&#34; and &#34;secure-by- design&#34; approaches to advance Indigenous and information sovereignty and limit legislative barriers through proactive disclosure to facilitate greater information sharing with Indigenous communities | Harmoniser les approches d&#39;« ouverture par défaut » et de « sécurité dès la conception » afin de faire progresser la souveraineté autochtone et en matière d&#39;information, et de limiter les obstacles législatifs au moyen de la communication proactive afin de faciliter un meilleur échange d&#39;information avec les communautés autochtones. |
 | `C04.2` | Develop a targeted learning series on open data for use by federal public servants | Préparer un programme d&#39;apprentissage ciblé sur les données ouvertes à l&#39;intention des fonctionnaires fédéraux. |
-| `C04.3` | Monitor Canadians&#39; experiences with serious legal problems and enhance the Department of Justice Canada&#39;s understanding of effective responses using findings from the National Justice Survey and Serious Legal Problems in Canada
-
-Publish findings from the National Justice Survey and from Statistics Canada&#39;s Canadian Legal Problems Survey (CLPS), in user-friendly formats (for example, infographics or a simple dashboard).
-
-Use the National Justice Survey data to inform decision-making both by the Department of Justice Canada and by key external stakeholders.
- | Faire le suivi de l&#39;expérience des Canadiens aux prises avec des problèmes juridiques graves et approfondir la compréhension qu&#39;a le ministère de la Justice Canada des réponses efficaces, en s&#39;appuyant sur les résultats du Sondage national sur la justice et de l&#39;Enquête canadienne sur les problèmes juridiques.
-
-Publier les résultats du Sondage national sur la justice et de l&#39;Enquête canadienne sur les problèmes juridiques de Statistique Canada dans des formats conviviaux (par exemple, infographies ou tableau de bord simple).
-
-Utiliser les données du Sondage national sur la justice pour éclairer le processus décisionnel du ministère de la Justice Canada et des principaux intervenants externes.
- |
-| `C04.4` | Update Justice Canada&#39;s State of the Criminal Justice System Dashboard and pursue the automation of updates to support easier dissemination of data to the public.
-
-Explore, in collaboration with key partners, the possibility of expanding the indicators in the Department of Justice Canada&#39;s State of the Criminal Justice System dashboard to include available disaggregated data related to court delays and other key justice system issues.
- | Mettre à jour le Tableau de bord sur l&#39;état du système de justice pénale du ministère de la Justice Canada et automatiser les mises à jour pour faciliter la diffusion des données au public.
-
-Explorer, en collaboration avec les partenaires clés, la possibilité d&#39;élargir les indicateurs du Tableau de bord sur l&#39;état du système de justice pénale du ministère de la Justice Canada pour y inclure les données désagrégées disponibles concernant les retards judiciaires et d&#39;autres enjeux importants du système de justice.
- |
+| `C04.3` | Making Justice Data Accessible: National Justice Survey (NJS) data on serious legal problems | Accessibilité des données sur la justice : données du Sondage national sur la justice (SNJ) sur les problèmes juridiques graves |
+| `C04.4` | State of the Criminal Justice System: Automation and expansion | État du système de justice pénale : automatisation et amélioration du Tableau de bord |
 | `C04.5` | Support the design and delivery of accessible administrative services. | Appuyer la conception et la prestation de services administratifs accessibles. |
 
 
@@ -362,9 +346,9 @@ FR: Décrivez les défis rencontrés en français
 
 ### Generation Metadata
 
-- Generated: 2026-11-01T04:31:56 (UTC)
+- Generated: 2026-11-15T04:56:10 (UTC)
 - Source: dictionaries/nap6.json
-- Commit: `1b802c4`
+- Commit: `d76dbc5`
 - Tool Version: simple-1
 
 ### Validation
